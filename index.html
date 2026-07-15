@@ -45,13 +45,13 @@
     .duration-select{border:1px solid #484452;border-radius:8px;background:#292734;color:var(--text);padding:7px;font:600 11px 'DM Sans'}
 
     /* Swipe Screen (Role Pass Screen) */
-    .swipe-screen.active{background:#090518!important;margin:-16px;padding:0!important;min-height:100dvh;max-height:100dvh;overflow:hidden!important;align-items:center;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;position:relative}
-    .reveal-screen.active{background:#05031b;margin:-16px;padding:18px 22px calc(25px + env(safe-area-inset-bottom));min-height:100dvh;max-height:100dvh;overflow-y:auto;align-items:center;text-align:center;display:flex;flex-direction:column;justify-content:flex-start}
+    .swipe-screen.active{background:#090518!important;margin:calc(-1 * var(--top-safe)) -16px calc(-1 * var(--bottom-safe))!important;padding:0!important;min-height:100dvh;max-height:100dvh;overflow:hidden!important;align-items:center;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;position:relative}
+    .reveal-screen.active{background:#05031b;margin:calc(-1 * var(--top-safe)) -16px calc(-1 * var(--bottom-safe))!important;padding:var(--top-safe) 22px var(--bottom-safe);min-height:100dvh;max-height:100dvh;overflow-y:auto;align-items:center;text-align:center;display:flex;flex-direction:column;justify-content:flex-start}
     
-    .game-exit{position:absolute!important;z-index:30!important;top:max(20px, env(safe-area-inset-top, 20px))!important;left:20px!important;width:44px;height:44px;border:1px solid rgba(255,255,255,0.22);border-radius:50%;background:rgba(18,10,38,0.7)!important;backdrop-filter:blur(8px);color:#fff;font:500 28px 'DM Sans';display:grid;place-content:center;box-shadow:0 4px 14px rgba(0,0,0,.45);cursor:pointer}
+    .game-exit{position:absolute!important;z-index:30!important;top:var(--top-safe)!important;left:20px!important;width:44px;height:44px;border:1px solid rgba(255,255,255,0.22);border-radius:50%;background:rgba(18,10,38,0.7)!important;backdrop-filter:blur(8px);color:#fff;font:500 28px 'DM Sans';display:grid;place-content:center;box-shadow:0 4px 14px rgba(0,0,0,.45);cursor:pointer}
     .game-help{display:none!important}
     
-    .swipe-heading{position:absolute!important;z-index:25!important;top:max(20px, env(safe-area-inset-top, 20px))!important;left:50%!important;transform:translateX(-50%)!important;margin:0!important;padding:6px 24px!important;background:rgba(18,10,38,0.75)!important;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.22);border-radius:30px;box-shadow:0 6px 20px rgba(0,0,0,.55);display:flex!important;flex-direction:column;align-items:center;gap:1px;pointer-events:none}
+    .swipe-heading{position:absolute!important;z-index:25!important;top:var(--top-safe)!important;left:50%!important;transform:translateX(-50%)!important;margin:0!important;padding:6px 24px!important;background:rgba(18,10,38,0.75)!important;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.22);border-radius:30px;box-shadow:0 6px 20px rgba(0,0,0,.55);display:flex!important;flex-direction:column;align-items:center;gap:1px;pointer-events:none}
     .swipe-heading span{font-size:11px!important;font-weight:700!important;color:#d3b3ff!important;text-transform:uppercase;letter-spacing:1.5px}
     .swipe-heading strong{font:700 22px 'Space Grotesk',sans-serif!important;color:#fff!important;line-height:1.15;margin-top:0!important}
     
