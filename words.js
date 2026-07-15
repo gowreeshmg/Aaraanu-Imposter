@@ -1,3 +1,4 @@
+if (typeof window === 'undefined') { global.window = {}; }
 window.extraWords = {
   funny: [
     ['Adipoli', 'അടിപൊളി', 'Positive Vibe', 'നല്ല ഒരു അന്തരീക്ഷം'],
@@ -494,4 +495,5 @@ Object.entries(window.extraWords || {}).forEach(([id, words]) => {
   }
 });
 
-window.packs = packs;
+if (typeof window !== 'undefined') window.packs = packs;
+if (typeof module !== 'undefined' && module.exports) module.exports = { packs };

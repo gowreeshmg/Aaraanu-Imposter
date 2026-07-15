@@ -2,6 +2,8 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
+const rootDir = path.join(__dirname, '..');
+
 const mime = {
   '.html': 'text/html',
   '.css': 'text/css',
@@ -15,7 +17,7 @@ const mime = {
 
 const createAndListen = (port) => {
   const srv = http.createServer((req, res) => {
-    let filePath = path.join(__dirname, req.url.split('?')[0] === '/' ? 'index.html' : req.url.split('?')[0]);
+    let filePath = path.join(rootDir, req.url.split('?')[0] === '/' ? 'index.html' : req.url.split('?')[0]);
     const ext = path.extname(filePath).toLowerCase();
     const contentType = mime[ext] || 'application/octet-stream';
 
