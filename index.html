@@ -27,11 +27,11 @@
     #setup #beginRound:hover{transform:translateX(-50%) translateY(-2px)!important}
     #setup #beginRound:active{transform:translateX(-50%) translateY(1px)!important}
     
-    .loader{position:fixed;z-index:20;inset:0;display:grid;place-content:center;justify-items:center;gap:11px;background:#0d0c13;color:#f7f4f0;transition:opacity .35s ease,visibility .35s ease}
+    .loader{position:fixed;z-index:999999;inset:0;display:grid;place-content:center;justify-items:center;gap:11px;background:#0d0c13;color:#f7f4f0;transition:opacity .45s ease,visibility .45s ease}
     .loader img{width:104px;height:104px;object-fit:contain;background:#b01f30;border-radius:22px;box-shadow:0 9px 28px #000a}
     .loader strong{font:700 19px 'Space Grotesk'}
     .loader span{color:#aaa7b5;font-size:12px}
-    .loader.done{opacity:0;visibility:hidden}
+    .loader.done{opacity:0;visibility:hidden;pointer-events:none}
     #themeToggle{display:none!important}
     .home-top{justify-content:flex-end}
     .game-options{display:grid;gap:14px}
@@ -55,17 +55,15 @@
     .swipe-heading span{font-size:11px!important;font-weight:700!important;color:#d3b3ff!important;text-transform:uppercase;letter-spacing:1.5px}
     .swipe-heading strong{font:700 22px 'Space Grotesk',sans-serif!important;color:#fff!important;line-height:1.15;margin-top:0!important}
     
-    .swipe-card{position:relative;width:100%!important;max-width:100%!important;height:75vh!important;min-height:75vh!important;max-height:75vh!important;margin:0!important;padding:0!important;border-radius:0 0 38px 38px!important;overflow:hidden!important;cursor:grab;box-shadow:0 16px 42px rgba(0,0,0,.75)!important;background:#150a2b!important;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;touch-action:none;flex-shrink:0}
-    .swipe-card img{position:absolute;inset:0;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:center top!important;border-radius:0 0 38px 38px!important;z-index:1}
+    .swipe-card{position:relative;width:100%!important;max-width:100%!important;height:75vh!important;min-height:75vh!important;max-height:75vh!important;margin:0!important;padding:0!important;border-radius:0 0 38px 38px!important;overflow:hidden!important;cursor:grab;box-shadow:0 16px 42px rgba(0,0,0,.75)!important;background:#150a2b!important;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;touch-action:none;flex-shrink:0;will-change:transform}
+    .swipe-card img{position:absolute;inset:0;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:center top!important;border-radius:0 0 38px 38px!important;z-index:1;pointer-events:none}
     .swipe-card:after{display:none!important}
     
-    .swipe-card-overlay{position:absolute!important;z-index:15!important;bottom:22px!important;left:50%!important;transform:translateX(-50%)!important;color:#fff!important;display:flex!important;flex-direction:column;align-items:center;gap:6px!important;pointer-events:none}
-    .swipe-card-overlay b{display:grid;place-items:center;width:60px;height:60px;border-radius:50%;background:#ffa629;color:#120e06;font-size:30px;box-shadow:0 0 28px rgba(255,166,41,.7),0 6px 20px rgba(0,0,0,.6);animation:swipeUpAnim 1.2s ease-in-out infinite}
-    .swipe-card-overlay span{display:block!important;font:700 13px 'Space Grotesk',sans-serif;color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.8);letter-spacing:0.5px}
+    .swipe-card-overlay{position:absolute!important;z-index:15!important;bottom:28px!important;left:50%!important;transform:translateX(-50%)!important;color:#fff!important;display:flex!important;flex-direction:column;align-items:center;pointer-events:none}
+    .swipe-card-overlay span{display:block!important;font:700 15px 'Space Grotesk',sans-serif;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.9);letter-spacing:0.5px;background:rgba(18,10,38,0.75);padding:11px 26px;border:1px solid rgba(255,255,255,0.25);border-radius:28px;box-shadow:0 6px 20px rgba(0,0,0,.65)}
     
     .swipe-bottom-area{flex:1;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px 20px calc(15px + env(safe-area-inset-bottom))!important}
-    .swipe-instruction{max-width:90%;margin:0 auto 10px!important;color:#e9dfff;font-size:15px;font-weight:700;line-height:1.38;flex-shrink:0}
-    .swipe-alt{border:1px solid rgba(255,255,255,0.22);border-radius:12px;background:rgba(255,255,255,0.1);color:#fff;font:600 13px 'DM Sans';padding:11px 24px;cursor:pointer;margin:0!important;flex-shrink:0}
+    .swipe-instruction{max-width:90%;margin:0 auto!important;color:#e9dfff;font-size:15px;font-weight:700;line-height:1.42;flex-shrink:0}
     
     .reveal-visual{width:100%;height:min(160px,18vh);margin:-18px 0 6px;border-radius:0 0 35px 35px;overflow:hidden;flex-shrink:0}
     .reveal-visual img{width:100%;height:100%;object-fit:cover;object-position:center top}
@@ -77,7 +75,7 @@
     @media(max-height:720px){.home-character{height:240px;margin-top:20px}.reveal-visual{height:130px}}
   </style>
 </head>
-<body><div id="loader" class="loader"><img src="assets/app-icon-square.jpg" onerror="this.onerror=null; this.src='assets/app-icon.jpg'; this.addEventListener('error', function(){ this.style.display='none'; });" alt="Aaraanu Imposter app icon" /><strong>Aaraanu Imposter?</strong><span>Loading game...</span></div><script>function hideAppLoader(){var l=document.getElementById('loader');if(l&&!l.classList.contains('done')){l.classList.add('done');setTimeout(function(){if(l&&l.parentNode)l.style.display='none'},400);}} window.addEventListener('load',hideAppLoader); window.addEventListener('DOMContentLoaded',hideAppLoader); setTimeout(hideAppLoader,600);</script><main class="app-shell">
+<body><div id="loader" class="loader"><img src="assets/app-icon-square.jpg" onerror="this.onerror=null; this.src='assets/app-icon.jpg'; this.addEventListener('error', function(){ this.style.display='none'; });" alt="Aaraanu Imposter app icon" /><strong>Aaraanu Imposter?</strong><span>Loading game...</span></div><script>(function(){var startTime = Date.now(); window.__loaderStartTime = startTime; var hidden = false; function hideAppLoader(){ if(hidden) return; var l = document.getElementById('loader'); if(!l) return; var elapsed = Date.now() - startTime; var rem = Math.max(0, 5000 - elapsed); setTimeout(function(){ if(hidden) return; hidden = true; l.classList.add('done'); setTimeout(function(){ if(l && l.parentNode) l.style.display='none'; }, 450); }, rem); } if(document.readyState === 'complete'){ hideAppLoader(); } else { window.addEventListener('load', hideAppLoader); window.addEventListener('DOMContentLoaded', function(){ setTimeout(hideAppLoader, 5000); }); } })();</script><main class="app-shell">
   <section id="home" class="screen active home-screen">
     <div class="home-top"><button id="themeToggle" class="icon-button" aria-label="Switch colour theme">☀</button><span class="free-pill"><b>Kerala Edition</b><small>Play with your friends</small></span></div>
     <div class="burst" aria-hidden="true"></div><img class="home-character" src="assets/home-character.png" alt="Malayalam movie character" />
@@ -96,7 +94,7 @@
 
   <section id="categories" class="screen"><button class="back" data-go="setup">← Back</button><div class="header-center"><span class="eyebrow">CUSTOMISE</span><h2>Categories</h2><p id="categoryCount">0 of 14 selected</p></div><div class="category-tools"><button id="selectAll">Select all</button><i></i><button id="clearAll">Clear all</button></div><div id="categoryGrid" class="category-grid"></div><button class="primary bottom-action" data-go="setup">Done <span>✓</span></button></section>
 
-  <section id="pass" class="screen swipe-screen"><button class="game-exit" id="exitGame" aria-label="Exit game">×</button><div class="swipe-heading"><span style="display:none;"><span id="roundNumber">1</span></span><span>Player</span><strong id="passName">Player</strong></div><div id="roleSwipeCard" class="swipe-card" role="button" tabindex="0" aria-label="Swipe up to reveal your role"><img src="assets/role-swipe.jpg" alt="Swipe to reveal your role" /><div class="swipe-card-overlay"><span>Swipe up to reveal</span><b>👆</b></div></div><div class="swipe-bottom-area"><p class="swipe-instruction">Swipe up to reveal your secret word. Steer clear of Imposters! 👀</p><button id="showRole" class="swipe-alt">Tap to reveal instead</button></div></section>
+  <section id="pass" class="screen swipe-screen"><button class="game-exit" id="exitGame" aria-label="Exit game">×</button><div class="swipe-heading"><span style="display:none;"><span id="roundNumber">1</span></span><span>Player</span><strong id="passName">Player</strong></div><div id="roleSwipeCard" class="swipe-card" role="button" tabindex="0" aria-label="Swipe up to reveal your role"><img src="assets/role-swipe.jpg" alt="Swipe to reveal your role" /><div class="swipe-card-overlay"><span>Swipe up to reveal</span></div></div><div class="swipe-bottom-area"><p class="swipe-instruction">Swipe up to reveal your secret word. Steer clear of Imposters! 👀</p></div></section>
 
   <section id="reveal" class="screen reveal-screen"><button class="game-exit" id="exitReveal" aria-label="Exit game">×</button><div class="reveal-visual"><img src="assets/role-swipe.jpg" alt="Game role reveal" /></div><div id="roleBadge" class="role-badge">You are a player</div><div class="secret-card"><span id="secretLabel">SECRET WORD</span><h2 id="secretWord">Puttu</h2><p id="secretHint">Everyone else has this word too.</p><button id="scriptToggle" class="script-toggle">Show in Malayalam</button></div><p class="keep-secret">🤫 Do not let anyone see this</p><button class="primary bottom-action" id="hideRole">Next player <span>→</span></button></section>
   <section id="clues" class="screen centered"><div class="round-pill">DISCUSSION TIME</div><div class="timer-wrap"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52"></circle><circle id="timerRing" class="timer-progress" cx="60" cy="60" r="52"></circle></svg><div><strong id="timer">02:00</strong><span>left</span></div></div><h2>Give your clues!</h2><p>Each player gives one small clue. Do not say the word directly.</p><div class="tip">💡 Listen carefully. The Imposter is trying to blend in.</div><button class="secondary bottom-action" id="skipDiscussion">Go to voting <span>→</span></button></section>
