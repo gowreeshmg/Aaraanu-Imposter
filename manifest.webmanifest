@@ -1,0 +1,29 @@
+{
+  "name": "Aaraanu Imposter? - Kerala Edition",
+  "short_name": "Aaraanu Imposter",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d0c13",
+  "theme_color": "#0d0c13",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/app-icon-square.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/app-icon-square.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/app-icon-square.jpg",
+      "sizes": "1024x1024",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d0c13" /><title>Aaraanu Imposter?</title>
+  <link rel="icon" type="image/jpeg" href="assets/app-icon-square.jpg" />
+  <link rel="apple-touch-icon" href="assets/app-icon-square.jpg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/app-icon-square.jpg" />
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/app-icon-square.jpg" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Aaraanu Imposter?" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" /><link rel="stylesheet" href="styles.css" />
+  <style>
+    .screen:not(.active){display:none!important}
+    .home-character{position:relative;z-index:1;width:min(82vw,315px);height:285px;object-fit:contain;object-position:bottom;margin-top:35px;border:none;border-radius:0;background:transparent;filter:drop-shadow(0 -3.5px 0 #fff) drop-shadow(0 3.5px 0 #fff) drop-shadow(-3.5px 0 0 #fff) drop-shadow(3.5px 0 0 #fff) drop-shadow(-2.5px -2.5px 0 #fff) drop-shadow(2.5px -2.5px 0 #fff) drop-shadow(-2.5px 2.5px 0 #fff) drop-shadow(2.5px 2.5px 0 #fff) drop-shadow(0 15px 22px #000a)}
+    .home-copy{margin-top:8px}
+    .home-copy h1{line-height:.96}
+    .home-copy strong{margin-top:14px!important;margin-bottom:6px!important}
+    .home-copy p{margin-top:6px!important;margin-bottom:16px!important}
+    #setup{padding-bottom:calc(92px + env(safe-area-inset-bottom))!important}
+    #setup .settings{margin-bottom:18px!important}
+    #setup #beginRound{position:fixed!important;bottom:max(16px, env(safe-area-inset-bottom, 16px))!important;left:50%!important;transform:translateX(-50%)!important;width:min(calc(100% - 32px), 488px)!important;z-index:50!important;margin:0!important;box-shadow:0 0 34px rgba(255,166,41,.65), 0 10px 28px rgba(0,0,0,.85)!important}
+    #setup #beginRound:hover{transform:translateX(-50%) translateY(-2px)!important}
+    #setup #beginRound:active{transform:translateX(-50%) translateY(1px)!important}
+    
+    .loader{position:fixed;z-index:20;inset:0;display:grid;place-content:center;justify-items:center;gap:11px;background:#0d0c13;color:#f7f4f0;transition:opacity .35s ease,visibility .35s ease}
+    .loader img{width:104px;height:104px;object-fit:contain;background:#b01f30;border-radius:22px;box-shadow:0 9px 28px #000a}
+    .loader strong{font:700 19px 'Space Grotesk'}
+    .loader span{color:#aaa7b5;font-size:12px}
+    .loader.done{opacity:0;visibility:hidden}
+    #themeToggle{display:none!important}
+    .home-top{justify-content:flex-end}
+    .game-options{display:grid;gap:14px}
+    .game-option{display:flex;align-items:center;justify-content:space-between}
+    .game-option span{display:grid;gap:3px}
+    .game-option b{font-size:12px}
+    .game-option small{font-size:10px;color:var(--muted)}
+    .stepper{display:flex;align-items:center;gap:8px}
+    .stepper button{display:grid;place-items:center;width:29px;height:29px;border:1px solid #484452;border-radius:8px;background:#292734;color:var(--text);font-size:18px;cursor:pointer}
+    .stepper strong{min-width:18px;text-align:center;font:700 15px 'Space Grotesk';color:var(--accent)}
+    .duration-select{border:1px solid #484452;border-radius:8px;background:#292734;color:var(--text);padding:7px;font:600 11px 'DM Sans'}
+
+    /* Swipe Screen (Role Pass Screen) */
+    .swipe-screen.active{background:#090518!important;margin:-16px;padding:0!important;min-height:100dvh;max-height:100dvh;overflow:hidden!important;align-items:center;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;position:relative}
+    .reveal-screen.active{background:#05031b;margin:-16px;padding:18px 22px calc(25px + env(safe-area-inset-bottom));min-height:100dvh;max-height:100dvh;overflow-y:auto;align-items:center;text-align:center;display:flex;flex-direction:column;justify-content:flex-start}
+    
+    .game-exit{position:absolute!important;z-index:30!important;top:max(20px, env(safe-area-inset-top, 20px))!important;left:20px!important;width:44px;height:44px;border:1px solid rgba(255,255,255,0.22);border-radius:50%;background:rgba(18,10,38,0.7)!important;backdrop-filter:blur(8px);color:#fff;font:500 28px 'DM Sans';display:grid;place-content:center;box-shadow:0 4px 14px rgba(0,0,0,.45);cursor:pointer}
+    .game-help{display:none!important}
+    
+    .swipe-heading{position:absolute!important;z-index:25!important;top:max(20px, env(safe-area-inset-top, 20px))!important;left:50%!important;transform:translateX(-50%)!important;margin:0!important;padding:6px 24px!important;background:rgba(18,10,38,0.75)!important;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.22);border-radius:30px;box-shadow:0 6px 20px rgba(0,0,0,.55);display:flex!important;flex-direction:column;align-items:center;gap:1px;pointer-events:none}
+    .swipe-heading span{font-size:11px!important;font-weight:700!important;color:#d3b3ff!important;text-transform:uppercase;letter-spacing:1.5px}
+    .swipe-heading strong{font:700 22px 'Space Grotesk',sans-serif!important;color:#fff!important;line-height:1.15;margin-top:0!important}
+    
+    .swipe-card{position:relative;width:100%!important;max-width:100%!important;height:75vh!important;min-height:75vh!important;max-height:75vh!important;margin:0!important;padding:0!important;border-radius:0 0 38px 38px!important;overflow:hidden!important;cursor:grab;box-shadow:0 16px 42px rgba(0,0,0,.75)!important;background:#150a2b!important;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;touch-action:none;flex-shrink:0}
+    .swipe-card img{position:absolute;inset:0;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:center top!important;border-radius:0 0 38px 38px!important;z-index:1}
+    .swipe-card:after{display:none!important}
+    
+    .swipe-card-overlay{position:absolute!important;z-index:15!important;bottom:22px!important;left:50%!important;transform:translateX(-50%)!important;color:#fff!important;display:flex!important;flex-direction:column;align-items:center;gap:6px!important;pointer-events:none}
+    .swipe-card-overlay b{display:grid;place-items:center;width:60px;height:60px;border-radius:50%;background:#ffa629;color:#120e06;font-size:30px;box-shadow:0 0 28px rgba(255,166,41,.7),0 6px 20px rgba(0,0,0,.6);animation:swipeUpAnim 1.2s ease-in-out infinite}
+    .swipe-card-overlay span{display:block!important;font:700 13px 'Space Grotesk',sans-serif;color:#fff;text-shadow:0 2px 6px rgba(0,0,0,.8);letter-spacing:0.5px}
+    
+    .swipe-bottom-area{flex:1;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px 20px calc(15px + env(safe-area-inset-bottom))!important}
+    .swipe-instruction{max-width:90%;margin:0 auto 10px!important;color:#e9dfff;font-size:15px;font-weight:700;line-height:1.38;flex-shrink:0}
+    .swipe-alt{border:1px solid rgba(255,255,255,0.22);border-radius:12px;background:rgba(255,255,255,0.1);color:#fff;font:600 13px 'DM Sans';padding:11px 24px;cursor:pointer;margin:0!important;flex-shrink:0}
+    
+    .reveal-visual{width:100%;height:min(160px,18vh);margin:-18px 0 6px;border-radius:0 0 35px 35px;overflow:hidden;flex-shrink:0}
+    .reveal-visual img{width:100%;height:100%;object-fit:cover;object-position:center top}
+    .reveal-screen .role-badge{margin-top:6px;flex-shrink:0}
+    .reveal-screen .secret-card{background:#10092a;border-color:#4c3972;flex-shrink:0;width:100%;margin:10px 0 8px;padding:14px 16px}
+    .reveal-screen .bottom-action{margin-top:auto;flex-shrink:0}
+    .reveal-screen .keep-secret{color:#c8badd;margin:6px 0 8px;flex-shrink:0}
+    @keyframes swipeUpAnim{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    @media(max-height:720px){.home-character{height:240px;margin-top:20px}.reveal-visual{height:130px}}
+  </style>
+</head>
+<body><div id="loader" class="loader"><img src="assets/app-icon-square.jpg" onerror="this.onerror=null; this.src='assets/app-icon.jpg'; this.addEventListener('error', function(){ this.style.display='none'; });" alt="Aaraanu Imposter app icon" /><strong>Aaraanu Imposter?</strong><span>Loading game...</span></div><script>function hideAppLoader(){var l=document.getElementById('loader');if(l&&!l.classList.contains('done')){l.classList.add('done');setTimeout(function(){if(l&&l.parentNode)l.style.display='none'},400);}} window.addEventListener('load',hideAppLoader); window.addEventListener('DOMContentLoaded',hideAppLoader); setTimeout(hideAppLoader,600);</script><main class="app-shell">
+  <section id="home" class="screen active home-screen">
+    <div class="home-top"><button id="themeToggle" class="icon-button" aria-label="Switch colour theme">☀</button><span class="free-pill"><b>Kerala Edition</b><small>Play with your friends</small></span></div>
+    <div class="burst" aria-hidden="true"></div><img class="home-character" src="assets/home-character.png" alt="Malayalam movie character" />
+    <div class="home-copy"><h1>Aaraanu<br />Imposter?</h1><strong>KERALA EDITION</strong><p>Who is the Imposter?</p></div>
+    <div class="home-actions"><button class="primary" id="startSetup"><span>▷</span> Let's Start</button><button class="link-button" id="openHelp">ⓘ &nbsp; How to Play</button></div>
+  </section>
+
+  <section id="help" class="screen"><button class="back" data-go="home">← Back</button><span class="eyebrow">HOW TO PLAY</span><h2>Easy to learn. Fun to bluff.</h2><p class="subcopy">Pass one phone around your group and follow these simple steps.</p><div class="steps"><div><b>1</b><span><strong>Set up your game</strong><small>Add players and choose the Kerala word categories you want.</small></span></div><div><b>2</b><span><strong>Keep your role secret</strong><small>Most players see the same word. The Imposter does not.</small></span></div><div><b>3</b><span><strong>Give one clue each</strong><small>Describe the word without saying it directly.</small></span></div><div><b>4</b><span><strong>Discuss and vote</strong><small>Find the player who is pretending to know the word.</small></span></div><div><b>5</b><span><strong>Reveal the answer</strong><small>If you vote for the Imposter, everyone else wins!</small></span></div></div><button class="primary bottom-action" data-go="setup">Set up a game <span>→</span></button></section>
+
+  <section id="setup" class="screen"><button class="back" data-go="home">← Back</button><div class="header-center"><span class="free-pill"><b>Kerala Edition</b><small>Play with your friends</small></span><h2>Set up game</h2><p>Configure before starting</p></div>
+    <div class="panel"><div class="panel-head"><span>♧ &nbsp; Players</span><small id="playerTotal">3 / 10</small></div><div id="playerList" class="player-list"></div><button class="add-player" id="addPlayer">＋ Add Player</button></div>
+    <button class="panel selector" id="openCategories"><span class="selector-icon">◇</span><span><b>Categories</b><small id="categorySummary">All categories selected</small></span><i>›</i></button>
+    <div class="panel game-options"><div class="game-option"><span><b>Number of Imposters</b><small>Choose how many secret Imposters play</small></span><div class="stepper"><button id="removeImposter" aria-label="Decrease Imposters">−</button><strong id="imposterTotal">1</strong><button id="addImposter" aria-label="Increase Imposters">+</button></div></div><div class="game-option"><span><b>Discussion duration</b><small>Time available for clues and debate</small></span><select id="durationSelect" class="duration-select"><option value="1">1 min</option><option value="2" selected>2 min</option><option value="3">3 min</option><option value="5">5 min</option></select></div></div>
+    <div class="panel settings"><label><span>◇ <b>Imposter sees category</b><small>The Imposter can see the category name</small></span><input id="seeCategory" type="checkbox" /><i></i></label><label><span>♧ <b>Show Imposter a hint</b><small>A related word, not the secret word</small></span><input id="showHint" type="checkbox" checked /><i></i></label></div>
+    <button class="primary bottom-action" id="beginRound"><span>▷</span> Start Game</button></section>
+
+  <section id="categories" class="screen"><button class="back" data-go="setup">← Back</button><div class="header-center"><span class="eyebrow">CUSTOMISE</span><h2>Categories</h2><p id="categoryCount">0 of 14 selected</p></div><div class="category-tools"><button id="selectAll">Select all</button><i></i><button id="clearAll">Clear all</button></div><div id="categoryGrid" class="category-grid"></div><button class="primary bottom-action" data-go="setup">Done <span>✓</span></button></section>
+
+  <section id="pass" class="screen swipe-screen"><button class="game-exit" id="exitGame" aria-label="Exit game">×</button><div class="swipe-heading"><span style="display:none;"><span id="roundNumber">1</span></span><span>Player</span><strong id="passName">Player</strong></div><div id="roleSwipeCard" class="swipe-card" role="button" tabindex="0" aria-label="Swipe up to reveal your role"><img src="assets/role-swipe.jpg" alt="Swipe to reveal your role" /><div class="swipe-card-overlay"><span>Swipe up to reveal</span><b>👆</b></div></div><div class="swipe-bottom-area"><p class="swipe-instruction">Swipe up to reveal your secret word. Steer clear of Imposters! 👀</p><button id="showRole" class="swipe-alt">Tap to reveal instead</button></div></section>
+
+  <section id="reveal" class="screen reveal-screen"><button class="game-exit" id="exitReveal" aria-label="Exit game">×</button><div class="reveal-visual"><img src="assets/role-swipe.jpg" alt="Game role reveal" /></div><div id="roleBadge" class="role-badge">You are a player</div><div class="secret-card"><span id="secretLabel">SECRET WORD</span><h2 id="secretWord">Puttu</h2><p id="secretHint">Everyone else has this word too.</p><button id="scriptToggle" class="script-toggle">Show in Malayalam</button></div><p class="keep-secret">🤫 Do not let anyone see this</p><button class="primary bottom-action" id="hideRole">Next player <span>→</span></button></section>
+  <section id="clues" class="screen centered"><div class="round-pill">DISCUSSION TIME</div><div class="timer-wrap"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52"></circle><circle id="timerRing" class="timer-progress" cx="60" cy="60" r="52"></circle></svg><div><strong id="timer">02:00</strong><span>left</span></div></div><h2>Give your clues!</h2><p>Each player gives one small clue. Do not say the word directly.</p><div class="tip">💡 Listen carefully. The Imposter is trying to blend in.</div><button class="secondary bottom-action" id="skipDiscussion">Go to voting <span>→</span></button></section>
+  <section id="vote" class="screen"><span class="eyebrow">VOTE NOW</span><h2>Who is the Imposter?</h2><p class="subcopy">Discuss and select one player.</p><div id="voteList" class="vote-list"></div><button class="primary bottom-action disabled" id="revealResult" disabled>See result <span>→</span></button></section>
+  <section id="result" class="screen centered"><div id="resultIcon" class="result-icon">✦</div><span id="resultEyebrow" class="eyebrow">GOT THEM!</span><h2 id="resultTitle">The Imposter is caught!</h2><p id="resultText">Your suspicion was correct.</p><div class="answer-card"><span>Today's secret word</span><strong id="answerWord">Puttu</strong></div><button class="primary" id="nextRound">Next round <span>→</span></button><button class="link-button" id="goHome">End game</button></section>
+</main><script src="words.js"></script><script src="app.js"></script></body></html>
