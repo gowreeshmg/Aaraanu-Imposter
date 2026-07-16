@@ -21,11 +21,12 @@
     .home-copy h1{font-size:clamp(38px,9.5vw,46px)!important;line-height:1.05!important}
     .home-copy strong{font-size:14px!important;letter-spacing:3.5px!important;margin-top:12px!important;margin-bottom:6px!important}
     .home-copy p{font-size:14px!important;color:#d8d4e2!important;margin-top:6px!important;margin-bottom:12px!important}
-    #setup{padding-bottom:calc(92px + env(safe-area-inset-bottom))!important}
-    #setup .settings{margin-bottom:18px!important}
-    #setup #beginRound{position:fixed!important;bottom:max(16px, env(safe-area-inset-bottom, 16px))!important;left:50%!important;transform:translateX(-50%)!important;width:min(calc(100% - 32px), 488px)!important;z-index:50!important;margin:0!important;box-shadow:0 0 34px rgba(255,166,41,.65), 0 10px 28px rgba(0,0,0,.85)!important}
-    #setup #beginRound:hover{transform:translateX(-50%) translateY(-2px)!important}
-    #setup #beginRound:active{transform:translateX(-50%) translateY(1px)!important}
+    #setup{padding-bottom:calc(82px + env(safe-area-inset-bottom, 16px))!important}
+    #setup .settings{margin-bottom:4px!important}
+    .setup-actions{position:fixed!important;bottom:0!important;left:0!important;right:0!important;z-index:50!important;width:100%!important;background:#060509!important;border-top:1px solid #1a1726!important;border-radius:24px 24px 0 0!important;padding:14px 24px max(16px, calc(12px + env(safe-area-inset-bottom, 16px))) 24px!important;display:flex!important;align-items:center!important;justify-content:center!important;box-shadow:0 -10px 30px rgba(0,0,0,.85)!important;margin:0!important}
+    #setup #beginRound{position:relative!important;bottom:auto!important;left:auto!important;transform:none!important;width:min(100%, 488px)!important;z-index:1!important;margin:0!important;min-height:54px!important;box-shadow:0 0 28px rgba(255,166,41,.5), 0 6px 20px rgba(0,0,0,.75)!important}
+    #setup #beginRound:hover{transform:translateY(-2px)!important}
+    #setup #beginRound:active{transform:translateY(1px)!important}
     
     .loader{position:fixed;z-index:999999;inset:0;display:grid;place-content:center;justify-items:center;gap:11px;background:#0d0c13;color:#f7f4f0;transition:opacity .45s ease,visibility .45s ease}
     .loader img{width:104px;height:104px;object-fit:contain;background:#b01f30;border-radius:22px;box-shadow:0 9px 28px #000a}
@@ -141,7 +142,8 @@
 
     <div class="panel game-options"><div class="game-option"><span><b>Number of Imposters</b><small>Choose how many secret Imposters play</small></span><div class="stepper"><button id="removeImposter" aria-label="Decrease Imposters">−</button><strong id="imposterTotal">1</strong><button id="addImposter" aria-label="Increase Imposters">+</button></div></div><div class="game-option"><span><b>Discussion duration</b><small>Time available for clues and debate</small></span><select id="durationSelect" class="duration-select"><option value="1">1 min</option><option value="2" selected>2 min</option><option value="3">3 min</option><option value="5">5 min</option></select></div></div>
     <div class="panel settings"><label><span>◇ <b>Imposter sees category</b><small>The Imposter can see the category name</small></span><input id="seeCategory" type="checkbox" /><i></i></label><label><span>♧ <b>Show Imposter a hint</b><small>A related word, not the secret word</small></span><input id="showHint" type="checkbox" checked /><i></i></label></div>
-    <button class="primary bottom-action" id="beginRound"><span>▷</span> Start Game</button></section>
+    <div class="setup-actions"><button class="primary bottom-action" id="beginRound"><span>▷</span> Start Game</button></div>
+  </section>
 
   <!-- 🤖 AI Chatbot Assistant Modal (Powered by Gemini) -->
   <div id="aiChatbotModal" class="categories-modal">
