@@ -82,10 +82,28 @@
 </head>
 <body><div id="loader" class="loader"><img src="assets/app-icon-square.jpg" onerror="this.onerror=null; this.src='assets/app-icon.jpg'; this.addEventListener('error', function(){ this.style.display='none'; });" alt="Aaraanu Imposter app icon" /><strong>Aaraanu Imposter?</strong><span>Loading game...</span></div><script>(function(){var startTime = Date.now(); window.__loaderStartTime = startTime; var hidden = false; function hideAppLoader(){ if(hidden) return; var l = document.getElementById('loader'); if(!l) return; var elapsed = Date.now() - startTime; var rem = Math.max(0, 5000 - elapsed); setTimeout(function(){ if(hidden) return; hidden = true; l.classList.add('done'); setTimeout(function(){ if(l && l.parentNode) l.style.display='none'; }, 450); }, rem); } if(document.readyState === 'complete'){ hideAppLoader(); } else { window.addEventListener('load', hideAppLoader); window.addEventListener('DOMContentLoaded', function(){ setTimeout(hideAppLoader, 5000); }); } })();</script><main class="app-shell">
   <section id="home" class="screen active home-screen">
-    <div class="home-top"><button id="themeToggle" class="icon-button" aria-label="Switch colour theme">☀</button><span class="free-pill"><b>Kerala Edition</b><small>Play with your friends</small></span></div>
-    <div class="burst" aria-hidden="true"></div><img class="home-character" src="assets/home-character.png" alt="Malayalam movie character" />
-    <div class="home-copy"><h1>Aaraanu<br />Imposter?</h1><strong>KERALA EDITION</strong><p>Who is the Imposter?</p></div>
-    <div class="home-actions"><button class="primary" id="startSetup"><span>▷</span> Let's Start</button><button class="link-button" id="openHelp">ⓘ &nbsp; How to Play</button></div>
+    <div class="burst" aria-hidden="true"></div>
+    <div class="home-top">
+      <span class="free-pill"><b>0 free plays remaining</b><small>Subscribe for unlimited fun</small></span>
+      <button id="themeToggle" class="icon-button" style="display:none;" aria-label="Switch colour theme">☀</button>
+    </div>
+    <div class="home-content-center">
+      <div class="character-wrap">
+        <img class="home-character" src="assets/home-character.png" alt="Malayalam movie character" />
+      </div>
+      <div class="home-copy">
+        <h1>Imposter</h1>
+        <strong>മലയാളം</strong>
+        <p>Aaara imposter?</p>
+      </div>
+    </div>
+    <div class="home-actions">
+      <button class="primary" id="startSetup"><span>▷</span> Let's Start</button>
+      <div class="home-links">
+        <button class="link-button" id="openHelp"><span>ⓘ</span> How to Play</button>
+        <button class="link-button" id="openSettings"><span>⚙</span> Settings</button>
+      </div>
+    </div>
   </section>
 
   <section id="help" class="screen"><button class="back" data-go="home">← Back</button><span class="eyebrow">HOW TO PLAY</span><h2>Easy to learn. Fun to bluff.</h2><p class="subcopy">Pass one phone around your group and follow these simple steps.</p><div class="steps"><div><b>1</b><span><strong>Set up your game</strong><small>Add players and choose the Kerala word categories you want.</small></span></div><div><b>2</b><span><strong>Keep your role secret</strong><small>Most players see the same word. The Imposter does not.</small></span></div><div><b>3</b><span><strong>Give one clue each</strong><small>Describe the word without saying it directly.</small></span></div><div><b>4</b><span><strong>Discuss and vote</strong><small>Find the player who is pretending to know the word.</small></span></div><div><b>5</b><span><strong>Reveal the answer</strong><small>If you vote for the Imposter, everyone else wins!</small></span></div></div><button class="primary bottom-action" data-go="setup">Set up a game <span>→</span></button></section>

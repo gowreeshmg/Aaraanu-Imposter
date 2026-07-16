@@ -34,6 +34,7 @@ if(typeof window!=='undefined'&&typeof document!=='undefined'){
 bindClick('themeToggle',()=>{document.body.classList.toggle('light');if($('themeToggle'))$('themeToggle').textContent=document.body.classList.contains('light')?'☾':'☀'});
 bindClick('startSetup',()=>show('setup'));
 bindClick('openHelp',()=>show('help'));
+bindClick('openSettings',()=>show('setup'));
 document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>show(b.dataset.go));
 bindClick('addPlayer',()=>{if(players.length<10){players.push(`Player ${players.length+1}`);if($('playerList'))renderPlayers()}});
 bindClick('openCategories',()=>{if($('categoryGrid'))renderCategories();show('categories')});
@@ -45,8 +46,8 @@ if(card){
   let startY=0, currentY=0, isDragging=false;
   const updateOverlayText=(swiped)=>{const span=card.querySelector('.swipe-card-overlay span');if(span)span.textContent=swiped?'Swiped ↑ (Swipe down)':'Swipe up to reveal';};
   const onDragStart=(y)=>{startY=y;currentY=y;isDragging=true;card.style.transition='none';};
-  const onDragMove=(y)=>{if(!isDragging)return;currentY=y;const delta=currentY-startY;if(!isSwipedUp){if(delta<0)card.style.transform=`translateY(${delta}px)`;}else{if(delta>0)card.style.transform=`translateY(calc(-100% + 64px + ${delta}px))`;}};
-  const onDragEnd=()=>{if(!isDragging)return;isDragging=false;const delta=currentY-startY;card.style.transition='transform 0.4s cubic-bezier(0.16, 1, 0.3, 1)';if(!isSwipedUp){if(delta<-55){card.style.transform='translateY(calc(-100% + 64px))';isSwipedUp=true;updateOverlayText(true);}else{card.style.transform='translateY(0)';}}else{if(delta>30){card.style.transform='translateY(0)';isSwipedUp=false;updateOverlayText(false);}else{card.style.transform='translateY(calc(-100% + 64px))';}}};
+  const onDragMove=(y)=>{if(!isDragging)return;currentY=y;const delta=currentY-startY;if(!isSwipedUp){if(delta<0)card.style.transform=`translateY(${delta}px)`;}else{if(delta>0)card.style.transform=`translateY(calc(-100% + 25vh + ${delta}px))`;}};
+  const onDragEnd=()=>{if(!isDragging)return;isDragging=false;const delta=currentY-startY;card.style.transition='transform 0.4s cubic-bezier(0.16, 1, 0.3, 1)';if(!isSwipedUp){if(delta<-55){card.style.transform='translateY(calc(-100% + 25vh))';isSwipedUp=true;updateOverlayText(true);}else{card.style.transform='translateY(0)';}}else{if(delta>25||Math.abs(delta)<8){card.style.transform='translateY(0)';isSwipedUp=false;updateOverlayText(false);}else{card.style.transform='translateY(calc(-100% + 25vh))';}}};
   card.addEventListener('touchstart',e=>{if(e.touches&&e.touches[0])onDragStart(e.touches[0].clientY);},{passive:true});
   card.addEventListener('touchmove',e=>{if(e.touches&&e.touches[0])onDragMove(e.touches[0].clientY);},{passive:true});
   card.addEventListener('touchend',()=>onDragEnd(),{passive:true});
