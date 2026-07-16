@@ -107,9 +107,14 @@
           </div>
           <div class="gemini-key-section">
             <button type="button" id="toggleGeminiKeyBtn" class="gemini-key-toggle">🔑 Set Google Gemini API Key <small id="geminiKeyStatus">(Not set - Local fallback active)</small></button>
-            <div id="geminiKeyBox" class="gemini-key-box" style="display:none;">
-              <input type="password" id="geminiApiKeyInput" placeholder="Paste your Gemini API Key (AIz...)" />
-              <button id="saveGeminiKeyBtn" class="gemini-key-save-btn">Save Key</button>
+            <div id="geminiKeyBox" class="gemini-key-box" style="display:none; flex-direction:column; gap:6px;">
+              <div style="display:flex; gap:8px; width:100%;">
+                <input type="password" id="geminiApiKeyInput" placeholder="Paste your Gemini API Key (AIz...)" style="flex:1;" />
+                <button id="saveGeminiKeyBtn" class="gemini-key-save-btn">Save Key</button>
+              </div>
+              <div style="font-size:12px; text-align:left; padding-left:2px;">
+                <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" style="color:#69d2a9; text-decoration:underline; font-weight:500;">👉 Click here to get a free Gemini API Key (Google AI Studio)</a>
+              </div>
             </div>
           </div>
           <small class="ai-helper-text">✨ Normal built-in categories play 100% offline! When using AI for rare topics, Gemini activates via your internet connection.</small>
