@@ -96,3 +96,28 @@
 .ai-chat-send-btn{display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg, #7c3aed, #6d28d9);border:0;border-radius:12px;padding:12px 16px;color:#fff;font:700 14px 'Space Grotesk',sans-serif;cursor:pointer;flex-shrink:0;box-shadow:0 4px 14px rgba(124,58,237,0.35)}
 .ai-chat-send-btn:active{transform:scale(0.97)}
 
+/* 🔽 Expandable Categories Dropdown Accordion on Setup Page */
+.categories-dropdown{max-height:0;overflow:hidden;transition:max-height 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;opacity:0;margin-top:-6px;margin-bottom:12px;border-radius:18px;background:#15131e;border:1px solid transparent}
+.categories-dropdown.open{max-height:680px;opacity:1;border-color:#3c384a;overflow-y:auto}
+.categories-dropdown-inner{padding:14px;display:flex;flex-direction:column;gap:12px}
+#categoriesChevron{transition:transform 0.25s ease;display:inline-block;font-style:normal;font-size:18px}
+.categories-dropdown.open ~ #openCategories #categoriesChevron,
+#openCategories.active #categoriesChevron{transform:rotate(90deg)}
+
+/* Gemini API Key Setting Section */
+.gemini-key-section{display:flex;flex-direction:column;gap:6px;margin-top:2px}
+.gemini-key-toggle{background:none;border:none;color:#ff9e1c;font:600 12px 'DM Sans',sans-serif;text-align:left;cursor:pointer;display:flex;align-items:center;gap:6px;padding:2px 0}
+.gemini-key-toggle small{color:#a9a5b4;font-weight:400}
+.gemini-key-box{display:flex;gap:6px;align-items:center;background:#181524;padding:8px;border-radius:10px;border:1px dashed #5c437a}
+.gemini-key-box input{flex:1;min-width:0;background:#100d18;border:1px solid #483d61;border-radius:8px;padding:7px 10px;color:#fff;font-size:12.5px}
+.gemini-key-save-btn{background:#7c3aed;border:0;border-radius:8px;padding:7px 12px;color:#fff;font:700 12px 'Space Grotesk',sans-serif;cursor:pointer}
+
+.category-count-badge{margin-left:auto;font-size:12px;color:#d3b3ff;font-weight:600}
+
+/* Compact Category Grid & Cards inside Dropdown */
+.compact-grid{display:grid;grid-template-columns:repeat(auto-fill, minmax(130px, 1fr));gap:8px;max-height:360px;overflow-y:auto;padding-right:4px}
+.category-card.compact{padding:10px 12px;border-radius:12px;gap:3px;min-height:auto}
+.category-card.compact h3{font-size:13.5px;margin:0;line-height:1.2}
+.category-card.compact p{font-size:11px;margin:0;line-height:1.3;color:#a9a5b4}
+.category-card.compact .pill{font-size:9.5px;padding:2px 6px;margin-top:2px}
+

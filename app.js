@@ -63,19 +63,104 @@ const $=id=>typeof document!=='undefined'?document.getElementById(id):null;const
 const hideLoader=()=>{if(typeof document==='undefined')return;const l=document.getElementById('loader');if(l&&!l.classList.contains('done')){const startTime=window.__loaderStartTime||(Date.now()-5000);const elapsed=Date.now()-startTime;const rem=Math.max(0,5000-elapsed);setTimeout(()=>{l.classList.add('done');document.body.style.background='#060509';document.documentElement.style.background='#060509';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='#060509';var h=document.getElementById('home');if(h){window.dispatchEvent(new Event('resize'));}setTimeout(()=>{if(l&&l.parentNode)l.style.display='none'},450)},rem)}};
 if(typeof window!=='undefined'&&typeof document!=='undefined'){hideLoader();window.addEventListener('load',hideLoader);window.addEventListener('DOMContentLoaded',hideLoader);setTimeout(hideLoader,5000);}
 function renderPlayers(){if(typeof document==='undefined')return;const list=$('playerList');if(!list)return;list.innerHTML='';players.forEach((name,i)=>{const row=document.createElement('div');row.className='player-row';row.innerHTML=`<span class="player-number">${i+1}</span><input value="${name.replace(/"/g,'&quot;')}" aria-label="Player ${i+1} name"><button class="remove-player" aria-label="Remove player"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path></svg></button>`;row.querySelector('input').oninput=e=>{players[i]=e.target.value||`Player ${i+1}`;savePlayers();};row.querySelector('button').onclick=()=>{if(players.length>3){players.splice(i,1);if(imposterCount>Math.floor(players.length/2)){imposterCount=Math.max(1,Math.floor(players.length/2));if($('imposterTotal'))$('imposterTotal').textContent=imposterCount}renderPlayers();savePlayers();}};list.append(row)});if($('playerTotal'))$('playerTotal').textContent=`${players.length} / 10`;}
-function renderCategories(){if(typeof document==='undefined')return;const grid=$('categoryGrid');if(!grid)return;grid.innerHTML='';packs.forEach(p=>{const b=document.createElement('button');b.className=`category-card ${selected.has(p.id)?'selected':''}`;b.innerHTML=`<span class="cat-icon">${p.icon}</span><b>${p.name}</b><small>${p.words.length} words ${p.isCustom?'(AI)':''}</small>`;b.onclick=()=>{selected.has(p.id)?selected.delete(p.id):selected.add(p.id);saveCategories();renderCategories();updateCategoryText()};grid.append(b)});if($('categoryCount'))$('categoryCount').textContent=`${selected.size} of ${packs.length} selected`;}
+function renderCategories(){if(typeof document==='undefined')return;const grid=$('categoryGrid');if(!grid)return;grid.innerHTML='';packs.forEach(p=>{const b=document.createElement('button');b.className=`category-card compact ${selected.has(p.id)?'selected':''}`;b.innerHTML=`<span class="cat-icon">${p.icon}</span><b>${p.name}</b><small>${p.words.length} words ${p.isCustom?'(AI)':''}</small>`;b.onclick=()=>{selected.has(p.id)?selected.delete(p.id):selected.add(p.id);saveCategories();renderCategories();updateCategoryText()};grid.append(b)});if($('categoryCount'))$('categoryCount').textContent=`${selected.size} of ${packs.length} selected`;}
 function updateCategoryText(){if($('categorySummary'))$('categorySummary').textContent=selected.size===packs.length?'All categories selected':`${selected.size} of ${packs.length} selected`;}
 
-function showCategoriesModal() {
-  const modal = $('categoriesModal');
-  if (modal) {
-    modal.classList.add('open');
-    renderCategories();
+function toggleCategoriesDropdown() {
+  const drop = $('categoriesDropdown');
+  const btn = $('openCategories');
+  if (drop) {
+    const isOpening = !drop.classList.contains('open');
+    drop.classList.toggle('open');
+    if (btn) btn.classList.toggle('active', isOpening);
+    if (isOpening) {
+      renderCategories();
+      initGeminiKeyUI();
+    }
   }
 }
+function showCategoriesModal() { toggleCategoriesDropdown(); }
 function hideCategoriesModal() {
-  const modal = $('categoriesModal');
-  if (modal) modal.classList.remove('open');
+  const drop = $('categoriesDropdown');
+  const btn = $('openCategories');
+  if (drop) drop.classList.remove('open');
+  if (btn) btn.classList.remove('active');
+}
+
+/* 🔑 Gemini API Key & Live Cloud Generation Helper */
+const GEMINI_KEY_STORAGE = 'aaraanu_imposter_gemini_api_key';
+function getGeminiApiKey() {
+  if (typeof window === 'undefined' || !window.localStorage) return '';
+  return window.localStorage.getItem(GEMINI_KEY_STORAGE) || '';
+}
+function saveGeminiApiKey(key) {
+  if (typeof window === 'undefined' || !window.localStorage) return;
+  if (key && key.trim()) {
+    window.localStorage.setItem(GEMINI_KEY_STORAGE, key.trim());
+  } else {
+    window.localStorage.removeItem(GEMINI_KEY_STORAGE);
+  }
+  initGeminiKeyUI();
+}
+function initGeminiKeyUI() {
+  const key = getGeminiApiKey();
+  const status = $('geminiKeyStatus');
+  const inp = $('geminiApiKeyInput');
+  if (inp && key && !inp.value) inp.value = key;
+  if (status) {
+    status.textContent = key ? '✓ Active (Live Gemini Mode)' : '(Not set - Local fallback active)';
+    status.style.color = key ? '#10b981' : '#a9a5b4';
+  }
+}
+
+async function generateWithGeminiOrLocal(topic) {
+  const clean = topic.trim();
+  const apiKey = getGeminiApiKey();
+  
+  // Only call Gemini if key is provided AND internet is online
+  if (apiKey && typeof window !== 'undefined' && window.navigator && window.navigator.onLine !== false) {
+    try {
+      const promptText = `You are the Aaraanu Imposter Malayalam & English party game AI word generator. The user wants a custom category about: "${clean}".
+Generate exactly 12 diverse, high-quality word pairs for this topic.
+For each pair:
+1. Civilian Word (English)
+2. Civilian Word (Malayalam translation or script)
+3. Imposter Word (English) - MUST be a subtly related sibling/cousin word in the exact same domain or category so the imposter can blend in naturally during discussion, BUT completely distinct and NEVER identical or sharing keywords with the civilian word.
+4. Imposter Word (Malayalam)
+Return ONLY a valid JSON array of 12 arrays without markdown formatting or code blocks, strictly in this format:
+[["Civilian Eng", "Civilian Mal", "Imposter Eng", "Imposter Mal"], ...]`;
+
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: promptText }] }]
+        })
+      });
+      
+      if (res.ok) {
+        const data = await res.json();
+        const text = data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+        const jsonMatch = text.match(/\[\s*\[.*?\]\s*\]/s);
+        if (jsonMatch) {
+          const parsed = JSON.parse(jsonMatch[0]);
+          if (Array.isArray(parsed) && parsed.length >= 6) {
+            return { words: parsed.map(row => [
+              row[0] || clean,
+              row[1] || clean,
+              row[2] || 'Related Secret',
+              row[3] || 'ബന്ധമുള്ള വാക്ക്'
+            ]), source: 'gemini' };
+          }
+        }
+      }
+    } catch (err) {
+      console.warn('Gemini API request failed or offline, using local fallback:', err);
+    }
+  }
+  
+  // Offline or local fallback
+  return { words: AIChatbotAssistant.synthesizeWordsForTopic(clean), source: 'local' };
 }
 
 /* 🤖 AI Chatbot Assistant for Custom Categories */
@@ -254,7 +339,7 @@ Or literally anything else you can imagine! I will create 12 bilingual Malayalam
       [`Dynamic ${clean}`, `ഊർജ്ജസ്വല ${clean}`, `Vibrant ${clean}`, `സജീവ ${clean}`]
     ];
   },
-  handleSend: function(text) {
+  handleSend: async function(text) {
     if (!text || !text.trim()) return;
     const clean = text.trim();
     if ($('aiChatInput')) $('aiChatInput').value = '';
@@ -262,46 +347,46 @@ Or literally anything else you can imagine! I will create 12 bilingual Malayalam
     this.addUserMessage(clean);
     
     // Add typing bubble
-    const typingBubble = this.addBotMessage(`⏳ <i>Synthesizing bilingual pairs & balancing Imposter hints for <b>"${clean}"</b>...</i>`);
+    const typingBubble = this.addBotMessage(`⏳ <i>Synthesizing bilingual pairs & balancing Imposter hints for <b>"${clean}"</b> ${getGeminiApiKey() ? '(using Live Google Gemini AI)' : '(using local engine)'}...</i>`);
+    
+    const result = await generateWithGeminiOrLocal(clean);
+    const pairs = result.words || this.synthesizeWordsForTopic(clean);
+    
+    if (typingBubble && typingBubble.parentNode) typingBubble.parentNode.removeChild(typingBubble);
+    
+    const sampleRows = pairs.slice(0, 4).map(p => `
+      <div class="preview-pair-row">
+        <div><b>🧑 ${p[0]}</b> <small>(${p[1]})</small></div>
+        <span>🤫 Imposter: <b>${p[2]}</b> <small>(${p[3]})</small></span>
+      </div>
+    `).join('');
+    
+    const cardId = 'ai_preview_btn_' + Date.now();
+    const botResponse = `Here is your custom tailored category: <b style="color:#ff9e1c; font-size:15px;">${clean}</b> ✨ <small style="color:#a9a5b4;">(${result.source === 'gemini' ? '🧠 Google Gemini AI Generated' : '⚡ Local Synthesizer'})</small>! I have prepared ${pairs.length} bilingual Malayalam/English pairs where imposters get subtly related sibling words (<small style="color:#69d2a9;">never identical to the civilian word!</small>).
+    
+    <div class="ai-chat-preview-card">
+      <h4>✨ Sample Pairs Preview (${pairs.length} total)</h4>
+      <div class="preview-pairs">
+        ${sampleRows}
+      </div>
+      <button id="${cardId}" class="add-selected-chat-btn">➕ Add & Select This Category Now!</button>
+    </div>`;
+    
+    this.addBotMessage(botResponse);
     
     setTimeout(() => {
-      if (typingBubble && typingBubble.parentNode) typingBubble.parentNode.removeChild(typingBubble);
-      
-      const pairs = this.synthesizeWordsForTopic(clean);
-      const sampleRows = pairs.slice(0, 4).map(p => `
-        <div class="preview-pair-row">
-          <div><b>🧑 ${p[0]}</b> <small>(${p[1]})</small></div>
-          <span>🤫 Imposter: <b>${p[2]}</b> <small>(${p[3]})</small></span>
-        </div>
-      `).join('');
-      
-      const cardId = 'ai_preview_btn_' + Date.now();
-      const botResponse = `Here is your custom tailored category: <b style="color:#ff9e1c; font-size:15px;">${clean}</b> ✨! I have prepared 12 bilingual Malayalam/English pairs where imposters get subtly related sibling words (<small style="color:#69d2a9;">never identical to the civilian word!</small>).
-      
-      <div class="ai-chat-preview-card">
-        <h4>✨ Sample Pairs Preview (${pairs.length} total)</h4>
-        <div class="preview-pairs">
-          ${sampleRows}
-        </div>
-        <button id="${cardId}" class="add-selected-chat-btn">➕ Add & Select This Category Now!</button>
-      </div>`;
-      
-      this.addBotMessage(botResponse);
-      
-      setTimeout(() => {
-        const btn = document.getElementById(cardId);
-        if (btn) {
-          btn.onclick = () => {
-            btn.disabled = true;
-            btn.textContent = '⏳ Adding to game...';
-            AIWordGenerator.addCustomCategory(clean, pairs);
-            btn.textContent = '✓ Added to Game & Selected!';
-            btn.style.background = '#065f46';
-            this.addBotMessage(`🎉 <b>"${clean}"</b> has been added to your game packs and automatically selected! You can close this window to start playing, or ask me for another custom topic!`);
-          };
-        }
-      }, 50);
-    }, 600);
+      const btn = document.getElementById(cardId);
+      if (btn) {
+        btn.onclick = async () => {
+          btn.disabled = true;
+          btn.textContent = '⏳ Adding to game...';
+          await AIWordGenerator.addCustomCategory(clean, pairs);
+          btn.textContent = '✓ Added to Game & Selected!';
+          btn.style.background = '#065f46';
+          this.addBotMessage(`🎉 <b>"${clean}"</b> has been added to your game packs and automatically selected! You can close this window to start playing, or ask me for another custom topic!`);
+        };
+      }
+    }, 50);
   }
 };
 
@@ -317,7 +402,12 @@ const AIWordGenerator = {
     const addBtn = $('addCustomCategoryBtn');
     if (addBtn) addBtn.textContent = '⏳ AI Working...';
 
-    const finalWords = preGeneratedPairs || AIChatbotAssistant.synthesizeWordsForTopic(cleanName);
+    let finalWords = preGeneratedPairs;
+    if (!finalWords) {
+      const genRes = await generateWithGeminiOrLocal(cleanName);
+      finalWords = genRes.words;
+    }
+
     const newPack = {
       id: id,
       name: cleanName,
@@ -606,6 +696,21 @@ if(typeof window!=='undefined'&&typeof document!=='undefined'){
     };
   });
 
+  // 🔑 Gemini API Key Toggle & Save bindings
+  bindClick('toggleGeminiKeyBtn', () => {
+    const box = $('geminiKeyBox');
+    if (box) box.style.display = box.style.display === 'none' ? 'flex' : 'none';
+  });
+  bindClick('saveGeminiKeyBtn', () => {
+    const inp = $('geminiApiKeyInput');
+    if (inp) {
+      saveGeminiApiKey(inp.value);
+      const box = $('geminiKeyBox');
+      if (box) box.style.display = 'none';
+      alert(getGeminiApiKey() ? '✅ Google Gemini API Key saved! Live Cloud AI mode is now active.' : 'Removed Gemini API Key. Local fallback active.');
+    }
+  });
+
   bindClick('selectAll',()=>{packs.forEach(p=>selected.add(p.id));saveCategories();if($('categoryGrid'))renderCategories();if($('categorySummary'))updateCategoryText()});
   bindClick('clearAll',()=>{selected.clear();saveCategories();if($('categoryGrid'))renderCategories();if($('categorySummary'))updateCategoryText()});
   bindClick('beginRound',startRound);
@@ -647,6 +752,6 @@ if(typeof window!=='undefined'&&typeof document!=='undefined'){
   if($('exitGame'))$('exitGame').onclick=exitGameHandler;
   if($('exitReveal'))$('exitReveal').onclick=exitGameHandler;
   bindClick('roleHelp',()=>show('help'));
-  if($('playerList'))renderPlayers();if($('categorySummary'))updateCategoryText();hideLoader();
+  if($('playerList'))renderPlayers();if($('categorySummary'))updateCategoryText();initGeminiKeyUI();hideLoader();
 }
 

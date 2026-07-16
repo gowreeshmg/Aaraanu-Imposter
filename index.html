@@ -92,49 +92,50 @@
 
   <section id="setup" class="screen"><button class="back" data-go="home">← Back</button><div class="header-center"><span class="free-pill"><b>Kerala Edition</b><small>Play with your friends</small></span><h2>Set up game</h2><p>Configure before starting</p></div>
     <div class="panel"><div class="panel-head"><span>♧ &nbsp; Players</span><small id="playerTotal">3 / 10</small></div><div id="playerList" class="player-list"></div><button class="add-player" id="addPlayer">＋ Add Player</button></div>
-    <button class="panel selector" id="openCategories"><span class="selector-icon">◇</span><span><b>Categories</b><small id="categorySummary">All categories selected</small></span><i>›</i></button>
+    <button class="panel selector" id="openCategories"><span class="selector-icon">◇</span><span><b>Categories</b><small id="categorySummary">All categories selected</small></span><i id="categoriesChevron">›</i></button>
+    
+    <!-- 🔽 Expandable Dropdown Categories Panel right on Setup Page -->
+    <div id="categoriesDropdown" class="categories-dropdown">
+      <div class="categories-dropdown-inner">
+        <div class="ai-custom-category-box">
+          <div class="ai-input-row">
+            <input type="text" id="customCategoryInput" placeholder="Add custom/rare topic with AI..." aria-label="Custom category topic" />
+            <button id="addCustomCategoryBtn" class="ai-add-btn" title="Generate with Gemini / Local AI"><span>⚡</span> Quick Add</button>
+          </div>
+          <div class="ai-chatbot-launcher-row">
+            <button id="openChatbotBtn" class="ai-chatbot-launcher-btn"><span>🤖</span> Chat with Gemini AI Assistant (Any Rare Topic!)</button>
+          </div>
+          <div class="gemini-key-section">
+            <button type="button" id="toggleGeminiKeyBtn" class="gemini-key-toggle">🔑 Set Google Gemini API Key <small id="geminiKeyStatus">(Not set - Local fallback active)</small></button>
+            <div id="geminiKeyBox" class="gemini-key-box" style="display:none;">
+              <input type="password" id="geminiApiKeyInput" placeholder="Paste your Gemini API Key (AIz...)" />
+              <button id="saveGeminiKeyBtn" class="gemini-key-save-btn">Save Key</button>
+            </div>
+          </div>
+          <small class="ai-helper-text">✨ Normal built-in categories play 100% offline! When using AI for rare topics, Gemini activates via your internet connection.</small>
+        </div>
+        <div class="category-tools">
+          <button id="selectAll">Select all</button><i></i><button id="clearAll">Clear all</button>
+          <span id="categoryCount" class="category-count-badge">0 selected</span>
+        </div>
+        <!-- Compact category grid that scrolls up along with the AI quick card -->
+        <div id="categoryGrid" class="category-grid compact-grid"></div>
+      </div>
+    </div>
+
     <div class="panel game-options"><div class="game-option"><span><b>Number of Imposters</b><small>Choose how many secret Imposters play</small></span><div class="stepper"><button id="removeImposter" aria-label="Decrease Imposters">−</button><strong id="imposterTotal">1</strong><button id="addImposter" aria-label="Increase Imposters">+</button></div></div><div class="game-option"><span><b>Discussion duration</b><small>Time available for clues and debate</small></span><select id="durationSelect" class="duration-select"><option value="1">1 min</option><option value="2" selected>2 min</option><option value="3">3 min</option><option value="5">5 min</option></select></div></div>
     <div class="panel settings"><label><span>◇ <b>Imposter sees category</b><small>The Imposter can see the category name</small></span><input id="seeCategory" type="checkbox" /><i></i></label><label><span>♧ <b>Show Imposter a hint</b><small>A related word, not the secret word</small></span><input id="showHint" type="checkbox" checked /><i></i></label></div>
     <button class="primary bottom-action" id="beginRound"><span>▷</span> Start Game</button></section>
 
-  <div id="categoriesModal" class="categories-modal">
-    <div class="categories-backdrop" id="categoriesBackdrop"></div>
-    <div class="categories-dialog">
-      <div class="categories-header">
-        <div>
-          <span class="eyebrow">CUSTOMISE</span>
-          <h2>Categories</h2>
-          <p id="categoryCount">0 selected</p>
-        </div>
-        <button class="modal-close-btn" id="closeCategoriesBtn" aria-label="Close categories window">×</button>
-      </div>
-      <div class="ai-custom-category-box">
-        <div class="ai-input-row">
-          <input type="text" id="customCategoryInput" placeholder="Quick add topic (e.g. Marvel)..." aria-label="Custom category topic" />
-          <button id="addCustomCategoryBtn" class="ai-add-btn" title="Instant Quick Add"><span>⚡</span> Quick Add</button>
-        </div>
-        <div class="ai-chatbot-launcher-row">
-          <button id="openChatbotBtn" class="ai-chatbot-launcher-btn"><span>🤖</span> Chat with AI Assistant (Any Custom Topic!)</button>
-        </div>
-        <small class="ai-helper-text">✨ Use Quick Add or open the AI Chatbot Assistant to create any custom topic you want!</small>
-      </div>
-      <div class="category-tools">
-        <button id="selectAll">Select all</button><i></i><button id="clearAll">Clear all</button>
-      </div>
-      <div id="categoryGrid" class="category-grid"></div>
-      <button class="primary modal-done-btn" id="doneCategoriesBtn">Done <span>✓</span></button>
-    </div>
-  </div>
-
-  <!-- 🤖 AI Chatbot Assistant Modal -->
+  <!-- 🤖 AI Chatbot Assistant Modal (Powered by Gemini) -->
   <div id="aiChatbotModal" class="categories-modal">
     <div class="categories-backdrop" id="aiChatbotBackdrop"></div>
     <div class="categories-dialog chatbot-dialog">
       <div class="categories-header chatbot-header">
         <div>
-          <span class="eyebrow" style="color:#d3b3ff;">AI CATEGORY CREATOR</span>
-          <h2>🤖 Aaraanu AI Chatbot</h2>
-          <p style="color:#a9a5b4; font-size:12px;">Tell me what custom category or theme you want!</p>
+          <span class="eyebrow" style="color:#d3b3ff;">GEMINI AI CATEGORY CREATOR</span>
+          <h2>🤖 Aaraanu Gemini Chatbot</h2>
+          <p style="color:#a9a5b4; font-size:12px;">Ask for any rare or out-of-kind topic!</p>
         </div>
         <button class="modal-close-btn" id="closeChatbotBtn" aria-label="Close chatbot window">×</button>
       </div>
@@ -143,13 +144,13 @@
       </div>
       <div class="ai-chat-suggestions">
         <span>Try asking:</span>
-        <button class="chat-chip" data-topic="Kerala Street Food & Snacks">🌶️ Street Food</button>
-        <button class="chat-chip" data-topic="90s Malayalam Movie Actors">🎬 90s Actors</button>
-        <button class="chat-chip" data-topic="Harry Potter & Hogwarts">⚡ Harry Potter</button>
-        <button class="chat-chip" data-topic="College Canteen & Campus Life">🎓 Campus Life</button>
+        <button class="chat-chip" data-topic="Rare Kerala Folklore & Myths">🐉 Kerala Folklore</button>
+        <button class="chat-chip" data-topic="Spicy Malabar Wedding Feasts">🍛 Malabar Feast</button>
+        <button class="chat-chip" data-topic="Ancient History & Empires">👑 Ancient History</button>
+        <button class="chat-chip" data-topic="Abstract Philosophical Concepts">🌌 Philosophy</button>
       </div>
       <div class="ai-chat-input-bar">
-        <input type="text" id="aiChatInput" placeholder="Ask for any category (e.g. Malayalam Slang, Anime)..." aria-label="Chatbot input" />
+        <input type="text" id="aiChatInput" placeholder="Ask for any rare topic (e.g. Space Travel, Folklore)..." aria-label="Chatbot input" />
         <button id="aiChatSendBtn" class="ai-chat-send-btn">Send <span>➤</span></button>
       </div>
     </div>
