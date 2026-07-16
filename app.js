@@ -137,13 +137,13 @@ async function generateWithGeminiOrLocal(topic) {
       
       const promptText = `You are the Aaraanu Imposter party game AI word generator. The user requested a custom category: "${clean}".
 CRITICAL REQUIREMENTS:
-1. You MUST generate EXACTLY 12 specific, actual, real-world items/dishes/entities/names belonging to "${clean}". Every single word MUST be a real, authentic entity!
-2. Each pair contains:
-   - Civilian Word (English)
-   - Civilian Word (Malayalam script/translation)
-   - Imposter Word (English) - CRITICAL GOLDEN RULE: The Imposter Word MUST be a distinct, subtly related item from the same general domain/theme so the imposter can blend into the conversation (e.g., if Civilian gets "Kochi Kayal Biryani", Imposter gets "Backwater Fish Pulao" or "Malabar Ghee Rice"; if Civilian gets "Chicken Kuzhi Mandi", Imposter gets "Al-Faham Pepper Roast"), BUT the Imposter Word MUST NEVER contain any shared noun or category keyword from the Civilian Word (NEVER put the word "Biryani" in both, NEVER put "Mandi" in both, NEVER share exact words between Civilian and Imposter). The imposter should NEVER be able to easily guess the exact secret word just from reading their own card!
-   - Imposter Word (Malayalam script/translation)
-3. Return ONLY a valid JSON array of 12 arrays without markdown or code blocks:
+1. You MUST generate EXACTLY 12 specific, actual, real-world items/dishes/entities/names belonging strictly to "${clean}". Every single word MUST be a real, authentic entity!
+2. ENTITY ACCURACY & MATCHING TYPE (STRICT RULE):
+   - The Civilian Word MUST NEVER be an actor's real name if the category asks for characters! If the category is about movie characters (like "Lucifer movie characters" or "Harry Potter characters"), every single Civilian Word MUST be an actual character name inside that movie/universe (e.g., "Stephen Nedumpally", "Bobby", "Khureshi Ab'ram", "Priyadarshini", "Govardhan"). DO NOT give actor names (like Mohanlal, Suresh Gopi, Vivek Oberoi) as Civilian Words when characters are requested!
+   - Both the Civilian Word AND the Imposter Word MUST be entities of the EXACT SAME TYPE and level of specificity (e.g., if Civilian gets a character from the movie, Imposter MUST get a different character from the same movie/universe, NEVER an actor's real name and NEVER the opposite type). NEVER swap actor names and character names! Both Civilian and Imposter get items of the same category level.
+3. GOLDEN RULE FOR IMPOSTER WORD:
+   - The Imposter Word MUST be a distinct, subtly related item from the exact same general domain/theme so the imposter can blend into the conversation (e.g., if Civilian gets "Stephen Nedumpally", Imposter gets "Zayed Masood" or "Govardhan"; if Civilian gets "Kochi Kayal Biryani", Imposter gets "Backwater Fish Pulao"), BUT the Imposter Word MUST NEVER contain any shared noun or exact duplicate keyword from the Civilian Word. The imposter should NEVER be able to easily guess the exact secret word just from reading their own card!
+4. Return ONLY a valid JSON array of 12 arrays without markdown or code blocks:
 [["CivEng", "CivMal", "ImpEng", "ImpMal"], ...]`;
 
       const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
@@ -283,7 +283,37 @@ Or literally anything else you can imagine! I will create 12 bilingual Malayalam
         ['Sweet Unniyappam', 'ഉണ്ണിയപ്പം', 'Traditional Neyyappam', 'നെയ്യപ്പം'],
         ['Chilli Baji Snack', 'മുളക് ബജ്ജി', 'Potato Masala Bonda', 'ബോണ്ട']
       ];
-    } else if (lower.includes('actor') || lower.includes('movie') || lower.includes('cinema') || lower.includes('hero')) {
+    } else if (lower.includes('lucifer') || lower.includes('empuraan') || lower.includes('stephen nedumpally')) {
+      return [
+        ['Stephen Nedumpally', 'സ്റ്റീഫൻ നെടുമ്പള്ളി', 'Zayed Masood', 'സയീദ് മസൂദ്'],
+        ['Khureshi Ab\'ram', 'ഖുറേഷി അബ്രാം', 'Sagar Alias Jacky', 'സാഗർ ഏലിയാസ് ജാക്കി'],
+        ['Bimal Nair / Bobby', 'ബോബി', 'Jatin Ramdas', 'ജതിൻ രാംദാസ്'],
+        ['Priyadarshini Ramdas', 'പ്രിയദർശിനി', 'Anitha / Medha', 'അനിത'],
+        ['Govardhan', 'ഗോവർദ്ധൻ', 'Murugan Lorry Driver', 'മുരുകൻ'],
+        ['P.K. Ramdas (PKR)', 'പി.കെ. രാംദാസ്', 'Mahesh Varma Sir', 'വർമ്മ സാർ'],
+        ['Sanjeev / Sanju', 'സഞ്ജു', 'Aloshy', 'അലോഷി'],
+        ['Mayilvahanam IPS', 'മയിൽവാഹനം', 'IG Joseph', 'ഐജി ജോസഫ്'],
+        ['Nedumpally Estate', 'നെടുമ്പള്ളി എസ്റ്റേറ്റ്', 'Gold Syndicate Club', 'ഗോൾഡ് സിൻഡിക്കേറ്റ്'],
+        ['Sreekanth Varma', 'ശ്രീകാന്ത് വർമ്മ', 'Ranga Annan', 'രംഗ അണ്ണൻ'],
+        ['Bhadran', 'ഭദ്രൻ', 'Michael Appan', 'മൈക്കിൾ അപ്പൻ'],
+        ['Nair / Father', 'നായർ അച്ചൻ', 'Koshy Kurien', 'കോശി കുര്യൻ']
+      ];
+    } else if (lower.includes('character') || (lower.includes('movie') && (lower.includes('role') || lower.includes('name')))) {
+      return [
+        ['Stephen Nedumpally', 'സ്റ്റീഫൻ നെടുമ്പള്ളി', 'Zayed Masood', 'സയീദ് മസൂദ്'],
+        ['Georgekutty', 'മൈക്കിൾ അപ്പൻ', 'Koshy Kurien', 'അയ്യപ്പൻ നായർ'],
+        ['Nagavalli', 'നാഗവല്ലി', 'Digambaran', 'ദിഗംബരൻ'],
+        ['Sethumadhavan', 'സേതുമാധവൻ', 'Induchoodan', 'ഇന്ദുചൂഡൻ'],
+        ['Dasan', 'ദാസൻ', 'Gafoor Ka Dosth', 'ഗഫൂർ ക്യാപ്റ്റൻ'],
+        ['Mangalassery Neelakandan', 'നീലകണ്ഠൻ', 'Aadu Thoma', 'ആടു തോമ'],
+        ['Appukuttan', 'അപ്പുകുട്ടൻ', 'Ramanan', 'രമണൻ'],
+        ['Dashamoolam Damu', 'ദശമൂലം ദാമു', 'Keeleri Achu', 'കീശേരി അച്ചു'],
+        ['Ganga', 'ഗംഗ', 'Anandavalli', 'ആനന്ദവല്ലി'],
+        ['Shammi', 'ഷമ്മി', 'Michael Appan', 'മൈക്കിൾ അപ്പൻ'],
+        ['Ranga', 'രംഗ', 'Kattalan Porinchu', 'പൊറിഞ്ചു'],
+        ['Dileep Role / CID Moosa', 'സിഐഡി മൂസ', 'Pavanayi', 'പവനായി']
+      ];
+    } else if (lower.includes('actor') || lower.includes('actress') || lower.includes('star') || lower.includes('hero') || lower.includes('cinema')) {
       return [
         ['Mohanlal', 'മോഹൻലാൽ', 'Mammootty', 'മമ്മൂട്ടി'],
         ['Suresh Gopi', 'സുരേഷ് ഗോപി', 'Jayaram', 'ജയറാം'],
@@ -496,7 +526,7 @@ const IMPOSTER_SINGLE_WORDS = {
   'Nadodikkattu': 'Pattanapravesham', 'Thenmavin Kombath': 'Spadikam', 'Kilukkam': 'Chithram', 'Chithram': 'Kilukkam', 'Manichitrathazhu': 'Anandabhadram', 'Drishyam': 'Memories Thriller', 'Kumbalangi Nights': 'Maheshinte Prathikaaram', 'Bangalore Days': 'Premam Movie', 'Premam': 'Hridayam', 'Traffic': 'Take Off', 'Indian Rupee': 'Pranchiyettan', 'Romancham': 'In Harihar Nagar', 'Premalu': 'Super Sharanya', 'Aavesham': 'Rajamanikyam', 'Bramayugam': 'Tumbbad Folklore', 'Manjummel Boys': '2018 Survival', 'Godfather': 'Ramji Rao Speaking', 'Malaikottai Vaaliban': 'Double Barrel', 'Minnal Murali': 'Chota Mumbai', 'Kishkindha Kaandam': 'Iratta Mystery', 'Rorschach': 'Kannur Squad', 'Kattappanayile Rithwik Roshan': 'Udayananu Tharam', 'Varathan': 'Kala Estate', 'Bheeshma Parvam': 'Big B Saga', 'Memories': 'Anjaam Pathiraa', 'Classmates': 'Puthiya Mukham', 'Spadikam': 'Devasuram',
 
   // Characters
-  'Georgekutty': 'Michael Appan', 'Nagavalli': 'Neelakandan', 'Sethumadhavan': 'Induchoodan', 'Dasan': 'Gafoor Captain', 'Mangalassery Neelakandan': 'Induchoodan', 'Appukuttan': 'Ramanan', 'Ramanan': 'Dashamoolam Damu', 'Induchoodan': 'Neelakandan', 'Kunjikoonan': 'Rameshan Nair', 'Koshy Kurien': 'Ayyappan Nair', 'Ayyappan Nair': 'Koshy Kurien', 'Mahesh Bhavana': 'Kunjiraman', 'Biju Paulose': 'Sethurama Iyer', 'Rameshan Nair': 'Georgekutty', 'Pachu': 'Kuttan', 'Kunjiraman': 'Manavalan', 'Pavanayi': 'Keeleri Achu', 'Manavalan': 'Dashamoolam Damu', 'Ganga': 'Anandavalli', 'Rukmini': 'Anandavalli', 'Girish M.A.': 'Sachin Boy', 'Shammi': 'Koshy Kurien', 'Ranga': 'Michael Appan', 'Dashamoolam Damu': 'Keeleri Achu', 'Gafoor Ka Dosth': 'Pavanayi', 'Anandavalli': 'Ganga', 'Beemboy': 'Keeleri Achu', 'Kattalan Porinchu': 'Neelakandan', 'Digambaran': 'Nagavalli', 'Dileep Role': 'Gafoor Captain', 'Kuttan': 'Mahesh Bhavana', 'Krishnan': 'Porinchu', 'Sachy': 'Kuruvila Inspector', 'Aadu Thoma': 'Induchoodan', 'Keeleri Achu': 'Dashamoolam Damu', 'Niranjan': 'Sethumadhavan',
+  'Georgekutty': 'Michael Appan', 'Nagavalli': 'Neelakandan', 'Sethumadhavan': 'Induchoodan', 'Dasan': 'Gafoor Captain', 'Mangalassery Neelakandan': 'Induchoodan', 'Appukuttan': 'Ramanan', 'Ramanan': 'Dashamoolam Damu', 'Induchoodan': 'Neelakandan', 'Kunjikoonan': 'Rameshan Nair', 'Koshy Kurien': 'Ayyappan Nair', 'Ayyappan Nair': 'Koshy Kurien', 'Mahesh Bhavana': 'Kunjiraman', 'Biju Paulose': 'Sethurama Iyer', 'Rameshan Nair': 'Georgekutty', 'Pachu': 'Kuttan', 'Kunjiraman': 'Manavalan', 'Pavanayi': 'Keeleri Achu', 'Manavalan': 'Dashamoolam Damu', 'Ganga': 'Anandavalli', 'Rukmini': 'Anandavalli', 'Girish M.A.': 'Sachin Boy', 'Shammi': 'Koshy Kurien', 'Ranga': 'Michael Appan', 'Dashamoolam Damu': 'Keeleri Achu', 'Gafoor Ka Dosth': 'Pavanayi', 'Anandavalli': 'Ganga', 'Beemboy': 'Keeleri Achu', 'Kattalan Porinchu': 'Neelakandan', 'Digambaran': 'Nagavalli', 'Dileep Role': 'Gafoor Captain', 'Kuttan': 'Mahesh Bhavana', 'Krishnan': 'Porinchu', 'Sachy': 'Kuruvila Inspector', 'Aadu Thoma': 'Induchoodan', 'Keeleri Achu': 'Dashamoolam Damu', 'Niranjan': 'Sethumadhavan', 'Stephen Nedumpally': 'Zayed Masood', 'Khureshi Ab\'ram': 'Sagar Alias Jacky', 'Bimal Nair / Bobby': 'Jatin Ramdas', 'Priyadarshini Ramdas': 'Anitha / Medha', 'Govardhan': 'Murugan Lorry Driver', 'P.K. Ramdas (PKR)': 'Mahesh Varma Sir', 'Sanjeev / Sanju': 'Aloshy', 'Mayilvahanam IPS': 'IG Joseph', 'Nedumpally Estate': 'Gold Syndicate Club', 'Sreekanth Varma': 'Ranga Annan', 'Bhadran': 'Michael Appan', 'Nair / Father': 'Koshy Kurien',
 
   // Festivals
   'Onam': 'Vishu Festival', 'Vishu': 'Onam Celebration', 'Thrissur Pooram': 'Attukal Pongala', 'Attukal Pongala': 'Thrissur Pooram', 'Vallamkali': 'Nehru Trophy Race', 'Theyyam': 'Kathakali Art', 'Pulikali': 'Chenda Melam',
@@ -526,7 +556,7 @@ const IMPOSTER_MALAYALAM_SINGLE_WORDS = {
   'Nadodikkattu': 'പട്ടണപ്രവേശം', 'Thenmavin Kombath': 'സ്ഫടികം', 'Kilukkam': 'ചിത്രം', 'Chithram': 'കിലുക്കം', 'Manichitrathazhu': 'അനന്തഭദ്രം', 'Drishyam': 'മെമ്മറീസ്', 'Kumbalangi Nights': 'മഹേഷിന്റെ പ്രതികാരം', 'Bangalore Days': 'പ്രേമം', 'Premam': 'ഹൃദയം', 'Traffic': 'ടേക്ക് ഓഫ്', 'Indian Rupee': 'പ്രാഞ്ചിയേട്ടൻ', 'Romancham': 'ഇൻ ഹരിഹർ നഗർ', 'Premalu': 'സൂപ്പർ ശരണ്യ', 'Aavesham': 'രാജമാണിക്യം', 'Bramayugam': 'തുമ്പാട്', 'Manjummel Boys': '2018 സിനിമ', 'Godfather': 'റാംജി റാവു സ്പീക്കിംഗ്', 'Malaikottai Vaaliban': 'ഡബിൾ ബാരൽ', 'Minnal Murali': 'ഛോട്ടാ മുംബൈ', 'Kishkindha Kaandam': 'ഇരട്ട', 'Rorschach': 'കണ്ണൂർ സ്ക്വാഡ്', 'Kattappanayile Rithwik Roshan': 'ഉദയനാണ് താരം', 'Varathan': 'കള', 'Bheeshma Parvam': 'ബിഗ് ബി', 'Memories': 'അഞ്ചാം പാതിരാ', 'Classmates': 'പുതിയ മുഖം', 'Spadikam': 'ദേവാസുരം',
 
   // Characters
-  'Georgekutty': 'മൈക്കിൾ അപ്പൻ', 'Nagavalli': 'നീലകണ്ഠൻ', 'Sethumadhavan': 'ഇന്ദുചൂഡൻ', 'Dasan': 'ഗഫൂർ ക്യാപ്റ്റൻ', 'Mangalassery Neelakandan': 'ഇന്ദുചൂഡൻ', 'Appukuttan': 'രമണൻ', 'Ramanan': 'ദശമൂലം ദാമു', 'Induchoodan': 'നീലകണ്ഠൻ', 'Kunjikoonan': 'രമേശൻ നായർ', 'Koshy Kurien': 'അയ്യപ്പൻ നായർ', 'Ayyappan Nair': 'കോശി കുര്യൻ', 'Mahesh Bhavana': 'കുഞ്ഞിരാമൻ', 'Biju Paulose': 'സേതുരാമ അയ്യർ', 'Rameshan Nair': 'ജോർജ് കുട്ടി', 'Pachu': 'കുട്ടൻ', 'Kunjiraman': 'മണവാളൻ', 'Pavanayi': 'കീശേരി അച്ചു', 'Manavalan': 'ദശമൂലം ദാമു', 'Ganga': 'ആനന്ദവല്ലി', 'Rukmini': 'ആനന്ദവല്ലി', 'Girish M.A.': 'സച്ചിൻ', 'Shammi': 'കോശി കുര്യൻ', 'Ranga': 'മൈക്കിൾ അപ്പൻ', 'Dashamoolam Damu': 'കീശേരി അച്ചു', 'Gafoor Ka Dosth': 'പവനായി', 'Anandavalli': 'ഗംഗ', 'Beemboy': 'കീശേരി അച്ചു', 'Kattalan Porinchu': 'നീലകണ്ഠൻ', 'Digambaran': 'നാഗവല്ലി', 'Dileep Role': 'ഗഫൂർ ക്യാപ്റ്റൻ', 'Kuttan': 'മഹേഷ് ഭാവന', 'Krishnan': 'പൊറിഞ്ചു', 'Sachy': 'കുരുവിള ഇൻസ്പെക്ടർ', 'Aadu Thoma': 'ഇന്ദുചൂഡൻ', 'Keeleri Achu': 'ദശമൂലം ദാമു', 'Niranjan': 'സേതുമാധവൻ',
+  'Georgekutty': 'മൈക്കിൾ അപ്പൻ', 'Nagavalli': 'നീലകണ്ഠൻ', 'Sethumadhavan': 'ഇന്ദുചൂഡൻ', 'Dasan': 'ഗഫൂർ ക്യാപ്റ്റൻ', 'Mangalassery Neelakandan': 'ഇന്ദുചൂഡൻ', 'Appukuttan': 'രമണൻ', 'Ramanan': 'ദശമൂലം ദാമു', 'Induchoodan': 'നീലകണ്ഠൻ', 'Kunjikoonan': 'രമേശൻ നായർ', 'Koshy Kurien': 'അയ്യപ്പൻ നായർ', 'Ayyappan Nair': 'കോശി കുര്യൻ', 'Mahesh Bhavana': 'കുഞ്ഞിരാമൻ', 'Biju Paulose': 'സേതുരാമ അയ്യർ', 'Rameshan Nair': 'ജോർജ് കുട്ടി', 'Pachu': 'കുട്ടൻ', 'Kunjiraman': 'മണവാളൻ', 'Pavanayi': 'കീശേരി അച്ചു', 'Manavalan': 'ദശമൂലം ദാമു', 'Ganga': 'ആനന്ദവല്ലി', 'Rukmini': 'ആനന്ദവല്ലി', 'Girish M.A.': 'സച്ചിൻ', 'Shammi': 'കോശി കുര്യൻ', 'Ranga': 'മൈക്കിൾ അപ്പൻ', 'Dashamoolam Damu': 'കീശേരി അച്ചു', 'Gafoor Ka Dosth': 'പവനായി', 'Anandavalli': 'ഗംഗ', 'Beemboy': 'കീശേരി അച്ചു', 'Kattalan Porinchu': 'നീലകണ്ഠൻ', 'Digambaran': 'നാഗവല്ലി', 'Dileep Role': 'ഗഫൂർ ക്യാപ്റ്റൻ', 'Kuttan': 'മഹേഷ് ഭാവന', 'Krishnan': 'പൊറിഞ്ചു', 'Sachy': 'കുരുവിള ഇൻസ്പെക്ടർ', 'Aadu Thoma': 'ഇന്ദുചൂഡൻ', 'Keeleri Achu': 'ദശമൂലം ദാമു', 'Niranjan': 'സേതുമാധവൻ', 'Stephen Nedumpally': 'സയീദ് മസൂദ്', 'Khureshi Ab\'ram': 'സാഗർ ഏലിയാസ് ജാക്കി', 'Bimal Nair / Bobby': 'ജതിൻ രാംദാസ്', 'Priyadarshini Ramdas': 'അനിത', 'Govardhan': 'മുരുകൻ', 'P.K. Ramdas (PKR)': 'വർമ്മ സാർ', 'Sanjeev / Sanju': 'അലോഷി', 'Mayilvahanam IPS': 'ഐജി ജോസഫ്', 'Nedumpally Estate': 'ഗോൾഡ് സിൻഡിക്കേറ്റ്', 'Sreekanth Varma': 'രംഗ അണ്ണൻ', 'Bhadran': 'മൈക്കിൾ അപ്പൻ', 'Nair / Father': 'കോശി കുര്യൻ',
 
   // Festivals
   'Onam': 'വിഷു ഉത്സവം', 'Vishu': 'ഓണാഘോഷം', 'Thrissur Pooram': 'ആറ്റുകാൽ പൊങ്കാല', 'Attukal Pongala': 'തൃശ്ശൂർ പൂരം', 'Vallamkali': 'നെഹ്റു ട്രോഫി', 'Theyyam': 'കഥകളി', 'Pulikali': 'ചെണ്ടമേളം',
@@ -616,7 +646,15 @@ const CHARACTER_DETAILS = {
   'Sachy': { movie: 'Driving Licence', movieMalayalam: 'ഡ്രൈവിംഗ് ലൈസൻസ്', role: 'Strict Motor Vehicle Inspector and die-hard superstar fan (Kuruvila Joseph) whose hurt pride leads to a public clash', roleMalayalam: 'തന്റെ പ്രിയപ്പെട്ട സിനിമാ നടനുമായുള്ള തെറ്റിദ്ധാരണ മൂലം വാശിയിലാകുന്ന മോട്ടോർ വെഹിക്കിൾ ഇൻസ്പെക്ടർ' },
   'Aadu Thoma': { movie: 'Spadikam', movieMalayalam: 'സ്ഫടികം', role: 'Rebellious quarry owner and lorry driver (Thomas Chacko) with Ray-Ban glasses who defied his strict mathematician father', roleMalayalam: 'റെയ്ബാൻ ഗ്ലാസ്സുവെച്ച് ജീവിക്കുന്ന ധീരനായ ലോറി ഡ്രൈവറും ക്വാറി ഉടമയുമായ തോമസ് ചാക്കോ' },
   'Keeleri Achu': { movie: 'Kalyanaraman', movieMalayalam: 'കല്യാണരാമൻ', role: 'Comical muscleman and gym master whose harmless boasting and physical stunts create riotous wedding laughter', roleMalayalam: 'വലിയ ഗുണ്ടയാണെന്ന് ഭാവിക്കുന്ന തമാശക്കാരനായ ജിം മാസ്റ്റർ' },
-  'Niranjan': { movie: 'Summer in Bethlehem', movieMalayalam: 'സമ്മർ ഇൻ ബേത്‌ലഹേം', role: 'Philosophical death-row prisoner who shares a deeply moving final meeting with his beloved before his execution', roleMalayalam: 'വധശിക്ഷയ്ക്ക് മുമ്പ് തനിക്ക് പ്രിയപ്പെട്ടവളെ അവസാനമായി കാണുന്ന വൈകാരികമായ കഥാപാത്രം' }
+  'Niranjan': { movie: 'Summer in Bethlehem', movieMalayalam: 'സമ്മർ ഇൻ ബേത്‌ലഹേം', role: 'Philosophical death-row prisoner who shares a deeply moving final meeting with his beloved before his execution', roleMalayalam: 'വധശിക്ഷയ്ക്ക് മുമ്പ് തനിക്ക് പ്രിയപ്പെട്ടവളെ അവസാനമായി കാണുന്ന വൈകാരികമായ കഥാപാത്രം' },
+  'Stephen Nedumpally': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'Enigmatic political mastermind and secret international gold syndicate leader (Khureshi Ab\'ram) protecting the Ramdas family', roleMalayalam: 'രാംദാസ് കുടുംബത്തെ സംരക്ഷിക്കുന്ന രാഷ്ട്രീയ നേതാവും അന്താരാഷ്ട്ര ഗോൾഡ് സിൻഡിക്കേറ്റ് തലവനുമായ ഖുറേഷി അബ്രാം' },
+  'Khureshi Ab\'ram': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'The feared global don identity of Stephen Nedumpally operating from the shadows across international borders', roleMalayalam: 'അന്താരാഷ്ട്ര അധോലോകത്തെയും ഗോൾഡ് സിൻഡിക്കേറ്റിനെയും നയിക്കുന്ന സ്റ്റീഫൻ നെടുമ്പള്ളിയുടെ യഥാർത്ഥ മുഖം' },
+  'Bimal Nair / Bobby': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'Ambitious, manipulative businessman who marries Priyadarshini and conspires with drug cartels to seize political power', roleMalayalam: 'അധികാരത്തിനും പണത്തിനും വേണ്ടി മയക്കുമരുന്ന് മാഫിയയുമായി ചേരുന്ന കുതന്ത്രശാലിയായ ബോബി' },
+  'Priyadarshini Ramdas': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'Daughter of late CM P.K. Ramdas who fiercely guards her family honor while discovering Stephen\'s true loyalty', roleMalayalam: 'പി.കെ. രാംദാസിന്റെ മകളും കുടുംബത്തിന്റെ അഭിമാനത്തിനായി നിലകൊള്ളുന്ന ശക്തയായ സ്ത്രീയും' },
+  'Govardhan': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'Relentless conspiracy theorist and truth-seeking vigilante who uncovers the secret web of political corruption and crime', roleMalayalam: 'രാഷ്ട്രീയ കൊലപാതകങ്ങളുടെയും അഴിമതിയുടെയും രഹസ്യ രേഖകൾ പുറത്തു കൊണ്ടുവരുന്ന സത്യസന്ധൻ' },
+  'P.K. Ramdas (PKR)': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'The iconic veteran Chief Minister of Kerala whose sudden death triggers a massive political battle for succession', roleMalayalam: 'കേരള രാഷ്ട്രീയത്തിലെ അതികായനും പെട്ടെന്നുള്ള മരണത്തിലൂടെ വലിയ അധികാരത്തർക്കത്തിന് വഴിവെച്ച മുഖ്യമന്ത്രിയും' },
+  'Sanjeev / Sanju': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'Deeply troubled son of Priyadarshini who is trapped and blackmailed by Bobby’s dark underworld network', roleMalayalam: 'ബോബിയുടെ ചതിയിലും ഭീഷണികളിലും കുടുങ്ങിപ്പോകുന്ന പ്രിയദർശിനിയുടെ മകൻ' },
+  'Zayed Masood': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'Elite mercenary and fiercely loyal lieutenant of Khureshi Ab\'ram who leads covert paramilitary operations', roleMalayalam: 'ഖുറേഷി അബ്രാമിന്റെ വിശ്വസ്തനും കമാൻഡോ ഓപ്പറേഷനുകൾ നയിക്കുന്ന കരുത്തനുമായ പോരാളി' }
 };
 
 function chooseWord(){
@@ -629,30 +667,44 @@ function chooseWord(){
   
   // Golden Rule: Imposter word MUST be subtly related to actual word in the exact same domain/theme,
   // NEVER identical or sharing exact duplicate tokens (e.g., if civilian is Kappa Biryani, imposter cannot get Kappa or Biryani).
-  let impWord = IMPOSTER_SINGLE_WORDS[picked[0]];
-  let impMalWord = IMPOSTER_MALAYALAM_SINGLE_WORDS[picked[0]];
+  let impWord = null;
+  let impMalWord = null;
 
-  // If word not directly in map (or from AI custom category), smartly pick a related sibling word from the pack
-  // or use the pre-paired AI hint that does NOT overlap keywords with the civilian word
-  if (!impWord || !impMalWord || impWord.toLowerCase() === picked[0].toLowerCase() || picked[0].toLowerCase().includes(impWord.toLowerCase())) {
-    if (picked[2] && picked[3] && picked[2] !== picked[0] && !picked[0].toLowerCase().includes(picked[2].split(' ')[0].toLowerCase())) {
+  // 1. First, check if the pair itself has a custom paired imposter word (e.g. from AI or specialized local categories like Lucifer/characters)
+  if (picked[2] && picked[3] && picked[2] !== 'Related Secret' && picked[2] !== picked[0]) {
+    const w0Lower = picked[0].toLowerCase();
+    const w2Lower = picked[2].toLowerCase();
+    const w2First = picked[2].split(' ')[0].toLowerCase();
+    if (w0Lower !== w2Lower && !w0Lower.includes(w2Lower) && !w2Lower.includes(w0Lower) && !w0Lower.includes(w2First)) {
       impWord = picked[2];
       impMalWord = picked[3];
+    }
+  }
+
+  // 2. If not set from picked[2], check our static dictionary of famous pairs
+  if (!impWord || !impMalWord) {
+    const dictImp = IMPOSTER_SINGLE_WORDS[picked[0]];
+    const dictImpMal = IMPOSTER_MALAYALAM_SINGLE_WORDS[picked[0]];
+    if (dictImp && dictImpMal && dictImp.toLowerCase() !== picked[0].toLowerCase() && !picked[0].toLowerCase().includes(dictImp.toLowerCase())) {
+      impWord = dictImp;
+      impMalWord = dictImpMal;
+    }
+  }
+
+  // 3. If still not set, smartly pick a related sibling word from the same category that has zero keyword overlap
+  if (!impWord || !impMalWord) {
+    const siblings = category.words.filter(w => {
+      const w0Lower = w[0].toLowerCase();
+      const p0Lower = picked[0].toLowerCase();
+      return w0Lower !== p0Lower && !p0Lower.includes(w0Lower) && !w0Lower.includes(p0Lower);
+    });
+    if (siblings.length) {
+      const sib = siblings[Math.floor(Math.random() * siblings.length)];
+      impWord = sib[0];
+      impMalWord = sib[1];
     } else {
-      // Find another word in this category that has zero keyword overlap
-      const siblings = category.words.filter(w => {
-        const w0Lower = w[0].toLowerCase();
-        const p0Lower = picked[0].toLowerCase();
-        return w0Lower !== p0Lower && !p0Lower.includes(w0Lower) && !w0Lower.includes(p0Lower);
-      });
-      if (siblings.length) {
-        const sib = siblings[Math.floor(Math.random() * siblings.length)];
-        impWord = sib[0];
-        impMalWord = sib[1];
-      } else {
-        impWord = CATEGORY_SINGLE_WORDS[category.name] || 'Related Secret';
-        impMalWord = CATEGORY_MALAYALAM_SINGLE_WORDS[category.name] || 'ബന്ധമുള്ള വാക്ക്';
-      }
+      impWord = picked[2] || CATEGORY_SINGLE_WORDS[category.name] || 'Related Secret';
+      impMalWord = picked[3] || CATEGORY_MALAYALAM_SINGLE_WORDS[category.name] || 'ബന്ധമുള്ള വാക്ക്';
     }
   }
 
