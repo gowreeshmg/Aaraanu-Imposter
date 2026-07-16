@@ -97,7 +97,31 @@
     <div class="panel settings"><label><span>◇ <b>Imposter sees category</b><small>The Imposter can see the category name</small></span><input id="seeCategory" type="checkbox" /><i></i></label><label><span>♧ <b>Show Imposter a hint</b><small>A related word, not the secret word</small></span><input id="showHint" type="checkbox" checked /><i></i></label></div>
     <button class="primary bottom-action" id="beginRound"><span>▷</span> Start Game</button></section>
 
-  <section id="categories" class="screen"><button class="back" data-go="setup">← Back</button><div class="header-center"><span class="eyebrow">CUSTOMISE</span><h2>Categories</h2><p id="categoryCount">0 of 14 selected</p></div><div class="category-tools"><button id="selectAll">Select all</button><i></i><button id="clearAll">Clear all</button></div><div id="categoryGrid" class="category-grid"></div><button class="primary bottom-action" data-go="setup">Done <span>✓</span></button></section>
+  <div id="categoriesModal" class="categories-modal">
+    <div class="categories-backdrop" id="categoriesBackdrop"></div>
+    <div class="categories-dialog">
+      <div class="categories-header">
+        <div>
+          <span class="eyebrow">CUSTOMISE</span>
+          <h2>Categories</h2>
+          <p id="categoryCount">0 selected</p>
+        </div>
+        <button class="modal-close-btn" id="closeCategoriesBtn" aria-label="Close categories window">×</button>
+      </div>
+      <div class="ai-custom-category-box">
+        <div class="ai-input-row">
+          <input type="text" id="customCategoryInput" placeholder="Type custom topic (e.g. Marvel, 90s Hits)..." aria-label="Custom category topic" />
+          <button id="addCustomCategoryBtn" class="ai-add-btn"><span>🤖</span> Add with AI</button>
+        </div>
+        <small class="ai-helper-text">✨ AI generates subtle related Imposter words & descriptions!</small>
+      </div>
+      <div class="category-tools">
+        <button id="selectAll">Select all</button><i></i><button id="clearAll">Clear all</button>
+      </div>
+      <div id="categoryGrid" class="category-grid"></div>
+      <button class="primary modal-done-btn" id="doneCategoriesBtn">Done <span>✓</span></button>
+    </div>
+  </div>
 
   <section id="pass" class="screen swipe-screen"><button class="game-exit" id="exitGame" aria-label="Exit game">×</button><div class="swipe-heading"><span style="display:none;"><span id="roundNumber">1</span></span><span>Player</span><strong id="passName">Player</strong></div>
   

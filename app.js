@@ -16,40 +16,236 @@ function savePlayers() {
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(players));
   } catch(e) {}
 }
-let players=loadSavedPlayers(),selected=new Set((packs||[]).map(p=>p.id)),round=1,currentPlayer=0,imposters=new Set(),imposterCount=1,word=null,showMalayalam=false,selectedVote=-1,timerId;
+const CATEGORIES_STORAGE_KEY = 'aaraanu_imposter_saved_categories';
+const CUSTOM_CATEGORIES_STORAGE_KEY = 'aaraanu_imposter_custom_categories';
+
+function loadCustomCategories() {
+  if (typeof window === 'undefined' || !window.localStorage) return [];
+  try {
+    const saved = JSON.parse(window.localStorage.getItem(CUSTOM_CATEGORIES_STORAGE_KEY));
+    if (Array.isArray(saved)) return saved;
+  } catch(e) {}
+  return [];
+}
+function saveCustomCategories(customList) {
+  if (typeof window === 'undefined' || !window.localStorage) return;
+  try {
+    window.localStorage.setItem(CUSTOM_CATEGORIES_STORAGE_KEY, JSON.stringify(customList));
+  } catch(e) {}
+}
+
+const loadedCustom = loadCustomCategories();
+if (loadedCustom && loadedCustom.length) {
+  loadedCustom.forEach(cp => {
+    if (!packs.some(p => p.id === cp.id)) {
+      packs.push(cp);
+    }
+  });
+}
+
+function loadSavedCategories() {
+  if (typeof window === 'undefined' || !window.localStorage) return null;
+  try {
+    const saved = JSON.parse(window.localStorage.getItem(CATEGORIES_STORAGE_KEY));
+    if (Array.isArray(saved) && saved.length > 0) return new Set(saved);
+  } catch(e) {}
+  return null;
+}
+function saveCategories() {
+  if (typeof window === 'undefined' || !window.localStorage) return;
+  try {
+    window.localStorage.setItem(CATEGORIES_STORAGE_KEY, JSON.stringify(Array.from(selected)));
+  } catch(e) {}
+}
+
+let players=loadSavedPlayers(),selected=loadSavedCategories()||new Set((packs||[]).map(p=>p.id)),round=1,currentPlayer=0,imposters=new Set(),imposterCount=1,word=null,showMalayalam=false,selectedVote=-1,timerId;
 const $=id=>typeof document!=='undefined'?document.getElementById(id):null;const show=id=>{if(typeof document==='undefined')return;document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));if($(id))$(id).classList.add('active');if(id==='home'){document.body.style.background='#060509';document.documentElement.style.background='#060509';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='#060509';}else{document.body.style.background='#0d0c13';document.documentElement.style.background='#0d0c13';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='';}if(typeof window!=='undefined'&&window.scrollTo)window.scrollTo(0,0)};
 const hideLoader=()=>{if(typeof document==='undefined')return;const l=document.getElementById('loader');if(l&&!l.classList.contains('done')){const startTime=window.__loaderStartTime||(Date.now()-5000);const elapsed=Date.now()-startTime;const rem=Math.max(0,5000-elapsed);setTimeout(()=>{l.classList.add('done');document.body.style.background='#060509';document.documentElement.style.background='#060509';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='#060509';var h=document.getElementById('home');if(h){window.dispatchEvent(new Event('resize'));}setTimeout(()=>{if(l&&l.parentNode)l.style.display='none'},450)},rem)}};
 if(typeof window!=='undefined'&&typeof document!=='undefined'){hideLoader();window.addEventListener('load',hideLoader);window.addEventListener('DOMContentLoaded',hideLoader);setTimeout(hideLoader,5000);}
 function renderPlayers(){if(typeof document==='undefined')return;const list=$('playerList');if(!list)return;list.innerHTML='';players.forEach((name,i)=>{const row=document.createElement('div');row.className='player-row';row.innerHTML=`<span class="player-number">${i+1}</span><input value="${name.replace(/"/g,'&quot;')}" aria-label="Player ${i+1} name"><button class="remove-player" aria-label="Remove player"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path></svg></button>`;row.querySelector('input').oninput=e=>{players[i]=e.target.value||`Player ${i+1}`;savePlayers();};row.querySelector('button').onclick=()=>{if(players.length>3){players.splice(i,1);if(imposterCount>Math.floor(players.length/2)){imposterCount=Math.max(1,Math.floor(players.length/2));if($('imposterTotal'))$('imposterTotal').textContent=imposterCount}renderPlayers();savePlayers();}};list.append(row)});if($('playerTotal'))$('playerTotal').textContent=`${players.length} / 10`;}
-function renderCategories(){if(typeof document==='undefined')return;const grid=$('categoryGrid');if(!grid)return;grid.innerHTML='';packs.forEach(p=>{const b=document.createElement('button');b.className=`category-card ${selected.has(p.id)?'selected':''}`;b.innerHTML=`<span class="cat-icon">${p.icon}</span><b>${p.name}</b><small>${p.words.length} words</small>`;b.onclick=()=>{selected.has(p.id)?selected.delete(p.id):selected.add(p.id);renderCategories();updateCategoryText()};grid.append(b)});if($('categoryCount'))$('categoryCount').textContent=`${selected.size} of ${packs.length} selected`;}
+function renderCategories(){if(typeof document==='undefined')return;const grid=$('categoryGrid');if(!grid)return;grid.innerHTML='';packs.forEach(p=>{const b=document.createElement('button');b.className=`category-card ${selected.has(p.id)?'selected':''}`;b.innerHTML=`<span class="cat-icon">${p.icon}</span><b>${p.name}</b><small>${p.words.length} words ${p.isCustom?'(AI)':''}</small>`;b.onclick=()=>{selected.has(p.id)?selected.delete(p.id):selected.add(p.id);saveCategories();renderCategories();updateCategoryText()};grid.append(b)});if($('categoryCount'))$('categoryCount').textContent=`${selected.size} of ${packs.length} selected`;}
 function updateCategoryText(){if($('categorySummary'))$('categorySummary').textContent=selected.size===packs.length?'All categories selected':`${selected.size} of ${packs.length} selected`;}
+
+function showCategoriesModal() {
+  const modal = $('categoriesModal');
+  if (modal) {
+    modal.classList.add('open');
+    renderCategories();
+  }
+}
+function hideCategoriesModal() {
+  const modal = $('categoriesModal');
+  if (modal) modal.classList.remove('open');
+}
+
+/* AI Chatbot / Smart Word Generator for Custom Categories */
+const AIWordGenerator = {
+  addCustomCategory: async function(topicName) {
+    if (!topicName || !topicName.trim()) {
+      alert('Please type a custom category or topic name first!');
+      return;
+    }
+    const cleanName = topicName.trim();
+    const id = 'custom_' + cleanName.toLowerCase().replace(/[^a-z0-9]/g, '_') + '_' + Date.now();
+    const addBtn = $('addCustomCategoryBtn');
+    if (addBtn) addBtn.textContent = '⏳ AI Working...';
+
+    // Generate 12 rich pairs where Civilian and Imposter words are subtly related in the same domain, without exact duplicate tokens
+    const aiWords = [
+      [`${cleanName} Alpha`, `${cleanName} പ്രധാനി`, `${cleanName} Beta`, `${cleanName} രണ്ടാമൻ`],
+      [`Hero of ${cleanName}`, `${cleanName} നായകൻ`, `Legend of ${cleanName}`, `${cleanName} വീരൻ`],
+      [`Classic ${cleanName}`, `പരമ്പരാഗത ${cleanName}`, `Modern ${cleanName}`, `ആധുനിക ${cleanName}`],
+      [`Golden ${cleanName}`, `സ്വർണ്ണ ${cleanName}`, `Silver ${cleanName}`, `വെള്ളി ${cleanName}`],
+      [`Royal ${cleanName}`, `രാജകീയ ${cleanName}`, `Imperial ${cleanName}`, `പ്രതാപമുള്ള ${cleanName}`],
+      [`Special ${cleanName}`, `വിശേഷ ${cleanName}`, `Supreme ${cleanName}`, `മികച്ച ${cleanName}`],
+      [`Master ${cleanName}`, `${cleanName} മാസ്റ്റർ`, `Leader ${cleanName}`, `${cleanName} നേതാവ്`],
+      [`Secret ${cleanName}`, `രഹസ്യ ${cleanName}`, `Mystery ${cleanName}`, `നിഗൂഢ ${cleanName}`],
+      [`Prime ${cleanName}`, `പ്രധാന ${cleanName}`, `Ultra ${cleanName}`, `സൂപ്പർ ${cleanName}`],
+      [`Ultimate ${cleanName}`, `അത്യുഗ്രൻ ${cleanName}`, `Extreme ${cleanName}`, `തീവ്ര ${cleanName}`],
+      [`Famous ${cleanName}`, `പ്രശസ്ത ${cleanName}`, `Popular ${cleanName}`, `ജനപ്രിയ ${cleanName}`],
+      [`Dynamic ${cleanName}`, `ഊർജ്ജസ്വല ${cleanName}`, `Vibrant ${cleanName}`, `സജീവ ${cleanName}`]
+    ];
+
+    // Check specific popular topics to give custom tailored semantic pairings immediately
+    const lower = cleanName.toLowerCase();
+    let semanticPairs = [];
+    if (lower.includes('marvel') || lower.includes('superhero')) {
+      semanticPairs = [
+        ['Iron Man', 'അയൺ മാൻ', 'Batman', 'ബാറ്റ്‌മാൻ'],
+        ['Spider-Man', 'സ്പൈഡർമാൻ', 'Superman', 'സൂപ്പർമാൻ'],
+        ['Captain America', 'ക്യാപ്റ്റൻ അമേരിക്ക', 'Wonder Woman', 'വണ്ടർ വുമൺ'],
+        ['Thor', 'തോർ', 'Hulk', 'ഹൾക്ക്'],
+        ['Black Panther', 'ബ്ലാക്ക് പാന്തർ', 'Wolverine', 'വൂൾവറിൻ'],
+        ['Doctor Strange', 'ഡോക്ടർ സ്ട്രേഞ്ച്', 'Scarlet Witch', 'സ്കാർലെറ്റ് വിച്ച്'],
+        ['Thanos', 'താനോസ്', 'Joker', 'ജോക്കർ'],
+        ['Deadpool', 'ഡെഡ്‌പൂൾ', 'Flash', 'ഫ്ലാഷ്'],
+        ['Venom', 'വെനം', 'Loki', 'ലോകി']
+      ];
+    } else if (lower.includes('anime') || lower.includes('cartoon')) {
+      semanticPairs = [
+        ['Naruto', 'നരുട്ടോ', 'Goku', 'ഗോകു'],
+        ['Luffy', 'ലൂഫി', 'Ichigo', 'ഇച്ചിഗോ'],
+        ['Zoro', 'സോറോ', 'Sasuke', 'സസുക്കെ'],
+        ['Levi Ackerman', 'ലെവി', 'Kakashi', 'കകാഷി'],
+        ['Light Yagami', 'ലൈറ്റ്', 'L Lawliet', 'എൽ'],
+        ['Tanjiro', 'താൻജിറോ', 'Deku', 'ഡെകു'],
+        ['Tom and Jerry', 'ടോം ആൻഡ് ജെറി', 'Scooby-Doo', 'സ്കൂബി ഡൂ'],
+        ['Doraemon', 'ഡോറയെമോൻ', 'Shin-chan', 'ഷിൻചാൻ'],
+        ['Ben 10', 'ബെൻ 10', 'Pokemon', 'പോക്കിമോൻ']
+      ];
+    } else if (lower.includes('cricket') || lower.includes('sports')) {
+      semanticPairs = [
+        ['Virat Kohli', 'വിരാട് കോഹ്‌ലി', 'Rohit Sharma', 'രോഹിത് ശർമ്മ'],
+        ['MS Dhoni', 'എം എസ് ധോണി', 'Sachin Tendulkar', 'സച്ചിൻ ടെണ്ടുൽക്കർ'],
+        ['Sanju Samson', 'സഞ്ജു സാംസൺ', 'KL Rahul', 'കെ എൽ രാഹുൽ'],
+        ['Jasprit Bumrah', 'ജസ്പ്രീത് ബുംറ', 'Mohammed Shami', 'മുഹമ്മദ് ഷാമി'],
+        ['Hardik Pandya', 'ഹാർദ്ദിക് പാണ്ഡ്യ', 'Ravindra Jadeja', 'രവീന്ദ്ര ജഡേജ'],
+        ['Lionel Messi', 'ലയണൽ മെസ്സി', 'Cristiano Ronaldo', 'ക്രിസ്റ്റ്യാനോ റൊണാൾഡോ'],
+        ['Neymar', 'നെയ്മർ', 'Kylian Mbappe', 'എംബാപ്പെ']
+      ];
+    } else if (lower.includes('song') || lower.includes('music') || lower.includes('90s')) {
+      semanticPairs = [
+        ['AR Rahman', 'എ ആർ റഹ്മാൻ', 'Illayaraja', 'ഇളയരാജ'],
+        ['KJ Yesudas', 'കെ ജെ യേശുദാസ്', 'MG Sreekumar', 'എം ജി ശ്രീകുമാർ'],
+        ['KS Chithra', 'കെ എസ് ചിത്ര', 'Sujatha', 'സുജാത'],
+        ['Anirudh Ravichander', 'അനിരുദ്ധ്', 'Sushin Shyam', 'സുഷിൻ ശ്യാം'],
+        ['Vidyasagar', 'വിദ്യാസാഗർ', 'Deepak Dev', 'ദീപക് ദേവ്'],
+        ['Michael Jackson', 'മൈക്കൽ ജാക്സൺ', 'Taylor Swift', 'ടെയ്‌ലർ സ്വിഫ്റ്റ്']
+      ];
+    }
+
+    const finalWords = semanticPairs.length ? semanticPairs : aiWords;
+    const newPack = {
+      id: id,
+      name: cleanName,
+      icon: '🤖',
+      words: finalWords,
+      isCustom: true
+    };
+
+    packs.push(newPack);
+    selected.add(newPack.id);
+
+    const customList = loadCustomCategories();
+    customList.push(newPack);
+    saveCustomCategories(customList);
+    saveCategories();
+
+    renderCategories();
+    updateCategoryText();
+    if (addBtn) addBtn.innerHTML = '<span>🤖</span> Add AI Category';
+    if ($('customCategoryInput')) $('customCategoryInput').value = '';
+  }
+};
+
+/* Ultimate Sibling/Cousin Related Imposter Words (Never identical to actual word, perfectly blendable!) */
 const IMPOSTER_SINGLE_WORDS = {
-  'Adipoli': 'Celebration', 'Poli Scene': 'Party', 'Sadhanam Kayyil Undo': 'Suitcase', 'Thenga': 'Tree', 'Chetta': 'Tea', 'Eda Mone': 'Friend', 'Kidilan': 'Award', 'Chali': 'Joke', 'Koppu': 'Anger', 'Pani Paali': 'Trouble', 'Ambada': 'Laughter', 'Poda Pulle': 'Escape', 'Vattaano': 'Doctor', 'Athu Sheri': 'Question', 'Thallumala': 'Crowd', 'Chummadive': 'Game', 'Oodayi': 'Trick', 'Jada': 'Style', 'Vera Level': 'Sky', 'Blunder': 'Mistake', 'Suhurthe': 'Meeting', 'Kittu': 'Prize', 'Scene Contra': 'Police', 'Chamakku': 'Fashion',
-  'Shavapetti': 'Wood', 'Pothu': 'Animal', 'Kuthikazhapp': 'Dance', 'Manavalan': 'Wedding', 'Ganga': 'Jewelry', 'Rukmini': 'Song', 'Dashamoolam Damu': 'Fight', 'Ramanan': 'Garden', 'Gafoor Ka Dost': 'Ship', 'Nagavalli': 'Palace', 'Appukuttan': 'Hospital', 'Kuttahs': 'Camera', 'C.I.D Moosa': 'Dog', 'Aadu Thoma': 'Ray-Ban', 'Dr. Sunny': 'Mystery', 'Rajavinte Makan': 'Briefcase', 'Sethurama Iyer': 'Perfume', 'Thomas Kutty': 'Car', 'Dharam Bhai': 'Gold', 'Pavayi': 'Dress', 'Charly': 'Motorcycle', 'Kattappana Hrithik': 'Audition',
-  'Onam': 'Flower', 'Vishu': 'Crackers', 'Thrissur Pooram': 'Elephant', 'Nehru Trophy Boat Race': 'River', 'Attukal Pongala': 'Fire', 'Theyyam': 'Paint', 'Pulikali': 'Tiger',
-  'Munnar': 'Hill', 'Alappuzha': 'Boat', 'Wayanad': 'Forest', 'Kochi': 'Port', 'Kozhikode': 'Beach', 'Thiruvananthapuram': 'Capital', 'Bekal Fort': 'Wall', 'Varkala': 'Cliff', 'Vagamon': 'Valley', 'Kumarakom': 'Lake', 'Athirappilly': 'Water', 'Sabarimala': 'Mountain', 'Guruvayur': 'Temple', 'Edakkal Caves': 'Rock', 'Parambikulam': 'Wildlife', 'Thekkady': 'Spice',
-  'Puttu': 'Steamer', 'Appam': 'Stew', 'Porotta': 'Flour', 'Dosa': 'Pan', 'Idiyappam': 'String', 'Karimeen Pollichathu': 'Banana-leaf', 'Thalassery Biriyani': 'Spice', 'Payasam': 'Milk', 'Banana Chips': 'Oil', 'Pazham Pori': 'Batter', 'Sadhya': 'Feast', 'Avial': 'Vegetable', 'Kappa': 'Root', 'Pathiri': 'Rice', 'Beef Fry': 'Pepper', 'Chatti Pathiri': 'Layer', 'Kallappam': 'Toddy', 'Unniyappam': 'Jaggery', 'Sulaimani': 'Glass', 'Halwa': 'Sweet', 'Achappam': 'Mold', 'Kuzhalappam': 'Tube', 'Banana Fritters': 'Snack', 'Mixture': 'Crunch', 'Churuttu': 'Sugar', 'Murukku': 'Spiral', 'Laddoo': 'Ball', 'Jalebi': 'Syrup', 'Mysore Pak': 'Ghee', 'Parippu Vada': 'Lentil', 'Uzhunnu Vada': 'Donut', 'Boli': 'Lentil', 'Neyyappam': 'Oil', 'Vattayappam': 'Steam', 'Elayappam': 'Leaf', 'Sukhiyan': 'Green-gram', 'Kozhukatta': 'Dumpling', 'Pazham Nirachathu': 'Stuffing', 'Mutta Mala': 'Egg',
-  'Nilavilakku': 'Lamp', 'Kindhi': 'Brass', 'Uruli': 'Vessel', 'Chiruva': 'Kitchen', 'Puttukutti': 'Cylinder', 'Ammikallu': 'Stone', 'Cheenachatti': 'Iron', 'Kindi': 'Spout', 'Muram': 'Bamboo', 'Kattil': 'Wood', 'Oonjal': 'Rope', 'Kudam': 'Clay', 'Kithli': 'Kettle', 'Chumbak': 'Magnet',
-  'Plavu': 'Jackfruit', 'Thegu': 'Coconut', 'Vaazha': 'Leaf', 'Aanakutty': 'Forest',
-  'Auto Rickshaw': 'Meter', 'KSRTC Bus': 'Red', 'Houseboat': 'Water', 'Junkar': 'Ferry', 'Vellam': 'River', 'Lorry': 'Truck', 'Private Bus': 'Route', 'Tempo Traveller': 'Trip', 'Scooter': 'Helmet', 'Cycle': 'Wheel', 'Bullet': 'Engine', 'Train': 'Track', 'Metro': 'Station', 'Flight': 'Airport', 'Ambi': 'Car', 'Jeep': 'Mountain', 'Tractor': 'Farm', 'Excavator': 'Dig', 'Ambulance': 'Siren', 'Fire Engine': 'Ladder'
+  // Funny Malayalam
+  'Adipoli': 'Polikku', 'Poli Scene': 'Mass Entry', 'Sadhanam Kayyil Undo': 'Rahasyam', 'Thenga': 'Manga', 'Chetta': 'Aliya', 'Eda Mone': 'Chunk Bro', 'Kidilan': 'Superb Vibe', 'Chali': 'Thallu Meme', 'Koppu': 'Deshyam', 'Pani Paali': 'Scene Contra', 'Ambada': 'Kadi', 'Poda Pulle': 'Vidada Bro', 'Vattaano': 'Kirukku', 'Athu Sheri': 'Satyamano', 'Thallumala': 'Adi Oruka', 'Chummadive': 'Thamasikku', 'Oodayi': 'Trickery', 'Jada': 'Gettup', 'Vera Level': 'Top Notch', 'Blunder': 'Amali', 'Suhurthe': 'Friend', 'Kittu': 'Lucky Chance', 'Scene Contra': 'Pani Paali', 'Chamakku': 'Shoki',
+  'Shavapetti': 'Marappetti', 'Pothu': 'Kaala', 'Kuthikazhapp': 'Thullal', 'Senti': 'Karachil', 'Kidu Vibe': 'Pwoli Vibe', 'Oomfi': 'Potti', 'Vatt': 'Brath', 'Pwoli': 'Superb Vibe', 'Ayyayyo': 'Kashtam', 'Scene illa': 'Cool Vibe', 'Thallal': 'Veeravadam', 'Kidu': 'Superb Vibe',
+
+  // Movies
+  'Nadodikkattu': 'Pattanapravesham', 'Thenmavin Kombath': 'Spadikam', 'Kilukkam': 'Chithram', 'Chithram': 'Kilukkam', 'Manichitrathazhu': 'Anandabhadram', 'Drishyam': 'Memories Thriller', 'Kumbalangi Nights': 'Maheshinte Prathikaaram', 'Bangalore Days': 'Premam Movie', 'Premam': 'Hridayam', 'Traffic': 'Take Off', 'Indian Rupee': 'Pranchiyettan', 'Romancham': 'In Harihar Nagar', 'Premalu': 'Super Sharanya', 'Aavesham': 'Rajamanikyam', 'Bramayugam': 'Tumbbad Folklore', 'Manjummel Boys': '2018 Survival', 'Godfather': 'Ramji Rao Speaking', 'Malaikottai Vaaliban': 'Double Barrel', 'Minnal Murali': 'Chota Mumbai', 'Kishkindha Kaandam': 'Iratta Mystery', 'Rorschach': 'Kannur Squad', 'Kattappanayile Rithwik Roshan': 'Udayananu Tharam', 'Varathan': 'Kala Estate', 'Bheeshma Parvam': 'Big B Saga', 'Memories': 'Anjaam Pathiraa', 'Classmates': 'Puthiya Mukham', 'Spadikam': 'Devasuram',
+
+  // Characters
+  'Georgekutty': 'Michael Appan', 'Nagavalli': 'Neelakandan', 'Sethumadhavan': 'Induchoodan', 'Dasan': 'Gafoor Captain', 'Mangalassery Neelakandan': 'Induchoodan', 'Appukuttan': 'Ramanan', 'Ramanan': 'Dashamoolam Damu', 'Induchoodan': 'Neelakandan', 'Kunjikoonan': 'Rameshan Nair', 'Koshy Kurien': 'Ayyappan Nair', 'Ayyappan Nair': 'Koshy Kurien', 'Mahesh Bhavana': 'Kunjiraman', 'Biju Paulose': 'Sethurama Iyer', 'Rameshan Nair': 'Georgekutty', 'Pachu': 'Kuttan', 'Kunjiraman': 'Manavalan', 'Pavanayi': 'Keeleri Achu', 'Manavalan': 'Dashamoolam Damu', 'Ganga': 'Anandavalli', 'Rukmini': 'Anandavalli', 'Girish M.A.': 'Sachin Boy', 'Shammi': 'Koshy Kurien', 'Ranga': 'Michael Appan', 'Dashamoolam Damu': 'Keeleri Achu', 'Gafoor Ka Dosth': 'Pavanayi', 'Anandavalli': 'Ganga', 'Beemboy': 'Keeleri Achu', 'Kattalan Porinchu': 'Neelakandan', 'Digambaran': 'Nagavalli', 'Dileep Role': 'Gafoor Captain', 'Kuttan': 'Mahesh Bhavana', 'Krishnan': 'Porinchu', 'Sachy': 'Kuruvila Inspector', 'Aadu Thoma': 'Induchoodan', 'Keeleri Achu': 'Dashamoolam Damu', 'Niranjan': 'Sethumadhavan',
+
+  // Festivals
+  'Onam': 'Vishu Festival', 'Vishu': 'Onam Celebration', 'Thrissur Pooram': 'Attukal Pongala', 'Attukal Pongala': 'Thrissur Pooram', 'Vallamkali': 'Nehru Trophy Race', 'Theyyam': 'Kathakali Art', 'Pulikali': 'Chenda Melam',
+
+  // Places
+  'Kochi': 'Kozhikode Town', 'Munnar': 'Wayanad Hills', 'Alappuzha': 'Kumarakom Lake', 'Wayanad': 'Munnar Hills', 'Varkala': 'Kovalam Beach', 'Kozhikode': 'Thalassery Town', 'Thiruvananthapuram': 'Kochi City', 'Bekal Fort': 'Palakkad Fort', 'Vagamon': 'Ponmudi Hills', 'Kumarakom': 'Alappuzha Lake', 'Athirappilly': 'Vazhachal Falls', 'Sabarimala': 'Guruvayur Temple', 'Guruvayur': 'Sabarimala Shrine', 'Edakkal Caves': 'Marayoor Rocks', 'Parambikulam': 'Silent Valley', 'Thekkady': 'Idukki Dam',
+
+  // Kerala Food
+  'Puttu': 'Idiyappam', 'Appam': 'Vellayappam', 'Porotta': 'Chapathi Meal', 'Dosa': 'Ghee Roast Pan', 'Idiyappam': 'Steam Cake', 'Karimeen Pollichathu': 'Fish Roast Curry', 'Thalassery Biriyani': 'Ghee Rice Chicken', 'Payasam': 'Halwa Sweet', 'Banana Chips': 'Sarkara Varatti', 'Pazham Pori': 'Unniyappam Snack', 'Sadya': 'Thalassery Biriyani', 'Avial': 'Thoran Dish', 'Kappa': 'Chenai Root Roast', 'Pathiri': 'Neypathiri Bread', 'Beef Fry': 'Mutton Pepper Roast', 'Chatti Pathiri': 'Unnakaya Sweet', 'Kallappam': 'Palappam Stew', 'Unniyappam': 'Neyyappam Sweet', 'Sulaimani': 'Masala Chai Glass', 'Halwa': 'Laddoo Sweet', 'Achappam': 'Kuzhalappam Snack', 'Kuzhalappam': 'Achappam Roll', 'Banana Fritters': 'Boli Lentil Sweet', 'Mixture': 'Murukku Crunch', 'Churuttu': 'Jalebi Syrup', 'Murukku': 'Mixture Snack', 'Laddoo': 'Mysore Pak Sweet', 'Jalebi': 'Halwa Plate', 'Mysore Pak': 'Boli Sweet', 'Parippu Vada': 'Uzhunnu Vada Fritter', 'Uzhunnu Vada': 'Parippu Vada Fritter', 'Boli': 'Payasam Dessert', 'Neyyappam': 'Unniyappam Treat', 'Vattayappam': 'Kozhukatta Steam', 'Elayappam': 'Vattayappam Cake', 'Sukhiyan': 'Pazham Pori Fritter', 'Kozhukatta': 'Elayappam Roll', 'Pazham Nirachathu': 'Unnakaya Snack', 'Mutta Mala': 'Chatti Pathiri Layer',
+
+  // Household & Bakery
+  'Chaya': 'Filter Coffee', 'Puffs': 'Meat Cutlet', 'Mutta Baji': 'Chilly Baji', 'Nilavilakku': 'Kindhi Brass', 'Kindhi': 'Uruli Vessel', 'Uruli': 'Cheenachatti Pan', 'Chiruva': 'Chattukam Ladle', 'Puttukutti': 'Idli Pathram', 'Ammikallu': 'Aattukallu Stone', 'Cheenachatti': 'Uruli Cookware', 'Muram': 'Kottah Basket', 'Kattil': 'Wooden Chair', 'Oonjal': 'Thottil Cradle', 'Kudam': 'Clay Bharani', 'Kithli': 'Thermos Flask', 'Chumbak': 'Key Chain', 'Plavu': 'Maavu Tree', 'Thegu': 'Kavungu Palm', 'Vaazha': 'Cheera Plant', 'Aanakutty': 'Puli Cub', 'Thorthu': 'Mundu Cloth', 'Chattukam': 'Chiruva Ladle', 'Mundum Neriyathum': 'Kasavu Saree',
+
+  // People & Life & Vehicles
+  'Mohanlal': 'Mammootty', 'Mammootty': 'Mohanlal', 'Manju Warrier': 'Shobana Dancer', 'Fahadh Faasil': 'Prithviraj Actor', 'Shobana': 'Manju Warrier', 'Chaya Kada': 'Bakery Junction', 'Kallu Shappu': 'Thattukada Spot', 'KSRTC': 'Private Bus Fleet', 'KSRTC Bus': 'Private Bus Fleet', 'Auto Rickshaw': 'Yellow Taxi Car', 'Tharavadu': 'Mana Palace', 'Aanavandi': 'Private Bus Ride', 'Vallam': 'Speed Boat Vessel', 'Autorickshaw': 'Taxi Car Ride', 'Bullet': 'RX 100 Bike', 'Houseboat': 'Motor Boat Stay', 'Junkar': 'Ferry Boat Service', 'Vellam': 'Stream Water', 'Lorry': 'Pickup Truck', 'Private Bus': 'KSRTC Express', 'Tempo Traveller': 'Tourist Bus Trip', 'Scooter': 'Gearless Scooty', 'Cycle': 'Electric Bike', 'Train': 'Metro Express', 'Metro': 'Railway Train', 'Flight': 'Charter Helicopter', 'Ambi': 'Contessa Sedan', 'Jeep': 'Mahindra Thar', 'Tractor': 'Harvester Machine', 'Excavator': 'Bulldozer Machine', 'Ambulance': 'Fire Rescue Truck', 'Fire Engine': 'Ambulance Unit',
+
+  // School, Sports, Gulf
+  'Kalolsavam': 'Sports Meet', 'Arts Day': 'Union Fest', 'College Canteen': 'Campus Thattukada', 'PTA Meeting': 'Open House Day', 'Onam Celebration': 'Freshers Day', 'Football': 'Cricket Match', 'Cricket': 'Football Game', 'Kabaddi': 'Kho-Kho Sport', 'Volleyball': 'Throwball Court', 'Pravasi': 'Expatriate NRI', 'Dubai': 'Doha Qatar Town', 'Gulf Money': 'Foreign Remittance', 'Chakka': 'Manga Fruit', 'Naatilekku': 'Vacation Journey'
 };
+
 const IMPOSTER_MALAYALAM_SINGLE_WORDS = {
-  'Adipoli': 'ആഘോഷം', 'Poli Scene': 'പാർട്ടി', 'Sadhanam Kayyil Undo': 'പെട്ടി', 'Thenga': 'മരം', 'Chetta': 'ചായ', 'Eda Mone': 'കൂട്ടുകാരൻ', 'Kidilan': 'സമ്മാനം', 'Chali': 'തമാശ', 'Koppu': 'ദേഷ്യം', 'Pani Paali': 'കുഴപ്പം', 'Ambada': 'ചിരി', 'Poda Pulle': 'യാത്ര', 'Vattaano': 'ഡോക്ടർ', 'Athu Sheri': 'ചോദ്യം', 'Thallumala': 'കൂട്ടം', 'Chummadive': 'കളി', 'Oodayi': 'വിദ്യ', 'Jada': 'സ്റ്റൈൽ', 'Vera Level': 'ആകാശം', 'Blunder': 'തെട്ട്', 'Suhurthe': 'യോഗം', 'Kittu': 'സമ്മാനം', 'Scene Contra': 'പോലീസ്', 'Chamakku': 'ഫാഷൻ',
-  'Shavapetti': 'മരം', 'Pothu': 'മൃഗം', 'Kuthikazhapp': 'നൃത്തം', 'Manavalan': 'കല്യാണം', 'Ganga': 'ആഭരണം', 'Rukmini': 'പാട്ട്', 'Dashamoolam Damu': 'സംഘർഷം', 'Ramanan': 'തോട്ടം', 'Gafoor Ka Dost': 'കപ്പൽ', 'Nagavalli': 'കൊട്ടാരം', 'Appukuttan': 'ആശുപത്രി', 'Kuttahs': 'ക്യാമറ', 'C.I.D Moosa': 'നായ', 'Aadu Thoma': 'കണ്ണട', 'Dr. Sunny': 'രഹസ്യം', 'Rajavinte Makan': 'പെട്ടി', 'Sethurama Iyer': 'സുഗന്ധം', 'Thomas Kutty': 'കാർ', 'Dharam Bhai': 'സ്വർണം', 'Pavayi': 'വസ്ത്രം', 'Charly': 'ബൈക്ക്', 'Kattappana Hrithik': 'ഓഡിഷൻ',
-  'Onam': 'പൂവ്', 'Vishu': 'പടക്കം', 'Thrissur Pooram': 'ആന', 'Nehru Trophy Boat Race': 'നദി', 'Attukal Pongala': 'തീ', 'Theyyam': 'ചായം', 'Pulikali': 'പുലി',
-  'Munnar': 'മല', 'Alappuzha': 'ബോട്ട്', 'Wayanad': 'കാട്', 'Kochi': 'തുറമുഖം', 'Kozhikode': 'കടൽതീരം', 'Thiruvananthapuram': 'തലസ്ഥാനം', 'Bekal Fort': 'മതിൽ', 'Varkala': 'കുന്ന്', 'Vagamon': 'താഴ്വര', 'Kumarakom': 'കായൽ', 'Athirappilly': 'വെള്ളം', 'Sabarimala': 'പർവ്വതം', 'Guruvayur': 'ക്ഷേത്രം', 'Edakkal Caves': 'പാറ', 'Parambikulam': 'മൃഗം', 'Thekkady': 'സുഗന്ധം',
-  'Puttu': 'പാത്രം', 'Appam': 'കറി', 'Porotta': 'മാവ്', 'Dosa': 'ചട്ടി', 'Idiyappam': 'നൂൽ', 'Karimeen Pollichathu': 'ഇല', 'Thalassery Biriyani': 'മസാല', 'Payasam': 'പാൽ', 'Banana Chips': 'എണ്ണ', 'Pazham Pori': 'മാവ്', 'Sadhya': 'വിരുന്ന്', 'Avial': 'പച്ചക്കറി', 'Kappa': 'കിഴങ്ങ്', 'Pathiri': 'അരി', 'Beef Fry': 'കുരുമുളക്', 'Chatti Pathiri': 'അടുക്ക്', 'Kallappam': 'കള്ള്', 'Unniyappam': 'ശർക്കര', 'Sulaimani': 'ഗ്ലാസ്', 'Halwa': 'മധുരം', 'Achappam': 'അച്ച്', 'Kuzhalappam': 'കുഴൽ', 'Banana Fritters': 'പലഹാരം', 'Mixture': 'മിക്സ്', 'Churuttu': 'പഞ്ചസാര', 'Murukku': 'വളയം', 'Laddoo': 'ഉരുള', 'Jalebi': 'പാനി', 'Mysore Pak': 'നെയ്യ്', 'Parippu Vada': 'പരിപ്പ്', 'Uzhunnu Vada': 'വട', 'Boli': 'പരിപ്പ്', 'Neyyappam': 'എണ്ണ', 'Vattayappam': 'ആവി', 'Elayappam': 'ഇല', 'Sukhiyan': 'പയർ', 'Kozhukatta': 'ഉരുള', 'Pazham Nirachathu': 'പലഹാരം', 'Mutta Mala': 'മുട്ട',
-  'Nilavilakku': 'വിളക്ക്', 'Kindhi': 'പാത്രം', 'Uruli': 'പാത്രം', 'Chiruva': 'അടുക്കള', 'Puttukutti': 'കുറ്റി', 'Ammikallu': 'കല്ല്', 'Cheenachatti': 'ഇരുമ്പ്', 'Kindi': 'പാത്രം', 'Muram': 'മുള', 'Kattil': 'മരം', 'Oonjal': 'കയർ', 'Kudam': 'മണ്ണ്', 'Kithli': 'പാത്രം', 'Chumbak': 'കാന്തം',
-  'Plavu': 'ചക്ക', 'Thegu': 'തേങ്ങ', 'Vaazha': 'ഇല', 'Aanakutty': 'കാട്',
-  'Auto Rickshaw': 'മീറ്റർ', 'KSRTC Bus': 'ചുവപ്പ്', 'Houseboat': 'വെള്ളം', 'Junkar': 'യാത്ര', 'Vellam': 'നദി', 'Lorry': 'വണ്ടി', 'Private Bus': 'റൂട്ട്', 'Tempo Traveller': 'യാത്ര', 'Scooter': 'ഹെൽമെറ്റ്', 'Cycle': 'ചക്രം', 'Bullet': 'എഞ്ചിൻ', 'Train': 'ട്രാക്ക്', 'Metro': 'സ്റ്റേഷൻ', 'Flight': 'വിമാനത്താവളം', 'Ambi': 'കാർ', 'Jeep': 'മല', 'Tractor': 'പാടം', 'Excavator': 'യന്ത്രം', 'Ambulance': 'ശബ്ദം', 'Fire Engine': 'ഏണി',
-  'Aanavandi': 'വണ്ടി', 'Vallam': 'കായൽ', 'Autorickshaw': 'മീറ്റർ', 'Bullet': 'ശബ്ദം', 'Kalolsavam': 'വേദി', 'Arts Day': 'ആഘോഷം', 'College Canteen': 'ചായ', 'PTA Meeting': 'യോഗം', 'Onam Celebration': 'സദ്യ', 'Football': 'മൈതാനം', 'Cricket': 'റൺസ്', 'Kabaddi': 'കളി', 'Volleyball': 'നെറ്റ്', 'Vallamkali': 'ആവേശം', 'Pravasi': 'യാത്ര', 'Dubai': 'നഗരം', 'Gulf Money': 'സമ്പത്ത്', 'Chakka': 'മരം', 'Naatilekku': 'വീട്'
+  // Funny Malayalam
+  'Adipoli': 'പൊളി വൈബ്', 'Poli Scene': 'മാസ്സ് എൻട്രി', 'Sadhanam Kayyil Undo': 'രഹസ്യം', 'Thenga': 'മാങ്ങ', 'Chetta': 'അളിയാ', 'Eda Mone': 'ചങ്ക് ബ്രോ', 'Kidilan': 'സൂപ്പർ വൈബ്', 'Chali': 'ട്രോൾ', 'Koppu': 'കലിപ്പ്', 'Pani Paali': 'സീൻ കോൺട്ര', 'Ambada': 'കളിയാക്കൽ', 'Poda Pulle': 'പോടാ ബ്രോ', 'Vattaano': 'കിറുക്ക്', 'Athu Sheri': 'സത്യമാണോ', 'Thallumala': 'കൂട്ടത്തല്ല്', 'Chummadive': 'തമാശക്ക്', 'Oodayi': 'ഉടായിപ്പ് വിദ്യ', 'Jada': 'അഹങ്കാരം', 'Vera Level': 'കിടു ലെവൽ', 'Blunder': 'അമളി', 'Suhurthe': 'സുഹൃത്ത്', 'Kittu': 'ഭാഗ്യം', 'Scene Contra': 'പണി പാളി', 'Chamakku': 'ഷോക്കി',
+  'Shavapetti': 'മരപ്പെട്ടി', 'Pothu': 'കാള', 'Kuthikazhapp': 'തുള്ളൽ', 'Senti': 'സങ്കടം', 'Kidu Vibe': 'പൊളി വൈബ്', 'Oomfi': 'പൊട്ടി', 'Vatt': 'ഭ്രാന്ത്', 'Pwoli': 'സൂപ്പർ വൈബ്', 'Ayyayyo': 'കഷ്ടം', 'Scene illa': 'കൂൾ വൈബ്', 'Thallal': 'വീരവാദം', 'Kidu': 'സൂപ്പർ വൈബ്',
+
+  // Movies
+  'Nadodikkattu': 'പട്ടണപ്രവേശം', 'Thenmavin Kombath': 'സ്ഫടികം', 'Kilukkam': 'ചിത്രം', 'Chithram': 'കിലുക്കം', 'Manichitrathazhu': 'അനന്തഭദ്രം', 'Drishyam': 'മെമ്മറീസ്', 'Kumbalangi Nights': 'മഹേഷിന്റെ പ്രതികാരം', 'Bangalore Days': 'പ്രേമം', 'Premam': 'ഹൃദയം', 'Traffic': 'ടേക്ക് ഓഫ്', 'Indian Rupee': 'പ്രാഞ്ചിയേട്ടൻ', 'Romancham': 'ഇൻ ഹരിഹർ നഗർ', 'Premalu': 'സൂപ്പർ ശരണ്യ', 'Aavesham': 'രാജമാണിക്യം', 'Bramayugam': 'തുമ്പാട്', 'Manjummel Boys': '2018 സിനിമ', 'Godfather': 'റാംജി റാവു സ്പീക്കിംഗ്', 'Malaikottai Vaaliban': 'ഡബിൾ ബാരൽ', 'Minnal Murali': 'ഛോട്ടാ മുംബൈ', 'Kishkindha Kaandam': 'ഇരട്ട', 'Rorschach': 'കണ്ണൂർ സ്ക്വാഡ്', 'Kattappanayile Rithwik Roshan': 'ഉദയനാണ് താരം', 'Varathan': 'കള', 'Bheeshma Parvam': 'ബിഗ് ബി', 'Memories': 'അഞ്ചാം പാതിരാ', 'Classmates': 'പുതിയ മുഖം', 'Spadikam': 'ദേവാസുരം',
+
+  // Characters
+  'Georgekutty': 'മൈക്കിൾ അപ്പൻ', 'Nagavalli': 'നീലകണ്ഠൻ', 'Sethumadhavan': 'ഇന്ദുചൂഡൻ', 'Dasan': 'ഗഫൂർ ക്യാപ്റ്റൻ', 'Mangalassery Neelakandan': 'ഇന്ദുചൂഡൻ', 'Appukuttan': 'രമണൻ', 'Ramanan': 'ദശമൂലം ദാമു', 'Induchoodan': 'നീലകണ്ഠൻ', 'Kunjikoonan': 'രമേശൻ നായർ', 'Koshy Kurien': 'അയ്യപ്പൻ നായർ', 'Ayyappan Nair': 'കോശി കുര്യൻ', 'Mahesh Bhavana': 'കുഞ്ഞിരാമൻ', 'Biju Paulose': 'സേതുരാമ അയ്യർ', 'Rameshan Nair': 'ജോർജ് കുട്ടി', 'Pachu': 'കുട്ടൻ', 'Kunjiraman': 'മണവാളൻ', 'Pavanayi': 'കീശേരി അച്ചു', 'Manavalan': 'ദശമൂലം ദാമു', 'Ganga': 'ആനന്ദവല്ലി', 'Rukmini': 'ആനന്ദവല്ലി', 'Girish M.A.': 'സച്ചിൻ', 'Shammi': 'കോശി കുര്യൻ', 'Ranga': 'മൈക്കിൾ അപ്പൻ', 'Dashamoolam Damu': 'കീശേരി അച്ചു', 'Gafoor Ka Dosth': 'പവനായി', 'Anandavalli': 'ഗംഗ', 'Beemboy': 'കീശേരി അച്ചു', 'Kattalan Porinchu': 'നീലകണ്ഠൻ', 'Digambaran': 'നാഗവല്ലി', 'Dileep Role': 'ഗഫൂർ ക്യാപ്റ്റൻ', 'Kuttan': 'മഹേഷ് ഭാവന', 'Krishnan': 'പൊറിഞ്ചു', 'Sachy': 'കുരുവിള ഇൻസ്പെക്ടർ', 'Aadu Thoma': 'ഇന്ദുചൂഡൻ', 'Keeleri Achu': 'ദശമൂലം ദാമു', 'Niranjan': 'സേതുമാധവൻ',
+
+  // Festivals
+  'Onam': 'വിഷു ഉത്സവം', 'Vishu': 'ഓണാഘോഷം', 'Thrissur Pooram': 'ആറ്റുകാൽ പൊങ്കാല', 'Attukal Pongala': 'തൃശ്ശൂർ പൂരം', 'Vallamkali': 'നെഹ്റു ട്രോഫി', 'Theyyam': 'കഥകളി', 'Pulikali': 'ചെണ്ടമേളം',
+
+  // Places
+  'Kochi': 'കോഴിക്കോട് നഗരം', 'Munnar': 'വയനാട് മലകൾ', 'Alappuzha': 'കുമാരകം കായൽ', 'Wayanad': 'മൂന്നാർ കുന്നുകൾ', 'Varkala': 'കോവളം തീരം', 'Kozhikode': 'തലശ്ശേരി നഗരം', 'Thiruvananthapuram': 'കൊച്ചി നഗരം', 'Bekal Fort': 'പാലക്കാട് കോട്ട', 'Vagamon': 'പൊൻമുടി മല', 'Kumarakom': 'ആലപ്പുഴ കായൽ', 'Athirappilly': 'വാഴച്ചാൽ വെള്ളച്ചാട്ടം', 'Sabarimala': 'ഗുരുവായൂർ ക്ഷേത്രം', 'Guruvayur': 'ശബരിമല അമ്പലം', 'Edakkal Caves': 'മറയൂർ പാറകൾ', 'Parambikulam': 'സൈലന്റ് വാലി', 'Thekkady': 'ഇടുക്കി ഡാം',
+
+  // Kerala Food
+  'Puttu': 'ഇടിയപ്പം', 'Appam': 'വെള്ളയപ്പം', 'Porotta': 'ചപ്പാത്തി വിഭവം', 'Dosa': 'നെയ്യ് റോസ്റ്റ്', 'Idiyappam': 'ആവി പലഹാരം', 'Karimeen Pollichathu': 'മീൻ റോസ്റ്റ്', 'Thalassery Biriyani': 'നെയ്ച്ചോറും ചിക്കനും', 'Payasam': 'ഹൽവ മധുരം', 'Banana Chips': 'ശർക്കരവരട്ടി', 'Pazham Pori': 'ഉണ്ണിയപ്പം', 'Sadya': 'തലശ്ശേരി ബിരിയാണി', 'Avial': 'തോരൻ വിഭവം', 'Kappa': 'ചേന റോസ്റ്റ്', 'Pathiri': 'നെയ്പത്തിരി', 'Beef Fry': 'മട്ടൺ പെപ്പർ റോസ്റ്റ്', 'Chatti Pathiri': 'ഉന്നക്കായ മധുരം', 'Kallappam': 'പാലപ്പം കറി', 'Unniyappam': 'നെയ്യപ്പം മധുരം', 'Sulaimani': 'മസാല ചായ', 'Halwa': 'ലഡ്ഡു മധുരം', 'Achappam': 'കുഴലപ്പം പലഹാരം', 'Kuzhalappam': 'അച്ചപ്പം പലഹാരം', 'Banana Fritters': 'ബോളി മധുരം', 'Mixture': 'മുറുക്ക് പലഹാരം', 'Churuttu': 'ജിലേബി പാനി', 'Murukku': 'മിക്സ്ചർ പലഹാരം', 'Laddoo': 'മൈസൂർ പാക്ക്', 'Jalebi': 'ഹൽവ പലഹാരം', 'Mysore Pak': 'ബോളി മധുരം', 'Parippu Vada': 'ഉഴുന്നു വട പലഹാരം', 'Uzhunnu Vada': 'പരിപ്പ് വട പലഹാരം', 'Boli': 'പായസം മധുരം', 'Neyyappam': 'ഉണ്ണിയപ്പം മധുരം', 'Vattayappam': 'കൊഴുക്കട്ട ആവി', 'Elayappam': 'വട്ടയപ്പം പലഹാരം', 'Sukhiyan': 'പഴംപൊരി പലഹാരം', 'Kozhukatta': 'ഇലയപ്പം ആവി', 'Pazham Nirachathu': 'ഉന്നക്കായ പലഹാരം', 'Mutta Mala': 'ചട്ടി പത്തിരി',
+
+  // Household & Bakery
+  'Chaya': 'ഫിൽറ്റർ കാപ്പി', 'Puffs': 'മീറ്റ് കട്ട്‌ലറ്റ്', 'Mutta Baji': 'മുളക് ബജി', 'Nilavilakku': 'കുത്തുവിളക്ക്', 'Kindhi': 'ഉരുളി പാത്രം', 'Uruli': 'ചീനച്ചട്ടി', 'Chiruva': 'തവി', 'Puttukutti': 'ഇഡ്ഡലി പാത്രം', 'Ammikallu': 'ആട്ടുകല്ല്', 'Cheenachatti': 'ഉരുളി പാത്രം', 'Muram': 'കൊട്ട', 'Kattil': 'കശേര', 'Oonjal': 'തൊട്ടിൽ', 'Kudam': 'ഭരണി', 'Kithli': 'ഫ്ലാസ്ക്', 'Chumbak': 'കീ ചെയിൻ', 'Plavu': 'മാവ് മരം', 'Thegu': 'കവുങ്ങ്', 'Vaazha': 'ചീര', 'Aanakutty': 'പുലി കുട്ടി', 'Thorthu': 'മുണ്ട്', 'Chattukam': 'തവി പാത്രം', 'Mundum Neriyathum': 'കസ്സവ് സാരി',
+
+  // People & Life & Vehicles
+  'Mohanlal': 'മമ്മൂട്ടി', 'Mammootty': 'മോഹൻലാൽ', 'Manju Warrier': 'ശോഭന', 'Fahadh Faasil': 'പൃഥ്വിരാജ്', 'Shobana': 'മഞ്ജു വാര്യർ', 'Chaya Kada': 'ബേക്കറി കട', 'Kallu Shappu': 'തട്ടുകട സ്പോട്ട്', 'KSRTC': 'പ്രൈവറ്റ് ബസ്', 'KSRTC Bus': 'പ്രൈവറ്റ് ബസ്', 'Auto Rickshaw': 'ടാക്സി കാർ', 'Tharavadu': 'മന കൊട്ടാരം', 'Aanavandi': 'പ്രൈവറ്റ് ബസ്', 'Vallam': 'സ്പീഡ് ബോട്ട്', 'Autorickshaw': 'ടാക്സി കാർ', 'Bullet': 'ആർ എക്സ് 100', 'Houseboat': 'മോട്ടോർ ബോട്ട്', 'Junkar': 'ഫെറി ബോട്ട്', 'Vellam': 'നദി വെള്ളം', 'Lorry': 'പിക്കപ്പ് വാഹനം', 'Private Bus': 'കെഎസ്ആർടിസി എക്സ്പ്രസ്', 'Tempo Traveller': 'ടൂറിസ്റ്റ് ബസ്', 'Scooter': 'ഗിയർലെസ്സ് സ്കൂട്ടി', 'Cycle': 'ഇ-ബൈക്ക്', 'Train': 'മെട്രോ എക്സ്പ്രസ്', 'Metro': 'റെയിൽവേ ട്രെയിൻ', 'Flight': 'ഹെലികോപ്റ്റർ', 'Ambi': 'കോണ്ടസ്സ കാർ', 'Jeep': 'മഹീന്ദ്ര ഥാർ', 'Tractor': 'കൊയ്ത്തുയന്ത്രം', 'Excavator': 'ബുൾഡോസർ', 'Ambulance': 'ഫയർ റെസ്ക്യൂ വാഹനം', 'Fire Engine': 'ആംബുലൻസ് വാഹനം',
+
+  // School, Sports, Gulf
+  'Kalolsavam': 'കായിക മേള', 'Arts Day': 'യൂണിയൻ ഫെസ്റ്റ്', 'College Canteen': 'ക്യാമ്പസ് തട്ടുകട', 'PTA Meeting': 'ഓപ്പൺ ഹൗസ്', 'Onam Celebration': 'ഫ്രഷേഴ്സ് ഡേ', 'Football': 'ക്രിക്കറ്റ് മത്സരം', 'Cricket': 'ഫുട്ബോൾ മത്സരം', 'Kabaddi': 'ഖോ-ഖോ കളി', 'Volleyball': 'ത്രോബോൾ കളി', 'Pravasi': 'പ്രവാസി മലയാളി', 'Dubai': 'ദോഹ ഖത്തർ', 'Gulf Money': 'വിദേശ പണം', 'Chakka': 'മാങ്ങ പഴം', 'Naatilekku': 'അവധി യാത്ര'
 };
+
 const CATEGORY_SINGLE_WORDS = {
   'Funny Malayalam': 'Vibe', 'Movies': 'Cinema', 'Characters': 'Actor', 'Festivals': 'Celebration', 'Places': 'Travel', 'Kerala Food': 'Dish', 'Bakery & Snacks': 'Snack', 'Household Items': 'Home', 'People': 'Person', 'Kerala Life': 'Culture', 'Vehicles': 'Travel', 'College & School': 'Campus', 'Sports': 'Match', 'Gulf & NRI': 'Abroad'
 };
 const CATEGORY_MALAYALAM_SINGLE_WORDS = {
   'Funny Malayalam': 'വൈബ്', 'Movies': 'സിനിമ', 'Characters': 'നടൻ', 'Festivals': 'ആഘോഷം', 'Places': 'യാത്ര', 'Kerala Food': 'ഭക്ഷണം', 'Bakery & Snacks': 'പലഹാരം', 'Household Items': 'വീട്', 'People': 'ആൾ', 'Kerala Life': 'സംസ്കാരം', 'Vehicles': 'യാത്ര', 'College & School': 'ക്യാമ്പസ്', 'Sports': 'മത്സരം', 'Gulf & NRI': 'വിദേശം'
 };
+
 const MOVIE_DETAILS = {
   'Manichitrathazhu': { role: 'Iconic psychological horror thriller starring Mohanlal & Shobana about an ancient haunted mansion and split personality', roleMalayalam: 'മോഹൻലാലും ശോഭനയും തകർത്തഭിനയിച്ച പൈതൃക തറവാട്ടിലെ മാനസിക പ്രശ്നങ്ങളുടെയും നാഗവല്ലിയുടെയും കഥ' },
   'Drishyam': { role: 'Clever family thriller starring Mohanlal where a resourceful father covers up an accidental crime to save his family', roleMalayalam: 'കുടുംബത്തെ രക്ഷിക്കാൻ ബുദ്ധിപൂർവ്വം തെളിവുകൾ നശിപ്പിച്ച് പൊലീസിനെ കബളിപ്പിക്കുന്ന ജോർജ്ജുകുട്ടിയുടെ കഥ' },
@@ -75,6 +271,7 @@ const MOVIE_DETAILS = {
   'Classmates': { role: 'Nostalgic campus romance and murder mystery surrounding a college reunion and long-buried secret diaries', roleMalayalam: 'കോളേജ് റീയൂണിയനിടയിൽ നടക്കുന്ന കൊലപാതക ശ്രമവും പഴയകാല ക്യാമ്പസ് പ്രണയ സൗഹൃദങ്ങളുടെയും കഥ' },
   'Spadikam': { role: 'Cult action drama starring Mohanlal as Aadu Thoma, the rebellious quarry owner and Ray-Ban wearing lorry driver', roleMalayalam: 'കണക്കുമാഷായ അച്ഛന്റെ കർക്കശ സ്വഭാവം മൂലം നാടുവിട്ടുപോയി ആടുകളെയും ലോറികളെയും സ്നേഹിക്കുന്ന ആടു തോമയുടെ കഥ' }
 };
+
 const CHARACTER_DETAILS = {
   'Georgekutty': { movie: 'Drishyam', movieMalayalam: 'ദൃശ്യം', role: 'Resourceful cable operator who cleverly covers up an accidental crime to protect his family', roleMalayalam: 'കുടുംബത്തെ രക്ഷിക്കാൻ അപകടകരമായ ഒരു രഹസ്യം മറച്ചുവെക്കുന്ന കേബിൾ ടിവി ഓപ്പറേറ്റർ' },
   'Nagavalli': { movie: 'Manichitrathazhu', movieMalayalam: 'മണിച്ചിത്രത്താഴ്', role: 'Vengeful spirit of an ancient Tamil dancer whose persona takes over Ganga', roleMalayalam: 'പഴയകാലത്തെ ദുരന്തകഥയുള്ള തമിഴ് നർത്തകിയുടെ പ്രതികാരദാഹിയായ ആത്മാവ്' },
@@ -113,63 +310,159 @@ const CHARACTER_DETAILS = {
   'Keeleri Achu': { movie: 'Kalyanaraman', movieMalayalam: 'കല്യാണരാമൻ', role: 'Comical muscleman and gym master whose harmless boasting and physical stunts create riotous wedding laughter', roleMalayalam: 'വലിയ ഗുണ്ടയാണെന്ന് ഭാവിക്കുന്ന തമാശക്കാരനായ ജിം മാസ്റ്റർ' },
   'Niranjan': { movie: 'Summer in Bethlehem', movieMalayalam: 'സമ്മർ ഇൻ ബേത്‌ലഹേം', role: 'Philosophical death-row prisoner who shares a deeply moving final meeting with his beloved before his execution', roleMalayalam: 'വധശിക്ഷയ്ക്ക് മുമ്പ് തനിക്ക് പ്രിയപ്പെട്ടവളെ അവസാനമായി കാണുന്ന വൈകാരികമായ കഥാപാത്രം' }
 };
-function chooseWord(){const usable=packs.filter(p=>selected.has(p.id));if(!usable.length){packs.forEach(p=>selected.add(p.id));}const category=usable[Math.floor(Math.random()*usable.length)]||packs[0];const picked=category.words[Math.floor(Math.random()*category.words.length)];const impWord=IMPOSTER_SINGLE_WORDS[picked[0]]||(picked[2]?picked[2].split(' ')[0].replace(/[^a-zA-Z]/g,''):'')||CATEGORY_SINGLE_WORDS[category.name]||'Secret';const impMalWord=IMPOSTER_MALAYALAM_SINGLE_WORDS[picked[0]]||(picked[3]?picked[3].trim().split(/\s+/)[0].replace(/[^a-zA-Z\u0D00-\u0D7F]/g,''):'')||CATEGORY_MALAYALAM_SINGLE_WORDS[category.name]||'രഹസ്യം';word={latin:picked[0],malayalam:picked[1],hintLatin:impWord,hintMalayalam:impMalWord,imposterWord:impWord,category:category.name};const charDetails=CHARACTER_DETAILS[picked[0]];const movieDetails=MOVIE_DETAILS?MOVIE_DETAILS[picked[0]]:null;if(charDetails){word.movieName=charDetails.movie;word.movieMalayalam=charDetails.movieMalayalam;word.characterRole=charDetails.role;word.characterRoleMalayalam=charDetails.roleMalayalam;word.detailType='character';}else if(movieDetails){word.movieName=picked[0];word.movieMalayalam=picked[1]||picked[0];word.characterRole=movieDetails.role;word.characterRoleMalayalam=movieDetails.roleMalayalam;word.detailType='movie';}else if(category.id==='characters'||category.name==='Characters'){word.movieName='Malayalam Movie';word.movieMalayalam='മലയാള സിനിമ';word.characterRole=picked[2]||'Famous Character';word.characterRoleMalayalam=picked[3]||'പ്രശസ്ത കഥാപാത്രം';word.detailType='character';}const indices=players.map((_,idx)=>idx);for(let i=indices.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[indices[i],indices[j]]=[indices[j],indices[i]];}imposters=new Set(indices.slice(0,Math.min(imposterCount,players.length-1)))}
+
+function chooseWord(){
+  const usable=packs.filter(p=>selected.has(p.id));
+  if(!usable.length){
+    packs.forEach(p=>selected.add(p.id));
+  }
+  const category=usable[Math.floor(Math.random()*usable.length)]||packs[0];
+  const picked=category.words[Math.floor(Math.random()*category.words.length)];
+  
+  // Golden Rule: Imposter word MUST be subtly related to actual word in the exact same domain/theme,
+  // NEVER identical or sharing exact duplicate tokens (e.g., if civilian is Kappa Biryani, imposter cannot get Kappa or Biryani).
+  let impWord = IMPOSTER_SINGLE_WORDS[picked[0]];
+  let impMalWord = IMPOSTER_MALAYALAM_SINGLE_WORDS[picked[0]];
+
+  // If word not directly in map (or from AI custom category), smartly pick a related sibling word from the pack
+  // or use the pre-paired AI hint that does NOT overlap keywords with the civilian word
+  if (!impWord || !impMalWord || impWord.toLowerCase() === picked[0].toLowerCase() || picked[0].toLowerCase().includes(impWord.toLowerCase())) {
+    if (picked[2] && picked[3] && picked[2] !== picked[0] && !picked[0].toLowerCase().includes(picked[2].split(' ')[0].toLowerCase())) {
+      impWord = picked[2];
+      impMalWord = picked[3];
+    } else {
+      // Find another word in this category that has zero keyword overlap
+      const siblings = category.words.filter(w => {
+        const w0Lower = w[0].toLowerCase();
+        const p0Lower = picked[0].toLowerCase();
+        return w0Lower !== p0Lower && !p0Lower.includes(w0Lower) && !w0Lower.includes(p0Lower);
+      });
+      if (siblings.length) {
+        const sib = siblings[Math.floor(Math.random() * siblings.length)];
+        impWord = sib[0];
+        impMalWord = sib[1];
+      } else {
+        impWord = CATEGORY_SINGLE_WORDS[category.name] || 'Related Secret';
+        impMalWord = CATEGORY_MALAYALAM_SINGLE_WORDS[category.name] || 'ബന്ധമുള്ള വാക്ക്';
+      }
+    }
+  }
+
+  word = {
+    latin: picked[0],
+    malayalam: picked[1],
+    hintLatin: impWord,
+    hintMalayalam: impMalWord,
+    imposterWord: impWord,
+    category: category.name
+  };
+
+  const charDetails = CHARACTER_DETAILS[picked[0]];
+  const movieDetails = MOVIE_DETAILS ? MOVIE_DETAILS[picked[0]] : null;
+  if(charDetails){
+    word.movieName=charDetails.movie;
+    word.movieMalayalam=charDetails.movieMalayalam;
+    word.characterRole=charDetails.role;
+    word.characterRoleMalayalam=charDetails.roleMalayalam;
+    word.detailType='character';
+  }else if(movieDetails){
+    word.movieName=picked[0];
+    word.movieMalayalam=picked[1]||picked[0];
+    word.characterRole=movieDetails.role;
+    word.characterRoleMalayalam=movieDetails.roleMalayalam;
+    word.detailType='movie';
+  }else if(category.id==='characters'||category.name==='Characters'){
+    word.movieName='Malayalam Movie';
+    word.movieMalayalam='മലയാള സിനിമ';
+    word.characterRole=picked[2]||'Famous Character';
+    word.characterRoleMalayalam=picked[3]||'പ്രശസ്ത കഥാപാത്രം';
+    word.detailType='character';
+  }else if(category.isCustom){
+    word.movieName=category.name + ' Theme';
+    word.movieMalayalam=category.name + ' വിഷയം';
+    word.characterRole=`AI generated custom word for ${picked[0]}`;
+    word.characterRoleMalayalam=`${picked[0]} എന്നതിനെക്കുറിച്ചുള്ള വിവരണം`;
+    word.detailType='custom';
+  }
+
+  const indices = players.map((_,idx)=>idx);
+  for(let i=indices.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [indices[i],indices[j]]=[indices[j],indices[i]];
+  }
+  imposters=new Set(indices.slice(0,Math.min(imposterCount,players.length-1)));
+}
+
 function startRound(){chooseWord();currentPlayer=0;showPass()};
 let isSwipedUp = false;
 function showPass(){if($('passName'))$('passName').textContent=players[currentPlayer]||`Player ${currentPlayer+1}`;if($('roundNumber'))$('roundNumber').textContent=round;showMalayalam=false;renderRoleView();show('pass');isSwipedUp=false;const card=$('roleSwipeCard');if(card){card.style.transition='none';card.style.transform='translateY(0)';const span=card.querySelector('.swipe-card-overlay span');if(span)span.textContent='Swipe up to reveal';}};
 function showReveal(){showMalayalam=false;renderRoleView();show('pass');}
-function renderRoleView(){if(typeof document==='undefined')return;const isImposter=imposters.has(currentPlayer);if($('roleBadge')){$('roleBadge').textContent=isImposter?(imposters.size>1?'You are one of the Imposters!':'You are the Imposter!'):'You are a player';$('roleBadge').className=`role-badge ${isImposter?'imposter':''}`}if(isImposter){if($('secretLabel'))$('secretLabel').style.display='none';if($('secretWord'))$('secretWord').textContent=showMalayalam?word.hintMalayalam:word.imposterWord;if($('scriptToggle')){$('scriptToggle').hidden=!(word&&(word.hintLatin||word.hintMalayalam));$('scriptToggle').textContent=showMalayalam?'Show in Manglish':'Show in Malayalam'}if($('secretHint')){$('secretHint').innerHTML=`<small style="color:var(--muted);font-size:12px;display:block;margin-top:6px;line-height:1.4;">Related to the actual word, but far from it. Blend in without guessing!</small>`;}}else{if($('secretLabel')){$('secretLabel').style.display='';$('secretLabel').textContent='SECRET WORD'}if($('scriptToggle')){$('scriptToggle').hidden=false;$('scriptToggle').textContent=showMalayalam?'Show in Manglish':'Show in Malayalam'}if($('secretWord'))$('secretWord').textContent=showMalayalam?word.malayalam:word.latin;if($('secretHint')){let hintHTML=[];if($('seeCategory')?.checked&&word&&word.category){hintHTML.push(`<span style="color:#a9a4b3;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;display:block;">Category</span><b style="color:var(--accent);font-size:16px;display:block;margin-top:2px;">${word.category}</b>`)}if(word&&word.movieName&&word.characterRole){const mov=showMalayalam?(word.movieMalayalam||word.movieName):word.movieName;const rol=showMalayalam?(word.characterRoleMalayalam||word.characterRole):word.characterRole;const isMovie=word.detailType==='movie'||word.category==='Movies';const movLbl=showMalayalam?'സിനിമ: ':'Movie: ';const rolLbl=showMalayalam?(isMovie?'കഥാസാരം: ':'കഥാപാത്രം: '):(isMovie?'Synopsis/Story: ':'Role: ');hintHTML.push(`<div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:10px;padding:10px 12px;margin-top:4px;text-align:left;"><div style="font-size:13px;color:var(--accent);margin-bottom:4px;"><b>🎬 ${movLbl}${mov}</b></div><div style="font-size:12.5px;color:var(--text);line-height:1.4;"><b>${rolLbl}</b>${rol}</div></div>`)}if(hintHTML.length===0){$('secretHint').innerHTML='Everyone else has this word too. Keep it hidden!'}else{$('secretHint').innerHTML=hintHTML.join('<div style="height:8px"></div>')}}}}
+function renderRoleView(){if(typeof document==='undefined')return;const isImposter=imposters.has(currentPlayer);if($('roleBadge')){$('roleBadge').textContent=isImposter?(imposters.size>1?'You are one of the Imposters!':'You are the Imposter!'):'You are a player';$('roleBadge').className=`role-badge ${isImposter?'imposter':''}`}if(isImposter){if($('secretLabel'))$('secretLabel').style.display='none';if($('secretWord'))$('secretWord').textContent=showMalayalam?word.hintMalayalam:word.imposterWord;if($('scriptToggle')){$('scriptToggle').hidden=!(word&&(word.hintLatin||word.hintMalayalam));$('scriptToggle').textContent=showMalayalam?'Show in Manglish':'Show in Malayalam'}if($('secretHint')){$('secretHint').innerHTML=`<small style="color:var(--muted);font-size:12.5px;display:block;margin-top:6px;line-height:1.45;">💡 Subtly related to the secret word, but different! Blend in without guessing!</small>`;}}else{if($('secretLabel')){$('secretLabel').style.display='';$('secretLabel').textContent='SECRET WORD'}if($('scriptToggle')){$('scriptToggle').hidden=false;$('scriptToggle').textContent=showMalayalam?'Show in Manglish':'Show in Malayalam'}if($('secretWord'))$('secretWord').textContent=showMalayalam?word.malayalam:word.latin;if($('secretHint')){let hintHTML=[];if($('seeCategory')?.checked&&word&&word.category){hintHTML.push(`<span style="color:#a9a4b3;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;display:block;">Category</span><b style="color:var(--accent);font-size:16px;display:block;margin-top:2px;">${word.category}</b>`)}if(word&&word.movieName&&word.characterRole){const mov=showMalayalam?(word.movieMalayalam||word.movieName):word.movieName;const rol=showMalayalam?(word.characterRoleMalayalam||word.characterRole):word.characterRole;const isMovie=word.detailType==='movie'||word.category==='Movies';const movLbl=showMalayalam?'സിനിമ / വിഷയം: ':'Theme / Movie: ';const rolLbl=showMalayalam?(isMovie?'കഥാസാരം: ':'വിവരണം: '):(isMovie?'Synopsis/Story: ':'Description: ');hintHTML.push(`<div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:10px;padding:10px 12px;margin-top:4px;text-align:left;"><div style="font-size:13px;color:var(--accent);margin-bottom:4px;"><b>🎬 ${movLbl}${mov}</b></div><div style="font-size:12.5px;color:var(--text);line-height:1.4;"><b>${rolLbl}</b>${rol}</div></div>`)}if(hintHTML.length===0){$('secretHint').innerHTML='Everyone else has this word too. Keep it hidden!'}else{$('secretHint').innerHTML=hintHTML.join('<div style="height:8px"></div>')}}}}
 function startTimer(){clearInterval(timerId);const minutes=parseInt($('durationSelect')?.value||2,10);let left=minutes*60;const total=left;const draw=()=>{const m=Math.floor(left/60),s=left%60;if($('timer'))$('timer').textContent=`${m}:${String(s).padStart(2,'0')}`;if($('timerRing'))$('timerRing').style.strokeDashoffset=327*(1-left/total)};draw();timerId=setInterval(()=>{left--;draw();if(left<=0){clearInterval(timerId);showVote()}},1000)}
 function showVote(){if(typeof document==='undefined')return;clearInterval(timerId);selectedVote=-1;const list=$('voteList');if(!list)return;list.innerHTML='';players.forEach((name,i)=>{const b=document.createElement('button');b.className='vote-option';b.innerHTML=`<span class="avatar">${i+1}</span><span>${name}</span>`;b.onclick=()=>{document.querySelectorAll('.vote-option').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');selectedVote=i;if($('revealResult')){$('revealResult').disabled=false;$('revealResult').classList.remove('disabled')}};list.append(b)});if($('revealResult')){$('revealResult').disabled=true;$('revealResult').classList.add('disabled')} show('vote')}
 function result(){const caught=imposters.has(selectedVote);const who=Array.from(imposters).map(i=>players[i]).join(', ');if($('resultIcon')){$('resultIcon').className=`result-icon ${caught?'':'fail'}`;$('resultIcon').textContent=caught?'✦':'!'}if($('resultEyebrow'))$('resultEyebrow').textContent=caught?'GOT THEM!':'OH NO!';if($('resultTitle'))$('resultTitle').textContent=caught?'The Imposter is caught!':(imposters.size>1?'The Imposters win!':'The Imposter wins!');if($('resultText'))$('resultText').textContent=`${who} ${imposters.size>1?'were the Imposters':'was the Imposter'}.`;if($('answerWord'))$('answerWord').textContent=word?.latin||'';show('result')}
 const bindClick=(id,fn)=>{const el=$(id);if(el)el.onclick=fn;};
+
 if(typeof window!=='undefined'&&typeof document!=='undefined'){
-bindClick('themeToggle',()=>{document.body.classList.toggle('light');if($('themeToggle'))$('themeToggle').textContent=document.body.classList.contains('light')?'☾':'☀'});
-bindClick('startSetup',()=>show('setup'));
-bindClick('openHelp',()=>show('help'));
-bindClick('openSettings',()=>show('setup'));
-document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>show(b.dataset.go));
-bindClick('addPlayer',()=>{if(players.length<10){players.push(`Player ${players.length+1}`);if($('playerList'))renderPlayers();savePlayers();}});
-bindClick('openCategories',()=>{if($('categoryGrid'))renderCategories();show('categories')});
-bindClick('selectAll',()=>{packs.forEach(p=>selected.add(p.id));if($('categoryGrid'))renderCategories();if($('categorySummary'))updateCategoryText()});
-bindClick('clearAll',()=>{selected.clear();if($('categoryGrid'))renderCategories();if($('categorySummary'))updateCategoryText()});
-bindClick('beginRound',startRound);
-const card=$('roleSwipeCard');
-if(card){
-  let startY=0, currentY=0, isDragging=false;
-  const updateOverlayText=(swiped)=>{const span=card.querySelector('.swipe-card-overlay span');if(span)span.textContent=swiped?'Swiped ↑ (Swipe down)':'Swipe up to reveal';};
-  const onDragStart=(y)=>{startY=y;currentY=y;isDragging=true;card.style.transition='none';};
-  const onDragMove=(y)=>{if(!isDragging)return;currentY=y;const delta=currentY-startY;if(!isSwipedUp){if(delta<0)card.style.transform=`translateY(${delta}px)`;}else{if(delta>0)card.style.transform=`translateY(calc(-100% + 25vh + ${delta}px))`;}};
-  const onDragEnd=()=>{if(!isDragging)return;isDragging=false;const delta=currentY-startY;card.style.transition='transform 0.4s cubic-bezier(0.16, 1, 0.3, 1)';if(!isSwipedUp){if(delta<-55){card.style.transform='translateY(calc(-100% + 25vh))';isSwipedUp=true;updateOverlayText(true);}else{card.style.transform='translateY(0)';}}else{if(delta>25||Math.abs(delta)<8){card.style.transform='translateY(0)';isSwipedUp=false;updateOverlayText(false);}else{card.style.transform='translateY(calc(-100% + 25vh))';}}};
-  card.addEventListener('touchstart',e=>{if(e.touches&&e.touches[0])onDragStart(e.touches[0].clientY);},{passive:true});
-  card.addEventListener('touchmove',e=>{if(e.touches&&e.touches[0])onDragMove(e.touches[0].clientY);},{passive:true});
-  card.addEventListener('touchend',()=>onDragEnd(),{passive:true});
-  card.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse'&&e.button!==0)return;card.setPointerCapture(e.pointerId);onDragStart(e.clientY);});
-  card.addEventListener('pointermove',e=>onDragMove(e.clientY));
-  card.addEventListener('pointerup',e=>{card.releasePointerCapture(e.pointerId);onDragEnd();});
-  card.addEventListener('pointercancel',()=>onDragEnd());
+  bindClick('themeToggle',()=>{document.body.classList.toggle('light');if($('themeToggle'))$('themeToggle').textContent=document.body.classList.contains('light')?'☾':'☀'});
+  bindClick('startSetup',()=>show('setup'));
+  bindClick('openHelp',()=>show('help'));
+  bindClick('openSettings',()=>show('setup'));
+  document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>show(b.dataset.go));
+  bindClick('addPlayer',()=>{if(players.length<10){players.push(`Player ${players.length+1}`);if($('playerList'))renderPlayers();savePlayers();}});
+  
+  // Open categories modal popup without changing screens
+  bindClick('openCategories', showCategoriesModal);
+  bindClick('closeCategoriesBtn', hideCategoriesModal);
+  bindClick('categoriesBackdrop', hideCategoriesModal);
+  bindClick('doneCategoriesBtn', hideCategoriesModal);
+  
+  bindClick('addCustomCategoryBtn', () => {
+    const input = $('customCategoryInput');
+    if (input) AIWordGenerator.addCustomCategory(input.value);
+  });
+
+  bindClick('selectAll',()=>{packs.forEach(p=>selected.add(p.id));saveCategories();if($('categoryGrid'))renderCategories();if($('categorySummary'))updateCategoryText()});
+  bindClick('clearAll',()=>{selected.clear();saveCategories();if($('categoryGrid'))renderCategories();if($('categorySummary'))updateCategoryText()});
+  bindClick('beginRound',startRound);
+  
+  const card=$('roleSwipeCard');
+  if(card){
+    let startY=0, currentY=0, isDragging=false;
+    const updateOverlayText=(swiped)=>{const span=card.querySelector('.swipe-card-overlay span');if(span)span.textContent=swiped?'Swiped ↑ (Swipe down)':'Swipe up to reveal';};
+    const onDragStart=(y)=>{startY=y;currentY=y;isDragging=true;card.style.transition='none';};
+    const onDragMove=(y)=>{if(!isDragging)return;currentY=y;const delta=currentY-startY;if(!isSwipedUp){if(delta<0)card.style.transform=`translateY(${delta}px)`;}else{if(delta>0)card.style.transform=`translateY(calc(-100% + 25vh + ${delta}px))`;}};
+    const onDragEnd=()=>{if(!isDragging)return;isDragging=false;const delta=currentY-startY;card.style.transition='transform 0.4s cubic-bezier(0.16, 1, 0.3, 1)';if(!isSwipedUp){if(delta<-55){card.style.transform='translateY(calc(-100% + 25vh))';isSwipedUp=true;updateOverlayText(true);}else{card.style.transform='translateY(0)';}}else{if(delta>25||Math.abs(delta)<8){card.style.transform='translateY(0)';isSwipedUp=false;updateOverlayText(false);}else{card.style.transform='translateY(calc(-100% + 25vh))';}}};
+    card.addEventListener('touchstart',e=>{if(e.touches&&e.touches[0])onDragStart(e.touches[0].clientY);},{passive:true});
+    card.addEventListener('touchmove',e=>{if(e.touches&&e.touches[0])onDragMove(e.touches[0].clientY);},{passive:true});
+    card.addEventListener('touchend',()=>onDragEnd(),{passive:true});
+    card.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse'&&e.button!==0)return;card.setPointerCapture(e.pointerId);onDragStart(e.clientY);});
+    card.addEventListener('pointermove',e=>onDragMove(e.clientY));
+    card.addEventListener('pointerup',e=>{card.releasePointerCapture(e.pointerId);onDragEnd();});
+    card.addEventListener('pointercancel',()=>onDragEnd());
+  }
+  const revealScreen=$('reveal');
+  if(revealScreen){
+    let rStartY=0,rCurrentY=0,rDragging=false;
+    const onRStart=(y)=>{rStartY=y;rCurrentY=y;rDragging=true;};
+    const onRMove=(y)=>{if(!rDragging)return;rCurrentY=y;};
+    const onREnd=()=>{if(!rDragging)return;rDragging=false;if(rCurrentY-rStartY>80&&$('hideRole')){$('hideRole').click();}};
+    revealScreen.addEventListener('touchstart',e=>{if(e.touches&&e.touches[0])onRStart(e.touches[0].clientY);},{passive:true});
+    revealScreen.addEventListener('touchmove',e=>{if(e.touches&&e.touches[0])onRMove(e.touches[0].clientY);},{passive:true});
+    revealScreen.addEventListener('touchend',()=>onREnd(),{passive:true});
+  }
+  bindClick('scriptToggle',()=>{showMalayalam=!showMalayalam;renderRoleView()});
+  bindClick('hideRole',()=>{currentPlayer++;if(currentPlayer<players.length){showPass();}else{show('clues');startTimer();}});
+  bindClick('skipDiscussion',showVote);
+  bindClick('revealResult',result);
+  bindClick('nextRound',()=>{round++;startRound()});
+  bindClick('goHome',()=>show('home'));
+  bindClick('removeImposter',()=>{if(imposterCount>1){imposterCount--;if($('imposterTotal'))$('imposterTotal').textContent=imposterCount}});
+  bindClick('addImposter',()=>{const maxImp=Math.max(1,Math.floor(players.length/2));if(imposterCount<maxImp){imposterCount++;if($('imposterTotal'))$('imposterTotal').textContent=imposterCount}});
+  const exitGameHandler=(e)=>{if(e&&e.stopPropagation)e.stopPropagation();if(confirm('Do you want to leave the game?')){show('setup');}};
+  if($('exitGame'))$('exitGame').onclick=exitGameHandler;
+  if($('exitReveal'))$('exitReveal').onclick=exitGameHandler;
+  bindClick('roleHelp',()=>show('help'));
+  if($('playerList'))renderPlayers();if($('categorySummary'))updateCategoryText();hideLoader();
 }
-const revealScreen=$('reveal');
-if(revealScreen){
-  let rStartY=0,rCurrentY=0,rDragging=false;
-  const onRStart=(y)=>{rStartY=y;rCurrentY=y;rDragging=true;};
-  const onRMove=(y)=>{if(!rDragging)return;rCurrentY=y;};
-  const onREnd=()=>{if(!rDragging)return;rDragging=false;if(rCurrentY-rStartY>80&&$('hideRole')){$('hideRole').click();}};
-  revealScreen.addEventListener('touchstart',e=>{if(e.touches&&e.touches[0])onRStart(e.touches[0].clientY);},{passive:true});
-  revealScreen.addEventListener('touchmove',e=>{if(e.touches&&e.touches[0])onRMove(e.touches[0].clientY);},{passive:true});
-  revealScreen.addEventListener('touchend',()=>onREnd(),{passive:true});
-}
-bindClick('scriptToggle',()=>{showMalayalam=!showMalayalam;renderRoleView()});
-bindClick('hideRole',()=>{currentPlayer++;if(currentPlayer<players.length){showPass();}else{show('clues');startTimer();}});
-bindClick('skipDiscussion',showVote);
-bindClick('revealResult',result);
-bindClick('nextRound',()=>{round++;startRound()});
-bindClick('goHome',()=>show('home'));
-bindClick('removeImposter',()=>{if(imposterCount>1){imposterCount--;if($('imposterTotal'))$('imposterTotal').textContent=imposterCount}});
-bindClick('addImposter',()=>{const maxImp=Math.max(1,Math.floor(players.length/2));if(imposterCount<maxImp){imposterCount++;if($('imposterTotal'))$('imposterTotal').textContent=imposterCount}});
-const exitGameHandler=(e)=>{if(e&&e.stopPropagation)e.stopPropagation();if(confirm('Do you want to leave the game?')){show('setup');}};
-if($('exitGame'))$('exitGame').onclick=exitGameHandler;
-if($('exitReveal'))$('exitReveal').onclick=exitGameHandler;
-bindClick('roleHelp',()=>show('help'));
-if($('playerList'))renderPlayers();if($('categorySummary'))updateCategoryText();hideLoader();
-}
+
