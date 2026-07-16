@@ -92,39 +92,46 @@
 
   <section id="setup" class="screen"><button class="back" data-go="home">← Back</button><div class="header-center"><span class="free-pill"><b>Kerala Edition</b><small>Play with your friends</small></span><h2>Set up game</h2><p>Configure before starting</p></div>
     <div class="panel"><div class="panel-head"><span>♧ &nbsp; Players</span><small id="playerTotal">3 / 10</small></div><div id="playerList" class="player-list"></div><button class="add-player" id="addPlayer">＋ Add Player</button></div>
-    <button class="panel selector" id="openCategories"><span class="selector-icon">◇</span><span><b>Categories</b><small id="categorySummary">All categories selected</small></span><i id="categoriesChevron">›</i></button>
+    <button class="panel selector" id="openCategories"><span class="selector-icon">🏷️</span><span><b>Categories</b><small id="categorySummary">All categories selected</small></span><i id="categoriesChevron">›</i></button>
     
     <!-- 🔽 Expandable Dropdown Categories Panel right on Setup Page -->
     <div id="categoriesDropdown" class="categories-dropdown">
       <div class="categories-dropdown-inner">
-        <div class="ai-custom-category-box">
-          <div class="ai-input-row">
-            <input type="text" id="customCategoryInput" placeholder="Add custom/rare topic with AI..." aria-label="Custom category topic" />
-            <button id="addCustomCategoryBtn" class="ai-add-btn" title="Generate with Gemini / Local AI"><span>⚡</span> Quick Add</button>
-          </div>
-          <div class="ai-chatbot-launcher-row">
-            <button id="openChatbotBtn" class="ai-chatbot-launcher-btn"><span>🤖</span> Chat with Gemini AI Assistant (Any Rare Topic!)</button>
-          </div>
-          <div class="gemini-key-section">
-            <button type="button" id="toggleGeminiKeyBtn" class="gemini-key-toggle">🔑 Set Google Gemini API Key <small id="geminiKeyStatus">(Not set - Local fallback active)</small></button>
-            <div id="geminiKeyBox" class="gemini-key-box" style="display:none; flex-direction:column; gap:6px;">
-              <div style="display:flex; gap:8px; width:100%;">
-                <input type="password" id="geminiApiKeyInput" placeholder="Paste your Gemini API Key (AIz...)" style="flex:1;" />
-                <button id="saveGeminiKeyBtn" class="gemini-key-save-btn">Save Key</button>
-              </div>
-              <div style="font-size:12px; text-align:left; padding-left:2px;">
-                <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" style="color:#69d2a9; text-decoration:underline; font-weight:500;">👉 Click here to get a free Gemini API Key (Google AI Studio)</a>
-              </div>
-            </div>
-          </div>
-          <small class="ai-helper-text">✨ Normal built-in categories play 100% offline! When using AI for rare topics, Gemini activates via your internet connection.</small>
-        </div>
         <div class="category-tools">
           <button id="selectAll">Select all</button><i></i><button id="clearAll">Clear all</button>
           <span id="categoryCount" class="category-count-badge">0 selected</span>
         </div>
-        <!-- Compact category grid that scrolls up along with the AI quick card -->
         <div id="categoryGrid" class="category-grid compact-grid"></div>
+        
+        <div class="ai-custom-category-box" style="margin-top: 10px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08);">
+          <div class="ai-input-row">
+            <input type="text" id="customCategoryInput" placeholder="Add custom/rare topic with AI..." aria-label="Custom category topic" />
+            <button id="addCustomCategoryBtn" class="ai-add-btn" title="Generate with Gemini / Local AI"><span>⚡</span> Quick Add</button>
+          </div>
+          <div class="gemini-key-section">
+            <!-- State 1: No Key Set -->
+            <div id="geminiUnsetRow" class="gemini-unset-row">
+              <button type="button" id="toggleGeminiKeyBtn" class="gemini-key-toggle">🔑 Set Google Gemini API Key</button>
+              <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" class="get-key-link">👉 Get API Key</a>
+            </div>
+            <!-- State 2: Key Is Set -->
+            <div id="geminiSetRow" class="gemini-set-row" style="display:none;">
+              <span class="gemini-active-badge">✓ Gemini AI Active</span>
+              <button type="button" id="editGeminiKeyBtn" class="gemini-edit-btn">Edit Key</button>
+            </div>
+            <!-- Input Box -->
+            <div id="geminiKeyBox" class="gemini-key-box" style="display:none; flex-direction:column; gap:6px;">
+              <div style="display:flex; gap:8px; width:100%;">
+                <input type="password" id="geminiApiKeyInput" placeholder="Paste your Gemini API Key (AIz...)" style="flex:1;" />
+                <button id="saveGeminiKeyBtn" class="gemini-key-save-btn">Save</button>
+                <button id="removeGeminiKeyBtn" class="gemini-key-remove-btn" title="Remove Key">✕</button>
+              </div>
+              <div style="font-size:11.5px; text-align:left; padding-left:2px;">
+                <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" style="color:#ff9e1c; text-decoration:underline; font-weight:500;">👉 Click here to get your free Gemini API Key from Google AI Studio</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

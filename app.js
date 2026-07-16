@@ -63,7 +63,8 @@ const $=id=>typeof document!=='undefined'?document.getElementById(id):null;const
 const hideLoader=()=>{if(typeof document==='undefined')return;const l=document.getElementById('loader');if(l&&!l.classList.contains('done')){const startTime=window.__loaderStartTime||(Date.now()-5000);const elapsed=Date.now()-startTime;const rem=Math.max(0,5000-elapsed);setTimeout(()=>{l.classList.add('done');document.body.style.background='#060509';document.documentElement.style.background='#060509';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='#060509';var h=document.getElementById('home');if(h){window.dispatchEvent(new Event('resize'));}setTimeout(()=>{if(l&&l.parentNode)l.style.display='none'},450)},rem)}};
 if(typeof window!=='undefined'&&typeof document!=='undefined'){hideLoader();window.addEventListener('load',hideLoader);window.addEventListener('DOMContentLoaded',hideLoader);setTimeout(hideLoader,5000);}
 function renderPlayers(){if(typeof document==='undefined')return;const list=$('playerList');if(!list)return;list.innerHTML='';players.forEach((name,i)=>{const row=document.createElement('div');row.className='player-row';row.innerHTML=`<span class="player-number">${i+1}</span><input value="${name.replace(/"/g,'&quot;')}" aria-label="Player ${i+1} name"><button class="remove-player" aria-label="Remove player"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path></svg></button>`;row.querySelector('input').oninput=e=>{players[i]=e.target.value||`Player ${i+1}`;savePlayers();};row.querySelector('button').onclick=()=>{if(players.length>3){players.splice(i,1);if(imposterCount>Math.floor(players.length/2)){imposterCount=Math.max(1,Math.floor(players.length/2));if($('imposterTotal'))$('imposterTotal').textContent=imposterCount}renderPlayers();savePlayers();}};list.append(row)});if($('playerTotal'))$('playerTotal').textContent=`${players.length} / 10`;}
-function renderCategories(){if(typeof document==='undefined')return;const grid=$('categoryGrid');if(!grid)return;grid.innerHTML='';packs.forEach(p=>{const b=document.createElement('button');b.className=`category-card compact ${selected.has(p.id)?'selected':''}`;b.innerHTML=`<span class="cat-icon">${p.icon}</span><b>${p.name}</b><small>${p.words.length} words ${p.isCustom?'(AI)':''}</small>`;b.onclick=()=>{selected.has(p.id)?selected.delete(p.id):selected.add(p.id);saveCategories();renderCategories();updateCategoryText()};grid.append(b)});if($('categoryCount'))$('categoryCount').textContent=`${selected.size} of ${packs.length} selected`;}
+function renderCategories(){if(typeof document==='undefined')return;const grid=$('categoryGrid');if(!grid)return;grid.innerHTML='';packs.forEach(p=>{const b=document.createElement('div');b.className=`category-card compact ${selected.has(p.id)?'selected':''}`;b.onclick=(e)=>{if(e.target.closest('.delete-custom-cat'))return;selected.has(p.id)?selected.delete(p.id):selected.add(p.id);saveCategories();renderCategories();updateCategoryText()};let delHtml=p.isCustom?`<button class="delete-custom-cat" title="Delete AI topic" onclick="deleteCustomCategory('${p.id}', event)">🗑️</button>`:'';b.innerHTML=`<span class="cat-icon">${p.icon}</span><div class="cat-info"><b>${p.name}</b><small>${p.words.length} words ${p.isCustom?'(AI)':''}</small></div>${delHtml}`;grid.append(b)});if($('categoryCount'))$('categoryCount').textContent=`${selected.size} of ${packs.length} selected`;if($('categorySummary'))updateCategoryText();}
+function deleteCustomCategory(id,e){if(e&&e.stopPropagation)e.stopPropagation();if(!confirm('Remove this custom AI category?'))return;const idx=packs.findIndex(p=>p.id===id);if(idx!==-1)packs.splice(idx,1);selected.delete(id);if(typeof loadCustomCategories==='function'&&typeof saveCustomCategories==='function'){const cl=loadCustomCategories().filter(p=>p.id!==id);saveCustomCategories(cl);}saveCategories();renderCategories();}
 function updateCategoryText(){if($('categorySummary'))$('categorySummary').textContent=selected.size===packs.length?'All categories selected':`${selected.size} of ${packs.length} selected`;}
 
 function toggleCategoriesDropdown() {
@@ -104,12 +105,19 @@ function saveGeminiApiKey(key) {
 }
 function initGeminiKeyUI() {
   const key = getGeminiApiKey();
-  const status = $('geminiKeyStatus');
+  const unsetRow = $('geminiUnsetRow');
+  const setRow = $('geminiSetRow');
+  const box = $('geminiKeyBox');
   const inp = $('geminiApiKeyInput');
-  if (inp && key && !inp.value) inp.value = key;
-  if (status) {
-    status.textContent = key ? '✓ Active (Live Gemini Mode)' : '(Not set - Local fallback active)';
-    status.style.color = key ? '#10b981' : '#a9a5b4';
+  if (inp) inp.value = key;
+  if (key) {
+    if (unsetRow) unsetRow.style.display = 'none';
+    if (setRow) setRow.style.display = 'flex';
+    if (box) box.style.display = 'none';
+  } else {
+    if (unsetRow) unsetRow.style.display = 'flex';
+    if (setRow) setRow.style.display = 'none';
+    if (box) box.style.display = 'none';
   }
 }
 
@@ -696,8 +704,12 @@ if(typeof window!=='undefined'&&typeof document!=='undefined'){
     };
   });
 
-  // 🔑 Gemini API Key Toggle & Save bindings
+  // 🔑 Gemini API Key Toggle, Edit, Save, Remove bindings
   bindClick('toggleGeminiKeyBtn', () => {
+    const box = $('geminiKeyBox');
+    if (box) box.style.display = box.style.display === 'none' ? 'flex' : 'none';
+  });
+  bindClick('editGeminiKeyBtn', () => {
     const box = $('geminiKeyBox');
     if (box) box.style.display = box.style.display === 'none' ? 'flex' : 'none';
   });
@@ -705,9 +717,12 @@ if(typeof window!=='undefined'&&typeof document!=='undefined'){
     const inp = $('geminiApiKeyInput');
     if (inp) {
       saveGeminiApiKey(inp.value);
-      const box = $('geminiKeyBox');
-      if (box) box.style.display = 'none';
       alert(getGeminiApiKey() ? '✅ Google Gemini API Key saved! Live Cloud AI mode is now active.' : 'Removed Gemini API Key. Local fallback active.');
+    }
+  });
+  bindClick('removeGeminiKeyBtn', () => {
+    if (confirm('Remove Gemini API Key?')) {
+      saveGeminiApiKey('');
     }
   });
 
