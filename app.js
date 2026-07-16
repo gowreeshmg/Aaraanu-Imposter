@@ -141,7 +141,8 @@ CRITICAL REQUIREMENTS:
 2. ENTITY ACCURACY & MATCHING TYPE (STRICT RULE):
    - The Civilian Word MUST NEVER be an actor's real name if the category asks for characters! If the category is about movie characters (like "Lucifer movie characters" or "Harry Potter characters"), every single Civilian Word MUST be an actual character name inside that movie/universe (e.g., "Stephen Nedumpally", "Bobby", "Khureshi Ab'ram", "Priyadarshini", "Govardhan"). DO NOT give actor names (like Mohanlal, Suresh Gopi, Vivek Oberoi) as Civilian Words when characters are requested!
    - Both the Civilian Word AND the Imposter Word MUST be entities of the EXACT SAME TYPE and level of specificity (e.g., if Civilian gets a character from the movie, Imposter MUST get a different character from the same movie/universe, NEVER an actor's real name and NEVER the opposite type). NEVER swap actor names and character names! Both Civilian and Imposter get items of the same category level.
-3. GOLDEN RULE FOR IMPOSTER WORD:
+3. GOLDEN RULE FOR IMPOSTER WORD & SINGLE WORD STRICT REQUIREMENT:
+   - STRICT SINGLE/SHORT NOUN RULE: Both the Civilian Word and Imposter Word MUST strictly be single words, names, or short 1-3 word nouns/titles (e.g., "Anjooran", "Swaminathan", "Puttu", "Idiyappam"). NEVER write a full sentence, explanation, or definition describing the word! NEVER output phrases like "A character who is..." or "A spicy dish made of...". Must be clean, short nouns or names only!
    - The Imposter Word MUST be a distinct, subtly related item from the exact same general domain/theme so the imposter can blend into the conversation (e.g., if Civilian gets "Stephen Nedumpally", Imposter gets "Zayed Masood" or "Govardhan"; if Civilian gets "Kochi Kayal Biryani", Imposter gets "Backwater Fish Pulao"), BUT the Imposter Word MUST NEVER contain any shared noun or exact duplicate keyword from the Civilian Word. The imposter should NEVER be able to easily guess the exact secret word just from reading their own card!
 4. Return ONLY a valid JSON array of 12 arrays without markdown or code blocks:
 [["CivEng", "CivMal", "ImpEng", "ImpMal"], ...]`;
@@ -283,6 +284,66 @@ Or literally anything else you can imagine! I will create 12 bilingual Malayalam
         ['Sweet Unniyappam', 'ഉണ്ണിയപ്പം', 'Traditional Neyyappam', 'നെയ്യപ്പം'],
         ['Chilli Baji Snack', 'മുളക് ബജ്ജി', 'Potato Masala Bonda', 'ബോണ്ട']
       ];
+    } else if (lower.includes('godfather') || lower.includes('anjooran')) {
+      return [
+        ['Anjooran', 'അഞ്ഞൂരാൻ', 'Swaminathan', 'സ്വാമിനാഥൻ'],
+        ['Ramabhadran', 'രാമഭദ്രൻ', 'Balaraman', 'ബലരാമൻ'],
+        ['Malappuram Anappadi Anjooran', 'അഞ്ഞൂരാൻ', 'Achamma', 'അച്ചാമ്മ'],
+        ['Swaminathan', 'സ്വാമിനാഥൻ', 'Ramabhadran', 'രാമഭദ്രൻ'],
+        ['Balaraman', 'ബലരാമൻ', 'Veerabhadran', 'വീരഭദ്രൻ'],
+        ['Achamma', 'അച്ചാമ്മ', 'Malati', 'മാലതി'],
+        ['Malati', 'മാലതി', 'Anjooran Family House', 'അഞ്ഞൂരാൻ വീട്'],
+        ['Anjooran Patriarch', 'അഞ്ഞൂരാൻ കാരണവർ', 'Balaraman', 'ബലരാമൻ'],
+        ['Veerabhadran', 'വീരഭദ്രൻ', 'Swaminathan Brother', 'സ്വാമിനാഥൻ സഹോദരൻ'],
+        ['Godfather Family Rivalry', 'കുടുംബ വൈരം', 'Achamma Household', 'അച്ചാമ്മ വീട്'],
+        ['Advocate Ananthan', 'അഡ്വക്കറ്റ് അനന്തൻ', 'Ramabhadran', 'രാമഭദ്രൻ'],
+        ['Godfather Comedy Scene', 'കോമഡി രംഗം', 'Anjooran Sons', 'അഞ്ഞൂരാൻ മക്കൾ']
+      ];
+    } else if (lower.includes('in harihar nagar') || lower.includes('harihar nagar') || lower.includes('mahadevan') || lower.includes('appukuttan') || lower.includes('ramanan')) {
+      return [
+        ['Mahadevan', 'മഹാദേവൻ', 'Govindan Kutty', 'ഗോവിന്ദൻകുട്ടി'],
+        ['Appukuttan', 'അപ്പുകുട്ടൻ', 'Ramanan', 'രമണൻ'],
+        ['Thomas Kutty', 'തോമസ് കുട്ടി', 'Appukuttan', 'അപ്പുകുട്ടൻ'],
+        ['Govindan Kutty', 'ഗോവിന്ദൻകുട്ടി', 'Mahadevan', 'മഹാദേവൻ'],
+        ['Maya', 'മായ', 'Sethulakshmi', 'സേതുലക്ഷ്മി'],
+        ['John Honai', 'ജോൺ ഹോനായി', 'Thomas Kutty', 'തോമസ് കുട്ടി'],
+        ['Ramanan', 'രമണൻ', 'Appukuttan', 'അപ്പുകുട്ടൻ'],
+        ['Harihar Nagar Colony', 'ഹരിഹർ നഗർ കോളനി', 'John Honai Gang', 'ഹോനായി സംഘം'],
+        ['Mahadevan House', 'മഹാദേവൻ വീട്', 'Maya Briefcase', 'മായ പെട്ടി'],
+        ['Sethulakshmi', 'സേതുലക്ഷ്മി', 'Maya', 'മായ'],
+        ['Thomas Kutty Mother', 'തോമസ് കുട്ടി അമ്മ', 'Govindan Kutty', 'ഗോവിന്ദൻകുട്ടി'],
+        ['John Honai Suitcase', 'ഹോനായി പെട്ടി', 'Harihar Nagar Boys', 'ഹരിഹർ നഗർ മക്കൾ']
+      ];
+    } else if (lower.includes('manichitrathazhu') || lower.includes('nagavalli') || lower.includes('dr. sunny') || lower.includes('ganga')) {
+      return [
+        ['Ganga', 'ഗംഗ', 'Nakulan', 'നകുലൻ'],
+        ['Dr. Sunny Joseph', 'ഡോ. സണ്ണി ജോസഫ്', 'Nakulan', 'നകുലൻ'],
+        ['Nagavalli', 'നാഗവല്ലി', 'Ramanathan Dancer', 'രാമനാഥൻ'],
+        ['Sreedevi', 'ശ്രീദേവി', 'Unnithan', 'ഉണ്ണിത്താൻ'],
+        ['Bhasura', 'ഭാസുര', 'Kattuparamban', 'കാട്ടുപറമ്പൻ'],
+        ['Mahadevan Dancer', 'മഹാദേവൻ നർത്തകൻ', 'Nagavalli', 'നാഗവല്ലി'],
+        ['Madampalli Tharavadu', 'മാടമ്പള്ളി തറവാട്', 'Thekkini Room', 'തെക്കിനി'],
+        ['Ornate Lock / Thazhu', 'മണിച്ചിത്രത്താഴ്', 'Silambu Anklet', 'ചിലമ്പ്'],
+        ['Pulluvan Pattu Song', 'പുള്ളുവൻ പാട്ട്', 'Oru Murai Vanthu', 'ഒരു മുറൈ വന്ത്'],
+        ['Brahmadattan Namboodiri', 'ബ്രഹ്മദത്തൻ നമ്പൂതിരി', 'Dr. Sunny Joseph', 'ഡോ. സണ്ണി ജോസഫ്'],
+        ['Chandu', 'ചന്തു', 'Mahadevan Dancer', 'മഹാദേവൻ നർത്തകൻ'],
+        ['Thekkini Room', 'തെക്കിനി', 'Madampalli Palace', 'മാടമ്പള്ളി കൊട്ടാരം']
+      ];
+    } else if (lower.includes('nadodikkattu') || lower.includes('dasan') || lower.includes('vijayan') || lower.includes('cid moosa')) {
+      return [
+        ['Dasan', 'ദാസൻ', 'Vijayan', 'വിജയൻ'],
+        ['Vijayan', 'വിജയൻ', 'Dasan', 'ദാസൻ'],
+        ['Ananthan Nambiar', 'അനന്തൻ നമ്പ്യാർ', 'Pavanayi', 'പവനായി'],
+        ['Gafoor Ka Dosth', 'ഗഫൂർ ക്യാപ്റ്റൻ', 'Captain Gafoor Boat', 'ഗഫൂർ ബോട്ട്'],
+        ['Pavanayi Suitcase', 'പവനായി', 'Ananthan Nambiar', 'അനന്തൻ നമ്പ്യാർ'],
+        ['Radha', 'രാധ', 'Kovai Brother', 'കോവൈ സഹോദരൻ'],
+        ['CID Officers', 'സിഐഡി ഉദ്യോഗസ്ഥർ', 'Dasan & Vijayan', 'ദാസൻ വിജയൻ'],
+        ['Dubai Shore / Chennai', 'ദുബായ് കടൽതീരം', 'Gafoor Ka Dosth Boat', 'ഗഫൂർ ബോട്ട്'],
+        ['Pavanayi', 'പവനായി', 'Ananthan Nambiar', 'അനന്തൻ നമ്പ്യാർ'],
+        ['Madras / Chennai Beach', 'മദ്രാസ് ബീച്ച്', 'Dubai Coast', 'ദുബായ് തീരം'],
+        ['Dasan Milk Supply', 'പാൽ വിതരണം', 'Vijayan Cow', 'വിജയൻ പശു'],
+        ['CID Moosa Role', 'സിഐഡി മൂസ', 'Pavanayi Killer', 'പവനായി കൊലയാളി']
+      ];
     } else if (lower.includes('lucifer') || lower.includes('empuraan') || lower.includes('stephen nedumpally')) {
       return [
         ['Stephen Nedumpally', 'സ്റ്റീഫൻ നെടുമ്പള്ളി', 'Zayed Masood', 'സയീദ് മസൂദ്'],
@@ -298,7 +359,7 @@ Or literally anything else you can imagine! I will create 12 bilingual Malayalam
         ['Bhadran', 'ഭദ്രൻ', 'Michael Appan', 'മൈക്കിൾ അപ്പൻ'],
         ['Nair / Father', 'നായർ അച്ചൻ', 'Koshy Kurien', 'കോശി കുര്യൻ']
       ];
-    } else if (lower.includes('character') || (lower.includes('movie') && (lower.includes('role') || lower.includes('name')))) {
+    } else if (lower === 'characters' || lower === 'movie characters' || lower === 'malayalam movie characters' || lower === 'malayalam characters') {
       return [
         ['Stephen Nedumpally', 'സ്റ്റീഫൻ നെടുമ്പള്ളി', 'Zayed Masood', 'സയീദ് മസൂദ്'],
         ['Georgekutty', 'മൈക്കിൾ അപ്പൻ', 'Koshy Kurien', 'അയ്യപ്പൻ നായർ'],
@@ -574,7 +635,10 @@ const IMPOSTER_MALAYALAM_SINGLE_WORDS = {
   'Mohanlal': 'മമ്മൂട്ടി', 'Mammootty': 'മോഹൻലാൽ', 'Manju Warrier': 'ശോഭന', 'Fahadh Faasil': 'പൃഥ്വിരാജ്', 'Shobana': 'മഞ്ജു വാര്യർ', 'Chaya Kada': 'ബേക്കറി കട', 'Kallu Shappu': 'തട്ടുകട സ്പോട്ട്', 'KSRTC': 'പ്രൈവറ്റ് ബസ്', 'KSRTC Bus': 'പ്രൈവറ്റ് ബസ്', 'Auto Rickshaw': 'ടാക്സി കാർ', 'Tharavadu': 'മന കൊട്ടാരം', 'Aanavandi': 'പ്രൈവറ്റ് ബസ്', 'Vallam': 'സ്പീഡ് ബോട്ട്', 'Autorickshaw': 'ടാക്സി കാർ', 'Bullet': 'ആർ എക്സ് 100', 'Houseboat': 'മോട്ടോർ ബോട്ട്', 'Junkar': 'ഫെറി ബോട്ട്', 'Vellam': 'നദി വെള്ളം', 'Lorry': 'പിക്കപ്പ് വാഹനം', 'Private Bus': 'കെഎസ്ആർടിസി എക്സ്പ്രസ്', 'Tempo Traveller': 'ടൂറിസ്റ്റ് ബസ്', 'Scooter': 'ഗിയർലെസ്സ് സ്കൂട്ടി', 'Cycle': 'ഇ-ബൈക്ക്', 'Train': 'മെട്രോ എക്സ്പ്രസ്', 'Metro': 'റെയിൽവേ ട്രെയിൻ', 'Flight': 'ഹെലികോപ്റ്റർ', 'Ambi': 'കോണ്ടസ്സ കാർ', 'Jeep': 'മഹീന്ദ്ര ഥാർ', 'Tractor': 'കൊയ്ത്തുയന്ത്രം', 'Excavator': 'ബുൾഡോസർ', 'Ambulance': 'ഫയർ റെസ്ക്യൂ വാഹനം', 'Fire Engine': 'ആംബുലൻസ് വാഹനം',
 
   // School, Sports, Gulf
-  'Kalolsavam': 'കായിക മേള', 'Arts Day': 'യൂണിയൻ ഫെസ്റ്റ്', 'College Canteen': 'ക്യാമ്പസ് തട്ടുകട', 'PTA Meeting': 'ഓപ്പൺ ഹൗസ്', 'Onam Celebration': 'ഫ്രഷേഴ്സ് ഡേ', 'Football': 'ക്രിക്കറ്റ് മത്സരം', 'Cricket': 'ഫുട്ബോൾ മത്സരം', 'Kabaddi': 'ഖോ-ഖോ കളി', 'Volleyball': 'ത്രോബോൾ കളി', 'Pravasi': 'പ്രവാസി മലയാളി', 'Dubai': 'ദോഹ ഖത്തർ', 'Gulf Money': 'വിദേശ പണം', 'Chakka': 'മാങ്ങ പഴം', 'Naatilekku': 'അവധി യാത്ര'
+  'Kalolsavam': 'കായിക മേള', 'Arts Day': 'യൂണിയൻ ഫെസ്റ്റ്', 'College Canteen': 'ക്യാമ്പസ് തട്ടുകട', 'PTA Meeting': 'ഓപ്പൺ ഹൗസ്', 'Onam Celebration': 'ഫ്രഷേഴ്സ് ഡേ', 'Football': 'ക്രിക്കറ്റ് മത്സരം', 'Cricket': 'ഫുട്ബോൾ മത്സരം', 'Kabaddi': 'ഖോ-ഖോ കളി', 'Volleyball': 'ത്രോബോൾ കളി', 'Pravasi': 'പ്രവാസി മലയാളി', 'Dubai': 'ദോഹ ഖത്തർ', 'Gulf Money': 'വിദേശ പണം', 'Chakka': 'മാങ്ങ പഴം', 'Naatilekku': 'അവധി യാത്ര',
+
+  // Godfather & Harihar Nagar & Movie characters
+  'Anjooran': 'സ്വാമിനാഥൻ', 'Swaminathan': 'രാമഭദ്രൻ', 'Ramabhadran': 'ബലരാമൻ', 'Balaraman': 'വീരഭദ്രൻ', 'Achamma': 'മാലതി', 'Mahadevan': 'ഗോവിന്ദൻകുട്ടി', 'Govindan Kutty': 'തോമസ് കുട്ടി', 'Thomas Kutty': 'അപ്പുകുട്ടൻ', 'John Honai': 'തോമസ് കുട്ടി', 'Ganga': 'നകുലൻ', 'Dr. Sunny Joseph': 'നകുലൻ', 'Nagavalli': 'രാമനാഥൻ'
 };
 
 const CATEGORY_SINGLE_WORDS = {
@@ -654,7 +718,16 @@ const CHARACTER_DETAILS = {
   'Govardhan': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'Relentless conspiracy theorist and truth-seeking vigilante who uncovers the secret web of political corruption and crime', roleMalayalam: 'രാഷ്ട്രീയ കൊലപാതകങ്ങളുടെയും അഴിമതിയുടെയും രഹസ്യ രേഖകൾ പുറത്തു കൊണ്ടുവരുന്ന സത്യസന്ധൻ' },
   'P.K. Ramdas (PKR)': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'The iconic veteran Chief Minister of Kerala whose sudden death triggers a massive political battle for succession', roleMalayalam: 'കേരള രാഷ്ട്രീയത്തിലെ അതികായനും പെട്ടെന്നുള്ള മരണത്തിലൂടെ വലിയ അധികാരത്തർക്കത്തിന് വഴിവെച്ച മുഖ്യമന്ത്രിയും' },
   'Sanjeev / Sanju': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'Deeply troubled son of Priyadarshini who is trapped and blackmailed by Bobby’s dark underworld network', roleMalayalam: 'ബോബിയുടെ ചതിയിലും ഭീഷണികളിലും കുടുങ്ങിപ്പോകുന്ന പ്രിയദർശിനിയുടെ മകൻ' },
-  'Zayed Masood': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'Elite mercenary and fiercely loyal lieutenant of Khureshi Ab\'ram who leads covert paramilitary operations', roleMalayalam: 'ഖുറേഷി അബ്രാമിന്റെ വിശ്വസ്തനും കമാൻഡോ ഓപ്പറേഷനുകൾ നയിക്കുന്ന കരുത്തനുമായ പോരാളി' }
+  'Zayed Masood': { movie: 'Lucifer', movieMalayalam: 'ലൂസിഫർ', role: 'Elite mercenary and fiercely loyal lieutenant of Khureshi Ab\'ram who leads covert paramilitary operations', roleMalayalam: 'ഖുറേഷി അബ്രാമിന്റെ വിശ്വസ്തനും കമാൻഡോ ഓപ്പറേഷനുകൾ നയിക്കുന്ന കരുത്തനുമായ പോരാളി' },
+  'Anjooran': { movie: 'Godfather', movieMalayalam: 'ഗോഡ്ഫാദർ', role: 'Strict and stubborn family patriarch of Anappadi who banned women from entering his family house due to old rivalries', roleMalayalam: 'പഴയകാല വൈരാഗ്യം മൂലം സ്ത്രീകളെ വീട്ടിൽ കയറ്റാതെ മക്കളെ കർക്കശമായി വളർത്തുന്ന കാരണവർ' },
+  'Swaminathan': { movie: 'Godfather', movieMalayalam: 'ഗോഡ്ഫാദർ', role: 'Devoted eldest son of Anjooran who secretly managed outside connections while upholding family rules at home', roleMalayalam: 'അച്ഛന്റെ വാക്ക് കേട്ട് കഴിയുന്ന അഞ്ഞൂരാന്റെ മൂത്ത മകനും രസകരമായ കഥാപാത്രവും' },
+  'Ramabhadran': { movie: 'Godfather', movieMalayalam: 'ഗോഡ്ഫാദർ', role: 'Youngest son of Anjooran whose secret college romance with rival family girl Malati sparks hilarious chaos', roleMalayalam: 'ശത്രു കുടുംബത്തിലെ മാലതിയുമായി പ്രണയത്തിലായി കുടുംബത്തിൽ വലിയ തമാശകളും പ്രശ്നങ്ങളുമുണ്ടാക്കുന്ന ഇളയ മകൻ' },
+  'Balaraman': { movie: 'Godfather', movieMalayalam: 'ഗോഡ്ഫാദർ', role: 'Fiery and loyal middle son of Anjooran who fiercely defends his father and brothers against Achamma\'s clan', roleMalayalam: 'അച്ഛനും സഹോദരന്മാർക്കും വേണ്ടി എന്തിനും മുന്നിൽ നിൽക്കുന്ന അഞ്ഞൂരാന്റെ രണ്ടാമത്തെ മകൻ' },
+  'Achamma': { movie: 'Godfather', movieMalayalam: 'ഗോഡ്ഫാദർ', role: 'Proud and vengeful matriarch of Aanappara house who vowed to destroy Anjooran and his family legacy', roleMalayalam: 'അഞ്ഞൂരാനോടുള്ള പക മനസ്സിൽ സൂക്ഷിക്കുന്ന ശക്തയായ ആനപ്പാറ കുടുംബ നാഥ' },
+  'Mahadevan': { movie: 'In Harihar Nagar', movieMalayalam: 'ഇൻ ഹരിഹർ നഗർ', role: 'Flirtatious bachelor living with three friends whose obsession with a new neighbor Maya leads to criminal mystery', roleMalayalam: 'ഹരിഹർ നഗറിൽ കൂട്ടുകാരോടൊപ്പം താമസിച്ച് മായയെ പരിചയപ്പെടാൻ ശ്രമിക്കുന്ന ചെറുപ്പക്കാരൻ' },
+  'Govindan Kutty': { movie: 'In Harihar Nagar', movieMalayalam: 'ഇൻ ഹരിഹർ നഗർ', role: 'Pragmatic bachelor friend in Harihar Nagar whose humorous advice and schemes always land the gang in trouble', roleMalayalam: 'കൂട്ടുകാരുടെ തമാശകൾക്കും പദ്ധതികൾക്കും കൂട്ടുനിൽക്കുന്ന ഹരിഹർ നഗറിലെ സുഹൃത്ത്' },
+  'Thomas Kutty': { movie: 'In Harihar Nagar', movieMalayalam: 'ഇൻ ഹരിഹർ നഗർ', role: 'Innocent and easily scared bachelor friend whose hilarious dialogues and mother\'s calls made him unforgettable', roleMalayalam: 'എപ്പോഴും പേടിക്കുകയും ചിരിപ്പിക്കുന്ന ഡയലോഗുകൾ പറയുകയും ചെയ്യുന്ന കൂട്ടുകാരൻ' },
+  'John Honai': { movie: 'In Harihar Nagar', movieMalayalam: 'ഇൻ ഹരിഹർ നഗർ', role: 'Deadly and sophisticated villain who tracks a mysterious suitcase full of money right into Harihar Nagar colony', roleMalayalam: 'പണം നിറച്ച പെട്ടി തേടി ഹരിഹർ നഗറിലെത്തുന്ന ഭയാനകനായ വില്ലൻ ജോൺ ഹോനായി' }
 };
 
 function chooseWord(){
@@ -667,11 +740,21 @@ function chooseWord(){
   
   // Golden Rule: Imposter word MUST be subtly related to actual word in the exact same domain/theme,
   // NEVER identical or sharing exact duplicate tokens (e.g., if civilian is Kappa Biryani, imposter cannot get Kappa or Biryani).
+  // Also NEVER allow a sentence or explanation! Must be a single word or short 1-3 word noun phrase.
+  const isValidShortNoun = (w) => {
+    if (!w || typeof w !== 'string') return false;
+    const trimmed = w.trim();
+    const words = trimmed.split(/\s+/);
+    if (words.length > 4) return false; // Reject sentences/long descriptions
+    const badVerbs = ['is', 'are', 'was', 'were', 'that', 'which', 'who', 'from', 'about', 'explaining', 'meaning', 'called', 'character', 'describes', 'explains'];
+    return !words.some(x => badVerbs.includes(x.toLowerCase()));
+  };
+
   let impWord = null;
   let impMalWord = null;
 
   // 1. First, check if the pair itself has a custom paired imposter word (e.g. from AI or specialized local categories like Lucifer/characters)
-  if (picked[2] && picked[3] && picked[2] !== 'Related Secret' && picked[2] !== picked[0]) {
+  if (picked[2] && picked[3] && picked[2] !== 'Related Secret' && picked[2] !== picked[0] && isValidShortNoun(picked[2])) {
     const w0Lower = picked[0].toLowerCase();
     const w2Lower = picked[2].toLowerCase();
     const w2First = picked[2].split(' ')[0].toLowerCase();
@@ -685,7 +768,7 @@ function chooseWord(){
   if (!impWord || !impMalWord) {
     const dictImp = IMPOSTER_SINGLE_WORDS[picked[0]];
     const dictImpMal = IMPOSTER_MALAYALAM_SINGLE_WORDS[picked[0]];
-    if (dictImp && dictImpMal && dictImp.toLowerCase() !== picked[0].toLowerCase() && !picked[0].toLowerCase().includes(dictImp.toLowerCase())) {
+    if (dictImp && dictImpMal && dictImp.toLowerCase() !== picked[0].toLowerCase() && !picked[0].toLowerCase().includes(dictImp.toLowerCase()) && isValidShortNoun(dictImp)) {
       impWord = dictImp;
       impMalWord = dictImpMal;
     }
@@ -696,15 +779,15 @@ function chooseWord(){
     const siblings = category.words.filter(w => {
       const w0Lower = w[0].toLowerCase();
       const p0Lower = picked[0].toLowerCase();
-      return w0Lower !== p0Lower && !p0Lower.includes(w0Lower) && !w0Lower.includes(p0Lower);
+      return w[0] !== picked[0] && w0Lower !== p0Lower && !p0Lower.includes(w0Lower) && !w0Lower.includes(p0Lower) && isValidShortNoun(w[0]);
     });
     if (siblings.length) {
       const sib = siblings[Math.floor(Math.random() * siblings.length)];
       impWord = sib[0];
       impMalWord = sib[1];
     } else {
-      impWord = picked[2] || CATEGORY_SINGLE_WORDS[category.name] || 'Related Secret';
-      impMalWord = picked[3] || CATEGORY_MALAYALAM_SINGLE_WORDS[category.name] || 'ബന്ധമുള്ള വാക്ക്';
+      impWord = CATEGORY_SINGLE_WORDS[category.name] || 'Related Secret';
+      impMalWord = CATEGORY_MALAYALAM_SINGLE_WORDS[category.name] || 'ബന്ധമുള്ള വാക്ക്';
     }
   }
 
@@ -760,7 +843,7 @@ function showReveal(){showMalayalam=false;renderRoleView();show('pass');}
 function renderRoleView(){if(typeof document==='undefined')return;const isImposter=imposters.has(currentPlayer);if($('roleBadge')){$('roleBadge').textContent=isImposter?(imposters.size>1?'You are one of the Imposters!':'You are the Imposter!'):'You are a player';$('roleBadge').className=`role-badge ${isImposter?'imposter':''}`}if(isImposter){if($('secretLabel'))$('secretLabel').style.display='none';if($('secretWord'))$('secretWord').textContent=showMalayalam?word.hintMalayalam:word.imposterWord;if($('scriptToggle')){$('scriptToggle').hidden=!(word&&(word.hintLatin||word.hintMalayalam));$('scriptToggle').textContent=showMalayalam?'Show in Manglish':'Show in Malayalam'}if($('secretHint')){$('secretHint').innerHTML=`<small style="color:var(--muted);font-size:12.5px;display:block;margin-top:6px;line-height:1.45;">💡 Subtly related to the secret word, but different! Blend in without guessing!</small>`;}}else{if($('secretLabel')){$('secretLabel').style.display='';$('secretLabel').textContent='SECRET WORD'}if($('scriptToggle')){$('scriptToggle').hidden=false;$('scriptToggle').textContent=showMalayalam?'Show in Manglish':'Show in Malayalam'}if($('secretWord'))$('secretWord').textContent=showMalayalam?word.malayalam:word.latin;if($('secretHint')){let hintHTML=[];if($('seeCategory')?.checked&&word&&word.category){hintHTML.push(`<span style="color:#a9a4b3;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;display:block;">Category</span><b style="color:var(--accent);font-size:16px;display:block;margin-top:2px;">${word.category}</b>`)}if(word&&word.movieName&&word.characterRole){const mov=showMalayalam?(word.movieMalayalam||word.movieName):word.movieName;const rol=showMalayalam?(word.characterRoleMalayalam||word.characterRole):word.characterRole;const isMovie=word.detailType==='movie'||word.category==='Movies';const movLbl=showMalayalam?'സിനിമ / വിഷയം: ':'Theme / Movie: ';const rolLbl=showMalayalam?(isMovie?'കഥാസാരം: ':'വിവരണം: '):(isMovie?'Synopsis/Story: ':'Description: ');hintHTML.push(`<div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:10px;padding:10px 12px;margin-top:4px;text-align:left;"><div style="font-size:13px;color:var(--accent);margin-bottom:4px;"><b>🎬 ${movLbl}${mov}</b></div><div style="font-size:12.5px;color:var(--text);line-height:1.4;"><b>${rolLbl}</b>${rol}</div></div>`)}if(hintHTML.length===0){$('secretHint').innerHTML='Everyone else has this word too. Keep it hidden!'}else{$('secretHint').innerHTML=hintHTML.join('<div style="height:8px"></div>')}}}}
 function startTimer(){clearInterval(timerId);const minutes=parseInt($('durationSelect')?.value||2,10);let left=minutes*60;const total=left;const draw=()=>{const m=Math.floor(left/60),s=left%60;if($('timer'))$('timer').textContent=`${m}:${String(s).padStart(2,'0')}`;if($('timerRing'))$('timerRing').style.strokeDashoffset=327*(1-left/total)};draw();timerId=setInterval(()=>{left--;draw();if(left<=0){clearInterval(timerId);showVote()}},1000)}
 function showVote(){if(typeof document==='undefined')return;clearInterval(timerId);selectedVote=-1;const list=$('voteList');if(!list)return;list.innerHTML='';players.forEach((name,i)=>{const b=document.createElement('button');b.className='vote-option';b.innerHTML=`<span class="avatar">${i+1}</span><span>${name}</span>`;b.onclick=()=>{document.querySelectorAll('.vote-option').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');selectedVote=i;if($('revealResult')){$('revealResult').disabled=false;$('revealResult').classList.remove('disabled')}};list.append(b)});if($('revealResult')){$('revealResult').disabled=true;$('revealResult').classList.add('disabled')} show('vote')}
-function result(){const caught=imposters.has(selectedVote);const who=Array.from(imposters).map(i=>players[i]).join(', ');if($('resultIcon')){$('resultIcon').className=`result-icon ${caught?'':'fail'}`;$('resultIcon').textContent=caught?'✦':'!'}if($('resultEyebrow'))$('resultEyebrow').textContent=caught?'GOT THEM!':'OH NO!';if($('resultTitle'))$('resultTitle').textContent=caught?'The Imposter is caught!':(imposters.size>1?'The Imposters win!':'The Imposter wins!');if($('resultText'))$('resultText').textContent=`${who} ${imposters.size>1?'were the Imposters':'was the Imposter'}.`;if($('answerWord'))$('answerWord').textContent=word?.latin||'';show('result')}
+function result(){const caught=imposters.has(selectedVote);const who=Array.from(imposters).map(i=>players[i]).join(', ');if($('resultIcon')){$('resultIcon').className=`result-icon ${caught?'':'fail'}`;$('resultIcon').textContent=caught?'✦':'!'}if($('resultEyebrow'))$('resultEyebrow').textContent=caught?'GOT THEM!':'OH NO!';if($('resultTitle'))$('resultTitle').textContent=caught?'The Imposter is caught!':(imposters.size>1?'The Imposters win!':'The Imposter wins!');if($('resultText'))$('resultText').textContent=`${who} ${imposters.size>1?'were the Imposters':'was the Imposter'}.`;const compCard=$('resultComparisonCard')||$('answerWord')?.parentElement;if(compCard&&word){const civWord=showMalayalam?(word.malayalam||word.latin):(word.latin||'');const civSub=showMalayalam?word.latin:(word.malayalam||'');const impWordStr=showMalayalam?(word.hintMalayalam||word.imposterWord):(word.imposterWord||'');const impSub=showMalayalam?word.imposterWord:(word.hintMalayalam||'');let relText="";if(word.category==='Godfather'||word.movieName==='Godfather'){relText=`Both are legendary characters from the 1991 comedy classic 'Godfather'. While civilians received <b>${word.latin}</b>, the imposter got <b>${word.imposterWord}</b>—belonging to the same iconic family rivalries, enabling them to participate without knowing the exact identity!`}else if(word.movieName||word.characterRole){const mName=word.movieName||word.category;relText=`Both are iconic characters from the movie/theme '<b>${mName}</b>'. They share the exact same story universe, allowing the imposter (who received <b>${word.imposterWord}</b>) to blend into discussions about <b>${word.latin}</b> without sharing exact duplicate names!`}else if(word.isAI){relText=`Both secret items belong strictly to your custom theme '<b>${word.category}</b>'. The AI paired <b>${word.latin}</b> with the related sibling <b>${word.imposterWord}</b> because they share strong domain context and similarities without exact keyword overlap.`}else{relText=`Both words belong to the category '<b>${word.category||'Secrets'}</b>'. While civilians discussed <b>${word.latin}</b>, the imposter received <b>${word.imposterWord}</b>—a distinct, subtly related sibling from the exact same theme so they could blend in naturally!`}compCard.innerHTML=`<div class="dual-words-container"><div class="word-box civ-box"><span class="box-label">🧑 Civilians' Word</span><strong class="box-word">${civWord}</strong>${civSub&&civSub!==civWord?`<small class="box-sub">(${civSub})</small>`:''}</div><div class="word-box imp-box"><span class="box-label">🤫 Imposter's Word</span><strong class="box-word">${impWordStr}</strong>${impSub&&impSub!==impWordStr?`<small class="box-sub">(${impSub})</small>`:''}</div></div><div class="relationship-explanation"><div class="rel-title">💡 How the words are related</div><div class="rel-text">${relText}</div></div>`;}show('result')}
 const bindClick=(id,fn)=>{const el=$(id);if(el)el.onclick=fn;};
 
 if(typeof window!=='undefined'&&typeof document!=='undefined'){
