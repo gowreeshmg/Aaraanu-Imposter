@@ -490,7 +490,7 @@ Object.entries(window.extraWords || {}).forEach(([id, words]) => {
       latin,
       malayalam,
       hintLatin || `Related to ${latin}`,
-      hintMalayalam || `ബന്ധപ്പെട്ടത് ${malayalam || latin}`
+      hintMalayalam || (hintLatin ? hintLatin.split(' ')[0] : 'രഹസ്യം')
     ]));
   }
 });
