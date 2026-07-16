@@ -1,9 +1,26 @@
 var packs = (typeof window !== 'undefined' && window.packs) || (typeof packs !== 'undefined' ? packs : []);
-let players=['Player 1','Player 2','Player 3'],selected=new Set((packs||[]).map(p=>p.id)),round=1,currentPlayer=0,imposters=new Set(),imposterCount=1,word=null,showMalayalam=false,selectedVote=-1,timerId;
+const STORAGE_KEY = 'aaraanu_imposter_saved_players';
+function loadSavedPlayers() {
+  if (typeof window === 'undefined' || !window.localStorage) return ['Player 1', 'Player 2', 'Player 3'];
+  try {
+    const saved = JSON.parse(window.localStorage.getItem(STORAGE_KEY));
+    if (Array.isArray(saved) && saved.length >= 3 && saved.length <= 10) {
+      return saved;
+    }
+  } catch(e) {}
+  return ['Player 1', 'Player 2', 'Player 3'];
+}
+function savePlayers() {
+  if (typeof window === 'undefined' || !window.localStorage) return;
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(players));
+  } catch(e) {}
+}
+let players=loadSavedPlayers(),selected=new Set((packs||[]).map(p=>p.id)),round=1,currentPlayer=0,imposters=new Set(),imposterCount=1,word=null,showMalayalam=false,selectedVote=-1,timerId;
 const $=id=>typeof document!=='undefined'?document.getElementById(id):null;const show=id=>{if(typeof document==='undefined')return;document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));if($(id))$(id).classList.add('active');if(typeof window!=='undefined'&&window.scrollTo)window.scrollTo(0,0)};
-const hideLoader=()=>{if(typeof document==='undefined')return;const l=document.getElementById('loader');if(l&&!l.classList.contains('done')){const startTime=window.__loaderStartTime||(Date.now()-5000);const elapsed=Date.now()-startTime;const rem=Math.max(0,5000-elapsed);setTimeout(()=>{l.classList.add('done');setTimeout(()=>{if(l&&l.parentNode)l.style.display='none'},450)},rem)}};
+const hideLoader=()=>{if(typeof document==='undefined')return;const l=document.getElementById('loader');if(l&&!l.classList.contains('done')){const startTime=window.__loaderStartTime||(Date.now()-5000);const elapsed=Date.now()-startTime;const rem=Math.max(0,5000-elapsed);setTimeout(()=>{l.classList.add('done');document.body.style.background='#060509';var h=document.getElementById('home');if(h){h.style.height='100dvh';window.dispatchEvent(new Event('resize'));}setTimeout(()=>{if(l&&l.parentNode)l.style.display='none'},450)},rem)}};
 if(typeof window!=='undefined'&&typeof document!=='undefined'){hideLoader();window.addEventListener('load',hideLoader);window.addEventListener('DOMContentLoaded',hideLoader);setTimeout(hideLoader,5000);}
-function renderPlayers(){if(typeof document==='undefined')return;const list=$('playerList');if(!list)return;list.innerHTML='';players.forEach((name,i)=>{const row=document.createElement('div');row.className='player-row';row.innerHTML=`<span class="player-number">${i+1}</span><input value="${name.replace(/"/g,'&quot;')}" aria-label="Player ${i+1} name"><button class="remove-player" aria-label="Remove player"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path></svg></button>`;row.querySelector('input').oninput=e=>players[i]=e.target.value||`Player ${i+1}`;row.querySelector('button').onclick=()=>{if(players.length>3){players.splice(i,1);if(imposterCount>Math.floor(players.length/2)){imposterCount=Math.max(1,Math.floor(players.length/2));if($('imposterTotal'))$('imposterTotal').textContent=imposterCount}renderPlayers()}};list.append(row)});if($('playerTotal'))$('playerTotal').textContent=`${players.length} / 10`;}
+function renderPlayers(){if(typeof document==='undefined')return;const list=$('playerList');if(!list)return;list.innerHTML='';players.forEach((name,i)=>{const row=document.createElement('div');row.className='player-row';row.innerHTML=`<span class="player-number">${i+1}</span><input value="${name.replace(/"/g,'&quot;')}" aria-label="Player ${i+1} name"><button class="remove-player" aria-label="Remove player"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path></svg></button>`;row.querySelector('input').oninput=e=>{players[i]=e.target.value||`Player ${i+1}`;savePlayers();};row.querySelector('button').onclick=()=>{if(players.length>3){players.splice(i,1);if(imposterCount>Math.floor(players.length/2)){imposterCount=Math.max(1,Math.floor(players.length/2));if($('imposterTotal'))$('imposterTotal').textContent=imposterCount}renderPlayers();savePlayers();}};list.append(row)});if($('playerTotal'))$('playerTotal').textContent=`${players.length} / 10`;}
 function renderCategories(){if(typeof document==='undefined')return;const grid=$('categoryGrid');if(!grid)return;grid.innerHTML='';packs.forEach(p=>{const b=document.createElement('button');b.className=`category-card ${selected.has(p.id)?'selected':''}`;b.innerHTML=`<span class="cat-icon">${p.icon}</span><b>${p.name}</b><small>${p.words.length} words</small>`;b.onclick=()=>{selected.has(p.id)?selected.delete(p.id):selected.add(p.id);renderCategories();updateCategoryText()};grid.append(b)});if($('categoryCount'))$('categoryCount').textContent=`${selected.size} of ${packs.length} selected`;}
 function updateCategoryText(){if($('categorySummary'))$('categorySummary').textContent=selected.size===packs.length?'All categories selected':`${selected.size} of ${packs.length} selected`;}
 const IMPOSTER_SINGLE_WORDS = {
@@ -49,7 +66,7 @@ bindClick('startSetup',()=>show('setup'));
 bindClick('openHelp',()=>show('help'));
 bindClick('openSettings',()=>show('setup'));
 document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>show(b.dataset.go));
-bindClick('addPlayer',()=>{if(players.length<10){players.push(`Player ${players.length+1}`);if($('playerList'))renderPlayers()}});
+bindClick('addPlayer',()=>{if(players.length<10){players.push(`Player ${players.length+1}`);if($('playerList'))renderPlayers();savePlayers();}});
 bindClick('openCategories',()=>{if($('categoryGrid'))renderCategories();show('categories')});
 bindClick('selectAll',()=>{packs.forEach(p=>selected.add(p.id));if($('categoryGrid'))renderCategories();if($('categorySummary'))updateCategoryText()});
 bindClick('clearAll',()=>{selected.clear();if($('categoryGrid'))renderCategories();if($('categorySummary'))updateCategoryText()});
