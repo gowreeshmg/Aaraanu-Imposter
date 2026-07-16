@@ -137,11 +137,11 @@ async function generateWithGeminiOrLocal(topic) {
       
       const promptText = `You are the Aaraanu Imposter party game AI word generator. The user requested a custom category: "${clean}".
 CRITICAL REQUIREMENTS:
-1. You MUST generate EXACTLY 12 specific, actual, real-world items/dishes/entities/names belonging to "${clean}". For example, if the topic is "Varieties of Mandi", generate actual mandi dishes (e.g., "Chicken Kuzhi Mandi", "Mutton Madghout", "Kanthari Alfaham Mandi", "Peri-Peri Mandi"), NEVER generic phrases like "Variety of Mandi" or "Ultimate Mandi". Every single word MUST be a real, authentic entity!
+1. You MUST generate EXACTLY 12 specific, actual, real-world items/dishes/entities/names belonging to "${clean}". Every single word MUST be a real, authentic entity!
 2. Each pair contains:
    - Civilian Word (English)
    - Civilian Word (Malayalam script/translation)
-   - Imposter Word (English) - MUST be a distinct, subtly related sibling item in the same category (never identical to civilian word, never sharing exact keywords).
+   - Imposter Word (English) - CRITICAL GOLDEN RULE: The Imposter Word MUST be a distinct, subtly related item from the same general domain/theme so the imposter can blend into the conversation (e.g., if Civilian gets "Kochi Kayal Biryani", Imposter gets "Backwater Fish Pulao" or "Malabar Ghee Rice"; if Civilian gets "Chicken Kuzhi Mandi", Imposter gets "Al-Faham Pepper Roast"), BUT the Imposter Word MUST NEVER contain any shared noun or category keyword from the Civilian Word (NEVER put the word "Biryani" in both, NEVER put "Mandi" in both, NEVER share exact words between Civilian and Imposter). The imposter should NEVER be able to easily guess the exact secret word just from reading their own card!
    - Imposter Word (Malayalam script/translation)
 3. Return ONLY a valid JSON array of 12 arrays without markdown or code blocks:
 [["CivEng", "CivMal", "ImpEng", "ImpMal"], ...]`;
@@ -240,48 +240,48 @@ Or literally anything else you can imagine! I will create 12 bilingual Malayalam
     // Check deep topic clusters & specific popular topics like Mandi / Biryani / Food
     if (lower.includes('mandi') || lower.includes('kuzhimandi') || lower.includes('arabian')) {
       return [
-        ['Chicken Kuzhi Mandi', 'ചിക്കൻ കുഴിമന്തി', 'Mutton Kuzhi Mandi', 'മട്ടൺ കുഴിമന്തി'],
-        ['Beef Madghout', 'ബീഫ് മദ്ഗൂത്ത്', 'Chicken Madghout', 'ചിക്കൻ മദ്ഗൂത്ത്'],
-        ['Kanthari Alfaham Mandi', 'കാന്താരി അൽഫഹം മന്തി', 'Peri-Peri Mandi', 'പെരി-പെരി മന്തി'],
-        ['Honey Chilli Mandi', 'ഹണി ചില്ലി മന്തി', 'Garlic Alfaham Mandi', 'ഗാർലിക് അൽഫഹം മന്തി'],
-        ['Arabian Majboos', 'അറേബ്യൻ മജ്ബൂസ്', 'Yemeni Kabsa', 'യെമനി കബ്സ'],
-        ['Schezwan Mandi', 'ഷെസ്വാൻ മന്തി', 'BBQ Chicken Mandi', 'ബാർബിക്യൂ മന്തി'],
-        ['Fish Kuzhi Mandi', 'ഫിഷ് കുഴിമന്തി', 'Prawns Mandi', 'പ്രോൺസ് മന്തി'],
-        ['Mutton Ribs Mandi', 'മട്ടൺ റിബ്സ് മന്തി', 'Grilled Chicken Mandi', 'ഗ്രിൽഡ് ചിക്കൻ മന്തി'],
+        ['Chicken Kuzhi Mandi', 'ചിക്കൻ കുഴിമന്തി', 'Al-Faham Pepper Roast', 'അൽഫഹം പെപ്പർ റോസ്റ്റ്'],
+        ['Beef Madghout', 'ബീഫ് മദ്ഗൂത്ത്', 'Arabian Ghee Rice', 'അറേബ്യൻ നെയ്ച്ചോറ്'],
+        ['Kanthari Alfaham Mandi', 'കാന്താരി അൽഫഹം മന്തി', 'Spicy BBQ Chicken Plate', 'സ്പൈസി ബാർബിക്യൂ ചിക്കൻ'],
+        ['Honey Chilli Mandi', 'ഹണി ചില്ലി മന്തി', 'Garlic Chicken Roast', 'ഗാർലിക് ചിക്കൻ റോസ്റ്റ്'],
+        ['Arabian Majboos', 'അറേബ്യൻ മജ്ബൂസ്', 'Malabar Dum Choru', 'മലബാർ ദം ചോറ്'],
+        ['Schezwan Mandi', 'ഷെസ്വാൻ മന്തി', 'Dragon Chicken Dry', 'ഡ്രാഗൺ ചിക്കൻ ഡ്രൈ'],
+        ['Fish Kuzhi Mandi', 'ഫിഷ് കുഴിമന്തി', 'Neymeen Pollichathu', 'നെയ്മീൻ പൊള്ളിച്ചത്'],
+        ['Mutton Ribs Mandi', 'മട്ടൺ റിബ്സ് മന്തി', 'Lamb Chops Roast', 'ലാംബ് ചോപ്സ് റോസ്റ്റ്'],
         ['Shorba Soup', 'ഷോർബ സൂപ്പ്', 'Arabian Salata', 'അറേബ്യൻ സലാത്ത'],
         ['Mayonnaise Garlic', 'മയോണൈസ് ഗാർലിക്', 'Spicy Tomato Chutney', 'തക്കാളി ചട്നി'],
-        ['Shawarma Plate', 'ഷവർമ്മ പ്ലേറ്റ്', 'Al-Faham Plate', 'അൽഫഹം പ്ലേറ്റ്'],
-        ['Hummus with Pita', 'ഹമ്മുസ് പീറ്റ', 'Baba Ghanoush', 'ബാബ ഗനൂഷ്']
+        ['Shawarma Plate', 'ഷവർമ്മ പ്ലേറ്റ്', 'Grilled Chicken Platter', 'ഗ്രിൽഡ് ചിക്കൻ പ്ലാറ്റർ'],
+        ['Hummus with Pita', 'ഹമ്മുസ് പീറ്റ', 'Baba Ghanoush Dip', 'ബാബ ഗനൂഷ് ഡിപ്പ്']
       ];
     } else if (lower.includes('biryani') || lower.includes('biriyani')) {
       return [
-        ['Thalassery Biryani', 'തലശ്ശേരി ബിരിയാണി', 'Ghee Rice Chicken', 'നെയ്ച്ചോറും ചിക്കനും'],
-        ['Hyderabadi Dum Biryani', 'ഹൈദരാബാദി ബിരിയാണി', 'Lucknowi Biryani', 'ലഖ്‌നൗ ബിരിയാണി'],
-        ['Kozhikodan Dum Biryani', 'കോഴിക്കോടൻ ബിരിയാണി', 'Malabar Mutton Biryani', 'മലബാർ മട്ടൺ ബിരിയാണി'],
-        ['Dindigul Biryani', 'ദിണ്ഡിഗൽ ബിരിയാണി', 'Ambur Biryani', 'ആംബൂർ ബിരിയാണി'],
-        ['Beef Roast Biryani', 'ബീഫ് റോസ്റ്റ് ബിരിയാണി', 'Fish Biryani', 'ഫിഷ് ബിരിയാണി'],
-        ['Erachi Choru', 'ഇറച്ചിച്ചോറ്', 'Neymeen Biryani', 'നെയ്മീൻ ബിരിയാണി'],
-        ['Prawns Biryani', 'പ്രോൺസ് ബിരിയാണി', 'Egg Dum Biryani', 'മുട്ട ബിരിയാണി'],
-        ['Kochi Kayal Biryani', 'കൊച്ചി കായൽ ബിരിയാണി', 'Bamboo Biryani', 'മുള ബിരിയാണി'],
-        ['Kashmiri Pulao', 'കാശ്മീരി പുലാവ്', 'Ghee Rice Beef Roast', 'നെയ്ച്ചോറും ബീഫും'],
-        ['Kalyana Biryani', 'കല്യാണ ബിരിയാണി', 'Raviz Special Biryani', 'റാവീസ് സ്പെഷ്യൽ'],
-        ['Sultani Biryani', 'സുൽത്താനി ബിരിയാണി', 'Mughlai Biryani', 'മൊഗ്ലൈ ബിരിയാണി'],
-        ['Palakkadan Biryani', 'പാലക്കാടൻ ബിരിയാണി', 'Wayanad Spiced Biryani', 'വയനാടൻ ബിരിയാണി']
+        ['Thalassery Biryani', 'തലശ്ശേരി ബിരിയാണി', 'Ghee Rice & Chicken Roast', 'നെയ്ച്ചോറും ചിക്കൻ റോസ്റ്റും'],
+        ['Hyderabadi Dum Biryani', 'ഹൈദരാബാദി ബിരിയാണി', 'Mughlai Spiced Pulao', 'മൊഗ്ലൈ പുലാവ്'],
+        ['Kozhikodan Dum Biryani', 'കോഴിക്കോടൻ ബിരിയാണി', 'Malabar Erachi Choru', 'മലബാർ ഇറച്ചിച്ചോറ്'],
+        ['Dindigul Biryani', 'ദിണ്ഡിഗൽ ബിരിയാണി', 'Spicy Seeraga Samba Pulao', 'ജീരകശാല പുലാവ്'],
+        ['Ambur Chicken Biryani', 'ആംബൂർ ബിരിയാണി', 'Ghee Rice & Mutton Kuruma', 'നെയ്ച്ചോറും മട്ടൺ കുരുമയും'],
+        ['Beef Roast Biryani', 'ബീഫ് റോസ്റ്റ് ബിരിയാണി', 'Kerala Beef Fry & Ghee Rice', 'ബീഫ് ഫ്രൈയും നെയ്ച്ചോറും'],
+        ['Neymeen Fish Biryani', 'നെയ്മീൻ ബിരിയാണി', 'Malabar Fish Masala Choru', 'മലബാർ ഫിഷ് മസാല ചോറ്'],
+        ['Prawns Dum Biryani', 'പ്രോൺസ് ബിരിയാണി', 'Seafood Spiced Pulao', 'സീഫുഡ് പുലാവ്'],
+        ['Kochi Kayal Biryani', 'കൊച്ചി കായൽ ബിരിയാണി', 'Backwater Fish Pulao', 'കായൽ മീൻ പുലാവ്'],
+        ['Bamboo Chicken Biryani', 'മുള ബിരിയാണി', 'Tribal Spiced Rice & Roast', 'കാട്ടു സുഗന്ധ ചോറ്'],
+        ['Kalyana Dum Biryani', 'കല്യാണ ബിരിയാണി', 'Malabar Wedding Ghee Rice', 'കല്യാണ നെയ്ച്ചോറ്'],
+        ['Palakkadan Dum Biryani', 'പാലക്കാടൻ ബിരിയാണി', 'Agraharam Spiced Choru', 'അഗ്രഹാര സ്പെഷ്യൽ ചോറ്']
       ];
     } else if (lower.includes('food') || lower.includes('snack') || lower.includes('dish') || lower.includes('kerala food')) {
       return [
-        ['Parippu Vada', 'പരിപ്പ് വട', 'Uzhunnu Vada', 'ഉഴുന്നു വട'],
-        ['Kulukki Sarbath', 'കുലുക്കി സർബത്ത്', 'Soda Lime', 'സോഡാ നാരങ്ങ'],
-        ['Beef Fry', 'ബീഫ് ഫ്രൈ', 'Porotta', 'പൊറോട്ട'],
-        ['Pazham Pori', 'പഴംപൊരി', 'Sukhiyan', 'സുഖിയൻ'],
-        ['Kappa Biryani', 'കപ്പ ബിരിയാണി', 'Erachi Choru', 'ഇറച്ചിച്ചോറ്'],
-        ['Puttu and Kadala', 'പുട്ടും കടലയും', 'Appam and Stew', 'അപ്പവും സ്റ്റൂവും'],
-        ['Masala Dosa', 'മസാല ദോശ', 'Idli Sambar', 'ഇഡ്ഡലി സാമ്പാർ'],
-        ['Samoosa', 'സമൂസ', 'Egg Puff', 'മുട്ട പഫ്സ്'],
-        ['Sulaimani', 'സുലൈമാനി', 'Chaya', 'ചായ'],
-        ['Thalassery Biryani', 'തലശ്ശേരി ബിരിയാണി', 'Ghee Rice', 'നെയ്ച്ചോറ്'],
-        ['Unniyappam', 'ഉണ്ണിയപ്പം', 'Neyyappam', 'നെയ്യപ്പം'],
-        ['Baji', 'മുളക് ബജ്ജി', 'Bonda', 'ബോണ്ട']
+        ['Parippu Vada', 'പരിപ്പ് വട', 'Crispy Banana Fritter', 'പഴംപൊരി'],
+        ['Kulukki Sarbath', 'കുലുക്കി സർബത്ത്', 'Soda Lime Lime soda', 'സോഡാ നാരങ്ങ'],
+        ['Kerala Beef Fry', 'ബീഫ് ഫ്രൈ', 'Malabar Porotta Roast', 'പൊറോട്ട റോസ്റ്റ്'],
+        ['Pazham Pori', 'പഴംപൊരി', 'Sweet Sukhiyan Snack', 'സുഖിയൻ'],
+        ['Kappa Biryani', 'കപ്പ ബിരിയാണി', 'Spicy Erachi Choru', 'ഇറച്ചിച്ചോറ്'],
+        ['Puttu and Kadala', 'പുട്ടും കടലയും', 'Appam & Mutton Stew', 'അപ്പവും സ്റ്റൂവും'],
+        ['Masala Dosa', 'മസാല ദോശ', 'Steamed Idli Sambar', 'ഇഡ്ഡലി സാമ്പാർ'],
+        ['Crispy Samoosa', 'സമൂസ', 'Hot Egg Puff Snack', 'മുട്ട പഫ്സ്'],
+        ['Sulaimani Tea', 'സുലൈമാനി', 'Milk Masala Chai', 'ചായ'],
+        ['Thalassery Biryani', 'തലശ്ശേരി ബിരിയാണി', 'Malabar Ghee Rice', 'നെയ്ച്ചോറ്'],
+        ['Sweet Unniyappam', 'ഉണ്ണിയപ്പം', 'Traditional Neyyappam', 'നെയ്യപ്പം'],
+        ['Chilli Baji Snack', 'മുളക് ബജ്ജി', 'Potato Masala Bonda', 'ബോണ്ട']
       ];
     } else if (lower.includes('actor') || lower.includes('movie') || lower.includes('cinema') || lower.includes('hero')) {
       return [
