@@ -92,11 +92,15 @@
 
   <section id="setup" class="screen"><button class="back" data-go="home">← Back</button><div class="header-center"><span class="free-pill"><b>Kerala Edition</b><small>Play with your friends</small></span><h2>Set up game</h2><p>Configure before starting</p></div>
     <div class="panel"><div class="panel-head"><span>♧ &nbsp; Players</span><small id="playerTotal">3 / 10</small></div><div id="playerList" class="player-list"></div><button class="add-player" id="addPlayer">＋ Add Player</button></div>
-    <button class="panel selector" id="openCategories"><span class="selector-icon">🏷️</span><span><b>Categories</b><small id="categorySummary">All categories selected</small></span><i id="categoriesChevron">›</i></button>
-    
-    <!-- 🔽 Expandable Dropdown Categories Panel right on Setup Page -->
-    <div id="categoriesDropdown" class="categories-dropdown">
-      <div class="categories-dropdown-inner">
+    <!-- 🔽 Expandable Single Categories Island right on Setup Page -->
+    <div id="categoriesIsland" class="panel categories-island">
+      <div id="openCategories" class="selector categories-header-row" role="button" tabindex="0">
+        <span class="selector-icon">🏷️</span>
+        <span><b>Categories</b><small id="categorySummary">All categories selected</small></span>
+        <i id="categoriesChevron">›</i>
+      </div>
+      
+      <div id="categoriesDropdown" class="categories-dropdown-inner">
         <div class="category-tools">
           <button id="selectAll">Select all</button><i></i><button id="clearAll">Clear all</button>
           <span id="categoryCount" class="category-count-badge">0 selected</span>
