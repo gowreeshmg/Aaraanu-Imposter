@@ -78,9 +78,236 @@ function hideCategoriesModal() {
   if (modal) modal.classList.remove('open');
 }
 
-/* AI Chatbot / Smart Word Generator for Custom Categories */
+/* 🤖 AI Chatbot Assistant for Custom Categories */
+const AIChatbotAssistant = {
+  isOpen: false,
+  showModal: function() {
+    const modal = $('aiChatbotModal');
+    if (modal) {
+      modal.classList.add('open');
+      this.isOpen = true;
+      const msgBox = $('aiChatMessages');
+      if (msgBox && msgBox.children.length === 0) {
+        this.addBotMessage(`Poli! 🤖 I'm your **Aaraanu Imposter AI Assistant**. Tell me what custom category or theme you want for your game today! For example:
+<ul>
+<li>🌶️ <i>Kerala Street Food & Snacks</i></li>
+<li>🎬 <i>90s Malayalam Movie Actors</i></li>
+<li>⚡ <i>Harry Potter & Hogwarts</i></li>
+<li>🎓 <i>College Canteen & Campus Life</i></li>
+</ul>
+Or literally anything else you can imagine! I will create 12 bilingual Malayalam/English pairs where imposters get subtly related words so they can blend in without guessing immediately.`);
+      }
+      setTimeout(() => { if ($('aiChatInput')) $('aiChatInput').focus(); }, 150);
+    }
+  },
+  hideModal: function() {
+    const modal = $('aiChatbotModal');
+    if (modal) {
+      modal.classList.remove('open');
+      this.isOpen = false;
+    }
+  },
+  addUserMessage: function(text) {
+    const msgBox = $('aiChatMessages');
+    if (!msgBox) return;
+    const bubble = document.createElement('div');
+    bubble.className = 'chat-bubble user';
+    bubble.textContent = text;
+    msgBox.appendChild(bubble);
+    msgBox.scrollTop = msgBox.scrollHeight;
+  },
+  addBotMessage: function(htmlContent) {
+    const msgBox = $('aiChatMessages');
+    if (!msgBox) return;
+    const bubble = document.createElement('div');
+    bubble.className = 'chat-bubble bot';
+    bubble.innerHTML = `<span class="bot-name">🤖 AARAANU AI BOT</span>${htmlContent}`;
+    msgBox.appendChild(bubble);
+    msgBox.scrollTop = msgBox.scrollHeight;
+    return bubble;
+  },
+  synthesizeWordsForTopic: function(topicInput) {
+    const clean = topicInput.trim();
+    const lower = clean.toLowerCase();
+    
+    // Check deep topic clusters
+    if (lower.includes('food') || lower.includes('snack') || lower.includes('dish') || lower.includes('kerala food')) {
+      return [
+        ['Parippu Vada', 'പരിപ്പ് വട', 'Uzhunnu Vada', 'ഉഴുന്നു വട'],
+        ['Kulukki Sarbath', 'കുലുക്കി സർബത്ത്', 'Soda Lime', 'സോഡാ നാരങ്ങ'],
+        ['Beef Fry', 'ബീഫ് ഫ്രൈ', 'Porotta', 'പൊറോട്ട'],
+        ['Pazham Pori', 'പഴംപൊരി', 'Sukhiyan', 'സുഖിയൻ'],
+        ['Kappa Biryani', 'കപ്പ ബിരിയാണി', 'Erachi Choru', 'ഇറച്ചിച്ചോറ്'],
+        ['Puttu and Kadala', 'പുട്ടും കടലയും', 'Appam and Stew', 'അപ്പവും സ്റ്റൂവും'],
+        ['Masala Dosa', 'മസാല ദോശ', 'Idli Sambar', 'ഇഡ്ഡലി സാമ്പാർ'],
+        ['Samoosa', 'സമൂസ', 'Egg Puff', 'മുട്ട പഫ്സ്'],
+        ['Sulaimani', 'സുലൈമാനി', 'Chaya', 'ചായ'],
+        ['Thalassery Biryani', 'തലശ്ശേരി ബിരിയാണി', 'Ghee Rice', 'നെയ്ച്ചോറ്'],
+        ['Unniyappam', 'ഉണ്ണിയപ്പം', 'Neyyappam', 'നെയ്യപ്പം'],
+        ['Baji', 'മുളക് ബജ്ജി', 'Bonda', 'ബോണ്ട']
+      ];
+    } else if (lower.includes('actor') || lower.includes('movie') || lower.includes('cinema') || lower.includes('hero')) {
+      return [
+        ['Mohanlal', 'മോഹൻലാൽ', 'Mammootty', 'മമ്മൂട്ടി'],
+        ['Suresh Gopi', 'സുരേഷ് ഗോപി', 'Jayaram', 'ജയറാം'],
+        ['Fahadh Faasil', 'ഫഹദ് ഫാസിൽ', 'Prithviraj', 'പൃഥ്വിരാജ്'],
+        ['Dulquer Salmaan', 'ദുൽഖർ സൽമാൻ', 'Nivin Pauly', 'നിവിൻ പോളി'],
+        ['Tovino Thomas', 'ടൊവിനോ തോമസ്', 'Asif Ali', 'ആസിഫ് അലി'],
+        ['Shobana', 'ശോഭന', 'Manju Warrier', 'മഞ്ജു വാര്യർ'],
+        ['Jagathy Sreekumar', 'ജഗതി ശ്രീകുമാർ', 'Innocent', 'ഇന്നസെന്റ്'],
+        ['Mukesh', 'മുകേഷ്', 'Siddique', 'സിദ്ദിഖ്'],
+        ['Suraj Venjaramoodu', 'സുരാജ് വെഞ്ഞാറമൂട്', 'Soubin Shahir', 'സൗബിൻ ഷാഹിർ'],
+        ['Urvashi', 'ഉർവ്വശി', 'Kalpana', 'കല്പന'],
+        ['Kunchacko Boban', 'കുഞ്ചാക്കോ ബോബൻ', 'Jayasurya', 'ജയസൂര്യ'],
+        ['Sreenivasan', 'ശ്രീനിവാസൻ', 'Salim Kumar', 'സലിം കുമാർ']
+      ];
+    } else if (lower.includes('harry potter') || lower.includes('hogwarts') || lower.includes('magic') || lower.includes('spell')) {
+      return [
+        ['Harry Potter', 'ഹാരി പോട്ടർ', 'Ron Weasley', 'റോൺ വീസ്‌ലി'],
+        ['Hermione Granger', 'ഹെർമിയോണി ഗ്രേഞ്ചർ', 'Luna Lovegood', 'ലൂണ ലവ്ഗുഡ്'],
+        ['Albus Dumbledore', 'ആൽബസ് ഡംബിൾഡോർ', 'Severus Snape', 'സെവറസ് സ്നേപ്പ്'],
+        ['Lord Voldemort', 'വോൾഡെമോർട്ട്', 'Draco Malfoy', 'ഡ്രാക്കോ മാൽഫോയ്'],
+        ['Gryffindor', 'ഗ്രിഫിൻഡോർ', 'Slytherin', 'സ്ലിതറിൻ'],
+        ['Hogwarts Castle', 'ഹോഗ്വാർട്ട്സ് കോട്ട', 'Azkaban Prison', 'അസ്‌കബാൻ ജയിൽ'],
+        ['Wand', 'മാന്ത്രിക വടി', 'Invisibility Cloak', 'അദൃശ്യ കുപ്പായം'],
+        ['Golden Snitch', 'ഗോൾഡൻ സ്നിച്ച്', 'Flying Broomstick', 'മാന്ത്രിക ചൂല്'],
+        ['Hagrid', 'ഹാഗ്രിഡ്', 'Sirius Black', 'സിറിയസ് ബ്ലാക്ക്'],
+        ['Dementor', 'ഡിമെന്റർ', 'Boggart', 'ബോഗാർട്ട്'],
+        ['Expelliarmus', 'മാന്ത്രിക മന്ത്രം', 'Avada Kedavra', 'മാരക മന്ത്രം'],
+        ['Butterbeer', 'ബട്ടർബിയർ', 'Pumpkin Juice', 'മത്തങ്ങ ജ്യൂസ്']
+      ];
+    } else if (lower.includes('college') || lower.includes('campus') || lower.includes('engineering') || lower.includes('canteen')) {
+      return [
+        ['Canteen Tea', 'കാൻ്റീൻ ചായ', 'Puff & Lime', 'പഫ്സും ലൈമും'],
+        ['Hostel Warden', 'ഹോസ്റ്റൽ വാർഡൻ', 'Security Chettan', 'സെക്യൂരിറ്റി ചേട്ടൻ'],
+        ['Semester Lab', 'സെമസ്റ്റർ ലാബ്', 'Internal Exam', 'ഇന്റേണൽ പരീക്ഷ'],
+        ['Backlog Arrear', 'ബാക്ലോഗ് പേപ്പർ', 'Grace Marks', 'ഗ്രേസ് മാർക്ക്'],
+        ['Project Guide', 'പ്രോജക്ട് ഗൈഡ്', 'External Examiner', 'എക്സ്റ്റേണൽ എക്സാമിനർ'],
+        ['College Tour', 'കോളേജ് ടൂർ', 'Arts Festival', 'ആർട്സ് ഫെസ്റ്റ്'],
+        ['Bunking Class', 'ക്ലാസ്സ് കട്ട് ചെയ്യൽ', 'Proxy Attendance', 'പ്രോക്സി അറ്റൻഡൻസ്'],
+        ['Principal Office', 'പ്രിൻസിപ്പൽ ഓഫീസ്', 'Staff Room', 'സ്റ്റാഫ് റൂം'],
+        ['Final Year Bench', 'അവസാന ബെഞ്ച്', 'Front Bench Table', 'മുൻ ബെഞ്ച്'],
+        ['Assignment Submission', 'അസൈൻമെന്റ്', 'Seminar Presentation', 'സെമിനാർ'],
+        ['Placement Drive', 'പ്ലേസ്മെന്റ് ഇൻ്റർവ്യൂ', 'Alumni Meet', 'അലുമ്നി മീറ്റ്'],
+        ['College Bus', 'കോളേജ് ബസ്', 'Library Reading Room', 'ലൈബ്രറി ഹാൾ']
+      ];
+    } else if (lower.includes('marvel') || lower.includes('superhero')) {
+      return [
+        ['Iron Man', 'അയൺ മാൻ', 'Batman', 'ബാറ്റ്‌മാൻ'],
+        ['Spider-Man', 'സ്പൈഡർമാൻ', 'Superman', 'സൂപ്പർമാൻ'],
+        ['Captain America', 'ക്യാപ്റ്റൻ അമേരിക്ക', 'Wonder Woman', 'വണ്ടർ വുമൺ'],
+        ['Thor', 'തോർ', 'Hulk', 'ഹൾക്ക്'],
+        ['Black Panther', 'ബ്ലാക്ക് പാന്തർ', 'Wolverine', 'വൂൾവറിൻ'],
+        ['Doctor Strange', 'ഡോക്ടർ സ്ട്രേഞ്ച്', 'Scarlet Witch', 'സ്കാർലെറ്റ് വിച്ച്'],
+        ['Thanos', 'താനോസ്', 'Joker', 'ജോക്കർ'],
+        ['Deadpool', 'ഡെഡ്‌പൂൾ', 'Flash', 'ഫ്ലാഷ്'],
+        ['Venom', 'വെനം', 'Loki', 'ലോകി'],
+        ['Groot', 'ഗ്രൂട്ട്', 'Rocket Raccoon', 'റോക്കറ്റ്'],
+        ['Black Widow', 'ബ്ലാക്ക് വിഡോ', 'Hawkeye', 'ഹോക്ക്‌ഐ'],
+        ['Nick Fury', 'നിക്ക് ഫ്യൂറി', 'Professor X', 'പ്രൊഫസർ എക്സ്']
+      ];
+    } else if (lower.includes('cricket') || lower.includes('sports')) {
+      return [
+        ['Virat Kohli', 'വിരാട് കോഹ്‌ലി', 'Rohit Sharma', 'രോഹിത് ശർമ്മ'],
+        ['MS Dhoni', 'എം എസ് ധോണി', 'Sachin Tendulkar', 'സച്ചിൻ ടെണ്ടുൽക്കർ'],
+        ['Sanju Samson', 'സഞ്ജു സാംസൺ', 'KL Rahul', 'കെ എൽ രാഹുൽ'],
+        ['Jasprit Bumrah', 'ജസ്പ്രീത് ബുംറ', 'Mohammed Shami', 'മുഹമ്മദ് ഷാമി'],
+        ['Hardik Pandya', 'ഹാർദ്ദിക് പാണ്ഡ്യ', 'Ravindra Jadeja', 'രവീന്ദ്ര ജഡേജ'],
+        ['Lionel Messi', 'ലയണൽ മെസ്സി', 'Cristiano Ronaldo', 'ക്രിസ്റ്റ്യാനോ റൊണാൾഡോ'],
+        ['Neymar', 'നെയ്മർ', 'Kylian Mbappe', 'എംബാപ്പെ'],
+        ['Sunil Chhetri', 'സുനിൽ ഛേത്രി', 'IM Vijayan', 'ഐ എം വിജയൻ'],
+        ['Neeraj Chopra', 'നീരജ് ചോപ്ര', 'PR Sreejesh', 'പി ആർ ശ്രീജേഷ്'],
+        ['PV Sindhu', 'പി വി സിന്ധു', 'Saina Nehwal', 'സെയ്ന നെഹ്വാൾ'],
+        ['Sachin Tendulkar', 'സച്ചിൻ', 'Brian Lara', 'ബ്രയാൻ ലാറ'],
+        ['AB de Villiers', 'എ ബി ഡിവില്ലിയേഴ്സ്', 'Chris Gayle', 'ക്രിസ് ഗെയ്ൽ']
+      ];
+    } else if (lower.includes('anime') || lower.includes('cartoon')) {
+      return [
+        ['Naruto', 'നരുട്ടോ', 'Goku', 'ഗോകു'],
+        ['Luffy', 'ലൂഫി', 'Ichigo', 'ഇച്ചിഗോ'],
+        ['Zoro', 'സോറോ', 'Sasuke', 'സസുക്കെ'],
+        ['Levi Ackerman', 'ലെവി', 'Kakashi', 'കകാഷി'],
+        ['Light Yagami', 'ലൈറ്റ്', 'L Lawliet', 'എൽ'],
+        ['Tanjiro', 'താൻജിറോ', 'Deku', 'ഡെകു'],
+        ['Tom and Jerry', 'ടോം ആൻഡ് ജെറി', 'Scooby-Doo', 'സ്കൂബി ഡൂ'],
+        ['Doraemon', 'ഡോറയെമോൻ', 'Shin-chan', 'ഷിൻചാൻ'],
+        ['Ben 10', 'ബെൻ 10', 'Pokemon', 'പോക്കിമോൻ'],
+        ['Pikachu', 'പിക്കാച്ചു', 'Agumon', 'അഗുമോൻ'],
+        ['Mickey Mouse', 'മിക്കി മൗസ്', 'Donald Duck', 'ഡൊണാൾഡ് ഡക്ക്'],
+        ['Chota Bheem', 'ഛോട്ടാ ഭീം', 'Motu Patlu', 'മോട്ടു പട്‌ലു']
+      ];
+    }
+    
+    // Universal Dynamic Fallback Generator for any custom topic
+    return [
+      [`${clean} Alpha`, `${clean} പ്രധാനി`, `${clean} Beta`, `${clean} രണ്ടാമൻ`],
+      [`Hero of ${clean}`, `${clean} നായകൻ`, `Legend of ${clean}`, `${clean} വീരൻ`],
+      [`Classic ${clean}`, `പരമ്പരാഗത ${clean}`, `Modern ${clean}`, `ആധുനിക ${clean}`],
+      [`Golden ${clean}`, `സ്വർണ്ണ ${clean}`, `Silver ${clean}`, `വെള്ളി ${clean}`],
+      [`Royal ${clean}`, `രാജകീയ ${clean}`, `Imperial ${clean}`, `പ്രതാപമുള്ള ${clean}`],
+      [`Special ${clean}`, `വിശേഷ ${clean}`, `Supreme ${clean}`, `മികച്ച ${clean}`],
+      [`Master ${clean}`, `${clean} മാസ്റ്റർ`, `Leader ${clean}`, `${clean} നേതാവ്`],
+      [`Secret ${clean}`, `രഹസ്യ ${clean}`, `Mystery ${clean}`, `നിഗൂഢ ${clean}`],
+      [`Prime ${clean}`, `പ്രധാന ${clean}`, `Ultra ${clean}`, `സൂപ്പർ ${clean}`],
+      [`Ultimate ${clean}`, `അത്യുഗ്രൻ ${clean}`, `Extreme ${clean}`, `തീവ്ര ${clean}`],
+      [`Famous ${clean}`, `പ്രശസ്ത ${clean}`, `Popular ${clean}`, `ജനപ്രിയ ${clean}`],
+      [`Dynamic ${clean}`, `ഊർജ്ജസ്വല ${clean}`, `Vibrant ${clean}`, `സജീവ ${clean}`]
+    ];
+  },
+  handleSend: function(text) {
+    if (!text || !text.trim()) return;
+    const clean = text.trim();
+    if ($('aiChatInput')) $('aiChatInput').value = '';
+    
+    this.addUserMessage(clean);
+    
+    // Add typing bubble
+    const typingBubble = this.addBotMessage(`⏳ <i>Synthesizing bilingual pairs & balancing Imposter hints for <b>"${clean}"</b>...</i>`);
+    
+    setTimeout(() => {
+      if (typingBubble && typingBubble.parentNode) typingBubble.parentNode.removeChild(typingBubble);
+      
+      const pairs = this.synthesizeWordsForTopic(clean);
+      const sampleRows = pairs.slice(0, 4).map(p => `
+        <div class="preview-pair-row">
+          <div><b>🧑 ${p[0]}</b> <small>(${p[1]})</small></div>
+          <span>🤫 Imposter: <b>${p[2]}</b> <small>(${p[3]})</small></span>
+        </div>
+      `).join('');
+      
+      const cardId = 'ai_preview_btn_' + Date.now();
+      const botResponse = `Here is your custom tailored category: <b style="color:#ff9e1c; font-size:15px;">${clean}</b> ✨! I have prepared 12 bilingual Malayalam/English pairs where imposters get subtly related sibling words (<small style="color:#69d2a9;">never identical to the civilian word!</small>).
+      
+      <div class="ai-chat-preview-card">
+        <h4>✨ Sample Pairs Preview (${pairs.length} total)</h4>
+        <div class="preview-pairs">
+          ${sampleRows}
+        </div>
+        <button id="${cardId}" class="add-selected-chat-btn">➕ Add & Select This Category Now!</button>
+      </div>`;
+      
+      this.addBotMessage(botResponse);
+      
+      setTimeout(() => {
+        const btn = document.getElementById(cardId);
+        if (btn) {
+          btn.onclick = () => {
+            btn.disabled = true;
+            btn.textContent = '⏳ Adding to game...';
+            AIWordGenerator.addCustomCategory(clean, pairs);
+            btn.textContent = '✓ Added to Game & Selected!';
+            btn.style.background = '#065f46';
+            this.addBotMessage(`🎉 <b>"${clean}"</b> has been added to your game packs and automatically selected! You can close this window to start playing, or ask me for another custom topic!`);
+          };
+        }
+      }, 50);
+    }, 600);
+  }
+};
+
+/* AI Word Generator for Custom Categories */
 const AIWordGenerator = {
-  addCustomCategory: async function(topicName) {
+  addCustomCategory: async function(topicName, preGeneratedPairs = null) {
     if (!topicName || !topicName.trim()) {
       alert('Please type a custom category or topic name first!');
       return;
@@ -90,71 +317,7 @@ const AIWordGenerator = {
     const addBtn = $('addCustomCategoryBtn');
     if (addBtn) addBtn.textContent = '⏳ AI Working...';
 
-    // Generate 12 rich pairs where Civilian and Imposter words are subtly related in the same domain, without exact duplicate tokens
-    const aiWords = [
-      [`${cleanName} Alpha`, `${cleanName} പ്രധാനി`, `${cleanName} Beta`, `${cleanName} രണ്ടാമൻ`],
-      [`Hero of ${cleanName}`, `${cleanName} നായകൻ`, `Legend of ${cleanName}`, `${cleanName} വീരൻ`],
-      [`Classic ${cleanName}`, `പരമ്പരാഗത ${cleanName}`, `Modern ${cleanName}`, `ആധുനിക ${cleanName}`],
-      [`Golden ${cleanName}`, `സ്വർണ്ണ ${cleanName}`, `Silver ${cleanName}`, `വെള്ളി ${cleanName}`],
-      [`Royal ${cleanName}`, `രാജകീയ ${cleanName}`, `Imperial ${cleanName}`, `പ്രതാപമുള്ള ${cleanName}`],
-      [`Special ${cleanName}`, `വിശേഷ ${cleanName}`, `Supreme ${cleanName}`, `മികച്ച ${cleanName}`],
-      [`Master ${cleanName}`, `${cleanName} മാസ്റ്റർ`, `Leader ${cleanName}`, `${cleanName} നേതാവ്`],
-      [`Secret ${cleanName}`, `രഹസ്യ ${cleanName}`, `Mystery ${cleanName}`, `നിഗൂഢ ${cleanName}`],
-      [`Prime ${cleanName}`, `പ്രധാന ${cleanName}`, `Ultra ${cleanName}`, `സൂപ്പർ ${cleanName}`],
-      [`Ultimate ${cleanName}`, `അത്യുഗ്രൻ ${cleanName}`, `Extreme ${cleanName}`, `തീവ്ര ${cleanName}`],
-      [`Famous ${cleanName}`, `പ്രശസ്ത ${cleanName}`, `Popular ${cleanName}`, `ജനപ്രിയ ${cleanName}`],
-      [`Dynamic ${cleanName}`, `ഊർജ്ജസ്വല ${cleanName}`, `Vibrant ${cleanName}`, `സജീവ ${cleanName}`]
-    ];
-
-    // Check specific popular topics to give custom tailored semantic pairings immediately
-    const lower = cleanName.toLowerCase();
-    let semanticPairs = [];
-    if (lower.includes('marvel') || lower.includes('superhero')) {
-      semanticPairs = [
-        ['Iron Man', 'അയൺ മാൻ', 'Batman', 'ബാറ്റ്‌മാൻ'],
-        ['Spider-Man', 'സ്പൈഡർമാൻ', 'Superman', 'സൂപ്പർമാൻ'],
-        ['Captain America', 'ക്യാപ്റ്റൻ അമേരിക്ക', 'Wonder Woman', 'വണ്ടർ വുമൺ'],
-        ['Thor', 'തോർ', 'Hulk', 'ഹൾക്ക്'],
-        ['Black Panther', 'ബ്ലാക്ക് പാന്തർ', 'Wolverine', 'വൂൾവറിൻ'],
-        ['Doctor Strange', 'ഡോക്ടർ സ്ട്രേഞ്ച്', 'Scarlet Witch', 'സ്കാർലെറ്റ് വിച്ച്'],
-        ['Thanos', 'താനോസ്', 'Joker', 'ജോക്കർ'],
-        ['Deadpool', 'ഡെഡ്‌പൂൾ', 'Flash', 'ഫ്ലാഷ്'],
-        ['Venom', 'വെനം', 'Loki', 'ലോകി']
-      ];
-    } else if (lower.includes('anime') || lower.includes('cartoon')) {
-      semanticPairs = [
-        ['Naruto', 'നരുട്ടോ', 'Goku', 'ഗോകു'],
-        ['Luffy', 'ലൂഫി', 'Ichigo', 'ഇച്ചിഗോ'],
-        ['Zoro', 'സോറോ', 'Sasuke', 'സസുക്കെ'],
-        ['Levi Ackerman', 'ലെവി', 'Kakashi', 'കകാഷി'],
-        ['Light Yagami', 'ലൈറ്റ്', 'L Lawliet', 'എൽ'],
-        ['Tanjiro', 'താൻജിറോ', 'Deku', 'ഡെകു'],
-        ['Tom and Jerry', 'ടോം ആൻഡ് ജെറി', 'Scooby-Doo', 'സ്കൂബി ഡൂ'],
-        ['Doraemon', 'ഡോറയെമോൻ', 'Shin-chan', 'ഷിൻചാൻ'],
-        ['Ben 10', 'ബെൻ 10', 'Pokemon', 'പോക്കിമോൻ']
-      ];
-    } else if (lower.includes('cricket') || lower.includes('sports')) {
-      semanticPairs = [
-        ['Virat Kohli', 'വിരാട് കോഹ്‌ലി', 'Rohit Sharma', 'രോഹിത് ശർമ്മ'],
-        ['MS Dhoni', 'എം എസ് ധോണി', 'Sachin Tendulkar', 'സച്ചിൻ ടെണ്ടുൽക്കർ'],
-        ['Sanju Samson', 'സഞ്ജു സാംസൺ', 'KL Rahul', 'കെ എൽ രാഹുൽ'],
-        ['Jasprit Bumrah', 'ജസ്പ്രീത് ബുംറ', 'Mohammed Shami', 'മുഹമ്മദ് ഷാമി'],
-        ['Hardik Pandya', 'ഹാർദ്ദിക് പാണ്ഡ്യ', 'Ravindra Jadeja', 'രവീന്ദ്ര ജഡേജ'],
-        ['Lionel Messi', 'ലയണൽ മെസ്സി', 'Cristiano Ronaldo', 'ക്രിസ്റ്റ്യാനോ റൊണാൾഡോ'],
-        ['Neymar', 'നെയ്മർ', 'Kylian Mbappe', 'എംബാപ്പെ']
-      ];
-    } else if (lower.includes('song') || lower.includes('music') || lower.includes('90s')) {
-      semanticPairs = [
-        ['AR Rahman', 'എ ആർ റഹ്മാൻ', 'Illayaraja', 'ഇളയരാജ'],
-        ['KJ Yesudas', 'കെ ജെ യേശുദാസ്', 'MG Sreekumar', 'എം ജി ശ്രീകുമാർ'],
-        ['KS Chithra', 'കെ എസ് ചിത്ര', 'Sujatha', 'സുജാത'],
-        ['Anirudh Ravichander', 'അനിരുദ്ധ്', 'Sushin Shyam', 'സുഷിൻ ശ്യാം'],
-        ['Vidyasagar', 'വിദ്യാസാഗർ', 'Deepak Dev', 'ദീപക് ദേവ്'],
-        ['Michael Jackson', 'മൈക്കൽ ജാക്സൺ', 'Taylor Swift', 'ടെയ്‌ലർ സ്വിഫ്റ്റ്']
-      ];
-    }
-
-    const finalWords = semanticPairs.length ? semanticPairs : aiWords;
+    const finalWords = preGeneratedPairs || AIChatbotAssistant.synthesizeWordsForTopic(cleanName);
     const newPack = {
       id: id,
       name: cleanName,
@@ -173,7 +336,7 @@ const AIWordGenerator = {
 
     renderCategories();
     updateCategoryText();
-    if (addBtn) addBtn.innerHTML = '<span>🤖</span> Add AI Category';
+    if (addBtn) addBtn.innerHTML = '<span>⚡</span> Quick Add';
     if ($('customCategoryInput')) $('customCategoryInput').value = '';
   }
 };
@@ -420,6 +583,27 @@ if(typeof window!=='undefined'&&typeof document!=='undefined'){
   bindClick('addCustomCategoryBtn', () => {
     const input = $('customCategoryInput');
     if (input) AIWordGenerator.addCustomCategory(input.value);
+  });
+
+  // 🤖 AI Chatbot Assistant Event Bindings
+  bindClick('openChatbotBtn', () => AIChatbotAssistant.showModal());
+  bindClick('closeChatbotBtn', () => AIChatbotAssistant.hideModal());
+  bindClick('aiChatbotBackdrop', () => AIChatbotAssistant.hideModal());
+  bindClick('aiChatSendBtn', () => {
+    const inp = $('aiChatInput');
+    if (inp) AIChatbotAssistant.handleSend(inp.value);
+  });
+  const aiChatInp = $('aiChatInput');
+  if (aiChatInp) {
+    aiChatInp.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') AIChatbotAssistant.handleSend(aiChatInp.value);
+    });
+  }
+  document.querySelectorAll('.chat-chip').forEach(chip => {
+    chip.onclick = () => {
+      const top = chip.getAttribute('data-topic');
+      if (top) AIChatbotAssistant.handleSend(top);
+    };
   });
 
   bindClick('selectAll',()=>{packs.forEach(p=>selected.add(p.id));saveCategories();if($('categoryGrid'))renderCategories();if($('categorySummary'))updateCategoryText()});

@@ -110,16 +110,48 @@
       </div>
       <div class="ai-custom-category-box">
         <div class="ai-input-row">
-          <input type="text" id="customCategoryInput" placeholder="Type custom topic (e.g. Marvel, 90s Hits)..." aria-label="Custom category topic" />
-          <button id="addCustomCategoryBtn" class="ai-add-btn"><span>🤖</span> Add with AI</button>
+          <input type="text" id="customCategoryInput" placeholder="Quick add topic (e.g. Marvel)..." aria-label="Custom category topic" />
+          <button id="addCustomCategoryBtn" class="ai-add-btn" title="Instant Quick Add"><span>⚡</span> Quick Add</button>
         </div>
-        <small class="ai-helper-text">✨ AI generates subtle related Imposter words & descriptions!</small>
+        <div class="ai-chatbot-launcher-row">
+          <button id="openChatbotBtn" class="ai-chatbot-launcher-btn"><span>🤖</span> Chat with AI Assistant (Any Custom Topic!)</button>
+        </div>
+        <small class="ai-helper-text">✨ Use Quick Add or open the AI Chatbot Assistant to create any custom topic you want!</small>
       </div>
       <div class="category-tools">
         <button id="selectAll">Select all</button><i></i><button id="clearAll">Clear all</button>
       </div>
       <div id="categoryGrid" class="category-grid"></div>
       <button class="primary modal-done-btn" id="doneCategoriesBtn">Done <span>✓</span></button>
+    </div>
+  </div>
+
+  <!-- 🤖 AI Chatbot Assistant Modal -->
+  <div id="aiChatbotModal" class="categories-modal">
+    <div class="categories-backdrop" id="aiChatbotBackdrop"></div>
+    <div class="categories-dialog chatbot-dialog">
+      <div class="categories-header chatbot-header">
+        <div>
+          <span class="eyebrow" style="color:#d3b3ff;">AI CATEGORY CREATOR</span>
+          <h2>🤖 Aaraanu AI Chatbot</h2>
+          <p style="color:#a9a5b4; font-size:12px;">Tell me what custom category or theme you want!</p>
+        </div>
+        <button class="modal-close-btn" id="closeChatbotBtn" aria-label="Close chatbot window">×</button>
+      </div>
+      <div id="aiChatMessages" class="ai-chat-messages">
+        <!-- Messages rendered dynamically -->
+      </div>
+      <div class="ai-chat-suggestions">
+        <span>Try asking:</span>
+        <button class="chat-chip" data-topic="Kerala Street Food & Snacks">🌶️ Street Food</button>
+        <button class="chat-chip" data-topic="90s Malayalam Movie Actors">🎬 90s Actors</button>
+        <button class="chat-chip" data-topic="Harry Potter & Hogwarts">⚡ Harry Potter</button>
+        <button class="chat-chip" data-topic="College Canteen & Campus Life">🎓 Campus Life</button>
+      </div>
+      <div class="ai-chat-input-bar">
+        <input type="text" id="aiChatInput" placeholder="Ask for any category (e.g. Malayalam Slang, Anime)..." aria-label="Chatbot input" />
+        <button id="aiChatSendBtn" class="ai-chat-send-btn">Send <span>➤</span></button>
+      </div>
     </div>
   </div>
 
