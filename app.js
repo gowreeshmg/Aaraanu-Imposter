@@ -139,11 +139,16 @@ async function generateWithGeminiOrLocal(topic) {
 CRITICAL REQUIREMENTS:
 1. You MUST generate EXACTLY 12 specific, actual, real-world items/dishes/entities/names belonging strictly to "${clean}". Every single word MUST be a real, authentic entity!
 2. ENTITY ACCURACY & MATCHING TYPE (STRICT RULE):
-   - The Civilian Word MUST NEVER be an actor's real name if the category asks for characters! If the category is about movie characters (like "Lucifer movie characters" or "Harry Potter characters"), every single Civilian Word MUST be an actual character name inside that movie/universe (e.g., "Stephen Nedumpally", "Bobby", "Khureshi Ab'ram", "Priyadarshini", "Govardhan"). DO NOT give actor names (like Mohanlal, Suresh Gopi, Vivek Oberoi) as Civilian Words when characters are requested!
-   - Both the Civilian Word AND the Imposter Word MUST be entities of the EXACT SAME TYPE and level of specificity (e.g., if Civilian gets a character from the movie, Imposter MUST get a different character from the same movie/universe, NEVER an actor's real name and NEVER the opposite type). NEVER swap actor names and character names! Both Civilian and Imposter get items of the same category level.
-3. GOLDEN RULE FOR IMPOSTER WORD & SINGLE WORD STRICT REQUIREMENT:
-   - STRICT SINGLE/SHORT NOUN RULE: Both the Civilian Word and Imposter Word MUST strictly be single words, names, or short 1-3 word nouns/titles (e.g., "Anjooran", "Swaminathan", "Puttu", "Idiyappam"). NEVER write a full sentence, explanation, or definition describing the word! NEVER output phrases like "A character who is..." or "A spicy dish made of...". Must be clean, short nouns or names only!
-   - The Imposter Word MUST be a distinct, subtly related item from the exact same general domain/theme so the imposter can blend into the conversation (e.g., if Civilian gets "Stephen Nedumpally", Imposter gets "Zayed Masood" or "Govardhan"; if Civilian gets "Kochi Kayal Biryani", Imposter gets "Backwater Fish Pulao"), BUT the Imposter Word MUST NEVER contain any shared noun or exact duplicate keyword from the Civilian Word. The imposter should NEVER be able to easily guess the exact secret word just from reading their own card!
+   - The Civilian Word MUST NEVER be an actor's real name if the category asks for characters! If the category is about movie characters (like "Lucifer characters" or "Harry Potter characters"), every single Civilian Word MUST be an actual character name inside that movie/universe.
+   - Both the Civilian Word AND the Imposter Word MUST be entities of the EXACT SAME TYPE and level of specificity (e.g., if Civilian gets a character from the movie, Imposter MUST get a different character from the same movie/universe, NEVER an actor's real name).
+3. GOLDEN RULE FOR IMPOSTER WORD (SIBLING CONCEPT, NOT A DEFINITION/SYNONYM):
+   - STRICT SINGLE/SHORT NOUN RULE: Both words MUST strictly be single words, names, or short 1-3 word nouns. NEVER write a full sentence or explanation!
+   - THE IMPOSTER WORD MUST BE A *SIBLING PEER* IN THE SAME CATEGORY, NOT A TRANSLATION, SYNONYM, OR DEFINITION of the Civilian Word!
+   - EXAMPLE 1 (Good): Civilian="Pen", Imposter="Pencil" or "Marker". (Bad: "Wooden writing tool", "Ink pen").
+   - EXAMPLE 2 (Good): Civilian="Moon", Imposter="Sun" or "Stars". (Bad: "Earth's satellite", "Night sky object").
+   - EXAMPLE 3 (Good): Civilian="Kerala Piravi", Imposter="Onam" or "Vishu". (Bad: "State Anniversary", "November 1").
+   - EXAMPLE 4 (Good): Civilian="Toothpaste", Imposter="Brush" or "Mouthwash". (Bad: "Teeth cleaner").
+   - The Imposter Word MUST NEVER contain any shared noun or exact duplicate keyword from the Civilian Word. It should be related enough to blend in, but distinctly a DIFFERENT item!
 4. Return ONLY a valid JSON array of 12 arrays without markdown or code blocks:
 [["CivEng", "CivMal", "ImpEng", "ImpMal"], ...]`;
 
@@ -762,24 +767,24 @@ function chooseWord(){
   let impWord = null;
   let impMalWord = null;
 
-  // 1. First, check if the pair itself has a custom paired imposter word (e.g. from AI or specialized local categories like Lucifer/characters)
-  if (picked[2] && picked[3] && picked[2] !== 'Related Secret' && picked[2] !== picked[0] && isValidShortNoun(picked[2])) {
-    const w0Lower = picked[0].toLowerCase();
-    const w2Lower = picked[2].toLowerCase();
-    const w2First = picked[2].split(' ')[0].toLowerCase();
-    if (w0Lower !== w2Lower && !w0Lower.includes(w2Lower) && !w2Lower.includes(w0Lower) && !w0Lower.includes(w2First)) {
-      impWord = picked[2];
-      impMalWord = picked[3];
-    }
+  // 1. Check our curated exact match dictionaries first!
+  const dictImp = IMPOSTER_SINGLE_WORDS[picked[0]];
+  const dictImpMal = IMPOSTER_MALAYALAM_SINGLE_WORDS[picked[0]];
+  if (dictImp && dictImpMal && dictImp.toLowerCase() !== picked[0].toLowerCase() && !picked[0].toLowerCase().includes(dictImp.toLowerCase()) && isValidShortNoun(dictImp)) {
+    impWord = dictImp;
+    impMalWord = dictImpMal;
   }
 
-  // 2. If not set from picked[2], check our static dictionary of famous pairs
+  // 2. ONLY use picked[2] if this category was generated by AI, because the built-in words.js arrays contain descriptions in picked[2] which we want to ignore.
   if (!impWord || !impMalWord) {
-    const dictImp = IMPOSTER_SINGLE_WORDS[picked[0]];
-    const dictImpMal = IMPOSTER_MALAYALAM_SINGLE_WORDS[picked[0]];
-    if (dictImp && dictImpMal && dictImp.toLowerCase() !== picked[0].toLowerCase() && !picked[0].toLowerCase().includes(dictImp.toLowerCase()) && isValidShortNoun(dictImp)) {
-      impWord = dictImp;
-      impMalWord = dictImpMal;
+    if (category.isAI && picked[2] && picked[3] && picked[2] !== 'Related Secret' && picked[2] !== picked[0] && isValidShortNoun(picked[2])) {
+      const w0Lower = picked[0].toLowerCase();
+      const w2Lower = picked[2].toLowerCase();
+      const w2First = picked[2].split(' ')[0].toLowerCase();
+      if (w0Lower !== w2Lower && !w0Lower.includes(w2Lower) && !w2Lower.includes(w0Lower) && !w0Lower.includes(w2First)) {
+        impWord = picked[2];
+        impMalWord = picked[3];
+      }
     }
   }
 
