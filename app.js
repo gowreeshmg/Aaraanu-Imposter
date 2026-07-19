@@ -105,7 +105,7 @@ function applyEdition(ed) {
   if (charImg) {
     charImg.classList.add('switching');
     setTimeout(() => {
-      charImg.src = isIntl ? 'assets/home-character-intl.jpg' : 'assets/home-character.png';
+      charImg.src = isIntl ? 'assets/home-character-intl.png' : 'assets/home-character.png';
       charImg.classList.remove('switching');
     }, 300);
   }
