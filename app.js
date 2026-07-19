@@ -81,7 +81,7 @@ function applyEdition(ed) {
   if (pill) pill.classList.toggle('intl-edition', isIntl);
 
   const lbl = document.getElementById('homeEditionLabel');
-  if (lbl) lbl.textContent = isIntl ? 'International Edition' : 'Kerala Edition';
+  if (lbl) lbl.textContent = isIntl ? 'English Edition' : 'Malayalam Edition';
 
   const sub = document.getElementById('homeEditionSub');
   if (sub) sub.textContent = isIntl ? 'The Global Edition' : 'Play with your friends';
@@ -91,7 +91,7 @@ function applyEdition(ed) {
   if (title) title.innerHTML = isIntl ? "Who's the<br>Imposter?" : 'Aaraanu<br>Imposter?';
 
   const badge = document.getElementById('homeEditionBadge');
-  if (badge) badge.textContent = isIntl ? 'INTERNATIONAL EDITION' : 'KERALA EDITION';
+  if (badge) badge.textContent = isIntl ? 'ENGLISH EDITION' : 'MALAYALAM EDITION';
 
   const subtitle = document.getElementById('homeSubtitle');
   if (subtitle) subtitle.textContent = isIntl ? 'Spot the fraud among your friends!' : 'Who is the Imposter?';
