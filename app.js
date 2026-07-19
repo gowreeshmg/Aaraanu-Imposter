@@ -1020,7 +1020,7 @@ if(word.category==='Godfather'||word.movieName==='Godfather'){
 }else if(word.movieName||word.characterRole){
   const mName=word.movieName||word.category;
   relText=`Both <b>${civ}</b> and <b>${imp}</b> are characters that share a very similar role, profession, or moral archetype. The imposter could describe traits, personality, or story beats that apply to both—making it nearly impossible to be caught!`;
-}else if(word.isAI||category&&category.isCustom){
+}else if(word.isAI||word.isCustom){
   relText=`The AI specifically paired <b>${civ}</b> with <b>${imp}</b> because they share strong thematic overlap in the '${word.category}' space. They are different enough to not be obvious, but connected enough for the imposter to sound credible!`;
 }else{
   // Build a truly specific description based on the actual word pairing
