@@ -1017,12 +1017,16 @@ function alignBurst() {
   if (!burst || !img) return;
   const rect = img.getBoundingClientRect();
   const parentRect = burst.getBoundingClientRect();
-  if (rect.width === 0) return;
-  const isMalayalam = document.body.classList.contains('malayalam-edition');
-  const faceYFromBottom = isMalayalam ? 155 : 100;
-  const faceY = rect.bottom - faceYFromBottom - parentRect.top;
+  if (rect.width === 0) {
+    img.addEventListener('load', alignBurst, { once: true });
+    return;
+  }
+  
+  const faceY = rect.top + (rect.height / 2) - parentRect.top;
   const faceX = rect.left + (rect.width / 2) - parentRect.left;
-  burst.style.setProperty('background', `repeating-conic-gradient(from 0deg at ${faceX}px ${faceY}px, #181528 0deg 7.5deg, #0c0a14 7.5deg 15deg)`, 'important');
+  
+  burst.style.setProperty('--bg-x', `${faceX}px`);
+  burst.style.setProperty('--bg-y', `${faceY}px`);
 }
 function startTimer(){clearInterval(timerId);const minutes=parseInt($('durationSelect')?.value||2,10);let left=minutes*60;const total=left;const draw=()=>{const m=Math.floor(left/60),s=left%60;if($('timer'))$('timer').textContent=`${m}:${String(s).padStart(2,'0')}`;if($('timerRing'))$('timerRing').style.strokeDashoffset=327*(1-left/total)};draw();timerId=setInterval(()=>{left--;draw();if(left<=0){clearInterval(timerId);showVote()}},1000)}
 function showVote(){if(typeof document==='undefined')return;clearInterval(timerId);selectedVote=-1;const list=$('voteList');if(!list)return;list.innerHTML='';players.forEach((name,i)=>{const b=document.createElement('button');b.className='vote-option';b.innerHTML=`<span class="avatar">${i+1}</span><span>${name}</span>`;b.onclick=()=>{document.querySelectorAll('.vote-option').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');selectedVote=i;if($('revealResult')){$('revealResult').disabled=false;$('revealResult').classList.remove('disabled')}};list.append(b)});if($('revealResult')){$('revealResult').disabled=true;$('revealResult').classList.add('disabled')} show('vote')}
