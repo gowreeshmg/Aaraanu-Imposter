@@ -2,16 +2,133 @@
 
 /* Discussion (#clues) and Voting (#vote) Screen Spacing & Fixed Buttons */
 #vote.screen,#clues.screen{padding-top:max(48px, calc(32px + env(safe-area-inset-top, 36px)))!important;padding-bottom:max(96px, calc(76px + env(safe-area-inset-bottom, 20px)))!important;min-height:100dvh}
-/* Home screen overrides for layout */
-#home.screen.active{padding-bottom:140px!important}
-.home-actions{background:#060509!important;border-top:1px solid #1a1726!important;border-radius:24px 24px 0 0!important;padding:6px 16px max(8px, env(safe-area-inset-bottom, 8px)) 16px!important;margin:0!important;width:100%!important;max-width:520px!important;display:flex!important;flex-direction:column!important;gap:8px!important;align-items:center!important;position:fixed!important;bottom:0!important;left:50%!important;transform:translateX(-50%)!important;z-index:10!important}
+
+/* ─── App-shell padding: zero it out for full-viewport screens ─────────── */
+/* This ensures no 16px side/bottom padding on screens that need edge-to-edge */
+.app-shell:has(#home.screen.active),
+.app-shell:has(#pass.screen.active),
+.app-shell:has(#reveal.screen.active){
+  padding:0!important;
+  overflow:hidden!important;
+}
+/* Result screen scrolls itself — keep app-shell padding removed but allow scrolling */
+.app-shell:has(#result.screen.active){
+  padding:0!important;
+  overflow-y:auto!important;
+}
+/* ─── Home screen ─────────────────────────────────────────────────────────── */
+/* Use flex column + margin-top:auto so .home-actions sits at the very bottom  */
+/* (position:fixed is trapped inside overflow:auto on iOS Safari)              */
+#home.screen.active{
+  display:flex!important;
+  flex-direction:column!important;
+  min-height:100dvh!important;
+  padding:0!important;
+  overflow:hidden!important;
+}
+.home-actions{
+  width:100%!important;
+  margin-top:auto!important;
+  background:#060509!important;
+  border-top:1px solid #1a1726!important;
+  border-radius:24px 24px 0 0!important;
+  padding:10px 20px max(env(safe-area-inset-bottom,16px),16px) 20px!important;
+  display:flex!important;
+  flex-direction:column!important;
+  gap:8px!important;
+  align-items:stretch!important;
+  flex-shrink:0!important;
+  position:static!important;
+}
 .burst{background:repeating-conic-gradient(from 0deg at 50% 54%,#181528 0deg 7.5deg,#0c0a14 7.5deg 15deg)!important}
+
+/* ─── Discussion & Vote fixed buttons ────────────────────────────────────── */
 #revealResult,#skipDiscussion{position:fixed!important;bottom:max(18px, env(safe-area-inset-bottom, 18px))!important;left:50%!important;transform:translateX(-50%)!important;width:min(100% - 40px, 460px)!important;z-index:50!important}
-/* Role Swipe & Next Player Fixed Button */
-#hideRole{position:fixed!important;bottom:max(18px, env(safe-area-inset-bottom, 18px))!important;left:50%!important;transform:translateX(-50%)!important;width:min(100% - 40px, 460px)!important;z-index:50!important}
-#pass.screen.active, #reveal.screen.active, #result.screen.active {display:flex!important;flex-direction:column!important;justify-content:center!important}
-.swipe-card{position:absolute!important;top:0!important;left:0!important;width:100%!important;max-width:100%!important;height:100%!important;border-radius:0!important;overflow:hidden!important;cursor:grab;box-shadow:none!important;background:#150a2b!important;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;touch-action:none;z-index:10;will-change:transform}
-.swipe-card img{border-radius:0!important}
+
+/* ─── Swipe / Pass screen ────────────────────────────────────────────────── */
+/* Fill the whole viewport; swipe card takes up the space ABOVE the button   */
+#pass.screen.active{
+  display:flex!important;
+  flex-direction:column!important;
+  min-height:100dvh!important;
+  max-height:100dvh!important;
+  overflow:hidden!important;
+  justify-content:flex-start!important;
+  padding:0!important;
+  position:relative!important;
+}
+.swipe-card{
+  position:absolute!important;
+  top:0!important;
+  left:0!important;
+  width:100%!important;
+  max-width:100%!important;
+  bottom:84px!important;   /* leave space for button row */
+  height:auto!important;
+  border-radius:0 0 28px 28px!important;
+  overflow:hidden!important;
+  cursor:grab;
+  box-shadow:none!important;
+  background:#150a2b!important;
+  display:flex;flex-direction:column;align-items:center;justify-content:flex-start;
+  touch-action:none;z-index:10;will-change:transform
+}
+.swipe-card img{border-radius:0 0 28px 28px!important}
+.swipe-bottom-area{
+  position:absolute!important;
+  bottom:0!important;
+  left:0!important;
+  right:0!important;
+  height:84px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  padding:0 20px max(env(safe-area-inset-bottom,12px),12px) 20px!important;
+  background:#060509!important;
+  z-index:20!important;
+}
+.swipe-bottom-area .primary{
+  width:100%!important;
+  max-width:460px!important;
+  margin:0!important;
+  position:static!important;
+}
+/* Remove old fixed positioning for hideRole since it's inside swipe-bottom-area now */
+#hideRole{position:static!important;bottom:auto!important;left:auto!important;transform:none!important;width:100%!important;max-width:460px!important;z-index:1!important}
+
+/* ─── Reveal screen ──────────────────────────────────────────────────────── */
+#reveal.screen.active{
+  display:flex!important;
+  flex-direction:column!important;
+  min-height:100dvh!important;
+  justify-content:flex-start!important;
+}
+
+/* ─── Result screen ──────────────────────────────────────────────────────── */
+/* Flex column; result-icon + text at top; buttons pushed to the very bottom */
+#result.screen.active{
+  display:flex!important;
+  flex-direction:column!important;
+  min-height:100dvh!important;
+  justify-content:flex-start!important;
+  padding:max(env(safe-area-inset-top,24px),24px) 20px max(env(safe-area-inset-bottom,24px),24px) 20px!important;
+  overflow-y:auto!important;
+  box-sizing:border-box!important;
+}
+/* result-icon has large margin-top: override so it doesn't push things off screen */
+#result .result-icon{
+  margin-top:max(env(safe-area-inset-top,32px),32px)!important;
+  flex-shrink:0!important;
+}
+#result #nextRound{
+  margin-top:auto!important;
+  flex-shrink:0!important;
+}
+#result #goHome{
+  flex-shrink:0!important;
+  margin-top:8px!important;
+  padding-bottom:0!important;
+}
 
 /* Setup Game Screen Typography & Layout Overrides */
 #setup .header-center h2{font-size:30px!important;margin:6px 0 4px!important}
