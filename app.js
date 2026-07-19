@@ -854,7 +854,61 @@ function startRound(){chooseWord();currentPlayer=0;showPass()};
 let isSwipedUp = false;
 function showPass(){if($('passName'))$('passName').textContent=players[currentPlayer]||`Player ${currentPlayer+1}`;if($('roundNumber'))$('roundNumber').textContent=round;showMalayalam=false;renderRoleView();show('pass');isSwipedUp=false;const card=$('roleSwipeCard');if(card){card.style.transition='none';card.style.transform='translateY(0)';const span=card.querySelector('.swipe-card-overlay span');if(span)span.textContent='Swipe up to reveal';}};
 function showReveal(){showMalayalam=false;renderRoleView();show('pass');}
-function renderRoleView(){if(typeof document==='undefined')return;const isImposter=imposters.has(currentPlayer);if($('roleBadge')){$('roleBadge').textContent=isImposter?(imposters.size>1?'You are one of the Imposters!':'You are the Imposter!'):'You are a player';$('roleBadge').className=`role-badge ${isImposter?'imposter':''}`}if(isImposter){if($('secretLabel'))$('secretLabel').style.display='none';if($('secretWord'))$('secretWord').textContent=showMalayalam?word.hintMalayalam:word.imposterWord;if($('scriptToggle')){$('scriptToggle').hidden=!(word&&(word.hintLatin||word.hintMalayalam));$('scriptToggle').textContent=showMalayalam?'Show in Manglish':'Show in Malayalam'}if($('secretHint')){$('secretHint').innerHTML=`<small style="color:var(--muted);font-size:12.5px;display:block;margin-top:6px;line-height:1.45;">💡 Subtly related to the secret word, but different! Blend in without guessing!</small>`;}}else{if($('secretLabel')){$('secretLabel').style.display='';$('secretLabel').textContent='SECRET WORD'}if($('scriptToggle')){$('scriptToggle').hidden=false;$('scriptToggle').textContent=showMalayalam?'Show in Manglish':'Show in Malayalam'}if($('secretWord'))$('secretWord').textContent=showMalayalam?word.malayalam:word.latin;if($('secretHint')){let hintHTML=[];if($('seeCategory')?.checked&&word&&word.category){hintHTML.push(`<span style="color:#a9a4b3;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;display:block;">Category</span><b style="color:var(--accent);font-size:16px;display:block;margin-top:2px;">${word.category}</b>`)}if(word&&word.movieName&&word.characterRole){const mov=showMalayalam?(word.movieMalayalam||word.movieName):word.movieName;const rol=showMalayalam?(word.characterRoleMalayalam||word.characterRole):word.characterRole;const isMovie=word.detailType==='movie'||word.category==='Movies';const movLbl=showMalayalam?'സിനിമ / വിഷയം: ':'Theme / Movie: ';const rolLbl=showMalayalam?(isMovie?'കഥാസാരം: ':'വിവരണം: '):(isMovie?'Synopsis/Story: ':'Description: ');hintHTML.push(`<div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:10px;padding:10px 12px;margin-top:4px;text-align:left;"><div style="font-size:13px;color:var(--accent);margin-bottom:4px;"><b>🎬 ${movLbl}${mov}</b></div><div style="font-size:12.5px;color:var(--text);line-height:1.4;"><b>${rolLbl}</b>${rol}</div></div>`)}if(hintHTML.length===0){$('secretHint').innerHTML='Everyone else has this word too. Keep it hidden!'}else{$('secretHint').innerHTML=hintHTML.join('<div style="height:8px"></div>')}}}}
+function renderRoleView() {
+  if (typeof document === 'undefined') return;
+  const isImposter = imposters.has(currentPlayer);
+  if ($('roleBadge')) {
+    $('roleBadge').textContent = isImposter ? (imposters.size > 1 ? 'You are one of the Imposters!' : 'You are the Imposter!') : 'You are a player';
+    $('roleBadge').className = `role-badge ${isImposter ? 'imposter' : ''}`;
+  }
+  
+  if (isImposter) {
+    if ($('secretLabel')) $('secretLabel').style.display = 'none';
+    if ($('secretWord')) $('secretWord').textContent = showMalayalam ? word.hintMalayalam : word.imposterWord;
+    if ($('scriptToggle')) {
+      $('scriptToggle').hidden = !(word && (word.hintLatin || word.hintMalayalam));
+      $('scriptToggle').textContent = showMalayalam ? 'Show in Manglish' : 'Show in Malayalam';
+    }
+    if ($('secretHint')) {
+      let imposterHintHTML = [];
+      if ($('seeCategory')?.checked && word && word.category) {
+        imposterHintHTML.push(`<span style="color:#a9a4b3;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;display:block;">Category</span><b style="color:var(--accent);font-size:16px;display:block;margin-top:2px;">${word.category}</b>`);
+      }
+      imposterHintHTML.push(`<small style="color:var(--muted);font-size:12.5px;display:block;margin-top:6px;line-height:1.45;">💡 Subtly related to the secret word, but different! Blend in without guessing!</small>`);
+      $('secretHint').innerHTML = imposterHintHTML.join('<div style="height:8px"></div>');
+    }
+  } else {
+    if ($('secretLabel')) {
+      $('secretLabel').style.display = '';
+      $('secretLabel').textContent = 'SECRET WORD';
+    }
+    if ($('scriptToggle')) {
+      $('scriptToggle').hidden = false;
+      $('scriptToggle').textContent = showMalayalam ? 'Show in Manglish' : 'Show in Malayalam';
+    }
+    if ($('secretWord')) $('secretWord').textContent = showMalayalam ? word.malayalam : word.latin;
+    if ($('secretHint')) {
+      let hintHTML = [];
+      // CIVILIAN ALWAYS SEES CATEGORY
+      if (word && word.category) {
+        hintHTML.push(`<span style="color:#a9a4b3;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;display:block;">Category</span><b style="color:var(--accent);font-size:16px;display:block;margin-top:2px;">${word.category}</b>`);
+      }
+      if (word && word.movieName && word.characterRole) {
+        const mov = showMalayalam ? (word.movieMalayalam || word.movieName) : word.movieName;
+        const rol = showMalayalam ? (word.characterRoleMalayalam || word.characterRole) : word.characterRole;
+        const isMovie = word.detailType === 'movie' || word.category === 'Movies';
+        const movLbl = showMalayalam ? 'സിനിമ / വിഷയം: ' : 'Theme / Movie: ';
+        const rolLbl = showMalayalam ? (isMovie ? 'കഥാസാരം: ' : 'വിവരണം: ') : (isMovie ? 'Synopsis/Story: ' : 'Description: ');
+        hintHTML.push(`<div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:10px;padding:10px 12px;margin-top:4px;text-align:left;"><div style="font-size:13px;color:var(--accent);margin-bottom:4px;"><b>🎬 ${movLbl}${mov}</b></div><div style="font-size:12.5px;color:var(--text);line-height:1.4;"><b>${rolLbl}</b>${rol}</div></div>`);
+      }
+      if (hintHTML.length === 0) {
+        $('secretHint').innerHTML = 'Everyone else has this word too. Keep it hidden!';
+      } else {
+        $('secretHint').innerHTML = hintHTML.join('<div style="height:8px"></div>');
+      }
+    }
+  }
+}
 function startTimer(){clearInterval(timerId);const minutes=parseInt($('durationSelect')?.value||2,10);let left=minutes*60;const total=left;const draw=()=>{const m=Math.floor(left/60),s=left%60;if($('timer'))$('timer').textContent=`${m}:${String(s).padStart(2,'0')}`;if($('timerRing'))$('timerRing').style.strokeDashoffset=327*(1-left/total)};draw();timerId=setInterval(()=>{left--;draw();if(left<=0){clearInterval(timerId);showVote()}},1000)}
 function showVote(){if(typeof document==='undefined')return;clearInterval(timerId);selectedVote=-1;const list=$('voteList');if(!list)return;list.innerHTML='';players.forEach((name,i)=>{const b=document.createElement('button');b.className='vote-option';b.innerHTML=`<span class="avatar">${i+1}</span><span>${name}</span>`;b.onclick=()=>{document.querySelectorAll('.vote-option').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');selectedVote=i;if($('revealResult')){$('revealResult').disabled=false;$('revealResult').classList.remove('disabled')}};list.append(b)});if($('revealResult')){$('revealResult').disabled=true;$('revealResult').classList.add('disabled')} show('vote')}
 function result(){const caught=imposters.has(selectedVote);const who=Array.from(imposters).map(i=>players[i]).join(', ');if($('resultIcon')){$('resultIcon').className=`result-icon ${caught?'':'fail'}`;$('resultIcon').textContent=caught?'✦':'!'}if($('resultEyebrow'))$('resultEyebrow').textContent=caught?'GOT THEM!':'OH NO!';if($('resultTitle'))$('resultTitle').textContent=caught?'The Imposter is caught!':(imposters.size>1?'The Imposters win!':'The Imposter wins!');if($('resultText'))$('resultText').textContent=`${who} ${imposters.size>1?'were the Imposters':'was the Imposter'}.`;const compCard=$('resultComparisonCard')||$('answerWord')?.parentElement;if(compCard&&word){const civWord=showMalayalam?(word.malayalam||word.latin):(word.latin||'');const civSub=showMalayalam?word.latin:(word.malayalam||'');const impWordStr=showMalayalam?(word.hintMalayalam||word.imposterWord):(word.imposterWord||'');const impSub=showMalayalam?word.imposterWord:(word.hintMalayalam||'');let relText="";if(word.category==='Godfather'||word.movieName==='Godfather'){relText=`Both are legendary characters from the 1991 comedy classic 'Godfather'. While civilians received <b>${word.latin}</b>, the imposter got <b>${word.imposterWord}</b>—belonging to the same iconic family rivalries, enabling them to participate without knowing the exact identity!`}else if(word.movieName||word.characterRole){const mName=word.movieName||word.category;relText=`Both are iconic characters from the movie/theme '<b>${mName}</b>'. They share the exact same story universe, allowing the imposter (who received <b>${word.imposterWord}</b>) to blend into discussions about <b>${word.latin}</b> without sharing exact duplicate names!`}else if(word.isAI){relText=`Both secret items belong strictly to your custom theme '<b>${word.category}</b>'. The AI paired <b>${word.latin}</b> with the related sibling <b>${word.imposterWord}</b> because they share strong domain context and similarities without exact keyword overlap.`}else{relText=`Both words belong to the category '<b>${word.category||'Secrets'}</b>'. While civilians discussed <b>${word.latin}</b>, the imposter received <b>${word.imposterWord}</b>—a distinct, subtly related sibling from the exact same theme so they could blend in naturally!`}compCard.innerHTML=`<div class="dual-words-container"><div class="word-box civ-box"><span class="box-label">🧑 Civilians' Word</span><strong class="box-word">${civWord}</strong>${civSub&&civSub!==civWord?`<small class="box-sub">(${civSub})</small>`:''}</div><div class="word-box imp-box"><span class="box-label">🤫 Imposter's Word</span><strong class="box-word">${impWordStr}</strong>${impSub&&impSub!==impWordStr?`<small class="box-sub">(${impSub})</small>`:''}</div></div><div class="relationship-explanation"><div class="rel-title">💡 How the words are related</div><div class="rel-text">${relText}</div></div>`;}show('result')}
