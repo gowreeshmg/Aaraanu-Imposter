@@ -59,6 +59,99 @@ function saveCategories() {
 }
 
 let players=loadSavedPlayers(),selected=loadSavedCategories()||new Set((packs||[]).map(p=>p.id)),round=1,currentPlayer=0,imposters=new Set(),imposterCount=1,word=null,showMalayalam=false,selectedVote=-1,timerId;
+
+/* ===================================================================
+   EDITION SYSTEM — Kerala Edition ↔ International Edition
+   =================================================================== */
+const EDITION_STORAGE_KEY = 'aaraanu_imposter_edition';
+let currentEdition = (typeof window !== 'undefined' && window.localStorage)
+  ? (window.localStorage.getItem(EDITION_STORAGE_KEY) || 'kerala')
+  : 'kerala';
+
+// Keep a backup of the Kerala packs so we can restore them
+let _keralaPacksBackup = null;
+
+function applyEdition(ed) {
+  if (typeof document === 'undefined') return;
+  currentEdition = ed;
+  const isIntl = (ed === 'intl');
+
+  // ── Home pill ──────────────────────────────────────────────────────
+  const pill = document.getElementById('editionPill');
+  if (pill) pill.classList.toggle('intl-edition', isIntl);
+
+  const lbl = document.getElementById('homeEditionLabel');
+  if (lbl) lbl.textContent = isIntl ? 'International Edition' : 'Kerala Edition';
+
+  const sub = document.getElementById('homeEditionSub');
+  if (sub) sub.textContent = isIntl ? 'The Global Edition' : 'Play with your friends';
+
+  // ── Home text ─────────────────────────────────────────────────────
+  const title = document.getElementById('homeTitle');
+  if (title) title.innerHTML = isIntl ? "Who's the<br>Imposter?" : 'Aaraanu<br>Imposter?';
+
+  const badge = document.getElementById('homeEditionBadge');
+  if (badge) badge.textContent = isIntl ? 'INTERNATIONAL EDITION' : 'KERALA EDITION';
+
+  const subtitle = document.getElementById('homeSubtitle');
+  if (subtitle) subtitle.textContent = isIntl ? 'Who is the Imposter?' : 'Who is the Imposter?';
+
+  // ── Home screen accent class ───────────────────────────────────────
+  const homeSection = document.getElementById('home');
+  if (homeSection) homeSection.classList.toggle('intl-mode', isIntl);
+
+  // ── Character image — crossfade swap ──────────────────────────────
+  const charImg = document.getElementById('homeCharacterImg');
+  if (charImg) {
+    charImg.classList.add('switching');
+    setTimeout(() => {
+      charImg.src = isIntl ? 'assets/home-character-intl.jpg' : 'assets/home-character.png';
+      charImg.classList.remove('switching');
+    }, 300);
+  }
+
+  // ── Role swipe images ─────────────────────────────────────────────
+  const swipeSrc = isIntl ? 'assets/role-swipe-intl.jpg' : 'assets/role-swipe.jpg';
+  const swipeImg = document.getElementById('roleSwipeImg');
+  if (swipeImg) swipeImg.src = swipeSrc;
+  const revealImg = document.getElementById('roleSwipeImgReveal');
+  if (revealImg) revealImg.src = swipeSrc;
+  // Also update the kalla-kedayadi image used in-game (assets/kalla-kedayadi.jpg)
+  document.querySelectorAll('img[src*="role-swipe"], img[src*="kalla-kedayadi"]').forEach(img => {
+    if (img.id !== 'roleSwipeImg' && img.id !== 'roleSwipeImgReveal') img.src = swipeSrc;
+  });
+
+  // ── Word packs ────────────────────────────────────────────────────
+  if (isIntl) {
+    if (!_keralaPacksBackup) _keralaPacksBackup = packs.slice();
+    const intl = (typeof window !== 'undefined' && window.intlPacks) || [];
+    packs.length = 0;
+    intl.forEach(p => packs.push(p));
+    // Reset selected to all intl packs
+    selected = new Set(packs.map(p => p.id));
+  } else {
+    if (_keralaPacksBackup) {
+      packs.length = 0;
+      _keralaPacksBackup.forEach(p => packs.push(p));
+    }
+    selected = loadSavedCategories() || new Set(packs.map(p => p.id));
+  }
+
+  // Re-render categories if dropdown is open
+  const island = document.getElementById('categoriesIsland');
+  if (island && island.classList.contains('open')) renderCategories();
+  else if (typeof updateCategoryText === 'function') updateCategoryText();
+
+  // Persist
+  if (typeof window !== 'undefined' && window.localStorage)
+    window.localStorage.setItem(EDITION_STORAGE_KEY, ed);
+}
+
+function toggleEdition() {
+  applyEdition(currentEdition === 'kerala' ? 'intl' : 'kerala');
+}
+
+/* ─────────────────────────────────────────────────────────────────── */
 const $=id=>typeof document!=='undefined'?document.getElementById(id):null;const show=id=>{if(typeof document==='undefined')return;document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));if($(id))$(id).classList.add('active');if(id==='home'){document.body.style.background='#060509';document.documentElement.style.background='#060509';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='#060509';}else{document.body.style.background='#0d0c13';document.documentElement.style.background='#0d0c13';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='';}if(typeof window!=='undefined'&&window.scrollTo)window.scrollTo(0,0)};
 const hideLoader=()=>{if(typeof document==='undefined')return;const l=document.getElementById('loader');if(l&&!l.classList.contains('done')){const startTime=window.__loaderStartTime||(Date.now()-5000);const elapsed=Date.now()-startTime;const rem=Math.max(0,5000-elapsed);setTimeout(()=>{l.classList.add('done');document.body.style.background='#060509';document.documentElement.style.background='#060509';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='#060509';var h=document.getElementById('home');if(h){window.dispatchEvent(new Event('resize'));}setTimeout(()=>{if(l&&l.parentNode)l.style.display='none'},450)},rem)}};
 if(typeof window!=='undefined'&&typeof document!=='undefined'){hideLoader();window.addEventListener('load',hideLoader);window.addEventListener('DOMContentLoaded',hideLoader);setTimeout(hideLoader,5000);}
@@ -775,9 +868,14 @@ function chooseWord(){
     impMalWord = dictImpMal;
   }
 
-  // 2. ONLY use picked[2] if this category was generated by AI, because the built-in words.js arrays contain descriptions in picked[2] which we want to ignore.
+  // 2. For international edition packs, picked[2] IS the imposter word (a sibling character/item).
+  //    For Kerala packs marked isAI, also use picked[2] if valid.
   if (!impWord || !impMalWord) {
-    if (category.isAI && picked[2] && picked[3] && picked[2] !== 'Related Secret' && picked[2] !== picked[0] && isValidShortNoun(picked[2])) {
+    const isIntlPack = category.id && category.id.startsWith('intl_');
+    if (isIntlPack && picked[2] && picked[2] !== picked[0]) {
+      impWord = picked[2];
+      impMalWord = '';
+    } else if (category.isAI && picked[2] && picked[3] && picked[2] !== 'Related Secret' && picked[2] !== picked[0] && isValidShortNoun(picked[2])) {
       const w0Lower = picked[0].toLowerCase();
       const w2Lower = picked[2].toLowerCase();
       const w2First = picked[2].split(' ')[0].toLowerCase();
@@ -866,7 +964,9 @@ function renderRoleView() {
     if ($('secretLabel')) $('secretLabel').style.display = 'none';
     if ($('secretWord')) $('secretWord').textContent = showMalayalam ? word.hintMalayalam : word.imposterWord;
     if ($('scriptToggle')) {
-      $('scriptToggle').hidden = !(word && (word.hintLatin || word.hintMalayalam));
+      // Hide Malayalam toggle in international edition
+      const hasAlt = currentEdition !== 'intl' && word && (word.hintLatin || word.hintMalayalam);
+      $('scriptToggle').hidden = !hasAlt;
       $('scriptToggle').textContent = showMalayalam ? 'Show in Manglish' : 'Show in Malayalam';
     }
     if ($('secretHint')) {
@@ -883,7 +983,8 @@ function renderRoleView() {
       $('secretLabel').textContent = 'SECRET WORD';
     }
     if ($('scriptToggle')) {
-      $('scriptToggle').hidden = false;
+      // Hide Malayalam toggle in international edition (English-only)
+      $('scriptToggle').hidden = currentEdition === 'intl';
       $('scriptToggle').textContent = showMalayalam ? 'Show in Manglish' : 'Show in Malayalam';
     }
     if ($('secretWord')) $('secretWord').textContent = showMalayalam ? word.malayalam : word.latin;
@@ -1017,6 +1118,14 @@ if(typeof window!=='undefined'&&typeof document!=='undefined'){
   if($('exitGame'))$('exitGame').onclick=exitGameHandler;
   if($('exitReveal'))$('exitReveal').onclick=exitGameHandler;
   bindClick('roleHelp',()=>show('help'));
+
+  // Edition pill
+  const editionPillEl = $('editionPill');
+  if (editionPillEl) editionPillEl.onclick = toggleEdition;
+
+  // Restore saved edition on load
+  if (currentEdition === 'intl') applyEdition('intl');
+
   if($('playerList'))renderPlayers();if($('categorySummary'))updateCategoryText();initGeminiKeyUI();hideLoader();
 }
 

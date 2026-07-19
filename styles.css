@@ -243,3 +243,28 @@
 .delete-custom-cat{margin-left:auto;background:none;border:none;font-size:14px;cursor:pointer;color:#a9a5b4;padding:4px;border-radius:6px;transition:all 0.15s ease}
 .delete-custom-cat:hover{color:#ff5555;background:rgba(255,85,85,0.15)}
 
+/* ─── Edition Pill Button (home screen switcher) ─────────────────────────── */
+.edition-pill-btn{
+  border:0!important;
+  cursor:pointer!important;
+  text-align:center!important;
+  transition:transform 0.18s ease, box-shadow 0.18s ease, background 0.3s ease!important;
+  -webkit-tap-highlight-color:transparent!important;
+}
+.edition-pill-btn:hover{transform:scale(1.05)!important;box-shadow:0 4px 18px rgba(255,158,28,0.38)!important}
+.edition-pill-btn:active{transform:scale(0.95)!important}
+/* International edition pill colour swap */
+.edition-pill-btn.intl-edition{
+  border-color:#4c3b8a!important;
+  background:linear-gradient(135deg,#1e1540,#2d2060)!important;
+}
+.edition-pill-btn.intl-edition b{color:#d3b3ff!important}
+.edition-pill-btn.intl-edition small{color:#9b7fd4!important}
+.edition-pill-btn.intl-edition:hover{box-shadow:0 4px 18px rgba(140,100,255,0.45)!important}
+/* Intl mode accent colour overrides on home copy */
+#home.intl-mode .home-copy h1{color:#c89fff!important}
+#home.intl-mode .home-copy strong{color:#a78bfa!important}
+#home.intl-mode .home-copy p{color:#bbaee0!important}
+/* Smooth crossfade for character image swap */
+#homeCharacterImg{transition:opacity 0.3s ease!important}
+#homeCharacterImg.switching{opacity:0!important}

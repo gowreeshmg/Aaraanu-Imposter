@@ -495,5 +495,316 @@ Object.entries(window.extraWords || {}).forEach(([id, words]) => {
   }
 });
 
+
 if (typeof window !== 'undefined') window.packs = packs;
 if (typeof module !== 'undefined' && module.exports) module.exports = { packs };
+
+/* =========================================================
+   INTERNATIONAL EDITION PACKS
+   All pure English words. Format: [civilianWord, '', imposterWord, '']
+   The 2nd and 4th slots (Malayalam) are left blank for intl edition.
+   ========================================================= */
+const intlPacks = [
+  {
+    id:'intl_superheroes', name:'Superheroes', icon:'🦸',
+    words:[
+      ['Spider-Man','','Batman',''],
+      ['Iron Man','','Thor',''],
+      ['Captain America','','Hulk',''],
+      ['Wonder Woman','','Black Widow',''],
+      ['Superman','','Flash',''],
+      ['Doctor Strange','','Scarlet Witch',''],
+      ['Black Panther','','Hawkeye',''],
+      ['Aquaman','','Green Arrow',''],
+      ['Wolverine','','Cyclops',''],
+      ['Deadpool','','Daredevil',''],
+      ['Ant-Man','','Wasp',''],
+      ['Shazam','','Green Lantern',''],
+      ['Falcon','','War Machine',''],
+      ['Groot','','Rocket Raccoon',''],
+      ['Vision','','Wanda','']
+    ]
+  },
+  {
+    id:'intl_villains', name:'Famous Villains', icon:'😈',
+    words:[
+      ['Joker','','Thanos',''],
+      ['Darth Vader','','Voldemort',''],
+      ['Loki','','Magneto',''],
+      ['Lex Luthor','','Green Goblin',''],
+      ['Hannibal Lecter','','Norman Bates',''],
+      ['Doctor Doom','','Red Skull',''],
+      ['Ultron','','Galactus',''],
+      ['Jafar','','Maleficent',''],
+      ['Scar','','Ursula',''],
+      ['Hans','','Gaston',''],
+      ['Bane','','Scarecrow',''],
+      ['Venom','','Carnage',''],
+      ['Kingpin','','Vulture',''],
+      ['Sauron','','Saruman',''],
+      ['Palpatine','','General Grievous','']
+    ]
+  },
+  {
+    id:'intl_movie_chars', name:'Movie Characters', icon:'🎬',
+    words:[
+      ['James Bond','','Ethan Hunt',''],
+      ['Indiana Jones','','Lara Croft',''],
+      ['Jack Sparrow','','Barbossa',''],
+      ['Forrest Gump','','Sheldon Cooper',''],
+      ['Walter White','','Tony Soprano',''],
+      ['Don Corleone','','Tony Montana',''],
+      ['Sherlock Holmes','','Hercule Poirot',''],
+      ['Hannibal Lecter','','Dexter Morgan',''],
+      ['Neo','','John Wick',''],
+      ['Maximus','','Leonidas',''],
+      ['Jack Dawson','','Jay Gatsby',''],
+      ['Edward Scissorhands','','Beetlejuice',''],
+      ['Harry Callahan','','John McClane',''],
+      ['Rocky Balboa','','Raging Bull',''],
+      ['Tyler Durden','','Patrick Bateman','']
+    ]
+  },
+  {
+    id:'intl_tv_chars', name:'TV Characters', icon:'📺',
+    words:[
+      ['Ross Geller','','Chandler Bing',''],
+      ['Michael Scott','','David Brent',''],
+      ['Walter White','','Jesse Pinkman',''],
+      ['Jon Snow','','Daenerys',''],
+      ['Sheldon Cooper','','Leonard Hofstadter',''],
+      ['Ted Mosby','','Barney Stinson',''],
+      ['Homer Simpson','','Peter Griffin',''],
+      ['Sherlock Holmes','','Dr. Watson',''],
+      ['Tony Stark','','Steve Rogers',''],
+      ['Dwight Schrute','','Jim Halpert',''],
+      ['Dexter Morgan','','Jack Bauer',''],
+      ['Don Draper','','Tony Soprano',''],
+      ['Cersei Lannister','','Sansa Stark',''],
+      ['Tyrion Lannister','','Jaime Lannister',''],
+      ['Rachel Green','','Monica Geller','']
+    ]
+  },
+  {
+    id:'intl_food', name:'Famous Foods', icon:'🍕',
+    words:[
+      ['Pizza','','Burger',''],
+      ['Sushi','','Ramen',''],
+      ['Tacos','','Burritos',''],
+      ['Pasta','','Lasagna',''],
+      ['Steak','','Lamb Chops',''],
+      ['Fried Chicken','','Grilled Chicken',''],
+      ['French Fries','','Onion Rings',''],
+      ['Cheesecake','','Tiramisu',''],
+      ['Donuts','','Waffles',''],
+      ['Croissant','','Baguette',''],
+      ['Pancakes','','Crepes',''],
+      ['Hot Dog','','Sandwich',''],
+      ['Spaghetti','','Fettuccine',''],
+      ['Chocolate Cake','','Brownies',''],
+      ['Ice Cream','','Gelato','']
+    ]
+  },
+  {
+    id:'intl_animals', name:'Animals', icon:'🦁',
+    words:[
+      ['Lion','','Tiger',''],
+      ['Eagle','','Hawk',''],
+      ['Dolphin','','Shark',''],
+      ['Elephant','','Rhinoceros',''],
+      ['Cheetah','','Leopard',''],
+      ['Wolf','','Fox',''],
+      ['Gorilla','','Chimpanzee',''],
+      ['Penguin','','Polar Bear',''],
+      ['Crocodile','','Alligator',''],
+      ['Parrot','','Toucan',''],
+      ['Giraffe','','Zebra',''],
+      ['Kangaroo','','Wallaby',''],
+      ['Octopus','','Squid',''],
+      ['Python','','Cobra',''],
+      ['Peacock','','Flamingo','']
+    ]
+  },
+  {
+    id:'intl_sports', name:'Sports', icon:'⚽',
+    words:[
+      ['Football','','Rugby',''],
+      ['Basketball','','Volleyball',''],
+      ['Tennis','','Badminton',''],
+      ['Cricket','','Baseball',''],
+      ['Swimming','','Diving',''],
+      ['Boxing','','Wrestling',''],
+      ['Golf','','Polo',''],
+      ['Skiing','','Snowboarding',''],
+      ['Cycling','','Triathlon',''],
+      ['Gymnastics','','Figure Skating',''],
+      ['Archery','','Fencing',''],
+      ['Surfing','','Skateboarding',''],
+      ['Table Tennis','','Squash',''],
+      ['Marathon','','Sprinting',''],
+      ['Weightlifting','','Powerlifting','']
+    ]
+  },
+  {
+    id:'intl_countries', name:'Countries', icon:'🌍',
+    words:[
+      ['France','','Italy',''],
+      ['Japan','','South Korea',''],
+      ['Brazil','','Argentina',''],
+      ['Germany','','Austria',''],
+      ['Spain','','Portugal',''],
+      ['Australia','','New Zealand',''],
+      ['Canada','','United States',''],
+      ['Egypt','','Morocco',''],
+      ['Russia','','Ukraine',''],
+      ['China','','Vietnam',''],
+      ['Mexico','','Colombia',''],
+      ['Greece','','Turkey',''],
+      ['Switzerland','','Netherlands',''],
+      ['Sweden','','Norway',''],
+      ['South Africa','','Kenya','']
+    ]
+  },
+  {
+    id:'intl_video_games', name:'Video Game Characters', icon:'🎮',
+    words:[
+      ['Mario','','Luigi',''],
+      ['Link','','Zelda',''],
+      ['Master Chief','','Doomguy',''],
+      ['Kratos','','Ares',''],
+      ['Sonic','','Tails',''],
+      ['Pikachu','','Charizard',''],
+      ['Cloud Strife','','Sephiroth',''],
+      ['Lara Croft','','Nathan Drake',''],
+      ['Geralt of Rivia','','Arthur Morgan',''],
+      ['Solid Snake','','Liquid Snake',''],
+      ['Banjo','','Kazooie',''],
+      ['Samus Aran','','Megaman',''],
+      ['Ryu','','Ken',''],
+      ['Donkey Kong','','Diddy Kong',''],
+      ['Pac-Man','','Blinky','']
+    ]
+  },
+  {
+    id:'intl_music', name:'Music & Bands', icon:'🎵',
+    words:[
+      ['Beatles','','Rolling Stones',''],
+      ['Michael Jackson','','Prince',''],
+      ['Elvis Presley','','Frank Sinatra',''],
+      ['Madonna','','Beyoncé',''],
+      ['Freddie Mercury','','David Bowie',''],
+      ['Eminem','','Jay-Z',''],
+      ['Taylor Swift','','Adele',''],
+      ['Ed Sheeran','','Bruno Mars',''],
+      ['Metallica','','Iron Maiden',''],
+      ['Pink Floyd','','Led Zeppelin',''],
+      ['Bob Dylan','','Johnny Cash',''],
+      ['Nirvana','','Pearl Jam',''],
+      ['Daft Punk','','Coldplay',''],
+      ['ABBA','','Bee Gees',''],
+      ['Queen','','Guns N Roses','']
+    ]
+  },
+  {
+    id:'intl_famous_people', name:'Famous People', icon:'👑',
+    words:[
+      ['Albert Einstein','','Isaac Newton',''],
+      ['Leonardo da Vinci','','Michelangelo',''],
+      ['Shakespeare','','Charles Dickens',''],
+      ['Napoleon','','Julius Caesar',''],
+      ['Mahatma Gandhi','','Nelson Mandela',''],
+      ['Abraham Lincoln','','Winston Churchill',''],
+      ['Cleopatra','','Joan of Arc',''],
+      ['Mozart','','Beethoven',''],
+      ['Nikola Tesla','','Thomas Edison',''],
+      ['Sigmund Freud','','Carl Jung',''],
+      ['Charles Darwin','','Marie Curie',''],
+      ['Pablo Picasso','','Salvador Dalí',''],
+      ['Alexander the Great','','Genghis Khan',''],
+      ['Martin Luther King','','Malcolm X',''],
+      ['Stephen Hawking','','Richard Feynman','']
+    ]
+  },
+  {
+    id:'intl_common_objects', name:'Everyday Objects', icon:'💡',
+    words:[
+      ['Phone','','Tablet',''],
+      ['Chair','','Sofa',''],
+      ['Laptop','','Desktop Computer',''],
+      ['Umbrella','','Raincoat',''],
+      ['Toothbrush','','Toothpaste',''],
+      ['Clock','','Watch',''],
+      ['Mirror','','Window',''],
+      ['Pillow','','Blanket',''],
+      ['Key','','Lock',''],
+      ['Pen','','Pencil',''],
+      ['Book','','Notebook',''],
+      ['Glasses','','Contact Lens',''],
+      ['Wallet','','Purse',''],
+      ['Fork','','Spoon',''],
+      ['Candle','','Torch','']
+    ]
+  },
+  {
+    id:'intl_nature', name:'Nature', icon:'🌿',
+    words:[
+      ['Ocean','','Sea',''],
+      ['Forest','','Jungle',''],
+      ['Mountain','','Hill',''],
+      ['River','','Lake',''],
+      ['Desert','','Savanna',''],
+      ['Volcano','','Earthquake',''],
+      ['Rainbow','','Aurora',''],
+      ['Storm','','Hurricane',''],
+      ['Coral Reef','','Kelp Forest',''],
+      ['Waterfall','','Geyser',''],
+      ['Glacier','','Iceberg',''],
+      ['Canyon','','Gorge',''],
+      ['Meadow','','Prairie',''],
+      ['Cave','','Cavern',''],
+      ['Swamp','','Marsh','']
+    ]
+  },
+  {
+    id:'intl_disney', name:'Disney & Animation', icon:'✨',
+    words:[
+      ['Simba','','Mufasa',''],
+      ['Elsa','','Anna',''],
+      ['Moana','','Maui',''],
+      ['Mulan','','Pocahontas',''],
+      ['Aladdin','','Genie',''],
+      ['Shrek','','Donkey',''],
+      ['Woody','','Buzz Lightyear',''],
+      ['Nemo','','Marlin',''],
+      ['Rapunzel','','Flynn Rider',''],
+      ['Belle','','Beast',''],
+      ['Cinderella','','Snow White',''],
+      ['Bambi','','Dumbo',''],
+      ['Pinocchio','','Jiminy Cricket',''],
+      ['Tarzan','','Jane',''],
+      ['Stitch','','Lilo','']
+    ]
+  },
+  {
+    id:'intl_places', name:'Famous Places', icon:'🗺️',
+    words:[
+      ['Eiffel Tower','','Big Ben',''],
+      ['Colosseum','','Pantheon',''],
+      ['Taj Mahal','','Qutub Minar',''],
+      ['Great Wall','','Forbidden City',''],
+      ['Statue of Liberty','','Golden Gate Bridge',''],
+      ['Sydney Opera House','','Harbour Bridge',''],
+      ['Machu Picchu','','Chichen Itza',''],
+      ['Stonehenge','','Avebury',''],
+      ['Niagara Falls','','Victoria Falls',''],
+      ['Angkor Wat','','Borobudur',''],
+      ['Alhambra','','Sagrada Familia',''],
+      ['Mount Everest','','K2',''],
+      ['Amazon River','','Nile River',''],
+      ['Grand Canyon','','Bryce Canyon',''],
+      ['Times Square','','Piccadilly Circus','']
+    ]
+  }
+];
+
+if (typeof window !== 'undefined') window.intlPacks = intlPacks;
