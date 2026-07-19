@@ -2,6 +2,9 @@
 
 /* Discussion (#clues) and Voting (#vote) Screen Spacing & Fixed Buttons */
 #vote.screen,#clues.screen{padding-top:max(48px, calc(32px + env(safe-area-inset-top, 36px)))!important;padding-bottom:max(96px, calc(76px + env(safe-area-inset-bottom, 20px)))!important;min-height:100dvh}
+/* Home screen overrides for layout */
+.home-actions{background:#060509!important;border-top:1px solid #1a1726!important;border-radius:24px 24px 0 0!important;padding:24px 24px max(16px, env(safe-area-inset-bottom, 16px)) 24px!important;margin:auto -16px 0 -16px!important;width:calc(100% + 32px)!important;display:flex!important;flex-direction:column!important;gap:8px!important;align-items:center!important;position:relative!important;z-index:10!important;box-shadow:0 -10px 30px rgba(0,0,0,.85)!important}
+.burst{background:repeating-conic-gradient(from 0deg at 50% 45%,#181528 0deg 7.5deg,#0c0a14 7.5deg 15deg)!important}
 #revealResult,#skipDiscussion{position:fixed!important;bottom:max(18px, env(safe-area-inset-bottom, 18px))!important;left:50%!important;transform:translateX(-50%)!important;width:min(100% - 40px, 460px)!important;z-index:50!important}
 /* Role Swipe & Next Player Fixed Button */
 #hideRole{position:fixed!important;bottom:max(18px, env(safe-area-inset-bottom, 18px))!important;left:50%!important;transform:translateX(-50%)!important;width:min(100% - 40px, 460px)!important;z-index:50!important}
