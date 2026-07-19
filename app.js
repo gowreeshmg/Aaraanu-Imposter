@@ -148,7 +148,7 @@ function applyEdition(ed) {
 }
 
 function toggleEdition() {
-  setTimeout(alignBurst, 150);
+  // Removed alignBurst
   applyEdition(currentEdition === 'kerala' ? 'intl' : 'kerala');
 }
 
@@ -1157,7 +1157,6 @@ if(typeof window!=='undefined'&&typeof document!=='undefined'){
   if (currentEdition === 'intl') applyEdition('intl');
 
   if($('playerList'))renderPlayers();if($('categorySummary'))updateCategoryText();initGeminiKeyUI();hideLoader();
-  setTimeout(alignBurst, 50);
-  window.addEventListener('resize', alignBurst);
+
 }
 
