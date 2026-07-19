@@ -1011,23 +1011,8 @@ function renderRoleView() {
     }
   }
 }
-function alignBurst() {
-  const burst = document.querySelector('.burst');
-  const img = document.getElementById('homeCharacterImg');
-  if (!burst || !img) return;
-  const rect = img.getBoundingClientRect();
-  const parentRect = burst.getBoundingClientRect();
-  if (rect.width === 0) {
-    img.addEventListener('load', alignBurst, { once: true });
-    return;
-  }
-  
-  const faceY = rect.top + (rect.height / 2) - parentRect.top;
-  const faceX = rect.left + (rect.width / 2) - parentRect.left;
-  
-  burst.style.setProperty('--bg-x', `${faceX}px`);
-  burst.style.setProperty('--bg-y', `${faceY}px`);
-}
+// Removed alignBurst
+
 function startTimer(){clearInterval(timerId);const minutes=parseInt($('durationSelect')?.value||2,10);let left=minutes*60;const total=left;const draw=()=>{const m=Math.floor(left/60),s=left%60;if($('timer'))$('timer').textContent=`${m}:${String(s).padStart(2,'0')}`;if($('timerRing'))$('timerRing').style.strokeDashoffset=327*(1-left/total)};draw();timerId=setInterval(()=>{left--;draw();if(left<=0){clearInterval(timerId);showVote()}},1000)}
 function showVote(){if(typeof document==='undefined')return;clearInterval(timerId);selectedVote=-1;const list=$('voteList');if(!list)return;list.innerHTML='';players.forEach((name,i)=>{const b=document.createElement('button');b.className='vote-option';b.innerHTML=`<span class="avatar">${i+1}</span><span>${name}</span>`;b.onclick=()=>{document.querySelectorAll('.vote-option').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');selectedVote=i;if($('revealResult')){$('revealResult').disabled=false;$('revealResult').classList.remove('disabled')}};list.append(b)});if($('revealResult')){$('revealResult').disabled=true;$('revealResult').classList.add('disabled')} show('vote')}
 function result(){const caught=imposters.has(selectedVote);const who=Array.from(imposters).map(i=>players[i]).join(', ');if($('resultIcon')){$('resultIcon').className=`result-icon ${caught?'':'fail'}`;$('resultIcon').textContent=caught?'✦':'!'}if($('resultEyebrow'))$('resultEyebrow').textContent=caught?'GOT THEM!':'OH NO!';if($('resultTitle'))$('resultTitle').textContent=caught?'The Imposter is caught!':(imposters.size>1?'The Imposters win!':'The Imposter wins!');if($('resultText'))$('resultText').textContent=`${who} ${imposters.size>1?'were the Imposters':'was the Imposter'}.`;const compCard=$('resultComparisonCard')||$('answerWord')?.parentElement;if(compCard&&word){const civWord=showMalayalam?(word.malayalam||word.latin):(word.latin||'');const civSub=showMalayalam?word.latin:(word.malayalam||'');const impWordStr=showMalayalam?(word.hintMalayalam||word.imposterWord):(word.imposterWord||'');const impSub=showMalayalam?word.imposterWord:(word.hintMalayalam||'');let relText="";
