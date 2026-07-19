@@ -268,3 +268,16 @@
 /* Smooth crossfade for character image swap */
 #homeCharacterImg{transition:opacity 0.3s ease!important}
 #homeCharacterImg.switching{opacity:0!important}
+/* International edition: make black bg transparent via screen blend,
+   then outline follows the actual character contour using drop-shadow */
+#home.intl-mode #homeCharacterImg{
+  mix-blend-mode:screen!important;
+  filter:
+    drop-shadow(0 0 0px #fff)
+    drop-shadow(0 0 2px #fff)
+    drop-shadow(0 0 4px rgba(255,255,255,0.7))!important;
+}
+/* Kerala edition: keep the existing box border style */
+#home:not(.intl-mode) #homeCharacterImg{
+  mix-blend-mode:normal!important;
+}
