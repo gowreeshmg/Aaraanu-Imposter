@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" /><link rel="stylesheet" href="styles.css?v=6" />
   <style>
     .screen:not(.active){display:none!important}
-    .home-character{position:relative;z-index:1;width:min(90vw,310px);aspect-ratio:1/1;height:auto;object-fit:contain;margin-top:auto!important;margin-bottom:6px!important;border:none;border-radius:0;background:transparent;filter:drop-shadow(0 -3.5px 0 #fff) drop-shadow(0 3.5px 0 #fff) drop-shadow(-3.5px 0 0 #fff) drop-shadow(3.5px 0 0 #fff) drop-shadow(-2.5px -2.5px 0 #fff) drop-shadow(2.5px -2.5px 0 #fff) drop-shadow(-2.5px 2.5px 0 #fff) drop-shadow(2.5px 2.5px 0 #fff) drop-shadow(0 15px 22px #000a)}
+    .home-character{position:relative;z-index:1;width:min(90vw,345px);height:310px;object-fit:contain;object-position:bottom;margin-top:auto!important;margin-bottom:6px!important;border:none;border-radius:0;background:transparent;filter:drop-shadow(0 -3.5px 0 #fff) drop-shadow(0 3.5px 0 #fff) drop-shadow(-3.5px 0 0 #fff) drop-shadow(3.5px 0 0 #fff) drop-shadow(-2.5px -2.5px 0 #fff) drop-shadow(2.5px -2.5px 0 #fff) drop-shadow(-2.5px 2.5px 0 #fff) drop-shadow(2.5px 2.5px 0 #fff) drop-shadow(0 15px 22px #000a)}
     .home-copy{margin-top:0!important;margin-bottom:auto!important;position:relative!important;z-index:2!important}
     .home-copy h1{font-size:clamp(38px,9.5vw,46px)!important;line-height:1.05!important}
     .home-copy strong{font-size:14px!important;letter-spacing:3.5px!important;margin-top:12px!important;margin-bottom:6px!important}
@@ -24,7 +24,7 @@
     /* Home screen — full-viewport flex column so .home-actions naturally sits at the bottom */
     #home.screen.active{display:flex!important;flex-direction:column!important;min-height:100dvh!important;padding:0!important;overflow:hidden!important}
     .home-top{padding:max(env(safe-area-inset-top,16px),16px) 16px 0!important}
-    .burst{position:absolute;inset:-50%;width:200%;height:200%;background:repeating-conic-gradient(from 0deg at 50% 36%,#181528 0deg 7.5deg,#0c0a14 7.5deg 15deg);opacity:1;z-index:0;pointer-events:none}
+
     #setup{padding-bottom:120px!important}
     #setup .settings{margin-bottom:4px!important}
     .setup-actions{position:fixed!important;bottom:0!important;left:50%!important;transform:translateX(-50%)!important;width:100%!important;max-width:520px!important;z-index:50!important;background:#060509!important;border-top:1px solid #1a1726!important;border-radius:24px 24px 0 0!important;padding:6px 16px max(8px, env(safe-area-inset-bottom, 8px)) 16px!important;margin:0!important;display:flex!important;align-items:center!important;justify-content:center!important}
