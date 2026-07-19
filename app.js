@@ -94,7 +94,7 @@ function applyEdition(ed) {
   if (badge) badge.textContent = isIntl ? 'ENGLISH EDITION' : 'MALAYALAM EDITION';
 
   const subtitle = document.getElementById('homeSubtitle');
-  if (subtitle) subtitle.textContent = isIntl ? 'Spot the fraud among your friends!' : 'Who is the Imposter?';
+  if (subtitle) subtitle.textContent = isIntl ? 'Spot the fraud among your friends!' : 'Find the fake!';
 
   // ── Home screen accent class ───────────────────────────────────────
   const homeSection = document.getElementById('home');
