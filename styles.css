@@ -265,7 +265,11 @@
 .edition-pill-btn.intl-edition b{color:#d3b3ff!important}
 .edition-pill-btn.intl-edition small{color:#9b7fd4!important}
 .edition-pill-btn.intl-edition:hover{box-shadow:0 4px 18px rgba(140,100,255,0.45)!important}
-/* Intl mode accent colour overrides on home copy */
+#home:not(.intl-mode) #homeCharacterImg{
+  mix-blend-mode:normal!important;
+  transform:scale(1.2);
+  transform-origin:bottom;
+}
 #home.intl-mode .home-copy h1{color:#c89fff!important}
 #home.intl-mode .home-copy strong{color:#a78bfa!important}
 #home.intl-mode .home-copy p{color:#bbaee0!important}
