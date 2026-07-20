@@ -1,0 +1,944 @@
+{
+  "sports": {
+    "name": "Sports",
+    "words": [
+      [
+        "Football",
+        "ഫുട്ബോൾ",
+        "Popular Ground Game",
+        "മൈതാനത്ത് കളിക്കുന്ന കളി"
+      ],
+      [
+        "Cricket",
+        "ക്രിക്കറ്റ്",
+        "Batting & Bowling Game",
+        "റൺസ് നേടുന്ന മത്സരം"
+      ],
+      [
+        "Kabaddi",
+        "കബഡി",
+        "Team Tag Sport",
+        "ശ്വാസം പിടിച്ചു കളിക്കുന്ന മത്സരം"
+      ],
+      [
+        "Volleyball",
+        "വോളിബോൾ",
+        "High Net Ball Game",
+        "നെറ്റിന് മുകളിലൂടെയുള്ള കളി"
+      ],
+      [
+        "Vallamkali",
+        "വള്ളംകളി",
+        "Water Racing Sport",
+        "ജലത്തിലെ ആവേശ മത്സരം"
+      ],
+      [
+        "Tug of War",
+        "വടംവലി",
+        "Team Rope Pulling",
+        "കയർ വലിക്കുന്ന മത്സരം"
+      ],
+      [
+        "Sevens Football",
+        "സെവൻസ് ഫുട്ബോൾ",
+        "Local 7-a-side Tournament",
+        "ചെറിയ മൈതാനത്തെ ആവേശ മത്സരം"
+      ],
+      [
+        "Kho Kho",
+        "ഖോ ഖോ",
+        "Sit & Chase Court Game",
+        "ഇരുന്നും ഓടിയും കളിക്കുന്നത്"
+      ],
+      [
+        "Badminton",
+        "ബാഡ്മിന്റൺ",
+        "Racket Court Sport",
+        "റാക്കറ്റും ഷട്ടിലും ഉപയോഗിക്കുന്ന കളി"
+      ],
+      [
+        "Swimming",
+        "നീന്തൽ",
+        "Water Pool Racing",
+        "വെള്ളത്തിലെ മത്സരം"
+      ],
+      [
+        "Athletics",
+        "അത്‌ലറ്റിക്സ്",
+        "Track and Field Events",
+        "കായിക മത്സര വേദി"
+      ],
+      [
+        "Javelin",
+        "ജാവലിൻ",
+        "Distance Throwing Event",
+        "ദൂരത്തേക്ക് എറിയുന്ന മത്സരം"
+      ],
+      [
+        "Relay",
+        "റിലേ",
+        "Team Sprint Event",
+        "കൈമാറി ഓടുന്ന മത്സരം"
+      ],
+      [
+        "Boat Race",
+        "വള്ളംകളി",
+        "Traditional River Race",
+        "കായലിലെ വേഗത മത്സരം"
+      ],
+      [
+        "Carrom",
+        "കാരംസ്",
+        "Indoor Board Game",
+        "ബോർഡിൽ കളിക്കുന്ന ഇൻഡോർ ഗെയിം"
+      ],
+      [
+        "Chess",
+        "ചെസ്സ്",
+        "Mind Strategy Game",
+        "ബുദ്ധി ഉപയോഗിക്കുന്ന ബോർഡ് ഗെയിം"
+      ],
+      [
+        "Kalari",
+        "കളരി",
+        "Martial Art Tradition",
+        "പരമ്പരാഗത അഭ്യാസ മുറ"
+      ],
+      [
+        "Long Jump",
+        "ലോംഗ് ജമ്പ്",
+        "Sand Pit Distance Leap",
+        "ദൂരത്തേക്ക് ചാടുന്ന മത്സരം"
+      ],
+      [
+        "High Jump",
+        "ഹൈ ജമ്പ്",
+        "Bar Clearance Leaping",
+        "ഉയരത്തിലേക്ക് ചാടുന്ന മത്സരം"
+      ],
+      [
+        "Throwball",
+        "ത്രോബോൾ",
+        "Over the Net Sport",
+        "ബോൾ എറിഞ്ഞു കളിക്കുന്നത്"
+      ],
+      [
+        "Table Tennis",
+        "ടേബിൾ ടെന്നീസ്",
+        "Indoor Table Racket Game",
+        "ഇൻഡോർ മത്സര വിനോദം"
+      ],
+      [
+        "Marathon",
+        "മാരത്തൺ",
+        "Long Distance Running Race",
+        "ദീർഘദൂര ഓട്ടമത്സരം"
+      ],
+      [
+        "Penalty Shootout",
+        "പെനാൽറ്റി ഷൂട്ടൗട്ട്",
+        "Tiebreaker Goal Kick",
+        "നിർണായകമായ ഗോൾ മത്സരം"
+      ],
+      [
+        "Trophy",
+        "ട്രോഫി",
+        "Tournament Winner Cup",
+        "വിജയികൾക്ക് നൽകുന്ന സമ്മാനം"
+      ],
+      [
+        "Umpire",
+        "അമ്പയർ",
+        "Match Referee Authority",
+        "കളിയുടെ വിധികർത്താവ്"
+      ],
+      [
+        "Gallery",
+        "ഗാലറി",
+        "Spectator Seating Stands",
+        "കാണികൾ ഇരിക്കുന്ന സ്ഥലം"
+      ],
+      [
+        "Kuttiyum Kolum",
+        "കുട്ടിയും കോലും",
+        "Wooden Stick Strike",
+        "മരക്കമ്പ് കൊണ്ടുള്ള കളി"
+      ],
+      [
+        "Kilithattu",
+        "കിളിത്തട്ട്",
+        "Court Crossing Dodge",
+        "വരകൾ കടന്നുള്ള കളി"
+      ],
+      [
+        "Talappanthukali",
+        "തലപ്പന്തുകളി",
+        "Coconut Leaf Ball Game",
+        "ഓലപ്പന്ത് കളി"
+      ],
+      [
+        "Nadan Panthu",
+        "നാടൻ പന്ത്",
+        "Leather Stitched Ball",
+        "തൊലി കൊണ്ടുണ്ടാക്കിയ പന്ത്"
+      ],
+      [
+        "Goli",
+        "ഗോലി",
+        "Glass Marble Aim",
+        "കണ്ണാടിച്ചില്ല് ഉണ്ടകൾ"
+      ],
+      [
+        "Lagori",
+        "ലഗോറി",
+        "Tile Stack Strike",
+        "ഓടുടുക്കുകൾ എറിഞ്ഞുവീഴ്ത്തൽ"
+      ],
+      [
+        "Arm Wrestling",
+        "പഞ്ചഗുസ്തി",
+        "Hand Strength Contest",
+        "കൈക്കരുത്ത് പരീക്ഷിക്കുന്നത്"
+      ],
+      [
+        "Kabaddi Court",
+        "കബഡി കോർട്ട്",
+        "Breath Control Game Area",
+        "ശ്വാസം പിടിച്ചു കളിക്കുന്ന വേദി"
+      ],
+      [
+        "Shuttle Racket",
+        "ഷട്ടിൽ റാക്കറ്റ്",
+        "Feather Birdie Game Tool",
+        "ഷട്ടിൽ കളിക്കുന്ന ഉപകരണം"
+      ],
+      [
+        "Foot Volley",
+        "ഫൂട്ട് വോളി",
+        "Leg Only Ball Game",
+        "കാലുകൊണ്ട് മാത്രം കളിക്കുന്നത്"
+      ]
+    ]
+  },
+  "gulf": {
+    "name": "Gulf & NRI",
+    "words": [
+      [
+        "Pravasi",
+        "പ്രവാസി",
+        "Overseas Resident",
+        "വിദേശത്ത് ജീവിക്കുന്ന മലയാളി"
+      ],
+      [
+        "Dubai",
+        "ദുബായ്",
+        "Middle East Destination",
+        "പ്രസിദ്ധമായ ഗൾഫ് നഗരം"
+      ],
+      [
+        "Gulf Money",
+        "ഗൾഫ് മണി",
+        "Foreign Earnings Remittance",
+        "വിദേശത്തു നിന്നും അയക്കുന്ന സമ്പത്ത്"
+      ],
+      [
+        "Chakka",
+        "ചക്ക",
+        "Beloved Home Fruit",
+        "നാട്ടിലെ പ്രിയപ്പെട്ട പഴം"
+      ],
+      [
+        "Naatilekku",
+        "നാട്ടിലേക്ക്",
+        "Homeward Vacation Journey",
+        "അവധിക്ക് വീട്ടിലേക്ക് വരുന്നത്"
+      ],
+      [
+        "Abu Dhabi",
+        "അബുദാബി",
+        "Capital Emirate City",
+        "തലസ്ഥാന നഗരം"
+      ],
+      [
+        "Qatar",
+        "ഖത്തർ",
+        "Gas Rich Gulf Nation",
+        "പ്രസിദ്ധമായ ഗൾഫ് രാജ്യം"
+      ],
+      [
+        "Saudi",
+        "സൗദി",
+        "Largest Arabian Nation",
+        "വലിയ മരുഭൂമി രാജ്യം"
+      ],
+      [
+        "Oman",
+        "ഒമാൻ",
+        "Scenic Middle East Country",
+        "പ്രകൃതിഭംഗിയുള്ള ഗൾഫ് രാജ്യം"
+      ],
+      [
+        "Bahrain",
+        "ബഹ്റൈൻ",
+        "Island Arabian Kingdom",
+        "ദ്വീപ് രൂപത്തിലുള്ള രാജ്യം"
+      ],
+      [
+        "Kuwait",
+        "കുവൈറ്റ്",
+        "High Currency Gulf State",
+        "ഉയർന്ന കറൻസി മൂല്യമുള്ള രാജ്യം"
+      ],
+      [
+        "Visa",
+        "വിസ",
+        "Travel Permit Approval",
+        "വിദേശയാത്രയ്ക്കുള്ള അനുമതി"
+      ],
+      [
+        "Passport",
+        "പാസ്പോർട്ട്",
+        "International Travel Document",
+        "യാത്ര ചെയ്യാനുള്ള രേഖ"
+      ],
+      [
+        "Airport",
+        "എയർപോർട്ട്",
+        "Flight Terminal",
+        "വിമാനങ്ങൾ വന്നിറങ്ങുന്ന സ്ഥലം"
+      ],
+      [
+        "Remittance",
+        "റെമിറ്റൻസ്",
+        "Money Sent to Family",
+        "നാട്ടിലേക്ക് അയക്കുന്ന പണം"
+      ],
+      [
+        "Duty Free",
+        "ഡ്യൂട്ടി ഫ്രീ",
+        "Airport Shopping Zone",
+        "എയർപോർട്ടിലെ ഷോപ്പിംഗ് സ്ഥലം"
+      ],
+      [
+        "Perfume",
+        "പെർഫ്യൂം",
+        "Fragrant Gift Item",
+        "സുഗന്ധം പരത്തുന്ന സമ്മാനം"
+      ],
+      [
+        "Dates",
+        "ഈത്തപ്പഴം",
+        "Arabian Palm Fruit",
+        "മരുഭൂമിയിലെ മധുരമുള്ള പഴം"
+      ],
+      [
+        "Gold",
+        "സ്വർണം",
+        "Precious Metal Investment",
+        "വിലയേറിയ ആഭരണ വസ്തു"
+      ],
+      [
+        "Return Ticket",
+        "റിട്ടേൺ ടിക്കറ്റ്",
+        "Homeward Flight Booking",
+        "തിരികെ പോകാനുള്ള ടിക്കറ്റ്"
+      ],
+      [
+        "Norka",
+        "നോർക്ക",
+        "Expatriate Welfare Agency",
+        "പ്രവാസികളുടെ ക്ഷേമ സംഘടന"
+      ],
+      [
+        "Sharjah",
+        "ഷാർജ",
+        "Popular Emirate Hub",
+        "മലയാളികൾ ഏറെയുള്ള ഗൾഫ് നഗരം"
+      ],
+      [
+        "Baklava",
+        "ബക്ലാവ",
+        "Arabian Sweet Pastry",
+        "മധ്യപൂർവ്വേഷ്യയിലെ മധുരപലഹാരം"
+      ],
+      [
+        "Desert Safari",
+        "മരുഭൂമി സഫാരി",
+        "Sand Dune Adventure",
+        "മരുഭൂമിയിലെ സാഹസിക യാത്ര"
+      ],
+      [
+        "Burj Khalifa",
+        "ബുർജ് ഖലീഫ",
+        "World Famous Skyscraper",
+        "ലോകത്തിലെ ഏറ്റവും വലിയ കെട്ടിടം"
+      ],
+      [
+        "Vacation Leave",
+        "അവധി / ലീവ്",
+        "Annual Trip Home",
+        "നാട്ടിലേക്ക് വരുന്ന സന്തോഷ സമയം"
+      ],
+      [
+        "Dubai Gold Souk",
+        "ദുബായ് ഗോൾഡ് സൂക്ക്",
+        "Jewellery Market Lane",
+        "ആഭരണ വിപണി"
+      ],
+      [
+        "Khubus",
+        "കുബ്ബൂസ്",
+        "Round Arabian Bread",
+        "വട്ടത്തിലുള്ള അറേബ്യൻ റൊട്ടി"
+      ],
+      [
+        "Kafala",
+        "കഫാല",
+        "Sponsorship Regulations",
+        "സ്പോൺസർഷിപ്പ് നിയമം"
+      ],
+      [
+        "Perfume Attar",
+        "അത്തർ",
+        "Concentrated Fragrance Oil",
+        "സുഗന്ധദ്രവ്യം"
+      ],
+      [
+        "Qatar Airways",
+        "ഖത്തർ എയർവേയ്സ്",
+        "Gulf Connection Carrier",
+        "പ്രവാസികളുടെ വിമാനയാത്ര"
+      ],
+      [
+        "Shawarma Machine",
+        "ഷവർമ്മ മെഷീൻ",
+        "Rotating Grill Skewer",
+        "ഇറച്ചി കറങ്ങി വേവുന്നത്"
+      ],
+      [
+        "Oud Incense",
+        "ഊദ്",
+        "Aromatic Wood Smoke",
+        "സുഗന്ധമുള്ള പുക"
+      ],
+      [
+        "Lablabi / Hummus",
+        "ഹുമുസ്",
+        "Chickpea Dip Paste",
+        "അറേബ്യൻ ഭക്ഷണം കഴിക്കുമ്പോൾ കൂട്ടുന്നത്"
+      ],
+      [
+        "Dirham Currency",
+        "ദിർഹം",
+        "Expatriate Salary Note",
+        "ഗൾഫിലെ കറൻസി"
+      ],
+      [
+        "Emirates ID",
+        "എമിറേറ്റ്സ് ഐഡി",
+        "Residence Identity Card",
+        "ഗൾഫിലെ തിരിച്ചറിയൽ രേഖ"
+      ]
+    ]
+  },
+  "intl_superheroes": {
+    "name": "Superheroes",
+    "words": [
+      [
+        "Spider-Man",
+        "",
+        "Batman",
+        ""
+      ],
+      [
+        "Iron Man",
+        "",
+        "Thor",
+        ""
+      ],
+      [
+        "Captain America",
+        "",
+        "Hulk",
+        ""
+      ],
+      [
+        "Wonder Woman",
+        "",
+        "Black Widow",
+        ""
+      ],
+      [
+        "Superman",
+        "",
+        "Flash",
+        ""
+      ],
+      [
+        "Doctor Strange",
+        "",
+        "Scarlet Witch",
+        ""
+      ],
+      [
+        "Black Panther",
+        "",
+        "Hawkeye",
+        ""
+      ],
+      [
+        "Aquaman",
+        "",
+        "Green Arrow",
+        ""
+      ],
+      [
+        "Wolverine",
+        "",
+        "Cyclops",
+        ""
+      ],
+      [
+        "Deadpool",
+        "",
+        "Daredevil",
+        ""
+      ],
+      [
+        "Ant-Man",
+        "",
+        "Wasp",
+        ""
+      ],
+      [
+        "Shazam",
+        "",
+        "Green Lantern",
+        ""
+      ],
+      [
+        "Falcon",
+        "",
+        "War Machine",
+        ""
+      ],
+      [
+        "Groot",
+        "",
+        "Rocket Raccoon",
+        ""
+      ],
+      [
+        "Vision",
+        "",
+        "Wanda",
+        ""
+      ],
+      [
+        "Green Arrow",
+        "",
+        "Flash",
+        ""
+      ],
+      [
+        "Robin",
+        "",
+        "Nightwing",
+        ""
+      ],
+      [
+        "Supergirl",
+        "",
+        "Batgirl",
+        ""
+      ],
+      [
+        "Aquaman",
+        "",
+        "Cyborg",
+        ""
+      ],
+      [
+        "Star-Lord",
+        "",
+        "Drax",
+        ""
+      ]
+    ]
+  },
+  "intl_villains": {
+    "name": "Famous Villains",
+    "words": [
+      [
+        "Joker",
+        "",
+        "Thanos",
+        ""
+      ],
+      [
+        "Darth Vader",
+        "",
+        "Voldemort",
+        ""
+      ],
+      [
+        "Loki",
+        "",
+        "Magneto",
+        ""
+      ],
+      [
+        "Lex Luthor",
+        "",
+        "Green Goblin",
+        ""
+      ],
+      [
+        "Hannibal Lecter",
+        "",
+        "Norman Bates",
+        ""
+      ],
+      [
+        "Doctor Doom",
+        "",
+        "Red Skull",
+        ""
+      ],
+      [
+        "Ultron",
+        "",
+        "Galactus",
+        ""
+      ],
+      [
+        "Jafar",
+        "",
+        "Maleficent",
+        ""
+      ],
+      [
+        "Scar",
+        "",
+        "Ursula",
+        ""
+      ],
+      [
+        "Hans",
+        "",
+        "Gaston",
+        ""
+      ],
+      [
+        "Bane",
+        "",
+        "Scarecrow",
+        ""
+      ],
+      [
+        "Venom",
+        "",
+        "Carnage",
+        ""
+      ],
+      [
+        "Kingpin",
+        "",
+        "Vulture",
+        ""
+      ],
+      [
+        "Sauron",
+        "",
+        "Saruman",
+        ""
+      ],
+      [
+        "Palpatine",
+        "",
+        "General Grievous",
+        ""
+      ],
+      [
+        "Pennywise",
+        "",
+        "Freddy Krueger",
+        ""
+      ],
+      [
+        "Jason Voorhees",
+        "",
+        "Michael Myers",
+        ""
+      ],
+      [
+        "Agent Smith",
+        "",
+        "T-1000",
+        ""
+      ],
+      [
+        "Boba Fett",
+        "",
+        "Jango Fett",
+        ""
+      ],
+      [
+        "Darth Maul",
+        "",
+        "Count Dooku",
+        ""
+      ]
+    ]
+  },
+  "intl_movie_chars": {
+    "name": "Movie Characters",
+    "words": [
+      [
+        "James Bond",
+        "",
+        "Ethan Hunt",
+        ""
+      ],
+      [
+        "Indiana Jones",
+        "",
+        "Lara Croft",
+        ""
+      ],
+      [
+        "Jack Sparrow",
+        "",
+        "Barbossa",
+        ""
+      ],
+      [
+        "Forrest Gump",
+        "",
+        "Sheldon Cooper",
+        ""
+      ],
+      [
+        "Walter White",
+        "",
+        "Tony Soprano",
+        ""
+      ],
+      [
+        "Don Corleone",
+        "",
+        "Tony Montana",
+        ""
+      ],
+      [
+        "Sherlock Holmes",
+        "",
+        "Hercule Poirot",
+        ""
+      ],
+      [
+        "Hannibal Lecter",
+        "",
+        "Dexter Morgan",
+        ""
+      ],
+      [
+        "Neo",
+        "",
+        "John Wick",
+        ""
+      ],
+      [
+        "Maximus",
+        "",
+        "Leonidas",
+        ""
+      ],
+      [
+        "Jack Dawson",
+        "",
+        "Jay Gatsby",
+        ""
+      ],
+      [
+        "Edward Scissorhands",
+        "",
+        "Beetlejuice",
+        ""
+      ],
+      [
+        "Harry Callahan",
+        "",
+        "John McClane",
+        ""
+      ],
+      [
+        "Rocky Balboa",
+        "",
+        "Raging Bull",
+        ""
+      ],
+      [
+        "Tyler Durden",
+        "",
+        "Patrick Bateman",
+        ""
+      ],
+      [
+        "Marty McFly",
+        "",
+        "Doc Brown",
+        ""
+      ],
+      [
+        "Harry Potter",
+        "",
+        "Luke Skywalker",
+        ""
+      ],
+      [
+        "Frodo Baggins",
+        "",
+        "Samwise Gamgee",
+        ""
+      ],
+      [
+        "Aragorn",
+        "",
+        "Legolas",
+        ""
+      ],
+      [
+        "Han Solo",
+        "",
+        "Chewbacca",
+        ""
+      ]
+    ]
+  },
+  "intl_tv_chars": {
+    "name": "TV Characters",
+    "words": [
+      [
+        "Ross Geller",
+        "",
+        "Chandler Bing",
+        ""
+      ],
+      [
+        "Michael Scott",
+        "",
+        "David Brent",
+        ""
+      ],
+      [
+        "Walter White",
+        "",
+        "Jesse Pinkman",
+        ""
+      ],
+      [
+        "Jon Snow",
+        "",
+        "Daenerys",
+        ""
+      ],
+      [
+        "Sheldon Cooper",
+        "",
+        "Leonard Hofstadter",
+        ""
+      ],
+      [
+        "Ted Mosby",
+        "",
+        "Barney Stinson",
+        ""
+      ],
+      [
+        "Homer Simpson",
+        "",
+        "Peter Griffin",
+        ""
+      ],
+      [
+        "Sherlock Holmes",
+        "",
+        "Dr. Watson",
+        ""
+      ],
+      [
+        "Tony Stark",
+        "",
+        "Steve Rogers",
+        ""
+      ],
+      [
+        "Dwight Schrute",
+        "",
+        "Jim Halpert",
+        ""
+      ],
+      [
+        "Dexter Morgan",
+        "",
+        "Jack Bauer",
+        ""
+      ],
+      [
+        "Don Draper",
+        "",
+        "Tony Soprano",
+        ""
+      ],
+      [
+        "Cersei Lannister",
+        "",
+        "Sansa Stark",
+        ""
+      ],
+      [
+        "Tyrion Lannister",
+        "",
+        "Jaime Lannister",
+        ""
+      ],
+      [
+        "Rachel Green",
+        "",
+        "Monica Geller",
+        ""
+      ],
+      [
+        "Joey Tribbiani",
+        "",
+        "Phoebe Buffay",
+        ""
+      ],
+      [
+        "Jim Halpert",
+        "",
+        "Pam Beesly",
+        ""
+      ],
+      [
+        "Michael Bluth",
+        "",
+        "Gob Bluth",
+        ""
+      ],
+      [
+        "George Costanza",
+        "",
+        "Cosmo Kramer",
+        ""
+      ],
+      [
+        "Homer Simpson",
+        "",
+        "Bart Simpson",
+        ""
+      ]
+    ]
+  }
+}

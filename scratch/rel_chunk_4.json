@@ -1,0 +1,1312 @@
+[
+  {
+    "id": "sports",
+    "name": "Sports",
+    "icon": "?",
+    "words": [
+      {
+        "civWord": "Football",
+        "civWordMal": "\u0d2b\u0d41\u0d1f\u0d4d\u0d2c\u0d4b\u0d7e",
+        "imposters": [
+          {
+            "word": "Rugby",
+            "wordMal": "\u0d31\u0d17\u0d4d\u0d2c\u0d3f",
+            "relationEN": "Both are team field sports, but rugby allows handling.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2b\u0d40\u0d7d\u0d21\u0d4d \u0d17\u0d46\u0d2f\u0d3f\u0d2e\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d, \u0d31\u0d17\u0d4d\u0d2c\u0d3f\u0d2f\u0d3f\u0d7d \u0d2a\u0d28\u0d4d\u0d24\u0d4d \u0d15\u0d2f\u0d4d\u0d2f\u0d3f\u0d32\u0d46\u0d1f\u0d41\u0d15\u0d4d\u0d15\u0d3e\u0d02."
+          },
+          {
+            "word": "Futsal",
+            "wordMal": "\u0d2b\u0d41\u0d1f\u0d4d\u0d38\u0d3e\u0d7d",
+            "relationEN": "Futsal is the indoor, smaller court version of football.",
+            "relationML": "\u0d2b\u0d41\u0d1f\u0d4d\u0d2c\u0d4b\u0d33\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d07\u0d7b\u0d21\u0d4b\u0d7c \u0d2a\u0d24\u0d3f\u0d2a\u0d4d\u0d2a\u0d3e\u0d23\u0d4d \u0d2b\u0d41\u0d1f\u0d4d\u0d38\u0d3e\u0d7d."
+          }
+        ]
+      },
+      {
+        "civWord": "Cricket",
+        "civWordMal": "\u0d15\u0d4d\u0d30\u0d3f\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d",
+        "imposters": [
+          {
+            "word": "Baseball",
+            "wordMal": "\u0d2c\u0d47\u0d38\u0d4d\u0d2c\u0d4b\u0d7e",
+            "relationEN": "Both are bat-and-ball sports with bases/wickets.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2c\u0d3e\u0d31\u0d4d\u0d31\u0d41\u0d02 \u0d2a\u0d28\u0d4d\u0d24\u0d41\u0d02 \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d15\u0d33\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Tennis",
+            "wordMal": "\u0d1f\u0d46\u0d28\u0d4d\u0d28\u0d40\u0d38\u0d4d",
+            "relationEN": "Both involve striking a ball, though tennis uses a racket.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d3f\u0d32\u0d41\u0d02 \u0d2a\u0d28\u0d4d\u0d24\u0d4d \u0d05\u0d1f\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d3e\u0d23\u0d4d \u0d2a\u0d4d\u0d30\u0d27\u0d3e\u0d28\u0d02."
+          }
+        ]
+      },
+      {
+        "civWord": "Kabaddi",
+        "civWordMal": "\u0d15\u0d2c\u0d21\u0d3f",
+        "imposters": [
+          {
+            "word": "Wrestling",
+            "wordMal": "\u0d17\u0d41\u0d38\u0d4d\u0d24\u0d3f",
+            "relationEN": "Both involve grappling and physical restraint.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d3f\u0d32\u0d41\u0d02 \u0d36\u0d3e\u0d30\u0d40\u0d30\u0d3f\u0d15\u0d2e\u0d3e\u0d2f \u0d2a\u0d3f\u0d1f\u0d41\u0d24\u0d4d\u0d24\u0d35\u0d41\u0d02 \u0d36\u0d15\u0d4d\u0d24\u0d3f\u0d2f\u0d41\u0d02 \u0d06\u0d35\u0d36\u0d4d\u0d2f\u0d2e\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Kho Kho",
+            "wordMal": "\u0d16\u0d4b \u0d16\u0d4b",
+            "relationEN": "Both are traditional Indian tag sports.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d07\u0d28\u0d4d\u0d24\u0d4d\u0d2f\u0d2f\u0d3f\u0d32\u0d46 \u0d2a\u0d30\u0d2e\u0d4d\u0d2a\u0d30\u0d3e\u0d17\u0d24 \u0d1f\u0d3e\u0d17\u0d4d \u0d17\u0d46\u0d2f\u0d3f\u0d2e\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Volleyball",
+        "civWordMal": "\u0d35\u0d4b\u0d33\u0d3f\u0d2c\u0d4b\u0d7e",
+        "imposters": [
+          {
+            "word": "Basketball",
+            "wordMal": "\u0d2c\u0d3e\u0d38\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d\u0d2c\u0d4b\u0d7e",
+            "relationEN": "Both are court games played with hands and a large ball.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d32\u0d3f\u0d2f \u0d2a\u0d28\u0d4d\u0d24\u0d4d \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d1a\u0d4d\u0d1a\u0d4d \u0d15\u0d48\u0d15\u0d4a\u0d23\u0d4d\u0d1f\u0d4d \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d17\u0d46\u0d2f\u0d3f\u0d2e\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Throwball",
+            "wordMal": "\u0d24\u0d4d\u0d30\u0d4b\u0d2c\u0d4b\u0d7e",
+            "relationEN": "Very similar net games, but throwball involves catching.",
+            "relationML": "\u0d28\u0d46\u0d31\u0d4d\u0d31\u0d4d \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d1a\u0d4d\u0d1a\u0d41\u0d33\u0d4d\u0d33 \u0d15\u0d33\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d, \u0d24\u0d4d\u0d30\u0d4b\u0d2c\u0d4b\u0d33\u0d3f\u0d7d \u0d2a\u0d28\u0d4d\u0d24\u0d4d \u0d2a\u0d3f\u0d1f\u0d3f\u0d15\u0d4d\u0d15\u0d3e\u0d02."
+          }
+        ]
+      },
+      {
+        "civWord": "Vallamkali",
+        "civWordMal": "\u0d35\u0d33\u0d4d\u0d33\u0d02\u0d15\u0d33\u0d3f",
+        "imposters": [
+          {
+            "word": "Rowing",
+            "wordMal": "\u0d31\u0d4b\u0d35\u0d3f\u0d19\u0d4d",
+            "relationEN": "Both are boat racing sports.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d46\u0d33\u0d4d\u0d33\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d41\u0d33\u0d4d\u0d33 \u0d35\u0d33\u0d4d\u0d33\u0d02 \u0d24\u0d41\u0d34\u0d2f\u0d7d \u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Dragon Boat",
+            "wordMal": "\u0d21\u0d4d\u0d30\u0d3e\u0d17\u0d7a \u0d2c\u0d4b\u0d1f\u0d4d\u0d1f\u0d4d",
+            "relationEN": "Both are traditional team boat races.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2a\u0d30\u0d2e\u0d4d\u0d2a\u0d30\u0d3e\u0d17\u0d24 \u0d35\u0d33\u0d4d\u0d33\u0d02\u0d15\u0d33\u0d3f \u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Tug of War",
+        "civWordMal": "\u0d35\u0d1f\u0d02\u0d35\u0d32\u0d3f",
+        "imposters": [
+          {
+            "word": "Arm Wrestling",
+            "wordMal": "\u0d2a\u0d1e\u0d4d\u0d1a\u0d17\u0d41\u0d38\u0d4d\u0d24\u0d3f",
+            "relationEN": "Both are pure strength-based pulling/pushing contests.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d36\u0d15\u0d4d\u0d24\u0d3f \u0d2a\u0d30\u0d40\u0d15\u0d4d\u0d37\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Weightlifting",
+            "wordMal": "\u0d2d\u0d3e\u0d30\u0d4b\u0d26\u0d4d\u0d35\u0d39\u0d28\u0d02",
+            "relationEN": "Both require immense physical strength and grip.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d3f\u0d32\u0d41\u0d02 \u0d35\u0d32\u0d3f\u0d2f \u0d36\u0d3e\u0d30\u0d40\u0d30\u0d3f\u0d15 \u0d36\u0d15\u0d4d\u0d24\u0d3f \u0d06\u0d35\u0d36\u0d4d\u0d2f\u0d2e\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Sevens Football",
+        "civWordMal": "\u0d38\u0d46\u0d35\u0d7b\u0d38\u0d4d \u0d2b\u0d41\u0d1f\u0d4d\u0d2c\u0d4b\u0d7e",
+        "imposters": [
+          {
+            "word": "Futsal",
+            "wordMal": "\u0d2b\u0d41\u0d1f\u0d4d\u0d38\u0d3e\u0d7d",
+            "relationEN": "Both are smaller-format football variations.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2b\u0d41\u0d1f\u0d4d\u0d2c\u0d4b\u0d33\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d1a\u0d46\u0d31\u0d3f\u0d2f \u0d30\u0d42\u0d2a\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Beach Soccer",
+            "wordMal": "\u0d2c\u0d40\u0d1a\u0d4d\u0d1a\u0d4d \u0d38\u0d4b\u0d15\u0d4d\u0d15\u0d7c",
+            "relationEN": "Both are informal, smaller-pitch football games.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d1a\u0d46\u0d31\u0d3f\u0d2f \u0d2e\u0d48\u0d24\u0d3e\u0d28\u0d24\u0d4d\u0d24\u0d4d \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d2b\u0d41\u0d1f\u0d4d\u0d2c\u0d4b\u0d7e \u0d06\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Kho Kho",
+        "civWordMal": "\u0d16\u0d4b \u0d16\u0d4b",
+        "imposters": [
+          {
+            "word": "Kabaddi",
+            "wordMal": "\u0d15\u0d2c\u0d21\u0d3f",
+            "relationEN": "Both are traditional Indian team tag games.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d07\u0d28\u0d4d\u0d24\u0d4d\u0d2f\u0d7b \u0d2a\u0d30\u0d2e\u0d4d\u0d2a\u0d30\u0d3e\u0d17\u0d24 \u0d1f\u0d3e\u0d17\u0d4d \u0d17\u0d46\u0d2f\u0d3f\u0d2e\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Hide and Seek",
+            "wordMal": "\u0d12\u0d33\u0d3f\u0d1a\u0d4d\u0d1a\u0d41\u0d15\u0d33\u0d3f",
+            "relationEN": "Both involve chasing and evading players.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d13\u0d1f\u0d3f\u0d2f\u0d41\u0d02 \u0d12\u0d33\u0d3f\u0d1a\u0d4d\u0d1a\u0d41\u0d02 \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d17\u0d46\u0d2f\u0d3f\u0d2e\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Badminton",
+        "civWordMal": "\u0d2c\u0d3e\u0d21\u0d4d\u0d2e\u0d3f\u0d28\u0d4d\u0d31\u0d7a",
+        "imposters": [
+          {
+            "word": "Tennis",
+            "wordMal": "\u0d1f\u0d46\u0d28\u0d4d\u0d28\u0d40\u0d38\u0d4d",
+            "relationEN": "Both are racket sports played over a net.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d28\u0d46\u0d31\u0d4d\u0d31\u0d3f\u0d28\u0d41 \u0d2e\u0d41\u0d15\u0d33\u0d3f\u0d32\u0d42\u0d1f\u0d46 \u0d31\u0d3e\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d1a\u0d4d\u0d1a\u0d41 \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Squash",
+            "wordMal": "\u0d38\u0d4d\u0d15\u0d4d\u0d35\u0d3e\u0d37\u0d4d",
+            "relationEN": "Both are fast-paced racket sports.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d47\u0d17\u0d24\u0d2f\u0d41\u0d33\u0d4d\u0d33 \u0d31\u0d3e\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d \u0d15\u0d33\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Swimming",
+        "civWordMal": "\u0d28\u0d40\u0d28\u0d4d\u0d24\u0d7d",
+        "imposters": [
+          {
+            "word": "Water Polo",
+            "wordMal": "\u0d35\u0d3e\u0d1f\u0d4d\u0d1f\u0d7c \u0d2a\u0d4b\u0d33\u0d4b",
+            "relationEN": "Both take place entirely in a swimming pool.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d28\u0d40\u0d28\u0d4d\u0d24\u0d7d\u0d15\u0d4d\u0d15\u0d41\u0d33\u0d24\u0d4d\u0d24\u0d3f\u0d7d \u0d28\u0d1f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d15\u0d3e\u0d2f\u0d3f\u0d15 \u0d35\u0d3f\u0d28\u0d4b\u0d26\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Diving",
+            "wordMal": "\u0d21\u0d48\u0d35\u0d3f\u0d19\u0d4d",
+            "relationEN": "Both are aquatic Olympic sports.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d46\u0d33\u0d4d\u0d33\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d46 \u0d12\u0d33\u0d3f\u0d2e\u0d4d\u0d2a\u0d3f\u0d15\u0d4d \u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Athletics",
+        "civWordMal": "\u0d05\u0d24\u0d4d\u200c\u0d32\u0d31\u0d4d\u0d31\u0d3f\u0d15\u0d4d\u0d38\u0d4d",
+        "imposters": [
+          {
+            "word": "Gymnastics",
+            "wordMal": "\u0d1c\u0d3f\u0d02\u0d28\u0d3e\u0d38\u0d4d\u0d31\u0d4d\u0d31\u0d3f\u0d15\u0d4d\u0d38\u0d4d",
+            "relationEN": "Both involve individual physical feats and flexibility.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d36\u0d3e\u0d30\u0d40\u0d30\u0d3f\u0d15 \u0d35\u0d34\u0d15\u0d4d\u0d15\u0d35\u0d41\u0d02 \u0d15\u0d34\u0d3f\u0d35\u0d41\u0d02 \u0d35\u0d47\u0d23\u0d4d\u0d1f \u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Triathlon",
+            "wordMal": "\u0d1f\u0d4d\u0d30\u0d2f\u0d3e\u0d24\u0d4d\u0d24\u0d4d\u0d32\u0d7a",
+            "relationEN": "Both are grueling physical endurance events.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d32\u0d3f\u0d2f \u0d36\u0d3e\u0d30\u0d40\u0d30\u0d3f\u0d15 \u0d15\u0d4d\u0d37\u0d2e\u0d24 \u0d35\u0d47\u0d23\u0d4d\u0d1f\u0d35\u0d2f\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Javelin",
+        "civWordMal": "\u0d1c\u0d3e\u0d35\u0d32\u0d3f\u0d7b",
+        "imposters": [
+          {
+            "word": "Shot Put",
+            "wordMal": "\u0d37\u0d4b\u0d1f\u0d4d\u0d1f\u0d4d \u0d2a\u0d41\u0d1f\u0d4d\u0d1f\u0d4d",
+            "relationEN": "Both are track and field throwing events.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d0e\u0d31\u0d3f\u0d2f\u0d41\u0d28\u0d4d\u0d28 \u0d05\u0d24\u0d4d\u200c\u0d32\u0d31\u0d4d\u0d31\u0d3f\u0d15\u0d4d \u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Discus Throw",
+            "wordMal": "\u0d21\u0d3f\u0d38\u0d4d\u0d15\u0d38\u0d4d \u0d24\u0d4d\u0d30\u0d4b",
+            "relationEN": "Both involve throwing objects for maximum distance.",
+            "relationML": "\u0d26\u0d42\u0d30\u0d24\u0d4d\u0d24\u0d47\u0d15\u0d4d\u0d15\u0d4d \u0d35\u0d38\u0d4d\u0d24\u0d41\u0d15\u0d4d\u0d15\u0d7e \u0d0e\u0d31\u0d3f\u0d2f\u0d41\u0d28\u0d4d\u0d28 \u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Relay",
+        "civWordMal": "\u0d31\u0d3f\u0d32\u0d47",
+        "imposters": [
+          {
+            "word": "Sprint",
+            "wordMal": "\u0d38\u0d4d\u0d2a\u0d4d\u0d30\u0d3f\u0d28\u0d4d\u0d31\u0d4d",
+            "relationEN": "Both are fast-paced track running events.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d47\u0d17\u0d24\u0d2f\u0d47\u0d31\u0d3f\u0d2f \u0d13\u0d1f\u0d4d\u0d1f\u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Marathon",
+            "wordMal": "\u0d2e\u0d3e\u0d30\u0d24\u0d4d\u0d24\u0d7a",
+            "relationEN": "Both are running events, though opposite in distance.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d13\u0d1f\u0d4d\u0d1f\u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Boat Race",
+        "civWordMal": "\u0d35\u0d33\u0d4d\u0d33\u0d02\u0d15\u0d33\u0d3f",
+        "imposters": [
+          {
+            "word": "Sailing",
+            "wordMal": "\u0d38\u0d46\u0d2f\u0d3f\u0d32\u0d3f\u0d02\u0d17\u0d4d",
+            "relationEN": "Both involve racing watercrafts.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d46\u0d33\u0d4d\u0d33\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d41\u0d33\u0d4d\u0d33 \u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Canoeing",
+            "wordMal": "\u0d15\u0d28\u0d4b\u0d2f\u0d3f\u0d19\u0d4d",
+            "relationEN": "Both involve paddling narrow boats.",
+            "relationML": "\u0d24\u0d41\u0d34 \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d1a\u0d4d\u0d1a\u0d41\u0d33\u0d4d\u0d33 \u0d35\u0d33\u0d4d\u0d33\u0d02\u0d15\u0d33\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Carrom",
+        "civWordMal": "\u0d15\u0d3e\u0d30\u0d02\u0d38\u0d4d",
+        "imposters": [
+          {
+            "word": "Billiards",
+            "wordMal": "\u0d2c\u0d3f\u0d32\u0d4d\u0d2f\u0d3e\u0d7c\u0d21\u0d4d\u0d38\u0d4d",
+            "relationEN": "Both involve striking pieces into pockets on a board/table.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d41\u0d34\u0d3f\u0d15\u0d33\u0d3f\u0d32\u0d47\u0d15\u0d4d\u0d15\u0d4d \u0d15\u0d30\u0d41\u0d15\u0d4d\u0d15\u0d7e \u0d05\u0d1f\u0d3f\u0d1a\u0d4d\u0d1a\u0d3f\u0d1f\u0d41\u0d28\u0d4d\u0d28 \u0d15\u0d33\u0d3f\u0d2f\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Chess",
+            "wordMal": "\u0d1a\u0d46\u0d38\u0d4d\u0d38\u0d4d",
+            "relationEN": "Both are classic indoor board games.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d40\u0d1f\u0d3f\u0d28\u0d41\u0d33\u0d4d\u0d33\u0d3f\u0d7d \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d2c\u0d4b\u0d7c\u0d21\u0d4d \u0d17\u0d46\u0d2f\u0d3f\u0d2e\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Chess",
+        "civWordMal": "\u0d1a\u0d46\u0d38\u0d4d\u0d38\u0d4d",
+        "imposters": [
+          {
+            "word": "Checkers",
+            "wordMal": "\u0d1a\u0d46\u0d15\u0d4d\u0d15\u0d47\u0d34\u0d4d\u0d38\u0d4d",
+            "relationEN": "Both are strategic board games played on an 8x8 grid.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d12\u0d30\u0d47 \u0d2c\u0d4b\u0d7c\u0d21\u0d3f\u0d7d \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d24\u0d28\u0d4d\u0d24\u0d4d\u0d30\u0d2a\u0d4d\u0d30\u0d27\u0d3e\u0d28\u0d2e\u0d3e\u0d2f \u0d17\u0d46\u0d2f\u0d3f\u0d2e\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Ludo",
+            "wordMal": "\u0d32\u0d42\u0d21\u0d4b",
+            "relationEN": "Both are popular tabletop games moving pieces.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d30\u0d41\u0d15\u0d4d\u0d15\u0d7e \u0d28\u0d40\u0d15\u0d4d\u0d15\u0d3f \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d2c\u0d4b\u0d7c\u0d21\u0d4d \u0d17\u0d46\u0d2f\u0d3f\u0d2e\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Kalari",
+        "civWordMal": "\u0d15\u0d33\u0d30\u0d3f",
+        "imposters": [
+          {
+            "word": "Karate",
+            "wordMal": "\u0d15\u0d30\u0d3e\u0d1f\u0d4d\u0d1f\u0d46",
+            "relationEN": "Both are traditional martial arts systems.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d06\u0d2f\u0d4b\u0d27\u0d28 \u0d15\u0d32\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Kung Fu",
+            "wordMal": "\u0d15\u0d41\u0d19\u0d4d \u0d2b\u0d41",
+            "relationEN": "Both are ancient combat fighting styles.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2a\u0d41\u0d30\u0d3e\u0d24\u0d28\u0d2e\u0d3e\u0d2f \u0d2a\u0d4b\u0d30\u0d3e\u0d1f\u0d4d\u0d1f \u0d30\u0d40\u0d24\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Long Jump",
+        "civWordMal": "\u0d32\u0d4b\u0d02\u0d17\u0d4d \u0d1c\u0d2e\u0d4d\u0d2a\u0d4d",
+        "imposters": [
+          {
+            "word": "Triple Jump",
+            "wordMal": "\u0d1f\u0d4d\u0d30\u0d3f\u0d2a\u0d4d\u0d2a\u0d3f\u0d7e \u0d1c\u0d2e\u0d4d\u0d2a\u0d4d",
+            "relationEN": "Both are horizontal jumping track events.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d26\u0d42\u0d30\u0d24\u0d4d\u0d24\u0d47\u0d15\u0d4d\u0d15\u0d4d \u0d1a\u0d3e\u0d1f\u0d41\u0d28\u0d4d\u0d28 \u0d05\u0d24\u0d4d\u200c\u0d32\u0d31\u0d4d\u0d31\u0d3f\u0d15\u0d4d \u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "High Jump",
+            "wordMal": "\u0d39\u0d48 \u0d1c\u0d2e\u0d4d\u0d2a\u0d4d",
+            "relationEN": "Both are primary jumping events in athletics.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d1a\u0d3e\u0d1f\u0d4d\u0d1f\u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "High Jump",
+        "civWordMal": "\u0d39\u0d48 \u0d1c\u0d2e\u0d4d\u0d2a\u0d4d",
+        "imposters": [
+          {
+            "word": "Pole Vault",
+            "wordMal": "\u0d2a\u0d4b\u0d7e \u0d35\u0d3e\u0d7e\u0d1f\u0d4d\u0d1f\u0d4d",
+            "relationEN": "Both involve clearing a high horizontal bar.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d09\u0d2f\u0d30\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d41\u0d33\u0d4d\u0d33 \u0d2c\u0d3e\u0d31\u0d3f\u0d28\u0d4d \u0d2e\u0d41\u0d15\u0d33\u0d3f\u0d32\u0d42\u0d1f\u0d46\u0d2f\u0d41\u0d33\u0d4d\u0d33 \u0d1a\u0d3e\u0d1f\u0d4d\u0d1f\u0d2e\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Hurdles",
+            "wordMal": "\u0d39\u0d7c\u0d21\u0d3f\u0d7d\u0d38\u0d4d",
+            "relationEN": "Both involve jumping over obstacles.",
+            "relationML": "\u0d24\u0d1f\u0d38\u0d4d\u0d38\u0d19\u0d4d\u0d19\u0d7e\u0d15\u0d4d\u0d15\u0d4d \u0d2e\u0d41\u0d15\u0d33\u0d3f\u0d32\u0d42\u0d1f\u0d46 \u0d1a\u0d3e\u0d1f\u0d41\u0d28\u0d4d\u0d28 \u0d15\u0d33\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Throwball",
+        "civWordMal": "\u0d24\u0d4d\u0d30\u0d4b\u0d2c\u0d4b\u0d7e",
+        "imposters": [
+          {
+            "word": "Volleyball",
+            "wordMal": "\u0d35\u0d4b\u0d33\u0d3f\u0d2c\u0d4b\u0d7e",
+            "relationEN": "Both are played over a net with similar courts.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d28\u0d46\u0d31\u0d4d\u0d31\u0d4d \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d1a\u0d4d\u0d1a\u0d41\u0d33\u0d4d\u0d33 \u0d15\u0d4b\u0d7c\u0d1f\u0d4d\u0d1f\u0d4d \u0d17\u0d46\u0d2f\u0d3f\u0d2e\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Dodgeball",
+            "wordMal": "\u0d21\u0d4b\u0d21\u0d4d\u0d1c\u0d4d\u0d2c\u0d4b\u0d7e",
+            "relationEN": "Both involve throwing a ball directly at or over opponents.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d3f\u0d32\u0d41\u0d02 \u0d2a\u0d28\u0d4d\u0d24\u0d4d \u0d0e\u0d31\u0d3f\u0d2f\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d3e\u0d23\u0d4d \u0d2a\u0d4d\u0d30\u0d27\u0d3e\u0d28\u0d02."
+          }
+        ]
+      },
+      {
+        "civWord": "Table Tennis",
+        "civWordMal": "\u0d1f\u0d47\u0d2c\u0d3f\u0d7e \u0d1f\u0d46\u0d28\u0d4d\u0d28\u0d40\u0d38\u0d4d",
+        "imposters": [
+          {
+            "word": "Tennis",
+            "wordMal": "\u0d1f\u0d46\u0d28\u0d4d\u0d28\u0d40\u0d38\u0d4d",
+            "relationEN": "Table tennis is the miniature indoor version of tennis.",
+            "relationML": "\u0d1f\u0d46\u0d28\u0d4d\u0d28\u0d40\u0d38\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d1a\u0d46\u0d31\u0d3f\u0d2f \u0d30\u0d42\u0d2a\u0d2e\u0d3e\u0d23\u0d4d \u0d1f\u0d47\u0d2c\u0d3f\u0d7e \u0d1f\u0d46\u0d28\u0d4d\u0d28\u0d40\u0d38\u0d4d."
+          },
+          {
+            "word": "Badminton",
+            "wordMal": "\u0d2c\u0d3e\u0d21\u0d4d\u0d2e\u0d3f\u0d28\u0d4d\u0d31\u0d7a",
+            "relationEN": "Both are light-weight racket games played indoors.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d31\u0d3e\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d1a\u0d4d\u0d1a\u0d41\u0d33\u0d4d\u0d33 \u0d07\u0d7b\u0d21\u0d4b\u0d7c \u0d17\u0d46\u0d2f\u0d3f\u0d2e\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Marathon",
+        "civWordMal": "\u0d2e\u0d3e\u0d30\u0d24\u0d4d\u0d24\u0d7a",
+        "imposters": [
+          {
+            "word": "Sprint",
+            "wordMal": "\u0d38\u0d4d\u0d2a\u0d4d\u0d30\u0d3f\u0d28\u0d4d\u0d31\u0d4d",
+            "relationEN": "Both are running races, one endurance, one speed.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d13\u0d1f\u0d4d\u0d1f\u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Cycling",
+            "wordMal": "\u0d38\u0d48\u0d15\u0d4d\u0d32\u0d3f\u0d19\u0d4d",
+            "relationEN": "Both are long-distance road endurance sports.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d31\u0d4b\u0d21\u0d3f\u0d7d \u0d28\u0d1f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d26\u0d40\u0d7c\u0d18\u0d26\u0d42\u0d30 \u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Penalty Shootout",
+        "civWordMal": "\u0d2a\u0d46\u0d28\u0d3e\u0d7d\u0d31\u0d4d\u0d31\u0d3f \u0d37\u0d42\u0d1f\u0d4d\u0d1f\u0d57\u0d1f\u0d4d\u0d1f\u0d4d",
+        "imposters": [
+          {
+            "word": "Free Kick",
+            "wordMal": "\u0d2b\u0d4d\u0d30\u0d40 \u0d15\u0d3f\u0d15\u0d4d\u0d15\u0d4d",
+            "relationEN": "Both are unopposed kicks in football.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2b\u0d41\u0d1f\u0d4d\u0d2c\u0d4b\u0d33\u0d3f\u0d32\u0d46 \u0d15\u0d3f\u0d15\u0d4d\u0d15\u0d4d \u0d05\u0d35\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Corner Kick",
+            "wordMal": "\u0d15\u0d4b\u0d7c\u0d23\u0d7c \u0d15\u0d3f\u0d15\u0d4d\u0d15\u0d4d",
+            "relationEN": "Both are set-piece scoring opportunities in soccer.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d17\u0d4b\u0d7e \u0d28\u0d47\u0d1f\u0d3e\u0d28\u0d41\u0d33\u0d4d\u0d33 \u0d05\u0d35\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Trophy",
+        "civWordMal": "\u0d1f\u0d4d\u0d30\u0d4b\u0d2b\u0d3f",
+        "imposters": [
+          {
+            "word": "Medal",
+            "wordMal": "\u0d2e\u0d46\u0d21\u0d7d",
+            "relationEN": "Both are awards given to tournament winners.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d3f\u0d1c\u0d2f\u0d3f\u0d15\u0d7e\u0d15\u0d4d\u0d15\u0d4d \u0d32\u0d2d\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d2a\u0d41\u0d30\u0d38\u0d4d\u0d15\u0d3e\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Shield",
+            "wordMal": "\u0d37\u0d40\u0d7d\u0d21\u0d4d",
+            "relationEN": "Both are physical prizes awarded to champions.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d1a\u0d3e\u0d2e\u0d4d\u0d2a\u0d4d\u0d2f\u0d28\u0d4d\u0d2e\u0d3e\u0d7c\u0d15\u0d4d\u0d15\u0d4d \u0d28\u0d7d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d38\u0d2e\u0d4d\u0d2e\u0d3e\u0d28\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Umpire",
+        "civWordMal": "\u0d05\u0d2e\u0d4d\u0d2a\u0d2f\u0d7c",
+        "imposters": [
+          {
+            "word": "Referee",
+            "wordMal": "\u0d31\u0d2b\u0d31\u0d3f",
+            "relationEN": "Both are officials who enforce game rules.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d33\u0d3f\u0d2f\u0d41\u0d1f\u0d46 \u0d28\u0d3f\u0d2f\u0d2e\u0d19\u0d4d\u0d19\u0d7e \u0d28\u0d1f\u0d2a\u0d4d\u0d2a\u0d3e\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d35\u0d30\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Coach",
+            "wordMal": "\u0d15\u0d4b\u0d1a\u0d4d\u0d1a\u0d4d",
+            "relationEN": "Both are non-playing figures crucial to a match.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d33\u0d3f \u0d28\u0d3f\u0d2f\u0d28\u0d4d\u0d24\u0d4d\u0d30\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d2a\u0d4d\u0d30\u0d27\u0d3e\u0d28 \u0d35\u0d4d\u0d2f\u0d15\u0d4d\u0d24\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Gallery",
+        "civWordMal": "\u0d17\u0d3e\u0d32\u0d31\u0d3f",
+        "imposters": [
+          {
+            "word": "Stadium",
+            "wordMal": "\u0d38\u0d4d\u0d31\u0d4d\u0d31\u0d47\u0d21\u0d3f\u0d2f\u0d02",
+            "relationEN": "Gallery is the seating area within the stadium.",
+            "relationML": "\u0d38\u0d4d\u0d31\u0d4d\u0d31\u0d47\u0d21\u0d3f\u0d2f\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d41\u0d33\u0d4d\u0d33\u0d3f\u0d32\u0d46 \u0d07\u0d30\u0d3f\u0d2a\u0d4d\u0d2a\u0d3f\u0d1f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d \u0d17\u0d3e\u0d32\u0d31\u0d3f."
+          },
+          {
+            "word": "Dugout",
+            "wordMal": "\u0d21\u0d17\u0d4d\u0d14\u0d1f\u0d4d\u0d1f\u0d4d",
+            "relationEN": "Both are seating areas for people watching the game.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d33\u0d3f \u0d15\u0d3e\u0d23\u0d3e\u0d7b \u0d07\u0d30\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d38\u0d4d\u0d25\u0d32\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Kuttiyum Kolum",
+        "civWordMal": "\u0d15\u0d41\u0d1f\u0d4d\u0d1f\u0d3f\u0d2f\u0d41\u0d02 \u0d15\u0d4b\u0d32\u0d41\u0d02",
+        "imposters": [
+          {
+            "word": "Cricket",
+            "wordMal": "\u0d15\u0d4d\u0d30\u0d3f\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d",
+            "relationEN": "Both involve striking a flying object with a stick/bat.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d3f\u0d32\u0d41\u0d02 \u0d2c\u0d3e\u0d31\u0d4d\u0d31\u0d4b \u0d15\u0d4b\u0d32\u0d4b \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d1a\u0d4d\u0d1a\u0d4d \u0d05\u0d1f\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Goli",
+            "wordMal": "\u0d17\u0d4b\u0d32\u0d3f",
+            "relationEN": "Both are traditional street games played by children.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d41\u0d1f\u0d4d\u0d1f\u0d3f\u0d15\u0d7e \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d28\u0d3e\u0d1f\u0d7b \u0d15\u0d33\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Kilithattu",
+        "civWordMal": "\u0d15\u0d3f\u0d33\u0d3f\u0d24\u0d4d\u0d24\u0d1f\u0d4d\u0d1f\u0d4d",
+        "imposters": [
+          {
+            "word": "Kabaddi",
+            "wordMal": "\u0d15\u0d2c\u0d21\u0d3f",
+            "relationEN": "Both are traditional court games involving tagging.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d05\u0d24\u0d3f\u0d7c\u0d24\u0d4d\u0d24\u0d3f \u0d15\u0d1f\u0d28\u0d4d\u0d28\u0d41\u0d33\u0d4d\u0d33 \u0d15\u0d33\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Kho Kho",
+            "wordMal": "\u0d16\u0d4b \u0d16\u0d4b",
+            "relationEN": "Both are Indian tag games requiring agility.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d24\u0d4a\u0d1f\u0d4d\u0d1f\u0d41\u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d28\u0d3e\u0d1f\u0d7b \u0d35\u0d3f\u0d28\u0d4b\u0d26\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Talappanthukali",
+        "civWordMal": "\u0d24\u0d32\u0d2a\u0d4d\u0d2a\u0d28\u0d4d\u0d24\u0d41\u0d15\u0d33\u0d3f",
+        "imposters": [
+          {
+            "word": "Volleyball",
+            "wordMal": "\u0d35\u0d4b\u0d33\u0d3f\u0d2c\u0d4b\u0d7e",
+            "relationEN": "Both involve hitting a ball with the hand/head.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d3f\u0d32\u0d41\u0d02 \u0d2a\u0d28\u0d4d\u0d24\u0d4d \u0d05\u0d1f\u0d3f\u0d1a\u0d4d\u0d1a\u0d41 \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Football",
+            "wordMal": "\u0d2b\u0d41\u0d1f\u0d4d\u0d2c\u0d4b\u0d7e",
+            "relationEN": "Both are outdoor ball games.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2e\u0d48\u0d24\u0d3e\u0d28\u0d24\u0d4d\u0d24\u0d4d \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d2a\u0d28\u0d4d\u0d24\u0d4d \u0d15\u0d33\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Nadan Panthu",
+        "civWordMal": "\u0d28\u0d3e\u0d1f\u0d7b \u0d2a\u0d28\u0d4d\u0d24\u0d4d",
+        "imposters": [
+          {
+            "word": "Cricket Ball",
+            "wordMal": "\u0d15\u0d4d\u0d30\u0d3f\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d \u0d2c\u0d4b\u0d7e",
+            "relationEN": "Both are hard leather-stitched balls.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d24\u0d41\u0d15\u0d7d \u0d15\u0d4a\u0d23\u0d4d\u0d1f\u0d41\u0d23\u0d4d\u0d1f\u0d3e\u0d15\u0d4d\u0d15\u0d3f\u0d2f \u0d2a\u0d28\u0d4d\u0d24\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Football",
+            "wordMal": "\u0d2b\u0d41\u0d1f\u0d4d\u0d2c\u0d4b\u0d7e",
+            "relationEN": "Both are balls used in local outdoor games.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d3e\u0d7b \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d2a\u0d28\u0d4d\u0d24\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Goli",
+        "civWordMal": "\u0d17\u0d4b\u0d32\u0d3f",
+        "imposters": [
+          {
+            "word": "Billiards",
+            "wordMal": "\u0d2c\u0d3f\u0d32\u0d4d\u0d2f\u0d3e\u0d7c\u0d21\u0d4d\u0d38\u0d4d",
+            "relationEN": "Both involve hitting spherical objects into targets.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d3f\u0d32\u0d41\u0d02 \u0d17\u0d4b\u0d33\u0d19\u0d4d\u0d19\u0d7e \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d1a\u0d4d\u0d1a\u0d3e\u0d23\u0d4d \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d4d."
+          },
+          {
+            "word": "Spinning Top",
+            "wordMal": "\u0d2a\u0d2e\u0d4d\u0d2a\u0d30\u0d02",
+            "relationEN": "Both are classic childhood street toys.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d41\u0d1f\u0d4d\u0d1f\u0d3f\u0d15\u0d33\u0d41\u0d1f\u0d46 \u0d28\u0d3e\u0d1f\u0d7b \u0d15\u0d33\u0d3f\u0d2a\u0d4d\u0d2a\u0d3e\u0d1f\u0d4d\u0d1f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Lagori",
+        "civWordMal": "\u0d32\u0d17\u0d4b\u0d31\u0d3f",
+        "imposters": [
+          {
+            "word": "Bowling",
+            "wordMal": "\u0d2c\u0d57\u0d33\u0d3f\u0d02\u0d17\u0d4d",
+            "relationEN": "Both involve knocking down a stack/set of targets.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d3f\u0d32\u0d41\u0d02 \u0d35\u0d38\u0d4d\u0d24\u0d41\u0d15\u0d4d\u0d15\u0d33\u0d46 \u0d0e\u0d31\u0d3f\u0d1e\u0d4d\u0d1e\u0d41 \u0d35\u0d40\u0d34\u0d4d\u0d24\u0d4d\u0d24\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Darts",
+            "wordMal": "\u0d21\u0d3e\u0d7c\u0d1f\u0d4d\u0d1f\u0d4d\u0d38\u0d4d",
+            "relationEN": "Both are games of precision targeting.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d43\u0d24\u0d4d\u0d2f\u0d2e\u0d3e\u0d2f\u0d3f \u0d32\u0d15\u0d4d\u0d37\u0d4d\u0d2f\u0d24\u0d4d\u0d24\u0d3f\u0d7d \u0d0e\u0d31\u0d3f\u0d2f\u0d41\u0d28\u0d4d\u0d28 \u0d15\u0d33\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Arm Wrestling",
+        "civWordMal": "\u0d2a\u0d1e\u0d4d\u0d1a\u0d17\u0d41\u0d38\u0d4d\u0d24\u0d3f",
+        "imposters": [
+          {
+            "word": "Wrestling",
+            "wordMal": "\u0d17\u0d41\u0d38\u0d4d\u0d24\u0d3f",
+            "relationEN": "Arm wrestling is a focused subset of full wrestling.",
+            "relationML": "\u0d17\u0d41\u0d38\u0d4d\u0d24\u0d3f\u0d2f\u0d41\u0d1f\u0d46 \u0d12\u0d30\u0d41 \u0d1a\u0d46\u0d31\u0d3f\u0d2f \u0d30\u0d42\u0d2a\u0d2e\u0d3e\u0d23\u0d4d \u0d2a\u0d1e\u0d4d\u0d1a\u0d17\u0d41\u0d38\u0d4d\u0d24\u0d3f."
+          },
+          {
+            "word": "Weightlifting",
+            "wordMal": "\u0d2d\u0d3e\u0d30\u0d4b\u0d26\u0d4d\u0d35\u0d39\u0d28\u0d02",
+            "relationEN": "Both are tests of pure upper body strength.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d3f\u0d32\u0d41\u0d02 \u0d15\u0d48\u0d15\u0d4d\u0d15\u0d30\u0d41\u0d24\u0d4d\u0d24\u0d3e\u0d23\u0d4d \u0d2a\u0d30\u0d40\u0d15\u0d4d\u0d37\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Kabaddi Court",
+        "civWordMal": "\u0d15\u0d2c\u0d21\u0d3f \u0d15\u0d4b\u0d7c\u0d1f\u0d4d\u0d1f\u0d4d",
+        "imposters": [
+          {
+            "word": "Wrestling Ring",
+            "wordMal": "\u0d17\u0d41\u0d38\u0d4d\u0d24\u0d3f \u0d31\u0d3f\u0d02\u0d17\u0d4d",
+            "relationEN": "Both are marked areas for physical combat sports.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d36\u0d3e\u0d30\u0d40\u0d30\u0d3f\u0d15 \u0d2e\u0d24\u0d4d\u0d38\u0d30\u0d19\u0d4d\u0d19\u0d7e\u0d15\u0d4d\u0d15\u0d41\u0d33\u0d4d\u0d33 \u0d35\u0d47\u0d26\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Tennis Court",
+            "wordMal": "\u0d1f\u0d46\u0d28\u0d4d\u0d28\u0d40\u0d38\u0d4d \u0d15\u0d4b\u0d7c\u0d1f\u0d4d\u0d1f\u0d4d",
+            "relationEN": "Both are rectangular marked playing surfaces.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d15\u0d4b\u0d7c\u0d1f\u0d4d\u0d1f\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Shuttle Racket",
+        "civWordMal": "\u0d37\u0d1f\u0d4d\u0d1f\u0d3f\u0d7d \u0d31\u0d3e\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d",
+        "imposters": [
+          {
+            "word": "Tennis Racket",
+            "wordMal": "\u0d1f\u0d46\u0d28\u0d4d\u0d28\u0d40\u0d38\u0d4d \u0d31\u0d3e\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d",
+            "relationEN": "Both are stringed implements for hitting sports.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d33\u0d3f\u0d2f\u0d3f\u0d32\u0d41\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d31\u0d3e\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Cricket Bat",
+            "wordMal": "\u0d15\u0d4d\u0d30\u0d3f\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d \u0d2c\u0d3e\u0d31\u0d4d\u0d31\u0d4d",
+            "relationEN": "Both are handheld striking tools in sports.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d33\u0d3f\u0d2f\u0d3f\u0d7d \u0d05\u0d1f\u0d3f\u0d15\u0d4d\u0d15\u0d3e\u0d7b \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d09\u0d2a\u0d15\u0d30\u0d23\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Foot Volley",
+        "civWordMal": "\u0d2b\u0d42\u0d1f\u0d4d\u0d1f\u0d4d \u0d35\u0d4b\u0d33\u0d3f",
+        "imposters": [
+          {
+            "word": "Volleyball",
+            "wordMal": "\u0d35\u0d4b\u0d33\u0d3f\u0d2c\u0d4b\u0d7e",
+            "relationEN": "Foot volley is volleyball played with the feet.",
+            "relationML": "\u0d15\u0d3e\u0d32\u0d41\u0d15\u0d4a\u0d23\u0d4d\u0d1f\u0d4d \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d35\u0d4b\u0d33\u0d3f\u0d2c\u0d4b\u0d33\u0d3e\u0d23\u0d4d \u0d2b\u0d42\u0d1f\u0d4d\u0d1f\u0d4d \u0d35\u0d4b\u0d33\u0d3f."
+          },
+          {
+            "word": "Sepak Takraw",
+            "wordMal": "\u0d38\u0d46\u0d2a\u0d3e\u0d15\u0d4d \u0d24\u0d15\u0d4d\u0d30\u0d4b",
+            "relationEN": "Both are net sports played by kicking a ball.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d3e\u0d32\u0d41\u0d15\u0d4a\u0d23\u0d4d\u0d1f\u0d4d \u0d28\u0d46\u0d31\u0d4d\u0d31\u0d3f\u0d28\u0d4d \u0d2e\u0d41\u0d15\u0d33\u0d3f\u0d32\u0d42\u0d1f\u0d46 \u0d15\u0d33\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gulf",
+    "name": "Gulf & NRI",
+    "icon": "??",
+    "words": [
+      {
+        "civWord": "Pravasi",
+        "civWordMal": "\u0d2a\u0d4d\u0d30\u0d35\u0d3e\u0d38\u0d3f",
+        "imposters": [
+          {
+            "word": "Tourist",
+            "wordMal": "\u0d35\u0d3f\u0d28\u0d4b\u0d26\u0d38\u0d1e\u0d4d\u0d1a\u0d3e\u0d30\u0d3f",
+            "relationEN": "Both are people who travel to other countries.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d3f\u0d26\u0d47\u0d36\u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d3f\u0d7d \u0d2a\u0d4b\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d35\u0d30\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Refugee",
+            "wordMal": "\u0d05\u0d2d\u0d2f\u0d3e\u0d7c\u0d24\u0d4d\u0d25\u0d3f",
+            "relationEN": "Both leave their home country to live elsewhere.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d38\u0d4d\u0d35\u0d28\u0d4d\u0d24\u0d02 \u0d28\u0d3e\u0d1f\u0d41\u0d35\u0d3f\u0d1f\u0d4d\u0d1f\u0d4d \u0d1c\u0d40\u0d35\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d35\u0d30\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Dubai",
+        "civWordMal": "\u0d26\u0d41\u0d2c\u0d3e\u0d2f\u0d4d",
+        "imposters": [
+          {
+            "word": "Abu Dhabi",
+            "wordMal": "\u0d05\u0d2c\u0d41\u0d26\u0d3e\u0d2c\u0d3f",
+            "relationEN": "Both are major Emirates in the UAE.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2f\u0d41\u0d0e\u0d07\u0d2f\u0d3f\u0d32\u0d46 \u0d2a\u0d4d\u0d30\u0d36\u0d38\u0d4d\u0d24\u0d2e\u0d3e\u0d2f \u0d28\u0d17\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Doha",
+            "wordMal": "\u0d26\u0d4b\u0d39",
+            "relationEN": "Both are wealthy, modern Middle Eastern cities.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d17\u0d7e\u0d2b\u0d3f\u0d32\u0d46 \u0d35\u0d32\u0d3f\u0d2f \u0d28\u0d17\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Gulf Money",
+        "civWordMal": "\u0d17\u0d7e\u0d2b\u0d4d \u0d2e\u0d23\u0d3f",
+        "imposters": [
+          {
+            "word": "Hawala",
+            "wordMal": "\u0d39\u0d35\u0d3e\u0d32",
+            "relationEN": "Both refer to channels of sending money from abroad.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d3f\u0d26\u0d47\u0d36\u0d24\u0d4d\u0d24\u0d41\u0d28\u0d3f\u0d28\u0d4d\u0d28\u0d41\u0d02 \u0d2a\u0d23\u0d02 \u0d05\u0d2f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d41\u0d2e\u0d3e\u0d2f\u0d3f \u0d2c\u0d28\u0d4d\u0d27\u0d2a\u0d4d\u0d2a\u0d46\u0d1f\u0d4d\u0d1f\u0d24\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Salary",
+            "wordMal": "\u0d36\u0d2e\u0d4d\u0d2a\u0d33\u0d02",
+            "relationEN": "Gulf money is essentially the salary earned abroad.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d1c\u0d4b\u0d32\u0d3f \u0d1a\u0d46\u0d2f\u0d4d\u0d24\u0d4d \u0d09\u0d23\u0d4d\u0d1f\u0d3e\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d2a\u0d23\u0d2e\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Chakka",
+        "civWordMal": "\u0d1a\u0d15\u0d4d\u0d15",
+        "imposters": [
+          {
+            "word": "Manga",
+            "wordMal": "\u0d2e\u0d3e\u0d19\u0d4d\u0d19",
+            "relationEN": "Both are deeply nostalgic, traditional Kerala fruits.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d15\u0d47\u0d30\u0d33\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d46 \u0d28\u0d3e\u0d1f\u0d7b \u0d2a\u0d34\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Pazham",
+            "wordMal": "\u0d2a\u0d34\u0d02",
+            "relationEN": "Both are common household fruits in Kerala.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2e\u0d32\u0d2f\u0d3e\u0d33\u0d3f\u0d15\u0d33\u0d41\u0d1f\u0d46 \u0d07\u0d37\u0d4d\u0d1f \u0d2a\u0d34\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Naatilekku",
+        "civWordMal": "\u0d28\u0d3e\u0d1f\u0d4d\u0d1f\u0d3f\u0d32\u0d47\u0d15\u0d4d\u0d15\u0d4d",
+        "imposters": [
+          {
+            "word": "Leave",
+            "wordMal": "\u0d32\u0d40\u0d35\u0d4d",
+            "relationEN": "Going naatilekku implies taking a leave from work.",
+            "relationML": "\u0d05\u0d35\u0d27\u0d3f\u0d15\u0d4d\u0d15\u0d3e\u0d23\u0d4d \u0d28\u0d3e\u0d1f\u0d4d\u0d1f\u0d3f\u0d32\u0d47\u0d15\u0d4d\u0d15\u0d4d \u0d2a\u0d4b\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d4d."
+          },
+          {
+            "word": "Flight",
+            "wordMal": "\u0d35\u0d3f\u0d2e\u0d3e\u0d28\u0d02",
+            "relationEN": "The journey home requires taking a flight.",
+            "relationML": "\u0d28\u0d3e\u0d1f\u0d4d\u0d1f\u0d3f\u0d32\u0d47\u0d15\u0d4d\u0d15\u0d4d \u0d2a\u0d4b\u0d15\u0d3e\u0d7b \u0d35\u0d3f\u0d2e\u0d3e\u0d28\u0d2e\u0d3e\u0d23\u0d4d \u0d06\u0d36\u0d4d\u0d30\u0d2f\u0d02."
+          }
+        ]
+      },
+      {
+        "civWord": "Abu Dhabi",
+        "civWordMal": "\u0d05\u0d2c\u0d41\u0d26\u0d3e\u0d2c\u0d3f",
+        "imposters": [
+          {
+            "word": "Dubai",
+            "wordMal": "\u0d26\u0d41\u0d2c\u0d3e\u0d2f\u0d4d",
+            "relationEN": "Both are key cities in the United Arab Emirates.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2f\u0d41\u0d0e\u0d07\u0d2f\u0d3f\u0d32\u0d46 \u0d2a\u0d4d\u0d30\u0d36\u0d38\u0d4d\u0d24 \u0d28\u0d17\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Riyadh",
+            "wordMal": "\u0d31\u0d3f\u0d2f\u0d3e\u0d26\u0d4d",
+            "relationEN": "Both are capital cities in the Middle East.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d17\u0d7e\u0d2b\u0d4d \u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d41\u0d1f\u0d46 \u0d24\u0d32\u0d38\u0d4d\u0d25\u0d3e\u0d28\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Qatar",
+        "civWordMal": "\u0d16\u0d24\u0d4d\u0d24\u0d7c",
+        "imposters": [
+          {
+            "word": "Oman",
+            "wordMal": "\u0d12\u0d2e\u0d3e\u0d7b",
+            "relationEN": "Both are independent Arab Gulf nations.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d17\u0d7e\u0d2b\u0d3f\u0d32\u0d46 \u0d38\u0d4d\u0d35\u0d24\u0d28\u0d4d\u0d24\u0d4d\u0d30 \u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Bahrain",
+            "wordMal": "\u0d2c\u0d39\u0d4d\u0d31\u0d48\u0d7b",
+            "relationEN": "Both are small, wealthy peninsular Gulf states.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d17\u0d7e\u0d2b\u0d3f\u0d32\u0d46 \u0d1a\u0d46\u0d31\u0d3f\u0d2f \u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Saudi",
+        "civWordMal": "\u0d38\u0d57\u0d26\u0d3f",
+        "imposters": [
+          {
+            "word": "Yemen",
+            "wordMal": "\u0d2f\u0d46\u0d2e\u0d7b",
+            "relationEN": "Both share the Arabian peninsula.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d05\u0d31\u0d47\u0d2c\u0d4d\u0d2f\u0d7b \u0d09\u0d2a\u0d26\u0d4d\u0d35\u0d40\u0d2a\u0d3f\u0d32\u0d41\u0d33\u0d4d\u0d33 \u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Kuwait",
+            "wordMal": "\u0d15\u0d41\u0d35\u0d48\u0d31\u0d4d\u0d31\u0d4d",
+            "relationEN": "Both are oil-rich Arab nations.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d17\u0d7e\u0d2b\u0d3f\u0d32\u0d46 \u0d38\u0d2e\u0d4d\u0d2a\u0d28\u0d4d\u0d28 \u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Oman",
+        "civWordMal": "\u0d12\u0d2e\u0d3e\u0d7b",
+        "imposters": [
+          {
+            "word": "Muscat",
+            "wordMal": "\u0d2e\u0d38\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d",
+            "relationEN": "Muscat is the capital of Oman.",
+            "relationML": "\u0d12\u0d2e\u0d3e\u0d28\u0d4d\u0d31\u0d46 \u0d24\u0d32\u0d38\u0d4d\u0d25\u0d3e\u0d28\u0d2e\u0d3e\u0d23\u0d4d \u0d2e\u0d38\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d."
+          },
+          {
+            "word": "UAE",
+            "wordMal": "\u0d2f\u0d41\u0d0e\u0d07",
+            "relationEN": "Both are neighboring Gulf countries.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d05\u0d1f\u0d41\u0d24\u0d4d\u0d24\u0d1f\u0d41\u0d24\u0d4d\u0d24\u0d41\u0d33\u0d4d\u0d33 \u0d17\u0d7e\u0d2b\u0d4d \u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Bahrain",
+        "civWordMal": "\u0d2c\u0d39\u0d4d\u0d31\u0d48\u0d7b",
+        "imposters": [
+          {
+            "word": "Qatar",
+            "wordMal": "\u0d16\u0d24\u0d4d\u0d24\u0d7c",
+            "relationEN": "Both are small island/peninsular Gulf states.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d1a\u0d46\u0d31\u0d3f\u0d2f \u0d17\u0d7e\u0d2b\u0d4d \u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Kuwait",
+            "wordMal": "\u0d15\u0d41\u0d35\u0d48\u0d31\u0d4d\u0d31\u0d4d",
+            "relationEN": "Both are oil-producing Middle Eastern kingdoms.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d0e\u0d23\u0d4d\u0d23 \u0d38\u0d2e\u0d4d\u0d2a\u0d24\u0d4d\u0d24\u0d41\u0d33\u0d4d\u0d33 \u0d17\u0d7e\u0d2b\u0d4d \u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Kuwait",
+        "civWordMal": "\u0d15\u0d41\u0d35\u0d48\u0d31\u0d4d\u0d31\u0d4d",
+        "imposters": [
+          {
+            "word": "Dinar",
+            "wordMal": "\u0d26\u0d3f\u0d28\u0d3e\u0d7c",
+            "relationEN": "The Kuwaiti Dinar is its famously high-value currency.",
+            "relationML": "\u0d15\u0d41\u0d35\u0d48\u0d31\u0d4d\u0d31\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d28\u0d3e\u0d23\u0d2f\u0d2e\u0d3e\u0d23\u0d4d \u0d26\u0d3f\u0d28\u0d3e\u0d7c."
+          },
+          {
+            "word": "Saudi Arabia",
+            "wordMal": "\u0d38\u0d57\u0d26\u0d3f \u0d05\u0d31\u0d47\u0d2c\u0d4d\u0d2f",
+            "relationEN": "Both are neighboring, oil-rich Arab states.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d05\u0d24\u0d3f\u0d7c\u0d24\u0d4d\u0d24\u0d3f \u0d2a\u0d19\u0d4d\u0d15\u0d3f\u0d1f\u0d41\u0d28\u0d4d\u0d28 \u0d17\u0d7e\u0d2b\u0d4d \u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Visa",
+        "civWordMal": "\u0d35\u0d3f\u0d38",
+        "imposters": [
+          {
+            "word": "Passport",
+            "wordMal": "\u0d2a\u0d3e\u0d38\u0d4d\u0d2a\u0d4b\u0d7c\u0d1f\u0d4d\u0d1f\u0d4d",
+            "relationEN": "A visa is stamped inside a passport for travel.",
+            "relationML": "\u0d2a\u0d3e\u0d38\u0d4d\u0d2a\u0d4b\u0d7c\u0d1f\u0d4d\u0d1f\u0d3f\u0d32\u0d3e\u0d23\u0d4d \u0d35\u0d3f\u0d38 \u0d2a\u0d24\u0d3f\u0d2a\u0d4d\u0d2a\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d4d."
+          },
+          {
+            "word": "Ticket",
+            "wordMal": "\u0d1f\u0d3f\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d",
+            "relationEN": "Both are necessary documents for international flights.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d3f\u0d26\u0d47\u0d36 \u0d2f\u0d3e\u0d24\u0d4d\u0d30\u0d2f\u0d4d\u0d15\u0d4d\u0d15\u0d4d \u0d05\u0d24\u0d4d\u0d2f\u0d3e\u0d35\u0d36\u0d4d\u0d2f\u0d2e\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Passport",
+        "civWordMal": "\u0d2a\u0d3e\u0d38\u0d4d\u0d2a\u0d4b\u0d7c\u0d1f\u0d4d\u0d1f\u0d4d",
+        "imposters": [
+          {
+            "word": "Emirates ID",
+            "wordMal": "\u0d0e\u0d2e\u0d3f\u0d31\u0d47\u0d31\u0d4d\u0d31\u0d4d\u0d38\u0d4d \u0d10\u0d21\u0d3f",
+            "relationEN": "Both are official forms of identification abroad.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d24\u0d3f\u0d30\u0d3f\u0d1a\u0d4d\u0d1a\u0d31\u0d3f\u0d2f\u0d7d \u0d30\u0d47\u0d16\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Boarding Pass",
+            "wordMal": "\u0d2c\u0d4b\u0d7c\u0d21\u0d3f\u0d02\u0d17\u0d4d \u0d2a\u0d3e\u0d38\u0d4d",
+            "relationEN": "Both are essential travel documents at the airport.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d3f\u0d2e\u0d3e\u0d28\u0d24\u0d4d\u0d24\u0d3e\u0d35\u0d33\u0d24\u0d4d\u0d24\u0d3f\u0d7d \u0d35\u0d47\u0d23\u0d4d\u0d1f \u0d30\u0d47\u0d16\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Airport",
+        "civWordMal": "\u0d0e\u0d2f\u0d7c\u0d2a\u0d4b\u0d7c\u0d1f\u0d4d\u0d1f\u0d4d",
+        "imposters": [
+          {
+            "word": "Railway Station",
+            "wordMal": "\u0d31\u0d46\u0d2f\u0d3f\u0d7d\u0d35\u0d47 \u0d38\u0d4d\u0d31\u0d4d\u0d31\u0d47\u0d37\u0d7b",
+            "relationEN": "Both are major transport hubs.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d32\u0d3f\u0d2f \u0d2f\u0d3e\u0d24\u0d4d\u0d30\u0d3e \u0d15\u0d47\u0d28\u0d4d\u0d26\u0d4d\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Runway",
+            "wordMal": "\u0d31\u0d7a\u0d35\u0d47",
+            "relationEN": "The runway is a critical part of the airport.",
+            "relationML": "\u0d0e\u0d2f\u0d7c\u0d2a\u0d4b\u0d7c\u0d1f\u0d4d\u0d1f\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d2d\u0d3e\u0d17\u0d2e\u0d3e\u0d23\u0d4d \u0d31\u0d7a\u0d35\u0d47."
+          }
+        ]
+      },
+      {
+        "civWord": "Remittance",
+        "civWordMal": "\u0d31\u0d46\u0d2e\u0d3f\u0d31\u0d4d\u0d31\u0d7b\u0d38\u0d4d",
+        "imposters": [
+          {
+            "word": "Exchange",
+            "wordMal": "\u0d0e\u0d15\u0d4d\u0d38\u0d4d\u0d1a\u0d47\u0d1e\u0d4d\u0d1a\u0d4d",
+            "relationEN": "Remittances are sent through money exchanges.",
+            "relationML": "\u0d0e\u0d15\u0d4d\u0d38\u0d4d\u0d1a\u0d47\u0d1e\u0d4d\u0d1a\u0d4d \u0d35\u0d34\u0d3f\u0d2f\u0d3e\u0d23\u0d4d \u0d2a\u0d23\u0d02 \u0d28\u0d3e\u0d1f\u0d4d\u0d1f\u0d3f\u0d32\u0d47\u0d15\u0d4d\u0d15\u0d4d \u0d05\u0d2f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d4d."
+          },
+          {
+            "word": "Bank Transfer",
+            "wordMal": "\u0d2c\u0d3e\u0d19\u0d4d\u0d15\u0d4d \u0d1f\u0d4d\u0d30\u0d3e\u0d7b\u0d38\u0d4d\u0d2b\u0d7c",
+            "relationEN": "Both are methods of sending money across borders.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2a\u0d23\u0d02 \u0d05\u0d2f\u0d15\u0d4d\u0d15\u0d3e\u0d28\u0d41\u0d33\u0d4d\u0d33 \u0d2e\u0d3e\u0d7c\u0d17\u0d4d\u0d17\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Duty Free",
+        "civWordMal": "\u0d21\u0d4d\u0d2f\u0d42\u0d1f\u0d4d\u0d1f\u0d3f \u0d2b\u0d4d\u0d30\u0d40",
+        "imposters": [
+          {
+            "word": "Shopping Mall",
+            "wordMal": "\u0d37\u0d4b\u0d2a\u0d4d\u0d2a\u0d3f\u0d02\u0d17\u0d4d \u0d2e\u0d3e\u0d7e",
+            "relationEN": "Both are large retail shopping environments.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d37\u0d4b\u0d2a\u0d4d\u0d2a\u0d3f\u0d02\u0d17\u0d4d \u0d15\u0d47\u0d28\u0d4d\u0d26\u0d4d\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Customs",
+            "wordMal": "\u0d15\u0d38\u0d4d\u0d31\u0d4d\u0d31\u0d02\u0d38\u0d4d",
+            "relationEN": "Duty free items bypass standard customs taxes.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d0e\u0d2f\u0d7c\u0d2a\u0d4b\u0d7c\u0d1f\u0d4d\u0d1f\u0d3f\u0d32\u0d46 \u0d28\u0d3f\u0d15\u0d41\u0d24\u0d3f\u0d2f\u0d41\u0d2e\u0d3e\u0d2f\u0d3f \u0d2c\u0d28\u0d4d\u0d27\u0d2a\u0d4d\u0d2a\u0d46\u0d1f\u0d4d\u0d1f\u0d24\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Perfume",
+        "civWordMal": "\u0d2a\u0d46\u0d7c\u0d2b\u0d4d\u0d2f\u0d42\u0d02",
+        "imposters": [
+          {
+            "word": "Attar",
+            "wordMal": "\u0d05\u0d24\u0d4d\u0d24\u0d7c",
+            "relationEN": "Attar is a traditional, oil-based alternative to perfume.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d38\u0d41\u0d17\u0d28\u0d4d\u0d27\u0d02 \u0d2a\u0d30\u0d24\u0d4d\u0d24\u0d41\u0d28\u0d4d\u0d28\u0d35\u0d2f\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Deodorant",
+            "wordMal": "\u0d21\u0d3f\u0d2f\u0d4b\u0d21\u0d31\u0d28\u0d4d\u0d31\u0d4d",
+            "relationEN": "Both are used for personal fragrance.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d36\u0d30\u0d40\u0d30\u0d24\u0d4d\u0d24\u0d3f\u0d7d \u0d38\u0d41\u0d17\u0d28\u0d4d\u0d27\u0d02 \u0d28\u0d7d\u0d15\u0d3e\u0d7b \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d41."
+          }
+        ]
+      },
+      {
+        "civWord": "Dates",
+        "civWordMal": "\u0d08\u0d24\u0d4d\u0d24\u0d2a\u0d4d\u0d2a\u0d34\u0d02",
+        "imposters": [
+          {
+            "word": "Figs",
+            "wordMal": "\u0d05\u0d24\u0d4d\u0d24\u0d3f\u0d2a\u0d4d\u0d2a\u0d34\u0d02",
+            "relationEN": "Both are sweet, dried Middle Eastern fruits.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2e\u0d27\u0d4d\u0d2f\u0d2a\u0d42\u0d7c\u0d35\u0d4d\u0d35\u0d47\u0d37\u0d4d\u0d2f\u0d2f\u0d3f\u0d32\u0d46 \u0d09\u0d23\u0d19\u0d4d\u0d19\u0d3f\u0d2f \u0d2a\u0d34\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Almonds",
+            "wordMal": "\u0d2c\u0d26\u0d3e\u0d02",
+            "relationEN": "Both are common Gulf souvenirs brought back home.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d17\u0d7e\u0d2b\u0d3f\u0d7d \u0d28\u0d3f\u0d28\u0d4d\u0d28\u0d41\u0d02 \u0d15\u0d4a\u0d23\u0d4d\u0d1f\u0d41\u0d35\u0d30\u0d41\u0d28\u0d4d\u0d28 \u0d21\u0d4d\u0d30\u0d48 \u0d2b\u0d4d\u0d30\u0d42\u0d1f\u0d4d\u0d1f\u0d4d\u0d38\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Gold",
+        "civWordMal": "\u0d38\u0d4d\u0d35\u0d7c\u0d23\u0d02",
+        "imposters": [
+          {
+            "word": "Diamond",
+            "wordMal": "\u0d21\u0d2f\u0d2e\u0d23\u0d4d\u0d1f\u0d4d",
+            "relationEN": "Both are precious materials bought in Gulf souks.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d3f\u0d32\u0d15\u0d42\u0d1f\u0d3f\u0d2f \u0d06\u0d2d\u0d30\u0d23\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Silver",
+            "wordMal": "\u0d35\u0d46\u0d33\u0d4d\u0d33\u0d3f",
+            "relationEN": "Both are precious metals used for jewellery.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d06\u0d2d\u0d30\u0d23\u0d19\u0d4d\u0d19\u0d7e \u0d09\u0d23\u0d4d\u0d1f\u0d3e\u0d15\u0d4d\u0d15\u0d3e\u0d7b \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d32\u0d4b\u0d39\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Return Ticket",
+        "civWordMal": "\u0d31\u0d3f\u0d1f\u0d4d\u0d1f\u0d47\u0d7a \u0d1f\u0d3f\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d",
+        "imposters": [
+          {
+            "word": "One-way Ticket",
+            "wordMal": "\u0d35\u0d7a-\u0d35\u0d47 \u0d1f\u0d3f\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d4d",
+            "relationEN": "The opposite booking of a return flight.",
+            "relationML": "\u0d12\u0d30\u0d41 \u0d35\u0d36\u0d24\u0d4d\u0d24\u0d47\u0d15\u0d4d\u0d15\u0d4d \u0d2e\u0d3e\u0d24\u0d4d\u0d30\u0d2e\u0d41\u0d33\u0d4d\u0d33 \u0d2f\u0d3e\u0d24\u0d4d\u0d30\u0d2f\u0d3e\u0d23\u0d4d \u0d35\u0d7a-\u0d35\u0d47."
+          },
+          {
+            "word": "Boarding Pass",
+            "wordMal": "\u0d2c\u0d4b\u0d7c\u0d21\u0d3f\u0d02\u0d17\u0d4d \u0d2a\u0d3e\u0d38\u0d4d",
+            "relationEN": "Both are documents needed to board the flight.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d35\u0d3f\u0d2e\u0d3e\u0d28\u0d24\u0d4d\u0d24\u0d3f\u0d7d \u0d15\u0d2f\u0d31\u0d3e\u0d7b \u0d06\u0d35\u0d36\u0d4d\u0d2f\u0d2e\u0d3e\u0d2f \u0d30\u0d47\u0d16\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Norka",
+        "civWordMal": "\u0d28\u0d4b\u0d7c\u0d15\u0d4d\u0d15",
+        "imposters": [
+          {
+            "word": "Embassy",
+            "wordMal": "\u0d0e\u0d02\u0d2c\u0d38\u0d3f",
+            "relationEN": "Both assist expatriates with bureaucratic needs.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2a\u0d4d\u0d30\u0d35\u0d3e\u0d38\u0d3f\u0d15\u0d7e\u0d15\u0d4d\u0d15\u0d4d \u0d38\u0d39\u0d3e\u0d2f\u0d02 \u0d28\u0d7d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d38\u0d4d\u0d25\u0d3e\u0d2a\u0d28\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Consulate",
+            "wordMal": "\u0d15\u0d4b\u0d7a\u0d38\u0d41\u0d32\u0d47\u0d31\u0d4d\u0d31\u0d4d",
+            "relationEN": "Both deal with the welfare of citizens abroad.",
+            "relationML": "\u0d35\u0d3f\u0d26\u0d47\u0d36\u0d24\u0d4d\u0d24\u0d41\u0d33\u0d4d\u0d33 \u0d2a\u0d57\u0d30\u0d28\u0d4d\u0d2e\u0d3e\u0d7c\u0d15\u0d4d\u0d15\u0d4d \u0d35\u0d47\u0d23\u0d4d\u0d1f\u0d3f\u0d2f\u0d41\u0d33\u0d4d\u0d33 \u0d13\u0d2b\u0d40\u0d38\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Sharjah",
+        "civWordMal": "\u0d37\u0d3e\u0d7c\u0d1c",
+        "imposters": [
+          {
+            "word": "Ajman",
+            "wordMal": "\u0d05\u0d1c\u0d4d\u0d2e\u0d3e\u0d7b",
+            "relationEN": "Both are neighboring, more affordable Emirates.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d05\u0d1f\u0d41\u0d24\u0d4d\u0d24\u0d1f\u0d41\u0d24\u0d4d\u0d24\u0d41\u0d33\u0d4d\u0d33 \u0d2f\u0d41\u0d0e\u0d07 \u0d28\u0d17\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Dubai",
+            "wordMal": "\u0d26\u0d41\u0d2c\u0d3e\u0d2f\u0d4d",
+            "relationEN": "Many live in Sharjah and commute to Dubai.",
+            "relationML": "\u0d2f\u0d41\u0d0e\u0d07\u0d2f\u0d3f\u0d32\u0d46 \u0d2a\u0d4d\u0d30\u0d36\u0d38\u0d4d\u0d24\u0d2e\u0d3e\u0d2f \u0d28\u0d17\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Baklava",
+        "civWordMal": "\u0d2c\u0d15\u0d4d\u0d32\u0d3e\u0d35",
+        "imposters": [
+          {
+            "word": "Kunafa",
+            "wordMal": "\u0d15\u0d41\u0d28\u0d3e\u0d2b",
+            "relationEN": "Both are incredibly sweet, syrupy Middle Eastern desserts.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d05\u0d31\u0d47\u0d2c\u0d4d\u0d2f\u0d7b \u0d2e\u0d27\u0d41\u0d30\u0d2a\u0d32\u0d39\u0d3e\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Halwa",
+            "wordMal": "\u0d39\u0d7d\u0d35",
+            "relationEN": "Both are traditional, rich sweet treats.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2e\u0d27\u0d41\u0d30\u0d2e\u0d41\u0d33\u0d4d\u0d33 \u0d35\u0d3f\u0d2d\u0d35\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Desert Safari",
+        "civWordMal": "\u0d2e\u0d30\u0d41\u0d2d\u0d42\u0d2e\u0d3f \u0d38\u0d2b\u0d3e\u0d30\u0d3f",
+        "imposters": [
+          {
+            "word": "Camel Ride",
+            "wordMal": "\u0d12\u0d1f\u0d4d\u0d1f\u0d15 \u0d38\u0d35\u0d3e\u0d30\u0d3f",
+            "relationEN": "Camel rides are a core activity of a desert safari.",
+            "relationML": "\u0d2e\u0d30\u0d41\u0d2d\u0d42\u0d2e\u0d3f \u0d38\u0d2b\u0d3e\u0d30\u0d3f\u0d2f\u0d41\u0d1f\u0d46 \u0d12\u0d30\u0d41 \u0d2d\u0d3e\u0d17\u0d2e\u0d3e\u0d23\u0d4d \u0d12\u0d1f\u0d4d\u0d1f\u0d15 \u0d38\u0d35\u0d3e\u0d30\u0d3f."
+          },
+          {
+            "word": "Dune Bashing",
+            "wordMal": "\u0d21\u0d4d\u0d2f\u0d42\u0d7a \u0d2c\u0d3e\u0d37\u0d3f\u0d02\u0d17\u0d4d",
+            "relationEN": "Dune bashing is the thrill ride portion of the safari.",
+            "relationML": "\u0d2e\u0d30\u0d41\u0d2d\u0d42\u0d2e\u0d3f\u0d2f\u0d3f\u0d32\u0d46 \u0d35\u0d3e\u0d39\u0d28 \u0d2f\u0d3e\u0d24\u0d4d\u0d30\u0d2f\u0d3e\u0d23\u0d4d \u0d21\u0d4d\u0d2f\u0d42\u0d7a \u0d2c\u0d3e\u0d37\u0d3f\u0d02\u0d17\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Burj Khalifa",
+        "civWordMal": "\u0d2c\u0d41\u0d7c\u0d1c\u0d4d \u0d16\u0d32\u0d40\u0d2b",
+        "imposters": [
+          {
+            "word": "Burj Al Arab",
+            "wordMal": "\u0d2c\u0d41\u0d7c\u0d1c\u0d4d \u0d05\u0d7d \u0d05\u0d31\u0d2c\u0d4d",
+            "relationEN": "Both are iconic, record-breaking Dubai landmarks.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d26\u0d41\u0d2c\u0d3e\u0d2f\u0d3f\u0d32\u0d46 \u0d2a\u0d4d\u0d30\u0d36\u0d38\u0d4d\u0d24\u0d2e\u0d3e\u0d2f \u0d15\u0d46\u0d1f\u0d4d\u0d1f\u0d3f\u0d1f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Eiffel Tower",
+            "wordMal": "\u0d08\u0d2b\u0d7d \u0d1f\u0d35\u0d7c",
+            "relationEN": "Both are world-famous tourist tower attractions.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d32\u0d4b\u0d15\u0d2a\u0d4d\u0d30\u0d36\u0d38\u0d4d\u0d24\u0d2e\u0d3e\u0d2f \u0d09\u0d2f\u0d30\u0d2e\u0d41\u0d33\u0d4d\u0d33 \u0d28\u0d3f\u0d7c\u0d2e\u0d4d\u0d2e\u0d3f\u0d24\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Vacation Leave",
+        "civWordMal": "\u0d05\u0d35\u0d27\u0d3f / \u0d32\u0d40\u0d35\u0d4d",
+        "imposters": [
+          {
+            "word": "Resignation",
+            "wordMal": "\u0d30\u0d3e\u0d1c\u0d3f",
+            "relationEN": "Both mean stopping work, one temporarily, one permanently.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d1c\u0d4b\u0d32\u0d3f\u0d2f\u0d3f\u0d7d \u0d28\u0d3f\u0d28\u0d4d\u0d28\u0d41\u0d02 \u0d2e\u0d3e\u0d31\u0d3f\u0d28\u0d3f\u0d7d\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Weekend",
+            "wordMal": "\u0d35\u0d3e\u0d30\u0d3e\u0d28\u0d4d\u0d24\u0d4d\u0d2f\u0d02",
+            "relationEN": "Both are periods of rest from work.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d1c\u0d4b\u0d32\u0d3f\u0d2f\u0d3f\u0d32\u0d4d\u0d32\u0d3e\u0d24\u0d4d\u0d24 \u0d26\u0d3f\u0d35\u0d38\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Dubai Gold Souk",
+        "civWordMal": "\u0d26\u0d41\u0d2c\u0d3e\u0d2f\u0d4d \u0d17\u0d4b\u0d7e\u0d21\u0d4d \u0d38\u0d42\u0d15\u0d4d\u0d15\u0d4d",
+        "imposters": [
+          {
+            "word": "Spice Souk",
+            "wordMal": "\u0d38\u0d4d\u0d2a\u0d48\u0d38\u0d4d \u0d38\u0d42\u0d15\u0d4d\u0d15\u0d4d",
+            "relationEN": "Both are famous traditional markets in old Dubai.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d26\u0d41\u0d2c\u0d3e\u0d2f\u0d3f\u0d32\u0d46 \u0d2a\u0d4d\u0d30\u0d36\u0d38\u0d4d\u0d24\u0d2e\u0d3e\u0d2f \u0d2e\u0d3e\u0d7c\u0d15\u0d4d\u0d15\u0d31\u0d4d\u0d31\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Jewellery Shop",
+            "wordMal": "\u0d1c\u0d4d\u0d35\u0d32\u0d4d\u0d32\u0d31\u0d3f",
+            "relationEN": "The Gold Souk is essentially a massive street of jewellery shops.",
+            "relationML": "\u0d38\u0d4d\u0d35\u0d7c\u0d23\u0d4d\u0d23\u0d15\u0d4d\u0d15\u0d1f\u0d15\u0d33\u0d41\u0d1f\u0d46 \u0d35\u0d32\u0d3f\u0d2f\u0d4a\u0d30\u0d41 \u0d36\u0d47\u0d16\u0d30\u0d2e\u0d3e\u0d23\u0d4d \u0d17\u0d4b\u0d7e\u0d21\u0d4d \u0d38\u0d42\u0d15\u0d4d\u0d15\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Khubus",
+        "civWordMal": "\u0d15\u0d41\u0d2c\u0d4d\u0d2c\u0d42\u0d38\u0d4d",
+        "imposters": [
+          {
+            "word": "Porotta",
+            "wordMal": "\u0d2a\u0d4a\u0d31\u0d4b\u0d1f\u0d4d\u0d1f",
+            "relationEN": "Both are flatbreads eaten heavily by Gulf expats.",
+            "relationML": "\u0d2a\u0d4d\u0d30\u0d35\u0d3e\u0d38\u0d3f\u0d15\u0d7e \u0d15\u0d34\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d2a\u0d4d\u0d30\u0d27\u0d3e\u0d28 \u0d31\u0d4a\u0d1f\u0d4d\u0d1f\u0d3f \u0d35\u0d3f\u0d2d\u0d35\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Pita Bread",
+            "wordMal": "\u0d2a\u0d3f\u0d31\u0d4d\u0d31\u0d3e \u0d2c\u0d4d\u0d30\u0d46\u0d21\u0d4d",
+            "relationEN": "Khubus is the Arabian variant of pita bread.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d12\u0d30\u0d47\u0d2a\u0d4b\u0d32\u0d46\u0d2f\u0d41\u0d33\u0d4d\u0d33 \u0d05\u0d31\u0d47\u0d2c\u0d4d\u0d2f\u0d7b \u0d31\u0d4a\u0d1f\u0d4d\u0d1f\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Kafala",
+        "civWordMal": "\u0d15\u0d2b\u0d3e\u0d32",
+        "imposters": [
+          {
+            "word": "Sponsorship",
+            "wordMal": "\u0d38\u0d4d\u0d2a\u0d4b\u0d7a\u0d38\u0d7c\u0d37\u0d3f\u0d2a\u0d4d\u0d2a\u0d4d",
+            "relationEN": "Kafala translates directly to the sponsorship system.",
+            "relationML": "\u0d15\u0d2b\u0d3e\u0d32 \u0d0e\u0d28\u0d4d\u0d28\u0d24\u0d3f\u0d28\u0d7c\u0d24\u0d4d\u0d25\u0d02 \u0d38\u0d4d\u0d2a\u0d4b\u0d7a\u0d38\u0d7c\u0d37\u0d3f\u0d2a\u0d4d\u0d2a\u0d4d \u0d0e\u0d28\u0d4d\u0d28\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Visa Rule",
+            "wordMal": "\u0d35\u0d3f\u0d38\u0d3e \u0d28\u0d3f\u0d2f\u0d2e\u0d02",
+            "relationEN": "Kafala dictates the visa rules for migrant workers.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2a\u0d4d\u0d30\u0d35\u0d3e\u0d38\u0d3f\u0d15\u0d33\u0d41\u0d1f\u0d46 \u0d1c\u0d4b\u0d32\u0d3f \u0d38\u0d02\u0d2c\u0d28\u0d4d\u0d27\u0d2e\u0d3e\u0d2f \u0d28\u0d3f\u0d2f\u0d2e\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Perfume Attar",
+        "civWordMal": "\u0d05\u0d24\u0d4d\u0d24\u0d7c",
+        "imposters": [
+          {
+            "word": "Oud",
+            "wordMal": "\u0d0a\u0d26\u0d4d",
+            "relationEN": "Oud is a popular, strong fragrance used in attars.",
+            "relationML": "\u0d05\u0d24\u0d4d\u0d24\u0d31\u0d41\u0d15\u0d33\u0d3f\u0d7d \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d12\u0d30\u0d41 \u0d38\u0d41\u0d17\u0d28\u0d4d\u0d27\u0d2e\u0d3e\u0d23\u0d4d \u0d0a\u0d26\u0d4d."
+          },
+          {
+            "word": "Rose Water",
+            "wordMal": "\u0d2a\u0d28\u0d3f\u0d28\u0d40\u0d7c",
+            "relationEN": "Both are traditional fragrant liquids.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d38\u0d41\u0d17\u0d28\u0d4d\u0d27\u0d2e\u0d41\u0d33\u0d4d\u0d33 \u0d26\u0d4d\u0d30\u0d3e\u0d35\u0d15\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Qatar Airways",
+        "civWordMal": "\u0d16\u0d24\u0d4d\u0d24\u0d7c \u0d0e\u0d2f\u0d7c\u0d35\u0d47\u0d2f\u0d4d\u0d38\u0d4d",
+        "imposters": [
+          {
+            "word": "Emirates",
+            "wordMal": "\u0d0e\u0d2e\u0d3f\u0d31\u0d47\u0d31\u0d4d\u0d31\u0d4d\u0d38\u0d4d",
+            "relationEN": "Both are luxury Middle Eastern airlines.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d17\u0d7e\u0d2b\u0d3f\u0d32\u0d46 \u0d2a\u0d4d\u0d30\u0d36\u0d38\u0d4d\u0d24\u0d2e\u0d3e\u0d2f \u0d35\u0d3f\u0d2e\u0d3e\u0d28\u0d15\u0d4d\u0d15\u0d2e\u0d4d\u0d2a\u0d28\u0d3f\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Air India",
+            "wordMal": "\u0d0e\u0d2f\u0d7c \u0d07\u0d28\u0d4d\u0d24\u0d4d\u0d2f",
+            "relationEN": "Both airlines frequently fly NRIs back home.",
+            "relationML": "\u0d2a\u0d4d\u0d30\u0d35\u0d3e\u0d38\u0d3f\u0d15\u0d7e \u0d2f\u0d3e\u0d24\u0d4d\u0d30 \u0d1a\u0d46\u0d2f\u0d4d\u0d2f\u0d3e\u0d7b \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d35\u0d3f\u0d2e\u0d3e\u0d28\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Shawarma Machine",
+        "civWordMal": "\u0d37\u0d35\u0d7c\u0d2e\u0d4d\u0d2e \u0d2e\u0d46\u0d37\u0d40\u0d7b",
+        "imposters": [
+          {
+            "word": "Grill",
+            "wordMal": "\u0d17\u0d4d\u0d30\u0d3f\u0d7d",
+            "relationEN": "Both are equipment used for roasting meat.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d07\u0d31\u0d1a\u0d4d\u0d1a\u0d3f \u0d1a\u0d41\u0d1f\u0d4d\u0d1f\u0d46\u0d1f\u0d41\u0d15\u0d4d\u0d15\u0d3e\u0d7b \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Oven",
+            "wordMal": "\u0d13\u0d35\u0d7b",
+            "relationEN": "Both cook meat using intense localized heat.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2d\u0d15\u0d4d\u0d37\u0d23\u0d02 \u0d2a\u0d3e\u0d15\u0d02 \u0d1a\u0d46\u0d2f\u0d4d\u0d2f\u0d41\u0d28\u0d4d\u0d28 \u0d2f\u0d28\u0d4d\u0d24\u0d4d\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Oud Incense",
+        "civWordMal": "\u0d0a\u0d26\u0d4d",
+        "imposters": [
+          {
+            "word": "Frankincense",
+            "wordMal": "\u0d15\u0d41\u0d28\u0d4d\u0d24\u0d3f\u0d30\u0d3f\u0d15\u0d4d\u0d15\u0d02",
+            "relationEN": "Both are traditional aromatic resins burned for smell.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2a\u0d41\u0d15\u0d1a\u0d4d\u0d1a\u0d4d \u0d38\u0d41\u0d17\u0d28\u0d4d\u0d27\u0d2e\u0d41\u0d23\u0d4d\u0d1f\u0d3e\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d35\u0d2f\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Bakhoor",
+            "wordMal": "\u0d2c\u0d16\u0d42\u0d7c",
+            "relationEN": "Bakhoor often contains oud to create its scent.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d05\u0d31\u0d47\u0d2c\u0d4d\u0d2f\u0d7b \u0d38\u0d41\u0d17\u0d28\u0d4d\u0d27\u0d26\u0d4d\u0d30\u0d35\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Lablabi / Hummus",
+        "civWordMal": "\u0d39\u0d41\u0d2e\u0d41\u0d38\u0d4d",
+        "imposters": [
+          {
+            "word": "Moutabal",
+            "wordMal": "\u0d2e\u0d41\u0d24\u0d2c\u0d7d",
+            "relationEN": "Both are popular, creamy Middle Eastern dips.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d05\u0d31\u0d47\u0d2c\u0d4d\u0d2f\u0d7b \u0d2d\u0d15\u0d4d\u0d37\u0d23\u0d24\u0d4d\u0d24\u0d4b\u0d1f\u0d4a\u0d2a\u0d4d\u0d2a\u0d02 \u0d15\u0d34\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d35\u0d2f\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Mayonnaise",
+            "wordMal": "\u0d2e\u0d2f\u0d4b\u0d23\u0d48\u0d38\u0d4d",
+            "relationEN": "Both are thick spreads often eaten with shawarma.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d37\u0d35\u0d7c\u0d2e\u0d4d\u0d2e\u0d2f\u0d4d\u0d15\u0d4d\u0d15\u0d4d \u0d12\u0d2a\u0d4d\u0d2a\u0d02 \u0d15\u0d34\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Dirham Currency",
+        "civWordMal": "\u0d26\u0d3f\u0d7c\u0d39\u0d02",
+        "imposters": [
+          {
+            "word": "Riyal",
+            "wordMal": "\u0d31\u0d3f\u0d2f\u0d3e\u0d7d",
+            "relationEN": "Both are standard currencies used in Gulf countries.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d17\u0d7e\u0d2b\u0d4d \u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d3f\u0d32\u0d46 \u0d28\u0d3e\u0d23\u0d2f\u0d19\u0d4d\u0d19\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Rupee",
+            "wordMal": "\u0d30\u0d42\u0d2a",
+            "relationEN": "Expats convert Dirhams into Rupees to send home.",
+            "relationML": "\u0d17\u0d7e\u0d2b\u0d4d \u0d2a\u0d23\u0d02 \u0d28\u0d3e\u0d1f\u0d4d\u0d1f\u0d3f\u0d32\u0d47\u0d15\u0d4d\u0d15\u0d4d \u0d30\u0d42\u0d2a\u0d2f\u0d3e\u0d2f\u0d3e\u0d23\u0d4d \u0d05\u0d2f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d24\u0d4d."
+          }
+        ]
+      },
+      {
+        "civWord": "Emirates ID",
+        "civWordMal": "\u0d0e\u0d2e\u0d3f\u0d31\u0d47\u0d31\u0d4d\u0d31\u0d4d\u0d38\u0d4d \u0d10\u0d21\u0d3f",
+        "imposters": [
+          {
+            "word": "Aadhaar Card",
+            "wordMal": "\u0d06\u0d27\u0d3e\u0d7c \u0d15\u0d3e\u0d7c\u0d21\u0d4d",
+            "relationEN": "Both are biometric national identity cards.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d24\u0d3f\u0d30\u0d3f\u0d1a\u0d4d\u0d1a\u0d31\u0d3f\u0d2f\u0d7d \u0d15\u0d3e\u0d7c\u0d21\u0d41\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          },
+          {
+            "word": "Passport",
+            "wordMal": "\u0d2a\u0d3e\u0d38\u0d4d\u0d2a\u0d4b\u0d7c\u0d1f\u0d4d\u0d1f\u0d4d",
+            "relationEN": "Both are crucial identification documents for an expat.",
+            "relationML": "\u0d30\u0d23\u0d4d\u0d1f\u0d41\u0d02 \u0d2a\u0d4d\u0d30\u0d35\u0d3e\u0d38\u0d3f\u0d15\u0d7e\u0d15\u0d4d\u0d15\u0d4d \u0d2a\u0d4d\u0d30\u0d27\u0d3e\u0d28\u0d2a\u0d4d\u0d2a\u0d46\u0d1f\u0d4d\u0d1f \u0d30\u0d47\u0d16\u0d15\u0d33\u0d3e\u0d23\u0d4d."
+          }
+        ]
+      }
+    ]
+  }
+]

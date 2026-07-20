@@ -1,0 +1,438 @@
+{
+  "funny": [
+    [
+      "Pwoli",
+      "പൊളി",
+      "High Energy",
+      "വലിയ ആവേശം"
+    ],
+    [
+      "Ayyayyo",
+      "അയ്യയ്യോ",
+      "Sudden Reaction",
+      "പെട്ടെന്നുള്ള പ്രതികരണം"
+    ],
+    [
+      "Scene illa",
+      "സീൻ ഇല്ല",
+      "Calm Mindset",
+      "സമാധാനപരമായ അവസ്ഥ"
+    ],
+    [
+      "Thallal",
+      "തള്ളൽ",
+      "Tall Tales",
+      "കൂട്ടുകാരുടെ സംസാരം"
+    ],
+    [
+      "Kidu",
+      "കിടു",
+      "Great Impression",
+      "നല്ല അനുഭവം"
+    ],
+    [
+      "Adipoli",
+      "അടിപൊളി",
+      "Positive Vibe",
+      "നല്ല ഒരു അന്തരീക്ഷം"
+    ],
+    [
+      "Poli Scene",
+      "പൊളി സീൻ",
+      "Memorable Experience",
+      "ഓർമ്മയിൽ നിൽക്കുന്ന കാര്യം"
+    ],
+    [
+      "Sadhanam Kayyil Undo",
+      "സാധനം കയ്യിൽ ഉണ്ടോ",
+      "Coded Message",
+      "രഹസ്യമായ അന്വേഷണം"
+    ],
+    [
+      "Thenga",
+      "തേങ്ങ",
+      "Casual Exclamation",
+      "സാധാരണ പറയുന്ന വാക്ക്"
+    ],
+    [
+      "Chetta",
+      "ചേട്ടാ",
+      "Social Conversation Start",
+      "സംസാരം തുടങ്ങുമ്പോൾ"
+    ],
+    [
+      "Eda Mone",
+      "എടാ മോനെ",
+      "Informal Bonding",
+      "അടുപ്പമുള്ളവരോടുള്ള സമീപനം"
+    ],
+    [
+      "Kidilan",
+      "കിടിലൻ",
+      "High Rating",
+      "മികച്ച അഭിപ്രായം"
+    ],
+    [
+      "Chali",
+      "ചളി",
+      "Lighthearted Entertainment",
+      "നേരംപോക്ക് സംസാരം"
+    ],
+    [
+      "Koppu",
+      "കോപ്പ്",
+      "Emotional Outburst",
+      "മനസ്സിലെ അനിഷ്ടം"
+    ],
+    [
+      "Pani Paali",
+      "പണി പാളി",
+      "Unexpected Turn",
+      "വിചാരിക്കാത്ത മാറ്റം"
+    ],
+    [
+      "Ambada",
+      "അമ്പടാ",
+      "Friendly Teasing",
+      "തമാശയ്ക്കുള്ള പ്രശംസ"
+    ],
+    [
+      "Poda Pulle",
+      "പോടാ പുള്ളേ",
+      "Casual Rejection",
+      "തമാശയുള്ള തർക്കം"
+    ],
+    [
+      "Vattaano",
+      "വട്ടാണോ",
+      "Curiosity About Behavior",
+      "പെരുമാറ്റത്തെക്കുറിച്ചുള്ള സംശയം"
+    ],
+    [
+      "Athu Sheri",
+      "അത് ശരി",
+      "Skeptical Response",
+      "സംശയത്തോടെയുള്ള പ്രതികരണം"
+    ],
+    [
+      "Thallumala",
+      "തല്ലുമാല",
+      "Group Chaos",
+      "കൂട്ടമായ ബഹളം"
+    ],
+    [
+      "Chummadive",
+      "ചുമ്മാടിവേ",
+      "Playful Exclamation",
+      "തമാശയ്ക്കുള്ള പ്രതികരണം"
+    ],
+    [
+      "Oodayi",
+      "ഉടായിപ്പ്",
+      "Clever Shortcut",
+      "വളഞ്ഞ വഴിയുള്ള ഉപായം"
+    ],
+    [
+      "Jada",
+      "ജാഡ",
+      "Social Attitude",
+      "ആളുകളുടെ പെരുമാറ്റ രീതി"
+    ],
+    [
+      "Vera Level",
+      "വേറെ ലെവൽ",
+      "Extraordinary Situation",
+      "സാധാരണയിൽ കവിഞ്ഞ അവസ്ഥ"
+    ],
+    [
+      "Blunder",
+      "ബ്ലണ്ടർ",
+      "Awkward Moment",
+      "അബദ്ധം പിണയുന്ന സമയം"
+    ],
+    [
+      "Suhurthe",
+      "സുഹൃത്തേ",
+      "Polite Addressing",
+      "മാന്യമായ അഭിസംബോധന"
+    ],
+    [
+      "Kittu",
+      "കിട്ടു",
+      "Fulfillment Moment",
+      "ആഗ്രഹസാഫല്യം"
+    ],
+    [
+      "Scene Contra",
+      "സീൻ കോൺട്ര",
+      "Unexpected Complication",
+      "പ്രതീക്ഷിക്കാത്ത തടസ്സം"
+    ],
+    [
+      "Chamakku",
+      "ചമക്ക്",
+      "Showy Attitude",
+      "പ്രകടനപരത"
+    ],
+    [
+      "Shavapetti",
+      "ശവപ്പെട്ടി",
+      "Wooden Enclosure",
+      "തടിപ്പെട്ടി"
+    ],
+    [
+      "Pothu",
+      "പോത്ത്",
+      "Stubborn Nature",
+      "വാശിപിടിക്കുന്ന സ്വഭാവം"
+    ],
+    [
+      "Kuthikazhapp",
+      "കുതിക്കഴപ്പ്",
+      "Restless Energy",
+      "അടങ്ങിയിരിക്കാത്ത അവസ്ഥ"
+    ],
+    [
+      "Senti",
+      "സെന്റി",
+      "Emotional Reaction",
+      "വികാരഭരിതമായ പ്രതികരണം"
+    ],
+    [
+      "Kidu Vibe",
+      "കിടു വൈബ്",
+      "Top Tier Quality",
+      "ഉയർന്ന നിലവാരം"
+    ],
+    [
+      "Oomfi",
+      "ഊംഫി",
+      "Sudden Loss",
+      "പെട്ടെന്നുണ്ടായ നഷ്ടം"
+    ],
+    [
+      "Vatt",
+      "വട്ട്",
+      "Unusual Thinking",
+      "വ്യത്യസ്ത ചിന്താഗതി"
+    ]
+  ],
+  "movies": [
+    [
+      "Manichitrathazhu",
+      "മണിച്ചിത്രത്താഴ്",
+      "Ancient Mansion Mystery",
+      "പഴയ തറവാട്ടിലെ രഹസ്യം"
+    ],
+    [
+      "Drishyam",
+      "ദൃശ്യം",
+      "Clever Cover-up",
+      "ബുദ്ധിപരമായ നീക്കങ്ങൾ"
+    ],
+    [
+      "Kumbalangi Nights",
+      "കുമ്പളങ്ങി നൈറ്റ്സ്",
+      "Coastal Brotherhood",
+      "തീരദേശത്തെ ജീവിതം"
+    ],
+    [
+      "Bangalore Days",
+      "ബാംഗ്ലൂർ ഡെയ്സ്",
+      "Cousins Bonding",
+      "ബന്ധുക്കളുടെ കൂട്ടായ്മ"
+    ],
+    [
+      "Premam",
+      "പ്രേമം",
+      "Stages of Life",
+      "ജീവിതത്തിലെ വിവിധ ഘട്ടങ്ങൾ"
+    ],
+    [
+      "Nadodikkattu",
+      "നാടോടിക്കാറ്റ്",
+      "Struggle and Survival",
+      "ജീവിത പോരാട്ടവും യാത്രയും"
+    ],
+    [
+      "Thenmavin Kombath",
+      "തേന്മാവിൻ കൊമ്പത്ത്",
+      "Village Romance",
+      "ഗ്രാമീണ പശ്ചാത്തലമുള്ള കഥ"
+    ],
+    [
+      "Kilukkam",
+      "കിലുക്കം",
+      "Humorous Journey",
+      "ചിരിയും യാത്രയും ചേർന്നത്"
+    ],
+    [
+      "Chithram",
+      "ചിത്രം",
+      "Emotional Relationship",
+      "ബന്ധങ്ങളുടെ ആഴം"
+    ],
+    [
+      "Bharatham",
+      "ഭരതം",
+      "Classical Art Background",
+      "കലാപരമായ പശ്ചാത്തലം"
+    ],
+    [
+      "Devasuram",
+      "ദേവാസുരം",
+      "Rivalry and Honor",
+      "അഭിമാനവും വാശിയും"
+    ],
+    [
+      "Ustad Hotel",
+      "ഉസ്താദ് ഹോട്ടൽ",
+      "Generations and Culture",
+      "തലമുറകളും പാരമ്പര്യവും"
+    ],
+    [
+      "Maheshinte Prathikaaram",
+      "മഹേഷിന്റെ പ്രതികാരം",
+      "Simple Town Life",
+      "സാധാരണക്കാരുടെ ജീവിതം"
+    ],
+    [
+      "Ayyappanum Koshiyum",
+      "അയ്യപ്പനും കോശിയും",
+      "Conflict of Personalities",
+      "വ്യക്തികൾ തമ്മിലുള്ള തർക്കം"
+    ],
+    [
+      "Lucifer",
+      "ലൂസിഫർ",
+      "Power and Strategy",
+      "അധികാരവും തന്ത്രങ്ങളും"
+    ],
+    [
+      "Thondimuthalum Driksakshiyum",
+      "തൊണ്ടിമുതലും ദൃക്സാക്ഷിയും",
+      "Human Nature",
+      "മനുഷ്യ സ്വഭാവങ്ങളുടെ സത്യം"
+    ],
+    [
+      "Action Hero Biju",
+      "ആക്ഷൻ ഹീറോ ബിജു",
+      "Real Life Incidents",
+      "യാഥാർത്ഥ്യത്തോട് അടുത്ത സംഭവങ്ങൾ"
+    ],
+    [
+      "Sudani from Nigeria",
+      "സുഡാനി ഫ്രം നൈജീരിയ",
+      "Compassion and Friendship",
+      "സ്നേഹവും കൂട്ടായ്മയും"
+    ],
+    [
+      "Traffic",
+      "ട്രാഫിക്",
+      "Time Sensitive Race",
+      "സമയത്തോടുള്ള മത്സരം"
+    ],
+    [
+      "Indian Rupee",
+      "ഇന്ത്യൻ റുപ്പി",
+      "Financial Ambitions",
+      "സാമ്പത്തിക ലക്ഷ്യങ്ങൾ"
+    ],
+    [
+      "Romancham",
+      "രോമാഞ്ചം",
+      "Bachelor Living Drama",
+      "കൂട്ടുകാരുടെ ഒന്നിച്ചുള്ള ജീവിതം"
+    ],
+    [
+      "Premalu",
+      "പ്രേമലു",
+      "Youth Relationship",
+      "പുതിയ തലമുറയുടെ ചിന്തകൾ"
+    ],
+    [
+      "Aavesham",
+      "ആവേശം",
+      "High Energy Encounter",
+      "ആവേശകരമായ കൂട്ടായ്മ"
+    ],
+    [
+      "Bramayugam",
+      "ഭ്രമയുഗം",
+      "Ancient Mystery",
+      "പഴയകാല നിഗൂഢത"
+    ],
+    [
+      "Manjummel Boys",
+      "മഞ്ഞുമ്മൽ ബോയ്സ്",
+      "Friendship Rescue",
+      "സുഹൃത്തുക്കളുടെ സ്നേഹം"
+    ],
+    [
+      "Godfather",
+      "ഗോഡ്ഫാദർ",
+      "Family Tradition",
+      "കുടുംബത്തിലെ കാരണവന്മാർ"
+    ],
+    [
+      "Malaikottai Vaaliban",
+      "മലൈക്കോട്ടൈ വാലിബൻ",
+      "Desert Folklore",
+      "നാടോടിക്കഥകൾ"
+    ],
+    [
+      "Minnal Murali",
+      "മിന്നൽ മുരളി",
+      "Tailor Shop Incident",
+      "തയ്യൽക്കടയിലെ സംഭവം"
+    ],
+    [
+      "Kishkindha Kaandam",
+      "കിഷ്കിന്ധാ കാണ്ഡം",
+      "Forest Reserve Inquiry",
+      "വനമേഖലയിലെ അന്വേഷണം"
+    ],
+    [
+      "Rorschach",
+      "റോഷാക്ക്",
+      "White Mask Mystery",
+      "മുഖംമൂടി രഹസ്യം"
+    ],
+    [
+      "Kattappanayile Rithwik Roshan",
+      "കട്ടപ്പനയിലെ ഹൃതിക് റോഷൻ",
+      "Local Casting Call",
+      "സിനിമ മോഹം"
+    ],
+    [
+      "Varathan",
+      "വരത്തൻ",
+      "Estate Intrusion",
+      "തോട്ടത്തിലെ അതിക്രമം"
+    ],
+    [
+      "Bheeshma Parvam",
+      "ഭീഷ്മ പർവ്വം",
+      "Mattancherry Trade",
+      "മട്ടാഞ്ചേരിയിലെ കച്ചവടം"
+    ],
+    [
+      "Memories",
+      "മെമ്മറീസ്",
+      "Investigative Thriller",
+      "രഹസ്യാന്വേഷണ കഥ"
+    ],
+    [
+      "Classmates",
+      "ക്ലാസ്മേറ്റ്സ്",
+      "Campus Nostalgia",
+      "കോളേജ് ഓർമ്മകൾ"
+    ],
+    [
+      "Spadikam",
+      "സ്ഫടികം",
+      "Rebellious Son",
+      "കുടുംബത്തിലെ തർക്കങ്ങൾ"
+    ]
+  ]
+}

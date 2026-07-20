@@ -1,0 +1,60 @@
+{
+  "funny": [
+    {
+      "civWord": "Pwoli",
+      "civWordMal": "പൊളി",
+      "imposters": [
+        {
+          "word": "Kidu",
+          "wordMal": "കിടു",
+          "relationEN": "Both are enthusiastic Malayalam slang words used to express high excitement or praise, making them easy to confuse.",
+          "relationML": "രണ്ടും ഉയർന്ന ആവേശമോ പ്രശംസയോ പ്രകടിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന മലയാളം വാക്കുകളാണ്, ഇത് ആശയക്കുഴപ്പമുണ്ടാക്കാൻ എളുപ്പമാക്കുന്നു."
+        },
+        {
+          "word": "Adipoli",
+          "wordMal": "അടിപൊളി",
+          "relationEN": "Both represent a positive vibe or an awesome feeling, often used interchangeably by youths.",
+          "relationML": "രണ്ടും ഒരു നല്ല അനുഭവത്തെ സൂചിപ്പിക്കുന്നു, പലപ്പോഴും യുവാക്കൾ ഒരുപോലെ ഉപയോഗിക്കുന്നു."
+        }
+      ]
+    },
+    {
+      "civWord": "Ayyayyo",
+      "civWordMal": "അയ്യയ്യോ",
+      "imposters": [
+        {
+          "word": "Ente Ammo",
+          "wordMal": "എന്റെ അമ്മോ",
+          "relationEN": "Both are spontaneous Malayalam exclamations used in moments of shock or sudden realization.",
+          "relationML": "രണ്ടും പെട്ടെന്നുള്ള ഞെട്ടലോ അമ്പരപ്പോ പ്രകടിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന വാക്കുകളാണ്."
+        },
+        {
+          "word": "Kashtam",
+          "wordMal": "കഷ്ടം",
+          "relationEN": "Both express dismay or a sense of tragedy when things go unexpectedly wrong.",
+          "relationML": "കാര്യങ്ങൾ വിചാരിച്ച പോലെ നടക്കാതിരിക്കുമ്പോൾ ഉണ്ടാകുന്ന നിരാശ പ്രകടിപ്പിക്കാൻ രണ്ടും ഉപയോഗിക്കുന്നു."
+        }
+      ]
+    }
+  ],
+  "movies": [
+    {
+      "civWord": "Manichitrathazhu",
+      "civWordMal": "മണിച്ചിത്രത്താഴ്",
+      "imposters": [
+        {
+          "word": "Anandabhadram",
+          "wordMal": "അനന്തഭദ്രം",
+          "relationEN": "Both are iconic Malayalam movies dealing with ancient family secrets, mysticism, and dark legends in a grand old house.",
+          "relationML": "രണ്ടും പഴയ തറവാടുകളിലെ രഹസ്യങ്ങളും നിഗൂഢതകളും പറയുന്ന പ്രശസ്ത മലയാള ചിത്രങ്ങളാണ്."
+        },
+        {
+          "word": "Aakasha Ganga",
+          "wordMal": "ആകാശഗംഗ",
+          "relationEN": "Both feature a vengeful spirit storyline tied to a historic household, blurring the line between myth and reality.",
+          "relationML": "രണ്ടും ഒരു തറവാടിനെ ചുറ്റിപ്പറ്റിയുള്ള പ്രതികാര ദാഹിയായ ആത്മാവിന്റെ കഥ പറയുന്നു."
+        }
+      ]
+    }
+  ]
+}

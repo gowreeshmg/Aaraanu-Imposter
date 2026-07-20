@@ -1,0 +1,477 @@
+{
+  "intl_famous_people": {
+    "name": "Famous People",
+    "words": [
+      [
+        "Albert Einstein",
+        "",
+        "Isaac Newton",
+        ""
+      ],
+      [
+        "Leonardo da Vinci",
+        "",
+        "Michelangelo",
+        ""
+      ],
+      [
+        "Shakespeare",
+        "",
+        "Charles Dickens",
+        ""
+      ],
+      [
+        "Napoleon",
+        "",
+        "Julius Caesar",
+        ""
+      ],
+      [
+        "Mahatma Gandhi",
+        "",
+        "Nelson Mandela",
+        ""
+      ],
+      [
+        "Abraham Lincoln",
+        "",
+        "Winston Churchill",
+        ""
+      ],
+      [
+        "Cleopatra",
+        "",
+        "Joan of Arc",
+        ""
+      ],
+      [
+        "Mozart",
+        "",
+        "Beethoven",
+        ""
+      ],
+      [
+        "Nikola Tesla",
+        "",
+        "Thomas Edison",
+        ""
+      ],
+      [
+        "Sigmund Freud",
+        "",
+        "Carl Jung",
+        ""
+      ],
+      [
+        "Charles Darwin",
+        "",
+        "Marie Curie",
+        ""
+      ],
+      [
+        "Pablo Picasso",
+        "",
+        "Salvador Dalí",
+        ""
+      ],
+      [
+        "Alexander the Great",
+        "",
+        "Genghis Khan",
+        ""
+      ],
+      [
+        "Martin Luther King",
+        "",
+        "Malcolm X",
+        ""
+      ],
+      [
+        "Stephen Hawking",
+        "",
+        "Richard Feynman",
+        ""
+      ]
+    ]
+  },
+  "intl_common_objects": {
+    "name": "Everyday Objects",
+    "words": [
+      [
+        "Phone",
+        "",
+        "Tablet",
+        ""
+      ],
+      [
+        "Chair",
+        "",
+        "Sofa",
+        ""
+      ],
+      [
+        "Laptop",
+        "",
+        "Desktop Computer",
+        ""
+      ],
+      [
+        "Umbrella",
+        "",
+        "Raincoat",
+        ""
+      ],
+      [
+        "Toothbrush",
+        "",
+        "Toothpaste",
+        ""
+      ],
+      [
+        "Clock",
+        "",
+        "Watch",
+        ""
+      ],
+      [
+        "Mirror",
+        "",
+        "Window",
+        ""
+      ],
+      [
+        "Pillow",
+        "",
+        "Blanket",
+        ""
+      ],
+      [
+        "Key",
+        "",
+        "Lock",
+        ""
+      ],
+      [
+        "Pen",
+        "",
+        "Pencil",
+        ""
+      ],
+      [
+        "Book",
+        "",
+        "Notebook",
+        ""
+      ],
+      [
+        "Glasses",
+        "",
+        "Contact Lens",
+        ""
+      ],
+      [
+        "Wallet",
+        "",
+        "Purse",
+        ""
+      ],
+      [
+        "Fork",
+        "",
+        "Spoon",
+        ""
+      ],
+      [
+        "Candle",
+        "",
+        "Torch",
+        ""
+      ]
+    ]
+  },
+  "intl_nature": {
+    "name": "Nature",
+    "words": [
+      [
+        "Ocean",
+        "",
+        "Sea",
+        ""
+      ],
+      [
+        "Forest",
+        "",
+        "Jungle",
+        ""
+      ],
+      [
+        "Mountain",
+        "",
+        "Hill",
+        ""
+      ],
+      [
+        "River",
+        "",
+        "Lake",
+        ""
+      ],
+      [
+        "Desert",
+        "",
+        "Savanna",
+        ""
+      ],
+      [
+        "Volcano",
+        "",
+        "Earthquake",
+        ""
+      ],
+      [
+        "Rainbow",
+        "",
+        "Aurora",
+        ""
+      ],
+      [
+        "Storm",
+        "",
+        "Hurricane",
+        ""
+      ],
+      [
+        "Coral Reef",
+        "",
+        "Kelp Forest",
+        ""
+      ],
+      [
+        "Waterfall",
+        "",
+        "Geyser",
+        ""
+      ],
+      [
+        "Glacier",
+        "",
+        "Iceberg",
+        ""
+      ],
+      [
+        "Canyon",
+        "",
+        "Gorge",
+        ""
+      ],
+      [
+        "Meadow",
+        "",
+        "Prairie",
+        ""
+      ],
+      [
+        "Cave",
+        "",
+        "Cavern",
+        ""
+      ],
+      [
+        "Swamp",
+        "",
+        "Marsh",
+        ""
+      ]
+    ]
+  },
+  "intl_disney": {
+    "name": "Disney & Animation",
+    "words": [
+      [
+        "Simba",
+        "",
+        "Mufasa",
+        ""
+      ],
+      [
+        "Elsa",
+        "",
+        "Anna",
+        ""
+      ],
+      [
+        "Moana",
+        "",
+        "Maui",
+        ""
+      ],
+      [
+        "Mulan",
+        "",
+        "Pocahontas",
+        ""
+      ],
+      [
+        "Aladdin",
+        "",
+        "Genie",
+        ""
+      ],
+      [
+        "Shrek",
+        "",
+        "Donkey",
+        ""
+      ],
+      [
+        "Woody",
+        "",
+        "Buzz Lightyear",
+        ""
+      ],
+      [
+        "Nemo",
+        "",
+        "Marlin",
+        ""
+      ],
+      [
+        "Rapunzel",
+        "",
+        "Flynn Rider",
+        ""
+      ],
+      [
+        "Belle",
+        "",
+        "Beast",
+        ""
+      ],
+      [
+        "Cinderella",
+        "",
+        "Snow White",
+        ""
+      ],
+      [
+        "Bambi",
+        "",
+        "Dumbo",
+        ""
+      ],
+      [
+        "Pinocchio",
+        "",
+        "Jiminy Cricket",
+        ""
+      ],
+      [
+        "Tarzan",
+        "",
+        "Jane",
+        ""
+      ],
+      [
+        "Stitch",
+        "",
+        "Lilo",
+        ""
+      ]
+    ]
+  },
+  "intl_places": {
+    "name": "Famous Places",
+    "words": [
+      [
+        "Eiffel Tower",
+        "",
+        "Big Ben",
+        ""
+      ],
+      [
+        "Colosseum",
+        "",
+        "Pantheon",
+        ""
+      ],
+      [
+        "Taj Mahal",
+        "",
+        "Qutub Minar",
+        ""
+      ],
+      [
+        "Great Wall",
+        "",
+        "Forbidden City",
+        ""
+      ],
+      [
+        "Statue of Liberty",
+        "",
+        "Golden Gate Bridge",
+        ""
+      ],
+      [
+        "Sydney Opera House",
+        "",
+        "Harbour Bridge",
+        ""
+      ],
+      [
+        "Machu Picchu",
+        "",
+        "Chichen Itza",
+        ""
+      ],
+      [
+        "Stonehenge",
+        "",
+        "Avebury",
+        ""
+      ],
+      [
+        "Niagara Falls",
+        "",
+        "Victoria Falls",
+        ""
+      ],
+      [
+        "Angkor Wat",
+        "",
+        "Borobudur",
+        ""
+      ],
+      [
+        "Alhambra",
+        "",
+        "Sagrada Familia",
+        ""
+      ],
+      [
+        "Mount Everest",
+        "",
+        "K2",
+        ""
+      ],
+      [
+        "Amazon River",
+        "",
+        "Nile River",
+        ""
+      ],
+      [
+        "Grand Canyon",
+        "",
+        "Bryce Canyon",
+        ""
+      ],
+      [
+        "Times Square",
+        "",
+        "Piccadilly Circus",
+        ""
+      ]
+    ]
+  }
+}

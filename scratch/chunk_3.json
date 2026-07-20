@@ -1,0 +1,602 @@
+{
+  "intl_food": {
+    "name": "Famous Foods",
+    "words": [
+      [
+        "Pizza",
+        "",
+        "Burger",
+        ""
+      ],
+      [
+        "Sushi",
+        "",
+        "Ramen",
+        ""
+      ],
+      [
+        "Tacos",
+        "",
+        "Burritos",
+        ""
+      ],
+      [
+        "Pasta",
+        "",
+        "Lasagna",
+        ""
+      ],
+      [
+        "Steak",
+        "",
+        "Lamb Chops",
+        ""
+      ],
+      [
+        "Fried Chicken",
+        "",
+        "Grilled Chicken",
+        ""
+      ],
+      [
+        "French Fries",
+        "",
+        "Onion Rings",
+        ""
+      ],
+      [
+        "Cheesecake",
+        "",
+        "Tiramisu",
+        ""
+      ],
+      [
+        "Donuts",
+        "",
+        "Waffles",
+        ""
+      ],
+      [
+        "Croissant",
+        "",
+        "Baguette",
+        ""
+      ],
+      [
+        "Pancakes",
+        "",
+        "Crepes",
+        ""
+      ],
+      [
+        "Hot Dog",
+        "",
+        "Sandwich",
+        ""
+      ],
+      [
+        "Spaghetti",
+        "",
+        "Fettuccine",
+        ""
+      ],
+      [
+        "Chocolate Cake",
+        "",
+        "Brownies",
+        ""
+      ],
+      [
+        "Ice Cream",
+        "",
+        "Gelato",
+        ""
+      ],
+      [
+        "Tacos",
+        "",
+        "Quesadillas",
+        ""
+      ],
+      [
+        "Nachos",
+        "",
+        "Fajitas",
+        ""
+      ],
+      [
+        "Pancakes",
+        "",
+        "Waffles",
+        ""
+      ],
+      [
+        "Fried Chicken",
+        "",
+        "Chicken Nuggets",
+        ""
+      ],
+      [
+        "Macaroni and Cheese",
+        "",
+        "Spaghetti Bolognese",
+        ""
+      ]
+    ]
+  },
+  "intl_animals": {
+    "name": "Animals",
+    "words": [
+      [
+        "Lion",
+        "",
+        "Tiger",
+        ""
+      ],
+      [
+        "Eagle",
+        "",
+        "Hawk",
+        ""
+      ],
+      [
+        "Dolphin",
+        "",
+        "Shark",
+        ""
+      ],
+      [
+        "Elephant",
+        "",
+        "Rhinoceros",
+        ""
+      ],
+      [
+        "Cheetah",
+        "",
+        "Leopard",
+        ""
+      ],
+      [
+        "Wolf",
+        "",
+        "Fox",
+        ""
+      ],
+      [
+        "Gorilla",
+        "",
+        "Chimpanzee",
+        ""
+      ],
+      [
+        "Penguin",
+        "",
+        "Polar Bear",
+        ""
+      ],
+      [
+        "Crocodile",
+        "",
+        "Alligator",
+        ""
+      ],
+      [
+        "Parrot",
+        "",
+        "Toucan",
+        ""
+      ],
+      [
+        "Giraffe",
+        "",
+        "Zebra",
+        ""
+      ],
+      [
+        "Kangaroo",
+        "",
+        "Wallaby",
+        ""
+      ],
+      [
+        "Octopus",
+        "",
+        "Squid",
+        ""
+      ],
+      [
+        "Python",
+        "",
+        "Cobra",
+        ""
+      ],
+      [
+        "Peacock",
+        "",
+        "Flamingo",
+        ""
+      ]
+    ]
+  },
+  "intl_sports": {
+    "name": "Sports",
+    "words": [
+      [
+        "Football",
+        "",
+        "Rugby",
+        ""
+      ],
+      [
+        "Basketball",
+        "",
+        "Volleyball",
+        ""
+      ],
+      [
+        "Tennis",
+        "",
+        "Badminton",
+        ""
+      ],
+      [
+        "Cricket",
+        "",
+        "Baseball",
+        ""
+      ],
+      [
+        "Swimming",
+        "",
+        "Diving",
+        ""
+      ],
+      [
+        "Boxing",
+        "",
+        "Wrestling",
+        ""
+      ],
+      [
+        "Golf",
+        "",
+        "Polo",
+        ""
+      ],
+      [
+        "Skiing",
+        "",
+        "Snowboarding",
+        ""
+      ],
+      [
+        "Cycling",
+        "",
+        "Triathlon",
+        ""
+      ],
+      [
+        "Gymnastics",
+        "",
+        "Figure Skating",
+        ""
+      ],
+      [
+        "Archery",
+        "",
+        "Fencing",
+        ""
+      ],
+      [
+        "Surfing",
+        "",
+        "Skateboarding",
+        ""
+      ],
+      [
+        "Table Tennis",
+        "",
+        "Squash",
+        ""
+      ],
+      [
+        "Marathon",
+        "",
+        "Sprinting",
+        ""
+      ],
+      [
+        "Weightlifting",
+        "",
+        "Powerlifting",
+        ""
+      ]
+    ]
+  },
+  "intl_countries": {
+    "name": "Countries",
+    "words": [
+      [
+        "France",
+        "",
+        "Italy",
+        ""
+      ],
+      [
+        "Japan",
+        "",
+        "South Korea",
+        ""
+      ],
+      [
+        "Brazil",
+        "",
+        "Argentina",
+        ""
+      ],
+      [
+        "Germany",
+        "",
+        "Austria",
+        ""
+      ],
+      [
+        "Spain",
+        "",
+        "Portugal",
+        ""
+      ],
+      [
+        "Australia",
+        "",
+        "New Zealand",
+        ""
+      ],
+      [
+        "Canada",
+        "",
+        "United States",
+        ""
+      ],
+      [
+        "Egypt",
+        "",
+        "Morocco",
+        ""
+      ],
+      [
+        "Russia",
+        "",
+        "Ukraine",
+        ""
+      ],
+      [
+        "China",
+        "",
+        "Vietnam",
+        ""
+      ],
+      [
+        "Mexico",
+        "",
+        "Colombia",
+        ""
+      ],
+      [
+        "Greece",
+        "",
+        "Turkey",
+        ""
+      ],
+      [
+        "Switzerland",
+        "",
+        "Netherlands",
+        ""
+      ],
+      [
+        "Sweden",
+        "",
+        "Norway",
+        ""
+      ],
+      [
+        "South Africa",
+        "",
+        "Kenya",
+        ""
+      ]
+    ]
+  },
+  "intl_video_games": {
+    "name": "Video Game Characters",
+    "words": [
+      [
+        "Mario",
+        "",
+        "Luigi",
+        ""
+      ],
+      [
+        "Link",
+        "",
+        "Zelda",
+        ""
+      ],
+      [
+        "Master Chief",
+        "",
+        "Doomguy",
+        ""
+      ],
+      [
+        "Kratos",
+        "",
+        "Ares",
+        ""
+      ],
+      [
+        "Sonic",
+        "",
+        "Tails",
+        ""
+      ],
+      [
+        "Pikachu",
+        "",
+        "Charizard",
+        ""
+      ],
+      [
+        "Cloud Strife",
+        "",
+        "Sephiroth",
+        ""
+      ],
+      [
+        "Lara Croft",
+        "",
+        "Nathan Drake",
+        ""
+      ],
+      [
+        "Geralt of Rivia",
+        "",
+        "Arthur Morgan",
+        ""
+      ],
+      [
+        "Solid Snake",
+        "",
+        "Liquid Snake",
+        ""
+      ],
+      [
+        "Banjo",
+        "",
+        "Kazooie",
+        ""
+      ],
+      [
+        "Samus Aran",
+        "",
+        "Megaman",
+        ""
+      ],
+      [
+        "Ryu",
+        "",
+        "Ken",
+        ""
+      ],
+      [
+        "Donkey Kong",
+        "",
+        "Diddy Kong",
+        ""
+      ],
+      [
+        "Pac-Man",
+        "",
+        "Blinky",
+        ""
+      ]
+    ]
+  },
+  "intl_music": {
+    "name": "Music & Bands",
+    "words": [
+      [
+        "Beatles",
+        "",
+        "Rolling Stones",
+        ""
+      ],
+      [
+        "Michael Jackson",
+        "",
+        "Prince",
+        ""
+      ],
+      [
+        "Elvis Presley",
+        "",
+        "Frank Sinatra",
+        ""
+      ],
+      [
+        "Madonna",
+        "",
+        "Beyoncé",
+        ""
+      ],
+      [
+        "Freddie Mercury",
+        "",
+        "David Bowie",
+        ""
+      ],
+      [
+        "Eminem",
+        "",
+        "Jay-Z",
+        ""
+      ],
+      [
+        "Taylor Swift",
+        "",
+        "Adele",
+        ""
+      ],
+      [
+        "Ed Sheeran",
+        "",
+        "Bruno Mars",
+        ""
+      ],
+      [
+        "Metallica",
+        "",
+        "Iron Maiden",
+        ""
+      ],
+      [
+        "Pink Floyd",
+        "",
+        "Led Zeppelin",
+        ""
+      ],
+      [
+        "Bob Dylan",
+        "",
+        "Johnny Cash",
+        ""
+      ],
+      [
+        "Nirvana",
+        "",
+        "Pearl Jam",
+        ""
+      ],
+      [
+        "Daft Punk",
+        "",
+        "Coldplay",
+        ""
+      ],
+      [
+        "ABBA",
+        "",
+        "Bee Gees",
+        ""
+      ],
+      [
+        "Queen",
+        "",
+        "Guns N Roses",
+        ""
+      ]
+    ]
+  }
+}

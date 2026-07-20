@@ -4,7 +4,7 @@ var packs = [
   {
     "id": "funny",
     "name": "Funny Malayalam",
-    "icon": "??",
+    "icon": "😂",
     "words": [
       {
         "civWord": "Pwoli",
@@ -13,14 +13,14 @@ var packs = [
           {
             "word": "Kidu",
             "wordMal": "കിടു",
-            "relationEN": "Both Pwoli and Kidu are popular Malayalam slang words used by youth to express that something is extraordinarily awesome or excellent.",
-            "relationML": "പൊളിയും കിടുവും യുവാക്കൾക്കിടയിൽ വളരെ മികച്ചതോ അതിശയകരമായതോ ആയ കാര്യങ്ങളെ വിശേഷിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന ജനപ്രിയ മലയാളം സ്ലാംഗ് വാക്കുകളാണ്."
+            "relationEN": "Both are popular slang words used to express that something is extraordinarily awesome.",
+            "relationML": "രണ്ടും വളരെ മികച്ചതിനെ വിശേഷിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന ജനപ്രിയ വാക്കുകളാണ്."
           },
           {
             "word": "Adipoli",
             "wordMal": "അടിപൊളി",
-            "relationEN": "Both Pwoli and Adipoli are colloquial Malayalam expressions used to describe an event, place, or thing that is remarkably fantastic or enjoyable.",
-            "relationML": "ഒരു സംഭവത്തെയോ സ്ഥലത്തെയോ വസ്തുവിനെയോ വളരെ മികച്ചതോ ആസ്വാദ്യകരമോ എന്ന് വിശേഷിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന സാധാരണ മലയാളം പ്രയോഗങ്ങളാണ് പൊളിയും അടിപൊളിയും."
+            "relationEN": "Both are enthusiastic expressions for a fantastic experience.",
+            "relationML": "രണ്ടും ഒരു നല്ല അനുഭവത്തെ സൂചിപ്പിക്കുന്ന വാക്കുകളാണ്."
           }
         ]
       },
@@ -31,14 +31,122 @@ var packs = [
           {
             "word": "Ente Ammo",
             "wordMal": "എന്റെ അമ്മോ",
-            "relationEN": "Both Ayyayyo and Ente Ammo are spontaneous Malayalam exclamations commonly blurted out in moments of sudden pain, intense shock, or deep fear.",
-            "relationML": "പെട്ടെന്നുള്ള വേദനയോ കടുത്ത ഞെട്ടലോ അഗാധമായ ഭയമോ ഉണ്ടാകുമ്പോൾ സ്വാഭാവികമായി പുറത്തുവരുന്ന മലയാളം ആശ്ചര്യപ്രകടനങ്ങളാണ് അയ്യയ്യോ, എൻ്റെ അമ്മോ എന്നിവ."
+            "relationEN": "Both are spontaneous exclamations used in moments of sudden shock or fear.",
+            "relationML": "രണ്ടും പെട്ടെന്നുള്ള ഞെട്ടലോ ഭയമോ പ്രകടിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന വാക്കുകളാണ്."
           },
           {
             "word": "Kashtam",
             "wordMal": "കഷ്ടം",
-            "relationEN": "Both Ayyayyo and Kashtam are everyday Malayalam expressions used to express pity, sorrow, or sympathy upon hearing about someone's misfortune or a tragic event.",
-            "relationML": "ഒരാളുടെ ദുരവസ്ഥയോ ദാരുണമായ സംഭവമോ കേൾക്കുമ്പോൾ സഹതാപമോ സങ്കടമോ പ്രകടിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന ദൈനംദിന മലയാളം പ്രയോഗങ്ങളാണ് അയ്യയ്യോ, കഷ്ടം എന്നിവ."
+            "relationEN": "Both express dismay or a sense of tragedy.",
+            "relationML": "കാര്യങ്ങൾ വിചാരിച്ച പോലെ നടക്കാതിരിക്കുമ്പോൾ ഉപയോഗിക്കുന്ന വാക്കുകളാണ് രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Scene illa",
+        "civWordMal": "സീൻ ഇല്ല",
+        "imposters": [
+          {
+            "word": "Chill",
+            "wordMal": "ചിൽ",
+            "relationEN": "Both phrases mean that there is no problem and everything is relaxed.",
+            "relationML": "ഒരു പ്രശ്നവുമില്ലെന്നും എല്ലാം സമാധാനത്തിലാണെന്നും രണ്ടും അർത്ഥമാക്കുന്നു."
+          },
+          {
+            "word": "Cool",
+            "wordMal": "കൂൾ",
+            "relationEN": "Both are used to tell someone to calm down and not worry.",
+            "relationML": "വിഷമിക്കേണ്ട എന്ന് പറയാൻ ഉപയോഗിക്കുന്ന വാക്കുകളാണ് രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Thallal",
+        "civWordMal": "തള്ളൽ",
+        "imposters": [
+          {
+            "word": "Pucham",
+            "wordMal": "പുച്ഛം",
+            "relationEN": "Both describe negative social behaviors - boasting and showing contempt.",
+            "relationML": "രണ്ടും മറ്റുള്ളവരോടുള്ള മോശം പെരുമാറ്റത്തെ സൂചിപ്പിക്കുന്നു."
+          },
+          {
+            "word": "Jada",
+            "wordMal": "ജാഡ",
+            "relationEN": "Both are used to criticize someone who is showing off or acting superior.",
+            "relationML": "അഹങ്കാരം കാണിക്കുന്നവരെ വിമർശിക്കാൻ ഉപയോഗിക്കുന്ന വാക്കുകളാണ് രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Kidu",
+        "civWordMal": "കിടു",
+        "imposters": [
+          {
+            "word": "Mass",
+            "wordMal": "മാസ്സ്",
+            "relationEN": "Both terms describe something incredibly impressive or stylish.",
+            "relationML": "രണ്ടും വളരെ ആകർഷകമായ കാര്യങ്ങളെ വിശേഷിപ്പിക്കുന്നു."
+          },
+          {
+            "word": "Super",
+            "wordMal": "സൂപ്പർ",
+            "relationEN": "Both are very common words of high praise.",
+            "relationML": "രണ്ടും ഒന്നിനെ പുകഴ്ത്താൻ ഉപയോഗിക്കുന്ന വാക്കുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Adipoli",
+        "civWordMal": "അടിപൊളി",
+        "imposters": [
+          {
+            "word": "Pwoli",
+            "wordMal": "പൊളി",
+            "relationEN": "Both are the most common words to say something is excellent.",
+            "relationML": "ഒന്ന് വളരെ മികച്ചതാണെന്ന് പറയാൻ ഉപയോഗിക്കുന്ന സാധാരണ വാക്കുകൾ."
+          },
+          {
+            "word": "Kiduve",
+            "wordMal": "കിടുവെ",
+            "relationEN": "Both are enthusiastic slang terms for great things.",
+            "relationML": "നല്ല കാര്യങ്ങളെ ആവേശത്തോടെ വിളിക്കുന്ന പേരുകൾ."
+          }
+        ]
+      },
+      {
+        "civWord": "Poli Scene",
+        "civWordMal": "പൊളി സീൻ",
+        "imposters": [
+          {
+            "word": "Mass Entry",
+            "wordMal": "മാസ്സ് എൻട്രി",
+            "relationEN": "Both describe a very exciting or cinematic moment.",
+            "relationML": "രണ്ടും വളരെ ആവേശകരമായ ഒരു നിമിഷത്തെ വിശേഷിപ്പിക്കുന്നു."
+          },
+          {
+            "word": "Kidu Item",
+            "wordMal": "കിടു ഐറ്റം",
+            "relationEN": "Both refer to a highlight or an excellent occurrence.",
+            "relationML": "വളരെ മികച്ച ഒരു സംഭവത്തെ സൂചിപ്പിക്കുന്നു."
+          }
+        ]
+      },
+      {
+        "civWord": "Sadhanam Kayyil Undo",
+        "civWordMal": "സാധനം കയ്യിൽ ഉണ്ടോ",
+        "imposters": [
+          {
+            "word": "Ramanan",
+            "wordMal": "രമണൻ",
+            "relationEN": "Both are iconic pop culture references from classic Malayalam comedy movies.",
+            "relationML": "രണ്ടും പ്രശസ്തമായ മലയാളം കോമഡി സിനിമകളിലെ സംഭാഷണങ്ങളാണ്."
+          },
+          {
+            "word": "Kalyana Raman",
+            "wordMal": "കല്യാണ രാമൻ",
+            "relationEN": "Both evoke nostalgia for vintage Malayalam humor.",
+            "relationML": "രണ്ടും പഴയകാല മലയാളം തമാശകളെ ഓർമ്മിപ്പിക്കുന്നു."
           }
         ]
       }
@@ -47,7 +155,7 @@ var packs = [
   {
     "id": "movies",
     "name": "Movies",
-    "icon": "??",
+    "icon": "🎬",
     "words": [
       {
         "civWord": "Manichitrathazhu",
@@ -56,14 +164,86 @@ var packs = [
           {
             "word": "Anandabhadram",
             "wordMal": "അനന്തഭദ്രം",
-            "relationEN": "Both Manichitrathazhu and Anandabhadram are classic Malayalam supernatural thrillers set in ancient ancestral mansions revolving around myths, dark magic, and folklore.",
-            "relationML": "പുരാതന തറവാടുകളുടെ പശ്ചാത്തലത്തിൽ മിത്തുകളെയും ദുർമന്ത്രവാദത്തെയും നാടോടിക്കഥകളെയും ചുറ്റിപ്പറ്റി നടക്കുന്ന ക്ലാസിക് മലയാളം അമാനുഷിക ത്രില്ലറുകളാണ് മണിച്ചിത്രത്താഴും അനന്തഭദ്രവും."
+            "relationEN": "Both are classic supernatural thrillers set in ancient ancestral mansions.",
+            "relationML": "രണ്ടും പഴയ തറവാടുകളുടെ പശ്ചാത്തലത്തിലുള്ള അമാനുഷിക ത്രില്ലറുകളാണ്."
           },
           {
             "word": "Aakasha Ganga",
             "wordMal": "ആകാശഗംഗ",
-            "relationEN": "Both Manichitrathazhu and Aakasha Ganga are prominent Malayalam horror films featuring a vengeful female spirit possessing someone within a traditional Nair family setting.",
-            "relationML": "ഒരു പരമ്പരാഗത നായർ തറവാടിൻ്റെ പശ്ചാത്തലത്തിൽ ഒരാളിൽ പ്രവേശിക്കുന്ന പ്രതികാരദാഹിയായ ഒരു സ്ത്രീയുടെ ആത്മാവിനെ അവതരിപ്പിക്കുന്ന പ്രശസ്തമായ മലയാളം ഹൊറർ സിനിമകളാണ് മണിച്ചിത്രത്താഴും ആകാശഗംഗയും."
+            "relationEN": "Both feature vengeful female spirits possessing someone within a traditional family.",
+            "relationML": "രണ്ടും പ്രതികാരദാഹിയായ സ്ത്രീ ആത്മാക്കളെ കുറിച്ചുള്ള സിനിമകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Drishyam",
+        "civWordMal": "ദൃശ്യം",
+        "imposters": [
+          {
+            "word": "Memories",
+            "wordMal": "മെമ്മറീസ്",
+            "relationEN": "Both are highly acclaimed Malayalam suspense thrillers involving a police investigation.",
+            "relationML": "രണ്ടും പോലീസ് അന്വേഷണം ഉൾപ്പെടുന്ന മികച്ച മലയാളം ത്രില്ലറുകളാണ്."
+          },
+          {
+            "word": "Mumbai Police",
+            "wordMal": "മുംബൈ പോലീസ്",
+            "relationEN": "Both movies feature shocking twists and revolve around covering up a crime.",
+            "relationML": "രണ്ടും കുറ്റകൃത്യങ്ങൾ മറച്ചുവെക്കുന്നതിനെ കുറിച്ചുള്ള സിനിമകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kumbalangi Nights",
+        "civWordMal": "കുമ്പളങ്ങി നൈറ്റ്സ്",
+        "imposters": [
+          {
+            "word": "Maheshinte Prathikaaram",
+            "wordMal": "മഹേഷിന്റെ പ്രതികാരം",
+            "relationEN": "Both are realistic, critically acclaimed slice-of-life movies set in rural Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിലെ ഗ്രാമീണ ജീവിതം കാണിക്കുന്ന മികച്ച സിനിമകളാണ്."
+          },
+          {
+            "word": "Sudani from Nigeria",
+            "wordMal": "സുഡാനി ഫ്രം നൈജീരിയ",
+            "relationEN": "Both films beautifully portray human relationships and brotherhood.",
+            "relationML": "രണ്ടും മനുഷ്യബന്ധങ്ങളെയും സാഹോദര്യത്തെയും കുറിച്ചുള്ള സിനിമകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Bangalore Days",
+        "civWordMal": "ബാംഗ്ലൂർ ഡെയ്സ്",
+        "imposters": [
+          {
+            "word": "Premam",
+            "wordMal": "പ്രേമം",
+            "relationEN": "Both are blockbuster coming-of-age movies loved by the youth.",
+            "relationML": "രണ്ടും യുവാക്കൾക്കിടയിൽ വലിയ തരംഗമായ സിനിമകളാണ്."
+          },
+          {
+            "word": "Ohm Shanthi Oshaana",
+            "wordMal": "ഓം ശാന്തി ഓശാന",
+            "relationEN": "Both are lighthearted romantic comedies with a strong youth appeal.",
+            "relationML": "രണ്ടും രസകരമായ പ്രണയകഥകൾ പറയുന്ന സിനിമകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Premam",
+        "civWordMal": "പ്രേമം",
+        "imposters": [
+          {
+            "word": "Thattathin Marayathu",
+            "wordMal": "തട്ടത്തിൻ മറയത്ത്",
+            "relationEN": "Both are iconic romantic movies that became massive trendsetters in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിൽ വലിയ തരംഗമായ പ്രണയ സിനിമകളാണ്."
+          },
+          {
+            "word": "Hridayam",
+            "wordMal": "ഹൃദയം",
+            "relationEN": "Both movies show the different stages of love and coming-of-age in a man's life.",
+            "relationML": "രണ്ടും ഒരു വ്യക്തിയുടെ ജീവിതത്തിലെ വിവിധ പ്രണയഘട്ടങ്ങൾ കാണിക്കുന്നു."
           }
         ]
       }
@@ -72,7 +252,7 @@ var packs = [
   {
     "id": "bakery",
     "name": "Bakery & Snacks",
-    "icon": "??",
+    "icon": "🍞",
     "words": [
       {
         "civWord": "Chaya",
@@ -1382,7 +1562,7 @@ var packs = [
   {
     "id": "people",
     "name": "People",
-    "icon": "??",
+    "icon": "👥",
     "words": [
       {
         "civWord": "Mohanlal",
@@ -2692,7 +2872,7 @@ var packs = [
   {
     "id": "vehicles",
     "name": "Vehicles",
-    "icon": "??",
+    "icon": "🚗",
     "words": [
       {
         "civWord": "Aanavandi",
@@ -3347,7 +3527,7 @@ var packs = [
   {
     "id": "school",
     "name": "College & School",
-    "icon": "??",
+    "icon": "🎒",
     "words": [
       {
         "civWord": "Kalolsavam",
@@ -4002,7 +4182,7 @@ var packs = [
   {
     "id": "sports",
     "name": "Sports",
-    "icon": "?",
+    "icon": "⚽",
     "words": [
       {
         "civWord": "Football",
@@ -4657,7 +4837,7 @@ var packs = [
   {
     "id": "gulf",
     "name": "Gulf & NRI",
-    "icon": "??",
+    "icon": "✈️",
     "words": [
       {
         "civWord": "Pravasi",
@@ -7681,7 +7861,7 @@ const intlPacks = [
   {
     "id": "intl_disney",
     "name": "Disney & Animation",
-    "icon": "?",
+    "icon": "??",
     "words": [
       {
         "civWord": "Simba",
@@ -7958,7 +8138,7 @@ const intlPacks = [
   {
     "id": "intl_places",
     "name": "Famous Places",
-    "icon": "???",
+    "icon": "??",
     "words": [
       {
         "civWord": "Eiffel Tower",

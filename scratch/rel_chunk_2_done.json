@@ -1,0 +1,1312 @@
+[
+  {
+    "id": "people",
+    "name": "People",
+    "icon": "??",
+    "words": [
+      {
+        "civWord": "Mohanlal",
+        "civWordMal": "മോഹൻലാൽ",
+        "imposters": [
+          {
+            "word": "Mammootty",
+            "wordMal": "മമ്മൂട്ടി",
+            "relationEN": "Both are legendary Malayalam superstars who dominated Kerala cinema for four decades and are often compared as rivals.",
+            "relationML": "മോഹൻലാലും മമ്മൂട്ടിയും നാല് ദശകങ്ങളായി കേരള സിനിമ ആധിപത്യം പുലർത്തുന്ന, ഇതിഹാസ മലയാള സൂപ്പർതാരങ്ങളാണ്."
+          },
+          {
+            "word": "Mammootty",
+            "wordMal": "മമ്മൂട്ടി",
+            "relationEN": "Both are legendary Malayalam superstars who dominated Kerala cinema for four decades and are often compared as rivals.",
+            "relationML": "മോഹൻലാലും മമ്മൂട്ടിയും നാല് ദശകങ്ങളായി കേരള സിനിമ ആധിപത്യം പുലർത്തുന്ന, ഇതിഹാസ മലയാള സൂപ്പർതാരങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Mammootty",
+        "civWordMal": "മമ്മൂട്ടി",
+        "imposters": [
+          {
+            "word": "Mohanlal",
+            "wordMal": "മോഹൻലാൽ",
+            "relationEN": "Both are legendary Malayalam film superstars famous for versatile acting and commanding screen presence.",
+            "relationML": "മമ്മൂട്ടിയും മോഹൻലാലും ഒരേ ചലച്ചിത്ര ഇതിഹാസ, മലയാള സൂപ്പർതാരങ്ങളാണ്."
+          },
+          {
+            "word": "Mohanlal",
+            "wordMal": "മോഹൻലാൽ",
+            "relationEN": "Both are legendary Malayalam film superstars famous for versatile acting and commanding screen presence.",
+            "relationML": "മമ്മൂട്ടിയും മോഹൻലാലും ഒരേ ചലച്ചിത്ര ഇതിഹാസ, മലയാള സൂപ്പർതാരങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Manju Warrier",
+        "civWordMal": "മഞ്ജു വാര്യർ",
+        "imposters": [
+          {
+            "word": "Kavya Madhavan",
+            "wordMal": "കാവ്യാ മാധവൻ",
+            "relationEN": "Both are prominent Malayalam actresses who made a comeback after personal life breaks and starred in hit films.",
+            "relationML": "മഞ്ജു വാര്യരും കാവ്യ മാധവനും ഒരേ, ഒടിഞ്ഞ ജീവിതം ശേഷം ഒരേ, ജനപ്രിയ മലയാള ചലച്ചിത്ര താരങ്ങളാണ്."
+          },
+          {
+            "word": "Kavya Madhavan",
+            "wordMal": "കാവ്യാ മാധവൻ",
+            "relationEN": "Both are prominent Malayalam actresses who made a comeback after personal life breaks and starred in hit films.",
+            "relationML": "മഞ്ജു വാര്യരും കാവ്യ മാധവനും ഒരേ, ഒടിഞ്ഞ ജീവിതം ശേഷം ഒരേ, ജനപ്രിയ മലയാള ചലച്ചിത്ര താരങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Fahadh Faasil",
+        "civWordMal": "ഫഹദ് ഫാസിൽ",
+        "imposters": [
+          {
+            "word": "Dulquer Salmaan",
+            "wordMal": "ദുൽഖർ സൽമാൻ",
+            "relationEN": "Both are next-generation Malayalam actors known for intense, nuanced performances in critically acclaimed art-house films.",
+            "relationML": "ഫഹദ് ഫാസിലും ദുൽക്കർ സൽമാനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Dulquer Salmaan",
+            "wordMal": "ദുൽഖർ സൽമാൻ",
+            "relationEN": "Both are next-generation Malayalam actors known for intense, nuanced performances in critically acclaimed art-house films.",
+            "relationML": "ഫഹദ് ഫാസിലും ദുൽക്കർ സൽമാനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Shobana",
+        "civWordMal": "ശോഭന",
+        "imposters": [
+          {
+            "word": "Manju Warrier",
+            "wordMal": "മഞ്ജു വാര്യർ",
+            "relationEN": "Both are acclaimed South Indian actresses who are also recognized as accomplished classical dancers.",
+            "relationML": "ശോഭനയും മഞ്ജു വാര്യരും ഒരേ, ദക്ഷിണ ഇന്ത്യ ചലച്ചിത്ര, ഒരേ, ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Manju Warrier",
+            "wordMal": "മഞ്ജു വാര്യർ",
+            "relationEN": "Both are acclaimed South Indian actresses who are also recognized as accomplished classical dancers.",
+            "relationML": "ശോഭനയും മഞ്ജു വാര്യരും ഒരേ, ദക്ഷിണ ഇന്ത്യ ചലച്ചിത്ര, ഒരേ, ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Dileep",
+        "civWordMal": "ദിലീപ്",
+        "imposters": [
+          {
+            "word": "Jayaram",
+            "wordMal": "ജയറാം",
+            "relationEN": "Both are popular Malayalam comedy-drama actors who built massive fan bases in the 1990s and 2000s.",
+            "relationML": "ദിലീപും ജയറാമും ഒരേ, 1990-കളിൽ, 2000-കളിൽ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Jayaram",
+            "wordMal": "ജയറാം",
+            "relationEN": "Both are popular Malayalam comedy-drama actors who built massive fan bases in the 1990s and 2000s.",
+            "relationML": "ദിലീപും ജയറാമും ഒരേ, 1990-കളിൽ, 2000-കളിൽ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Suresh Gopi",
+        "civWordMal": "സുരേഷ് ഗോപി",
+        "imposters": [
+          {
+            "word": "Biju Menon",
+            "wordMal": "ബിജു മേനോൻ",
+            "relationEN": "Both are popular Malayalam actors famous for their roles as strong police or political characters in mainstream films.",
+            "relationML": "സുരേഷ് ഗോപിയും ബിജു മേനോനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Biju Menon",
+            "wordMal": "ബിജു മേനോൻ",
+            "relationEN": "Both are popular Malayalam actors famous for their roles as strong police or political characters in mainstream films.",
+            "relationML": "സുരേഷ് ഗോപിയും ബിജു മേനോനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Prithviraj",
+        "civWordMal": "പൃഥ്വിരാജ്",
+        "imposters": [
+          {
+            "word": "Indrajith",
+            "wordMal": "ഇന്ദ്രജിത്ത്",
+            "relationEN": "Both are brothers who are popular Malayalam actors—Prithviraj is a lead action star and Indrajith plays strong supporting roles.",
+            "relationML": "പൃഥ്വിരാജും ഇന്ദ്രജിത്തും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Indrajith",
+            "wordMal": "ഇന്ദ്രജിത്ത്",
+            "relationEN": "Both are brothers who are popular Malayalam actors—Prithviraj is a lead action star and Indrajith plays strong supporting roles.",
+            "relationML": "പൃഥ്വിരാജും ഇന്ദ്രജിത്തും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Tovino Thomas",
+        "civWordMal": "ടൊവിനോ തോമസ്",
+        "imposters": [
+          {
+            "word": "Asif Ali",
+            "wordMal": "ആസിഫ് അലി",
+            "relationEN": "Both are young Malayalam actors who rose to fame in the 2010s with critically praised performance-driven films.",
+            "relationML": "ടോവിനോ തോമസും ആസിഫ് അലിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Asif Ali",
+            "wordMal": "ആസിഫ് അലി",
+            "relationEN": "Both are young Malayalam actors who rose to fame in the 2010s with critically praised performance-driven films.",
+            "relationML": "ടോവിനോ തോമസും ആസിഫ് അലിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Nivin Pauly",
+        "civWordMal": "നിവിൻ പോളി",
+        "imposters": [
+          {
+            "word": "Dulquer Salmaan",
+            "wordMal": "ദുൽഖർ സൽമാൻ",
+            "relationEN": "Both are leading young Malayalam stars of the 2010s generation known for their relatable boy-next-door image.",
+            "relationML": "നിവിൻ പോളിയും ദുൽക്കർ സൽമാനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Dulquer Salmaan",
+            "wordMal": "ദുൽഖർ സൽമാൻ",
+            "relationEN": "Both are leading young Malayalam stars of the 2010s generation known for their relatable boy-next-door image.",
+            "relationML": "നിവിൻ പോളിയും ദുൽക്കർ സൽമാനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kunchacko Boban",
+        "civWordMal": "കുഞ്ചാക്കോ ബോബൻ",
+        "imposters": [
+          {
+            "word": "Jayasurya",
+            "wordMal": "ജയസൂര്യ",
+            "relationEN": "Both are popular Malayalam actors known for comedy roles who later transitioned to serious, dramatic performances.",
+            "relationML": "കുഞ്ചാക്കോ ബോബനും ജയസൂര്യയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Jayasurya",
+            "wordMal": "ജയസൂര്യ",
+            "relationEN": "Both are popular Malayalam actors known for comedy roles who later transitioned to serious, dramatic performances.",
+            "relationML": "കുഞ്ചാക്കോ ബോബനും ജയസൂര്യയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Jayaram",
+        "civWordMal": "ജയറാം",
+        "imposters": [
+          {
+            "word": "Dileep",
+            "wordMal": "ദിലീപ്",
+            "relationEN": "Both are popular Malayalam family-entertainer actors with a large audience base spanning multiple generations.",
+            "relationML": "ജയറാമും ദിലീപും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Dileep",
+            "wordMal": "ദിലീപ്",
+            "relationEN": "Both are popular Malayalam family-entertainer actors with a large audience base spanning multiple generations.",
+            "relationML": "ജയറാമും ദിലീപും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Jayasurya",
+        "civWordMal": "ജയസൂര്യ",
+        "imposters": [
+          {
+            "word": "Kunchacko Boban",
+            "wordMal": "കുഞ്ചാക്കോ ബോബൻ",
+            "relationEN": "Both are popular Malayalam actors of the 2000s who started in romantic comedies and evolved into serious film roles.",
+            "relationML": "ജയസൂര്യയും കുഞ്ചാക്കോ ബോബനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Kunchacko Boban",
+            "wordMal": "കുഞ്ചാക്കോ ബോബൻ",
+            "relationEN": "Both are popular Malayalam actors of the 2000s who started in romantic comedies and evolved into serious film roles.",
+            "relationML": "ജയസൂര്യയും കുഞ്ചാക്കോ ബോബനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Parvathy Thiruvothu",
+        "civWordMal": "പാർവതി തിരുവോത്ത്",
+        "imposters": [
+          {
+            "word": "Manju Warrier",
+            "wordMal": "മഞ്ജു വാര്യർ",
+            "relationEN": "Both are respected Malayalam actresses who champion women-centric stories and have won multiple state and national awards.",
+            "relationML": "പാർവ്വതി തിരുവോത്തും മഞ്ജു വാര്യരും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Manju Warrier",
+            "wordMal": "മഞ്ജു വാര്യർ",
+            "relationEN": "Both are respected Malayalam actresses who champion women-centric stories and have won multiple state and national awards.",
+            "relationML": "പാർവ്വതി തിരുവോത്തും മഞ്ജു വാര്യരും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Nazriya Nazim",
+        "civWordMal": "നസ്രിയ നസീം",
+        "imposters": [
+          {
+            "word": "Parvathy Thiruvothu",
+            "wordMal": "പാർവതി തിരുവോത്ത്",
+            "relationEN": "Both are celebrated young Malayalam actresses known for natural, expressive performances in critically acclaimed films.",
+            "relationML": "നസ്രിയ നസീമും പാർവ്വതി തിരുവോത്തും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Parvathy Thiruvothu",
+            "wordMal": "പാർവതി തിരുവോത്ത്",
+            "relationEN": "Both are celebrated young Malayalam actresses known for natural, expressive performances in critically acclaimed films.",
+            "relationML": "നസ്രിയ നസീമും പാർവ്വതി തിരുവോത്തും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Anaswara Rajan",
+        "civWordMal": "അനശ്വര രാജൻ",
+        "imposters": [
+          {
+            "word": "Mamitha Baiju",
+            "wordMal": "മമിത ബൈജു",
+            "relationEN": "Both are rising young Malayalam actresses who gained popularity through new-age Malayalam films targeting youth audiences.",
+            "relationML": "അനസ്വര രാജനും മമിത ബൈജുവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Mamitha Baiju",
+            "wordMal": "മമിത ബൈജു",
+            "relationEN": "Both are rising young Malayalam actresses who gained popularity through new-age Malayalam films targeting youth audiences.",
+            "relationML": "അനസ്വര രാജനും മമിത ബൈജുവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Aishwarya Lekshmi",
+        "civWordMal": "ഐശ്വര്യ ലക്ഷ്മി",
+        "imposters": [
+          {
+            "word": "Nazriya Nazim",
+            "wordMal": "നസ്രിയ നസീം",
+            "relationEN": "Both are popular young Malayalam actresses who have appeared in multiple OTT hits and are social media favourites.",
+            "relationML": "ഐശ്വര്യ ലക്ഷ്മിയും നസ്രിയ നസീമും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Nazriya Nazim",
+            "wordMal": "നസ്രിയ നസീം",
+            "relationEN": "Both are popular young Malayalam actresses who have appeared in multiple OTT hits and are social media favourites.",
+            "relationML": "ഐശ്വര്യ ലക്ഷ്മിയും നസ്രിയ നസീമും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Asif Ali",
+        "civWordMal": "ആസിഫ് അലി",
+        "imposters": [
+          {
+            "word": "Fahadh Faasil",
+            "wordMal": "ഫഹദ് ഫാസിൽ",
+            "relationEN": "Both are acclaimed young Malayalam actors known for unconventional roles in content-driven realistic films.",
+            "relationML": "ആസിഫ് അലിയും ഫഹദ് ഫാസിലും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Fahadh Faasil",
+            "wordMal": "ഫഹദ് ഫാസിൽ",
+            "relationEN": "Both are acclaimed young Malayalam actors known for unconventional roles in content-driven realistic films.",
+            "relationML": "ആസിഫ് അലിയും ഫഹദ് ഫാസിലും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Basil Joseph",
+        "civWordMal": "ബേസിൽ ജോസഫ്",
+        "imposters": [
+          {
+            "word": "Vineeth Sreenivasan",
+            "wordMal": "വിനീത് ശ്രീനിവാസൻ",
+            "relationEN": "Both are young Malayalam directors and actors who create feel-good coming-of-age films loved by younger audiences.",
+            "relationML": "ബേസിൽ ജോസഫും വിനീത് ശ്രീനിവാസനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Vineeth Sreenivasan",
+            "wordMal": "വിനീത് ശ്രീനിവാസൻ",
+            "relationEN": "Both are young Malayalam directors and actors who create feel-good coming-of-age films loved by younger audiences.",
+            "relationML": "ബേസിൽ ജോസഫും വിനീത് ശ്രീനിവാസനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Vineeth Sreenivasan",
+        "civWordMal": "വിനീത് ശ്രീനിവാസൻ",
+        "imposters": [
+          {
+            "word": "Basil Joseph",
+            "wordMal": "ബേസിൽ ജോസഫ്",
+            "relationEN": "Both are young creative Malayalam filmmakers who also act, sing, and write music for their own films.",
+            "relationML": "വിനീത് ശ്രീനിവാസനും ബേസിൽ ജോസഫും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Basil Joseph",
+            "wordMal": "ബേസിൽ ജോസഫ്",
+            "relationEN": "Both are young creative Malayalam filmmakers who also act, sing, and write music for their own films.",
+            "relationML": "വിനീത് ശ്രീനിവാസനും ബേസിൽ ജോസഫും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Dulquer Salmaan",
+        "civWordMal": "ദുൽഖർ സൽമാൻ",
+        "imposters": [
+          {
+            "word": "Nivin Pauly",
+            "wordMal": "നിവിൻ പോളി",
+            "relationEN": "Both are the leading faces of Malayalam cinema's millennial generation who gained huge pans through OTT platforms.",
+            "relationML": "ദുൽക്കർ സൽമാനും നിവിൻ പോളിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Nivin Pauly",
+            "wordMal": "നിവിൻ പോളി",
+            "relationEN": "Both are the leading faces of Malayalam cinema's millennial generation who gained huge pans through OTT platforms.",
+            "relationML": "ദുൽക്കർ സൽമാനും നിവിൻ പോളിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Suraj Venjaramoodu",
+        "civWordMal": "സുരാജ് വെഞ്ഞാറമൂട്",
+        "imposters": [
+          {
+            "word": "Salim Kumar",
+            "wordMal": "സലിം കുമാർ",
+            "relationEN": "Both are National Award-winning Malayalam character actors celebrated for their powerful comedic and dramatic performances.",
+            "relationML": "സുരാജ് വെഞ്ഞാറമൂടും സലിം കുമാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Salim Kumar",
+            "wordMal": "സലിം കുമാർ",
+            "relationEN": "Both are National Award-winning Malayalam character actors celebrated for their powerful comedic and dramatic performances.",
+            "relationML": "സുരാജ് വെഞ്ഞാറമൂടും സലിം കുമാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Jagathy Sreekumar",
+        "civWordMal": "ജഗതി ശ്രീകുമാർ",
+        "imposters": [
+          {
+            "word": "Innocent",
+            "wordMal": "ഇന്നസെന്റ്",
+            "relationEN": "Both are legendary Malayalam comedy actors who defined an era of slapstick humour in 1980s and 1990s cinema.",
+            "relationML": "ജഗതി ശ്രീകുമാറും ഇന്നസെന്റും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Innocent",
+            "wordMal": "ഇന്നസെന്റ്",
+            "relationEN": "Both are legendary Malayalam comedy actors who defined an era of slapstick humour in 1980s and 1990s cinema.",
+            "relationML": "ജഗതി ശ്രീകുമാറും ഇന്നസെന്റും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Innocent",
+        "civWordMal": "ഇന്നസെന്റ്",
+        "imposters": [
+          {
+            "word": "Jagathy",
+            "wordMal": "ജഗതി",
+            "relationEN": "Both are celebrated Malayalam comedy actors who appeared together in countless 1980s and 1990s hit films.",
+            "relationML": "ഇന്നസെന്റും ജഗതിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Jagathy",
+            "wordMal": "ജഗതി",
+            "relationEN": "Both are celebrated Malayalam comedy actors who appeared together in countless 1980s and 1990s hit films.",
+            "relationML": "ഇന്നസെന്റും ജഗതിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Soubin Shahir",
+        "civWordMal": "സൗബിൻ ഷാഹിർ",
+        "imposters": [
+          {
+            "word": "Sreenath Bhasi",
+            "wordMal": "ശ്രീനാഥ് ഭാസി",
+            "relationEN": "Both are young Malayalam character actors known for natural, realistic performances in urban-themed films.",
+            "relationML": "സൗബിൻ ഷാഹിറും ശ്രീനാഥ് ഭാസിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Sreenath Bhasi",
+            "wordMal": "ശ്രീനാഥ് ഭാസി",
+            "relationEN": "Both are young Malayalam character actors known for natural, realistic performances in urban-themed films.",
+            "relationML": "സൗബിൻ ഷാഹിറും ശ്രീനാഥ് ഭാസിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kalyani Priyadarshan",
+        "civWordMal": "കല്യാണി പ്രിയദർശൻ",
+        "imposters": [
+          {
+            "word": "Nazriya Nazim",
+            "wordMal": "നസ്രിയ നസീം",
+            "relationEN": "Both are popular young Malayalam actresses known for their fresh screen presence in feel-good films.",
+            "relationML": "കല്യാണി പ്രിയദർശനും നസ്രിയ നസീമും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Nazriya Nazim",
+            "wordMal": "നസ്രിയ നസീം",
+            "relationEN": "Both are popular young Malayalam actresses known for their fresh screen presence in feel-good films.",
+            "relationML": "കല്യാണി പ്രിയദർശനും നസ്രിയ നസീമും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "K. J. Yesudas",
+        "civWordMal": "കെ. ജെ. യേശുദാസ്",
+        "imposters": [
+          {
+            "word": "M. G. Sreekumar",
+            "wordMal": "എം ജി ശ്രീകുമാർ",
+            "relationEN": "Both are legendary Kerala playback singers with classical music training who dominated Malayalam film music.",
+            "relationML": "കെ.ജെ. യേശുദാസും എം.ജി. ശ്രീകുമാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "M. G. Sreekumar",
+            "wordMal": "എം ജി ശ്രീകുമാർ",
+            "relationEN": "Both are legendary Kerala playback singers with classical music training who dominated Malayalam film music.",
+            "relationML": "കെ.ജെ. യേശുദാസും എം.ജി. ശ്രീകുമാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "K. S. Chithra",
+        "civWordMal": "കെ. എസ്. ചിത്ര",
+        "imposters": [
+          {
+            "word": "Sujatha",
+            "wordMal": "സുജാത",
+            "relationEN": "Both are celebrated female playback singers from Kerala whose voices defined the golden era of Malayalam film songs.",
+            "relationML": "കെ.എസ്. ചിത്രയും സുജാതയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Sujatha",
+            "wordMal": "സുജാത",
+            "relationEN": "Both are celebrated female playback singers from Kerala whose voices defined the golden era of Malayalam film songs.",
+            "relationML": "കെ.എസ്. ചിത്രയും സുജാതയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Sanju Samson",
+        "civWordMal": "സഞ്ജു സാംസൺ",
+        "imposters": [
+          {
+            "word": "Sachin Tendulkar",
+            "wordMal": "സച്ചിൻ ടെണ്ടുൽക്കർ",
+            "relationEN": "Both are celebrated Indian batsmen—Sanju Samson is Kerala's cricket hero and Sachin Tendulkar is the legendary God of Cricket.",
+            "relationML": "സഞ്ജു സാംസണും സച്ചിൻ ടെണ്ടുൽക്കറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Sachin Tendulkar",
+            "wordMal": "സച്ചിൻ ടെണ്ടുൽക്കർ",
+            "relationEN": "Both are celebrated Indian batsmen—Sanju Samson is Kerala's cricket hero and Sachin Tendulkar is the legendary God of Cricket.",
+            "relationML": "സഞ്ജു സാംസണും സച്ചിൻ ടെണ്ടുൽക്കറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Shashi Tharoor",
+        "civWordMal": "ശശി തരൂർ",
+        "imposters": [
+          {
+            "word": "Pinarayi Vijayan",
+            "wordMal": "പിണറായി വിജയൻ",
+            "relationEN": "Both are senior political leaders in Kerala—Tharoor for Congress and Pinarayi for the CPI(M), often seen as political rivals.",
+            "relationML": "ശശി തരൂരും പിണറായി വിജയനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Pinarayi Vijayan",
+            "wordMal": "പിണറായി വിജയൻ",
+            "relationEN": "Both are senior political leaders in Kerala—Tharoor for Congress and Pinarayi for the CPI(M), often seen as political rivals.",
+            "relationML": "ശശി തരൂരും പിണറായി വിജയനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Sreenivasan",
+        "civWordMal": "ശ്രീനിവാസൻ",
+        "imposters": [
+          {
+            "word": "Jagathy Sreekumar",
+            "wordMal": "ജഗതി ശ്രീകുമാർ",
+            "relationEN": "Both are iconic Malayalam comedy actors and scriptwriters who shaped the golden era of Malayalam comedy films.",
+            "relationML": "ശ്രീനിവാസനും ജഗതി ശ്രീകുമാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Jagathy Sreekumar",
+            "wordMal": "ജഗതി ശ്രീകുമാർ",
+            "relationEN": "Both are iconic Malayalam comedy actors and scriptwriters who shaped the golden era of Malayalam comedy films.",
+            "relationML": "ശ്രീനിവാസനും ജഗതി ശ്രീകുമാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Salim Kumar",
+        "civWordMal": "സലിം കുമാർ",
+        "imposters": [
+          {
+            "word": "Suraj Venjaramoodu",
+            "wordMal": "സുരാജ് വെഞ്ഞാറമൂട്",
+            "relationEN": "Both are National Award-winning character actors in Malayalam who are famous for blending comedy with emotional depth.",
+            "relationML": "സലിം കുമാറും സുരാജ് വെഞ്ഞാറമൂടും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Suraj Venjaramoodu",
+            "wordMal": "സുരാജ് വെഞ്ഞാറമൂട്",
+            "relationEN": "Both are National Award-winning character actors in Malayalam who are famous for blending comedy with emotional depth.",
+            "relationML": "സലിം കുമാറും സുരാജ് വെഞ്ഞാറമൂടും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Urveshi",
+        "civWordMal": "ഉർവ്വശി",
+        "imposters": [
+          {
+            "word": "Shobana",
+            "wordMal": "ശോഭന",
+            "relationEN": "Both are veteran Malayalam actress-dancers who are celebrated for their classical dance skills and timeless screen performances.",
+            "relationML": "ഉർവ്വശിയും ശോഭനയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Shobana",
+            "wordMal": "ശോഭന",
+            "relationEN": "Both are veteran Malayalam actress-dancers who are celebrated for their classical dance skills and timeless screen performances.",
+            "relationML": "ഉർവ്വശിയും ശോഭനയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Mukesh",
+        "civWordMal": "മുകേഷ്",
+        "imposters": [
+          {
+            "word": "Sreenivasan",
+            "wordMal": "ശ്രീനിവാസൻ",
+            "relationEN": "Both are popular Malayalam comedy actors and scriptwriters who frequently appeared together in family entertainer films.",
+            "relationML": "മുകേശും ശ്രീനിവാസനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Sreenivasan",
+            "wordMal": "ശ്രീനിവാസൻ",
+            "relationEN": "Both are popular Malayalam comedy actors and scriptwriters who frequently appeared together in family entertainer films.",
+            "relationML": "മുകേശും ശ്രീനിവാസനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Biju Menon",
+        "civWordMal": "ബിജു മേനോൻ",
+        "imposters": [
+          {
+            "word": "Suresh Gopi",
+            "wordMal": "സുരേഷ് ഗോപി",
+            "relationEN": "Both are popular Malayalam actors known for playing powerful, authoritative characters often in political or police roles.",
+            "relationML": "ബിജു മേനോനും സുരേഷ് ഗോപിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Suresh Gopi",
+            "wordMal": "സുരേഷ് ഗോപി",
+            "relationEN": "Both are popular Malayalam actors known for playing powerful, authoritative characters often in political or police roles.",
+            "relationML": "ബിജു മേനോനും സുരേഷ് ഗോപിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Pepe Antony",
+        "civWordMal": "ആന്റണി വർഗ്ഗീസ്",
+        "imposters": [
+          {
+            "word": "Shane Nigam",
+            "wordMal": "ഷെയ്ൻ നിഗം",
+            "relationEN": "Both are upcoming young Malayalam actors who gained recognition through critically praised debut films in the 2020s.",
+            "relationML": "പേപ്പി ആന്റണിയും ഷെയ്ൻ നിഗമും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Shane Nigam",
+            "wordMal": "ഷെയ്ൻ നിഗം",
+            "relationEN": "Both are upcoming young Malayalam actors who gained recognition through critically praised debut films in the 2020s.",
+            "relationML": "പേപ്പി ആന്റണിയും ഷെയ്ൻ നിഗമും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "life",
+    "name": "Kerala Life",
+    "icon": "??",
+    "words": [
+      {
+        "civWord": "Chaya Kada",
+        "civWordMal": "ചായക്കട",
+        "imposters": [
+          {
+            "word": "Thattukada",
+            "wordMal": "തട്ടുകട",
+            "relationEN": "Both are beloved Kerala roadside food establishments serving hot snacks and beverages, one specialising in tea and the other in rice meals.",
+            "relationML": "ചായക്കടയും തട്ടുകടയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Thattukada",
+            "wordMal": "തട്ടുകട",
+            "relationEN": "Both are beloved Kerala roadside food establishments serving hot snacks and beverages, one specialising in tea and the other in rice meals.",
+            "relationML": "ചായക്കടയും തട്ടുകടയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kallu Shappu",
+        "civWordMal": "കള്ള് ഷാപ്പ്",
+        "imposters": [
+          {
+            "word": "Bevco",
+            "wordMal": "ബെവ്കോ",
+            "relationEN": "Both are Kerala establishments where alcohol is sold, one is a traditional toddy shop and the other is the government-run wine store.",
+            "relationML": "കള്ള് ഷാപ്പും ബേവ്‌കോയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Bevco",
+            "wordMal": "ബെവ്കോ",
+            "relationEN": "Both are Kerala establishments where alcohol is sold, one is a traditional toddy shop and the other is the government-run wine store.",
+            "relationML": "കള്ള് ഷാപ്പും ബേവ്‌കോയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "KSRTC",
+        "civWordMal": "കെ എസ് ആർ ടി സി",
+        "imposters": [
+          {
+            "word": "Private Bus",
+            "wordMal": "പ്രൈവറ്റ് ബസ്",
+            "relationEN": "Both are bus services operating on Kerala roads, one is the government-owned red bus and the other is privately operated.",
+            "relationML": "കെ.എസ്.ആർ.ടി.സിയും പ്രൈവറ്റ് ബസ്സും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Private Bus",
+            "wordMal": "പ്രൈവറ്റ് ബസ്",
+            "relationEN": "Both are bus services operating on Kerala roads, one is the government-owned red bus and the other is privately operated.",
+            "relationML": "കെ.എസ്.ആർ.ടി.സിയും പ്രൈവറ്റ് ബസ്സും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Auto Rickshaw",
+        "civWordMal": "ഓട്ടോ റിക്ഷ",
+        "imposters": [
+          {
+            "word": "Taxi",
+            "wordMal": "ടാക്സി",
+            "relationEN": "Both are hired passenger vehicles seen throughout Kerala cities and towns for daily commuting and short trips.",
+            "relationML": "ഓട്ടോ റിക്ഷയും ടാക്സിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Taxi",
+            "wordMal": "ടാക്സി",
+            "relationEN": "Both are hired passenger vehicles seen throughout Kerala cities and towns for daily commuting and short trips.",
+            "relationML": "ഓട്ടോ റിക്ഷയും ടാക്സിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Tharavadu",
+        "civWordMal": "തറവാട്",
+        "imposters": [
+          {
+            "word": "Nalukettu",
+            "wordMal": "നാലുകെട്ട്",
+            "relationEN": "Both are traditional Kerala ancestral homes—Tharavadu refers to the family home concept and Nalukettu is the four-sided architectural style.",
+            "relationML": "തറവാടും നാലുകെട്ടും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Nalukettu",
+            "wordMal": "നാലുകെട്ട്",
+            "relationEN": "Both are traditional Kerala ancestral homes—Tharavadu refers to the family home concept and Nalukettu is the four-sided architectural style.",
+            "relationML": "തറവാടും നാലുകെട്ടും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Panchayath",
+        "civWordMal": "പഞ്ചായത്ത്",
+        "imposters": [
+          {
+            "word": "Municipality",
+            "wordMal": "മുൻസിപ്പാലിറ്റി",
+            "relationEN": "Both are local self-government bodies in Kerala responsible for civic administration—Panchayath for rural and Municipality for urban areas.",
+            "relationML": "പഞ്ചായത്തും മുനിസിപ്പാലിറ്റിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Municipality",
+            "wordMal": "മുൻസിപ്പാലിറ്റി",
+            "relationEN": "Both are local self-government bodies in Kerala responsible for civic administration—Panchayath for rural and Municipality for urban areas.",
+            "relationML": "പഞ്ചായത്തും മുനിസിപ്പാലിറ്റിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kudumbashree",
+        "civWordMal": "കുടുംബശ്രീ",
+        "imposters": [
+          {
+            "word": "Ayalkoottam",
+            "wordMal": "അയൽക്കൂട്ടം",
+            "relationEN": "Both are community-based women's collective programmes unique to Kerala promoting self-help and neighbourhood support.",
+            "relationML": "കുടുംബശ്രീയും അയൽക്കൂട്ടവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Ayalkoottam",
+            "wordMal": "അയൽക്കൂട്ടം",
+            "relationEN": "Both are community-based women's collective programmes unique to Kerala promoting self-help and neighbourhood support.",
+            "relationML": "കുടുംബശ്രീയും അയൽക്കൂട്ടവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Anganwadi",
+        "civWordMal": "അങ്കണവാടി",
+        "imposters": [
+          {
+            "word": "Nursery",
+            "wordMal": "നഴ്സറി",
+            "relationEN": "Both are early childhood institutions in Kerala providing pre-school education and nutrition to young children.",
+            "relationML": "അങ്കണവാടിയും നഴ്സറിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Nursery",
+            "wordMal": "നഴ്സറി",
+            "relationEN": "Both are early childhood institutions in Kerala providing pre-school education and nutrition to young children.",
+            "relationML": "അങ്കണവാടിയും നഴ്സറിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Rubber Thottam",
+        "civWordMal": "റബ്ബർ തോട്ടം",
+        "imposters": [
+          {
+            "word": "Tea Estate",
+            "wordMal": "ടീ എസ്റ്റേറ്റ്",
+            "relationEN": "Both are Kerala plantation estates that define the Malabar and Wayanad landscape, one grows rubber trees and one grows tea.",
+            "relationML": "റബ്ബർ തോട്ടവും ചായ തോട്ടവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Tea Estate",
+            "wordMal": "ടീ എസ്റ്റേറ്റ്",
+            "relationEN": "Both are Kerala plantation estates that define the Malabar and Wayanad landscape, one grows rubber trees and one grows tea.",
+            "relationML": "റബ്ബർ തോട്ടവും ചായ തോട്ടവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Tea Estate",
+        "civWordMal": "തേയിലത്തോട്ടം",
+        "imposters": [
+          {
+            "word": "Rubber Thottam",
+            "wordMal": "റബ്ബർ തോട്ടം",
+            "relationEN": "Both are large agricultural estates in Kerala's highland districts, one for harvesting tea leaves and one for tapping rubber.",
+            "relationML": "ചായ തോട്ടവും റബ്ബർ തോട്ടവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Rubber Thottam",
+            "wordMal": "റബ്ബർ തോട്ടം",
+            "relationEN": "Both are large agricultural estates in Kerala's highland districts, one for harvesting tea leaves and one for tapping rubber.",
+            "relationML": "ചായ തോട്ടവും റബ്ബർ തോട്ടവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Thengu",
+        "civWordMal": "തെങ്ങ്",
+        "imposters": [
+          {
+            "word": "Kamuku",
+            "wordMal": "കമുകു",
+            "relationEN": "Both are tall palm trees commonly grown in Kerala—Thengu is the coconut palm and Kamuku is the areca palm.",
+            "relationML": "തെങ്ങും കമുകും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Kamuku",
+            "wordMal": "കമുകു",
+            "relationEN": "Both are tall palm trees commonly grown in Kerala—Thengu is the coconut palm and Kamuku is the areca palm.",
+            "relationML": "തെങ്ങും കമുകും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kuttanadan Padanilam",
+        "civWordMal": "കുട്ടനാടൻ പാടനിലം",
+        "imposters": [
+          {
+            "word": "Munnar",
+            "wordMal": "മൂന്നാർ",
+            "relationEN": "Both are iconic Kerala geographic locations—Kuttanad is the low-lying rice field region and Munnar is the misty hill station.",
+            "relationML": "കുട്ടനാടൻ പാടനിലവും മൂന്നാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Munnar",
+            "wordMal": "മൂന്നാർ",
+            "relationEN": "Both are iconic Kerala geographic locations—Kuttanad is the low-lying rice field region and Munnar is the misty hill station.",
+            "relationML": "കുട്ടനാടൻ പാടനിലവും മൂന്നാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Puzha",
+        "civWordMal": "പുഴ",
+        "imposters": [
+          {
+            "word": "Kulam",
+            "wordMal": "കുളം",
+            "relationEN": "Both are freshwater bodies in Kerala—Puzha is a flowing river and Kulam is a still pond or tank.",
+            "relationML": "പുഴയും കുളവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Kulam",
+            "wordMal": "കുളം",
+            "relationEN": "Both are freshwater bodies in Kerala—Puzha is a flowing river and Kulam is a still pond or tank.",
+            "relationML": "പുഴയും കുളവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kaithari",
+        "civWordMal": "കൈത്തറി",
+        "imposters": [
+          {
+            "word": "Khadi",
+            "wordMal": "ഖാദി",
+            "relationEN": "Both are handloom cotton fabrics promoted in Kerala as part of traditional crafts and Gandhian self-reliance movements.",
+            "relationML": "കൈത്തറിയും ഖദിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Khadi",
+            "wordMal": "ഖാദി",
+            "relationEN": "Both are handloom cotton fabrics promoted in Kerala as part of traditional crafts and Gandhian self-reliance movements.",
+            "relationML": "കൈത്തറിയും ഖദിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Mazha",
+        "civWordMal": "മഴ",
+        "imposters": [
+          {
+            "word": "Veyil",
+            "wordMal": "വെയിൽ",
+            "relationEN": "Both are Kerala weather phenomena—Mazha is rain and Veyil is sunshine, often alternating in the same day.",
+            "relationML": "മഴയും വെയിലും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Veyil",
+            "wordMal": "വെയിൽ",
+            "relationEN": "Both are Kerala weather phenomena—Mazha is rain and Veyil is sunshine, often alternating in the same day.",
+            "relationML": "മഴയും വെയിലും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Tharavad",
+        "civWordMal": "തറവാട്",
+        "imposters": [
+          {
+            "word": "Nalukettu",
+            "wordMal": "നാലുകെട്ട്",
+            "relationEN": "Both refer to traditional Kerala family estates—Tharavad is the ancestral property and Nalukettu is the four-courtyard manor house.",
+            "relationML": "തറവാടും നാലുകെട്ടും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Nalukettu",
+            "wordMal": "നാലുകെട്ട്",
+            "relationEN": "Both refer to traditional Kerala family estates—Tharavad is the ancestral property and Nalukettu is the four-courtyard manor house.",
+            "relationML": "തറവാടും നാലുകെട്ടും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Naadan Pattu",
+        "civWordMal": "നാടൻ പാട്ട്",
+        "imposters": [
+          {
+            "word": "Kavitha",
+            "wordMal": "കവിത",
+            "relationEN": "Both are traditional Malayalam song forms—Naadan Pattu is folk song and Kavitha is a composed literary poem.",
+            "relationML": "നാടൻ പാട്ടും കവിതയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Kavitha",
+            "wordMal": "കവിത",
+            "relationEN": "Both are traditional Malayalam song forms—Naadan Pattu is folk song and Kavitha is a composed literary poem.",
+            "relationML": "നാടൻ പാട്ടും കവിതയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kavala",
+        "civWordMal": "കവല",
+        "imposters": [
+          {
+            "word": "Angadi",
+            "wordMal": "അങ്ങാടി",
+            "relationEN": "Both are Kerala market places—Kavala is a busy road junction commercial area and Angadi is a general shop.",
+            "relationML": "കവലയും അങ്ങാടിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Angadi",
+            "wordMal": "അങ്ങാടി",
+            "relationEN": "Both are Kerala market places—Kavala is a busy road junction commercial area and Angadi is a general shop.",
+            "relationML": "കവലയും അങ്ങാടിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Palli",
+        "civWordMal": "പള്ളി",
+        "imposters": [
+          {
+            "word": "Ambalam",
+            "wordMal": "അമ്പലം",
+            "relationEN": "Both are religious worship places in Kerala—Palli is a mosque or church and Ambalam is a Hindu temple.",
+            "relationML": "പള്ളിയും അമ്പലവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Ambalam",
+            "wordMal": "അമ്പലം",
+            "relationEN": "Both are religious worship places in Kerala—Palli is a mosque or church and Ambalam is a Hindu temple.",
+            "relationML": "പള്ളിയും അമ്പലവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Ambalam",
+        "civWordMal": "അമ്പലം",
+        "imposters": [
+          {
+            "word": "Palli",
+            "wordMal": "പള്ളി",
+            "relationEN": "Both are Kerala places of worship—Ambalam is a Hindu shrine and Palli is a mosque or church.",
+            "relationML": "അമ്പലവും പള്ളിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Palli",
+            "wordMal": "പള്ളി",
+            "relationEN": "Both are Kerala places of worship—Ambalam is a Hindu shrine and Palli is a mosque or church.",
+            "relationML": "അമ്പലവും പള്ളിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Lottery Ticket",
+        "civWordMal": "ലോട്ടറി ടിക്കറ്റ്",
+        "imposters": [
+          {
+            "word": "Scratch and Win",
+            "wordMal": "സ്ക്രാച്ച് ആൻഡ് വിൻ",
+            "relationEN": "Both are popular gambling tickets in Kerala—people stand in queues every day to buy lottery tickets hoping to win.",
+            "relationML": "ലോട്ടറി ടിക്കറ്റും സ്ക്രാച്ച് ആൻഡ് വിന്നും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Scratch and Win",
+            "wordMal": "സ്ക്രാച്ച് ആൻഡ് വിൻ",
+            "relationEN": "Both are popular gambling tickets in Kerala—people stand in queues every day to buy lottery tickets hoping to win.",
+            "relationML": "ലോട്ടറി ടിക്കറ്റും സ്ക്രാച്ച് ആൻഡ് വിന്നും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Hartal",
+        "civWordMal": "ഹർത്താൽ",
+        "imposters": [
+          {
+            "word": "Bandh",
+            "wordMal": "ബന്ദ്",
+            "relationEN": "Both are political shutdowns in Kerala where shops, offices, and transport close as a form of protest.",
+            "relationML": "ഹർത്താലും ബന്ദും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Bandh",
+            "wordMal": "ബന്ദ്",
+            "relationEN": "Both are political shutdowns in Kerala where shops, offices, and transport close as a form of protest.",
+            "relationML": "ഹർത്താലും ബന്ദും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Vayanasala",
+        "civWordMal": "വായനശാല",
+        "imposters": [
+          {
+            "word": "Club",
+            "wordMal": "ക്ലബ്",
+            "relationEN": "Both are community gathering places in Kerala providing books, recreation, or leisure activities to local people.",
+            "relationML": "വായനശാലയും ക്ലബ്ബും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Club",
+            "wordMal": "ക്ലബ്",
+            "relationEN": "Both are community gathering places in Kerala providing books, recreation, or leisure activities to local people.",
+            "relationML": "വായനശാലയും ക്ലബ്ബും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Chitty",
+        "civWordMal": "ചിട്ടി",
+        "imposters": [
+          {
+            "word": "Bank Loan",
+            "wordMal": "ബാങ്ക് ലോൺ",
+            "relationEN": "Both are financial instruments in Kerala used to accumulate savings or borrow money, one is a traditional chit fund and the other is institutional.",
+            "relationML": "ചിട്ടിയും ബാങ്ക് ലോണും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Bank Loan",
+            "wordMal": "ബാങ്ക് ലോൺ",
+            "relationEN": "Both are financial instruments in Kerala used to accumulate savings or borrow money, one is a traditional chit fund and the other is institutional.",
+            "relationML": "ചിട്ടിയും ബാങ്ക് ലോണും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kavukal",
+        "civWordMal": "കാവ്",
+        "imposters": [
+          {
+            "word": "Ambalam",
+            "wordMal": "അമ്പലം",
+            "relationEN": "Both are sacred groves or shrines in Kerala, with Kavukal being a forest shrine to serpent gods and Ambalam being a full temple.",
+            "relationML": "കാവുകളും അമ്പലവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Ambalam",
+            "wordMal": "അമ്പലം",
+            "relationEN": "Both are sacred groves or shrines in Kerala, with Kavukal being a forest shrine to serpent gods and Ambalam being a full temple.",
+            "relationML": "കാവുകളും അമ്പലവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kulam",
+        "civWordMal": "കുളം",
+        "imposters": [
+          {
+            "word": "Puzha",
+            "wordMal": "പുഴ",
+            "relationEN": "Both are freshwater bodies in Kerala used for bathing and daily rituals—Kulam is a local pond and Puzha is a river.",
+            "relationML": "കുളവും പുഴയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Puzha",
+            "wordMal": "പുഴ",
+            "relationEN": "Both are freshwater bodies in Kerala used for bathing and daily rituals—Kulam is a local pond and Puzha is a river.",
+            "relationML": "കുളവും പുഴയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Milma",
+        "civWordMal": "മിൽമ",
+        "imposters": [
+          {
+            "word": "Supplyco",
+            "wordMal": "സപ്ലൈകോ",
+            "relationEN": "Both are Kerala government-owned consumer cooperatives—Milma sells dairy products and Supplyco sells essential provisions.",
+            "relationML": "മിൽമയും സപ്ലൈകോയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Supplyco",
+            "wordMal": "സപ്ലൈകോ",
+            "relationEN": "Both are Kerala government-owned consumer cooperatives—Milma sells dairy products and Supplyco sells essential provisions.",
+            "relationML": "മിൽമയും സപ്ലൈകോയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Bevco",
+        "civWordMal": "ബെവ്കോ",
+        "imposters": [
+          {
+            "word": "Kallu Shappu",
+            "wordMal": "കള്ള് ഷാപ്പ്",
+            "relationEN": "Both are Kerala establishments where alcoholic beverages are sold—Bevco is the government wine outlet and Kallu Shappu is the traditional toddy shop.",
+            "relationML": "ബേവ്‌കോയും കള്ള് ഷാപ്പും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Kallu Shappu",
+            "wordMal": "കള്ള് ഷാപ്പ്",
+            "relationEN": "Both are Kerala establishments where alcoholic beverages are sold—Bevco is the government wine outlet and Kallu Shappu is the traditional toddy shop.",
+            "relationML": "ബേവ്‌കോയും കള്ള് ഷാപ്പും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Akshaya Centre",
+        "civWordMal": "അക്ഷയ കേന്ദ്രം",
+        "imposters": [
+          {
+            "word": "Panchayath",
+            "wordMal": "പഞ്ചായത്ത്",
+            "relationEN": "Both are Kerala government service points where citizens can access official services—Akshaya for digital and Panchayath for civic.",
+            "relationML": "അക്ഷയ സെന്ററും പഞ്ചായത്തും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Panchayath",
+            "wordMal": "പഞ്ചായത്ത്",
+            "relationEN": "Both are Kerala government service points where citizens can access official services—Akshaya for digital and Panchayath for civic.",
+            "relationML": "അക്ഷയ സെന്ററും പഞ്ചായത്തും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Supplyco",
+        "civWordMal": "സപ്ലൈകോ",
+        "imposters": [
+          {
+            "word": "Milma",
+            "wordMal": "മിൽമ",
+            "relationEN": "Both are government-backed consumer cooperatives in Kerala selling essential household products at subsidized prices.",
+            "relationML": "സപ്ലൈകോയും മിൽമയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Milma",
+            "wordMal": "മിൽമ",
+            "relationEN": "Both are government-backed consumer cooperatives in Kerala selling essential household products at subsidized prices.",
+            "relationML": "സപ്ലൈകോയും മിൽമയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Vidyabhyasa Loan",
+        "civWordMal": "വിദ്യാഭ്യാസ വായ്പ",
+        "imposters": [
+          {
+            "word": "Home Loan",
+            "wordMal": "ഹോം ലോൺ",
+            "relationEN": "Both are long-term loan products in Kerala financial institutions used by families to fund major life expenses.",
+            "relationML": "വിദ്യാഭ്യാസ ലോണും ഹോം ലോണും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Home Loan",
+            "wordMal": "ഹോം ലോൺ",
+            "relationEN": "Both are long-term loan products in Kerala financial institutions used by families to fund major life expenses.",
+            "relationML": "വിദ്യാഭ്യാസ ലോണും ഹോം ലോണും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Ration Kada",
+        "civWordMal": "റേഷൻ കട",
+        "imposters": [
+          {
+            "word": "Maveli Store",
+            "wordMal": "മാവേലി സ്റ്റോർ",
+            "relationEN": "Both are government-run subsidised grocery shops in Kerala providing essentials like rice and oil to ration card holders.",
+            "relationML": "റേഷൻ കടയും മാവേലി സ്റ്റോറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Maveli Store",
+            "wordMal": "മാവേലി സ്റ്റോർ",
+            "relationEN": "Both are government-run subsidised grocery shops in Kerala providing essentials like rice and oil to ration card holders.",
+            "relationML": "റേഷൻ കടയും മാവേലി സ്റ്റോറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Mahatma Gandhi NREGA",
+        "civWordMal": "തൊഴിലുറപ്പ്",
+        "imposters": [
+          {
+            "word": "Kudumbashree",
+            "wordMal": "കുടുംബശ്രീ",
+            "relationEN": "Both are Kerala government welfare schemes providing employment and income support to rural and poor households.",
+            "relationML": "മഹാത്മ ഗാന്ധി എൻ.ആർ.ഇ.ജി.എ.യും കുടുംബശ്രീയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Kudumbashree",
+            "wordMal": "കുടുംബശ്രീ",
+            "relationEN": "Both are Kerala government welfare schemes providing employment and income support to rural and poor households.",
+            "relationML": "മഹാത്മ ഗാന്ധി എൻ.ആർ.ഇ.ജി.എ.യും കുടുംബശ്രീയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Current Bill",
+        "civWordMal": "കറന്റ് ബിൽ",
+        "imposters": [
+          {
+            "word": "Water Bill",
+            "wordMal": "വാട്ടർ ബിൽ",
+            "relationEN": "Both are monthly utility bills paid by Kerala households for essential services provided by government agencies.",
+            "relationML": "കറന്റ് ബില്ലും വാട്ടർ ബില്ലും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Water Bill",
+            "wordMal": "വാട്ടർ ബിൽ",
+            "relationEN": "Both are monthly utility bills paid by Kerala households for essential services provided by government agencies.",
+            "relationML": "കറന്റ് ബില്ലും വാട്ടർ ബില്ലും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "KSEB",
+        "civWordMal": "കെഎസ്ഇബി",
+        "imposters": [
+          {
+            "word": "Water Authority",
+            "wordMal": "വാട്ടർ അതോറിറ്റി",
+            "relationEN": "Both are Kerala government utilities that deliver essential services to every household—KSEB for electricity and Water Authority for piped water.",
+            "relationML": "കെ.എസ്.ഇ.ബിയും വാട്ടർ അതോറിറ്റിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "Water Authority",
+            "wordMal": "വാട്ടർ അതോറിറ്റി",
+            "relationEN": "Both are Kerala government utilities that deliver essential services to every household—KSEB for electricity and Water Authority for piped water.",
+            "relationML": "കെ.എസ്.ഇ.ബിയും വാട്ടർ അതോറിറ്റിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Water Authority",
+        "civWordMal": "വാട്ടർ അതോറിറ്റി",
+        "imposters": [
+          {
+            "word": "KSEB",
+            "wordMal": "കെഎസ്ഇബി",
+            "relationEN": "Both are essential Kerala government service providers—Water Authority supplies piped water and KSEB provides electricity.",
+            "relationML": "വാട്ടർ അതോറിറ്റിയും കെ.എസ്.ഇ.ബിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          },
+          {
+            "word": "KSEB",
+            "wordMal": "കെഎസ്ഇബി",
+            "relationEN": "Both are essential Kerala government service providers—Water Authority supplies piped water and KSEB provides electricity.",
+            "relationML": "വാട്ടർ അതോറിറ്റിയും കെ.എസ്.ഇ.ബിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
+          }
+        ]
+      }
+    ]
+  }
+]

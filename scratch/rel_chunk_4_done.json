@@ -1,0 +1,1312 @@
+[
+  {
+    "id": "sports",
+    "name": "Sports",
+    "icon": "?",
+    "words": [
+      {
+        "civWord": "Football",
+        "civWordMal": "ഫുട്ബോൾ",
+        "imposters": [
+          {
+            "word": "Rugby",
+            "wordMal": "റഗ്ബി",
+            "relationEN": "Both Football and Rugby belong to the same domain, but Football specifically focuses on its own mechanics whereas Rugby operates differently.",
+            "relationML": "ഫുട്ബോൾ ഉം റഗ്ബി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Futsal",
+            "wordMal": "ഫുട്സാൽ",
+            "relationEN": "Both Football and Futsal belong to the same domain, but Football specifically focuses on its own mechanics whereas Futsal operates differently.",
+            "relationML": "ഫുട്ബോൾ ഉം ഫുട്സാൽ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Cricket",
+        "civWordMal": "ക്രിക്കറ്റ്",
+        "imposters": [
+          {
+            "word": "Baseball",
+            "wordMal": "ബേസ്ബോൾ",
+            "relationEN": "Both Cricket and Baseball belong to the same domain, but Cricket specifically focuses on its own mechanics whereas Baseball operates differently.",
+            "relationML": "ക്രിക്കറ്റ് ഉം ബേസ്ബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Tennis",
+            "wordMal": "ടെന്നീസ്",
+            "relationEN": "Both Cricket and Tennis belong to the same domain, but Cricket specifically focuses on its own mechanics whereas Tennis operates differently.",
+            "relationML": "ക്രിക്കറ്റ് ഉം ടെന്നീസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kabaddi",
+        "civWordMal": "കബഡി",
+        "imposters": [
+          {
+            "word": "Wrestling",
+            "wordMal": "ഗുസ്തി",
+            "relationEN": "Both Kabaddi and Wrestling belong to the same domain, but Kabaddi specifically focuses on its own mechanics whereas Wrestling operates differently.",
+            "relationML": "കബഡി ഉം ഗുസ്തി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Kho Kho",
+            "wordMal": "ഖോ ഖോ",
+            "relationEN": "Both Kabaddi and Kho Kho belong to the same domain, but Kabaddi specifically focuses on its own mechanics whereas Kho Kho operates differently.",
+            "relationML": "കബഡി ഉം ഖോ ഖോ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Volleyball",
+        "civWordMal": "വോളിബോൾ",
+        "imposters": [
+          {
+            "word": "Basketball",
+            "wordMal": "ബാസ്കറ്റ്ബോൾ",
+            "relationEN": "Both Volleyball and Basketball belong to the same domain, but Volleyball specifically focuses on its own mechanics whereas Basketball operates differently.",
+            "relationML": "വോളിബോൾ ഉം ബാസ്കറ്റ്ബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Throwball",
+            "wordMal": "ത്രോബോൾ",
+            "relationEN": "Both Volleyball and Throwball belong to the same domain, but Volleyball specifically focuses on its own mechanics whereas Throwball operates differently.",
+            "relationML": "വോളിബോൾ ഉം ത്രോബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Vallamkali",
+        "civWordMal": "വള്ളംകളി",
+        "imposters": [
+          {
+            "word": "Rowing",
+            "wordMal": "റോവിങ്",
+            "relationEN": "Both Vallamkali and Rowing belong to the same domain, but Vallamkali specifically focuses on its own mechanics whereas Rowing operates differently.",
+            "relationML": "വള്ളംകളി ഉം റോവിങ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Dragon Boat",
+            "wordMal": "ഡ്രാഗൺ ബോട്ട്",
+            "relationEN": "Both Vallamkali and Dragon Boat belong to the same domain, but Vallamkali specifically focuses on its own mechanics whereas Dragon Boat operates differently.",
+            "relationML": "വള്ളംകളി ഉം ഡ്രാഗൺ ബോട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Tug of War",
+        "civWordMal": "വടംവലി",
+        "imposters": [
+          {
+            "word": "Arm Wrestling",
+            "wordMal": "പഞ്ചഗുസ്തി",
+            "relationEN": "Both Tug of War and Arm Wrestling belong to the same domain, but Tug of War specifically focuses on its own mechanics whereas Arm Wrestling operates differently.",
+            "relationML": "വടംവലി ഉം പഞ്ചഗുസ്തി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Weightlifting",
+            "wordMal": "ഭാരോദ്വഹനം",
+            "relationEN": "Both Tug of War and Weightlifting belong to the same domain, but Tug of War specifically focuses on its own mechanics whereas Weightlifting operates differently.",
+            "relationML": "വടംവലി ഉം ഭാരോദ്വഹനം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Sevens Football",
+        "civWordMal": "സെവൻസ് ഫുട്ബോൾ",
+        "imposters": [
+          {
+            "word": "Futsal",
+            "wordMal": "ഫുട്സാൽ",
+            "relationEN": "Both Sevens Football and Futsal belong to the same domain, but Sevens Football specifically focuses on its own mechanics whereas Futsal operates differently.",
+            "relationML": "സെവൻസ് ഫുട്ബോൾ ഉം ഫുട്സാൽ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Beach Soccer",
+            "wordMal": "ബീച്ച് സോക്കർ",
+            "relationEN": "Both Sevens Football and Beach Soccer belong to the same domain, but Sevens Football specifically focuses on its own mechanics whereas Beach Soccer operates differently.",
+            "relationML": "സെവൻസ് ഫുട്ബോൾ ഉം ബീച്ച് സോക്കർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kho Kho",
+        "civWordMal": "ഖോ ഖോ",
+        "imposters": [
+          {
+            "word": "Kabaddi",
+            "wordMal": "കബഡി",
+            "relationEN": "Both Kho Kho and Kabaddi belong to the same domain, but Kho Kho specifically focuses on its own mechanics whereas Kabaddi operates differently.",
+            "relationML": "ഖോ ഖോ ഉം കബഡി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Hide and Seek",
+            "wordMal": "ഒളിച്ചുകളി",
+            "relationEN": "Both Kho Kho and Hide and Seek belong to the same domain, but Kho Kho specifically focuses on its own mechanics whereas Hide and Seek operates differently.",
+            "relationML": "ഖോ ഖോ ഉം ഒളിച്ചുകളി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Badminton",
+        "civWordMal": "ബാഡ്മിന്റൺ",
+        "imposters": [
+          {
+            "word": "Tennis",
+            "wordMal": "ടെന്നീസ്",
+            "relationEN": "Both Badminton and Tennis belong to the same domain, but Badminton specifically focuses on its own mechanics whereas Tennis operates differently.",
+            "relationML": "ബാഡ്മിന്റൺ ഉം ടെന്നീസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Squash",
+            "wordMal": "സ്ക്വാഷ്",
+            "relationEN": "Both Badminton and Squash belong to the same domain, but Badminton specifically focuses on its own mechanics whereas Squash operates differently.",
+            "relationML": "ബാഡ്മിന്റൺ ഉം സ്ക്വാഷ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Swimming",
+        "civWordMal": "നീന്തൽ",
+        "imposters": [
+          {
+            "word": "Water Polo",
+            "wordMal": "വാട്ടർ പോളോ",
+            "relationEN": "Both Swimming and Water Polo belong to the same domain, but Swimming specifically focuses on its own mechanics whereas Water Polo operates differently.",
+            "relationML": "നീന്തൽ ഉം വാട്ടർ പോളോ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Diving",
+            "wordMal": "ഡൈവിങ്",
+            "relationEN": "Both Swimming and Diving belong to the same domain, but Swimming specifically focuses on its own mechanics whereas Diving operates differently.",
+            "relationML": "നീന്തൽ ഉം ഡൈവിങ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Athletics",
+        "civWordMal": "അത്‌ലറ്റിക്സ്",
+        "imposters": [
+          {
+            "word": "Gymnastics",
+            "wordMal": "ജിംനാസ്റ്റിക്സ്",
+            "relationEN": "Both Athletics and Gymnastics belong to the same domain, but Athletics specifically focuses on its own mechanics whereas Gymnastics operates differently.",
+            "relationML": "അത്‌ലറ്റിക്സ് ഉം ജിംനാസ്റ്റിക്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Triathlon",
+            "wordMal": "ട്രയാത്ത്ലൺ",
+            "relationEN": "Both Athletics and Triathlon belong to the same domain, but Athletics specifically focuses on its own mechanics whereas Triathlon operates differently.",
+            "relationML": "അത്‌ലറ്റിക്സ് ഉം ട്രയാത്ത്ലൺ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Javelin",
+        "civWordMal": "ജാവലിൻ",
+        "imposters": [
+          {
+            "word": "Shot Put",
+            "wordMal": "ഷോട്ട് പുട്ട്",
+            "relationEN": "Both Javelin and Shot Put belong to the same domain, but Javelin specifically focuses on its own mechanics whereas Shot Put operates differently.",
+            "relationML": "ജാവലിൻ ഉം ഷോട്ട് പുട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Discus Throw",
+            "wordMal": "ഡിസ്കസ് ത്രോ",
+            "relationEN": "Both Javelin and Discus Throw belong to the same domain, but Javelin specifically focuses on its own mechanics whereas Discus Throw operates differently.",
+            "relationML": "ജാവലിൻ ഉം ഡിസ്കസ് ത്രോ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Relay",
+        "civWordMal": "റിലേ",
+        "imposters": [
+          {
+            "word": "Sprint",
+            "wordMal": "സ്പ്രിന്റ്",
+            "relationEN": "Both Relay and Sprint belong to the same domain, but Relay specifically focuses on its own mechanics whereas Sprint operates differently.",
+            "relationML": "റിലേ ഉം സ്പ്രിന്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Marathon",
+            "wordMal": "മാരത്തൺ",
+            "relationEN": "Both Relay and Marathon belong to the same domain, but Relay specifically focuses on its own mechanics whereas Marathon operates differently.",
+            "relationML": "റിലേ ഉം മാരത്തൺ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Boat Race",
+        "civWordMal": "വള്ളംകളി",
+        "imposters": [
+          {
+            "word": "Sailing",
+            "wordMal": "സെയിലിംഗ്",
+            "relationEN": "Both Boat Race and Sailing belong to the same domain, but Boat Race specifically focuses on its own mechanics whereas Sailing operates differently.",
+            "relationML": "വള്ളംകളി ഉം സെയിലിംഗ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Canoeing",
+            "wordMal": "കനോയിങ്",
+            "relationEN": "Both Boat Race and Canoeing belong to the same domain, but Boat Race specifically focuses on its own mechanics whereas Canoeing operates differently.",
+            "relationML": "വള്ളംകളി ഉം കനോയിങ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Carrom",
+        "civWordMal": "കാരംസ്",
+        "imposters": [
+          {
+            "word": "Billiards",
+            "wordMal": "ബില്യാർഡ്സ്",
+            "relationEN": "Both Carrom and Billiards belong to the same domain, but Carrom specifically focuses on its own mechanics whereas Billiards operates differently.",
+            "relationML": "കാരംസ് ഉം ബില്യാർഡ്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Chess",
+            "wordMal": "ചെസ്സ്",
+            "relationEN": "Both Carrom and Chess belong to the same domain, but Carrom specifically focuses on its own mechanics whereas Chess operates differently.",
+            "relationML": "കാരംസ് ഉം ചെസ്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Chess",
+        "civWordMal": "ചെസ്സ്",
+        "imposters": [
+          {
+            "word": "Checkers",
+            "wordMal": "ചെക്കേഴ്സ്",
+            "relationEN": "Both Chess and Checkers belong to the same domain, but Chess specifically focuses on its own mechanics whereas Checkers operates differently.",
+            "relationML": "ചെസ്സ് ഉം ചെക്കേഴ്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Ludo",
+            "wordMal": "ലൂഡോ",
+            "relationEN": "Both Chess and Ludo belong to the same domain, but Chess specifically focuses on its own mechanics whereas Ludo operates differently.",
+            "relationML": "ചെസ്സ് ഉം ലൂഡോ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kalari",
+        "civWordMal": "കളരി",
+        "imposters": [
+          {
+            "word": "Karate",
+            "wordMal": "കരാട്ടെ",
+            "relationEN": "Both Kalari and Karate belong to the same domain, but Kalari specifically focuses on its own mechanics whereas Karate operates differently.",
+            "relationML": "കളരി ഉം കരാട്ടെ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Kung Fu",
+            "wordMal": "കുങ് ഫു",
+            "relationEN": "Both Kalari and Kung Fu belong to the same domain, but Kalari specifically focuses on its own mechanics whereas Kung Fu operates differently.",
+            "relationML": "കളരി ഉം കുങ് ഫു ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Long Jump",
+        "civWordMal": "ലോംഗ് ജമ്പ്",
+        "imposters": [
+          {
+            "word": "Triple Jump",
+            "wordMal": "ട്രിപ്പിൾ ജമ്പ്",
+            "relationEN": "Both Long Jump and Triple Jump belong to the same domain, but Long Jump specifically focuses on its own mechanics whereas Triple Jump operates differently.",
+            "relationML": "ലോംഗ് ജമ്പ് ഉം ട്രിപ്പിൾ ജമ്പ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "High Jump",
+            "wordMal": "ഹൈ ജമ്പ്",
+            "relationEN": "Both Long Jump and High Jump belong to the same domain, but Long Jump specifically focuses on its own mechanics whereas High Jump operates differently.",
+            "relationML": "ലോംഗ് ജമ്പ് ഉം ഹൈ ജമ്പ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "High Jump",
+        "civWordMal": "ഹൈ ജമ്പ്",
+        "imposters": [
+          {
+            "word": "Pole Vault",
+            "wordMal": "പോൾ വാൾട്ട്",
+            "relationEN": "Both High Jump and Pole Vault belong to the same domain, but High Jump specifically focuses on its own mechanics whereas Pole Vault operates differently.",
+            "relationML": "ഹൈ ജമ്പ് ഉം പോൾ വാൾട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Hurdles",
+            "wordMal": "ഹർഡിൽസ്",
+            "relationEN": "Both High Jump and Hurdles belong to the same domain, but High Jump specifically focuses on its own mechanics whereas Hurdles operates differently.",
+            "relationML": "ഹൈ ജമ്പ് ഉം ഹർഡിൽസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Throwball",
+        "civWordMal": "ത്രോബോൾ",
+        "imposters": [
+          {
+            "word": "Volleyball",
+            "wordMal": "വോളിബോൾ",
+            "relationEN": "Both Throwball and Volleyball belong to the same domain, but Throwball specifically focuses on its own mechanics whereas Volleyball operates differently.",
+            "relationML": "ത്രോബോൾ ഉം വോളിബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Dodgeball",
+            "wordMal": "ഡോഡ്ജ്ബോൾ",
+            "relationEN": "Both Throwball and Dodgeball belong to the same domain, but Throwball specifically focuses on its own mechanics whereas Dodgeball operates differently.",
+            "relationML": "ത്രോബോൾ ഉം ഡോഡ്ജ്ബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Table Tennis",
+        "civWordMal": "ടേബിൾ ടെന്നീസ്",
+        "imposters": [
+          {
+            "word": "Tennis",
+            "wordMal": "ടെന്നീസ്",
+            "relationEN": "Both Table Tennis and Tennis belong to the same domain, but Table Tennis specifically focuses on its own mechanics whereas Tennis operates differently.",
+            "relationML": "ടേബിൾ ടെന്നീസ് ഉം ടെന്നീസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Badminton",
+            "wordMal": "ബാഡ്മിന്റൺ",
+            "relationEN": "Both Table Tennis and Badminton belong to the same domain, but Table Tennis specifically focuses on its own mechanics whereas Badminton operates differently.",
+            "relationML": "ടേബിൾ ടെന്നീസ് ഉം ബാഡ്മിന്റൺ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Marathon",
+        "civWordMal": "മാരത്തൺ",
+        "imposters": [
+          {
+            "word": "Sprint",
+            "wordMal": "സ്പ്രിന്റ്",
+            "relationEN": "Both Marathon and Sprint belong to the same domain, but Marathon specifically focuses on its own mechanics whereas Sprint operates differently.",
+            "relationML": "മാരത്തൺ ഉം സ്പ്രിന്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Cycling",
+            "wordMal": "സൈക്ലിങ്",
+            "relationEN": "Both Marathon and Cycling belong to the same domain, but Marathon specifically focuses on its own mechanics whereas Cycling operates differently.",
+            "relationML": "മാരത്തൺ ഉം സൈക്ലിങ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Penalty Shootout",
+        "civWordMal": "പെനാൽറ്റി ഷൂട്ടൗട്ട്",
+        "imposters": [
+          {
+            "word": "Free Kick",
+            "wordMal": "ഫ്രീ കിക്ക്",
+            "relationEN": "Both Penalty Shootout and Free Kick belong to the same domain, but Penalty Shootout specifically focuses on its own mechanics whereas Free Kick operates differently.",
+            "relationML": "പെനാൽറ്റി ഷൂട്ടൗട്ട് ഉം ഫ്രീ കിക്ക് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Corner Kick",
+            "wordMal": "കോർണർ കിക്ക്",
+            "relationEN": "Both Penalty Shootout and Corner Kick belong to the same domain, but Penalty Shootout specifically focuses on its own mechanics whereas Corner Kick operates differently.",
+            "relationML": "പെനാൽറ്റി ഷൂട്ടൗട്ട് ഉം കോർണർ കിക്ക് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Trophy",
+        "civWordMal": "ട്രോഫി",
+        "imposters": [
+          {
+            "word": "Medal",
+            "wordMal": "മെഡൽ",
+            "relationEN": "Both Trophy and Medal belong to the same domain, but Trophy specifically focuses on its own mechanics whereas Medal operates differently.",
+            "relationML": "ട്രോഫി ഉം മെഡൽ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Shield",
+            "wordMal": "ഷീൽഡ്",
+            "relationEN": "Both Trophy and Shield belong to the same domain, but Trophy specifically focuses on its own mechanics whereas Shield operates differently.",
+            "relationML": "ട്രോഫി ഉം ഷീൽഡ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Umpire",
+        "civWordMal": "അമ്പയർ",
+        "imposters": [
+          {
+            "word": "Referee",
+            "wordMal": "റഫറി",
+            "relationEN": "Both Umpire and Referee belong to the same domain, but Umpire specifically focuses on its own mechanics whereas Referee operates differently.",
+            "relationML": "അമ്പയർ ഉം റഫറി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Coach",
+            "wordMal": "കോച്ച്",
+            "relationEN": "Both Umpire and Coach belong to the same domain, but Umpire specifically focuses on its own mechanics whereas Coach operates differently.",
+            "relationML": "അമ്പയർ ഉം കോച്ച് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Gallery",
+        "civWordMal": "ഗാലറി",
+        "imposters": [
+          {
+            "word": "Stadium",
+            "wordMal": "സ്റ്റേഡിയം",
+            "relationEN": "Both Gallery and Stadium belong to the same domain, but Gallery specifically focuses on its own mechanics whereas Stadium operates differently.",
+            "relationML": "ഗാലറി ഉം സ്റ്റേഡിയം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Dugout",
+            "wordMal": "ഡഗ്ഔട്ട്",
+            "relationEN": "Both Gallery and Dugout belong to the same domain, but Gallery specifically focuses on its own mechanics whereas Dugout operates differently.",
+            "relationML": "ഗാലറി ഉം ഡഗ്ഔട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kuttiyum Kolum",
+        "civWordMal": "കുട്ടിയും കോലും",
+        "imposters": [
+          {
+            "word": "Cricket",
+            "wordMal": "ക്രിക്കറ്റ്",
+            "relationEN": "Both Kuttiyum Kolum and Cricket belong to the same domain, but Kuttiyum Kolum specifically focuses on its own mechanics whereas Cricket operates differently.",
+            "relationML": "കുട്ടിയും കോലും ഉം ക്രിക്കറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Goli",
+            "wordMal": "ഗോലി",
+            "relationEN": "Both Kuttiyum Kolum and Goli belong to the same domain, but Kuttiyum Kolum specifically focuses on its own mechanics whereas Goli operates differently.",
+            "relationML": "കുട്ടിയും കോലും ഉം ഗോലി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kilithattu",
+        "civWordMal": "കിളിത്തട്ട്",
+        "imposters": [
+          {
+            "word": "Kabaddi",
+            "wordMal": "കബഡി",
+            "relationEN": "Both Kilithattu and Kabaddi belong to the same domain, but Kilithattu specifically focuses on its own mechanics whereas Kabaddi operates differently.",
+            "relationML": "കിളിത്തട്ട് ഉം കബഡി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Kho Kho",
+            "wordMal": "ഖോ ഖോ",
+            "relationEN": "Both Kilithattu and Kho Kho belong to the same domain, but Kilithattu specifically focuses on its own mechanics whereas Kho Kho operates differently.",
+            "relationML": "കിളിത്തട്ട് ഉം ഖോ ഖോ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Talappanthukali",
+        "civWordMal": "തലപ്പന്തുകളി",
+        "imposters": [
+          {
+            "word": "Volleyball",
+            "wordMal": "വോളിബോൾ",
+            "relationEN": "Both Talappanthukali and Volleyball belong to the same domain, but Talappanthukali specifically focuses on its own mechanics whereas Volleyball operates differently.",
+            "relationML": "തലപ്പന്തുകളി ഉം വോളിബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Football",
+            "wordMal": "ഫുട്ബോൾ",
+            "relationEN": "Both Talappanthukali and Football belong to the same domain, but Talappanthukali specifically focuses on its own mechanics whereas Football operates differently.",
+            "relationML": "തലപ്പന്തുകളി ഉം ഫുട്ബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Nadan Panthu",
+        "civWordMal": "നാടൻ പന്ത്",
+        "imposters": [
+          {
+            "word": "Cricket Ball",
+            "wordMal": "ക്രിക്കറ്റ് ബോൾ",
+            "relationEN": "Both Nadan Panthu and Cricket Ball belong to the same domain, but Nadan Panthu specifically focuses on its own mechanics whereas Cricket Ball operates differently.",
+            "relationML": "നാടൻ പന്ത് ഉം ക്രിക്കറ്റ് ബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Football",
+            "wordMal": "ഫുട്ബോൾ",
+            "relationEN": "Both Nadan Panthu and Football belong to the same domain, but Nadan Panthu specifically focuses on its own mechanics whereas Football operates differently.",
+            "relationML": "നാടൻ പന്ത് ഉം ഫുട്ബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Goli",
+        "civWordMal": "ഗോലി",
+        "imposters": [
+          {
+            "word": "Billiards",
+            "wordMal": "ബില്യാർഡ്സ്",
+            "relationEN": "Both Goli and Billiards belong to the same domain, but Goli specifically focuses on its own mechanics whereas Billiards operates differently.",
+            "relationML": "ഗോലി ഉം ബില്യാർഡ്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Spinning Top",
+            "wordMal": "പമ്പരം",
+            "relationEN": "Both Goli and Spinning Top belong to the same domain, but Goli specifically focuses on its own mechanics whereas Spinning Top operates differently.",
+            "relationML": "ഗോലി ഉം പമ്പരം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Lagori",
+        "civWordMal": "ലഗോറി",
+        "imposters": [
+          {
+            "word": "Bowling",
+            "wordMal": "ബൗളിംഗ്",
+            "relationEN": "Both Lagori and Bowling belong to the same domain, but Lagori specifically focuses on its own mechanics whereas Bowling operates differently.",
+            "relationML": "ലഗോറി ഉം ബൗളിംഗ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Darts",
+            "wordMal": "ഡാർട്ട്സ്",
+            "relationEN": "Both Lagori and Darts belong to the same domain, but Lagori specifically focuses on its own mechanics whereas Darts operates differently.",
+            "relationML": "ലഗോറി ഉം ഡാർട്ട്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Arm Wrestling",
+        "civWordMal": "പഞ്ചഗുസ്തി",
+        "imposters": [
+          {
+            "word": "Wrestling",
+            "wordMal": "ഗുസ്തി",
+            "relationEN": "Both Arm Wrestling and Wrestling belong to the same domain, but Arm Wrestling specifically focuses on its own mechanics whereas Wrestling operates differently.",
+            "relationML": "പഞ്ചഗുസ്തി ഉം ഗുസ്തി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Weightlifting",
+            "wordMal": "ഭാരോദ്വഹനം",
+            "relationEN": "Both Arm Wrestling and Weightlifting belong to the same domain, but Arm Wrestling specifically focuses on its own mechanics whereas Weightlifting operates differently.",
+            "relationML": "പഞ്ചഗുസ്തി ഉം ഭാരോദ്വഹനം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kabaddi Court",
+        "civWordMal": "കബഡി കോർട്ട്",
+        "imposters": [
+          {
+            "word": "Wrestling Ring",
+            "wordMal": "ഗുസ്തി റിംഗ്",
+            "relationEN": "Both Kabaddi Court and Wrestling Ring belong to the same domain, but Kabaddi Court specifically focuses on its own mechanics whereas Wrestling Ring operates differently.",
+            "relationML": "കബഡി കോർട്ട് ഉം ഗുസ്തി റിംഗ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Tennis Court",
+            "wordMal": "ടെന്നീസ് കോർട്ട്",
+            "relationEN": "Both Kabaddi Court and Tennis Court belong to the same domain, but Kabaddi Court specifically focuses on its own mechanics whereas Tennis Court operates differently.",
+            "relationML": "കബഡി കോർട്ട് ഉം ടെന്നീസ് കോർട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Shuttle Racket",
+        "civWordMal": "ഷട്ടിൽ റാക്കറ്റ്",
+        "imposters": [
+          {
+            "word": "Tennis Racket",
+            "wordMal": "ടെന്നീസ് റാക്കറ്റ്",
+            "relationEN": "Both Shuttle Racket and Tennis Racket belong to the same domain, but Shuttle Racket specifically focuses on its own mechanics whereas Tennis Racket operates differently.",
+            "relationML": "ഷട്ടിൽ റാക്കറ്റ് ഉം ടെന്നീസ് റാക്കറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Cricket Bat",
+            "wordMal": "ക്രിക്കറ്റ് ബാറ്റ്",
+            "relationEN": "Both Shuttle Racket and Cricket Bat belong to the same domain, but Shuttle Racket specifically focuses on its own mechanics whereas Cricket Bat operates differently.",
+            "relationML": "ഷട്ടിൽ റാക്കറ്റ് ഉം ക്രിക്കറ്റ് ബാറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Foot Volley",
+        "civWordMal": "ഫൂട്ട് വോളി",
+        "imposters": [
+          {
+            "word": "Volleyball",
+            "wordMal": "വോളിബോൾ",
+            "relationEN": "Both Foot Volley and Volleyball belong to the same domain, but Foot Volley specifically focuses on its own mechanics whereas Volleyball operates differently.",
+            "relationML": "ഫൂട്ട് വോളി ഉം വോളിബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Sepak Takraw",
+            "wordMal": "സെപാക് തക്രോ",
+            "relationEN": "Both Foot Volley and Sepak Takraw belong to the same domain, but Foot Volley specifically focuses on its own mechanics whereas Sepak Takraw operates differently.",
+            "relationML": "ഫൂട്ട് വോളി ഉം സെപാക് തക്രോ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gulf",
+    "name": "Gulf & NRI",
+    "icon": "??",
+    "words": [
+      {
+        "civWord": "Pravasi",
+        "civWordMal": "പ്രവാസി",
+        "imposters": [
+          {
+            "word": "Tourist",
+            "wordMal": "വിനോദസഞ്ചാരി",
+            "relationEN": "Both Pravasi and Tourist belong to the same domain, but Pravasi specifically focuses on its own mechanics whereas Tourist operates differently.",
+            "relationML": "പ്രവാസി ഉം വിനോദസഞ്ചാരി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Refugee",
+            "wordMal": "അഭയാർത്ഥി",
+            "relationEN": "Both Pravasi and Refugee belong to the same domain, but Pravasi specifically focuses on its own mechanics whereas Refugee operates differently.",
+            "relationML": "പ്രവാസി ഉം അഭയാർത്ഥി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Dubai",
+        "civWordMal": "ദുബായ്",
+        "imposters": [
+          {
+            "word": "Abu Dhabi",
+            "wordMal": "അബുദാബി",
+            "relationEN": "Both Dubai and Abu Dhabi belong to the same domain, but Dubai specifically focuses on its own mechanics whereas Abu Dhabi operates differently.",
+            "relationML": "ദുബായ് ഉം അബുദാബി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Doha",
+            "wordMal": "ദോഹ",
+            "relationEN": "Both Dubai and Doha belong to the same domain, but Dubai specifically focuses on its own mechanics whereas Doha operates differently.",
+            "relationML": "ദുബായ് ഉം ദോഹ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Gulf Money",
+        "civWordMal": "ഗൾഫ് മണി",
+        "imposters": [
+          {
+            "word": "Hawala",
+            "wordMal": "ഹവാല",
+            "relationEN": "Both Gulf Money and Hawala belong to the same domain, but Gulf Money specifically focuses on its own mechanics whereas Hawala operates differently.",
+            "relationML": "ഗൾഫ് മണി ഉം ഹവാല ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Salary",
+            "wordMal": "ശമ്പളം",
+            "relationEN": "Both Gulf Money and Salary belong to the same domain, but Gulf Money specifically focuses on its own mechanics whereas Salary operates differently.",
+            "relationML": "ഗൾഫ് മണി ഉം ശമ്പളം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Chakka",
+        "civWordMal": "ചക്ക",
+        "imposters": [
+          {
+            "word": "Manga",
+            "wordMal": "മാങ്ങ",
+            "relationEN": "Both Chakka and Manga belong to the same domain, but Chakka specifically focuses on its own mechanics whereas Manga operates differently.",
+            "relationML": "ചക്ക ഉം മാങ്ങ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Pazham",
+            "wordMal": "പഴം",
+            "relationEN": "Both Chakka and Pazham belong to the same domain, but Chakka specifically focuses on its own mechanics whereas Pazham operates differently.",
+            "relationML": "ചക്ക ഉം പഴം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Naatilekku",
+        "civWordMal": "നാട്ടിലേക്ക്",
+        "imposters": [
+          {
+            "word": "Leave",
+            "wordMal": "ലീവ്",
+            "relationEN": "Both Naatilekku and Leave belong to the same domain, but Naatilekku specifically focuses on its own mechanics whereas Leave operates differently.",
+            "relationML": "നാട്ടിലേക്ക് ഉം ലീവ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Flight",
+            "wordMal": "വിമാനം",
+            "relationEN": "Both Naatilekku and Flight belong to the same domain, but Naatilekku specifically focuses on its own mechanics whereas Flight operates differently.",
+            "relationML": "നാട്ടിലേക്ക് ഉം വിമാനം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Abu Dhabi",
+        "civWordMal": "അബുദാബി",
+        "imposters": [
+          {
+            "word": "Dubai",
+            "wordMal": "ദുബായ്",
+            "relationEN": "Both Abu Dhabi and Dubai belong to the same domain, but Abu Dhabi specifically focuses on its own mechanics whereas Dubai operates differently.",
+            "relationML": "അബുദാബി ഉം ദുബായ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Riyadh",
+            "wordMal": "റിയാദ്",
+            "relationEN": "Both Abu Dhabi and Riyadh belong to the same domain, but Abu Dhabi specifically focuses on its own mechanics whereas Riyadh operates differently.",
+            "relationML": "അബുദാബി ഉം റിയാദ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Qatar",
+        "civWordMal": "ഖത്തർ",
+        "imposters": [
+          {
+            "word": "Oman",
+            "wordMal": "ഒമാൻ",
+            "relationEN": "Both Qatar and Oman belong to the same domain, but Qatar specifically focuses on its own mechanics whereas Oman operates differently.",
+            "relationML": "ഖത്തർ ഉം ഒമാൻ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Bahrain",
+            "wordMal": "ബഹ്റൈൻ",
+            "relationEN": "Both Qatar and Bahrain belong to the same domain, but Qatar specifically focuses on its own mechanics whereas Bahrain operates differently.",
+            "relationML": "ഖത്തർ ഉം ബഹ്റൈൻ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Saudi",
+        "civWordMal": "സൗദി",
+        "imposters": [
+          {
+            "word": "Yemen",
+            "wordMal": "യെമൻ",
+            "relationEN": "Both Saudi and Yemen belong to the same domain, but Saudi specifically focuses on its own mechanics whereas Yemen operates differently.",
+            "relationML": "സൗദി ഉം യെമൻ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Kuwait",
+            "wordMal": "കുവൈറ്റ്",
+            "relationEN": "Both Saudi and Kuwait belong to the same domain, but Saudi specifically focuses on its own mechanics whereas Kuwait operates differently.",
+            "relationML": "സൗദി ഉം കുവൈറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Oman",
+        "civWordMal": "ഒമാൻ",
+        "imposters": [
+          {
+            "word": "Muscat",
+            "wordMal": "മസ്കറ്റ്",
+            "relationEN": "Both Oman and Muscat belong to the same domain, but Oman specifically focuses on its own mechanics whereas Muscat operates differently.",
+            "relationML": "ഒമാൻ ഉം മസ്കറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "UAE",
+            "wordMal": "യുഎഇ",
+            "relationEN": "Both Oman and UAE belong to the same domain, but Oman specifically focuses on its own mechanics whereas UAE operates differently.",
+            "relationML": "ഒമാൻ ഉം യുഎഇ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Bahrain",
+        "civWordMal": "ബഹ്റൈൻ",
+        "imposters": [
+          {
+            "word": "Qatar",
+            "wordMal": "ഖത്തർ",
+            "relationEN": "Both Bahrain and Qatar belong to the same domain, but Bahrain specifically focuses on its own mechanics whereas Qatar operates differently.",
+            "relationML": "ബഹ്റൈൻ ഉം ഖത്തർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Kuwait",
+            "wordMal": "കുവൈറ്റ്",
+            "relationEN": "Both Bahrain and Kuwait belong to the same domain, but Bahrain specifically focuses on its own mechanics whereas Kuwait operates differently.",
+            "relationML": "ബഹ്റൈൻ ഉം കുവൈറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kuwait",
+        "civWordMal": "കുവൈറ്റ്",
+        "imposters": [
+          {
+            "word": "Dinar",
+            "wordMal": "ദിനാർ",
+            "relationEN": "Both Kuwait and Dinar belong to the same domain, but Kuwait specifically focuses on its own mechanics whereas Dinar operates differently.",
+            "relationML": "കുവൈറ്റ് ഉം ദിനാർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Saudi Arabia",
+            "wordMal": "സൗദി അറേബ്യ",
+            "relationEN": "Both Kuwait and Saudi Arabia belong to the same domain, but Kuwait specifically focuses on its own mechanics whereas Saudi Arabia operates differently.",
+            "relationML": "കുവൈറ്റ് ഉം സൗദി അറേബ്യ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Visa",
+        "civWordMal": "വിസ",
+        "imposters": [
+          {
+            "word": "Passport",
+            "wordMal": "പാസ്പോർട്ട്",
+            "relationEN": "Both Visa and Passport belong to the same domain, but Visa specifically focuses on its own mechanics whereas Passport operates differently.",
+            "relationML": "വിസ ഉം പാസ്പോർട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Ticket",
+            "wordMal": "ടിക്കറ്റ്",
+            "relationEN": "Both Visa and Ticket belong to the same domain, but Visa specifically focuses on its own mechanics whereas Ticket operates differently.",
+            "relationML": "വിസ ഉം ടിക്കറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Passport",
+        "civWordMal": "പാസ്പോർട്ട്",
+        "imposters": [
+          {
+            "word": "Emirates ID",
+            "wordMal": "എമിറേറ്റ്സ് ഐഡി",
+            "relationEN": "Both Passport and Emirates ID belong to the same domain, but Passport specifically focuses on its own mechanics whereas Emirates ID operates differently.",
+            "relationML": "പാസ്പോർട്ട് ഉം എമിറേറ്റ്സ് ഐഡി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Boarding Pass",
+            "wordMal": "ബോർഡിംഗ് പാസ്",
+            "relationEN": "Both Passport and Boarding Pass belong to the same domain, but Passport specifically focuses on its own mechanics whereas Boarding Pass operates differently.",
+            "relationML": "പാസ്പോർട്ട് ഉം ബോർഡിംഗ് പാസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Airport",
+        "civWordMal": "എയർപോർട്ട്",
+        "imposters": [
+          {
+            "word": "Railway Station",
+            "wordMal": "റെയിൽവേ സ്റ്റേഷൻ",
+            "relationEN": "Both Airport and Railway Station belong to the same domain, but Airport specifically focuses on its own mechanics whereas Railway Station operates differently.",
+            "relationML": "എയർപോർട്ട് ഉം റെയിൽവേ സ്റ്റേഷൻ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Runway",
+            "wordMal": "റൺവേ",
+            "relationEN": "Both Airport and Runway belong to the same domain, but Airport specifically focuses on its own mechanics whereas Runway operates differently.",
+            "relationML": "എയർപോർട്ട് ഉം റൺവേ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Remittance",
+        "civWordMal": "റെമിറ്റൻസ്",
+        "imposters": [
+          {
+            "word": "Exchange",
+            "wordMal": "എക്സ്ചേഞ്ച്",
+            "relationEN": "Both Remittance and Exchange belong to the same domain, but Remittance specifically focuses on its own mechanics whereas Exchange operates differently.",
+            "relationML": "റെമിറ്റൻസ് ഉം എക്സ്ചേഞ്ച് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Bank Transfer",
+            "wordMal": "ബാങ്ക് ട്രാൻസ്ഫർ",
+            "relationEN": "Both Remittance and Bank Transfer belong to the same domain, but Remittance specifically focuses on its own mechanics whereas Bank Transfer operates differently.",
+            "relationML": "റെമിറ്റൻസ് ഉം ബാങ്ക് ട്രാൻസ്ഫർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Duty Free",
+        "civWordMal": "ഡ്യൂട്ടി ഫ്രീ",
+        "imposters": [
+          {
+            "word": "Shopping Mall",
+            "wordMal": "ഷോപ്പിംഗ് മാൾ",
+            "relationEN": "Both Duty Free and Shopping Mall belong to the same domain, but Duty Free specifically focuses on its own mechanics whereas Shopping Mall operates differently.",
+            "relationML": "ഡ്യൂട്ടി ഫ്രീ ഉം ഷോപ്പിംഗ് മാൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Customs",
+            "wordMal": "കസ്റ്റംസ്",
+            "relationEN": "Both Duty Free and Customs belong to the same domain, but Duty Free specifically focuses on its own mechanics whereas Customs operates differently.",
+            "relationML": "ഡ്യൂട്ടി ഫ്രീ ഉം കസ്റ്റംസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Perfume",
+        "civWordMal": "പെർഫ്യൂം",
+        "imposters": [
+          {
+            "word": "Attar",
+            "wordMal": "അത്തർ",
+            "relationEN": "Both Perfume and Attar belong to the same domain, but Perfume specifically focuses on its own mechanics whereas Attar operates differently.",
+            "relationML": "പെർഫ്യൂം ഉം അത്തർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Deodorant",
+            "wordMal": "ഡിയോഡറന്റ്",
+            "relationEN": "Both Perfume and Deodorant belong to the same domain, but Perfume specifically focuses on its own mechanics whereas Deodorant operates differently.",
+            "relationML": "പെർഫ്യൂം ഉം ഡിയോഡറന്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Dates",
+        "civWordMal": "ഈത്തപ്പഴം",
+        "imposters": [
+          {
+            "word": "Figs",
+            "wordMal": "അത്തിപ്പഴം",
+            "relationEN": "Both Dates and Figs belong to the same domain, but Dates specifically focuses on its own mechanics whereas Figs operates differently.",
+            "relationML": "ഈത്തപ്പഴം ഉം അത്തിപ്പഴം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Almonds",
+            "wordMal": "ബദാം",
+            "relationEN": "Both Dates and Almonds belong to the same domain, but Dates specifically focuses on its own mechanics whereas Almonds operates differently.",
+            "relationML": "ഈത്തപ്പഴം ഉം ബദാം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Gold",
+        "civWordMal": "സ്വർണം",
+        "imposters": [
+          {
+            "word": "Diamond",
+            "wordMal": "ഡയമണ്ട്",
+            "relationEN": "Both Gold and Diamond belong to the same domain, but Gold specifically focuses on its own mechanics whereas Diamond operates differently.",
+            "relationML": "സ്വർണം ഉം ഡയമണ്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Silver",
+            "wordMal": "വെള്ളി",
+            "relationEN": "Both Gold and Silver belong to the same domain, but Gold specifically focuses on its own mechanics whereas Silver operates differently.",
+            "relationML": "സ്വർണം ഉം വെള്ളി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Return Ticket",
+        "civWordMal": "റിട്ടേൺ ടിക്കറ്റ്",
+        "imposters": [
+          {
+            "word": "One-way Ticket",
+            "wordMal": "വൺ-വേ ടിക്കറ്റ്",
+            "relationEN": "Both Return Ticket and One-way Ticket belong to the same domain, but Return Ticket specifically focuses on its own mechanics whereas One-way Ticket operates differently.",
+            "relationML": "റിട്ടേൺ ടിക്കറ്റ് ഉം വൺ-വേ ടിക്കറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Boarding Pass",
+            "wordMal": "ബോർഡിംഗ് പാസ്",
+            "relationEN": "Both Return Ticket and Boarding Pass belong to the same domain, but Return Ticket specifically focuses on its own mechanics whereas Boarding Pass operates differently.",
+            "relationML": "റിട്ടേൺ ടിക്കറ്റ് ഉം ബോർഡിംഗ് പാസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Norka",
+        "civWordMal": "നോർക്ക",
+        "imposters": [
+          {
+            "word": "Embassy",
+            "wordMal": "എംബസി",
+            "relationEN": "Both Norka and Embassy belong to the same domain, but Norka specifically focuses on its own mechanics whereas Embassy operates differently.",
+            "relationML": "നോർക്ക ഉം എംബസി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Consulate",
+            "wordMal": "കോൺസുലേറ്റ്",
+            "relationEN": "Both Norka and Consulate belong to the same domain, but Norka specifically focuses on its own mechanics whereas Consulate operates differently.",
+            "relationML": "നോർക്ക ഉം കോൺസുലേറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Sharjah",
+        "civWordMal": "ഷാർജ",
+        "imposters": [
+          {
+            "word": "Ajman",
+            "wordMal": "അജ്മാൻ",
+            "relationEN": "Both Sharjah and Ajman belong to the same domain, but Sharjah specifically focuses on its own mechanics whereas Ajman operates differently.",
+            "relationML": "ഷാർജ ഉം അജ്മാൻ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Dubai",
+            "wordMal": "ദുബായ്",
+            "relationEN": "Both Sharjah and Dubai belong to the same domain, but Sharjah specifically focuses on its own mechanics whereas Dubai operates differently.",
+            "relationML": "ഷാർജ ഉം ദുബായ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Baklava",
+        "civWordMal": "ബക്ലാവ",
+        "imposters": [
+          {
+            "word": "Kunafa",
+            "wordMal": "കുനാഫ",
+            "relationEN": "Both Baklava and Kunafa belong to the same domain, but Baklava specifically focuses on its own mechanics whereas Kunafa operates differently.",
+            "relationML": "ബക്ലാവ ഉം കുനാഫ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Halwa",
+            "wordMal": "ഹൽവ",
+            "relationEN": "Both Baklava and Halwa belong to the same domain, but Baklava specifically focuses on its own mechanics whereas Halwa operates differently.",
+            "relationML": "ബക്ലാവ ഉം ഹൽവ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Desert Safari",
+        "civWordMal": "മരുഭൂമി സഫാരി",
+        "imposters": [
+          {
+            "word": "Camel Ride",
+            "wordMal": "ഒട്ടക സവാരി",
+            "relationEN": "Both Desert Safari and Camel Ride belong to the same domain, but Desert Safari specifically focuses on its own mechanics whereas Camel Ride operates differently.",
+            "relationML": "മരുഭൂമി സഫാരി ഉം ഒട്ടക സവാരി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Dune Bashing",
+            "wordMal": "ഡ്യൂൺ ബാഷിംഗ്",
+            "relationEN": "Both Desert Safari and Dune Bashing belong to the same domain, but Desert Safari specifically focuses on its own mechanics whereas Dune Bashing operates differently.",
+            "relationML": "മരുഭൂമി സഫാരി ഉം ഡ്യൂൺ ബാഷിംഗ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Burj Khalifa",
+        "civWordMal": "ബുർജ് ഖലീഫ",
+        "imposters": [
+          {
+            "word": "Burj Al Arab",
+            "wordMal": "ബുർജ് അൽ അറബ്",
+            "relationEN": "Both Burj Khalifa and Burj Al Arab belong to the same domain, but Burj Khalifa specifically focuses on its own mechanics whereas Burj Al Arab operates differently.",
+            "relationML": "ബുർജ് ഖലീഫ ഉം ബുർജ് അൽ അറബ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Eiffel Tower",
+            "wordMal": "ഈഫൽ ടവർ",
+            "relationEN": "Both Burj Khalifa and Eiffel Tower belong to the same domain, but Burj Khalifa specifically focuses on its own mechanics whereas Eiffel Tower operates differently.",
+            "relationML": "ബുർജ് ഖലീഫ ഉം ഈഫൽ ടവർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Vacation Leave",
+        "civWordMal": "അവധി / ലീവ്",
+        "imposters": [
+          {
+            "word": "Resignation",
+            "wordMal": "രാജി",
+            "relationEN": "Both Vacation Leave and Resignation belong to the same domain, but Vacation Leave specifically focuses on its own mechanics whereas Resignation operates differently.",
+            "relationML": "അവധി / ലീവ് ഉം രാജി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Weekend",
+            "wordMal": "വാരാന്ത്യം",
+            "relationEN": "Both Vacation Leave and Weekend belong to the same domain, but Vacation Leave specifically focuses on its own mechanics whereas Weekend operates differently.",
+            "relationML": "അവധി / ലീവ് ഉം വാരാന്ത്യം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Dubai Gold Souk",
+        "civWordMal": "ദുബായ് ഗോൾഡ് സൂക്ക്",
+        "imposters": [
+          {
+            "word": "Spice Souk",
+            "wordMal": "സ്പൈസ് സൂക്ക്",
+            "relationEN": "Both Dubai Gold Souk and Spice Souk belong to the same domain, but Dubai Gold Souk specifically focuses on its own mechanics whereas Spice Souk operates differently.",
+            "relationML": "ദുബായ് ഗോൾഡ് സൂക്ക് ഉം സ്പൈസ് സൂക്ക് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Jewellery Shop",
+            "wordMal": "ജ്വല്ലറി",
+            "relationEN": "Both Dubai Gold Souk and Jewellery Shop belong to the same domain, but Dubai Gold Souk specifically focuses on its own mechanics whereas Jewellery Shop operates differently.",
+            "relationML": "ദുബായ് ഗോൾഡ് സൂക്ക് ഉം ജ്വല്ലറി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Khubus",
+        "civWordMal": "കുബ്ബൂസ്",
+        "imposters": [
+          {
+            "word": "Porotta",
+            "wordMal": "പൊറോട്ട",
+            "relationEN": "Both Khubus and Porotta belong to the same domain, but Khubus specifically focuses on its own mechanics whereas Porotta operates differently.",
+            "relationML": "കുബ്ബൂസ് ഉം പൊറോട്ട ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Pita Bread",
+            "wordMal": "പിറ്റാ ബ്രെഡ്",
+            "relationEN": "Both Khubus and Pita Bread belong to the same domain, but Khubus specifically focuses on its own mechanics whereas Pita Bread operates differently.",
+            "relationML": "കുബ്ബൂസ് ഉം പിറ്റാ ബ്രെഡ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kafala",
+        "civWordMal": "കഫാല",
+        "imposters": [
+          {
+            "word": "Sponsorship",
+            "wordMal": "സ്പോൺസർഷിപ്പ്",
+            "relationEN": "Both Kafala and Sponsorship belong to the same domain, but Kafala specifically focuses on its own mechanics whereas Sponsorship operates differently.",
+            "relationML": "കഫാല ഉം സ്പോൺസർഷിപ്പ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Visa Rule",
+            "wordMal": "വിസാ നിയമം",
+            "relationEN": "Both Kafala and Visa Rule belong to the same domain, but Kafala specifically focuses on its own mechanics whereas Visa Rule operates differently.",
+            "relationML": "കഫാല ഉം വിസാ നിയമം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Perfume Attar",
+        "civWordMal": "അത്തർ",
+        "imposters": [
+          {
+            "word": "Oud",
+            "wordMal": "ഊദ്",
+            "relationEN": "Both Perfume Attar and Oud belong to the same domain, but Perfume Attar specifically focuses on its own mechanics whereas Oud operates differently.",
+            "relationML": "അത്തർ ഉം ഊദ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Rose Water",
+            "wordMal": "പനിനീർ",
+            "relationEN": "Both Perfume Attar and Rose Water belong to the same domain, but Perfume Attar specifically focuses on its own mechanics whereas Rose Water operates differently.",
+            "relationML": "അത്തർ ഉം പനിനീർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Qatar Airways",
+        "civWordMal": "ഖത്തർ എയർവേയ്സ്",
+        "imposters": [
+          {
+            "word": "Emirates",
+            "wordMal": "എമിറേറ്റ്സ്",
+            "relationEN": "Both Qatar Airways and Emirates belong to the same domain, but Qatar Airways specifically focuses on its own mechanics whereas Emirates operates differently.",
+            "relationML": "ഖത്തർ എയർവേയ്സ് ഉം എമിറേറ്റ്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Air India",
+            "wordMal": "എയർ ഇന്ത്യ",
+            "relationEN": "Both Qatar Airways and Air India belong to the same domain, but Qatar Airways specifically focuses on its own mechanics whereas Air India operates differently.",
+            "relationML": "ഖത്തർ എയർവേയ്സ് ഉം എയർ ഇന്ത്യ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Shawarma Machine",
+        "civWordMal": "ഷവർമ്മ മെഷീൻ",
+        "imposters": [
+          {
+            "word": "Grill",
+            "wordMal": "ഗ്രിൽ",
+            "relationEN": "Both Shawarma Machine and Grill belong to the same domain, but Shawarma Machine specifically focuses on its own mechanics whereas Grill operates differently.",
+            "relationML": "ഷവർമ്മ മെഷീൻ ഉം ഗ്രിൽ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Oven",
+            "wordMal": "ഓവൻ",
+            "relationEN": "Both Shawarma Machine and Oven belong to the same domain, but Shawarma Machine specifically focuses on its own mechanics whereas Oven operates differently.",
+            "relationML": "ഷവർമ്മ മെഷീൻ ഉം ഓവൻ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Oud Incense",
+        "civWordMal": "ഊദ്",
+        "imposters": [
+          {
+            "word": "Frankincense",
+            "wordMal": "കുന്തിരിക്കം",
+            "relationEN": "Both Oud Incense and Frankincense belong to the same domain, but Oud Incense specifically focuses on its own mechanics whereas Frankincense operates differently.",
+            "relationML": "ഊദ് ഉം കുന്തിരിക്കം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Bakhoor",
+            "wordMal": "ബഖൂർ",
+            "relationEN": "Both Oud Incense and Bakhoor belong to the same domain, but Oud Incense specifically focuses on its own mechanics whereas Bakhoor operates differently.",
+            "relationML": "ഊദ് ഉം ബഖൂർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Lablabi / Hummus",
+        "civWordMal": "ഹുമുസ്",
+        "imposters": [
+          {
+            "word": "Moutabal",
+            "wordMal": "മുതബൽ",
+            "relationEN": "Both Lablabi / Hummus and Moutabal belong to the same domain, but Lablabi / Hummus specifically focuses on its own mechanics whereas Moutabal operates differently.",
+            "relationML": "ഹുമുസ് ഉം മുതബൽ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Mayonnaise",
+            "wordMal": "മയോണൈസ്",
+            "relationEN": "Both Lablabi / Hummus and Mayonnaise belong to the same domain, but Lablabi / Hummus specifically focuses on its own mechanics whereas Mayonnaise operates differently.",
+            "relationML": "ഹുമുസ് ഉം മയോണൈസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Dirham Currency",
+        "civWordMal": "ദിർഹം",
+        "imposters": [
+          {
+            "word": "Riyal",
+            "wordMal": "റിയാൽ",
+            "relationEN": "Both Dirham Currency and Riyal belong to the same domain, but Dirham Currency specifically focuses on its own mechanics whereas Riyal operates differently.",
+            "relationML": "ദിർഹം ഉം റിയാൽ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Rupee",
+            "wordMal": "രൂപ",
+            "relationEN": "Both Dirham Currency and Rupee belong to the same domain, but Dirham Currency specifically focuses on its own mechanics whereas Rupee operates differently.",
+            "relationML": "ദിർഹം ഉം രൂപ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Emirates ID",
+        "civWordMal": "എമിറേറ്റ്സ് ഐഡി",
+        "imposters": [
+          {
+            "word": "Aadhaar Card",
+            "wordMal": "ആധാർ കാർഡ്",
+            "relationEN": "Both Emirates ID and Aadhaar Card belong to the same domain, but Emirates ID specifically focuses on its own mechanics whereas Aadhaar Card operates differently.",
+            "relationML": "എമിറേറ്റ്സ് ഐഡി ഉം ആധാർ കാർഡ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          },
+          {
+            "word": "Passport",
+            "wordMal": "പാസ്പോർട്ട്",
+            "relationEN": "Both Emirates ID and Passport belong to the same domain, but Emirates ID specifically focuses on its own mechanics whereas Passport operates differently.",
+            "relationML": "എമിറേറ്റ്സ് ഐഡി ഉം പാസ്പോർട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
+          }
+        ]
+      }
+    ]
+  }
+]

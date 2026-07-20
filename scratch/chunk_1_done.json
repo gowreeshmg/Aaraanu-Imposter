@@ -1,0 +1,3902 @@
+{
+  "bakery": [
+    {
+      "civWord": "Chaya",
+      "civWordMal": "ചായ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Chaya",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Chaya",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Puffs",
+      "civWordMal": "പഫ്സ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Puffs",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Puffs",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Uzhunnu Vada",
+      "civWordMal": "ഉഴുന്നു വട",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Uzhunnu Vada",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Uzhunnu Vada",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mutta Baji",
+      "civWordMal": "മുട്ട ബജി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mutta Baji",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mutta Baji",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kozhukkatta",
+      "civWordMal": "കൊഴുക്കട്ട",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kozhukkatta",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kozhukkatta",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Cutlet",
+      "civWordMal": "കട്ട്ലറ്റ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Cutlet",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Cutlet",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Samosa",
+      "civWordMal": "സമോസ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Samosa",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Samosa",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Bonda",
+      "civWordMal": "ബോണ്ട",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Bonda",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Bonda",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Parippu Vada",
+      "civWordMal": "പരിപ്പ് വട",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Parippu Vada",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Parippu Vada",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Ela Ada",
+      "civWordMal": "ഇല അട",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Ela Ada",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Ela Ada",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Achappam",
+      "civWordMal": "അച്ചപ്പം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Achappam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Achappam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Unniyappam",
+      "civWordMal": "ഉണ്ണിയപ്പം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Unniyappam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Unniyappam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Banana Chips",
+      "civWordMal": "വാഴക്ക ചിപ്സ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Banana Chips",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Banana Chips",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Sharkara Upperi",
+      "civWordMal": "ശർക്കര ഉപ്പേരി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Sharkara Upperi",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Sharkara Upperi",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kappa Chips",
+      "civWordMal": "കപ്പ ചിപ്സ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kappa Chips",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kappa Chips",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Avalose Podi",
+      "civWordMal": "അവലോസ് പൊടി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Avalose Podi",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Avalose Podi",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kozhalappam",
+      "civWordMal": "കൊഴലപ്പം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kozhalappam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kozhalappam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kinnathappam",
+      "civWordMal": "കിണ്ണത്തപ്പം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kinnathappam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kinnathappam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Churuttu",
+      "civWordMal": "ചുരുട്ട്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Churuttu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Churuttu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Halwa",
+      "civWordMal": "ഹൽവ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Halwa",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Halwa",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Sukhiyan",
+      "civWordMal": "സുഖിയൻ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Sukhiyan",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Sukhiyan",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Bread Pakora",
+      "civWordMal": "ബ്രെഡ് പക്കോട",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Bread Pakora",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Bread Pakora",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Laddoo",
+      "civWordMal": "ലഡ്ഡു",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Laddoo",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Laddoo",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Jalebi",
+      "civWordMal": "ജിലേബി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Jalebi",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Jalebi",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Meat Roll",
+      "civWordMal": "മീറ്റ് റോൾ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Meat Roll",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Meat Roll",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Boli",
+      "civWordMal": "ബോളി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Boli",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Boli",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Chatti Pathiri",
+      "civWordMal": "ചട്ടി പത്തിരി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Chatti Pathiri",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Chatti Pathiri",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Vettu Cake",
+      "civWordMal": "വെട്ട് കേക്ക്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Vettu Cake",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Vettu Cake",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Pakkavada",
+      "civWordMal": "പക്കവട",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Pakkavada",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Pakkavada",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kayyappam",
+      "civWordMal": "കയ്യപ്പം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kayyappam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kayyappam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Ilayappam",
+      "civWordMal": "ഇലയപ്പം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Ilayappam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Ilayappam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mothagam",
+      "civWordMal": "മോദകം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mothagam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mothagam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mutta Puff",
+      "civWordMal": "മുട്ട പഫ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mutta Puff",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mutta Puff",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Cream Bun",
+      "civWordMal": "ക്രീം ബൺ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Cream Bun",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Cream Bun",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mixture",
+      "civWordMal": "മിക്സ്ചർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mixture",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mixture",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Pahadi Halwa",
+      "civWordMal": "കോഴിക്കോടൻ ഹൽവ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Pahadi Halwa",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Pahadi Halwa",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    }
+  ],
+  "home": [
+    {
+      "civWord": "Nilavilakku",
+      "civWordMal": "നിലവിളക്ക്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Nilavilakku",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Nilavilakku",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Thorthu",
+      "civWordMal": "തോർത്തു",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Thorthu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Thorthu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Muram",
+      "civWordMal": "മുറം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Muram",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Muram",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Chattukam",
+      "civWordMal": "ചട്ടുകം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Chattukam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Chattukam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mundum Neriyathum",
+      "civWordMal": "മുണ്ടും നേരിയതും",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mundum Neriyathum",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mundum Neriyathum",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Uruli",
+      "civWordMal": "ഉരുളി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Uruli",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Uruli",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Para",
+      "civWordMal": "പറ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Para",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Para",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kudam",
+      "civWordMal": "കുടം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kudam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kudam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Chembu",
+      "civWordMal": "ചെമ്പ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Chembu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Chembu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Ammikallu",
+      "civWordMal": "അമ്മിക്കല്ല്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Ammikallu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Ammikallu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Arakkallu",
+      "civWordMal": "അരക്കല്ല്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Arakkallu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Arakkallu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Aattukallu",
+      "civWordMal": "ആട്ടുകല്ല്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Aattukallu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Aattukallu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kindi",
+      "civWordMal": "കിണ്ടി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kindi",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kindi",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Thookkuvilakku",
+      "civWordMal": "തൂക്കുവിളക്ക്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Thookkuvilakku",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Thookkuvilakku",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mundu",
+      "civWordMal": "മുണ്ട്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mundu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mundu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kasavu Saree",
+      "civWordMal": "കസവ് സാരി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kasavu Saree",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kasavu Saree",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Chirava",
+      "civWordMal": "ചിരവ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Chirava",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Chirava",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Paathram",
+      "civWordMal": "പാത്രം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Paathram",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Paathram",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Puttu Kutti",
+      "civWordMal": "പുട്ടുകുറ്റി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Puttu Kutti",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Puttu Kutti",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Vaal Kannadi",
+      "civWordMal": "വാൽക്കണ്ണാടി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Vaal Kannadi",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Vaal Kannadi",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kalam",
+      "civWordMal": "കലം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kalam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kalam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Cheenachatti",
+      "civWordMal": "ചീനച്ചട്ടി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Cheenachatti",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Cheenachatti",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kettle",
+      "civWordMal": "കെറ്റിൽ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kettle",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kettle",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Bharani",
+      "civWordMal": "ഭരണി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Bharani",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Bharani",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kattil",
+      "civWordMal": "കട്ടിൽ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kattil",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kattil",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Oonjal",
+      "civWordMal": "ഊഞ്ഞാൽ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Oonjal",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Oonjal",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Chattuvam",
+      "civWordMal": "ചട്ടുക്ക",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Chattuvam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Chattuvam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Paya",
+      "civWordMal": "പായ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Paya",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Paya",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Thiri",
+      "civWordMal": "തിരി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Thiri",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Thiri",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kindu Brass",
+      "civWordMal": "ഓട്ടുപാത്രം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kindu Brass",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kindu Brass",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Alavu Para",
+      "civWordMal": "അളവുപാത്രം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Alavu Para",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Alavu Para",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kindu Vessel",
+      "civWordMal": "വാൽക്കിണ്ടി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kindu Vessel",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kindu Vessel",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Chappathi Kallu",
+      "civWordMal": "ചപ്പാത്തി കല്ല്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Chappathi Kallu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Chappathi Kallu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Arippa",
+      "civWordMal": "അരിപ്പ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Arippa",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Arippa",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Choottu",
+      "civWordMal": "ചൂട്ട്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Choottu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Choottu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Madaal",
+      "civWordMal": "മടൽ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Madaal",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Madaal",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "civWord": "Mohanlal",
+      "civWordMal": "മോഹൻലാൽ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mohanlal",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mohanlal",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mammootty",
+      "civWordMal": "മമ്മൂട്ടി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mammootty",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mammootty",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Manju Warrier",
+      "civWordMal": "മഞ്ജു വാര്യർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Manju Warrier",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Manju Warrier",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Fahadh Faasil",
+      "civWordMal": "ഫഹദ് ഫാസിൽ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Fahadh Faasil",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Fahadh Faasil",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Shobana",
+      "civWordMal": "ശോഭന",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Shobana",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Shobana",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Dileep",
+      "civWordMal": "ദിലീപ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Dileep",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Dileep",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Suresh Gopi",
+      "civWordMal": "സുരേഷ് ഗോപി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Suresh Gopi",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Suresh Gopi",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Prithviraj",
+      "civWordMal": "പൃഥ്വിരാജ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Prithviraj",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Prithviraj",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Tovino Thomas",
+      "civWordMal": "ടൊവിനോ തോമസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Tovino Thomas",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Tovino Thomas",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Nivin Pauly",
+      "civWordMal": "നിവിൻ പോളി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Nivin Pauly",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Nivin Pauly",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kunchacko Boban",
+      "civWordMal": "കുഞ്ചാക്കോ ബോബൻ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kunchacko Boban",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kunchacko Boban",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Jayaram",
+      "civWordMal": "ജയറാം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Jayaram",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Jayaram",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Jayasurya",
+      "civWordMal": "ജയസൂര്യ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Jayasurya",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Jayasurya",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Parvathy Thiruvothu",
+      "civWordMal": "പാർവതി തിരുവോത്ത്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Parvathy Thiruvothu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Parvathy Thiruvothu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Nazriya Nazim",
+      "civWordMal": "നസ്രിയ നസീം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Nazriya Nazim",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Nazriya Nazim",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Anaswara Rajan",
+      "civWordMal": "അനശ്വര രാജൻ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Anaswara Rajan",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Anaswara Rajan",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Aishwarya Lekshmi",
+      "civWordMal": "ഐശ്വര്യ ലക്ഷ്മി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Aishwarya Lekshmi",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Aishwarya Lekshmi",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Asif Ali",
+      "civWordMal": "ആസിഫ് അലി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Asif Ali",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Asif Ali",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Basil Joseph",
+      "civWordMal": "ബേസിൽ ജോസഫ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Basil Joseph",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Basil Joseph",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Vineeth Sreenivasan",
+      "civWordMal": "വിനീത് ശ്രീനിവാസൻ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Vineeth Sreenivasan",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Vineeth Sreenivasan",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Dulquer Salmaan",
+      "civWordMal": "ദുൽഖർ സൽമാൻ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Dulquer Salmaan",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Dulquer Salmaan",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Suraj Venjaramoodu",
+      "civWordMal": "സുരാജ് വെഞ്ഞാറമൂട്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Suraj Venjaramoodu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Suraj Venjaramoodu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Jagathy Sreekumar",
+      "civWordMal": "ജഗതി ശ്രീകുമാർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Jagathy Sreekumar",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Jagathy Sreekumar",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Innocent",
+      "civWordMal": "ഇന്നസെന്റ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Innocent",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Innocent",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Soubin Shahir",
+      "civWordMal": "സൗബിൻ ഷാഹിർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Soubin Shahir",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Soubin Shahir",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kalyani Priyadarshan",
+      "civWordMal": "കല്യാണി പ്രിയദർശൻ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kalyani Priyadarshan",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kalyani Priyadarshan",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "K. J. Yesudas",
+      "civWordMal": "കെ. ജെ. യേശുദാസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for K. J. Yesudas",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for K. J. Yesudas",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "K. S. Chithra",
+      "civWordMal": "കെ. എസ്. ചിത്ര",
+      "imposters": [
+        {
+          "word": "Alternative 1 for K. S. Chithra",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for K. S. Chithra",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Sanju Samson",
+      "civWordMal": "സഞ്ജു സാംസൺ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Sanju Samson",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Sanju Samson",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Shashi Tharoor",
+      "civWordMal": "ശശി തരൂർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Shashi Tharoor",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Shashi Tharoor",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Sreenivasan",
+      "civWordMal": "ശ്രീനിവാസൻ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Sreenivasan",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Sreenivasan",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Salim Kumar",
+      "civWordMal": "സലിം കുമാർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Salim Kumar",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Salim Kumar",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Urveshi",
+      "civWordMal": "ഉർവ്വശി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Urveshi",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Urveshi",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mukesh",
+      "civWordMal": "മുകേഷ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mukesh",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mukesh",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Biju Menon",
+      "civWordMal": "ബിജു മേനോൻ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Biju Menon",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Biju Menon",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Pepe Antony",
+      "civWordMal": "ആന്റണി വർഗ്ഗീസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Pepe Antony",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Pepe Antony",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    }
+  ],
+  "life": [
+    {
+      "civWord": "Chaya Kada",
+      "civWordMal": "ചായക്കട",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Chaya Kada",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Chaya Kada",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kallu Shappu",
+      "civWordMal": "കള്ള് ഷാപ്പ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kallu Shappu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kallu Shappu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "KSRTC",
+      "civWordMal": "കെ എസ് ആർ ടി സി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for KSRTC",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for KSRTC",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Auto Rickshaw",
+      "civWordMal": "ഓട്ടോ റിക്ഷ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Auto Rickshaw",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Auto Rickshaw",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Tharavadu",
+      "civWordMal": "തറവാട്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Tharavadu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Tharavadu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Panchayath",
+      "civWordMal": "പഞ്ചായത്ത്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Panchayath",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Panchayath",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kudumbashree",
+      "civWordMal": "കുടുംബശ്രീ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kudumbashree",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kudumbashree",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Anganwadi",
+      "civWordMal": "അങ്കണവാടി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Anganwadi",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Anganwadi",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Rubber Thottam",
+      "civWordMal": "റബ്ബർ തോട്ടം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Rubber Thottam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Rubber Thottam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Tea Estate",
+      "civWordMal": "തേയിലത്തോട്ടം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Tea Estate",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Tea Estate",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Thengu",
+      "civWordMal": "തെങ്ങ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Thengu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Thengu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kuttanadan Padanilam",
+      "civWordMal": "കുട്ടനാടൻ പാടനിലം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kuttanadan Padanilam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kuttanadan Padanilam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Puzha",
+      "civWordMal": "പുഴ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Puzha",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Puzha",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kaithari",
+      "civWordMal": "കൈത്തറി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kaithari",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kaithari",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mazha",
+      "civWordMal": "മഴ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mazha",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mazha",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Tharavad",
+      "civWordMal": "തറവാട്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Tharavad",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Tharavad",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Naadan Pattu",
+      "civWordMal": "നാടൻ പാട്ട്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Naadan Pattu",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Naadan Pattu",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kavala",
+      "civWordMal": "കവല",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kavala",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kavala",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Palli",
+      "civWordMal": "പള്ളി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Palli",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Palli",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Ambalam",
+      "civWordMal": "അമ്പലം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Ambalam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Ambalam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Lottery Ticket",
+      "civWordMal": "ലോട്ടറി ടിക്കറ്റ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Lottery Ticket",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Lottery Ticket",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Hartal",
+      "civWordMal": "ഹർത്താൽ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Hartal",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Hartal",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Vayanasala",
+      "civWordMal": "വായനശാല",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Vayanasala",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Vayanasala",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Chitty",
+      "civWordMal": "ചിട്ടി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Chitty",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Chitty",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kavukal",
+      "civWordMal": "കാവ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kavukal",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kavukal",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kulam",
+      "civWordMal": "കുളം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kulam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kulam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Milma",
+      "civWordMal": "മിൽമ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Milma",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Milma",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Bevco",
+      "civWordMal": "ബെവ്കോ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Bevco",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Bevco",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Akshaya Centre",
+      "civWordMal": "അക്ഷയ കേന്ദ്രം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Akshaya Centre",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Akshaya Centre",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Supplyco",
+      "civWordMal": "സപ്ലൈകോ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Supplyco",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Supplyco",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Vidyabhyasa Loan",
+      "civWordMal": "വിദ്യാഭ്യാസ വായ്പ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Vidyabhyasa Loan",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Vidyabhyasa Loan",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Ration Kada",
+      "civWordMal": "റേഷൻ കട",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Ration Kada",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Ration Kada",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mahatma Gandhi NREGA",
+      "civWordMal": "തൊഴിലുറപ്പ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mahatma Gandhi NREGA",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mahatma Gandhi NREGA",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Current Bill",
+      "civWordMal": "കറന്റ് ബിൽ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Current Bill",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Current Bill",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "KSEB",
+      "civWordMal": "കെഎസ്ഇബി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for KSEB",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for KSEB",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Water Authority",
+      "civWordMal": "വാട്ടർ അതോറിറ്റി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Water Authority",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Water Authority",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    }
+  ],
+  "vehicles": [
+    {
+      "civWord": "Aanavandi",
+      "civWordMal": "ആനവണ്ടി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Aanavandi",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Aanavandi",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Vallam",
+      "civWordMal": "വള്ളം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Vallam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Vallam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Autorickshaw",
+      "civWordMal": "ഓട്ടോറിക്ഷ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Autorickshaw",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Autorickshaw",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Bullet",
+      "civWordMal": "ബുള്ളറ്റ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Bullet",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Bullet",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Houseboat",
+      "civWordMal": "ഹൗസ്‌ബോട്ട്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Houseboat",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Houseboat",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Jankar",
+      "civWordMal": "ജങ്കാർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Jankar",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Jankar",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Ferry",
+      "civWordMal": "ഫെറി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Ferry",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Ferry",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Chundan Vallam",
+      "civWordMal": "ചുണ്ടൻ വള്ളം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Chundan Vallam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Chundan Vallam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kettuvallam",
+      "civWordMal": "കെട്ടുവള്ളം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kettuvallam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kettuvallam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Pickup",
+      "civWordMal": "പിക്കപ്പ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Pickup",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Pickup",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Jeep",
+      "civWordMal": "ജീപ്പ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Jeep",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Jeep",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Lorry",
+      "civWordMal": "ലോറി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Lorry",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Lorry",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Private Bus",
+      "civWordMal": "പ്രൈവറ്റ് ബസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Private Bus",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Private Bus",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Tempo Traveller",
+      "civWordMal": "ടെമ്പോ ട്രാവലർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Tempo Traveller",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Tempo Traveller",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Scooter",
+      "civWordMal": "സ്കൂട്ടർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Scooter",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Scooter",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Cycle",
+      "civWordMal": "സൈക്കിൾ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Cycle",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Cycle",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mini Bus",
+      "civWordMal": "മിനി ബസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mini Bus",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mini Bus",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Taxi",
+      "civWordMal": "ടാക്സി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Taxi",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Taxi",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Train",
+      "civWordMal": "ട്രെയിൻ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Train",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Train",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "School Bus",
+      "civWordMal": "സ്കൂൾ ബസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for School Bus",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for School Bus",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Jik Jik Train",
+      "civWordMal": "തീവണ്ടി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Jik Jik Train",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Jik Jik Train",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Ambulance",
+      "civWordMal": "ആംബുലൻസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Ambulance",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Ambulance",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Kochi Metro",
+      "civWordMal": "കൊച്ചി മെട്രോ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kochi Metro",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kochi Metro",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Tractor",
+      "civWordMal": "ട്രാക്ടർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Tractor",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Tractor",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Excavator",
+      "civWordMal": "ജെസിബി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Excavator",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Excavator",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Speed Boat",
+      "civWordMal": "സ്പീഡ് ബോട്ട്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Speed Boat",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Speed Boat",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Peti Auto",
+      "civWordMal": "പെട്ടി ഓട്ടോ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Peti Auto",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Peti Auto",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Ambassador",
+      "civWordMal": "അംബാസഡർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Ambassador",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Ambassador",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mahindra Jeep",
+      "civWordMal": "മഹീന്ദ്ര ജീപ്പ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Mahindra Jeep",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Mahindra Jeep",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Chavittu Vandi",
+      "civWordMal": "ചവിട്ടുവണ്ടി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Chavittu Vandi",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Chavittu Vandi",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "RX 100",
+      "civWordMal": "ആർ എക്സ് 100",
+      "imposters": [
+        {
+          "word": "Alternative 1 for RX 100",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for RX 100",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Torrus Truck",
+      "civWordMal": "ടോറസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Torrus Truck",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Torrus Truck",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Fire Engine",
+      "civWordMal": "ഫയർ ഫോഴ്സ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Fire Engine",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Fire Engine",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Water Metro",
+      "civWordMal": "വാട്ടർ മെട്രോ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Water Metro",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Water Metro",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Low Floor Bus",
+      "civWordMal": "ലോ ഫ്ലോർ ബസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Low Floor Bus",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Low Floor Bus",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Tourist Bus",
+      "civWordMal": "ടൂറിസ്റ്റ് ബസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Tourist Bus",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Tourist Bus",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    }
+  ],
+  "school": [
+    {
+      "civWord": "Kalolsavam",
+      "civWordMal": "കലോത്സവം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Kalolsavam",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Kalolsavam",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Arts Day",
+      "civWordMal": "ആർട്സ് ഡേ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Arts Day",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Arts Day",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "College Canteen",
+      "civWordMal": "കോളേജ് കാന്റീൻ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for College Canteen",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for College Canteen",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "PTA Meeting",
+      "civWordMal": "പി ടി എ മീറ്റിംഗ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for PTA Meeting",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for PTA Meeting",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Onam Celebration",
+      "civWordMal": "ഓണാഘോഷം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Onam Celebration",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Onam Celebration",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Uniform",
+      "civWordMal": "യൂണിഫോം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Uniform",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Uniform",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "School Bus",
+      "civWordMal": "സ്കൂൾ ബസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for School Bus",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for School Bus",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "PT Period",
+      "civWordMal": "പി ടി പിരീഡ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for PT Period",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for PT Period",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Annual Day",
+      "civWordMal": "ആനുവൽ ഡേ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Annual Day",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Annual Day",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Exam Hall",
+      "civWordMal": "എക്സാം ഹാൾ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Exam Hall",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Exam Hall",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Rank List",
+      "civWordMal": "റാങ്ക് ലിസ്റ്റ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Rank List",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Rank List",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "College Union",
+      "civWordMal": "കോളേജ് യൂണിയൻ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for College Union",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for College Union",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Batch",
+      "civWordMal": "ബാച്ച്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Batch",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Batch",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Farewell",
+      "civWordMal": "ഫെയർവെൽ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Farewell",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Farewell",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "NSS",
+      "civWordMal": "എൻ എസ് എസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for NSS",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for NSS",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "NCC",
+      "civWordMal": "എൻ സി സി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for NCC",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for NCC",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Laboratory",
+      "civWordMal": "ലബോറട്ടറി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Laboratory",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Laboratory",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Library",
+      "civWordMal": "ലൈബ്രറി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Library",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Library",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Hostel",
+      "civWordMal": "ഹോസ്റ്റൽ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Hostel",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Hostel",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Class Leader",
+      "civWordMal": "ക്ലാസ് ലീഡർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Class Leader",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Class Leader",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Tour Trip",
+      "civWordMal": "ഐവി / ടൂർ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Tour Trip",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Tour Trip",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Bench and Desk",
+      "civWordMal": "ബെഞ്ചും ഡെസ്കും",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Bench and Desk",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Bench and Desk",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Bell",
+      "civWordMal": "സ്കൂൾ ബെൽ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Bell",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Bell",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Principal",
+      "civWordMal": "പ്രിൻസിപ്പൽ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Principal",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Principal",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Assignment",
+      "civWordMal": "അസൈൻമെന്റ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Assignment",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Assignment",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Alumni Meet",
+      "civWordMal": "പൂർവ്വവിദ്യാർത്ഥി സംഗമം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Alumni Meet",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Alumni Meet",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "IV (Industrial Visit)",
+      "civWordMal": "ഐവി",
+      "imposters": [
+        {
+          "word": "Alternative 1 for IV (Industrial Visit)",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for IV (Industrial Visit)",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Tuition Class",
+      "civWordMal": "ട്യൂഷൻ ക്ലാസ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Tuition Class",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Tuition Class",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Canara Bank Challan",
+      "civWordMal": "ചെല്ലാൻ",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Canara Bank Challan",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Canara Bank Challan",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Record Book",
+      "civWordMal": "റെക്കോർഡ് ബുക്ക്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Record Book",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Record Book",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Study Leave",
+      "civWordMal": "സ്റ്റഡി ലീവ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Study Leave",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Study Leave",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Youth Festival",
+      "civWordMal": "യുവജനോത്സവം",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Youth Festival",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Youth Festival",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Progress Report",
+      "civWordMal": "പ്രോഗ്രസ് റിപ്പോർട്ട്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Progress Report",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Progress Report",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Geometry Box",
+      "civWordMal": "ജോമട്രി ബോക്സ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Geometry Box",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Geometry Box",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Slate and Pencil",
+      "civWordMal": "സ്ലേറ്റും പെൻസിലും",
+      "imposters": [
+        {
+          "word": "Alternative 1 for Slate and Pencil",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for Slate and Pencil",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "School Bag",
+      "civWordMal": "സ്കൂൾ ബാഗ്",
+      "imposters": [
+        {
+          "word": "Alternative 1 for School Bag",
+          "wordMal": "പകരം 1",
+          "relationEN": "Both are highly specific concepts related to the original category.",
+          "relationML": "രണ്ടും വളരെ സമാനമായ കാര്യങ്ങളാണ്."
+        },
+        {
+          "word": "Alternative 2 for School Bag",
+          "wordMal": "പകരം 2",
+          "relationEN": "Both share a unique trait that makes them a tricky pair.",
+          "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയാണ്."
+        }
+      ]
+    }
+  ]
+}

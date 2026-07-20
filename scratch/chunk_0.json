@@ -1,0 +1,1328 @@
+{
+  "funny": {
+    "name": "Funny Malayalam",
+    "words": [
+      [
+        "Pwoli",
+        "പൊളി",
+        "High Energy",
+        "വലിയ ആവേശം"
+      ],
+      [
+        "Ayyayyo",
+        "അയ്യയ്യോ",
+        "Sudden Reaction",
+        "പെട്ടെന്നുള്ള പ്രതികരണം"
+      ],
+      [
+        "Scene illa",
+        "സീൻ ഇല്ല",
+        "Calm Mindset",
+        "സമാധാനപരമായ അവസ്ഥ"
+      ],
+      [
+        "Thallal",
+        "തള്ളൽ",
+        "Tall Tales",
+        "കൂട്ടുകാരുടെ സംസാരം"
+      ],
+      [
+        "Kidu",
+        "കിടു",
+        "Great Impression",
+        "നല്ല അനുഭവം"
+      ],
+      [
+        "Adipoli",
+        "അടിപൊളി",
+        "Positive Vibe",
+        "നല്ല ഒരു അന്തരീക്ഷം"
+      ],
+      [
+        "Poli Scene",
+        "പൊളി സീൻ",
+        "Memorable Experience",
+        "ഓർമ്മയിൽ നിൽക്കുന്ന കാര്യം"
+      ],
+      [
+        "Sadhanam Kayyil Undo",
+        "സാധനം കയ്യിൽ ഉണ്ടോ",
+        "Coded Message",
+        "രഹസ്യമായ അന്വേഷണം"
+      ],
+      [
+        "Thenga",
+        "തേങ്ങ",
+        "Casual Exclamation",
+        "സാധാരണ പറയുന്ന വാക്ക്"
+      ],
+      [
+        "Chetta",
+        "ചേട്ടാ",
+        "Social Conversation Start",
+        "സംസാരം തുടങ്ങുമ്പോൾ"
+      ],
+      [
+        "Eda Mone",
+        "എടാ മോനെ",
+        "Informal Bonding",
+        "അടുപ്പമുള്ളവരോടുള്ള സമീപനം"
+      ],
+      [
+        "Kidilan",
+        "കിടിലൻ",
+        "High Rating",
+        "മികച്ച അഭിപ്രായം"
+      ],
+      [
+        "Chali",
+        "ചളി",
+        "Lighthearted Entertainment",
+        "നേരംപോക്ക് സംസാരം"
+      ],
+      [
+        "Koppu",
+        "കോപ്പ്",
+        "Emotional Outburst",
+        "മനസ്സിലെ അനിഷ്ടം"
+      ],
+      [
+        "Pani Paali",
+        "പണി പാളി",
+        "Unexpected Turn",
+        "വിചാരിക്കാത്ത മാറ്റം"
+      ],
+      [
+        "Ambada",
+        "അമ്പടാ",
+        "Friendly Teasing",
+        "തമാശയ്ക്കുള്ള പ്രശംസ"
+      ],
+      [
+        "Poda Pulle",
+        "പോടാ പുള്ളേ",
+        "Casual Rejection",
+        "തമാശയുള്ള തർക്കം"
+      ],
+      [
+        "Vattaano",
+        "വട്ടാണോ",
+        "Curiosity About Behavior",
+        "പെരുമാറ്റത്തെക്കുറിച്ചുള്ള സംശയം"
+      ],
+      [
+        "Athu Sheri",
+        "അത് ശരി",
+        "Skeptical Response",
+        "സംശയത്തോടെയുള്ള പ്രതികരണം"
+      ],
+      [
+        "Thallumala",
+        "തല്ലുമാല",
+        "Group Chaos",
+        "കൂട്ടമായ ബഹളം"
+      ],
+      [
+        "Chummadive",
+        "ചുമ്മാടിവേ",
+        "Playful Exclamation",
+        "തമാശയ്ക്കുള്ള പ്രതികരണം"
+      ],
+      [
+        "Oodayi",
+        "ഉടായിപ്പ്",
+        "Clever Shortcut",
+        "വളഞ്ഞ വഴിയുള്ള ഉപായം"
+      ],
+      [
+        "Jada",
+        "ജാഡ",
+        "Social Attitude",
+        "ആളുകളുടെ പെരുമാറ്റ രീതി"
+      ],
+      [
+        "Vera Level",
+        "വേറെ ലെവൽ",
+        "Extraordinary Situation",
+        "സാധാരണയിൽ കവിഞ്ഞ അവസ്ഥ"
+      ],
+      [
+        "Blunder",
+        "ബ്ലണ്ടർ",
+        "Awkward Moment",
+        "അബദ്ധം പിണയുന്ന സമയം"
+      ],
+      [
+        "Suhurthe",
+        "സുഹൃത്തേ",
+        "Polite Addressing",
+        "മാന്യമായ അഭിസംബോധന"
+      ],
+      [
+        "Kittu",
+        "കിട്ടു",
+        "Fulfillment Moment",
+        "ആഗ്രഹസാഫല്യം"
+      ],
+      [
+        "Scene Contra",
+        "സീൻ കോൺട്ര",
+        "Unexpected Complication",
+        "പ്രതീക്ഷിക്കാത്ത തടസ്സം"
+      ],
+      [
+        "Chamakku",
+        "ചമക്ക്",
+        "Showy Attitude",
+        "പ്രകടനപരത"
+      ],
+      [
+        "Shavapetti",
+        "ശവപ്പെട്ടി",
+        "Wooden Enclosure",
+        "തടിപ്പെട്ടി"
+      ],
+      [
+        "Pothu",
+        "പോത്ത്",
+        "Stubborn Nature",
+        "വാശിപിടിക്കുന്ന സ്വഭാവം"
+      ],
+      [
+        "Kuthikazhapp",
+        "കുതിക്കഴപ്പ്",
+        "Restless Energy",
+        "അടങ്ങിയിരിക്കാത്ത അവസ്ഥ"
+      ],
+      [
+        "Senti",
+        "സെന്റി",
+        "Emotional Reaction",
+        "വികാരഭരിതമായ പ്രതികരണം"
+      ],
+      [
+        "Kidu Vibe",
+        "കിടു വൈബ്",
+        "Top Tier Quality",
+        "ഉയർന്ന നിലവാരം"
+      ],
+      [
+        "Oomfi",
+        "ഊംഫി",
+        "Sudden Loss",
+        "പെട്ടെന്നുണ്ടായ നഷ്ടം"
+      ],
+      [
+        "Vatt",
+        "വട്ട്",
+        "Unusual Thinking",
+        "വ്യത്യസ്ത ചിന്താഗതി"
+      ]
+    ]
+  },
+  "movies": {
+    "name": "Movies",
+    "words": [
+      [
+        "Manichitrathazhu",
+        "മണിച്ചിത്രത്താഴ്",
+        "Ancient Mansion Mystery",
+        "പഴയ തറവാട്ടിലെ രഹസ്യം"
+      ],
+      [
+        "Drishyam",
+        "ദൃശ്യം",
+        "Clever Cover-up",
+        "ബുദ്ധിപരമായ നീക്കങ്ങൾ"
+      ],
+      [
+        "Kumbalangi Nights",
+        "കുമ്പളങ്ങി നൈറ്റ്സ്",
+        "Coastal Brotherhood",
+        "തീരദേശത്തെ ജീവിതം"
+      ],
+      [
+        "Bangalore Days",
+        "ബാംഗ്ലൂർ ഡെയ്സ്",
+        "Cousins Bonding",
+        "ബന്ധുക്കളുടെ കൂട്ടായ്മ"
+      ],
+      [
+        "Premam",
+        "പ്രേമം",
+        "Stages of Life",
+        "ജീവിതത്തിലെ വിവിധ ഘട്ടങ്ങൾ"
+      ],
+      [
+        "Nadodikkattu",
+        "നാടോടിക്കാറ്റ്",
+        "Struggle and Survival",
+        "ജീവിത പോരാട്ടവും യാത്രയും"
+      ],
+      [
+        "Thenmavin Kombath",
+        "തേന്മാവിൻ കൊമ്പത്ത്",
+        "Village Romance",
+        "ഗ്രാമീണ പശ്ചാത്തലമുള്ള കഥ"
+      ],
+      [
+        "Kilukkam",
+        "കിലുക്കം",
+        "Humorous Journey",
+        "ചിരിയും യാത്രയും ചേർന്നത്"
+      ],
+      [
+        "Chithram",
+        "ചിത്രം",
+        "Emotional Relationship",
+        "ബന്ധങ്ങളുടെ ആഴം"
+      ],
+      [
+        "Bharatham",
+        "ഭരതം",
+        "Classical Art Background",
+        "കലാപരമായ പശ്ചാത്തലം"
+      ],
+      [
+        "Devasuram",
+        "ദേവാസുരം",
+        "Rivalry and Honor",
+        "അഭിമാനവും വാശിയും"
+      ],
+      [
+        "Ustad Hotel",
+        "ഉസ്താദ് ഹോട്ടൽ",
+        "Generations and Culture",
+        "തലമുറകളും പാരമ്പര്യവും"
+      ],
+      [
+        "Maheshinte Prathikaaram",
+        "മഹേഷിന്റെ പ്രതികാരം",
+        "Simple Town Life",
+        "സാധാരണക്കാരുടെ ജീവിതം"
+      ],
+      [
+        "Ayyappanum Koshiyum",
+        "അയ്യപ്പനും കോശിയും",
+        "Conflict of Personalities",
+        "വ്യക്തികൾ തമ്മിലുള്ള തർക്കം"
+      ],
+      [
+        "Lucifer",
+        "ലൂസിഫർ",
+        "Power and Strategy",
+        "അധികാരവും തന്ത്രങ്ങളും"
+      ],
+      [
+        "Thondimuthalum Driksakshiyum",
+        "തൊണ്ടിമുതലും ദൃക്സാക്ഷിയും",
+        "Human Nature",
+        "മനുഷ്യ സ്വഭാവങ്ങളുടെ സത്യം"
+      ],
+      [
+        "Action Hero Biju",
+        "ആക്ഷൻ ഹീറോ ബിജു",
+        "Real Life Incidents",
+        "യാഥാർത്ഥ്യത്തോട് അടുത്ത സംഭവങ്ങൾ"
+      ],
+      [
+        "Sudani from Nigeria",
+        "സുഡാനി ഫ്രം നൈജീരിയ",
+        "Compassion and Friendship",
+        "സ്നേഹവും കൂട്ടായ്മയും"
+      ],
+      [
+        "Traffic",
+        "ട്രാഫിക്",
+        "Time Sensitive Race",
+        "സമയത്തോടുള്ള മത്സരം"
+      ],
+      [
+        "Indian Rupee",
+        "ഇന്ത്യൻ റുപ്പി",
+        "Financial Ambitions",
+        "സാമ്പത്തിക ലക്ഷ്യങ്ങൾ"
+      ],
+      [
+        "Romancham",
+        "രോമാഞ്ചം",
+        "Bachelor Living Drama",
+        "കൂട്ടുകാരുടെ ഒന്നിച്ചുള്ള ജീവിതം"
+      ],
+      [
+        "Premalu",
+        "പ്രേമലു",
+        "Youth Relationship",
+        "പുതിയ തലമുറയുടെ ചിന്തകൾ"
+      ],
+      [
+        "Aavesham",
+        "ആവേശം",
+        "High Energy Encounter",
+        "ആവേശകരമായ കൂട്ടായ്മ"
+      ],
+      [
+        "Bramayugam",
+        "ഭ്രമയുഗം",
+        "Ancient Mystery",
+        "പഴയകാല നിഗൂഢത"
+      ],
+      [
+        "Manjummel Boys",
+        "മഞ്ഞുമ്മൽ ബോയ്സ്",
+        "Friendship Rescue",
+        "സുഹൃത്തുക്കളുടെ സ്നേഹം"
+      ],
+      [
+        "Godfather",
+        "ഗോഡ്ഫാദർ",
+        "Family Tradition",
+        "കുടുംബത്തിലെ കാരണവന്മാർ"
+      ],
+      [
+        "Malaikottai Vaaliban",
+        "മലൈക്കോട്ടൈ വാലിബൻ",
+        "Desert Folklore",
+        "നാടോടിക്കഥകൾ"
+      ],
+      [
+        "Minnal Murali",
+        "മിന്നൽ മുരളി",
+        "Tailor Shop Incident",
+        "തയ്യൽക്കടയിലെ സംഭവം"
+      ],
+      [
+        "Kishkindha Kaandam",
+        "കിഷ്കിന്ധാ കാണ്ഡം",
+        "Forest Reserve Inquiry",
+        "വനമേഖലയിലെ അന്വേഷണം"
+      ],
+      [
+        "Rorschach",
+        "റോഷാക്ക്",
+        "White Mask Mystery",
+        "മുഖംമൂടി രഹസ്യം"
+      ],
+      [
+        "Kattappanayile Rithwik Roshan",
+        "കട്ടപ്പനയിലെ ഹൃതിക് റോഷൻ",
+        "Local Casting Call",
+        "സിനിമ മോഹം"
+      ],
+      [
+        "Varathan",
+        "വരത്തൻ",
+        "Estate Intrusion",
+        "തോട്ടത്തിലെ അതിക്രമം"
+      ],
+      [
+        "Bheeshma Parvam",
+        "ഭീഷ്മ പർവ്വം",
+        "Mattancherry Trade",
+        "മട്ടാഞ്ചേരിയിലെ കച്ചവടം"
+      ],
+      [
+        "Memories",
+        "മെമ്മറീസ്",
+        "Investigative Thriller",
+        "രഹസ്യാന്വേഷണ കഥ"
+      ],
+      [
+        "Classmates",
+        "ക്ലാസ്മേറ്റ്സ്",
+        "Campus Nostalgia",
+        "കോളേജ് ഓർമ്മകൾ"
+      ],
+      [
+        "Spadikam",
+        "സ്ഫടികം",
+        "Rebellious Son",
+        "കുടുംബത്തിലെ തർക്കങ്ങൾ"
+      ]
+    ]
+  },
+  "characters": {
+    "name": "Characters",
+    "words": [
+      [
+        "Georgekutty",
+        "ജോർജ് കുട്ടി",
+        "Resourceful Protector",
+        "കുടുംബത്തെ സംരക്ഷിക്കുന്നവൻ"
+      ],
+      [
+        "Nagavalli",
+        "നാഗവല്ലി",
+        "Legendary Persona",
+        "പഴയകാല ഓർമ്മകളുള്ള കഥാപാത്രം"
+      ],
+      [
+        "Sethumadhavan",
+        "സേതുമാധവൻ",
+        "Misunderstood Youth",
+        "സാഹചര്യങ്ങളുടെ ഇര"
+      ],
+      [
+        "Dasan",
+        "ദാസൻ",
+        "Jobless Aspiring Man",
+        "വലിയ സ്വപ്നങ്ങളുള്ള യുവാവ്"
+      ],
+      [
+        "Mangalassery Neelakandan",
+        "മംഗലശ്ശേരി നീലകണ്ഠൻ",
+        "Powerful Feudal Figure",
+        "ഗ്രാമത്തിലെ പ്രബലനായ വ്യക്തി"
+      ],
+      [
+        "Appukuttan",
+        "അപ്പുക്കുട്ടൻ",
+        "Humorous Companion",
+        "ചിരിപ്പിക്കുന്ന സുഹൃത്ത്"
+      ],
+      [
+        "Ramanan",
+        "രാമനൻ",
+        "Loyal Follower",
+        "വിശ്വസ്തനായ സഹായി"
+      ],
+      [
+        "Induchoodan",
+        "ഇന്ദുചൂഡൻ",
+        "Outspoken Leader",
+        "തന്റേടമുള്ള നായകൻ"
+      ],
+      [
+        "Kunjikoonan",
+        "കുഞ്ഞിക്കൂനൻ",
+        "Sympathetic Villager",
+        "സ്നേഹമുള്ള ഗ്രാമീണൻ"
+      ],
+      [
+        "Koshy Kurien",
+        "കോശി കുര്യൻ",
+        "Influential Challenger",
+        "സ്വാധീനമുള്ള എതിരാളി"
+      ],
+      [
+        "Ayyappan Nair",
+        "അയ്യപ്പൻ നായർ",
+        "Strict Authority Figure",
+        "നിയമം പാലിക്കുന്ന ഉദ്യോഗസ്ഥൻ"
+      ],
+      [
+        "Mahesh Bhavana",
+        "മഹേഷ് ഭാവന",
+        "Modest Town Photographer",
+        "സാധാരണക്കാരനായ ചെറുപ്പക്കാരൻ"
+      ],
+      [
+        "Biju Paulose",
+        "ബിജു പൗലോസ്",
+        "Dedicated Lawman",
+        "കടമ നിർവ്വഹിക്കുന്നവൻ"
+      ],
+      [
+        "Rameshan Nair",
+        "രമേശൻ നായർ",
+        "Passionate Enthusiast",
+        "വലിയ ഇഷ്ടങ്ങൾ സൂക്ഷിക്കുന്നവൻ"
+      ],
+      [
+        "Pachu",
+        "പച്ചു",
+        "Helpful Neighbor",
+        "എല്ലാവർക്കും വേണ്ടപ്പെട്ടവൻ"
+      ],
+      [
+        "Kunjiraman",
+        "കുഞ്ഞിരാമൻ",
+        "Prominent Local",
+        "ഗ്രാമത്തിലെ പ്രധാന വ്യക്തി"
+      ],
+      [
+        "Pavanayi",
+        "പവനായി",
+        "Overconfident Outsider",
+        "വലിയ അവകാശവാദങ്ങൾ ഉന്നയിക്കുന്നവൻ"
+      ],
+      [
+        "Manavalan",
+        "മാനവാളൻ",
+        "Comical Businessman",
+        "തമാശക്കാരനായ വ്യാപാരി"
+      ],
+      [
+        "Ganga",
+        "ഗംഗ",
+        "Double Personality",
+        "മനസ്സിൽ രഹസ്യം സൂക്ഷിക്കുന്നവൾ"
+      ],
+      [
+        "Rukmini",
+        "രുക്മിണി",
+        "Traditional Homemaker",
+        "തറവാട്ടിലെ പ്രധാനി"
+      ],
+      [
+        "Girish M.A.",
+        "ഗിരീഷ് എം.എ.",
+        "Funny Romantic Youth",
+        "പ്രണയിക്കുന്ന ചെറുപ്പക്കാരൻ"
+      ],
+      [
+        "Shammi",
+        "ഷമ്മി",
+        "Unusual Houseguest",
+        "പ്രത്യേക സ്വഭാവമുള്ള അതിഥി"
+      ],
+      [
+        "Ranga",
+        "രംഗ",
+        "Flamboyant Leader",
+        "ആവേശക്കാരനായ നായകൻ"
+      ],
+      [
+        "Dashamoolam Damu",
+        "ദശമൂലം ദാമു",
+        "Excitable Comedian",
+        "ചിരിപ്പിക്കുന്ന കഥാപാത്രം"
+      ],
+      [
+        "Gafoor Ka Dosth",
+        "ഗഫൂർ കാ ദോസ്ത്",
+        "Travel Guide Trickster",
+        "വഴി കാണിക്കുന്ന സഹായി"
+      ],
+      [
+        "Anandavalli",
+        "ആനന്ദവല്ലി",
+        "Loving Motherly Figure",
+        "സ്നേഹമുള്ള അമ്മ"
+      ],
+      [
+        "Beemboy",
+        "ബീംബോയ്",
+        "Heavy Lifter",
+        "ഭാരം ചുമക്കുന്നയാൾ"
+      ],
+      [
+        "Kattalan Porinchu",
+        "കാട്ടാളൻ പൊറിഞ്ചു",
+        "Market Enforcer",
+        "ചന്തയിലെ കരുത്തൻ"
+      ],
+      [
+        "Digambaran",
+        "ദിഗംബരൻ",
+        "Black Magic Healer",
+        "മന്ത്രവാദ ക്രിയകൾ"
+      ],
+      [
+        "Dileep Role",
+        "ദിലീപ് റോൾ",
+        "Mimicry Artist",
+        "മിമിക്രി കലാകാരൻ"
+      ],
+      [
+        "Kuttan",
+        "കുട്ടൻ",
+        "Tech Employee",
+        "ഐടി ജീവനക്കാരൻ"
+      ],
+      [
+        "Krishnan",
+        "കൃഷ്ണൻ",
+        "Colony Resident",
+        "കോളനിവാസി"
+      ],
+      [
+        "Sachy",
+        "സച്ചി",
+        "Advocate Writer",
+        "നിയമജ്ഞനായ എഴുത്തുകാരൻ"
+      ],
+      [
+        "Aadu Thoma",
+        "ആട് തോമ",
+        "Quarry Operator",
+        "ക്വാറി ഉടമ"
+      ],
+      [
+        "Keeleri Achu",
+        "കീശേരി അച്ചു",
+        "Comical Muscleman",
+        "ചിരിപ്പിക്കുന്ന ഗുണ്ട"
+      ],
+      [
+        "Niranjan",
+        "നിരഞ്ജൻ",
+        "Convict Fugitive",
+        "നിയമത്തിൽ നിന്നും ഓടിയവൻ"
+      ]
+    ]
+  },
+  "festivals": {
+    "name": "Festivals",
+    "words": [
+      [
+        "Onam",
+        "ഓണം",
+        "Seasonal Celebration",
+        "സീസണലായ ആഘോഷം"
+      ],
+      [
+        "Vishu",
+        "വിഷു",
+        "Traditional Calendar Event",
+        "പാരമ്പര്യ ആചാര ദിനം"
+      ],
+      [
+        "Thrissur Pooram",
+        "തൃശ്ശൂർ പൂരം",
+        "Cultural Spectacle",
+        "വലിയ ജനക്കൂട്ടമുള്ള ഉത്സവം"
+      ],
+      [
+        "Attukal Pongala",
+        "ആറ്റുകാൽ പൊങ്കാല",
+        "Devotional Gathering",
+        "ഭക്തിസാന്ദ്രമായ കൂട്ടായ്മ"
+      ],
+      [
+        "Vallamkali",
+        "വള്ളംകളി",
+        "Backwater Competition",
+        "ജലത്തിൽ നടക്കുന്ന മത്സരം"
+      ],
+      [
+        "Kerala Piravi",
+        "കേരളപ്പിറവി",
+        "State Anniversary",
+        "സംസ്ഥാനവുമായി ബന്ധപ്പെട്ട ദിനം"
+      ],
+      [
+        "Christmas",
+        "ക്രിസ്മസ്",
+        "Winter Holiday",
+        "വർഷാവസാനത്തെ ആഘോഷം"
+      ],
+      [
+        "Eid",
+        "ഈദ്",
+        "Festive Feast Day",
+        "പ്രാർത്ഥനയും സ്നേഹവുമുള്ള ദിവസം"
+      ],
+      [
+        "Theyyam",
+        "തെയ്യം",
+        "Folk Ritual Performance",
+        "അനുഷ്ഠാനപരമായ കല"
+      ],
+      [
+        "Karkidaka Vavu",
+        "കർക്കിടക വാവ്",
+        "Solemn Observance",
+        "ആത്മീയമായ ആചാരം"
+      ],
+      [
+        "Navarathri",
+        "നവരാത്രി",
+        "Multi-day Devotion",
+        "ദിവസങ്ങൾ നീളുന്ന ആചാരം"
+      ],
+      [
+        "Thiruvathira",
+        "തിരുവാതിര",
+        "Traditional Moonlight Dance",
+        "സ്ത്രീകൾ പങ്കെടുക്കുന്ന ആചാരം"
+      ],
+      [
+        "Makaravilakku",
+        "മകരവിളക്ക്",
+        "Hilltop Pilgrimage Event",
+        "തീർത്ഥാടനവുമായി ബന്ധപ്പെട്ടത്"
+      ],
+      [
+        "Kodiyettam",
+        "കൊടിയേറ്റം",
+        "Ceremonial Flag Hoisting",
+        "ഉത്സവങ്ങളുടെ തുടക്കച്ചടങ്ങ്"
+      ],
+      [
+        "Pulikali",
+        "പുലിക്കളി",
+        "Street Art Procession",
+        "തെരുവിൽ നടക്കുന്ന കലാപ്രകടനം"
+      ],
+      [
+        "Aranmula Uthrattathi",
+        "ആറന്മുള ഉത്രട്ടാതി",
+        "Historic River Pageant",
+        "നദിയിലെ പൈതൃക ചടങ്ങ്"
+      ],
+      [
+        "Kettukazhcha",
+        "കെട്ടുകാഴ്ച",
+        "Effigy Display Procession",
+        "വലിയ രൂപങ്ങൾ എഴുന്നള്ളിക്കുന്നത്"
+      ],
+      [
+        "Thiruvulsavam",
+        "തിരുവുത്സവം",
+        "Annual Temple Celebration",
+        "വാർഷിക ഉത്സവ കാലം"
+      ],
+      [
+        "Pooram",
+        "പൂരം",
+        "Percussion & Elephant Gathering",
+        "വാദ്യമേളങ്ങളും ആഘോഷവും"
+      ],
+      [
+        "Palliperunnal",
+        "പള്ളിപ്പെരുന്നാൾ",
+        "Parish Jubilee Feast",
+        "പ്രാദേശിക പള്ളിയിലെ ഉത്സവം"
+      ],
+      [
+        "Beemapally Uroos",
+        "ബീമാപള്ളി ഉറൂസ്",
+        "Spiritual Annual Event",
+        "ആത്മീയ സംഗമം"
+      ],
+      [
+        "Malayattoor Perunnal",
+        "മലയാറ്റൂർ പെരുന്നാൾ",
+        "Mountain Pilgrimage",
+        "മലകയറ്റവും പ്രാർത്ഥനയും"
+      ],
+      [
+        "Oachira Kettukazhcha",
+        "ഓച്ചിറ കെട്ടുകാഴ്ച",
+        "Historic Heritage Fair",
+        "ചരിത്രപരമായ ഉത്സവം"
+      ],
+      [
+        "Kalpathi Ratholsavam",
+        "കൽപ്പാത്തി രഥോത്സവം",
+        "Traditional Chariot Festival",
+        "പൈതൃകഗ്രാമത്തിലെ ആഘോഷം"
+      ],
+      [
+        "Chettikulangara Bharani",
+        "ചെട്ടികുളങ്ങര ഭരണി",
+        "Grand Cultural Procession",
+        "പ്രശസ്തമായ ഗ്രാമോത്സവം"
+      ],
+      [
+        "Sivarathri",
+        "ശിവരാത്രി",
+        "Night-long Devotional Vigil",
+        "രാത്രിയിലെ ഭക്തിസാന്ദ്രമായ ആചാരം"
+      ],
+      [
+        "Kuthiyottam",
+        "കുത്തിയോട്ടം",
+        "Devotional Step Dance",
+        "അനുഷ്ഠാന ചുവടുകൾ"
+      ],
+      [
+        "Kaalavela",
+        "കാളവേല",
+        "Straw Effigy Parade",
+        "വൈക്കോൽ പ്രതിമാ ഘോഷയാത്ര"
+      ],
+      [
+        "Ganamela",
+        "ഗാനമേള",
+        "Stage Audio Setup",
+        "സ്റ്റേജ് ഓഡിയോ സിസ്റ്റം"
+      ],
+      [
+        "Kalampaattu",
+        "കളംപാട്ട്",
+        "Floor Powder Drawing",
+        "പൊടിക്കളം വരയ്ക്കൽ"
+      ],
+      [
+        "Theeyattam",
+        "തീയാട്ടം",
+        "Torchlight Ritual",
+        "പന്തം കൊളുത്തിയുള്ള ചടങ്ങ്"
+      ],
+      [
+        "Ezhunnallathu",
+        "എഴുന്നള്ളത്ത്",
+        "Royal Procession",
+        "രാജകീയ ഘോഷയാത്ര"
+      ],
+      [
+        "Chenda Melam",
+        "ചെണ്ടമേളം",
+        "Cylindrical Drum Beat",
+        "താളമേളങ്ങൾ"
+      ],
+      [
+        "Thalappoli",
+        "താലപ്പൊലി",
+        "Lamp Bearing Procession",
+        "വിളക്കുകളേന്തിയുള്ള യാത്ര"
+      ],
+      [
+        "Vishu Kani",
+        "വിഷുക്കണി",
+        "Morning Auspicious Sight",
+        "പുലർച്ചെ കാണുന്ന കാഴ്ച"
+      ],
+      [
+        "Chutti Art",
+        "ചുട്ടി",
+        "Rice Paste Makeover",
+        "അരിമാവ് അലങ്കാരം"
+      ]
+    ]
+  },
+  "places": {
+    "name": "Places",
+    "words": [
+      [
+        "Kochi",
+        "കൊച്ചി",
+        "Coastal City",
+        "കടൽത്തീരത്തെ നഗരം"
+      ],
+      [
+        "Munnar",
+        "മൂന്നാർ",
+        "Hill Destination",
+        "മലയോര വിനോദസഞ്ചാര ഇടം"
+      ],
+      [
+        "Alappuzha",
+        "ആലപ്പുഴ",
+        "Waterway Tourism Town",
+        "കായലുകളുള്ള നാട്"
+      ],
+      [
+        "Wayanad",
+        "വയനാട്",
+        "Green Plateau Region",
+        "പ്രകൃതിഭംഗിയുള്ള മലയോരം"
+      ],
+      [
+        "Varkala",
+        "വർക്കല",
+        "Tourist Beach Cliff",
+        "തീരദേശ വിനോദ കേന്ദ്രം"
+      ],
+      [
+        "Thrissur",
+        "തൃശ്ശൂർ",
+        "Central Heritage Town",
+        "സാംസ്കാരിക പ്രാധാന്യമുള്ള നഗരം"
+      ],
+      [
+        "Kollam",
+        "കൊല്ലം",
+        "Southern Waterfront District",
+        "തെക്കൻ ജില്ലയിലെ പ്രധാന ഇടം"
+      ],
+      [
+        "Kannur",
+        "കണ്ണൂർ",
+        "Northern Coastal District",
+        "വടക്കൻ പൈതൃക നാട്"
+      ],
+      [
+        "Kottayam",
+        "കോട്ടയം",
+        "Inland Rubber Hub",
+        "തോട്ടങ്ങളും അക്ഷരവുമുള്ള നാട്"
+      ],
+      [
+        "Palakkad",
+        "പാലക്കാട്",
+        "Border Gateway District",
+        "കാറ്റും പാടങ്ങളുമുള്ള അതിർത്തി"
+      ],
+      [
+        "Thiruvananthapuram",
+        "തിരുവനന്തപുരം",
+        "Administrative Headquarters",
+        "ഭരണസിരാകേന്ദ്രം"
+      ],
+      [
+        "Kasaragod",
+        "കാസർഗോഡ്",
+        "Northernmost Border Region",
+        "ഏറ്റവും വടക്കൻ ജില്ല"
+      ],
+      [
+        "Idukki",
+        "ഇടുക്കി",
+        "Mountain Hydro Hub",
+        "മലനിരകളും ഡാമുകളുമുള്ള ജില്ല"
+      ],
+      [
+        "Malappuram",
+        "മലപ്പുറം",
+        "Passionate Soccer Region",
+        "കളിയാവേശമുള്ള നാട്"
+      ],
+      [
+        "Guruvayur",
+        "ഗുരുവായൂർ",
+        "Famous Pilgrimage Town",
+        "പ്രസിദ്ധമായ തീർത്ഥാടന കേന്ദ്രം"
+      ],
+      [
+        "Bekal",
+        "ബേക്കൽ",
+        "Historic Fort Coast",
+        "ചരിത്രപരമായ കടൽത്തീരം"
+      ],
+      [
+        "Thekkady",
+        "തേക്കടി",
+        "Forest Wildlife Sanctuary",
+        "വന്യജീവി വിനോദസഞ്ചാര കേന്ദ്രം"
+      ],
+      [
+        "Kovalam",
+        "കോവളം",
+        "International Beach Resort",
+        "പ്രശസ്തമായ കടൽത്തീരം"
+      ],
+      [
+        "Ponmudi",
+        "പൊന്മുടി",
+        "Misty Hill Station",
+        "തണുപ്പുള്ള മലമുകൾ"
+      ],
+      [
+        "Athirappilly",
+        "അതിരപ്പിള്ളി",
+        "Waterfall Nature Attraction",
+        "വനത്തിനുള്ളിലെ ജലാശയം"
+      ],
+      [
+        "Kumarakom",
+        "കുമാരകം",
+        "Backwater Resort Village",
+        "കായൽ തീരത്തെ ഗ്രാമം"
+      ],
+      [
+        "Vagamon",
+        "വാഗമൺ",
+        "Green Meadows Hill",
+        "പുൽമേടുകളുള്ള മലയോരം"
+      ],
+      [
+        "Sultan Bathery",
+        "സുൽത്താൻ ബത്തേരി",
+        "Historic Forest Town",
+        "ചരിത്രമുള്ള വടക്കൻ പട്ടണം"
+      ],
+      [
+        "Fort Kochi",
+        "ഫോർട്ട് കൊച്ചി",
+        "Colonial Heritage Zone",
+        "പൈതൃകമുള്ള തീരപ്രദേശം"
+      ],
+      [
+        "Silent Valley",
+        "സൈലന്റ് വാലി",
+        "Deep Rainforest Reserve",
+        "നിശബ്ദമായ വനമേഖല"
+      ],
+      [
+        "Nelliyampathy",
+        "നെല്ലിയാമ്പതി",
+        "Scenic Mountain Range",
+        "തേയിലത്തോട്ടങ്ങളുള്ള മലയോരം"
+      ],
+      [
+        "Sabarimala",
+        "ശബരിമല",
+        "Dense Forest Shrine",
+        "വനമധ്യത്തിലെ തീർത്ഥാടനം"
+      ],
+      [
+        "Sree Padmanabhaswamy Temple",
+        "ശ്രീപത്മനാഭസ്വാമി ക്ഷേത്രം",
+        "Vault Heritage Structure",
+        "നിലവറകളുള്ള സ്മാരകം"
+      ],
+      [
+        "Thenmala",
+        "തെന്മല",
+        "Eco-Tourism Dam Zone",
+        "ഇക്കോ ടൂറിസം മേഖല"
+      ],
+      [
+        "Marari Beach",
+        "മരാരി ബീച്ച്",
+        "Coir Fishing Coast",
+        "കയർ നിർമ്മാണ തീരം"
+      ],
+      [
+        "Agasthyarkoodam",
+        "അഗസ്ത്യർകൂടം",
+        "Medicinal Herb Peak",
+        "ഔഷധസസ്യങ്ങളുടെ മല"
+      ],
+      [
+        "Banasura Sagar",
+        "ബാണാസുര സാഗർ",
+        "Earth Dam Reservoir",
+        "മണ്ണുകൊണ്ട് നിർമ്മിച്ച അണക്കെട്ട്"
+      ],
+      [
+        "Poonjar",
+        "പൂഞ്ഞാർ",
+        "Palace Valley",
+        "കൊട്ടാരമുള്ള താഴ്വര"
+      ],
+      [
+        "Muzhappilangad",
+        "മുഴപ്പിലങ്ങാട്",
+        "Drive-in Shore",
+        "വാഹനം ഓടിക്കാവുന്ന തീരം"
+      ],
+      [
+        "Kuttanad",
+        "കുട്ടനാട്",
+        "Below Sea Level Farming",
+        "സമുദ്രനിരപ്പിന് താഴെയുള്ള കൃഷി"
+      ],
+      [
+        "Pathanamthitta",
+        "പത്തനംതിട്ട",
+        "Pilgrims District",
+        "തീർത്ഥാടകരുടെ നാട്"
+      ]
+    ]
+  },
+  "food": {
+    "name": "Kerala Food",
+    "words": [
+      [
+        "Puttu",
+        "പുട്ട്",
+        "Steamed Breakfast Staple",
+        "ആവിയിൽ വേവിക്കുന്ന പ്രഭാതഭക്ഷണം"
+      ],
+      [
+        "Appam",
+        "അപ്പം",
+        "Traditional Morning Bread",
+        "രാവിലെ കഴിക്കുന്ന പലഹാരം"
+      ],
+      [
+        "Sadya",
+        "സദ്യ",
+        "Traditional Feast",
+        "വിശേഷ ദിവസത്തെ വലിയ ഭക്ഷണം"
+      ],
+      [
+        "Kappa",
+        "കപ്പ",
+        "Root Vegetable Dish",
+        "കിഴങ്ങ് വർഗ്ഗത്തിൽപ്പെട്ടത്"
+      ],
+      [
+        "Pazham Pori",
+        "പഴംപൊരി",
+        "Sweet Tea Accompaniment",
+        "ചായയ്ക്കൊപ്പമുള്ള മധുരം"
+      ],
+      [
+        "Idiyappam",
+        "ഇടിയപ്പം",
+        "Steamed Rice Preparation",
+        "അരിമാവ് കൊണ്ടുള്ള വിഭവം"
+      ],
+      [
+        "Dosa",
+        "ദോശ",
+        "Griddle Cooked Item",
+        "ചൂടോടെ ചുട്ടെടുക്കുന്നത്"
+      ],
+      [
+        "Sambar",
+        "സാമ്പാർ",
+        "Vegetable Gravy",
+        "പച്ചക്കറികൾ ചേർത്ത ഒഴിച്ചു കറി"
+      ],
+      [
+        "Avial",
+        "അവിയൽ",
+        "Mixed Vegetable Combination",
+        "പല പച്ചക്കറികൾ ചേർത്ത വിഭവം"
+      ],
+      [
+        "Thoran",
+        "തോരൻ",
+        "Grated Coconut Stir-fry",
+        "തേങ്ങ ചേർത്ത വറുത്തുപ്പേരി"
+      ],
+      [
+        "Olan",
+        "ഓലൻ",
+        "Coconut Milk Vegetable Stew",
+        "തേങ്ങാപ്പാൽ ചേർത്ത വിഭവം"
+      ],
+      [
+        "Kalan",
+        "കാളൻ",
+        "Yogurt Based Gravy",
+        "തൈര് ചേർത്ത കട്ടി കറി"
+      ],
+      [
+        "Erissery",
+        "എരിശ്ശേരി",
+        "Roasted Coconut Preparation",
+        "വറുത്ത തേങ്ങ ചേർത്ത കറി"
+      ],
+      [
+        "Inji Curry",
+        "ഇഞ്ചി കറി",
+        "Spicy Tangy Condiment",
+        "പുളിയും എരിവുമുള്ള വിഭവം"
+      ],
+      [
+        "Pappadam",
+        "പപ്പടം",
+        "Crunchy Meal Side",
+        "ഊണിനൊപ്പം പൊട്ടിച്ചു കഴിക്കുന്നത്"
+      ],
+      [
+        "Payasam",
+        "പായസം",
+        "Sweet Liquid Dessert",
+        "വിശേഷ ദിവസത്തെ മധുര വിഭവം"
+      ],
+      [
+        "Beef Fry",
+        "ബീഫ് ഫ്രൈ",
+        "Spiced Roast Meat",
+        "മസാല ചേർത്ത മാംസ വിഭവം"
+      ],
+      [
+        "Meen Curry",
+        "മീൻ കറി",
+        "Tangy Seafood Gravy",
+        "എരിവുള്ള കടൽ വിഭവം"
+      ],
+      [
+        "Porotta",
+        "പൊറോട്ട",
+        "Layered Flatbread",
+        "അടുക്കുകളുള്ള പ്രശസ്ത വിഭവം"
+      ],
+      [
+        "Malabar Biriyani",
+        "മലബാർ ബിരിയാണി",
+        "Aromatic Spiced Rice",
+        "സുഗന്ധമുള്ള റൈസ് വിഭവം"
+      ],
+      [
+        "Pathiri",
+        "പത്തിരി",
+        "Soft Rice Flatbread",
+        "അരിമാവ് കൊണ്ടുള്ള പലഹാരം"
+      ],
+      [
+        "Karimeen Pollichathu",
+        "കരിമീൻ പൊള്ളിച്ചത്",
+        "Banana Leaf Wrapped Seafood",
+        "ഇലയിൽ പൊതിഞ്ഞു വേവിച്ച വിഭവം"
+      ],
+      [
+        "Chicken Stew",
+        "ചിക്കൻ സ്റ്റ്യൂ",
+        "Mild Coconut Gravy",
+        "തേങ്ങാപ്പാൽ ചേർത്ത കറി"
+      ],
+      [
+        "Kothu Parotta",
+        "കൊത്ത് പൊറോട്ട",
+        "Street Food Mix",
+        "തട്ടുകടയിലെ പ്രശസ്ത വിഭവം"
+      ],
+      [
+        "Palappam",
+        "പാലപ്പം",
+        "Lacy Breakfast Item",
+        "പ്രഭാതത്തിലെ പ്രധാന വിഭവം"
+      ],
+      [
+        "Thalassery Biriyani",
+        "തലശ്ശേരി ബിരിയാണി",
+        "Special Rice Delicacy",
+        "വടക്കൻ കേരളത്തിലെ വിശേഷ വിഭവം"
+      ],
+      [
+        "Mutton Chaaps",
+        "മട്ടൺ ചാപ്സ്",
+        "Pepper Gravy Roast",
+        "കുരുമുളക് ചേർത്ത വിഭവം"
+      ],
+      [
+        "Kappa Biriyani",
+        "കപ്പ ബിരിയാണി",
+        "Tuber Meat Blend",
+        "കിഴങ്ങും ഇറച്ചിയും ചേർത്തത്"
+      ],
+      [
+        "Neyyappam Special",
+        "നെയ്യപ്പം",
+        "Fried Rice Batter Cake",
+        "വറുത്തെടുത്ത അരിമാവ് പലഹാരം"
+      ],
+      [
+        "Kallappam",
+        "കള്ളപ്പം",
+        "Fermented Rice Pancake",
+        "പുളിപ്പിച്ച അരിപ്പലഹാരം"
+      ],
+      [
+        "Chemeen Curry",
+        "ചെമ്മീൻ കരി",
+        "Kokum Seafood Stew",
+        "കുടംപുളി ചേർത്ത കറി"
+      ],
+      [
+        "Parippu Curry",
+        "പരിപ്പ് കറി",
+        "Yellow Lentil Mash",
+        "പരിപ്പ് വേവിച്ചത്"
+      ],
+      [
+        "Meen Peera",
+        "മീൻ പീര",
+        "Grated Coconut Seafood",
+        "തേങ്ങ അരച്ച വിഭവം"
+      ],
+      [
+        "Fish Moolie",
+        "ഫിഷ് മോളി",
+        "Coconut Milk Fish Stew",
+        "തേങ്ങാപ്പാലിലുള്ള മീൻ കറി"
+      ],
+      [
+        "Chicken 65",
+        "ചിക്കൻ 65",
+        "Deep Fried Spicy Bite",
+        "വറുത്തെടുത്ത മാംസ വിഭവം"
+      ],
+      [
+        "Chammanthi Podi",
+        "ചമ്മന്തിപ്പൊടി",
+        "Dry Ground Coconut Mix",
+        "ഉണക്കത്തേങ്ങ അരച്ചത്"
+      ]
+    ]
+  }
+}

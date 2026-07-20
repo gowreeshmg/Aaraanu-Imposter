@@ -1,0 +1,70 @@
+[
+  {
+    "id": "funny",
+    "name": "Funny Malayalam",
+    "icon": "??",
+    "words": [
+      {
+        "civWord": "Pwoli",
+        "civWordMal": "പൊളി",
+        "imposters": [
+          {
+            "word": "Kidu",
+            "wordMal": "കിടു",
+            "relationEN": "Both Pwoli and Kidu are popular Malayalam slang words used by youth to express that something is extraordinarily awesome or excellent.",
+            "relationML": "പൊളിയും കിടുവും യുവാക്കൾക്കിടയിൽ വളരെ മികച്ചതോ അതിശയകരമായതോ ആയ കാര്യങ്ങളെ വിശേഷിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന ജനപ്രിയ മലയാളം സ്ലാംഗ് വാക്കുകളാണ്."
+          },
+          {
+            "word": "Adipoli",
+            "wordMal": "അടിപൊളി",
+            "relationEN": "Both Pwoli and Adipoli are colloquial Malayalam expressions used to describe an event, place, or thing that is remarkably fantastic or enjoyable.",
+            "relationML": "ഒരു സംഭവത്തെയോ സ്ഥലത്തെയോ വസ്തുവിനെയോ വളരെ മികച്ചതോ ആസ്വാദ്യകരമോ എന്ന് വിശേഷിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന സാധാരണ മലയാളം പ്രയോഗങ്ങളാണ് പൊളിയും അടിപൊളിയും."
+          }
+        ]
+      },
+      {
+        "civWord": "Ayyayyo",
+        "civWordMal": "അയ്യയ്യോ",
+        "imposters": [
+          {
+            "word": "Ente Ammo",
+            "wordMal": "എന്റെ അമ്മോ",
+            "relationEN": "Both Ayyayyo and Ente Ammo are spontaneous Malayalam exclamations commonly blurted out in moments of sudden pain, intense shock, or deep fear.",
+            "relationML": "പെട്ടെന്നുള്ള വേദനയോ കടുത്ത ഞെട്ടലോ അഗാധമായ ഭയമോ ഉണ്ടാകുമ്പോൾ സ്വാഭാവികമായി പുറത്തുവരുന്ന മലയാളം ആശ്ചര്യപ്രകടനങ്ങളാണ് അയ്യയ്യോ, എൻ്റെ അമ്മോ എന്നിവ."
+          },
+          {
+            "word": "Kashtam",
+            "wordMal": "കഷ്ടം",
+            "relationEN": "Both Ayyayyo and Kashtam are everyday Malayalam expressions used to express pity, sorrow, or sympathy upon hearing about someone's misfortune or a tragic event.",
+            "relationML": "ഒരാളുടെ ദുരവസ്ഥയോ ദാരുണമായ സംഭവമോ കേൾക്കുമ്പോൾ സഹതാപമോ സങ്കടമോ പ്രകടിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന ദൈനംദിന മലയാളം പ്രയോഗങ്ങളാണ് അയ്യയ്യോ, കഷ്ടം എന്നിവ."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "movies",
+    "name": "Movies",
+    "icon": "??",
+    "words": [
+      {
+        "civWord": "Manichitrathazhu",
+        "civWordMal": "മണിച്ചിത്രത്താഴ്",
+        "imposters": [
+          {
+            "word": "Anandabhadram",
+            "wordMal": "അനന്തഭദ്രം",
+            "relationEN": "Both Manichitrathazhu and Anandabhadram are classic Malayalam supernatural thrillers set in ancient ancestral mansions revolving around myths, dark magic, and folklore.",
+            "relationML": "പുരാതന തറവാടുകളുടെ പശ്ചാത്തലത്തിൽ മിത്തുകളെയും ദുർമന്ത്രവാദത്തെയും നാടോടിക്കഥകളെയും ചുറ്റിപ്പറ്റി നടക്കുന്ന ക്ലാസിക് മലയാളം അമാനുഷിക ത്രില്ലറുകളാണ് മണിച്ചിത്രത്താഴും അനന്തഭദ്രവും."
+          },
+          {
+            "word": "Aakasha Ganga",
+            "wordMal": "ആകാശഗംഗ",
+            "relationEN": "Both Manichitrathazhu and Aakasha Ganga are prominent Malayalam horror films featuring a vengeful female spirit possessing someone within a traditional Nair family setting.",
+            "relationML": "ഒരു പരമ്പരാഗത നായർ തറവാടിൻ്റെ പശ്ചാത്തലത്തിൽ ഒരാളിൽ പ്രവേശിക്കുന്ന പ്രതികാരദാഹിയായ ഒരു സ്ത്രീയുടെ ആത്മാവിനെ അവതരിപ്പിക്കുന്ന പ്രശസ്തമായ മലയാളം ഹൊറർ സിനിമകളാണ് മണിച്ചിത്രത്താഴും ആകാശഗംഗയും."
+          }
+        ]
+      }
+    ]
+  }
+]

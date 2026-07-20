@@ -1,0 +1,1328 @@
+{
+  "bakery": {
+    "name": "Bakery & Snacks",
+    "words": [
+      [
+        "Chaya",
+        "ചായ",
+        "Popular Hot Drink",
+        "ചൂടുള്ള പാനീയം"
+      ],
+      [
+        "Puffs",
+        "പഫ്സ്",
+        "Layered Bakery Pastry",
+        "ബേക്കറിയിലെ ബേക്കഡ് വിഭവം"
+      ],
+      [
+        "Uzhunnu Vada",
+        "ഉഴുന്നു വട",
+        "Crispy Lentil Fritter",
+        "വട്ടത്തിൽ വറുത്തെടുത്ത പലഹാരം"
+      ],
+      [
+        "Mutta Baji",
+        "മുട്ട ബജി",
+        "Fried Batter Snack",
+        "മാവിൽ മുക്കി വറുത്തത്"
+      ],
+      [
+        "Kozhukkatta",
+        "കൊഴുക്കട്ട",
+        "Steamed Sweet Dumpling",
+        "ആവിയിൽ പുഴുങ്ങിയ മധുരം"
+      ],
+      [
+        "Cutlet",
+        "കട്ട്ലറ്റ്",
+        "Crumbed Spiced Snack",
+        "മൊരിഞ്ഞ ബേക്കറി സ്നാക്ക്"
+      ],
+      [
+        "Samosa",
+        "സമോസ",
+        "Filled Triangular Snack",
+        "ത്രികോണ രൂപത്തിലുള്ള പലഹാരം"
+      ],
+      [
+        "Bonda",
+        "ബോണ്ട",
+        "Round Deep Fried Snack",
+        "ഉരുണ്ട വറുത്ത പലഹാരം"
+      ],
+      [
+        "Parippu Vada",
+        "പരിപ്പ് വട",
+        "Crunchy Lentil Bite",
+        "കറുമുറെ കഴിക്കുന്ന വട"
+      ],
+      [
+        "Ela Ada",
+        "ഇല അട",
+        "Leaf Steamed Sweet",
+        "ഇലയിൽ പൊതിഞ്ഞു വേവിച്ചത്"
+      ],
+      [
+        "Achappam",
+        "അച്ചപ്പം",
+        "Molded Crispy Snack",
+        "അച്ചിൽ ചുട്ടെടുക്കുന്ന വിഭവം"
+      ],
+      [
+        "Unniyappam",
+        "ഉണ്ണിയപ്പം",
+        "Round Sweet Fritter",
+        "ഉരുണ്ട മധുര പലഹാരം"
+      ],
+      [
+        "Banana Chips",
+        "വാഴക്ക ചിപ്സ്",
+        "Crunchy Fried Slices",
+        "വറുത്തുപ്പേരി"
+      ],
+      [
+        "Sharkara Upperi",
+        "ശർക്കര ഉപ്പേരി",
+        "Jaggery Coated Snack",
+        "മധുരത്തിൽ പൊതിഞ്ഞ കഷണങ്ങൾ"
+      ],
+      [
+        "Kappa Chips",
+        "കപ്പ ചിപ്സ്",
+        "Spiced Tuber Crisps",
+        "എരിവുള്ള ചിപ്സ്"
+      ],
+      [
+        "Avalose Podi",
+        "അവലോസ് പൊടി",
+        "Roasted Flour Mix",
+        "വറുത്തുണ്ടാക്കുന്ന പൊടി"
+      ],
+      [
+        "Kozhalappam",
+        "കൊഴലപ്പം",
+        "Crispy Tube Snack",
+        "കുഴൽ രൂപത്തിലുള്ള പലഹാരം"
+      ],
+      [
+        "Kinnathappam",
+        "കിണ്ണത്തപ്പം",
+        "Steamed Sweet Cake",
+        "പാത്രത്തിൽ വേവിച്ച മധുരം"
+      ],
+      [
+        "Churuttu",
+        "ചുരുട്ട്",
+        "Rolled Sweet Pastry",
+        "ചുരുട്ടി വെച്ച മധുരപലഹാരം"
+      ],
+      [
+        "Halwa",
+        "ഹൽവ",
+        "Colorful Sweet Slab",
+        "ബേക്കറിയിലെ മധുര വിഭവം"
+      ],
+      [
+        "Sukhiyan",
+        "സുഖിയൻ",
+        "Sweet Lentil Fritter",
+        "മധുരം നിറച്ചു വറുത്ത പലഹാരം"
+      ],
+      [
+        "Bread Pakora",
+        "ബ്രെഡ് പക്കോട",
+        "Teatime Fried Slice",
+        "വൈകുന്നേരത്തെ ചൂടുള്ള പലഹാരം"
+      ],
+      [
+        "Laddoo",
+        "ലഡ്ഡു",
+        "Round Festive Sweet",
+        "ഉരുണ്ട മധുരപലഹാരം"
+      ],
+      [
+        "Jalebi",
+        "ജിലേബി",
+        "Syrup Coated Crispy Sweet",
+        "മധുരപാനീയത്തിൽ മുക്കിയ വിഭവം"
+      ],
+      [
+        "Meat Roll",
+        "മീറ്റ് റോൾ",
+        "Spiced Bakery Pastry",
+        "ബേക്കറിയിലെ എരിവുള്ള സ്നാക്ക്"
+      ],
+      [
+        "Boli",
+        "ബോളി",
+        "Yellow Gram Flatbread",
+        "മഞ്ഞ നിറമുള്ള മധുരപ്പൊടി"
+      ],
+      [
+        "Chatti Pathiri",
+        "ചട്ടി പത്തിരി",
+        "Layered Pastry Cake",
+        "അടുക്കുകളായുള്ള പലഹാരം"
+      ],
+      [
+        "Vettu Cake",
+        "വെട്ട് കേക്ക്",
+        "Cross Cut Dough Ball",
+        "കുറുകെ വരഞ്ഞ പലഹാരം"
+      ],
+      [
+        "Pakkavada",
+        "പക്കവട",
+        "Spiced Ribbon Crisps",
+        "എരിവുള്ള നാടൻ സ്നാക്ക്"
+      ],
+      [
+        "Kayyappam",
+        "കയ്യപ്പം",
+        "Banana Fritter Ball",
+        "പഴം ചേർത്ത ഉണ്ടപ്പലഹാരം"
+      ],
+      [
+        "Ilayappam",
+        "ഇലയപ്പം",
+        "Leaf Wrapped Dumpling",
+        "ഇലയിൽ പൊതിഞ്ഞത്"
+      ],
+      [
+        "Mothagam",
+        "മോദകം",
+        "Sweet Filled Steamed Ball",
+        "മധുരം നിറച്ച കൊഴുക്കട്ട"
+      ],
+      [
+        "Mutta Puff",
+        "മുട്ട പഫ്",
+        "Layered Egg Pastry",
+        "അടുക്കുകളുള്ള ബേക്കറി വിഭവം"
+      ],
+      [
+        "Cream Bun",
+        "ക്രീം ബൺ",
+        "Sweet Filled Bread",
+        "മധുരം തേച്ച റൊട്ടി"
+      ],
+      [
+        "Mixture",
+        "മിക്സ്ചർ",
+        "Assorted Savory Crunch",
+        "പലതരം വറുത്തവയുടെ മിശ്രിതം"
+      ],
+      [
+        "Pahadi Halwa",
+        "കോഴിക്കോടൻ ഹൽവ",
+        "Black Sweet Slice",
+        "കറുത്ത മധുര വിഭവം"
+      ]
+    ]
+  },
+  "home": {
+    "name": "Household Items",
+    "words": [
+      [
+        "Nilavilakku",
+        "നിലവിളക്ക്",
+        "Traditional Lighting",
+        "വീട്ടിലെ പരമ്പരാഗത വിളക്ക്"
+      ],
+      [
+        "Thorthu",
+        "തോർത്തു",
+        "Daily Cotton Cloth",
+        "നിത്യസഹായ വസ്ത്രം"
+      ],
+      [
+        "Muram",
+        "മുറം",
+        "Woven Bamboo Craft",
+        "മുള കൊണ്ടുള്ള ഉപകരണം"
+      ],
+      [
+        "Chattukam",
+        "ചട്ടുകം",
+        "Kitchen Stirring Utensil",
+        "പാചകം ചെയ്യാൻ ഉപയോഗിക്കുന്നത്"
+      ],
+      [
+        "Mundum Neriyathum",
+        "മുണ്ടും നേരിയതും",
+        "Traditional Attire",
+        "പരമ്പരാഗത വസ്ത്രധാരണം"
+      ],
+      [
+        "Uruli",
+        "ഉരുളി",
+        "Heavy Cookware",
+        "വലിയ ഓട്ടുപാത്രം"
+      ],
+      [
+        "Para",
+        "പറ",
+        "Traditional Measuring Unit",
+        "പഴയകാല അളവുപാത്രം"
+      ],
+      [
+        "Kudam",
+        "കുടം",
+        "Water Storage Vessel",
+        "വെള്ളം സൂക്ഷിക്കുന്ന പാത്രം"
+      ],
+      [
+        "Chembu",
+        "ചെമ്പ്",
+        "Large Metal Boiler",
+        "വലിയ പാചക പാത്രം"
+      ],
+      [
+        "Ammikallu",
+        "അമ്മിക്കല്ല്",
+        "Stone Grinding Tool",
+        "അരയ്ക്കാൻ ഉപയോഗിക്കുന്ന കല്ല്"
+      ],
+      [
+        "Arakkallu",
+        "അരക്കല്ല്",
+        "Traditional Stone Grinder",
+        "ചമ്മന്തി അരയ്ക്കുന്ന ഉപകരണം"
+      ],
+      [
+        "Aattukallu",
+        "ആട്ടുകല്ല്",
+        "Heavy Grinding Stone",
+        "മാവടിക്കാനുള്ള കല്ല്"
+      ],
+      [
+        "Kindi",
+        "കിണ്ടി",
+        "Spouted Metal Vessel",
+        "പൂജയ്ക്കും മറ്റും ഉപയോഗിക്കുന്ന പാത്രം"
+      ],
+      [
+        "Thookkuvilakku",
+        "തൂക്കുവിളക്ക്",
+        "Hanging Metal Lamp",
+        "തൂക്കിയിടുന്ന വിളക്ക്"
+      ],
+      [
+        "Mundu",
+        "മുണ്ട്",
+        "Traditional Bottom Wear",
+        "പരമ്പരാഗത പുരുഷ വസ്ത്രം"
+      ],
+      [
+        "Kasavu Saree",
+        "കസവ് സാരി",
+        "Golden Border Saree",
+        "സ്വർണ്ണക്കരയുള്ള വസ്ത്രം"
+      ],
+      [
+        "Chirava",
+        "ചിരവ",
+        "Kitchen Grating Tool",
+        "അടുക്കളയിലെ ഇരിപ്പിടം"
+      ],
+      [
+        "Paathram",
+        "പാത്രം",
+        "General Utensil",
+        "അടുക്കളയിലെ പാത്രം"
+      ],
+      [
+        "Puttu Kutti",
+        "പുട്ടുകുറ്റി",
+        "Steaming Cylinder Tool",
+        "ആവിയിൽ വേവിക്കുന്ന കുറ്റി"
+      ],
+      [
+        "Vaal Kannadi",
+        "വാൽക്കണ്ണാടി",
+        "Handheld Brass Mirror",
+        "വിഷുക്കണിയിലെ കണ്ണാടി"
+      ],
+      [
+        "Kalam",
+        "കലം",
+        "Clay Cooking Pot",
+        "മൺപാത്രം"
+      ],
+      [
+        "Cheenachatti",
+        "ചീനച്ചട്ടി",
+        "Deep Frying Pan",
+        "വറുക്കാൻ ഉപയോഗിക്കുന്ന പാത്രം"
+      ],
+      [
+        "Kettle",
+        "കെറ്റിൽ",
+        "Water Boiling Pot",
+        "വെള്ളം തിളപ്പിക്കുന്ന ഉപകരണം"
+      ],
+      [
+        "Bharani",
+        "ഭരണി",
+        "Ceramic Pickle Jar",
+        "അച്ചാർ സൂക്ഷിക്കുന്ന ഭരണി"
+      ],
+      [
+        "Kattil",
+        "കട്ടിൽ",
+        "Bedroom Wooden Furniture",
+        "കിടക്കാൻ ഉപയോഗിക്കുന്നത്"
+      ],
+      [
+        "Oonjal",
+        "ഊഞ്ഞാൽ",
+        "Hanging Porch Seat",
+        "മുറ്റത്തോ വരാന്തയിലോ കെട്ടുന്നത്"
+      ],
+      [
+        "Chattuvam",
+        "ചട്ടുക്ക",
+        "Flat Stirring Spatula",
+        "ഇളക്കാനുള്ള ഉപകരണം"
+      ],
+      [
+        "Paya",
+        "പായ",
+        "Woven Grass Mat",
+        "പുല്ലുകൊണ്ട് മെടഞ്ഞത്"
+      ],
+      [
+        "Thiri",
+        "തിരി",
+        "Cotton Lamp Wick",
+        "വിളക്കിലിടുന്ന പരുത്തി"
+      ],
+      [
+        "Kindu Brass",
+        "ഓട്ടുപാത്രം",
+        "Metal Plate Vessel",
+        "ലോഹ പാത്രം"
+      ],
+      [
+        "Alavu Para",
+        "അളവുപാത്രം",
+        "Grain Measure Vessel",
+        "ധാന്യങ്ങൾ അളക്കുന്നത്"
+      ],
+      [
+        "Kindu Vessel",
+        "വാൽക്കിണ്ടി",
+        "Water Pouring Vessel",
+        "വെള്ളം ഒഴിക്കുന്ന പാത്രം"
+      ],
+      [
+        "Chappathi Kallu",
+        "ചപ്പാത്തി കല്ല്",
+        "Rolling Pin Base",
+        "മാവു പരത്തുന്ന ഉപകരണം"
+      ],
+      [
+        "Arippa",
+        "അരിപ്പ",
+        "Tea Strainer Mesh",
+        "അരിച്ചെടുക്കാൻ ഉപയോഗിക്കുന്നത്"
+      ],
+      [
+        "Choottu",
+        "ചൂട്ട്",
+        "Dry Palm Torch",
+        "രാത്രി വെളിച്ചം തരുന്ന ഓല"
+      ],
+      [
+        "Madaal",
+        "മടൽ",
+        "Palm Frond Base",
+        "തെങ്ങിന്റെ ഭാഗം"
+      ]
+    ]
+  },
+  "people": {
+    "name": "People",
+    "words": [
+      [
+        "Mohanlal",
+        "മോഹൻലാൽ",
+        "Acting Legend",
+        "മലയാള സിനിമയിലെ പ്രമുഖൻ"
+      ],
+      [
+        "Mammootty",
+        "മമ്മൂട്ടി",
+        "Veteran Star",
+        "പ്രശസ്തനായ മുതിർന്ന നടൻ"
+      ],
+      [
+        "Manju Warrier",
+        "മഞ്ജു വാര്യർ",
+        "Lead Actress",
+        "പ്രശസ്തയായ നായിക"
+      ],
+      [
+        "Fahadh Faasil",
+        "ഫഹദ് ഫാസിൽ",
+        "Versatile Performer",
+        "വ്യത്യസ്ത കഥാപാത്രങ്ങൾ ചെയ്യുന്ന നടൻ"
+      ],
+      [
+        "Shobana",
+        "ശോഭന",
+        "Dancer Star",
+        "നർത്തകിയായ പ്രശസ്ത നായിക"
+      ],
+      [
+        "Dileep",
+        "ദിലീപ്",
+        "Popular Entertainer",
+        "ജനപ്രിയ നായകൻ"
+      ],
+      [
+        "Suresh Gopi",
+        "സുരേഷ് ഗോപി",
+        "Action Dialogue Star",
+        "ആക്ഷൻ ഡയലോഗ് താരം"
+      ],
+      [
+        "Prithviraj",
+        "പൃഥ്വിരാജ്",
+        "Modern Cinema Lead",
+        "പ്രമുഖ യുവനായകൻ"
+      ],
+      [
+        "Tovino Thomas",
+        "ടൊവിനോ തോമസ്",
+        "Youth Action Star",
+        "ആവേശമുയർത്തുന്ന നായകൻ"
+      ],
+      [
+        "Nivin Pauly",
+        "നിവിൻ പോളി",
+        "Romantic Comedy Lead",
+        "റൊമാന്റിക് ഹീറോ"
+      ],
+      [
+        "Kunchacko Boban",
+        "കുഞ്ചാക്കോ ബോബൻ",
+        "Family Favorite Hero",
+        "കുടുംബ ചിത്രങ്ങളിലെ നായകൻ"
+      ],
+      [
+        "Jayaram",
+        "ജയറാം",
+        "Family Entertainer",
+        "കുടുംബ പ്രേക്ഷകരുടെ താരം"
+      ],
+      [
+        "Jayasurya",
+        "ജയസൂര്യ",
+        "Character Actor",
+        "വൈവിധ്യമുള്ള കഥാപാത്രങ്ങൾ ചെയ്യുന്ന നടൻ"
+      ],
+      [
+        "Parvathy Thiruvothu",
+        "പാർവതി തിരുവോത്ത്",
+        "Award Winning Actress",
+        "ശക്തമായ കഥാപാത്രങ്ങൾ ചെയ്യുന്ന നായിക"
+      ],
+      [
+        "Nazriya Nazim",
+        "നസ്രിയ നസീം",
+        "Charming Lead",
+        "പ്രേക്ഷകരുടെ പ്രിയ നായിക"
+      ],
+      [
+        "Anaswara Rajan",
+        "അനശ്വര രാജൻ",
+        "Young Generation Star",
+        "പുതിയ തലമുറയിലെ നായിക"
+      ],
+      [
+        "Aishwarya Lekshmi",
+        "ഐശ്വര്യ ലക്ഷ്മി",
+        "Popular Lead Actress",
+        "പ്രശസ്ത നായിക"
+      ],
+      [
+        "Asif Ali",
+        "ആസിഫ് അലി",
+        "Relatable Youth Lead",
+        "യുവാക്കളുടെ പ്രിയ താരം"
+      ],
+      [
+        "Basil Joseph",
+        "ബേസിൽ ജോസഫ്",
+        "Director & Actor",
+        "സംവിധായകനും നടനും"
+      ],
+      [
+        "Vineeth Sreenivasan",
+        "വിനീത് ശ്രീനിവാസൻ",
+        "Multi Talented Artist",
+        "പാട്ടുകാരനും സംവിധായകനും നടനും"
+      ],
+      [
+        "Dulquer Salmaan",
+        "ദുൽഖർ സൽമാൻ",
+        "Youth Icon Star",
+        "പുതിയ തലമുറയിലെ പ്രമുഖ നായകൻ"
+      ],
+      [
+        "Suraj Venjaramoodu",
+        "സുരാജ് വെഞ്ഞാറമൂട്",
+        "Comedy & Drama Legend",
+        "ചിരിപ്പിക്കുകയും കരയിക്കുകയും ചെയ്യുന്ന നടൻ"
+      ],
+      [
+        "Jagathy Sreekumar",
+        "ജഗതി ശ്രീകുമാർ",
+        "Evergreen Comedy Emperor",
+        "മലയാളിയുടെ എക്കാലത്തെയും പ്രിയ ഹാസ്യനടൻ"
+      ],
+      [
+        "Innocent",
+        "ഇന്നസെന്റ്",
+        "Beloved Character Star",
+        "തമാശയും സ്നേഹവുമുള്ള നടൻ"
+      ],
+      [
+        "Soubin Shahir",
+        "സൗബിൻ ഷാഹിർ",
+        "Natural Acting Talent",
+        "സ്വാഭാവിക അഭിനയ ശൈലിയുള്ള നടൻ"
+      ],
+      [
+        "Kalyani Priyadarshan",
+        "കല്യാണി പ്രിയദർശൻ",
+        "Modern Youth Actress",
+        "യുവനിരയിലെ ശ്രദ്ധേയയായ നായിക"
+      ],
+      [
+        "K. J. Yesudas",
+        "കെ. ജെ. യേശുദാസ്",
+        "Classical Concert Vocalist",
+        "കർണ്ണാട്ടിക് സംഗീതജ്ഞൻ"
+      ],
+      [
+        "K. S. Chithra",
+        "കെ. എസ്. ചിത്ര",
+        "Melody Pioneer",
+        "ഗാനരംഗത്തെ പ്രമുഖ"
+      ],
+      [
+        "Sanju Samson",
+        "സഞ്ജു സാംസൺ",
+        "Wicketkeeper Athlete",
+        "വിക്കറ്റ് കാക്കുന്ന കായികതാരം"
+      ],
+      [
+        "Shashi Tharoor",
+        "ശശി തരൂർ",
+        "English Lexicon Author",
+        "ഇംഗ്ലീഷ് പദപ്രയോഗങ്ങൾ അറിയുന്നയാൾ"
+      ],
+      [
+        "Sreenivasan",
+        "ശ്രീനിവാസൻ",
+        "Satirical Screenwriter",
+        "ആക്ഷേപഹാസ്യ എഴുത്തുകാരൻ"
+      ],
+      [
+        "Salim Kumar",
+        "സലിം കുമാർ",
+        "National Award Comedian",
+        "അംഗീകാരം നേടിയ ഹാസ്യനടൻ"
+      ],
+      [
+        "Urveshi",
+        "ഉർവ്വശി",
+        "Brilliant Character Lead",
+        "ശക്തമായ അഭിനയമികവുള്ള നായിക"
+      ],
+      [
+        "Mukesh",
+        "മുകേഷ്",
+        "Witty Dialogue Lead",
+        "സംഭാഷണങ്ങളിൽ തമാശയുള്ള നടൻ"
+      ],
+      [
+        "Biju Menon",
+        "ബിജു മേനോൻ",
+        "Deep Voice Actor",
+        "ഗംഭീര ശബ്ദമുള്ള താരം"
+      ],
+      [
+        "Pepe Antony",
+        "ആന്റണി വർഗ്ഗീസ്",
+        "Angamaly Action Lead",
+        "ആക്ഷൻ രംഗങ്ങളിലെ നായകൻ"
+      ]
+    ]
+  },
+  "life": {
+    "name": "Kerala Life",
+    "words": [
+      [
+        "Chaya Kada",
+        "ചായക്കട",
+        "Local Gathering Spot",
+        "നാട്ടിൻപുറത്തെ കൂടിച്ചേരൽ സ്ഥലം"
+      ],
+      [
+        "Kallu Shappu",
+        "കള്ള് ഷാപ്പ്",
+        "Rustic Food Junction",
+        "എരിവുള്ള നാടൻ വിഭവങ്ങൾ കിട്ടുന്ന സ്ഥലം"
+      ],
+      [
+        "KSRTC",
+        "കെ എസ് ആർ ടി സി",
+        "Public Transportation",
+        "സർക്കാർ യാത്രാ സർവീസ്"
+      ],
+      [
+        "Auto Rickshaw",
+        "ഓട്ടോ റിക്ഷ",
+        "Three Wheeler Transit",
+        "മൂന്നു ചക്ര യാത്രാ വണ്ടി"
+      ],
+      [
+        "Tharavadu",
+        "തറവാട്",
+        "Ancestral Home",
+        "പഴയകാല കുടുംബ വീട്"
+      ],
+      [
+        "Panchayath",
+        "പഞ്ചായത്ത്",
+        "Local Administration",
+        "നാട്ടിൻപുറത്തെ ഭരണകൂടം"
+      ],
+      [
+        "Kudumbashree",
+        "കുടുംബശ്രീ",
+        "Women Self-help Group",
+        "വനിതകളുടെ കൂട്ടായ്മ"
+      ],
+      [
+        "Anganwadi",
+        "അങ്കണവാടി",
+        "Village Child Center",
+        "കുട്ടികളുടെ പരിപാലന കേന്ദ്രം"
+      ],
+      [
+        "Rubber Thottam",
+        "റബ്ബർ തോട്ടം",
+        "Agricultural Estate",
+        "പാൽ എടുക്കുന്ന തോട്ടം"
+      ],
+      [
+        "Tea Estate",
+        "തേയിലത്തോട്ടം",
+        "Hill Plantation",
+        "മലയോരത്തെ പച്ചപ്പ്"
+      ],
+      [
+        "Thengu",
+        "തെങ്ങ്",
+        "Signature Tropical Tree",
+        "കേരളത്തിന്റെ കൽപവൃക്ഷം"
+      ],
+      [
+        "Kuttanadan Padanilam",
+        "കുട്ടനാടൻ പാടനിലം",
+        "Vast Agricultural Fields",
+        "വിശാലമായ കാർഷിക നിലം"
+      ],
+      [
+        "Puzha",
+        "പുഴ",
+        "Flowing River",
+        "ഒഴുകുന്ന ജലാശയം"
+      ],
+      [
+        "Kaithari",
+        "കൈത്തറി",
+        "Handloom Weaving",
+        "പരമ്പരാഗത വസ്ത്ര നിർമ്മാണം"
+      ],
+      [
+        "Mazha",
+        "മഴ",
+        "Monsoon Weather",
+        "പ്രകൃതിയിലെ കാലാവസ്ഥ"
+      ],
+      [
+        "Tharavad",
+        "തറവാട്",
+        "Heritage Family Mansion",
+        "പൈതൃകമുള്ള വലിയ വീട്"
+      ],
+      [
+        "Naadan Pattu",
+        "നാടൻ പാട്ട്",
+        "Folk Musical Tradition",
+        "നാട്ടിൻപുറത്തെ പാട്ടുകൾ"
+      ],
+      [
+        "Kavala",
+        "കവല",
+        "Village Junction",
+        "ആളുകൾ കൂടുന്ന കവല"
+      ],
+      [
+        "Palli",
+        "പള്ളി",
+        "Place of Worship",
+        "ആരാധനാലയം"
+      ],
+      [
+        "Ambalam",
+        "അമ്പലം",
+        "Sacred Temple",
+        "ദൈവികമായ സ്ഥലം"
+      ],
+      [
+        "Lottery Ticket",
+        "ലോട്ടറി ടിക്കറ്റ്",
+        "Luck and Fortune Hope",
+        "ഭാഗ്യപരീക്ഷണം"
+      ],
+      [
+        "Hartal",
+        "ഹർത്താൽ",
+        "Public Shutdown Day",
+        "കടകളും വണ്ടികളും അടങ്ങുന്ന ദിവസം"
+      ],
+      [
+        "Vayanasala",
+        "വായനശാല",
+        "Village Library & Reading Room",
+        "പുസ്തകങ്ങളും പത്രങ്ങളും വായിക്കുന്ന ഇടം"
+      ],
+      [
+        "Chitty",
+        "ചിട്ടി",
+        "Monthly Savings Scheme",
+        "നാട്ടിൻപുറത്തെ സാമ്പത്തിക ഇടപാട്"
+      ],
+      [
+        "Kavukal",
+        "കാവ്",
+        "Sacred Forest Grove",
+        "പ്രകൃതിയും വിശ്വാസവും ചേർന്ന സ്ഥലം"
+      ],
+      [
+        "Kulam",
+        "കുളം",
+        "Village Bathing Pond",
+        "നാട്ടിൻപുറത്തെ ജലാശയം"
+      ],
+      [
+        "Milma",
+        "മിൽമ",
+        "Blue Packet Dairy",
+        "നീല കവറിലുള്ള ഉൽപ്പന്നം"
+      ],
+      [
+        "Bevco",
+        "ബെവ്കോ",
+        "Evening Queue Outlet",
+        "വൈകുന്നേരത്തെ വരി"
+      ],
+      [
+        "Akshaya Centre",
+        "അക്ഷയ കേന്ദ്രം",
+        "Digital Certificate Counter",
+        "രേഖകൾ ശരിയാക്കുന്ന സ്ഥലം"
+      ],
+      [
+        "Supplyco",
+        "സപ്ലൈകോ",
+        "Subsidized Ration Depot",
+        "സബ്സിഡി സാധനങ്ങൾ കിട്ടുന്നിടം"
+      ],
+      [
+        "Vidyabhyasa Loan",
+        "വിദ്യാഭ്യാസ വായ്പ",
+        "College Tuition Funding",
+        "പഠനത്തിനുള്ള ധനസഹായം"
+      ],
+      [
+        "Ration Kada",
+        "റേഷൻ കട",
+        "Essential Supply Store",
+        "നിത്യോപയോഗ സാധന വിതരണം"
+      ],
+      [
+        "Mahatma Gandhi NREGA",
+        "തൊഴിലുറപ്പ്",
+        "Village Morning Assembly",
+        "ഗ്രാമീണ തൊഴിൽ പദ്ധതി"
+      ],
+      [
+        "Current Bill",
+        "കറന്റ് ബിൽ",
+        "Monthly Electricity Meter",
+        "വൈദ്യുതി ഉപയോഗ രേഖ"
+      ],
+      [
+        "KSEB",
+        "കെഎസ്ഇബി",
+        "Power Board Authority",
+        "വൈദ്യുതി വകുപ്പ്"
+      ],
+      [
+        "Water Authority",
+        "വാട്ടർ അതോറിറ്റി",
+        "Pipe Supply Network",
+        "കുടിവെള്ള വിതരണം"
+      ]
+    ]
+  },
+  "vehicles": {
+    "name": "Vehicles",
+    "words": [
+      [
+        "Aanavandi",
+        "ആനവണ്ടി",
+        "State Transport Ride",
+        "സർക്കാറിന്റെ പ്രിയ വണ്ടി"
+      ],
+      [
+        "Vallam",
+        "വള്ളം",
+        "Traditional Boat",
+        "കായലിലൂടെ സഞ്ചരിക്കുന്നത്"
+      ],
+      [
+        "Autorickshaw",
+        "ഓട്ടോറിക്ഷ",
+        "Three Wheeler Taxi",
+        "നഗരങ്ങളിലെ വാടക വണ്ടി"
+      ],
+      [
+        "Bullet",
+        "ബുള്ളറ്റ്",
+        "Classic Motorcycle",
+        "ഗംഭീര ശബ്ദമുള്ള ഇരുചക്ര വാഹനം"
+      ],
+      [
+        "Houseboat",
+        "ഹൗസ്‌ബോട്ട്",
+        "Backwater Stay Vessel",
+        "കായലിൽ താമസിക്കാവുന്ന ബോട്ട്"
+      ],
+      [
+        "Jankar",
+        "ജങ്കാർ",
+        "Waterway Ferry Craft",
+        "വാഹനങ്ങൾ കടത്തുന്ന ബോട്ട്"
+      ],
+      [
+        "Ferry",
+        "ഫെറി",
+        "Public Boat Transit",
+        "ജലമാർഗ്ഗമുള്ള യാത്രാ ബോട്ട്"
+      ],
+      [
+        "Chundan Vallam",
+        "ചുണ്ടൻ വള്ളം",
+        "Long Racing Craft",
+        "മത്സരത്തിന് ഉപയോഗിക്കുന്ന നീളമുള്ള വള്ളം"
+      ],
+      [
+        "Kettuvallam",
+        "കെട്ടുവള്ളം",
+        "Traditional Houseboat",
+        "പരമ്പരാഗത വലിയ തോണി"
+      ],
+      [
+        "Pickup",
+        "പിക്കപ്പ്",
+        "Goods Transport Vehicle",
+        "ചരക്കുകൾ കൊണ്ടുപോകുന്ന വണ്ടി"
+      ],
+      [
+        "Jeep",
+        "ജീപ്പ്",
+        "Hill Station Off-roader",
+        "മലയോരങ്ങളിൽ ഉപയോഗിക്കുന്ന വാഹനം"
+      ],
+      [
+        "Lorry",
+        "ലോറി",
+        "Heavy Cargo Truck",
+        "വലിയ ചരക്ക് വാഹനം"
+      ],
+      [
+        "Private Bus",
+        "പ്രൈവറ്റ് ബസ്",
+        "Speedy Passenger Bus",
+        "വേഗതയിലോടുന്ന സ്വകാര്യ ബസ്"
+      ],
+      [
+        "Tempo Traveller",
+        "ടെമ്പോ ട്രാവലർ",
+        "Group Tour Van",
+        "സംഘങ്ങളായി യാത്ര ചെയ്യുന്ന വാഹനം"
+      ],
+      [
+        "Scooter",
+        "സ്കൂട്ടർ",
+        "Two-wheeler Ride",
+        "നിത്യയാത്രയ്ക്ക് ഉപയോഗിക്കുന്ന വാഹനം"
+      ],
+      [
+        "Cycle",
+        "സൈക്കിൾ",
+        "Pedal Powered Transport",
+        "ചവിട്ടി ഓടിക്കുന്ന വാഹനം"
+      ],
+      [
+        "Mini Bus",
+        "മിനി ബസ്",
+        "Compact Route Bus",
+        "ചെറിയ യാത്രാ ബസ്"
+      ],
+      [
+        "Taxi",
+        "ടാക്സി",
+        "Hired Passenger Cab",
+        "വാടകയ്ക്ക് വിളിക്കുന്ന കാർ"
+      ],
+      [
+        "Train",
+        "ട്രെയിൻ",
+        "Railway Transport",
+        "തീവണ്ടി യാത്ര"
+      ],
+      [
+        "School Bus",
+        "സ്കൂൾ ബസ്",
+        "Student Transport",
+        "കുട്ടികളെ കൊണ്ടുപോകുന്ന വാഹനം"
+      ],
+      [
+        "Jik Jik Train",
+        "തീവണ്ടി",
+        "Long Distance Rail Journey",
+        "പാളത്തിലൂടെ ഓടുന്നത്"
+      ],
+      [
+        "Ambulance",
+        "ആംബുലൻസ്",
+        "Emergency Medical Vehicle",
+        "അടിയന്തര ആവശ്യത്തിന് ഓടുന്നത്"
+      ],
+      [
+        "Kochi Metro",
+        "കൊച്ചി മെട്രോ",
+        "Modern Urban Rail",
+        "നഗരത്തിലെ വേഗതയേറിയ യാത്ര"
+      ],
+      [
+        "Tractor",
+        "ട്രാക്ടർ",
+        "Farm Field Vehicle",
+        "കാർഷിക ആവശ്യത്തിന് ഉപയോഗിക്കുന്നത്"
+      ],
+      [
+        "Excavator",
+        "ജെസിബി",
+        "Heavy Earth Mover",
+        "നിർമ്മാണ പ്രവർത്തനങ്ങൾക്ക് ഉപയോഗിക്കുന്നത്"
+      ],
+      [
+        "Speed Boat",
+        "സ്പീഡ് ബോട്ട്",
+        "Fast Watercraft Ride",
+        "കായലിലൂടെ വേഗത്തിൽ കുതിക്കുന്നത്"
+      ],
+      [
+        "Peti Auto",
+        "പെട്ടി ഓട്ടോ",
+        "Small Cargo Carrier",
+        "സാധനങ്ങൾ കൊണ്ടുപോകുന്നത്"
+      ],
+      [
+        "Ambassador",
+        "അംബാസഡർ",
+        "Classic White Sedan",
+        "പഴയകാല സർക്കാർ വാഹനം"
+      ],
+      [
+        "Mahindra Jeep",
+        "മഹീന്ദ്ര ജീപ്പ്",
+        "Hill Track Vehicle",
+        "മലയോരങ്ങളിൽ ഓടുന്നത്"
+      ],
+      [
+        "Chavittu Vandi",
+        "ചവിട്ടുവണ്ടി",
+        "Pedal Powered Transport",
+        "ചവിട്ടി ഓടിക്കുന്നത്"
+      ],
+      [
+        "RX 100",
+        "ആർ എക്സ് 100",
+        "Two Stroke Bike",
+        "പഴയകാല സ്പീഡ് ബൈക്ക്"
+      ],
+      [
+        "Torrus Truck",
+        "ടോറസ്",
+        "Heavy Rock Carrier",
+        "വലിയ കല്ലുകൾ കൊണ്ടുപോകുന്നത്"
+      ],
+      [
+        "Fire Engine",
+        "ഫയർ ഫോഴ്സ്",
+        "Red Emergency Tanker",
+        "രക്ഷാപ്രവർത്തന വാഹനം"
+      ],
+      [
+        "Water Metro",
+        "വാട്ടർ മെട്രോ",
+        "Modern Electric Ferry",
+        "നൂതന ജലയാത്രാ സൗകര്യം"
+      ],
+      [
+        "Low Floor Bus",
+        "ലോ ഫ്ലോർ ബസ്",
+        "AC City Transit",
+        "നഗരത്തിലെ എസി യാത്രാ വണ്ടി"
+      ],
+      [
+        "Tourist Bus",
+        "ടൂറിസ്റ്റ് ബസ്",
+        "Music & Light Coach",
+        "പാട്ടും ലൈറ്റുമുള്ള യാത്രാ വണ്ടി"
+      ]
+    ]
+  },
+  "school": {
+    "name": "College & School",
+    "words": [
+      [
+        "Kalolsavam",
+        "കലോത്സവം",
+        "Arts Competition",
+        "വിദ്യാർത്ഥികളുടെ കലാമേള"
+      ],
+      [
+        "Arts Day",
+        "ആർട്സ് ഡേ",
+        "Campus Cultural Stage",
+        "ക്യാമ്പസിലെ ആഘോഷ വേദി"
+      ],
+      [
+        "College Canteen",
+        "കോളേജ് കാന്റീൻ",
+        "Student Food Hangout",
+        "വിദ്യാർത്ഥികൾ ഭക്ഷണം കഴിക്കുന്ന സ്ഥലം"
+      ],
+      [
+        "PTA Meeting",
+        "പി ടി എ മീറ്റിംഗ്",
+        "Parents & Teachers Meet",
+        "രക്ഷാകർത്താക്കളുടെയും അധ്യാപകരുടെയും യോഗം"
+      ],
+      [
+        "Onam Celebration",
+        "ഓണാഘോഷം",
+        "Campus Festival Day",
+        "ക്യാമ്പസിലെ വിശേഷ ആഘോഷം"
+      ],
+      [
+        "Uniform",
+        "യൂണിഫോം",
+        "Institutional Attire",
+        "എല്ലാവരും ധരിക്കുന്ന ഒരേപോലത്തെ വസ്ത്രം"
+      ],
+      [
+        "School Bus",
+        "സ്കൂൾ ബസ്",
+        "Student Transit Vehicle",
+        "വിദ്യാർത്ഥികളുടെ യാത്രാ വാഹനം"
+      ],
+      [
+        "PT Period",
+        "പി ടി പിരീഡ്",
+        "Sports and Games Hour",
+        "കളിക്കാനായി കിട്ടുന്ന സമയം"
+      ],
+      [
+        "Annual Day",
+        "ആനുവൽ ഡേ",
+        "Yearly School Function",
+        "വാർഷിക കലാപരിപാടി"
+      ],
+      [
+        "Exam Hall",
+        "എക്സാം ഹാൾ",
+        "Silent Test Classroom",
+        "നിശബ്ദമായി പരീക്ഷ എഴുതുന്ന ഇടം"
+      ],
+      [
+        "Rank List",
+        "റാങ്ക് ലിസ്റ്റ്",
+        "Merit Score Results",
+        "വിജയികളുടെ വിവരങ്ങൾ"
+      ],
+      [
+        "College Union",
+        "കോളേജ് യൂണിയൻ",
+        "Student Council Group",
+        "വിദ്യാർത്ഥികളുടെ പ്രതിനിധി സഭ"
+      ],
+      [
+        "Batch",
+        "ബാച്ച്",
+        "Classmates Year Group",
+        "ഒന്നിച്ചു പഠിച്ച കൂട്ടുകാർ"
+      ],
+      [
+        "Farewell",
+        "ഫെയർവെൽ",
+        "Graduation Send-off",
+        "പഠനം കഴിഞ്ഞ് പിരിയുന്ന ദിവസം"
+      ],
+      [
+        "NSS",
+        "എൻ എസ് എസ്",
+        "Social Service Camp",
+        "സാമൂഹിക സേവന കൂട്ടായ്മ"
+      ],
+      [
+        "NCC",
+        "എൻ സി സി",
+        "Cadet Corps Training",
+        "ശിക്ഷണവും പരേഡുമുള്ള സേന"
+      ],
+      [
+        "Laboratory",
+        "ലബോറട്ടറി",
+        "Practical Experiment Room",
+        "പരീക്ഷണങ്ങൾ ചെയ്യുന്ന മുറി"
+      ],
+      [
+        "Library",
+        "ലൈബ്രറി",
+        "Quiet Book Room",
+        "പുസ്തകങ്ങൾ സൂക്ഷിക്കുന്ന മുറി"
+      ],
+      [
+        "Hostel",
+        "ഹോസ്റ്റൽ",
+        "Student Living Quarters",
+        "വിദ്യാർത്ഥികൾ താമസിക്കുന്ന ഹോസ്റ്റൽ മുറി"
+      ],
+      [
+        "Class Leader",
+        "ക്ലാസ് ലീഡർ",
+        "Student Representative",
+        "ക്ലാസ് നിയന്ത്രിക്കുന്ന വിദ്യാർത്ഥി"
+      ],
+      [
+        "Tour Trip",
+        "ഐവി / ടൂർ",
+        "Group Student Excursion",
+        "കൂട്ടുകാരോടൊത്തുള്ള യാത്ര"
+      ],
+      [
+        "Bench and Desk",
+        "ബെഞ്ചും ഡെസ്കും",
+        "Classroom Wooden Seating",
+        "ക്ലാസ് മുറിയിലെ ഇരിപ്പിടം"
+      ],
+      [
+        "Bell",
+        "സ്കൂൾ ബെൽ",
+        "Period Change Sound",
+        "സമയമാറ്റം അറിയിക്കുന്നത്"
+      ],
+      [
+        "Principal",
+        "പ്രിൻസിപ്പൽ",
+        "Head of Institution",
+        "സ്ഥാപനത്തിന്റെ പ്രധാന ചുമതലക്കാരൻ"
+      ],
+      [
+        "Assignment",
+        "അസൈൻമെന്റ്",
+        "Written Homework Task",
+        "എഴുതി സമർപ്പിക്കേണ്ട ജോലി"
+      ],
+      [
+        "Alumni Meet",
+        "പൂർവ്വവിദ്യാർത്ഥി സംഗമം",
+        "Old Classmates Reunion",
+        "പഴയ കൂട്ടുകാരുടെ ഒത്തുചേരൽ"
+      ],
+      [
+        "IV (Industrial Visit)",
+        "ഐവി",
+        "Final Year Tour",
+        "അവസാന വർഷ യാത്ര"
+      ],
+      [
+        "Tuition Class",
+        "ട്യൂഷൻ ക്ലാസ്",
+        "Evening Study Batch",
+        "വൈകുന്നേരത്തെ പഠനം"
+      ],
+      [
+        "Canara Bank Challan",
+        "ചെല്ലാൻ",
+        "Fee Payment Slip",
+        "ഫീസ് അടക്കാനുള്ള രേഖ"
+      ],
+      [
+        "Record Book",
+        "റെക്കോർഡ് ബുക്ക്",
+        "Lab Diagram Manual",
+        "ലാബ് വരകളുള്ള പുസ്തകം"
+      ],
+      [
+        "Study Leave",
+        "സ്റ്റഡി ലീവ്",
+        "Pre-Exam Preparation",
+        "പരീക്ഷാ മുന്നൊരുക്കം"
+      ],
+      [
+        "Youth Festival",
+        "യുവജനോത്സവം",
+        "Inter-College Competition",
+        "കലാമത്സരങ്ങൾ"
+      ],
+      [
+        "Progress Report",
+        "പ്രോഗ്രസ് റിപ്പോർട്ട്",
+        "Term Mark Evaluation",
+        "മാർക്ക് വിവരങ്ങളുള്ള രേഖ"
+      ],
+      [
+        "Geometry Box",
+        "ജോമട്രി ബോക്സ്",
+        "Compass & Ruler Case",
+        "വരയ്ക്കാൻ ഉപയോഗിക്കുന്ന പെട്ടി"
+      ],
+      [
+        "Slate and Pencil",
+        "സ്ലേറ്റും പെൻസിലും",
+        "Childhood Writing Tool",
+        "ആദ്യകാല പഠന ഉപകരണം"
+      ],
+      [
+        "School Bag",
+        "സ്കൂൾ ബാഗ്",
+        "Books Shoulder Carrier",
+        "പുസ്തകങ്ങൾ കൊണ്ടുപോകുന്നത്"
+      ]
+    ]
+  }
+}

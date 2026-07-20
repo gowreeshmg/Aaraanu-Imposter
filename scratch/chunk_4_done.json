@@ -1,0 +1,1362 @@
+{
+  "intl_famous_people": [
+    {
+      "civWord": "Albert Einstein",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Marie Curie",
+          "wordMal": "മേരി ക്യൂറി",
+          "relationEN": "Both are legendary physicists who won Nobel Prizes.",
+          "relationML": "ഇരുവരും നൊബേൽ സമ്മാനം നേടിയ പ്രശസ്തരായ ഭൗതികശാസ്ത്രജ്ഞരാണ്."
+        },
+        {
+          "word": "Stephen Hawking",
+          "wordMal": "സ്റ്റീഫൻ ഹോക്കിംഗ്",
+          "relationEN": "Both are iconic theoretical physicists.",
+          "relationML": "ഇരുവരും പ്രശസ്തരായ സൈദ്ധാന്തിക ഭൗതികശാസ്ത്രജ്ഞരാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Leonardo da Vinci",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Vincent van Gogh",
+          "wordMal": "വിൻസെന്റ് വാൻ ഗോഗ്",
+          "relationEN": "Both are globally recognized legendary European painters.",
+          "relationML": "ഇരുവരും ലോകപ്രശസ്തരായ യൂറോപ്യൻ ചിത്രകാരന്മാരാണ്."
+        },
+        {
+          "word": "Pablo Picasso",
+          "wordMal": "പാബ്ലോ പിക്കാസോ",
+          "relationEN": "Both revolutionized the world of visual arts.",
+          "relationML": "ഇരുവരും കലാരംഗത്ത് വിപ്ലവം സൃഷ്ടിച്ചവരാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Shakespeare",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Charles Dickens",
+          "wordMal": "ചാൾസ് ഡിക്കൻസ്",
+          "relationEN": "Both are foundational figures in classical English literature.",
+          "relationML": "ഇരുവരും ക്ലാസിക്കൽ ഇംഗ്ലീഷ് സാഹിത്യത്തിലെ പ്രധാന വ്യക്തികളാണ്."
+        },
+        {
+          "word": "Jane Austen",
+          "wordMal": "ജെയ്ൻ ഓസ്റ്റൺ",
+          "relationEN": "Both are renowned English writers with deeply analyzed works.",
+          "relationML": "ഇരുവരും പ്രശസ്തരായ ഇംഗ്ലീഷ് എഴുത്തുകാരാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Napoleon",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Julius Caesar",
+          "wordMal": "ജൂലിയസ് സീസർ",
+          "relationEN": "Both were powerful military commanders who built vast empires.",
+          "relationML": "ഇരുവരും വലിയ സാമ്രാജ്യങ്ങൾ കെട്ടിപ്പടുത്ത ശക്തരായ സൈനിക മേധാവികളായിരുന്നു."
+        },
+        {
+          "word": "Alexander the Great",
+          "wordMal": "അലക്സാണ്ടർ ചക്രവർത്തി",
+          "relationEN": "Both are legendary conquerors from European history.",
+          "relationML": "ഇരുവരും യൂറോപ്യൻ ചരിത്രത്തിലെ പ്രശസ്തരായ പോരാളികളാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mahatma Gandhi",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Nelson Mandela",
+          "wordMal": "നെൽസൺ മണ്ടേല",
+          "relationEN": "Both are global icons of peaceful resistance and anti-colonialism.",
+          "relationML": "ഇരുവരും സമാധാനപരമായ ചെറുത്തുനിൽപ്പിന്റെ ലോകപ്രശസ്തരായ പ്രതീകങ്ങളാണ്."
+        },
+        {
+          "word": "Martin Luther King Jr.",
+          "wordMal": "മാർട്ടിൻ ലൂഥർ കിംഗ്",
+          "relationEN": "Both fought for civil rights using non-violent methods.",
+          "relationML": "ഇരുവരും അഹിംസയിലൂടെ പൗരാവകാശങ്ങൾക്കായി പോരാടിയവരാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Abraham Lincoln",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "George Washington",
+          "wordMal": "ജോർജ്ജ് വാഷിംഗ്ടൺ",
+          "relationEN": "Both are widely revered foundational US Presidents.",
+          "relationML": "ഇരുവരും അമേരിക്കയുടെ പ്രശസ്തരായ പ്രസിഡന്റുമാരാണ്."
+        },
+        {
+          "word": "John F. Kennedy",
+          "wordMal": "ജോൺ എഫ് കെന്നഡി",
+          "relationEN": "Both are famous US Presidents who were tragically assassinated.",
+          "relationML": "ഇരുവരും കൊല്ലപ്പെട്ട പ്രശസ്തരായ അമേരിക്കൻ പ്രസിഡന്റുമാരാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Cleopatra",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Nefertiti",
+          "wordMal": "നെഫെർറ്റിറ്റി",
+          "relationEN": "Both are legendary queens from ancient Egyptian history.",
+          "relationML": "ഇരുവരും പുരാതന ഈജിപ്ഷ്യൻ ചരിത്രത്തിലെ പ്രശസ്തരായ രാജ്ഞിമാരാണ്."
+        },
+        {
+          "word": "Joan of Arc",
+          "wordMal": "ജോവാൻ ഓഫ് ആർക്ക്",
+          "relationEN": "Both are iconic female historical figures who led their nations.",
+          "relationML": "ഇരുവരും തങ്ങളുടെ രാജ്യങ്ങളെ നയിച്ച പ്രശസ്തരായ വനിതകളാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Mozart",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Beethoven",
+          "wordMal": "ബീഥോവൻ",
+          "relationEN": "Both are highly celebrated classical music composers.",
+          "relationML": "ഇരുവരും വളരെ പ്രശസ്തരായ ക്ലാസിക്കൽ സംഗീതജ്ഞരാണ്."
+        },
+        {
+          "word": "Bach",
+          "wordMal": "ബാക്ക്",
+          "relationEN": "Both are legendary composers from the classical era.",
+          "relationML": "ക്ലാസിക്കൽ കാലഘട്ടത്തിലെ പ്രശസ്തരായ സംഗീതജ്ഞരാണ് ഇരുവരും."
+        }
+      ]
+    },
+    {
+      "civWord": "Nikola Tesla",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Thomas Edison",
+          "wordMal": "തോമസ് എഡിസൺ",
+          "relationEN": "Both are famous inventors associated with early electrical engineering.",
+          "relationML": "ഇരുവരും ആദ്യകാല ഇലക്ട്രിക്കൽ എഞ്ചിനീയറിംഗുമായി ബന്ധപ്പെട്ട പ്രശസ്തരായ കണ്ടുപിടുത്തക്കാരാണ്."
+        },
+        {
+          "word": "Alexander Graham Bell",
+          "wordMal": "അലക്സാണ്ടർ ഗ്രഹാം ബെൽ",
+          "relationEN": "Both made groundbreaking contributions to modern technology.",
+          "relationML": "ഇരുവരും ആധുനിക സാങ്കേതികവിദ്യയ്ക്ക് മികച്ച സംഭാവനകൾ നൽകിയവരാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Sigmund Freud",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Carl Jung",
+          "wordMal": "കാൾ യുങ്",
+          "relationEN": "Both are pioneering figures in the field of psychology and psychoanalysis.",
+          "relationML": "ഇരുവരും മനശാസ്ത്രരംഗത്തെ പ്രശസ്തരായ വ്യക്തികളാണ്."
+        },
+        {
+          "word": "Ivan Pavlov",
+          "wordMal": "ഇവാൻ പാവ്‌ലോവ്",
+          "relationEN": "Both conducted foundational research in human behavior.",
+          "relationML": "ഇരുവരും മനുഷ്യ സ്വഭാവത്തെക്കുറിച്ച് അടിസ്ഥാന ഗവേഷണങ്ങൾ നടത്തിയവരാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Charles Darwin",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Isaac Newton",
+          "wordMal": "ഐസക് ന്യൂട്ടൺ",
+          "relationEN": "Both are British scientists who fundamentally changed our understanding of nature.",
+          "relationML": "പ്രകൃതിയെക്കുറിച്ചുള്ള നമ്മുടെ ധാരണ മാറ്റിയെഴുതിയ ബ്രിട്ടീഷ് ശാസ്ത്രജ്ഞരാണ് ഇരുവരും."
+        },
+        {
+          "word": "Galileo Galilei",
+          "wordMal": "ഗലീലിയോ ഗലീലി",
+          "relationEN": "Both are legendary scientists who challenged historical beliefs.",
+          "relationML": "ചരിത്രപരമായ വിശ്വാസങ്ങളെ ചോദ്യം ചെയ്ത പ്രശസ്തരായ ശാസ്ത്രജ്ഞരാണ് ഇരുവരും."
+        }
+      ]
+    },
+    {
+      "civWord": "Pablo Picasso",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Salvador Dalí",
+          "wordMal": "സാൽവഡോർ ദാലി",
+          "relationEN": "Both are legendary Spanish artists known for surreal and abstract works.",
+          "relationML": "ഇരുവരും വിചിത്രമായ സൃഷ്ടികൾക്ക് പേരുകേട്ട പ്രശസ്തരായ സ്പാനിഷ് കലാകാരന്മാരാണ്."
+        },
+        {
+          "word": "Claude Monet",
+          "wordMal": "ക്ലോഡ് മോനെറ്റ്",
+          "relationEN": "Both are iconic painters who started major art movements.",
+          "relationML": "പ്രധാനപ്പെട്ട കലാ മുന്നേറ്റങ്ങൾക്ക് തുടക്കം കുറിച്ച പ്രശസ്തരായ ചിത്രകാരന്മാരാണ് ഇരുവരും."
+        }
+      ]
+    },
+    {
+      "civWord": "Alexander the Great",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Genghis Khan",
+          "wordMal": "ചെങ്കിസ് ഖാൻ",
+          "relationEN": "Both are ancient conquerors who established massive empires.",
+          "relationML": "വിശാലമായ സാമ്രാജ്യങ്ങൾ സ്ഥാപിച്ച പുരാതന പോരാളികളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Julius Caesar",
+          "wordMal": "ജൂലിയസ് സീസർ",
+          "relationEN": "Both are legendary military leaders of antiquity.",
+          "relationML": "ഇരുവരും പുരാതന കാലത്തെ പ്രശസ്തരായ സൈനിക നേതാക്കളാണ്."
+        }
+      ]
+    },
+    {
+      "civWord": "Martin Luther King",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Malcolm X",
+          "wordMal": "മാൽക്കം എക്സ്",
+          "relationEN": "Both are prominent leaders of the American civil rights movement.",
+          "relationML": "ഇരുവരും അമേരിക്കൻ പൗരാവകാശ പ്രസ്ഥാനത്തിലെ പ്രമുഖ നേതാക്കളാണ്."
+        },
+        {
+          "word": "Rosa Parks",
+          "wordMal": "റോസ പാർക്സ്",
+          "relationEN": "Both are iconic figures who fought against racial discrimination.",
+          "relationML": "വംശീയ വിവേചനത്തിനെതിരെ പോരാടിയ പ്രശസ്തരായ വ്യക്തികളാണ് ഇരുവരും."
+        }
+      ]
+    },
+    {
+      "civWord": "Stephen Hawking",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Albert Einstein",
+          "wordMal": "ആൽബർട്ട് ഐൻസ്റ്റീൻ",
+          "relationEN": "Both are legendary theoretical physicists known worldwide.",
+          "relationML": "ഇരുവരും ലോകമെമ്പാടും അറിയപ്പെടുന്ന പ്രശസ്തരായ സൈദ്ധാന്തിക ഭൗതികശാസ്ത്രജ്ഞരാണ്."
+        },
+        {
+          "word": "Richard Feynman",
+          "wordMal": "റിച്ചാർഡ് ഫെയ്ൻമാൻ",
+          "relationEN": "Both are modern physicists who popularized complex science.",
+          "relationML": "സങ്കീർണ്ണമായ ശാസ്ത്രത്തെ ജനകീയമാക്കിയ ആധുനിക ഭൗതികശാസ്ത്രജ്ഞരാണ് ഇരുവരും."
+        }
+      ]
+    }
+  ],
+  "intl_common_objects": [
+    {
+      "civWord": "Phone",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Tablet",
+          "wordMal": "ടാബ്‌ലെറ്റ്",
+          "relationEN": "Both are touchscreen smart devices used for daily communication.",
+          "relationML": "ദൈനംദിന ആശയവിനിമയത്തിനായി ഉപയോഗിക്കുന്ന സ്മാർട്ട് ഉപകരണങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Laptop",
+          "wordMal": "ലാപ്‌ടോപ്പ്",
+          "relationEN": "Both are portable electronic devices used for work and media.",
+          "relationML": "ജോലിക്കും വിനോദത്തിനുമായി ഉപയോഗിക്കുന്ന പോർട്ടബിൾ ഇലക്ട്രോണിക് ഉപകരണങ്ങളാണ് ഇവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Chair",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Sofa",
+          "wordMal": "സോഫ",
+          "relationEN": "Both are common types of seating furniture found in living rooms.",
+          "relationML": "സ്വീകരണമുറികളിൽ കാണപ്പെടുന്ന ഇരിപ്പിടങ്ങളാണ് ഇവ രണ്ടും."
+        },
+        {
+          "word": "Stool",
+          "wordMal": "സ്റ്റൂൾ",
+          "relationEN": "Both are basic furniture pieces designed for one person to sit on.",
+          "relationML": "ഒരാൾക്ക് ഇരിക്കാൻ രൂപകൽപ്പന ചെയ്ത അടിസ്ഥാന ഫർണിച്ചറുകളാണ് ഇവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Laptop",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Desktop Computer",
+          "wordMal": "ഡെസ്ക്ടോപ്പ് കമ്പ്യൂട്ടർ",
+          "relationEN": "Both are primary computing devices used for daily work and browsing.",
+          "relationML": "ദൈനംദിന ജോലികൾക്കായി ഉപയോഗിക്കുന്ന പ്രധാന കമ്പ്യൂട്ടിംഗ് ഉപകരണങ്ങളാണ് ഇവ."
+        },
+        {
+          "word": "Tablet",
+          "wordMal": "ടാബ്‌ലെറ്റ്",
+          "relationEN": "Both are portable computing devices with screens.",
+          "relationML": "സ്ക്രീനുള്ള പോർട്ടബിൾ കമ്പ്യൂട്ടിംഗ് ഉപകരണങ്ങളാണ് ഇവ രണ്ടും."
+        }
+      ]
+    },
+    {
+      "civWord": "Umbrella",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Raincoat",
+          "wordMal": "റെയിൻകോട്ട്",
+          "relationEN": "Both are essential items used specifically for protection against rain.",
+          "relationML": "മഴയിൽ നിന്ന് സംരക്ഷണം നേടാൻ ഉപയോഗിക്കുന്ന അവശ്യവസ്തുക്കളാണ് ഇവ."
+        },
+        {
+          "word": "Parasol",
+          "wordMal": "പാരാസോൾ",
+          "relationEN": "Both are portable canopies used for protection against weather.",
+          "relationML": "കാലാവസ്ഥയിൽ നിന്ന് സംരക്ഷണം നൽകുന്ന ഉപകരണങ്ങളാണ് ഇവ രണ്ടും."
+        }
+      ]
+    },
+    {
+      "civWord": "Toothbrush",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Toothpaste",
+          "wordMal": "ടൂത്ത് പേസ്റ്റ്",
+          "relationEN": "Both are essential daily items used directly for dental hygiene.",
+          "relationML": "ദന്ത ശുചിത്വത്തിനായി ഉപയോഗിക്കുന്ന അവശ്യ ദൈനംദിന വസ്തുക്കളാണ് ഇവ."
+        },
+        {
+          "word": "Floss",
+          "wordMal": "ഫ്ലോസ്",
+          "relationEN": "Both are necessary tools used for cleaning teeth.",
+          "relationML": "പല്ല് വൃത്തിയാക്കാൻ ഉപയോഗിക്കുന്ന അത്യാവശ്യ ഉപകരണങ്ങളാണ് ഇവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Clock",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Watch",
+          "wordMal": "വാച്ച്",
+          "relationEN": "Both are common devices specifically designed to tell the time.",
+          "relationML": "സമയം അറിയാൻ പ്രത്യേകം രൂപകൽപ്പന ചെയ്ത സാധാരണ ഉപകരണങ്ങളാണ് ഇവ."
+        },
+        {
+          "word": "Hourglass",
+          "wordMal": "മണൽഘടികാരം",
+          "relationEN": "Both are traditional timekeeping devices.",
+          "relationML": "പരമ്പരാഗതമായി സമയം അളക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണങ്ങളാണ് ഇവ രണ്ടും."
+        }
+      ]
+    },
+    {
+      "civWord": "Mirror",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Window",
+          "wordMal": "ജനൽ",
+          "relationEN": "Both are common household installations made of clear or reflective glass.",
+          "relationML": "ഗ്ലാസ് കൊണ്ട് നിർമ്മിച്ച വീട്ടുപകരണങ്ങളാണ് ഇവ രണ്ടും."
+        },
+        {
+          "word": "Glass",
+          "wordMal": "ഗ്ലാസ്",
+          "relationEN": "Both are fragile glass objects found in bathrooms and bedrooms.",
+          "relationML": "ബാത്ത്റൂമുകളിലും കിടപ്പുമുറികളിലും കാണപ്പെടുന്ന ഗ്ലാസ് വസ്തുക്കളാണ് ഇവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Pillow",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Blanket",
+          "wordMal": "പുതപ്പ്",
+          "relationEN": "Both are soft bedding items essential for a comfortable sleep.",
+          "relationML": "സുഖപ്രദമായ ഉറക്കത്തിന് ആവശ്യമായ മൃദുവായ കിടക്ക ഉപകരണങ്ങളാണ് ഇവ."
+        },
+        {
+          "word": "Cushion",
+          "wordMal": "കുഷ്യൻ",
+          "relationEN": "Both are soft, stuffed items placed on furniture for comfort.",
+          "relationML": "സൗകര്യത്തിനായി ഫർണിച്ചറുകളിൽ ഉപയോഗിക്കുന്ന മൃദുവായ വസ്തുക്കളാണ് ഇവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Key",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Lock",
+          "wordMal": "പൂട്ട്",
+          "relationEN": "Both are essential metal components of a typical security mechanism.",
+          "relationML": "സുരക്ഷാ സംവിധാനത്തിന്റെ അത്യാവശ്യ ലോഹ ഭാഗങ്ങളാണ് ഇവ."
+        },
+        {
+          "word": "Padlock",
+          "wordMal": "പാഡ്‌ലോക്ക്",
+          "relationEN": "Both are hardware items used to secure doors and boxes.",
+          "relationML": "വാതിലുകളും പെട്ടികളും സുരക്ഷിതമാക്കാൻ ഉപയോഗിക്കുന്ന വസ്തുക്കളാണ് ഇവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Pen",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Pencil",
+          "wordMal": "പെൻസിൽ",
+          "relationEN": "Both are basic handheld writing instruments used every day in schools and offices.",
+          "relationML": "സ്കൂളുകളിലും ഓഫീസുകളിലും ഉപയോഗിക്കുന്ന അടിസ്ഥാന എഴുത്തുപകരണങ്ങളാണ് ഇവ."
+        },
+        {
+          "word": "Marker",
+          "wordMal": "മാർക്കർ",
+          "relationEN": "Both are common stationery items used for drawing or writing.",
+          "relationML": "എഴുതാനും വരയ്ക്കാനും ഉപയോഗിക്കുന്ന സാധാരണ സ്റ്റേഷനറി വസ്തുക്കളാണ് ഇവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Book",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Notebook",
+          "wordMal": "നോട്ട്ബുക്ക്",
+          "relationEN": "Both are bound collections of paper pages used for reading or writing.",
+          "relationML": "വായിക്കാനോ എഴുതാനോ ഉപയോഗിക്കുന്ന കടലാസ് താളുകളുടെ ശേഖരങ്ങളാണ് ഇവ."
+        },
+        {
+          "word": "Magazine",
+          "wordMal": "മാസിക",
+          "relationEN": "Both are common printed reading materials.",
+          "relationML": "സാധാരണയായി അച്ചടിച്ച വായനാ സാമഗ്രികളാണ് ഇവ രണ്ടും."
+        }
+      ]
+    },
+    {
+      "civWord": "Glasses",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Contact Lens",
+          "wordMal": "കോൺടാക്റ്റ് ലെൻസ്",
+          "relationEN": "Both are common optical items worn to correct or protect vision.",
+          "relationML": "കാഴ്ച ശരിയാക്കാനോ സംരക്ഷിക്കാനോ ധരിക്കുന്ന വസ്തുക്കളാണ് ഇവ."
+        },
+        {
+          "word": "Sunglasses",
+          "wordMal": "സൺഗ്ലാസ്സ്",
+          "relationEN": "Both are wearable items placed over the eyes.",
+          "relationML": "കണ്ണുകൾക്ക് മുകളിൽ ധരിക്കുന്ന ഉപകരണങ്ങളാണ് ഇവ രണ്ടും."
+        }
+      ]
+    },
+    {
+      "civWord": "Wallet",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Purse",
+          "wordMal": "പേഴ്സ്",
+          "relationEN": "Both are common personal accessories used for carrying money and cards.",
+          "relationML": "പണവും കാർഡുകളും കൊണ്ടുപോകാൻ ഉപയോഗിക്കുന്ന വ്യക്തിഗത സാധനങ്ങളാണ് ഇവ."
+        },
+        {
+          "word": "Backpack",
+          "wordMal": "ബാക്ക്പാക്ക്",
+          "relationEN": "Both are daily carry items designed to hold personal belongings.",
+          "relationML": "വ്യക്തിപരമായ സാധനങ്ങൾ സൂക്ഷിക്കാൻ ഉപയോഗിക്കുന്ന വസ്തുക്കളാണ് ഇവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Fork",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Spoon",
+          "wordMal": "സ്പൂൺ",
+          "relationEN": "Both are standard metal dining utensils used for eating meals.",
+          "relationML": "ഭക്ഷണം കഴിക്കാൻ ഉപയോഗിക്കുന്ന സാധാരണ ലോഹ ഉപകരണങ്ങളാണ് ഇവ."
+        },
+        {
+          "word": "Knife",
+          "wordMal": "കത്തി",
+          "relationEN": "Both are common pieces of cutlery found in any kitchen.",
+          "relationML": "ഏതൊരു അടുക്കളയിലും കാണപ്പെടുന്ന സാധാരണ ഉപകരണങ്ങളാണ് ഇവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Candle",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Torch",
+          "wordMal": "ടോർച്ച്",
+          "relationEN": "Both are common portable sources of light used during power outages.",
+          "relationML": "വൈദ്യുതി തടസ്സങ്ങളിൽ ഉപയോഗിക്കുന്ന സാധാരണ പോർട്ടബിൾ വെളിച്ച സ്രോതസ്സുകളാണ് ഇവ."
+        },
+        {
+          "word": "Lantern",
+          "wordMal": "റാന്തൽ",
+          "relationEN": "Both are traditional tools used to illuminate dark spaces.",
+          "relationML": "ഇരുണ്ട ഇടങ്ങൾ പ്രകാശിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന പരമ്പരാഗത ഉപകരണങ്ങളാണ് ഇവ."
+        }
+      ]
+    }
+  ],
+  "intl_nature": [
+    {
+      "civWord": "Ocean",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Sea",
+          "wordMal": "കടൽ",
+          "relationEN": "Both are massive, naturally occurring bodies of saltwater.",
+          "relationML": "ഭൂമിയിലെ വലിയ പ്രകൃതിദത്ത ഉപ്പുവെള്ള ശേഖരങ്ങളാണ് ഇവ രണ്ടും."
+        },
+        {
+          "word": "Lake",
+          "wordMal": "തടാകം",
+          "relationEN": "Both are large natural bodies of water.",
+          "relationML": "വലിയ പ്രകൃതിദത്ത ജലാശയങ്ങളാണ് ഇവ രണ്ടും."
+        }
+      ]
+    },
+    {
+      "civWord": "Forest",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Jungle",
+          "wordMal": "കാട്",
+          "relationEN": "Both are large natural ecosystems dominated by dense trees.",
+          "relationML": "ഇടതൂർന്ന മരങ്ങളുള്ള വലിയ പ്രകൃതിദത്ത ആവാസവ്യവസ്ഥകളാണ് ഇവ."
+        },
+        {
+          "word": "Woods",
+          "wordMal": "മരക്കൂട്ടം",
+          "relationEN": "Both are natural environments filled with vegetation and wildlife.",
+          "relationML": "സസ്യജാലങ്ങളും വന്യജീവികളും നിറഞ്ഞ പ്രകൃതിദത്ത പരിതസ്ഥിതികളാണ് ഇവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Mountain",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Hill",
+          "wordMal": "കുന്ന്",
+          "relationEN": "Both are significant natural elevations of the earth's surface.",
+          "relationML": "ഭൂപ്രതലത്തിലെ വലിയ പ്രകൃതിദത്ത ഉയരങ്ങളാണ് ഇവ രണ്ടും."
+        },
+        {
+          "word": "Volcano",
+          "wordMal": "അഗ്നിപർവ്വതം",
+          "relationEN": "Both are prominent geological formations rising above the landscape.",
+          "relationML": "ഭൂപ്രകൃതിക്ക് മുകളിൽ ഉയർന്നുനിൽക്കുന്ന ഭൗമശാസ്ത്രപരമായ രൂപങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "River",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Lake",
+          "wordMal": "തടാകം",
+          "relationEN": "Both are major natural freshwater bodies found across continents.",
+          "relationML": "ഭൂഖണ്ഡങ്ങളിലുടനീളം കാണപ്പെടുന്ന പ്രധാന പ്രകൃതിദത്ത ശുദ്ധജല സ്രോതസ്സുകളാണ് ഇവ."
+        },
+        {
+          "word": "Stream",
+          "wordMal": "അരുവി",
+          "relationEN": "Both are flowing natural watercourses.",
+          "relationML": "പ്രകൃതിദത്തമായി ഒഴുകുന്ന ജലപാതകളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Desert",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Savanna",
+          "wordMal": "സവന്ന",
+          "relationEN": "Both are massive natural biomes known for extremely harsh climates.",
+          "relationML": "കഠിനമായ കാലാവസ്ഥയ്ക്ക് പേരുകേട്ട വലിയ പ്രകൃതിദത്ത പ്രദേശങ്ങളാണിവ."
+        },
+        {
+          "word": "Tundra",
+          "wordMal": "തുണ്ട്ര",
+          "relationEN": "Both are barren landscapes with very little rainfall.",
+          "relationML": "വളരെ കുറഞ്ഞ മഴ ലഭിക്കുന്ന വരണ്ട പ്രദേശങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Volcano",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Earthquake",
+          "wordMal": "ഭൂകമ്പം",
+          "relationEN": "Both are powerful geological phenomena originating from beneath the earth's crust.",
+          "relationML": "ഭൂമിയുടെ അടിയിൽ നിന്ന് ഉണ്ടാകുന്ന ശക്തമായ ഭൗമ പ്രതിഭാസങ്ങളാണിവ."
+        },
+        {
+          "word": "Geyser",
+          "wordMal": "ഉഷ്ണനീരുറവ",
+          "relationEN": "Both are natural features associated with geothermal activity.",
+          "relationML": "ഭൂമിയുടെ താപവുമായി ബന്ധപ്പെട്ട പ്രകൃതിദത്ത സവിശേഷതകളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Rainbow",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Aurora",
+          "wordMal": "അറോറ",
+          "relationEN": "Both are spectacular atmospheric optical phenomena in the sky.",
+          "relationML": "ആകാശത്തെ മനോഹരമായ പ്രകൃതിദത്ത ഒപ്റ്റിക്കൽ പ്രതിഭാസങ്ങളാണിവ."
+        },
+        {
+          "word": "Eclipse",
+          "wordMal": "ഗ്രഹണം",
+          "relationEN": "Both are colorful visual events occurring in the atmosphere.",
+          "relationML": "അന്തരീക്ഷത്തിൽ സംഭവിക്കുന്ന വർണ്ണാഭമായ കാഴ്ചകളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Storm",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Hurricane",
+          "wordMal": "ചുഴലിക്കാറ്റ്",
+          "relationEN": "Both are intense and destructive meteorological weather events.",
+          "relationML": "തീവ്രവും വിനാശകരവുമായ കാലാവസ്ഥാ പ്രതിഭാസങ്ങളാണിവ."
+        },
+        {
+          "word": "Tornado",
+          "wordMal": "ടൊർണാഡോ",
+          "relationEN": "Both are severe weather systems with strong winds.",
+          "relationML": "ശക്തമായ കാറ്റുള്ള കഠിനമായ കാലാവസ്ഥാ സംവിധാനങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Coral Reef",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Kelp Forest",
+          "wordMal": "കെൽപ്പ് വനം",
+          "relationEN": "Both are extremely diverse and vibrant underwater ecosystems.",
+          "relationML": "വളരെ വൈവിധ്യമാർന്ന സജീവമായ വെള്ളത്തിനടിയിലെ ആവാസവ്യവസ്ഥകളാണിവ."
+        },
+        {
+          "word": "Mangrove",
+          "wordMal": "കണ്ടൽക്കാട്",
+          "relationEN": "Both are vital marine habitats supporting oceanic life.",
+          "relationML": "സമുദ്രജീവികളെ പിന്തുണയ്ക്കുന്ന പ്രധാന സമുദ്ര ആവാസവ്യവസ്ഥകളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Waterfall",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Geyser",
+          "wordMal": "ഉഷ്ണനീരുറവ",
+          "relationEN": "Both are dynamic natural water features involving fast-moving water.",
+          "relationML": "വേഗത്തിൽ ചലിക്കുന്ന ജലമുള്ള ചലനാത്മക പ്രകൃതിദത്ത സവിശേഷതകളാണിവ."
+        },
+        {
+          "word": "River",
+          "wordMal": "നദി",
+          "relationEN": "Both are beautiful geological features involving falling or erupting water.",
+          "relationML": "വെള്ളം ഒഴുകുകയോ പൊട്ടിത്തെറിക്കുകയോ ചെയ്യുന്ന മനോഹരമായ ഭൗമ സവിശേഷതകളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Glacier",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Iceberg",
+          "wordMal": "മഞ്ഞുമല",
+          "relationEN": "Both are massive, naturally occurring formations made entirely of ice.",
+          "relationML": "പൂർണ്ണമായും മഞ്ഞുകൊണ്ട് നിർമ്മിച്ച വലിയ പ്രകൃതിദത്ത രൂപങ്ങളാണിവ."
+        },
+        {
+          "word": "Snow",
+          "wordMal": "മഞ്ഞ്",
+          "relationEN": "Both are large frozen geographical features found in polar regions.",
+          "relationML": "ധ്രുവപ്രദേശങ്ങളിൽ കാണപ്പെടുന്ന വലിയ മരവിച്ച ഭൂമിശാസ്ത്രപരമായ സവിശേഷതകളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Canyon",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Gorge",
+          "wordMal": "ചെരിവ്",
+          "relationEN": "Both are deep, steep-sided natural geographical landforms carved by water.",
+          "relationML": "ജലം സൃഷ്ടിച്ച ആഴമേറിയതും ചെങ്കുത്തായതുമായ പ്രകൃതിദത്ത ഭൂപ്രകൃതികളാണിവ."
+        },
+        {
+          "word": "Valley",
+          "wordMal": "താഴ്വര",
+          "relationEN": "Both are large depressions in the earth's surface.",
+          "relationML": "ഭൂപ്രതലത്തിലെ വലിയ കുഴികളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Meadow",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Prairie",
+          "wordMal": "പുൽമേട്",
+          "relationEN": "Both are large, open natural landscapes dominated by grass.",
+          "relationML": "പുല്ലുകൾ നിറഞ്ഞ വലിയ തുറസ്സായ പ്രകൃതിദത്ത പ്രദേശങ്ങളാണിവ."
+        },
+        {
+          "word": "Pasture",
+          "wordMal": "മേച്ചിൽപ്പുറം",
+          "relationEN": "Both are flat, grassy ecological areas.",
+          "relationML": "പരന്ന, പുല്ലുള്ള പാരിസ്ഥിതിക പ്രദേശങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Cave",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Cavern",
+          "wordMal": "ഗുഹ",
+          "relationEN": "Both are large, dark natural underground cavities or chambers.",
+          "relationML": "വലിയ, ഇരുണ്ട പ്രകൃതിദത്ത ഭൂഗർഭ അറകളാണിവ."
+        },
+        {
+          "word": "Tunnel",
+          "wordMal": "തുരങ്കം",
+          "relationEN": "Both are deep rocky hollows found in mountains or underground.",
+          "relationML": "പർവ്വതങ്ങളിലോ ഭൂമിക്കടിയിലോ കാണപ്പെടുന്ന ആഴത്തിലുള്ള പാറകളുള്ള കുഴികളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Swamp",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Marsh",
+          "wordMal": "ചതുപ്പ്",
+          "relationEN": "Both are dense, natural wetland ecosystems rich in biodiversity.",
+          "relationML": "ജൈവവൈവിധ്യത്താൽ സമ്പന്നമായ ഇടതൂർന്ന പ്രകൃതിദത്ത തണ്ണീർത്തട ആവാസവ്യവസ്ഥകളാണിവ."
+        },
+        {
+          "word": "Bog",
+          "wordMal": "ചതുപ്പുനിലം",
+          "relationEN": "Both are muddy, waterlogged natural areas.",
+          "relationML": "ചെളി നിറഞ്ഞ, വെള്ളം കെട്ടിനിൽക്കുന്ന പ്രകൃതിദത്ത പ്രദേശങ്ങളാണിവ."
+        }
+      ]
+    }
+  ],
+  "intl_disney": [
+    {
+      "civWord": "Simba",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Mufasa",
+          "wordMal": "മുഫാസ",
+          "relationEN": "Both are iconic main lion characters from the Disney movie The Lion King.",
+          "relationML": "ദി ലയൺ കിംഗ് എന്ന ഡിസ്നി സിനിമയിലെ പ്രധാന സിംഹ കഥാപാത്രങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Scar",
+          "wordMal": "സ്കാർ",
+          "relationEN": "Both are royalty in the Pride Lands from The Lion King.",
+          "relationML": "ദി ലയൺ കിംഗ് സിനിമയിലെ പ്രധാന രാജകീയ കഥാപാത്രങ്ങളാണ് ഇവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Elsa",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Anna",
+          "wordMal": "അന്ന",
+          "relationEN": "Both are central royal characters from the popular Disney movie Frozen.",
+          "relationML": "ഫ്രോസൺ എന്ന പ്രശസ്തമായ ഡിസ്നി സിനിമയിലെ പ്രധാന രാജകീയ കഥാപാത്രങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Olaf",
+          "wordMal": "ഒലാഫ്",
+          "relationEN": "Both are major Disney figures associated with winter and ice.",
+          "relationML": "ശൈത്യകാലവും മഞ്ഞുമായി ബന്ധപ്പെട്ട പ്രധാന ഡിസ്നി കഥാപാത്രങ്ങളാണ് ഇവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Moana",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Maui",
+          "wordMal": "മൗയി",
+          "relationEN": "Both are lead characters in a Disney movie closely tied to the ocean.",
+          "relationML": "സമുദ്രവുമായി അടുത്ത ബന്ധമുള്ള ഡിസ്നി സിനിമയിലെ പ്രധാന കഥാപാത്രങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Ariel",
+          "wordMal": "ഏരിയൽ",
+          "relationEN": "Both are iconic Polynesian-inspired Disney characters.",
+          "relationML": "പ്രശസ്തരായ പോളിനേഷ്യൻ ഡിസ്നി കഥാപാത്രങ്ങളാണ് ഇവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Mulan",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Pocahontas",
+          "wordMal": "പോക്കഹോണ്ടാസ്",
+          "relationEN": "Both are brave, culturally iconic Disney heroines who saved their people.",
+          "relationML": "തങ്ങളുടെ ആളുകളെ രക്ഷിച്ച ധീരരായ ഡിസ്നി നായികമാരാണ് ഇരുവരും."
+        },
+        {
+          "word": "Jasmine",
+          "wordMal": "ജാസ്മിൻ",
+          "relationEN": "Both are legendary strong female warriors in Disney animation.",
+          "relationML": "ഡിസ്നി അനിമേഷനിലെ ശക്തരായ വനിതാ പോരാളികളാണ് ഇവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Aladdin",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Genie",
+          "wordMal": "ജീനി",
+          "relationEN": "Both are the most central iconic characters from the Disney movie Aladdin.",
+          "relationML": "അലാഡിൻ എന്ന ഡിസ്നി സിനിമയിലെ ഏറ്റവും പ്രധാനപ്പെട്ട കഥാപാത്രങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Jafar",
+          "wordMal": "ജാഫർ",
+          "relationEN": "Both are key characters from the fictional city of Agrabah.",
+          "relationML": "അഗ്രാബ എന്ന സാങ്കൽപ്പിക നഗരത്തിലെ പ്രധാന കഥാപാത്രങ്ങളാണ് ഇവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Shrek",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Donkey",
+          "wordMal": "ഡോങ്കി",
+          "relationEN": "Both are the most iconic, hilarious main characters from the DreamWorks Shrek series.",
+          "relationML": "ഷ്രെക്ക് പരമ്പരയിലെ ഏറ്റവും പ്രശസ്തവും രസകരവുമായ പ്രധാന കഥാപാത്രങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Fiona",
+          "wordMal": "ഫിയോണ",
+          "relationEN": "Both are non-human animated heroes from famous fairy tale movies.",
+          "relationML": "പ്രശസ്തമായ സിനിമകളിലെ അമാനുഷികരായ ആനിമേറ്റഡ് നായകന്മാരാണ് ഇവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Woody",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Buzz Lightyear",
+          "wordMal": "ബസ് ലൈറ്റ്ഇയർ",
+          "relationEN": "Both are the famous leading toy characters in Pixar's Toy Story franchise.",
+          "relationML": "പിക്സാറിന്റെ ടോയ് സ്റ്റോറി പരമ്പരയിലെ പ്രശസ്തരായ കളിപ്പാട്ട കഥാപാത്രങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Jessie",
+          "wordMal": "ജെസ്സി",
+          "relationEN": "Both are classic animated action figures from Toy Story.",
+          "relationML": "ടോയ് സ്റ്റോറിയിലെ ക്ലാസിക് ആനിമേറ്റഡ് കളിപ്പാട്ടങ്ങളാണിവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Nemo",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Marlin",
+          "wordMal": "മാർലിൻ",
+          "relationEN": "Both are central clownfish characters in a massive Pixar ocean adventure.",
+          "relationML": "പിക്സാറിന്റെ സമുദ്ര സാഹസിക സിനിമയിലെ പ്രധാന ക്ലൗൺഫിഷ് കഥാപാത്രങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Dory",
+          "wordMal": "ഡോറി",
+          "relationEN": "Both are famous animated fish from finding Nemo.",
+          "relationML": "ഫൈൻഡിംഗ് നീമോയിലെ പ്രശസ്തരായ മത്സ്യ കഥാപാത്രങ്ങളാണിവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Rapunzel",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Flynn Rider",
+          "wordMal": "ഫ്ലിൻ റൈഡർ",
+          "relationEN": "Both are the iconic lead characters in the Disney movie Tangled.",
+          "relationML": "ടാങ്കിൾഡ് എന്ന ഡിസ്നി സിനിമയിലെ പ്രശസ്തരായ പ്രധാന കഥാപാത്രങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Mother Gothel",
+          "wordMal": "മദർ ഗൊഥെൽ",
+          "relationEN": "Both are central figures in a modern Disney fairy tale adaptation.",
+          "relationML": "ഒരു ആധുനിക ഡിസ്നി സിനിമയിലെ പ്രധാന കഥാപാത്രങ്ങളാണിവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Belle",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Beast",
+          "wordMal": "ബീസ്റ്റ്",
+          "relationEN": "Both are the absolute core characters of Disney's Beauty and the Beast.",
+          "relationML": "ഡിസ്നിയുടെ ബ്യൂട്ടി ആൻഡ് ദി ബീസ്റ്റിലെ പ്രധാന കഥാപാത്രങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Gaston",
+          "wordMal": "ഗാസ്റ്റൺ",
+          "relationEN": "Both are classic figures from a famous French-inspired Disney story.",
+          "relationML": "പ്രശസ്തമായ ഒരു ഫ്രഞ്ച് ഡിസ്നി കഥയിലെ ക്ലാസിക് കഥാപാത്രങ്ങളാണിവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Cinderella",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Snow White",
+          "wordMal": "സ്നോ വൈറ്റ്",
+          "relationEN": "Both are foundational, classic original Disney princesses with famous stories.",
+          "relationML": "പ്രശസ്തമായ കഥകളുള്ള ക്ലാസിക് ഡിസ്നി രാജകുമാരിമാരാണ് ഇരുവരും."
+        },
+        {
+          "word": "Aurora",
+          "wordMal": "അറോറ",
+          "relationEN": "Both are iconic Disney royalty who suffer under evil stepmothers.",
+          "relationML": "ദുഷ്ടയായ രണ്ടാനമ്മയുടെ കീഴിൽ കഷ്ടപ്പെടുന്ന പ്രശസ്ത ഡിസ്നി രാജകുമാരിമാരാണ് ഇവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Bambi",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Dumbo",
+          "wordMal": "ഡംബോ",
+          "relationEN": "Both are extremely famous, beloved classic Disney animal protagonists.",
+          "relationML": "വളരെ പ്രശസ്തരായ, പ്രിയപ്പെട്ട ക്ലാസിക് ഡിസ്നി മൃഗ കഥാപാത്രങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Thumper",
+          "wordMal": "തമ്പർ",
+          "relationEN": "Both are titular young animal heroes of vintage Disney animation.",
+          "relationML": "പഴയ ഡിസ്നി ആനിമേഷനിലെ യുവ മൃഗ നായകന്മാരാണ് ഇവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Pinocchio",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Jiminy Cricket",
+          "wordMal": "ജിമിനി ക്രിക്കറ്റ്",
+          "relationEN": "Both are the most central, inseparable characters in the Disney classic Pinocchio.",
+          "relationML": "പിനോച്ചിയോ എന്ന ഡിസ്നി ക്ലാസിക്കിലെ ഏറ്റവും പ്രധാനപ്പെട്ട കഥാപാത്രങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Geppetto",
+          "wordMal": "ജെപ്പറ്റോ",
+          "relationEN": "Both are iconic figures from an early classic Disney moral tale.",
+          "relationML": "ആദ്യകാല ഡിസ്നി കഥയിലെ പ്രശസ്തരായ കഥാപാത്രങ്ങളാണിവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Tarzan",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Jane",
+          "wordMal": "ജെയ്ൻ",
+          "relationEN": "Both are the legendary main characters from Disney's jungle adventure Tarzan.",
+          "relationML": "ഡിസ്നിയുടെ ടാർസൻ എന്ന ജംഗിൾ സാഹസിക സിനിമയിലെ പ്രധാന കഥാപാത്രങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Kerchak",
+          "wordMal": "കെർചാക്",
+          "relationEN": "Both are iconic humans who adapt to the African jungle in Disney.",
+          "relationML": "ആഫ്രിക്കൻ കാടുകളുമായി പൊരുത്തപ്പെടുന്ന പ്രശസ്തരായ മനുഷ്യ കഥാപാത്രങ്ങളാണിവർ."
+        }
+      ]
+    },
+    {
+      "civWord": "Stitch",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Lilo",
+          "wordMal": "ലിലോ",
+          "relationEN": "Both are the iconic duo from a famous Hawaiian Disney animated movie.",
+          "relationML": "പ്രശസ്തമായ ഒരു ഹവായിയൻ ഡിസ്നി ആനിമേറ്റഡ് സിനിമയിലെ ജോഡികളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Jumba",
+          "wordMal": "ജുംബ",
+          "relationEN": "Both are central misunderstood characters in a modern Disney sci-fi film.",
+          "relationML": "ഒരു ആധുനിക ഡിസ്നി സിനിമയിലെ തെറ്റിദ്ധരിക്കപ്പെട്ട പ്രധാന കഥാപാത്രങ്ങളാണിവർ."
+        }
+      ]
+    }
+  ],
+  "intl_places": [
+    {
+      "civWord": "Eiffel Tower",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Big Ben",
+          "wordMal": "ബിഗ് ബെൻ",
+          "relationEN": "Both are globally recognized, massive iconic architectural monuments in Europe.",
+          "relationML": "യൂറോപ്പിലെ ലോകപ്രശസ്തമായ വലിയ വാസ്തുവിദ്യാ സ്മാരകങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Statue of Liberty",
+          "wordMal": "സ്റ്റാച്യു ഓഫ് ലിബർട്ടി",
+          "relationEN": "Both are famous towering metal structures built as national symbols.",
+          "relationML": "ദേശീയ ചിഹ്നങ്ങളായി നിർമ്മിച്ച പ്രശസ്തമായ വലിയ ലോഹ ഘടനകളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Colosseum",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Pantheon",
+          "wordMal": "പന്തിയോൺ",
+          "relationEN": "Both are incredibly famous, surviving massive structures from Ancient Rome.",
+          "relationML": "പുരാതന റോമിൽ നിന്നുള്ള അവശേഷിക്കുന്ന വളരെ പ്രശസ്തമായ വലിയ ഘടനകളാണിവ."
+        },
+        {
+          "word": "Parthenon",
+          "wordMal": "പാർഥെനോൺ",
+          "relationEN": "Both are legendary classical stone monuments in modern Italy.",
+          "relationML": "ആധുനിക ഇറ്റലിയിലെ പ്രശസ്തമായ ക്ലാസിക്കൽ കൽസ്മാരകങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Taj Mahal",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Qutub Minar",
+          "wordMal": "കുത്തബ് മിനാർ",
+          "relationEN": "Both are legendary, globally recognized historical monuments in India.",
+          "relationML": "ഇന്ത്യയിലെ ലോകപ്രശസ്തമായ ചരിത്ര സ്മാരകങ്ങളാണ് ഇരുവരും."
+        },
+        {
+          "word": "Red Fort",
+          "wordMal": "ചെങ്കോട്ട",
+          "relationEN": "Both are massive iconic structures built by ancient Indian empires.",
+          "relationML": "പുരാതന ഇന്ത്യൻ സാമ്രാജ്യങ്ങൾ നിർമ്മിച്ച വലിയ പ്രശസ്തമായ ഘടനകളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Great Wall",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Forbidden City",
+          "wordMal": "വിലക്കപ്പെട്ട നഗരം",
+          "relationEN": "Both are massive, historically critical UNESCO World Heritage sites in China.",
+          "relationML": "ചൈനയിലെ ചരിത്രപരമായി വളരെ പ്രധാനപ്പെട്ട യുനെസ്കോ ലോക പൈതൃക കേന്ദ്രങ്ങളാണിവ."
+        },
+        {
+          "word": "Terracotta Army",
+          "wordMal": "ടെറാക്കോട്ട സൈന്യം",
+          "relationEN": "Both are legendary ancient mega-projects built by Chinese emperors.",
+          "relationML": "ചൈനീസ് ചക്രവർത്തിമാർ നിർമ്മിച്ച പ്രശസ്തമായ പുരാതന നിർമ്മാണങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Statue of Liberty",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Golden Gate Bridge",
+          "wordMal": "ഗോൾഡൻ ഗേറ്റ് ബ്രിഡ്ജ്",
+          "relationEN": "Both are incredibly famous, colossal national landmarks in the United States.",
+          "relationML": "അമേരിക്കൻ ഐക്യനാടുകളിലെ വളരെ പ്രശസ്തമായ വലിയ ദേശീയ സ്മാരകങ്ങളാണിവ."
+        },
+        {
+          "word": "Mount Rushmore",
+          "wordMal": "മൗണ്ട് റഷ്മോർ",
+          "relationEN": "Both are iconic American monumental structures recognized worldwide.",
+          "relationML": "ലോകമെമ്പാടും അംഗീകരിക്കപ്പെട്ട പ്രശസ്തമായ അമേരിക്കൻ ഘടനകളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Sydney Opera House",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Harbour Bridge",
+          "wordMal": "ഹാർബർ ബ്രിഡ്ജ്",
+          "relationEN": "Both are the most iconic, globally recognized structural landmarks of Sydney.",
+          "relationML": "സിഡ്നിയിലെ ലോകപ്രശസ്തമായ വാസ്തുവിദ്യാ സ്മാരകങ്ങളാണ് ഇവ രണ്ടും."
+        },
+        {
+          "word": "Burj Khalifa",
+          "wordMal": "ബുർജ് ഖലീഫ",
+          "relationEN": "Both are famous modern architectural wonders.",
+          "relationML": "പ്രശസ്തമായ ആധുനിക വാസ്തുവിദ്യാ വിസ്മയങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Machu Picchu",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Chichen Itza",
+          "wordMal": "ചിച്ചെൻ ഇറ്റ്സ",
+          "relationEN": "Both are legendary, extremely well-preserved ancient ruins in Latin America.",
+          "relationML": "ലാറ്റിനമേരിക്കയിലെ വളരെ നന്നായി സംരക്ഷിക്കപ്പെട്ടിട്ടുള്ള പുരാതന അവശിഷ്ടങ്ങളാണിവ."
+        },
+        {
+          "word": "Petra",
+          "wordMal": "പെട്ര",
+          "relationEN": "Both are iconic stone cities built by ancient civilizations.",
+          "relationML": "പുരാതന നാഗരികതകൾ നിർമ്മിച്ച പ്രശസ്തമായ കൽ നഗരങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Stonehenge",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Avebury",
+          "wordMal": "ഏവ്ബറി",
+          "relationEN": "Both are mysterious, globally famous ancient megalithic stone monuments.",
+          "relationML": "നിഗൂഢവും ലോകപ്രശസ്തവുമായ പുരാതന കൽസ്മാരകങ്ങളാണിവ."
+        },
+        {
+          "word": "Easter Island",
+          "wordMal": "ഈസ്റ്റർ ദ്വീപ്",
+          "relationEN": "Both are iconic prehistoric circles of standing stones in England.",
+          "relationML": "ഇംഗ്ലണ്ടിലെ പ്രശസ്തമായ ചരിത്രാതീത ശിലാ വൃത്തങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Niagara Falls",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Victoria Falls",
+          "wordMal": "വിക്ടോറിയ വെള്ളച്ചാട്ടം",
+          "relationEN": "Both are incredibly famous, massive, spectacular international waterfalls.",
+          "relationML": "വളരെ പ്രശസ്തവും വലുതുമായ അന്താരാഷ്ട്ര വെള്ളച്ചാട്ടങ്ങളാണിവ."
+        },
+        {
+          "word": "Angel Falls",
+          "wordMal": "ഏഞ്ചൽ വെള്ളച്ചാട്ടം",
+          "relationEN": "Both are gigantic natural water wonders that border two countries.",
+          "relationML": "രണ്ട് രാജ്യങ്ങളുടെ അതിർത്തിയിലുള്ള വലിയ പ്രകൃതിദത്ത ജല വിസ്മയങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Angkor Wat",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Borobudur",
+          "wordMal": "ബോറോബുദൂർ",
+          "relationEN": "Both are massive, historically profound ancient temple complexes in Southeast Asia.",
+          "relationML": "തെക്കുകിഴക്കൻ ഏഷ്യയിലെ വലിയതും ചരിത്രപരമായി പ്രധാനപ്പെട്ടതുമായ പുരാതന ക്ഷേത്ര സമുച്ചയങ്ങളാണിവ."
+        },
+        {
+          "word": "Prambanan",
+          "wordMal": "പ്രമ്പാനൻ",
+          "relationEN": "Both are legendary religious stone monuments.",
+          "relationML": "പ്രശസ്തമായ മതപരമായ കൽസ്മാരകങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Alhambra",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Sagrada Familia",
+          "wordMal": "സഗ്രാഡ ഫാമിലിയ",
+          "relationEN": "Both are profoundly famous, iconic architectural masterpieces located in Spain.",
+          "relationML": "സ്പെയിനിലെ വളരെ പ്രശസ്തമായ വാസ്തുവിദ്യാ വിസ്മയങ്ങളാണിവ."
+        },
+        {
+          "word": "Taj Mahal",
+          "wordMal": "താജ് മഹൽ",
+          "relationEN": "Both are legendary monumental buildings heavily visited by tourists.",
+          "relationML": "വിനോദസഞ്ചാരികൾ ധാരാളമായി സന്ദർശിക്കുന്ന പ്രശസ്തമായ വലിയ കെട്ടിടങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Mount Everest",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "K2",
+          "wordMal": "കെ2",
+          "relationEN": "Both are globally famous, extreme high-altitude mountain peaks.",
+          "relationML": "ലോകപ്രശസ്തമായ വലിയ ഉയരമുള്ള പർവ്വത കൊടുമുടികളാണിവ."
+        },
+        {
+          "word": "Mount Kilimanjaro",
+          "wordMal": "മൗണ്ട് കിളിമഞ്ചാരോ",
+          "relationEN": "Both are legendary and dangerous mountains in the Himalayas.",
+          "relationML": "ഹിമാലയത്തിലെ പ്രശസ്തവും അപകടകരവുമായ പർവ്വതങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Amazon River",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Nile River",
+          "wordMal": "നൈൽ നദി",
+          "relationEN": "Both are incredibly long, famous massive river systems vital to their continents.",
+          "relationML": "അതാത് ഭൂഖണ്ഡങ്ങൾക്ക് വളരെ പ്രധാനപ്പെട്ടതും പ്രശസ്തവുമായ വലിയ നദീതടങ്ങളാണിവ."
+        },
+        {
+          "word": "Ganges",
+          "wordMal": "ഗംഗ",
+          "relationEN": "Both are legendary continental rivers.",
+          "relationML": "പ്രശസ്തമായ ഭൂഖണ്ഡ നദികളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Grand Canyon",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Bryce Canyon",
+          "wordMal": "ബ്രൈസ് കാന്യോൺ",
+          "relationEN": "Both are massively famous, visually stunning natural rock formations in the US.",
+          "relationML": "അമേരിക്കയിലെ വളരെ പ്രശസ്തവും മനോഹരവുമായ പ്രകൃതിദത്ത പാറക്കൂട്ടങ്ങളാണിവ."
+        },
+        {
+          "word": "Yellowstone",
+          "wordMal": "യെല്ലോസ്റ്റോൺ",
+          "relationEN": "Both are legendary national parks featuring deep gorges.",
+          "relationML": "ആഴത്തിലുള്ള താഴ്‌വരകളുള്ള പ്രശസ്തമായ ദേശീയ ഉദ്യാനങ്ങളാണിവ."
+        }
+      ]
+    },
+    {
+      "civWord": "Times Square",
+      "civWordMal": "",
+      "imposters": [
+        {
+          "word": "Piccadilly Circus",
+          "wordMal": "പിക്കാഡിലി സർക്കസ്",
+          "relationEN": "Both are incredibly busy, neon-lit iconic commercial intersections in major global cities.",
+          "relationML": "വലിയ നഗരങ്ങളിലെ വളരെ തിരക്കേറിയതും പ്രശസ്തവുമായ വാണിജ്യ ജംഗ്ഷനുകളാണിവ."
+        },
+        {
+          "word": "Shibuya Crossing",
+          "wordMal": "ഷിബുയ ക്രോസിംഗ്",
+          "relationEN": "Both are famous urban tourist hotspots known for giant screens.",
+          "relationML": "വലിയ സ്ക്രീനുകൾക്ക് പേരുകേട്ട പ്രശസ്തമായ നഗര വിനോദസഞ്ചാര കേന്ദ്രങ്ങളാണിവ."
+        }
+      ]
+    }
+  ]
+}

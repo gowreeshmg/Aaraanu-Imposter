@@ -1,0 +1,1312 @@
+[
+  {
+    "id": "vehicles",
+    "name": "Vehicles",
+    "icon": "??",
+    "words": [
+      {
+        "civWord": "Aanavandi",
+        "civWordMal": "ആനവണ്ടി",
+        "imposters": [
+          {
+            "word": "Low Floor Bus",
+            "wordMal": "ലോ ഫ്ലോർ ബസ്",
+            "relationEN": "Both Aanavandi and Low Floor Bus refer to popular KSRTC buses operating in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിൽ സർവീസ് നടത്തുന്ന ജനപ്രിയ കെഎസ്ആർടിസി ബസുകളാണ്."
+          },
+          {
+            "word": "Low Floor Bus",
+            "wordMal": "ലോ ഫ്ലോർ ബസ്",
+            "relationEN": "Both Aanavandi and Low Floor Bus refer to popular KSRTC buses operating in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിൽ സർവീസ് നടത്തുന്ന ജനപ്രിയ കെഎസ്ആർടിസി ബസുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Vallam",
+        "civWordMal": "വള്ളം",
+        "imposters": [
+          {
+            "word": "Thoni",
+            "wordMal": "തോണി",
+            "relationEN": "Both Vallam and Thoni are traditional manually rowed small boats used by Kerala fishermen and locals.",
+            "relationML": "രണ്ടും കേരളത്തിലെ മത്സ്യത്തൊഴിലാളികളും നാട്ടുകാരും ഉപയോഗിക്കുന്ന പരമ്പരാഗതമായ ചെറിയ വഞ്ചികളാണ്."
+          },
+          {
+            "word": "Thoni",
+            "wordMal": "തോണി",
+            "relationEN": "Both Vallam and Thoni are traditional manually rowed small boats used by Kerala fishermen and locals.",
+            "relationML": "രണ്ടും കേരളത്തിലെ മത്സ്യത്തൊഴിലാളികളും നാട്ടുകാരും ഉപയോഗിക്കുന്ന പരമ്പരാഗതമായ ചെറിയ വഞ്ചികളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Autorickshaw",
+        "civWordMal": "ഓട്ടോറിക്ഷ",
+        "imposters": [
+          {
+            "word": "Jeep",
+            "wordMal": "ജീപ്പ്",
+            "relationEN": "Both Autorickshaw and Jeep are commonly used as local transport or taxi services in many parts of India.",
+            "relationML": "രണ്ടും ഇന്ത്യയിലെ പല ഭാഗങ്ങളിലും പ്രാദേശിക യാത്രകൾക്കും ടാക്സിയായും ഉപയോഗിക്കുന്ന വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Jeep",
+            "wordMal": "ജീപ്പ്",
+            "relationEN": "Both Autorickshaw and Jeep are commonly used as local transport or taxi services in many parts of India.",
+            "relationML": "രണ്ടും ഇന്ത്യയിലെ പല ഭാഗങ്ങളിലും പ്രാദേശിക യാത്രകൾക്കും ടാക്സിയായും ഉപയോഗിക്കുന്ന വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Bullet",
+        "civWordMal": "ബുള്ളറ്റ്",
+        "imposters": [
+          {
+            "word": "Pulsar",
+            "wordMal": "പൾസർ",
+            "relationEN": "Both Bullet and Pulsar are highly popular and powerful motorcycle brands among Indian youth.",
+            "relationML": "രണ്ടും ഇന്ത്യൻ യുവാക്കൾക്കിടയിൽ വളരെ പ്രശസ്തമായ കരുത്തുറ്റ മോട്ടോർസൈക്കിൾ ബ്രാൻഡുകളാണ്."
+          },
+          {
+            "word": "Pulsar",
+            "wordMal": "പൾസർ",
+            "relationEN": "Both Bullet and Pulsar are highly popular and powerful motorcycle brands among Indian youth.",
+            "relationML": "രണ്ടും ഇന്ത്യൻ യുവാക്കൾക്കിടയിൽ വളരെ പ്രശസ്തമായ കരുത്തുറ്റ മോട്ടോർസൈക്കിൾ ബ്രാൻഡുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Houseboat",
+        "civWordMal": "ഹൗസ്‌ബോട്ട്",
+        "imposters": [
+          {
+            "word": "Shikara",
+            "wordMal": "ശിക്കാര",
+            "relationEN": "Both Houseboat and Shikara are popular tourist boats offering leisure rides on serene lakes and backwaters.",
+            "relationML": "രണ്ടും ശാന്തമായ കായലുകളിലും തടാകങ്ങളിലും വിനോദയാത്രകൾക്കായി ഉപയോഗിക്കുന്ന പ്രശസ്തമായ ബോട്ടുകളാണ്."
+          },
+          {
+            "word": "Shikara",
+            "wordMal": "ശിക്കാര",
+            "relationEN": "Both Houseboat and Shikara are popular tourist boats offering leisure rides on serene lakes and backwaters.",
+            "relationML": "രണ്ടും ശാന്തമായ കായലുകളിലും തടാകങ്ങളിലും വിനോദയാത്രകൾക്കായി ഉപയോഗിക്കുന്ന പ്രശസ്തമായ ബോട്ടുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Jankar",
+        "civWordMal": "ജങ്കാർ",
+        "imposters": [
+          {
+            "word": "Ferry",
+            "wordMal": "ഫെറി",
+            "relationEN": "Both Jankar and Ferry are used in Kerala to transport people and vehicles across water bodies.",
+            "relationML": "രണ്ടും കേരളത്തിൽ ആളുകളെയും വാഹനങ്ങളെയും അക്കരെ കടത്താൻ ഉപയോഗിക്കുന്ന ജലയാനങ്ങളാണ്."
+          },
+          {
+            "word": "Ferry",
+            "wordMal": "ഫെറി",
+            "relationEN": "Both Jankar and Ferry are used in Kerala to transport people and vehicles across water bodies.",
+            "relationML": "രണ്ടും കേരളത്തിൽ ആളുകളെയും വാഹനങ്ങളെയും അക്കരെ കടത്താൻ ഉപയോഗിക്കുന്ന ജലയാനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Ferry",
+        "civWordMal": "ഫെറി",
+        "imposters": [
+          {
+            "word": "Jankar",
+            "wordMal": "ജങ്കാർ",
+            "relationEN": "Both Ferry and Jankar are water transport vessels primarily used for crossing rivers and lakes.",
+            "relationML": "രണ്ടും പുഴകളും തടാകങ്ങളും കുറുകെ കടക്കാൻ പ്രധാനമായും ഉപയോഗിക്കുന്ന ജലയാനങ്ങളാണ്."
+          },
+          {
+            "word": "Jankar",
+            "wordMal": "ജങ്കാർ",
+            "relationEN": "Both Ferry and Jankar are water transport vessels primarily used for crossing rivers and lakes.",
+            "relationML": "രണ്ടും പുഴകളും തടാകങ്ങളും കുറുകെ കടക്കാൻ പ്രധാനമായും ഉപയോഗിക്കുന്ന ജലയാനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Chundan Vallam",
+        "civWordMal": "ചുണ്ടൻ വള്ളം",
+        "imposters": [
+          {
+            "word": "Kettuvallam",
+            "wordMal": "കെട്ടുവള്ളം",
+            "relationEN": "Both Chundan Vallam and Kettuvallam are traditional long wooden boats synonymous with Kerala's backwaters.",
+            "relationML": "രണ്ടും കേരളത്തിലെ കായലുകളുമായി ബന്ധപ്പെട്ട പരമ്പരാഗതമായ വലിയ മരവള്ളങ്ങളാണ്."
+          },
+          {
+            "word": "Kettuvallam",
+            "wordMal": "കെട്ടുവള്ളം",
+            "relationEN": "Both Chundan Vallam and Kettuvallam are traditional long wooden boats synonymous with Kerala's backwaters.",
+            "relationML": "രണ്ടും കേരളത്തിലെ കായലുകളുമായി ബന്ധപ്പെട്ട പരമ്പരാഗതമായ വലിയ മരവള്ളങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kettuvallam",
+        "civWordMal": "കെട്ടുവള്ളം",
+        "imposters": [
+          {
+            "word": "Houseboat",
+            "wordMal": "ഹൗസ്ബോട്ട്",
+            "relationEN": "Both Kettuvallam and Houseboat are iconic Kerala tourism attractions offering scenic backwater cruises.",
+            "relationML": "രണ്ടും കേരളത്തിലെ കായൽ യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന പ്രശസ്തമായ വിനോദസഞ്ചാര ബോട്ടുകളാണ്."
+          },
+          {
+            "word": "Houseboat",
+            "wordMal": "ഹൗസ്ബോട്ട്",
+            "relationEN": "Both Kettuvallam and Houseboat are iconic Kerala tourism attractions offering scenic backwater cruises.",
+            "relationML": "രണ്ടും കേരളത്തിലെ കായൽ യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന പ്രശസ്തമായ വിനോദസഞ്ചാര ബോട്ടുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Pickup",
+        "civWordMal": "പിക്കപ്പ്",
+        "imposters": [
+          {
+            "word": "Lorry",
+            "wordMal": "ലോറി",
+            "relationEN": "Both Pickup and Lorry are commercial cargo vehicles widely used for transporting goods and freight.",
+            "relationML": "രണ്ടും ചരക്ക് നീക്കത്തിനായി വ്യാപകമായി ഉപയോഗിക്കുന്ന വാണിജ്യ വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Lorry",
+            "wordMal": "ലോറി",
+            "relationEN": "Both Pickup and Lorry are commercial cargo vehicles widely used for transporting goods and freight.",
+            "relationML": "രണ്ടും ചരക്ക് നീക്കത്തിനായി വ്യാപകമായി ഉപയോഗിക്കുന്ന വാണിജ്യ വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Jeep",
+        "civWordMal": "ജീപ്പ്",
+        "imposters": [
+          {
+            "word": "Gypsy",
+            "wordMal": "ജിപ്സി",
+            "relationEN": "Both Jeep and Maruti Gypsy are rugged four-wheel drive vehicles known for their off-roading capabilities.",
+            "relationML": "രണ്ടും ദുർഘടമായ പാതകളിൽ സഞ്ചരിക്കാൻ ശേഷിയുള്ള കരുത്തുറ്റ ഫോർ വീൽ ഡ്രൈവ് വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Gypsy",
+            "wordMal": "ജിപ്സി",
+            "relationEN": "Both Jeep and Maruti Gypsy are rugged four-wheel drive vehicles known for their off-roading capabilities.",
+            "relationML": "രണ്ടും ദുർഘടമായ പാതകളിൽ സഞ്ചരിക്കാൻ ശേഷിയുള്ള കരുത്തുറ്റ ഫോർ വീൽ ഡ്രൈവ് വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Lorry",
+        "civWordMal": "ലോറി",
+        "imposters": [
+          {
+            "word": "Tipper",
+            "wordMal": "ടിപ്പർ",
+            "relationEN": "Both Lorry and Tipper are heavy duty trucks used for transporting goods or construction materials.",
+            "relationML": "രണ്ടും ചരക്കുകളോ നിർമ്മാണ സാമഗ്രികളോ കൊണ്ടുപോകാൻ ഉപയോഗിക്കുന്ന വലിയ ട്രക്കുകളാണ്."
+          },
+          {
+            "word": "Tipper",
+            "wordMal": "ടിപ്പർ",
+            "relationEN": "Both Lorry and Tipper are heavy duty trucks used for transporting goods or construction materials.",
+            "relationML": "രണ്ടും ചരക്കുകളോ നിർമ്മാണ സാമഗ്രികളോ കൊണ്ടുപോകാൻ ഉപയോഗിക്കുന്ന വലിയ ട്രക്കുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Private Bus",
+        "civWordMal": "പ്രൈവറ്റ് ബസ്",
+        "imposters": [
+          {
+            "word": "KSRTC",
+            "wordMal": "കെഎസ്ആർടിസി",
+            "relationEN": "Both Private Bus and KSRTC represent the backbone of daily public road transport in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിലെ ദൈനംദിന റോഡ് ഗതാഗതത്തിന്റെ നെടുംതൂണായ ബസുകളാണ്."
+          },
+          {
+            "word": "KSRTC",
+            "wordMal": "കെഎസ്ആർടിസി",
+            "relationEN": "Both Private Bus and KSRTC represent the backbone of daily public road transport in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിലെ ദൈനംദിന റോഡ് ഗതാഗതത്തിന്റെ നെടുംതൂണായ ബസുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Tempo Traveller",
+        "civWordMal": "ടെമ്പോ ട്രാവലർ",
+        "imposters": [
+          {
+            "word": "Mini Bus",
+            "wordMal": "മിനി ബസ്",
+            "relationEN": "Both Tempo Traveller and Mini Bus are spacious passenger vehicles favored for family trips and excursions.",
+            "relationML": "രണ്ടും കുടുംബയാത്രകൾക്കും വിനോദയാത്രകൾക്കും അനുയോജ്യമായ വലിയ യാത്രാവാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Mini Bus",
+            "wordMal": "മിനി ബസ്",
+            "relationEN": "Both Tempo Traveller and Mini Bus are spacious passenger vehicles favored for family trips and excursions.",
+            "relationML": "രണ്ടും കുടുംബയാത്രകൾക്കും വിനോദയാത്രകൾക്കും അനുയോജ്യമായ വലിയ യാത്രാവാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Scooter",
+        "civWordMal": "സ്കൂട്ടർ",
+        "imposters": [
+          {
+            "word": "Bike",
+            "wordMal": "ബൈക്ക്",
+            "relationEN": "Both Scooter and Bike are two-wheeled motor vehicles commonly used for personal commuting.",
+            "relationML": "രണ്ടും ദൈനംദിന യാത്രകൾക്കായി സാധാരണയായി ഉപയോഗിക്കുന്ന ഇരുചക്ര വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Bike",
+            "wordMal": "ബൈക്ക്",
+            "relationEN": "Both Scooter and Bike are two-wheeled motor vehicles commonly used for personal commuting.",
+            "relationML": "രണ്ടും ദൈനംദിന യാത്രകൾക്കായി സാധാരണയായി ഉപയോഗിക്കുന്ന ഇരുചക്ര വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Cycle",
+        "civWordMal": "സൈക്കിൾ",
+        "imposters": [
+          {
+            "word": "Scooter",
+            "wordMal": "സ്കൂട്ടർ",
+            "relationEN": "Both Cycle and Scooter are simple, everyday two-wheelers used for short-distance personal transport.",
+            "relationML": "രണ്ടും ചെറിയ ദൂരങ്ങളിലേക്കുള്ള യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന സാധാരണ ഇരുചക്ര വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Scooter",
+            "wordMal": "സ്കൂട്ടർ",
+            "relationEN": "Both Cycle and Scooter are simple, everyday two-wheelers used for short-distance personal transport.",
+            "relationML": "രണ്ടും ചെറിയ ദൂരങ്ങളിലേക്കുള്ള യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന സാധാരണ ഇരുചക്ര വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Mini Bus",
+        "civWordMal": "മിനി ബസ്",
+        "imposters": [
+          {
+            "word": "Tempo Traveller",
+            "wordMal": "ടെമ്പോ ട്രാവലർ",
+            "relationEN": "Both Mini Bus and Tempo Traveller are mid-sized commercial passenger vehicles used for group trips.",
+            "relationML": "രണ്ടും ചെറിയ സംഘങ്ങളുടെ യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന ഇടത്തരം യാത്രാവാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Tempo Traveller",
+            "wordMal": "ടെമ്പോ ട്രാവലർ",
+            "relationEN": "Both Mini Bus and Tempo Traveller are mid-sized commercial passenger vehicles used for group trips.",
+            "relationML": "രണ്ടും ചെറിയ സംഘങ്ങളുടെ യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന ഇടത്തരം യാത്രാവാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Taxi",
+        "civWordMal": "ടാക്സി",
+        "imposters": [
+          {
+            "word": "Auto Rickshaw",
+            "wordMal": "ഓട്ടോ റിക്ഷ",
+            "relationEN": "Both Taxi and Auto Rickshaw are popular modes of hired public transport for daily commuting.",
+            "relationML": "രണ്ടും ദൈനംദിന യാത്രകൾക്ക് ആളുകൾ വാടകയ്ക്ക് വിളിക്കുന്ന പൊതുഗതാഗത വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Auto Rickshaw",
+            "wordMal": "ഓട്ടോ റിക്ഷ",
+            "relationEN": "Both Taxi and Auto Rickshaw are popular modes of hired public transport for daily commuting.",
+            "relationML": "രണ്ടും ദൈനംദിന യാത്രകൾക്ക് ആളുകൾ വാടകയ്ക്ക് വിളിക്കുന്ന പൊതുഗതാഗത വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Train",
+        "civWordMal": "ട്രെയിൻ",
+        "imposters": [
+          {
+            "word": "Metro",
+            "wordMal": "മെട്രോ",
+            "relationEN": "Both Train and Metro are railway-based mass transit systems used for passenger commuting.",
+            "relationML": "രണ്ടും യാത്രക്കാർക്ക് സഞ്ചരിക്കാനുള്ള റെയിൽവേ അധിഷ്ഠിത പൊതുഗതാഗത സംവിധാനങ്ങളാണ്."
+          },
+          {
+            "word": "Metro",
+            "wordMal": "മെട്രോ",
+            "relationEN": "Both Train and Metro are railway-based mass transit systems used for passenger commuting.",
+            "relationML": "രണ്ടും യാത്രക്കാർക്ക് സഞ്ചരിക്കാനുള്ള റെയിൽവേ അധിഷ്ഠിത പൊതുഗതാഗത സംവിധാനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "School Bus",
+        "civWordMal": "സ്കൂൾ ബസ്",
+        "imposters": [
+          {
+            "word": "Ambulance",
+            "wordMal": "ആംബുലൻസ്",
+            "relationEN": "Both School Bus and Ambulance are purpose-built utility vehicles often painted in distinct recognizable colors like yellow or white.",
+            "relationML": "രണ്ടും പെട്ടെന്ന് തിരിച്ചറിയാൻ കഴിയുന്ന മഞ്ഞയോ വെള്ളയോ പോലുള്ള പ്രത്യേക നിറങ്ങളിൽ പെയിന്റ് ചെയ്ത വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Ambulance",
+            "wordMal": "ആംബുലൻസ്",
+            "relationEN": "Both School Bus and Ambulance are purpose-built utility vehicles often painted in distinct recognizable colors like yellow or white.",
+            "relationML": "രണ്ടും പെട്ടെന്ന് തിരിച്ചറിയാൻ കഴിയുന്ന മഞ്ഞയോ വെള്ളയോ പോലുള്ള പ്രത്യേക നിറങ്ങളിൽ പെയിന്റ് ചെയ്ത വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Jik Jik Train",
+        "civWordMal": "തീവണ്ടി",
+        "imposters": [
+          {
+            "word": "Toy Train",
+            "wordMal": "ടോയ് ട്രെയിൻ",
+            "relationEN": "Both Jik Jik Train and Toy Train refer to miniature railway models primarily built for children's amusement.",
+            "relationML": "രണ്ടും പ്രധാനമായും കുട്ടികളുടെ വിനോദത്തിനായി നിർമ്മിച്ച ചെറിയ തീവണ്ടി രൂപങ്ങളാണ്."
+          },
+          {
+            "word": "Toy Train",
+            "wordMal": "ടോയ് ട്രെയിൻ",
+            "relationEN": "Both Jik Jik Train and Toy Train refer to miniature railway models primarily built for children's amusement.",
+            "relationML": "രണ്ടും പ്രധാനമായും കുട്ടികളുടെ വിനോദത്തിനായി നിർമ്മിച്ച ചെറിയ തീവണ്ടി രൂപങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Ambulance",
+        "civWordMal": "ആംബുലൻസ്",
+        "imposters": [
+          {
+            "word": "Fire Engine",
+            "wordMal": "ഫയർ എഞ്ചിൻ",
+            "relationEN": "Both Ambulance and Fire Engine are high-priority emergency vehicles that rush to critical situations.",
+            "relationML": "രണ്ടും അടിയന്തര സാഹചര്യങ്ങളിൽ വേഗത്തിൽ ഓടിയെത്തുന്ന അത്യന്താപേക്ഷിതമായ സുരക്ഷാ വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Fire Engine",
+            "wordMal": "ഫയർ എഞ്ചിൻ",
+            "relationEN": "Both Ambulance and Fire Engine are high-priority emergency vehicles that rush to critical situations.",
+            "relationML": "രണ്ടും അടിയന്തര സാഹചര്യങ്ങളിൽ വേഗത്തിൽ ഓടിയെത്തുന്ന അത്യന്താപേക്ഷിതമായ സുരക്ഷാ വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kochi Metro",
+        "civWordMal": "കൊച്ചി മെട്രോ",
+        "imposters": [
+          {
+            "word": "Water Metro",
+            "wordMal": "വാട്ടർ മെട്രോ",
+            "relationEN": "Both Kochi Metro and Water Metro are innovative, eco-friendly public transportation initiatives in Kochi.",
+            "relationML": "രണ്ടും കൊച്ചി നഗരത്തിലെ പരിസ്ഥിതി സൗഹൃദമായ ആധുനിക പൊതുഗതാഗത സംവിധാനങ്ങളാണ്."
+          },
+          {
+            "word": "Water Metro",
+            "wordMal": "വാട്ടർ മെട്രോ",
+            "relationEN": "Both Kochi Metro and Water Metro are innovative, eco-friendly public transportation initiatives in Kochi.",
+            "relationML": "രണ്ടും കൊച്ചി നഗരത്തിലെ പരിസ്ഥിതി സൗഹൃദമായ ആധുനിക പൊതുഗതാഗത സംവിധാനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Tractor",
+        "civWordMal": "ട്രാക്ടർ",
+        "imposters": [
+          {
+            "word": "JCB",
+            "wordMal": "ജെസിബി",
+            "relationEN": "Both Tractor and JCB are heavy earth-moving or agricultural machines used in construction and farming.",
+            "relationML": "രണ്ടും നിർമ്മാണ മേഖലയിലും കൃഷിയിലും ഉപയോഗിക്കുന്ന ഭാരമേറിയ യന്ത്രവാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "JCB",
+            "wordMal": "ജെസിബി",
+            "relationEN": "Both Tractor and JCB are heavy earth-moving or agricultural machines used in construction and farming.",
+            "relationML": "രണ്ടും നിർമ്മാണ മേഖലയിലും കൃഷിയിലും ഉപയോഗിക്കുന്ന ഭാരമേറിയ യന്ത്രവാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Excavator",
+        "civWordMal": "ജെസിബി",
+        "imposters": [
+          {
+            "word": "JCB",
+            "wordMal": "ജെസിബി",
+            "relationEN": "Both Excavator and JCB are heavy construction machines fitted with large buckets for digging earth.",
+            "relationML": "രണ്ടും മണ്ണ് കുഴിക്കുന്നതിനായി വലിയ ബക്കറ്റുകൾ ഘടിപ്പിച്ച ഭാരമേറിയ നിർമ്മാണ യന്ത്രങ്ങളാണ്."
+          },
+          {
+            "word": "JCB",
+            "wordMal": "ജെസിബി",
+            "relationEN": "Both Excavator and JCB are heavy construction machines fitted with large buckets for digging earth.",
+            "relationML": "രണ്ടും മണ്ണ് കുഴിക്കുന്നതിനായി വലിയ ബക്കറ്റുകൾ ഘടിപ്പിച്ച ഭാരമേറിയ നിർമ്മാണ യന്ത്രങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Speed Boat",
+        "civWordMal": "സ്പീഡ് ബോട്ട്",
+        "imposters": [
+          {
+            "word": "Jankar",
+            "wordMal": "ജങ്കാർ",
+            "relationEN": "Both Speed Boat and Jankar are mechanized watercraft used for navigation in Kerala's rivers and lakes.",
+            "relationML": "രണ്ടും കേരളത്തിലെ പുഴകളിലും തടാകങ്ങളിലും യാത്ര ചെയ്യാൻ ഉപയോഗിക്കുന്ന യന്ത്രവൽകൃത ജലയാനങ്ങളാണ്."
+          },
+          {
+            "word": "Jankar",
+            "wordMal": "ജങ്കാർ",
+            "relationEN": "Both Speed Boat and Jankar are mechanized watercraft used for navigation in Kerala's rivers and lakes.",
+            "relationML": "രണ്ടും കേരളത്തിലെ പുഴകളിലും തടാകങ്ങളിലും യാത്ര ചെയ്യാൻ ഉപയോഗിക്കുന്ന യന്ത്രവൽകൃത ജലയാനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Peti Auto",
+        "civWordMal": "പെട്ടി ഓട്ടോ",
+        "imposters": [
+          {
+            "word": "Goods Auto",
+            "wordMal": "ഗുഡ്സ് ഓട്ടോ",
+            "relationEN": "Both Peti Auto and Goods Auto are small three-wheeled transport vehicles designed for moving light cargo.",
+            "relationML": "രണ്ടും ചെറിയ ചരക്കുകൾ കൊണ്ടുപോകാൻ രൂപകൽപ്പന ചെയ്ത മുച്ചക്ര വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Goods Auto",
+            "wordMal": "ഗുഡ്സ് ഓട്ടോ",
+            "relationEN": "Both Peti Auto and Goods Auto are small three-wheeled transport vehicles designed for moving light cargo.",
+            "relationML": "രണ്ടും ചെറിയ ചരക്കുകൾ കൊണ്ടുപോകാൻ രൂപകൽപ്പന ചെയ്ത മുച്ചക്ര വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Ambassador",
+        "civWordMal": "അംബാസഡർ",
+        "imposters": [
+          {
+            "word": "Contessa",
+            "wordMal": "കോണ്ടസ്സ",
+            "relationEN": "Both Ambassador and Contessa are classic Indian cars manufactured by Hindustan Motors.",
+            "relationML": "രണ്ടും ഹിന്ദുസ്ഥാൻ മോട്ടോഴ്‌സ് നിർമ്മിച്ച പഴയകാല ക്ലാസിക് ഇന്ത്യൻ കാറുകളാണ്."
+          },
+          {
+            "word": "Contessa",
+            "wordMal": "കോണ്ടസ്സ",
+            "relationEN": "Both Ambassador and Contessa are classic Indian cars manufactured by Hindustan Motors.",
+            "relationML": "രണ്ടും ഹിന്ദുസ്ഥാൻ മോട്ടോഴ്‌സ് നിർമ്മിച്ച പഴയകാല ക്ലാസിക് ഇന്ത്യൻ കാറുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Mahindra Jeep",
+        "civWordMal": "മഹീന്ദ്ര ജീപ്പ്",
+        "imposters": [
+          {
+            "word": "Bolero",
+            "wordMal": "ബൊലേറോ",
+            "relationEN": "Both Mahindra Jeep and Bolero are rugged, off-road utility vehicles popular in rural Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിലെ ഗ്രാമപ്രദേശങ്ങളിൽ ജനപ്രിയമായ കടുപ്പമേറിയ ഓഫ് റോഡ് വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Bolero",
+            "wordMal": "ബൊലേറോ",
+            "relationEN": "Both Mahindra Jeep and Bolero are rugged, off-road utility vehicles popular in rural Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിലെ ഗ്രാമപ്രദേശങ്ങളിൽ ജനപ്രിയമായ കടുപ്പമേറിയ ഓഫ് റോഡ് വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Chavittu Vandi",
+        "civWordMal": "ചവിട്ടുവണ്ടി",
+        "imposters": [
+          {
+            "word": "Cycle",
+            "wordMal": "സൈക്കിൾ",
+            "relationEN": "Both Chavittu Vandi and Cycle are pedal-powered non-motorized vehicles.",
+            "relationML": "രണ്ടും മനുഷ്യപ്രയത്നത്താൽ ചവിട്ടി ഓടിക്കുന്ന ഇന്ധനം ആവശ്യമില്ലാത്ത വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Cycle",
+            "wordMal": "സൈക്കിൾ",
+            "relationEN": "Both Chavittu Vandi and Cycle are pedal-powered non-motorized vehicles.",
+            "relationML": "രണ്ടും മനുഷ്യപ്രയത്നത്താൽ ചവിട്ടി ഓടിക്കുന്ന ഇന്ധനം ആവശ്യമില്ലാത്ത വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "RX 100",
+        "civWordMal": "ആർ എക്സ് 100",
+        "imposters": [
+          {
+            "word": "Bullet",
+            "wordMal": "ബുള്ളറ്റ്",
+            "relationEN": "Both Yamaha RX 100 and Royal Enfield Bullet are iconic retro motorcycles with a cult following.",
+            "relationML": "രണ്ടും യുവാക്കൾക്കിടയിൽ വൻ ആരാധകരുള്ള പഴയകാല പ്രശസ്തമായ മോട്ടോർസൈക്കിളുകളാണ്."
+          },
+          {
+            "word": "Bullet",
+            "wordMal": "ബുള്ളറ്റ്",
+            "relationEN": "Both Yamaha RX 100 and Royal Enfield Bullet are iconic retro motorcycles with a cult following.",
+            "relationML": "രണ്ടും യുവാക്കൾക്കിടയിൽ വൻ ആരാധകരുള്ള പഴയകാല പ്രശസ്തമായ മോട്ടോർസൈക്കിളുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Torrus Truck",
+        "civWordMal": "ടോറസ്",
+        "imposters": [
+          {
+            "word": "Tipper",
+            "wordMal": "ടിപ്പർ",
+            "relationEN": "Both Torrus Truck and Tipper are heavy-duty trucks predominantly used in mining and large-scale construction.",
+            "relationML": "രണ്ടും ഖനനത്തിനും വലിയ നിർമ്മാണ പ്രവർത്തനങ്ങൾക്കും ഉപയോഗിക്കുന്ന ഭാരമേറിയ ട്രക്കുകളാണ്."
+          },
+          {
+            "word": "Tipper",
+            "wordMal": "ടിപ്പർ",
+            "relationEN": "Both Torrus Truck and Tipper are heavy-duty trucks predominantly used in mining and large-scale construction.",
+            "relationML": "രണ്ടും ഖനനത്തിനും വലിയ നിർമ്മാണ പ്രവർത്തനങ്ങൾക്കും ഉപയോഗിക്കുന്ന ഭാരമേറിയ ട്രക്കുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Fire Engine",
+        "civWordMal": "ഫയർ ഫോഴ്സ്",
+        "imposters": [
+          {
+            "word": "Ambulance",
+            "wordMal": "ആംബുലൻസ്",
+            "relationEN": "Both Fire Engine and Ambulance are specialized emergency response vehicles equipped with sirens.",
+            "relationML": "രണ്ടും സൈറൺ ഘടിപ്പിച്ച, അടിയന്തര സാഹചര്യങ്ങളിൽ ഉപയോഗിക്കുന്ന പ്രത്യേക വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Ambulance",
+            "wordMal": "ആംബുലൻസ്",
+            "relationEN": "Both Fire Engine and Ambulance are specialized emergency response vehicles equipped with sirens.",
+            "relationML": "രണ്ടും സൈറൺ ഘടിപ്പിച്ച, അടിയന്തര സാഹചര്യങ്ങളിൽ ഉപയോഗിക്കുന്ന പ്രത്യേക വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Water Metro",
+        "civWordMal": "വാട്ടർ മെട്രോ",
+        "imposters": [
+          {
+            "word": "Kochi Metro",
+            "wordMal": "കൊച്ചി മെട്രോ",
+            "relationEN": "Both Water Metro and Kochi Metro are modern, government-operated transit networks revolutionizing travel in Kochi.",
+            "relationML": "രണ്ടും കൊച്ചിയിലെ യാത്രാസൗകര്യങ്ങളെ നവീകരിച്ച ആധുനിക സർക്കാർ ഗതാഗത സംവിധാനങ്ങളാണ്."
+          },
+          {
+            "word": "Kochi Metro",
+            "wordMal": "കൊച്ചി മെട്രോ",
+            "relationEN": "Both Water Metro and Kochi Metro are modern, government-operated transit networks revolutionizing travel in Kochi.",
+            "relationML": "രണ്ടും കൊച്ചിയിലെ യാത്രാസൗകര്യങ്ങളെ നവീകരിച്ച ആധുനിക സർക്കാർ ഗതാഗത സംവിധാനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Low Floor Bus",
+        "civWordMal": "ലോ ഫ്ലോർ ബസ്",
+        "imposters": [
+          {
+            "word": "Aanavandi",
+            "wordMal": "ആനവണ്ടി",
+            "relationEN": "Both Low Floor Bus and Aanavandi are prominent public transport buses run by Kerala State Road Transport Corporation.",
+            "relationML": "രണ്ടും കേരള സ്റ്റേറ്റ് റോഡ് ട്രാൻസ്പോർട്ട് കോർപ്പറേഷൻ നടത്തുന്ന പ്രധാന പൊതുഗതാഗത ബസുകളാണ്."
+          },
+          {
+            "word": "Aanavandi",
+            "wordMal": "ആനവണ്ടി",
+            "relationEN": "Both Low Floor Bus and Aanavandi are prominent public transport buses run by Kerala State Road Transport Corporation.",
+            "relationML": "രണ്ടും കേരള സ്റ്റേറ്റ് റോഡ് ട്രാൻസ്പോർട്ട് കോർപ്പറേഷൻ നടത്തുന്ന പ്രധാന പൊതുഗതാഗത ബസുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Tourist Bus",
+        "civWordMal": "ടൂറിസ്റ്റ് ബസ്",
+        "imposters": [
+          {
+            "word": "KSRTC",
+            "wordMal": "കെഎസ്ആർടിസി",
+            "relationEN": "Both Tourist Bus and KSRTC are major heavy passenger vehicles used for long-distance travel in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിൽ ദീർഘദൂര യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന വലിയ യാത്രാവാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "KSRTC",
+            "wordMal": "കെഎസ്ആർടിസി",
+            "relationEN": "Both Tourist Bus and KSRTC are major heavy passenger vehicles used for long-distance travel in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിൽ ദീർഘദൂര യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന വലിയ യാത്രാവാഹനങ്ങളാണ്."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "school",
+    "name": "College & School",
+    "icon": "??",
+    "words": [
+      {
+        "civWord": "Kalolsavam",
+        "civWordMal": "കലോത്സവം",
+        "imposters": [
+          {
+            "word": "Arts Day",
+            "wordMal": "ആർട്സ് ഡേ",
+            "relationEN": "Both Kalolsavam and Arts Day are vibrant inter-school or intra-school competitions focused on performing arts.",
+            "relationML": "രണ്ടും കലാരൂപങ്ങൾക്ക് പ്രാധാന്യം നൽകിക്കൊണ്ട് സ്കൂളുകളിൽ നടക്കുന്ന വലിയ മത്സര വേദികളാണ്."
+          },
+          {
+            "word": "Arts Day",
+            "wordMal": "ആർട്സ് ഡേ",
+            "relationEN": "Both Kalolsavam and Arts Day are vibrant inter-school or intra-school competitions focused on performing arts.",
+            "relationML": "രണ്ടും കലാരൂപങ്ങൾക്ക് പ്രാധാന്യം നൽകിക്കൊണ്ട് സ്കൂളുകളിൽ നടക്കുന്ന വലിയ മത്സര വേദികളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Arts Day",
+        "civWordMal": "ആർട്സ് ഡേ",
+        "imposters": [
+          {
+            "word": "Sports Day",
+            "wordMal": "സ്പോർട്സ് ഡേ",
+            "relationEN": "Both Arts Day and Sports Day are highly anticipated annual extracurricular festivals in educational institutions.",
+            "relationML": "രണ്ടും വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളിൽ വിദ്യാർത്ഥികൾ വളരെ ആകാംക്ഷയോടെ കാത്തിരിക്കുന്ന വാർഷിക ആഘോഷങ്ങളാണ്."
+          },
+          {
+            "word": "Sports Day",
+            "wordMal": "സ്പോർട്സ് ഡേ",
+            "relationEN": "Both Arts Day and Sports Day are highly anticipated annual extracurricular festivals in educational institutions.",
+            "relationML": "രണ്ടും വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളിൽ വിദ്യാർത്ഥികൾ വളരെ ആകാംക്ഷയോടെ കാത്തിരിക്കുന്ന വാർഷിക ആഘോഷങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "College Canteen",
+        "civWordMal": "കോളേജ് കാന്റീൻ",
+        "imposters": [
+          {
+            "word": "Hostel Mess",
+            "wordMal": "ഹോസ്റ്റൽ മെസ്സ്",
+            "relationEN": "Both College Canteen and Hostel Mess are dining facilities catering to students on campus.",
+            "relationML": "രണ്ടും ക്യാമ്പസിലെ വിദ്യാർത്ഥികൾക്ക് ഭക്ഷണം നൽകുന്ന പ്രധാന ഇടങ്ങളാണ്."
+          },
+          {
+            "word": "Hostel Mess",
+            "wordMal": "ഹോസ്റ്റൽ മെസ്സ്",
+            "relationEN": "Both College Canteen and Hostel Mess are dining facilities catering to students on campus.",
+            "relationML": "രണ്ടും ക്യാമ്പസിലെ വിദ്യാർത്ഥികൾക്ക് ഭക്ഷണം നൽകുന്ന പ്രധാന ഇടങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "PTA Meeting",
+        "civWordMal": "പി ടി എ മീറ്റിംഗ്",
+        "imposters": [
+          {
+            "word": "Open House",
+            "wordMal": "ഓപ്പൺ ഹൗസ്",
+            "relationEN": "Both PTA Meeting and Open House are organized events where parents and teachers discuss a student's academic progress.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ പഠനകാര്യങ്ങൾ ചർച്ച ചെയ്യാൻ മാതാപിതാക്കളും അധ്യാപകരും ഒത്തുചേരുന്ന വേദികളാണ്."
+          },
+          {
+            "word": "Open House",
+            "wordMal": "ഓപ്പൺ ഹൗസ്",
+            "relationEN": "Both PTA Meeting and Open House are organized events where parents and teachers discuss a student's academic progress.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ പഠനകാര്യങ്ങൾ ചർച്ച ചെയ്യാൻ മാതാപിതാക്കളും അധ്യാപകരും ഒത്തുചേരുന്ന വേദികളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Onam Celebration",
+        "civWordMal": "ഓണാഘോഷം",
+        "imposters": [
+          {
+            "word": "Christmas Celebration",
+            "wordMal": "ക്രിസ്മസ് ആഘോഷം",
+            "relationEN": "Both Onam Celebration and Christmas Celebration are major festive events in Kerala marked by feasts and cultural programs.",
+            "relationML": "രണ്ടും സദ്യയും കലാപരിപാടികളുമായി കേരളത്തിൽ കൊണ്ടാടുന്ന വലിയ ആഘോഷങ്ങളാണ്."
+          },
+          {
+            "word": "Christmas Celebration",
+            "wordMal": "ക്രിസ്മസ് ആഘോഷം",
+            "relationEN": "Both Onam Celebration and Christmas Celebration are major festive events in Kerala marked by feasts and cultural programs.",
+            "relationML": "രണ്ടും സദ്യയും കലാപരിപാടികളുമായി കേരളത്തിൽ കൊണ്ടാടുന്ന വലിയ ആഘോഷങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Uniform",
+        "civWordMal": "യൂണിഫോം",
+        "imposters": [
+          {
+            "word": "ID Card",
+            "wordMal": "ഐഡി കാർഡ്",
+            "relationEN": "Both Uniform and ID Card are mandatory items for identifying students in an educational institution.",
+            "relationML": "രണ്ടും വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളിൽ വിദ്യാർത്ഥികളെ തിരിച്ചറിയാൻ ഉപയോഗിക്കുന്ന നിർബന്ധിത വസ്തുക്കളാണ്."
+          },
+          {
+            "word": "ID Card",
+            "wordMal": "ഐഡി കാർഡ്",
+            "relationEN": "Both Uniform and ID Card are mandatory items for identifying students in an educational institution.",
+            "relationML": "രണ്ടും വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളിൽ വിദ്യാർത്ഥികളെ തിരിച്ചറിയാൻ ഉപയോഗിക്കുന്ന നിർബന്ധിത വസ്തുക്കളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "School Bus",
+        "civWordMal": "സ്കൂൾ ബസ്",
+        "imposters": [
+          {
+            "word": "Ambulance",
+            "wordMal": "ആംബുലൻസ്",
+            "relationEN": "Both School Bus and Ambulance are purpose-built utility vehicles often painted in distinct recognizable colors like yellow or white.",
+            "relationML": "രണ്ടും പെട്ടെന്ന് തിരിച്ചറിയാൻ കഴിയുന്ന മഞ്ഞയോ വെള്ളയോ പോലുള്ള പ്രത്യേക നിറങ്ങളിൽ പെയിന്റ് ചെയ്ത വാഹനങ്ങളാണ്."
+          },
+          {
+            "word": "Ambulance",
+            "wordMal": "ആംബുലൻസ്",
+            "relationEN": "Both School Bus and Ambulance are purpose-built utility vehicles often painted in distinct recognizable colors like yellow or white.",
+            "relationML": "രണ്ടും പെട്ടെന്ന് തിരിച്ചറിയാൻ കഴിയുന്ന മഞ്ഞയോ വെള്ളയോ പോലുള്ള പ്രത്യേക നിറങ്ങളിൽ പെയിന്റ് ചെയ്ത വാഹനങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "PT Period",
+        "civWordMal": "പി ടി പിരീഡ്",
+        "imposters": [
+          {
+            "word": "Library Period",
+            "wordMal": "ലൈബ്രറി പീരീഡ്",
+            "relationEN": "Both PT Period and Library Period are eagerly awaited non-academic sessions in a regular school timetable.",
+            "relationML": "രണ്ടും സ്കൂൾ സമയപ്പട്ടികയിൽ വിദ്യാർത്ഥികൾ ആകാംക്ഷയോടെ കാത്തിരിക്കുന്ന പാഠ്യേതര പീരിയഡുകളാണ്."
+          },
+          {
+            "word": "Library Period",
+            "wordMal": "ലൈബ്രറി പീരീഡ്",
+            "relationEN": "Both PT Period and Library Period are eagerly awaited non-academic sessions in a regular school timetable.",
+            "relationML": "രണ്ടും സ്കൂൾ സമയപ്പട്ടികയിൽ വിദ്യാർത്ഥികൾ ആകാംക്ഷയോടെ കാത്തിരിക്കുന്ന പാഠ്യേതര പീരിയഡുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Annual Day",
+        "civWordMal": "ആനുവൽ ഡേ",
+        "imposters": [
+          {
+            "word": "Sports Day",
+            "wordMal": "സ്പോർട്സ് ഡേ",
+            "relationEN": "Both Annual Day and Sports Day are major yearly events celebrated in schools and colleges.",
+            "relationML": "രണ്ടും സ്കൂളുകളിലും കോളേജുകളിലും വർഷം തോറും നടക്കുന്ന പ്രധാന ആഘോഷങ്ങളാണ്."
+          },
+          {
+            "word": "Sports Day",
+            "wordMal": "സ്പോർട്സ് ഡേ",
+            "relationEN": "Both Annual Day and Sports Day are major yearly events celebrated in schools and colleges.",
+            "relationML": "രണ്ടും സ്കൂളുകളിലും കോളേജുകളിലും വർഷം തോറും നടക്കുന്ന പ്രധാന ആഘോഷങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Exam Hall",
+        "civWordMal": "എക്സാം ഹാൾ",
+        "imposters": [
+          {
+            "word": "Classroom",
+            "wordMal": "ക്ലാസ്സ് മുറി",
+            "relationEN": "Both Exam Hall and Classroom are designated physical spaces in a school where academic activities occur.",
+            "relationML": "രണ്ടും സ്കൂളിൽ പഠനപ്രവർത്തനങ്ങൾ നടക്കുന്ന പ്രത്യേക മുറികളാണ്."
+          },
+          {
+            "word": "Classroom",
+            "wordMal": "ക്ലാസ്സ് മുറി",
+            "relationEN": "Both Exam Hall and Classroom are designated physical spaces in a school where academic activities occur.",
+            "relationML": "രണ്ടും സ്കൂളിൽ പഠനപ്രവർത്തനങ്ങൾ നടക്കുന്ന പ്രത്യേക മുറികളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Rank List",
+        "civWordMal": "റാങ്ക് ലിസ്റ്റ്",
+        "imposters": [
+          {
+            "word": "Waiting List",
+            "wordMal": "വെയ്റ്റിംഗ് ലിസ്റ്റ്",
+            "relationEN": "Both Rank List and Waiting List are official documents displaying candidates' names ordered by merit or priority.",
+            "relationML": "രണ്ടും ഉദ്യോഗാർത്ഥികളുടെയോ വിദ്യാർത്ഥികളുടെയോ പേരുകൾ മുൻഗണനാക്രമത്തിൽ പ്രസിദ്ധീകരിക്കുന്ന ഔദ്യോഗിക രേഖകളാണ്."
+          },
+          {
+            "word": "Waiting List",
+            "wordMal": "വെയ്റ്റിംഗ് ലിസ്റ്റ്",
+            "relationEN": "Both Rank List and Waiting List are official documents displaying candidates' names ordered by merit or priority.",
+            "relationML": "രണ്ടും ഉദ്യോഗാർത്ഥികളുടെയോ വിദ്യാർത്ഥികളുടെയോ പേരുകൾ മുൻഗണനാക്രമത്തിൽ പ്രസിദ്ധീകരിക്കുന്ന ഔദ്യോഗിക രേഖകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "College Union",
+        "civWordMal": "കോളേജ് യൂണിയൻ",
+        "imposters": [
+          {
+            "word": "SFI",
+            "wordMal": "എസ്എഫ്ഐ",
+            "relationEN": "Both College Union and SFI represent student political organizations actively involved in campus politics.",
+            "relationML": "രണ്ടും ക്യാമ്പസ് രാഷ്ട്രീയത്തിൽ സജീവമായി ഇടപെടുന്ന വിദ്യാർത്ഥി രാഷ്ട്രീയ സംഘടനകളാണ്."
+          },
+          {
+            "word": "SFI",
+            "wordMal": "എസ്എഫ്ഐ",
+            "relationEN": "Both College Union and SFI represent student political organizations actively involved in campus politics.",
+            "relationML": "രണ്ടും ക്യാമ്പസ് രാഷ്ട്രീയത്തിൽ സജീവമായി ഇടപെടുന്ന വിദ്യാർത്ഥി രാഷ്ട്രീയ സംഘടനകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Batch",
+        "civWordMal": "ബാച്ച്",
+        "imposters": [
+          {
+            "word": "Class",
+            "wordMal": "ക്ലാസ്സ്",
+            "relationEN": "Both Batch and Class refer to a specific group of students studying together in the same academic year.",
+            "relationML": "രണ്ടും ഒരേ അധ്യയന വർഷത്തിൽ ഒരുമിച്ച് പഠിക്കുന്ന വിദ്യാർത്ഥികളുടെ കൂട്ടത്തെ സൂചിപ്പിക്കുന്നു."
+          },
+          {
+            "word": "Class",
+            "wordMal": "ക്ലാസ്സ്",
+            "relationEN": "Both Batch and Class refer to a specific group of students studying together in the same academic year.",
+            "relationML": "രണ്ടും ഒരേ അധ്യയന വർഷത്തിൽ ഒരുമിച്ച് പഠിക്കുന്ന വിദ്യാർത്ഥികളുടെ കൂട്ടത്തെ സൂചിപ്പിക്കുന്നു."
+          }
+        ]
+      },
+      {
+        "civWord": "Farewell",
+        "civWordMal": "ഫെയർവെൽ",
+        "imposters": [
+          {
+            "word": "Fresher Party",
+            "wordMal": "ഫ്രെഷേഴ്സ് പാർട്ടി",
+            "relationEN": "Both Farewell and Fresher Party are celebratory college events marking the exit and entry of student batches.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ വരവും പോക്കും ആഘോഷിക്കുന്ന ക്യാമ്പസ് ചടങ്ങുകളാണ്."
+          },
+          {
+            "word": "Fresher Party",
+            "wordMal": "ഫ്രെഷേഴ്സ് പാർട്ടി",
+            "relationEN": "Both Farewell and Fresher Party are celebratory college events marking the exit and entry of student batches.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ വരവും പോക്കും ആഘോഷിക്കുന്ന ക്യാമ്പസ് ചടങ്ങുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "NSS",
+        "civWordMal": "എൻ എസ് എസ്",
+        "imposters": [
+          {
+            "word": "NCC",
+            "wordMal": "എൻസിസി",
+            "relationEN": "Both NSS and NCC are voluntary student organizations in schools and colleges promoting discipline and social service.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളിൽ അച്ചടക്കവും സാമൂഹ്യസേവന താല്പര്യവും വളർത്തുന്ന സംഘടനകളാണ്."
+          },
+          {
+            "word": "NCC",
+            "wordMal": "എൻസിസി",
+            "relationEN": "Both NSS and NCC are voluntary student organizations in schools and colleges promoting discipline and social service.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളിൽ അച്ചടക്കവും സാമൂഹ്യസേവന താല്പര്യവും വളർത്തുന്ന സംഘടനകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "NCC",
+        "civWordMal": "എൻ സി സി",
+        "imposters": [
+          {
+            "word": "NSS",
+            "wordMal": "എൻഎസ്എസ്",
+            "relationEN": "Both NCC and NSS are voluntary student organizations focusing on discipline and community service.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളിൽ അച്ചടക്കവും സാമൂഹ്യസേവന താല്പര്യവും വളർത്തുന്ന സംഘടനകളാണ്."
+          },
+          {
+            "word": "NSS",
+            "wordMal": "എൻഎസ്എസ്",
+            "relationEN": "Both NCC and NSS are voluntary student organizations focusing on discipline and community service.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളിൽ അച്ചടക്കവും സാമൂഹ്യസേവന താല്പര്യവും വളർത്തുന്ന സംഘടനകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Laboratory",
+        "civWordMal": "ലബോറട്ടറി",
+        "imposters": [
+          {
+            "word": "Library",
+            "wordMal": "ലൈബ്രറി",
+            "relationEN": "Both Laboratory and Library are specialized rooms in an educational institution dedicated to practical learning and research.",
+            "relationML": "രണ്ടും വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളിൽ പഠനത്തിനും ഗവേഷണത്തിനുമായി മാറ്റിവെച്ചിട്ടുള്ള പ്രത്യേക മുറികളാണ്."
+          },
+          {
+            "word": "Library",
+            "wordMal": "ലൈബ്രറി",
+            "relationEN": "Both Laboratory and Library are specialized rooms in an educational institution dedicated to practical learning and research.",
+            "relationML": "രണ്ടും വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളിൽ പഠനത്തിനും ഗവേഷണത്തിനുമായി മാറ്റിവെച്ചിട്ടുള്ള പ്രത്യേക മുറികളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Library",
+        "civWordMal": "ലൈബ്രറി",
+        "imposters": [
+          {
+            "word": "Laboratory",
+            "wordMal": "ലബോറട്ടറി",
+            "relationEN": "Both Library and Laboratory are institutional facilities providing resources for research and practical application.",
+            "relationML": "രണ്ടും ഗവേഷണത്തിനും പ്രായോഗിക പഠനത്തിനുമുള്ള സൗകര്യങ്ങൾ നൽകുന്ന സ്ഥാപന ഇടങ്ങളാണ്."
+          },
+          {
+            "word": "Laboratory",
+            "wordMal": "ലബോറട്ടറി",
+            "relationEN": "Both Library and Laboratory are institutional facilities providing resources for research and practical application.",
+            "relationML": "രണ്ടും ഗവേഷണത്തിനും പ്രായോഗിക പഠനത്തിനുമുള്ള സൗകര്യങ്ങൾ നൽകുന്ന സ്ഥാപന ഇടങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Hostel",
+        "civWordMal": "ഹോസ്റ്റൽ",
+        "imposters": [
+          {
+            "word": "Lodge",
+            "wordMal": "ലോഡ്ജ്",
+            "relationEN": "Both Hostel and Lodge offer temporary accommodation, usually for students or travelers.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾക്കോ യാത്രികർക്കോ അടിസ്ഥാന സൗകര്യങ്ങളോടെ താത്കാലിക താമസം നൽകുന്ന ഇടങ്ങളാണ്."
+          },
+          {
+            "word": "Lodge",
+            "wordMal": "ലോഡ്ജ്",
+            "relationEN": "Both Hostel and Lodge offer temporary accommodation, usually for students or travelers.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾക്കോ യാത്രികർക്കോ അടിസ്ഥാന സൗകര്യങ്ങളോടെ താത്കാലിക താമസം നൽകുന്ന ഇടങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Class Leader",
+        "civWordMal": "ക്ലാസ് ലീഡർ",
+        "imposters": [
+          {
+            "word": "Monitor",
+            "wordMal": "മോണിറ്റർ",
+            "relationEN": "Both Class Leader and Monitor denote a student appointed to maintain discipline and assist teachers in a classroom.",
+            "relationML": "രണ്ടും ക്ലാസ്സിലെ അച്ചടക്കം പാലിക്കാനും അധ്യാപകരെ സഹായിക്കാനും ചുമതലപ്പെടുത്തിയ വിദ്യാർത്ഥിയെ സൂചിപ്പിക്കുന്നു."
+          },
+          {
+            "word": "Monitor",
+            "wordMal": "മോണിറ്റർ",
+            "relationEN": "Both Class Leader and Monitor denote a student appointed to maintain discipline and assist teachers in a classroom.",
+            "relationML": "രണ്ടും ക്ലാസ്സിലെ അച്ചടക്കം പാലിക്കാനും അധ്യാപകരെ സഹായിക്കാനും ചുമതലപ്പെടുത്തിയ വിദ്യാർത്ഥിയെ സൂചിപ്പിക്കുന്നു."
+          }
+        ]
+      },
+      {
+        "civWord": "Tour Trip",
+        "civWordMal": "ഐവി / ടൂർ",
+        "imposters": [
+          {
+            "word": "IV",
+            "wordMal": "ഐവി",
+            "relationEN": "Both Tour Trip and Industrial Visit (IV) involve traveling away from campus for recreation or learning.",
+            "relationML": "രണ്ടും വിനോദത്തിനോ പഠനത്തിനോ വേണ്ടി ക്യാമ്പസിന് പുറത്തേക്ക് പോകുന്ന യാത്രകളാണ്."
+          },
+          {
+            "word": "IV",
+            "wordMal": "ഐവി",
+            "relationEN": "Both Tour Trip and Industrial Visit (IV) involve traveling away from campus for recreation or learning.",
+            "relationML": "രണ്ടും വിനോദത്തിനോ പഠനത്തിനോ വേണ്ടി ക്യാമ്പസിന് പുറത്തേക്ക് പോകുന്ന യാത്രകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Bench and Desk",
+        "civWordMal": "ബെഞ്ചും ഡെസ്കും",
+        "imposters": [
+          {
+            "word": "Blackboard",
+            "wordMal": "ബ്ലാക്ക് ബോർഡ്",
+            "relationEN": "Both Bench and Desk, and Blackboard are quintessential pieces of classroom furniture and equipment.",
+            "relationML": "രണ്ടും ക്ലാസ്സ്മുറികളിലെ ഒഴിച്ചുകൂടാനാവാത്ത പ്രധാന ഫർണിച്ചറുകളും ഉപകരണങ്ങളുമാണ്."
+          },
+          {
+            "word": "Blackboard",
+            "wordMal": "ബ്ലാക്ക് ബോർഡ്",
+            "relationEN": "Both Bench and Desk, and Blackboard are quintessential pieces of classroom furniture and equipment.",
+            "relationML": "രണ്ടും ക്ലാസ്സ്മുറികളിലെ ഒഴിച്ചുകൂടാനാവാത്ത പ്രധാന ഫർണിച്ചറുകളും ഉപകരണങ്ങളുമാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Bell",
+        "civWordMal": "സ്കൂൾ ബെൽ",
+        "imposters": [
+          {
+            "word": "Siren",
+            "wordMal": "സൈറൺ",
+            "relationEN": "Both Bell and Siren are loud sound-producing devices used for alarms or signals.",
+            "relationML": "രണ്ടും അപായസൂചനയോ അറിയിപ്പുകളോ നൽകാൻ വലിയ ശബ്ദം ഉണ്ടാക്കുന്ന ഉപകരണങ്ങളാണ്."
+          },
+          {
+            "word": "Siren",
+            "wordMal": "സൈറൺ",
+            "relationEN": "Both Bell and Siren are loud sound-producing devices used for alarms or signals.",
+            "relationML": "രണ്ടും അപായസൂചനയോ അറിയിപ്പുകളോ നൽകാൻ വലിയ ശബ്ദം ഉണ്ടാക്കുന്ന ഉപകരണങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Principal",
+        "civWordMal": "പ്രിൻസിപ്പൽ",
+        "imposters": [
+          {
+            "word": "Headmaster",
+            "wordMal": "ഹെഡ്മാസ്റ്റർ",
+            "relationEN": "Both Principal and Headmaster hold the highest administrative authority in a school or college.",
+            "relationML": "രണ്ടും ഒരു വിദ്യാഭ്യാസ സ്ഥാപനത്തിന്റെ ഏറ്റവും ഉയർന്ന ഭരണച്ചുമതലയുള്ളവരാണ്."
+          },
+          {
+            "word": "Headmaster",
+            "wordMal": "ഹെഡ്മാസ്റ്റർ",
+            "relationEN": "Both Principal and Headmaster hold the highest administrative authority in a school or college.",
+            "relationML": "രണ്ടും ഒരു വിദ്യാഭ്യാസ സ്ഥാപനത്തിന്റെ ഏറ്റവും ഉയർന്ന ഭരണച്ചുമതലയുള്ളവരാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Assignment",
+        "civWordMal": "അസൈൻമെന്റ്",
+        "imposters": [
+          {
+            "word": "Record Book",
+            "wordMal": "റെക്കോർഡ് ബുക്ക്",
+            "relationEN": "Both Assignment and Record Book are standard academic tasks that contribute to a student's internal marks.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ ഇന്റേണൽ മാർക്കിനെ സ്വാധീനിക്കുന്ന പ്രധാന പഠന ചുമതലകളാണ്."
+          },
+          {
+            "word": "Record Book",
+            "wordMal": "റെക്കോർഡ് ബുക്ക്",
+            "relationEN": "Both Assignment and Record Book are standard academic tasks that contribute to a student's internal marks.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ ഇന്റേണൽ മാർക്കിനെ സ്വാധീനിക്കുന്ന പ്രധാന പഠന ചുമതലകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Alumni Meet",
+        "civWordMal": "പൂർവ്വവിദ്യാർത്ഥി സംഗമം",
+        "imposters": [
+          {
+            "word": "Farewell",
+            "wordMal": "ഫെയർവെൽ",
+            "relationEN": "Both Alumni Meet and Farewell are emotional events celebrating the bond between students and their institution.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾക്കും അവരുടെ സ്ഥാപനത്തിനുമിടയിലുള്ള ബന്ധം ആഘോഷിക്കുന്ന വികാരനിർഭരമായ ചടങ്ങുകളാണ്."
+          },
+          {
+            "word": "Farewell",
+            "wordMal": "ഫെയർവെൽ",
+            "relationEN": "Both Alumni Meet and Farewell are emotional events celebrating the bond between students and their institution.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾക്കും അവരുടെ സ്ഥാപനത്തിനുമിടയിലുള്ള ബന്ധം ആഘോഷിക്കുന്ന വികാരനിർഭരമായ ചടങ്ങുകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "IV (Industrial Visit)",
+        "civWordMal": "ഐവി",
+        "imposters": [
+          {
+            "word": "Tour Trip",
+            "wordMal": "ടൂർ ട്രിപ്പ്",
+            "relationEN": "Both Industrial Visit (IV) and Tour Trip are organized excursions taken by students with their classmates.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾ സഹപാഠികളോടൊപ്പം നടത്തുന്ന സംഘടിത യാത്രകളാണ്."
+          },
+          {
+            "word": "Tour Trip",
+            "wordMal": "ടൂർ ട്രിപ്പ്",
+            "relationEN": "Both Industrial Visit (IV) and Tour Trip are organized excursions taken by students with their classmates.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾ സഹപാഠികളോടൊപ്പം നടത്തുന്ന സംഘടിത യാത്രകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Tuition Class",
+        "civWordMal": "ട്യൂഷൻ ക്ലാസ്",
+        "imposters": [
+          {
+            "word": "School",
+            "wordMal": "സ്കൂൾ",
+            "relationEN": "Both Tuition Class and School are structured environments where students gather to learn academic subjects.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾ പാഠ്യവിഷയങ്ങൾ പഠിക്കാൻ ഒത്തുചേരുന്ന വിദ്യാഭ്യാസ ഇടങ്ങളാണ്."
+          },
+          {
+            "word": "School",
+            "wordMal": "സ്കൂൾ",
+            "relationEN": "Both Tuition Class and School are structured environments where students gather to learn academic subjects.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾ പാഠ്യവിഷയങ്ങൾ പഠിക്കാൻ ഒത്തുചേരുന്ന വിദ്യാഭ്യാസ ഇടങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Canara Bank Challan",
+        "civWordMal": "ചെല്ലാൻ",
+        "imposters": [
+          {
+            "word": "SBI Passbook",
+            "wordMal": "എസ്ബിഐ പാസ്സ്ബുക്ക്",
+            "relationEN": "Both Canara Bank Challan and SBI Passbook are crucial physical banking documents used for financial transactions.",
+            "relationML": "രണ്ടും സാമ്പത്തിക ഇടപാടുകൾക്ക് ഉപയോഗിക്കുന്ന പ്രധാനപ്പെട്ട ബാങ്കിംഗ് രേഖകളാണ്."
+          },
+          {
+            "word": "SBI Passbook",
+            "wordMal": "എസ്ബിഐ പാസ്സ്ബുക്ക്",
+            "relationEN": "Both Canara Bank Challan and SBI Passbook are crucial physical banking documents used for financial transactions.",
+            "relationML": "രണ്ടും സാമ്പത്തിക ഇടപാടുകൾക്ക് ഉപയോഗിക്കുന്ന പ്രധാനപ്പെട്ട ബാങ്കിംഗ് രേഖകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Record Book",
+        "civWordMal": "റെക്കോർഡ് ബുക്ക്",
+        "imposters": [
+          {
+            "word": "Assignment",
+            "wordMal": "അസൈൻമെന്റ്",
+            "relationEN": "Both Record Book and Assignment are mandatory written submissions evaluated by teachers.",
+            "relationML": "രണ്ടും അദ്ധ്യാപകർ വിലയിരുത്തുന്നതിനായി വിദ്യാർത്ഥികൾ നിർബന്ധമായും എഴുതി സമർപ്പിക്കേണ്ടവയാണ്."
+          },
+          {
+            "word": "Assignment",
+            "wordMal": "അസൈൻമെന്റ്",
+            "relationEN": "Both Record Book and Assignment are mandatory written submissions evaluated by teachers.",
+            "relationML": "രണ്ടും അദ്ധ്യാപകർ വിലയിരുത്തുന്നതിനായി വിദ്യാർത്ഥികൾ നിർബന്ധമായും എഴുതി സമർപ്പിക്കേണ്ടവയാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Study Leave",
+        "civWordMal": "സ്റ്റഡി ലീവ്",
+        "imposters": [
+          {
+            "word": "Onam Vacation",
+            "wordMal": "ഓണാവധി",
+            "relationEN": "Both Study Leave and Onam Vacation are periods when students get days off from regular classes.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾക്ക് സ്ഥിരം ക്ലാസുകളിൽ നിന്ന് അവധി ലഭിക്കുന്ന ദിവസങ്ങളാണ്."
+          },
+          {
+            "word": "Onam Vacation",
+            "wordMal": "ഓണാവധി",
+            "relationEN": "Both Study Leave and Onam Vacation are periods when students get days off from regular classes.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾക്ക് സ്ഥിരം ക്ലാസുകളിൽ നിന്ന് അവധി ലഭിക്കുന്ന ദിവസങ്ങളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Youth Festival",
+        "civWordMal": "യുവജനോത്സവം",
+        "imposters": [
+          {
+            "word": "Kalolsavam",
+            "wordMal": "കലോത്സവം",
+            "relationEN": "Both Youth Festival and Kalolsavam are grand competitive cultural events showcasing students' artistic talents.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ കലാപരമായ കഴിവുകൾ പ്രകടിപ്പിക്കുന്ന വലിയ സാംസ്കാരിക മത്സര വേദികളാണ്."
+          },
+          {
+            "word": "Kalolsavam",
+            "wordMal": "കലോത്സവം",
+            "relationEN": "Both Youth Festival and Kalolsavam are grand competitive cultural events showcasing students' artistic talents.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ കലാപരമായ കഴിവുകൾ പ്രകടിപ്പിക്കുന്ന വലിയ സാംസ്കാരിക മത്സര വേദികളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Progress Report",
+        "civWordMal": "പ്രോഗ്രസ് റിപ്പോർട്ട്",
+        "imposters": [
+          {
+            "word": "Mark List",
+            "wordMal": "മാർക്ക് ലിസ്റ്റ്",
+            "relationEN": "Both Progress Report and Mark List are official documents detailing a student's academic performance.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥിയുടെ പഠന നിലവാരം വ്യക്തമാക്കുന്ന ഔദ്യോഗിക രേഖകളാണ്."
+          },
+          {
+            "word": "Mark List",
+            "wordMal": "മാർക്ക് ലിസ്റ്റ്",
+            "relationEN": "Both Progress Report and Mark List are official documents detailing a student's academic performance.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥിയുടെ പഠന നിലവാരം വ്യക്തമാക്കുന്ന ഔദ്യോഗിക രേഖകളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Geometry Box",
+        "civWordMal": "ജോമട്രി ബോക്സ്",
+        "imposters": [
+          {
+            "word": "Pencil Pouch",
+            "wordMal": "പെൻസിൽ പൗച്ച്",
+            "relationEN": "Both Geometry Box and Pencil Pouch are used by students to carry stationery items like pens and pencils.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾ പേന, പെൻസിൽ തുടങ്ങിയ പഠനോപകരണങ്ങൾ കൊണ്ടുപോകാൻ ഉപയോഗിക്കുന്നവയാണ്."
+          },
+          {
+            "word": "Pencil Pouch",
+            "wordMal": "പെൻസിൽ പൗച്ച്",
+            "relationEN": "Both Geometry Box and Pencil Pouch are used by students to carry stationery items like pens and pencils.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾ പേന, പെൻസിൽ തുടങ്ങിയ പഠനോപകരണങ്ങൾ കൊണ്ടുപോകാൻ ഉപയോഗിക്കുന്നവയാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Slate and Pencil",
+        "civWordMal": "സ്ലേറ്റും പെൻസിലും",
+        "imposters": [
+          {
+            "word": "Chalk",
+            "wordMal": "ചോക്ക്",
+            "relationEN": "Both Slate and Pencil, and Chalk are traditional, erasable writing instruments used by young learners in the past.",
+            "relationML": "രണ്ടും പണ്ടുകാലത്ത് ചെറിയ കുട്ടികൾ എഴുതിപ്പഠിക്കാൻ ഉപയോഗിച്ചിരുന്ന മായ്ക്കാൻ കഴിയുന്ന വസ്തുക്കളാണ്."
+          },
+          {
+            "word": "Chalk",
+            "wordMal": "ചോക്ക്",
+            "relationEN": "Both Slate and Pencil, and Chalk are traditional, erasable writing instruments used by young learners in the past.",
+            "relationML": "രണ്ടും പണ്ടുകാലത്ത് ചെറിയ കുട്ടികൾ എഴുതിപ്പഠിക്കാൻ ഉപയോഗിച്ചിരുന്ന മായ്ക്കാൻ കഴിയുന്ന വസ്തുക്കളാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "School Bag",
+        "civWordMal": "സ്കൂൾ ബാഗ്",
+        "imposters": [
+          {
+            "word": "Lunch Box",
+            "wordMal": "ലഞ്ച് ബോക്സ്",
+            "relationEN": "Both School Bag and Lunch Box are essential items carried by school children every day.",
+            "relationML": "രണ്ടും സ്കൂൾ കുട്ടികൾ ദിവസവും കൊണ്ടുപോകുന്ന അത്യാവശ്യ സാധനങ്ങളാണ്."
+          },
+          {
+            "word": "Lunch Box",
+            "wordMal": "ലഞ്ച് ബോക്സ്",
+            "relationEN": "Both School Bag and Lunch Box are essential items carried by school children every day.",
+            "relationML": "രണ്ടും സ്കൂൾ കുട്ടികൾ ദിവസവും കൊണ്ടുപോകുന്ന അത്യാവശ്യ സാധനങ്ങളാണ്."
+          }
+        ]
+      }
+    ]
+  }
+]
