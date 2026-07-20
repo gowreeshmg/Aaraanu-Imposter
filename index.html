@@ -21,8 +21,17 @@
     .home-copy h1{font-size:clamp(38px,9.5vw,46px)!important;line-height:1.05!important}
     .home-copy strong{font-size:14px!important;letter-spacing:3.5px!important;margin-top:12px!important;margin-bottom:6px!important}
     .home-copy p{font-size:14px!important;color:#d8d4e2!important;margin-top:6px!important;margin-bottom:12px!important}
-    /* Home screen — simple full-height flex column, no position:fixed trapping */
-    #home.screen.active{display:flex!important;flex-direction:column!important;min-height:100dvh!important;padding:0!important;overflow:hidden!important}
+    /* Home screen: relative container that exactly fills the viewport */
+    #home.screen.active{
+      position:relative!important;
+      height:100dvh!important;
+      min-height:100dvh!important;
+      max-height:100dvh!important;
+      overflow:hidden!important;
+      display:flex!important;
+      flex-direction:column!important;
+      padding:0!important;
+    }
     .home-top{padding:max(env(safe-area-inset-top,16px),16px) 16px 0!important}
 
     #setup{padding-bottom:120px!important}
@@ -95,6 +104,8 @@
       <img id="homeCharacterImg" class="home-character" src="assets/home-character.png" alt="Malayalam movie character" />
     </div>
     <div class="home-copy"><h1 id="homeTitle">Aaraanu<br />Imposter?</h1><strong id="homeEditionBadge">MALAYALAM EDITION</strong><p id="homeSubtitle">Find the fake!</p></div>
+    <!-- home-actions: absolutely pinned to bottom of #home (which is height:100dvh) -->
+    <div class="home-actions" id="homeActions"><button class="primary" id="startSetup"><span>&#9655;</span> Let's Start</button><button class="link-button" id="openHelp">&#9432; &nbsp; How to Play</button></div>
   </section>
 
   <section id="help" class="screen"><button class="back" data-go="home">← Back</button><span class="eyebrow">HOW TO PLAY</span><h2>Easy to learn. Fun to bluff.</h2><p class="subcopy">Pass one phone around your group and follow these simple steps.</p><div class="steps"><div><b>1</b><span><strong>Set up your game</strong><small>Add players and choose the Malayalam word categories you want.</small></span></div><div><b>2</b><span><strong>Keep your role secret</strong><small>Most players see the same word. The Imposter does not.</small></span></div><div><b>3</b><span><strong>Give one clue each</strong><small>Describe the word without saying it directly.</small></span></div><div><b>4</b><span><strong>Discuss and vote</strong><small>Find the player who is pretending to know the word.</small></span></div><div><b>5</b><span><strong>Reveal the answer</strong><small>If you vote for the Imposter, everyone else wins!</small></span></div></div><button class="primary bottom-action" data-go="setup">Set up a game <span>→</span></button></section>
@@ -198,8 +209,6 @@
   <section id="vote" class="screen"><span class="eyebrow">VOTE NOW</span><h2>Who is the Imposter?</h2><p class="subcopy">Discuss and select one player.</p><div id="voteList" class="vote-list"></div><button class="primary bottom-action disabled" id="revealResult" disabled>See result <span>→</span></button></section>
   <section id="result" class="screen centered"><div id="resultIcon" class="result-icon">✦</div><span id="resultEyebrow" class="eyebrow">GOT THEM!</span><h2 id="resultTitle">The Imposter is caught!</h2><p id="resultText">Your suspicion was correct.</p><div id="resultComparisonCard" class="result-comparison-card"></div><button class="primary" id="nextRound">Next round <span>→</span></button><button class="link-button" id="goHome">End game</button></section>
 </main>
-  <!-- Home actions fixed bar — lives outside #home so position:fixed anchors to real viewport -->
-  <div class="home-actions" id="homeActions"><button class="primary" id="startSetup"><span>▷</span> Let's Start</button><button class="link-button" id="openHelp">ⓘ &nbsp; How to Play</button></div>
-  <script src="words.js?v=12"></script>
-  <script defer src="app.js?v=12"></script>
+  <script src="words.js?v=13"></script>
+  <script defer src="app.js?v=13"></script>
 </body></html>

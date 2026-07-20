@@ -26,31 +26,32 @@
 #home.screen.active{
   display:flex!important;
   flex-direction:column!important;
+  position:relative!important;
+  height:100dvh!important;
   min-height:100dvh!important;
-  padding:0!important;
+  max-height:100dvh!important;
   overflow:hidden!important;
+  padding:0!important;
 }
+/* Home actions bar: absolutely pinned to the bottom of #home.
+   #home has height:100dvh and position:relative so this is
+   always at the visual bottom, immune to iOS address-bar tricks. */
 .home-actions{
-  position:fixed!important;
+  position:absolute!important;
   bottom:0!important;
   left:50%!important;
   transform:translateX(-50%)!important;
-  margin:0!important;
   width:100%!important;
   max-width:520px!important;
   background:#060509!important;
   border-top:1px solid #1a1726!important;
   border-radius:24px 24px 0 0!important;
-  padding:24px 16px 16px!important;
-  display:none!important;
+  padding:24px 16px 20px!important;
+  display:flex!important;
   flex-direction:column!important;
   gap:8px!important;
   align-items:center!important;
-  z-index:9999!important;
-}
-/* Show the action bar only when home screen is active */
-body:has(#home.screen.active) .home-actions{
-  display:flex!important;
+  z-index:999!important;
 }
 
 
