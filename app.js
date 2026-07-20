@@ -71,6 +71,7 @@ let currentEdition = (typeof window !== 'undefined' && window.localStorage)
   : 'kerala';
 
 let players=loadSavedPlayers(),round=1,currentPlayer=0,imposters=new Set(),word=null,showMalayalam=false,selectedVote=-1,timerId;
+let votes=[],currentVotingPlayer=0;
 
 const SETTINGS_KEY = 'aaraanu_imposter_settings';
 let imposterCount = 1;
@@ -790,7 +791,7 @@ const MOVIE_DETAILS = {
   'Drishyam': { role: 'Clever family thriller starring Mohanlal where a resourceful father covers up an accidental crime to save his family', roleMalayalam: 'കുടുംബത്തെ രക്ഷിക്കാൻ ബുദ്ധിപൂർവ്വം തെളിവുകൾ നശിപ്പിച്ച് പൊലീസിനെ കബളിപ്പിക്കുന്ന ജോർജ്ജുകുട്ടിയുടെ കഥ' },
   'Kumbalangi Nights': { role: 'Heartwarming coastal drama about four dysfunctional brothers finding love and brotherhood while facing Shammi', roleMalayalam: 'കുമ്പളങ്ങിയിലെ നാല് സഹോദരന്മാരുടെ ജീവിതവും സ്നേഹവും ഷമ്മിയുമായുള്ള ഏറ്റുമുട്ടലും പറയുന്ന സിനിമ' },
   'Bangalore Days': { role: 'Feel-good celebration of friendship and cousinhood starring Dulquer, Fahadh, and Nazriya exploring life in Bangalore', roleMalayalam: 'ബാംഗ്ലൂരിലേക്ക് ചേക്കേറുന്ന മൂന്ന് കസിൻസിന്റെ സൗഹൃദവും പ്രണയവും ജീവിത മാറ്റങ്ങളും' },
-  'Premam': { role: 'Romantic blockbuster starring Nivin Pauly following George through three distinct stages of love across his life', roleMalayalam: 'ജോർജ്ജിന്റെ സ്കൂൾ, കോളേജ്, യുവത്വ കാലഘട്ടങ്ങളിലെ മൂന്ന് പ്രണയങ്ങളുടെ കഥ' },
+'Premam': { role: 'Romantic blockbuster starring Nivin Pauly following George through three distinct stages of love across his life', roleMalayalam: 'ജോർജ്ജിന്റെ സ്കൂൾ, കോളേജ്, യുവത്വ കാലഘട്ടങ്ങളിലെ മൂന്ന് പ്രണയങ്ങളുടെ കഥ' },
   'Traffic': { role: 'High-stakes multi-narrative thriller racing against time to transport a donor organ through heavy road traffic', roleMalayalam: 'അപകടത്തിൽപ്പെട്ട കുട്ടിയുടെ ജീവൻ രക്ഷിക്കാൻ ഹൃദയവുമായി റോഡിലൂടെ നടത്തുന്ന അടിയന്തര യാത്ര' },
   'Indian Rupee': { role: 'Satirical drama starring Prithviraj about a real-estate broker chasing quick wealth and moral realities', roleMalayalam: 'എളുപ്പത്തിൽ പണക്കാരനാകാൻ റിയൽ എസ്റ്റേറ്റ് ബിസിനസിലേക്ക് ഇറങ്ങുന്ന ജയപ്രകാശിന്റെ കഥ' },
   'Romancham': { role: 'Hilarious horror-comedy about bachelors playing with an Ouija board and inviting a quirky ghost named Anamika', roleMalayalam: 'ബാംഗ്ലൂരിൽ ഒന്നിച്ച് താമസിക്കുന്ന കൂട്ടുകാർ ഓജോ ബോർഡ് കളിച്ച് അനാമിക എന്ന പ്രേതത്തെ വിളിച്ചുവരുത്തുന്ന തമാശ' },
@@ -868,17 +869,40 @@ const CHARACTER_DETAILS = {
 };
 
 function chooseWord(){
-  const usable=packs.filter(p=>selected.has(p.id));
-  if(!usable.length){
-    packs.forEach(p=>selected.add(p.id));
-  }
-  const category=usable[Math.floor(Math.random()*usable.length)]||packs[0];
-  const picked=category.words[Math.floor(Math.random()*category.words.length)];
-  
-  // Golden Rule: Imposter word MUST be subtly related to actual word in the exact same domain/theme,
-  // NEVER identical or sharing exact duplicate tokens (e.g., if civilian is Kappa Biryani, imposter cannot get Kappa or Biryani).
-  // Also NEVER allow a sentence or explanation! Must be a single word or short 1-3 word noun phrase.
-  const isValidShortNoun = (w) => {
+    const usable=packs.filter(p=>selected.has(p.id));
+    if(!usable.length){
+      packs.forEach(p=>selected.add(p.id));
+    }
+    const category=usable[Math.floor(Math.random()*usable.length)]||packs[0];
+    const pickedEntry=category.words[Math.floor(Math.random()*category.words.length)];
+    
+    let picked = null;
+    let impWord = null;
+    let impMalWord = null;
+    let specificPairRelationEN = '';
+    let specificPairRelationML = '';
+    
+    if (pickedEntry && !Array.isArray(pickedEntry) && typeof pickedEntry === 'object') {
+      const imposters = pickedEntry.imposters;
+      const chosenImp = imposters[Math.floor(Math.random() * imposters.length)];
+      
+      if (Math.random() > 0.5) {
+         picked = [pickedEntry.civWord, pickedEntry.civWordMal, chosenImp.word, chosenImp.wordMal];
+         impWord = chosenImp.word;
+         impMalWord = chosenImp.wordMal;
+      } else {
+         picked = [chosenImp.word, chosenImp.wordMal, pickedEntry.civWord, pickedEntry.civWordMal];
+         impWord = pickedEntry.civWord;
+         impMalWord = pickedEntry.civWordMal;
+      }
+      
+      specificPairRelationEN = chosenImp.relationEN || '';
+      specificPairRelationML = chosenImp.relationML || '';
+    } else {
+      picked = pickedEntry;
+    }
+
+    const isValidShortNoun = (w) => {
     if (!w || typeof w !== 'string') return false;
     const trimmed = w.trim();
     const words = trimmed.split(/\s+/);
@@ -887,10 +911,6 @@ function chooseWord(){
     return !words.some(x => badVerbs.includes(x.toLowerCase()));
   };
 
-  let impWord = null;
-  let impMalWord = null;
-  let specificPairRelationEN = '';
-  let specificPairRelationML = '';
 
   // 0. NEW: Check if there's a predefined UNIQUE_PAIRS match for this category!
   if (typeof UNIQUE_PAIRS !== 'undefined') {
