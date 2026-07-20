@@ -889,47 +889,80 @@ function chooseWord(){
 
   let impWord = null;
   let impMalWord = null;
+  let specificPairRelationEN = '';
+  let specificPairRelationML = '';
 
-  // 1. Check our curated exact match dictionaries first!
-  const dictImp = IMPOSTER_SINGLE_WORDS[picked[0]];
-  const dictImpMal = IMPOSTER_MALAYALAM_SINGLE_WORDS[picked[0]];
-  if (dictImp && dictImpMal && dictImp.toLowerCase() !== picked[0].toLowerCase() && !picked[0].toLowerCase().includes(dictImp.toLowerCase()) && isValidShortNoun(dictImp)) {
-    impWord = dictImp;
-    impMalWord = dictImpMal;
-  }
-
-  // 2. For international edition packs, picked[2] IS the imposter word (a sibling character/item).
-  //    For Kerala packs marked isAI, also use picked[2] if valid.
-  if (!impWord || !impMalWord) {
-    const isIntlPack = category.id && category.id.startsWith('intl_');
-    if (isIntlPack && picked[2] && picked[2] !== picked[0]) {
-      impWord = picked[2];
-      impMalWord = picked[2]; // set to same as impWord so it's truthy — prevents step 3 overriding
-    } else if (category.isAI && picked[2] && picked[3] && picked[2] !== 'Related Secret' && picked[2] !== picked[0] && isValidShortNoun(picked[2])) {
-      const w0Lower = picked[0].toLowerCase();
-      const w2Lower = picked[2].toLowerCase();
-      const w2First = picked[2].split(' ')[0].toLowerCase();
-      if (w0Lower !== w2Lower && !w0Lower.includes(w2Lower) && !w2Lower.includes(w0Lower) && !w0Lower.includes(w2First)) {
-        impWord = picked[2];
-        impMalWord = picked[3];
+  // 0. NEW: Check if there's a predefined UNIQUE_PAIRS match for this category!
+  if (typeof UNIQUE_PAIRS !== 'undefined') {
+    const categoryWords = category.words.map(w => w[0].toLowerCase());
+    const validPairs = UNIQUE_PAIRS.filter(pair => 
+      categoryWords.includes(pair[0].toLowerCase()) && 
+      categoryWords.includes(pair[1].toLowerCase())
+    );
+    
+    if (validPairs.length > 0) {
+      // Pick a random valid predefined pair!
+      const chosen = validPairs[Math.floor(Math.random() * validPairs.length)];
+      
+      // Randomly assign one to civilian, one to imposter
+      if (Math.random() > 0.5) {
+        picked = category.words.find(w => w[0].toLowerCase() === chosen[0].toLowerCase());
+        impWord = chosen[1];
+      } else {
+        picked = category.words.find(w => w[0].toLowerCase() === chosen[1].toLowerCase());
+        impWord = chosen[0];
       }
+      
+      const impObj = category.words.find(w => w[0].toLowerCase() === impWord.toLowerCase());
+      if (impObj) impMalWord = impObj[1];
+      
+      specificPairRelationEN = chosen[2];
+      specificPairRelationML = chosen[3];
     }
   }
 
-  // 3. If still not set, smartly pick a related sibling word from the same category that has zero keyword overlap
-  if (!impWord || !impMalWord) {
-    const siblings = category.words.filter(w => {
-      const w0Lower = w[0].toLowerCase();
-      const p0Lower = picked[0].toLowerCase();
-      return w[0] !== picked[0] && w0Lower !== p0Lower && !p0Lower.includes(w0Lower) && !w0Lower.includes(p0Lower) && isValidShortNoun(w[0]);
-    });
-    if (siblings.length) {
-      const sib = siblings[Math.floor(Math.random() * siblings.length)];
-      impWord = sib[0];
-      impMalWord = sib[1];
-    } else {
-      impWord = CATEGORY_SINGLE_WORDS[category.name] || 'Related Secret';
-      impMalWord = CATEGORY_MALAYALAM_SINGLE_WORDS[category.name] || 'ബന്ധമുള്ള വാക്ക്';
+  if (!specificPairRelationEN) {
+    // 1. Check our curated exact match dictionaries first!
+    const dictImp = IMPOSTER_SINGLE_WORDS[picked[0]];
+    const dictImpMal = IMPOSTER_MALAYALAM_SINGLE_WORDS[picked[0]];
+    if (dictImp && dictImpMal && dictImp.toLowerCase() !== picked[0].toLowerCase() && !picked[0].toLowerCase().includes(dictImp.toLowerCase()) && isValidShortNoun(dictImp)) {
+      impWord = dictImp;
+      impMalWord = dictImpMal;
+    }
+
+    // 2. For international edition packs, picked[2] IS the imposter word (a sibling character/item).
+    //    For Kerala packs marked isAI, also use picked[2] if valid.
+    if (!impWord || !impMalWord) {
+      const isIntlPack = category.id && category.id.startsWith('intl_');
+      if (isIntlPack && picked[2] && picked[2] !== picked[0]) {
+        impWord = picked[2];
+        impMalWord = picked[2]; // set to same as impWord so it's truthy — prevents step 3 overriding
+      } else if (category.isAI && picked[2] && picked[3] && picked[2] !== 'Related Secret' && picked[2] !== picked[0] && isValidShortNoun(picked[2])) {
+        const w0Lower = picked[0].toLowerCase();
+        const w2Lower = picked[2].toLowerCase();
+        const w2First = picked[2].split(' ')[0].toLowerCase();
+        if (w0Lower !== w2Lower && !w0Lower.includes(w2Lower) && !w2Lower.includes(w0Lower) && !w0Lower.includes(w2First)) {
+          impWord = picked[2];
+          impMalWord = picked[3];
+        }
+      }
+    }
+
+    // 3. If still not set, smartly pick a related sibling word from the same category that has zero keyword overlap
+    if (!impWord || !impMalWord) {
+      const siblings = category.words.filter(w => {
+        const w0Lower = w[0].toLowerCase();
+        const p0Lower = picked[0].toLowerCase();
+        return w[0] !== picked[0] && w0Lower !== p0Lower && !p0Lower.includes(w0Lower) && !w0Lower.includes(p0Lower) && isValidShortNoun(w[0]);
+      });
+      if (siblings.length) {
+        const sib = siblings[Math.floor(Math.random() * siblings.length)];
+        impWord = sib[0];
+        impMalWord = sib[1];
+      } else {
+        impWord = CATEGORY_SINGLE_WORDS[category.name] || 'Related Secret';
+        impMalWord = CATEGORY_MALAYALAM_SINGLE_WORDS[category.name] || 'ബന്ധമുള്ള വാക്ക്';
+      }
     }
   }
 
@@ -938,16 +971,18 @@ function chooseWord(){
   let impHintEN = '';
   let impHintML = '';
 
-  // If this is a regular pack (not AI, not intl), [2] and [3] are hints!
-  if (!category.isAI && !(category.id && category.id.startsWith('intl_'))) {
-    civHintEN = picked[2] || '';
-    civHintML = picked[3] || '';
-    // find sibling to get imposter hint
-    if (impWord) {
-      const foundSib = category.words.find(w => w[0] === impWord);
-      if (foundSib) {
-        impHintEN = foundSib[2] || '';
-        impHintML = foundSib[3] || '';
+  if (!specificPairRelationEN) {
+    // If this is a regular pack (not AI, not intl), [2] and [3] are hints!
+    if (!category.isAI && !(category.id && category.id.startsWith('intl_'))) {
+      civHintEN = picked[2] || '';
+      civHintML = picked[3] || '';
+      // find sibling to get imposter hint
+      if (impWord) {
+        const foundSib = category.words.find(w => w[0] === impWord);
+        if (foundSib) {
+          impHintEN = foundSib[2] || '';
+          impHintML = foundSib[3] || '';
+        }
       }
     }
   }
@@ -959,7 +994,8 @@ function chooseWord(){
     hintMalayalam: impMalWord,
     imposterWord: impWord,
     category: category.name,
-    civHintEN, civHintML, impHintEN, impHintML
+    civHintEN, civHintML, impHintEN, impHintML,
+    specificPairRelationEN, specificPairRelationML
   };
 
   const charDetails = CHARACTER_DETAILS[picked[0]];
@@ -1082,7 +1118,10 @@ if(word.category==='Godfather'||word.movieName==='Godfather'){
   const brandMap={pizza:'Italian food',burger:'American fast food','hot dog':'American street food',sushi:'Japanese cuisine',ramen:'Japanese noodle dish',tacos:'Mexican street food',burritos:'Mexican wrap food',pasta:'Italian wheat dish',lasagna:'Italian baked pasta',steak:'grilled red meat',cheesecake:'creamy dessert cake',tiramisu:'Italian coffee dessert',donut:'fried sweet dough',waffle:'battered breakfast',croissant:'French pastry',pancake:'flat breakfast cake',crepe:'thin French pancake','fried chicken':'deep-fried poultry','grilled chicken':'flame-cooked poultry','french fries':'deep-fried potato','onion rings':'battered fried onion','chocolate cake':'rich cocoa dessert',brownies:'dense chocolate square','ice cream':'frozen dairy treat',gelato:'Italian frozen dessert',spaghetti:'long Italian pasta',fettuccine:'flat Italian pasta','spider-man':'Marvel web-slinger',batman:'DC dark knight','iron man':'Marvel armoured hero',thor:'Marvel thunder god','captain america':'Marvel super-soldier',hulk:'Marvel gamma powerhouse',superman:'DC kryptonian hero',flash:'DC speedster',wolverine:'Marvel adamantium mutant',cyclops:'Marvel optic-blast mutant',deadpool:'Marvel fourth-wall breaker',daredevil:'Marvel blind vigilante',lion:'apex big cat predator',tiger:'striped big cat predator',eagle:'powerful raptor bird',hawk:'smaller raptor bird',dolphin:'intelligent sea mammal',shark:'ocean apex predator',elephant:'largest land mammal',rhinoceros:'armoured land giant',cheetah:'fastest land predator',leopard:'spotted stealthy predator',wolf:'pack predator canine',fox:'clever solitary canine',gorilla:'largest great ape',chimpanzee:'tool-using great ape'};
   const civContext=brandMap[civL]||'';
   const impContext=brandMap[impL]||'';
-  if(civContext&&impContext&&civContext===impContext){
+  if(word.specificPairRelationEN){
+    const rel = showMalayalam && word.specificPairRelationML ? word.specificPairRelationML : word.specificPairRelationEN;
+    specificRel = `<div style="font-size: 16px; line-height: 1.5;">${rel}</div>`;
+  }else if(civContext&&impContext&&civContext===impContext){
     specificRel=`Both <b>${civ}</b> and <b>${imp}</b> are ${civContext}s. They share the same cooking style, origin, or eating experience, so the imposter could confidently talk about taste, texture, and feel—without revealing they had a different item!`;
   }else if(civContext&&impContext){
     specificRel=`<b>${civ}</b> (${civContext}) and <b>${imp}</b> (${impContext}) belong to the same flavour world. The imposter's clues about texture, meal-time, or cuisine type would apply to both, making them almost undetectable!`;

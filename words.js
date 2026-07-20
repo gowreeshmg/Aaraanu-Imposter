@@ -833,3 +833,37 @@ const intlPacks = [
 ];
 
 if (typeof window !== 'undefined') window.intlPacks = intlPacks;
+
+const UNIQUE_PAIRS = [
+  ['Godfather', 'Lucifer', 'Both are powerful blockbusters about crime bosses leading massive syndicates.', 'രണ്ടും അധോലോക സംഘങ്ങളെ നയിക്കുന്ന ശക്തരായ നേതാക്കളുടെ കഥ പറയുന്ന വലിയ സിനിമകളാണ്.'],
+  ['Godfather', 'Bheeshma Parvam', 'Both are centered around a powerful patriarch controlling a large, complex family.', 'രണ്ടും വലിയ കുടുംബങ്ങളെ ഭരിക്കുന്ന ശക്തരായ കാരണവന്മാരുടെ കഥയാണ്.'],
+  ['Lucifer', 'Bheeshma Parvam', 'Both are massive action thrillers dealing with family power struggles and betrayal.', 'രണ്ടും കുടുംബങ്ങൾ തമ്മിലുള്ള അധികാര തർക്കങ്ങളെയും വഞ്ചനയെയും കുറിച്ചുള്ള വലിയ ആക്ഷൻ സിനിമകളാണ്.'],
+  ['Drishyam', 'Memories', 'Both are intense crime thrillers where the protagonist must outsmart the police system.', 'രണ്ടും നായകൻ പോലീസിനേക്കാൾ ബുദ്ധി ഉപയോഗിച്ച് പ്രവർത്തിക്കുന്ന മികച്ച ക്രൈം ത്രില്ലറുകളാണ്.'],
+  ['Manichitrathazhu', 'Kumbalangi Nights', 'Both are critically acclaimed movies dealing with deep psychological elements and unusual family dynamics.', 'രണ്ടും കുടുംബങ്ങളിലെ മാനസിക പ്രശ്നങ്ങളെ വളരെ ഗൗരവമായി കാണിക്കുന്ന മികച്ച സിനിമകളാണ്.'],
+  ['Premam', 'Bangalore Days', 'Both are massive coming-of-age blockbusters celebrating youth, love, and friendship.', 'രണ്ടും യുവത്വത്തെയും പ്രണയത്തെയും സൗഹൃദത്തെയും ആഘോഷമാക്കിയ വലിയ ഹിറ്റുകളാണ്.'],
+  ['Kilukkam', 'Chithram', 'Both are classic Mohanlal-Priyadarshan comedy masterpieces with emotional endings.', 'രണ്ടും മോഹൻലാൽ-പ്രിയദർശൻ കൂട്ടുകെട്ടിലെ പ്രശസ്തമായ തമാശപ്പടങ്ങളാണ്.'],
+  ['Adipoli', 'Kidilan', 'Both are enthusiastic slang words used by youth to describe something excellent or top-tier.', 'രണ്ടും ഒരു കാര്യം വളരെ മികച്ചതാണെന്ന് പറയാൻ ചെറുപ്പക്കാർ ഉപയോഗിക്കുന്ന വാക്കുകളാണ്.'],
+  ['Thenga', 'Manga', 'Both literally mean fruits (Coconut and Mango), but are used together as slang for "nonsense" or "nothing".', 'രണ്ടും യഥാർത്ഥത്തിൽ പഴങ്ങളാണെങ്കിലും, "ഒന്നുമില്ല" എന്ന അർത്ഥത്തിൽ നമ്മൾ ഉപയോഗിക്കുന്ന വാക്കുകളാണ്.'],
+  ['Poli Scene', 'Mass Entry', 'Both are used to hype up an incredibly cool or exciting moment in a movie or real life.', 'രണ്ടും വളരെ ആവേശകരമായ ഒരു നിമിഷത്തെ വിശേഷിപ്പിക്കാൻ ഉപയോഗിക്കുന്നതാണ്.'],
+  ['Chumma', 'Veruthe', 'Both mean doing something without any particular reason or purpose.', 'രണ്ടും ഒരു കാരണവുമില്ലാതെ വെറുതെ ചെയ്യുന്നതിനെ സൂചിപ്പിക്കുന്ന വാക്കുകളാണ്.'],
+  ['Oola', 'Shavvam', 'Both are derogatory slang terms used to describe something completely useless or pathetic.', 'രണ്ടും ഒന്നിനും കൊള്ളാത്ത ഒന്നിനെ കളിയാക്കി വിളിക്കാൻ ഉപയോഗിക്കുന്ന വാക്കുകളാണ്.'],
+  ['Idiyappam', 'Dosa', 'Both are extremely popular South Indian breakfast items made from rice batter.', 'രണ്ടും അരിമാവ് കൊണ്ട് ഉണ്ടാക്കുന്ന വളരെ പ്രശസ്തമായ പ്രഭാതഭക്ഷണങ്ങളാണ്.'],
+  ['Sambar', 'Avial', 'Both are traditional Kerala side dishes that combine a mix of fresh vegetables.', 'രണ്ടും പലതരം പച്ചക്കറികൾ ചേർത്തുണ്ടാക്കുന്ന നമ്മുടെ പ്രധാന കറികളാണ്.'],
+  ['Beef Fry', 'Meen Curry', 'Both are heavily spiced, iconic non-vegetarian delicacies integral to Kerala meals.', 'രണ്ടും കേരളത്തിൽ വളരെ പ്രശസ്തമായ മാംസ വിഭവങ്ങളാണ്.'],
+  ['Porotta', 'Pathiri', 'Both are highly popular flatbreads in Kerala, completely distinct from regular rice meals.', 'രണ്ടും കേരളത്തിലെ ഭക്ഷണരീതിയിൽ ചോറിന് പകരമായി ഉപയോഗിക്കുന്ന വിഭവങ്ങളാണ്.'],
+  ['Malabar Biriyani', 'Thalassery Biriyani', 'Both are iconic, highly spiced aromatic rice dishes native to Northern Kerala.', 'രണ്ടും വടക്കൻ കേരളത്തിലെ പ്രശസ്തമായ ബിരിയാണി വിഭവങ്ങളാണ്.'],
+  ['Pappadam', 'Payasam', 'Both are essential, contrasting elements of a traditional Kerala Sadhya (feast).', 'രണ്ടും സദ്യയിലെ ഒഴിച്ചുകൂടാനാവാത്ത വിഭവങ്ങളാണ്.'],
+  ['Munnar', 'Wayanad', 'Both are highly popular, chilly hill stations in Kerala famous for their estates and nature.', 'രണ്ടും തേയിലത്തോട്ടങ്ങൾക്കും തണുത്ത കാലാവസ്ഥയ്ക്കും പേരുകേട്ട വിനോദസഞ്ചാര കേന്ദ്രങ്ങളാണ്.'],
+  ['Kochi', 'Trivandrum', 'Both are the most developed, bustling major cities driving the economy of Kerala.', 'രണ്ടും കേരളത്തിലെ ഏറ്റവും വികസിതമായ പ്രധാന നഗരങ്ങളാണ്.'],
+  ['Alappuzha', 'Kumarakom', 'Both are world-famous tourist destinations known for their beautiful backwaters and houseboats.', 'രണ്ടും കായലുകൾക്കും ഹൗസ്ബോട്ടുകൾക്കും പേരുകേട്ട വിനോദസഞ്ചാര കേന്ദ്രങ്ങളാണ്.'],
+  ['Kozhikode', 'Kannur', 'Both are culturally rich major districts in the Malabar region of northern Kerala.', 'രണ്ടും മലബാർ മേഖലയിലെ പ്രധാനപ്പെട്ടതും ചരിത്രമുള്ളതുമായ നഗരങ്ങളാണ്.'],
+  ['Onam', 'Vishu', 'Both are major traditional festivals in Kerala involving grand feasts and cultural celebrations.', 'രണ്ടും കേരളത്തിലെ ഏറ്റവും പ്രധാനപ്പെട്ടതും സദ്യയോട് കൂടി ആഘോഷിക്കുന്നതുമായ വിശേഷ ദിവസങ്ങളാണ്.'],
+  ['Kathakali', 'Theyyam', 'Both are ancient, visually stunning traditional art forms of Kerala requiring elaborate makeup.', 'രണ്ടും വളരെ സങ്കീർണ്ണമായ വേഷവിധാനങ്ങളുള്ള കേരളത്തിലെ പാരമ്പര്യ കലാരൂപങ്ങളാണ്.'],
+  ['Thrissur Pooram', 'Nehru Trophy Boat Race', 'Both are massive, world-renowned annual cultural spectacles happening in Kerala.', 'രണ്ടും കേരളത്തിൽ നടക്കുന്ന വലിയ ജനക്കൂട്ടമുള്ള പ്രശസ്തമായ ആഘോഷങ്ങളാണ്.'],
+  ['Television', 'Smartphone', 'Both are essential electronic screens that people use daily for entertainment and information.', 'രണ്ടും വിനോദത്തിനും വിവരങ്ങൾ അറിയാനും നമ്മൾ സ്ഥിരമായി ഉപയോഗിക്കുന്ന ഇലക്ട്രോണിക് ഉപകരണങ്ങളാണ്.'],
+  ['Sofa', 'Bed', 'Both are large, cushioned pieces of furniture designed entirely for resting and relaxing.', 'രണ്ടും വീട്ടിൽ വിശ്രമിക്കാൻ ഉപയോഗിക്കുന്ന ഫർണിച്ചറുകളാണ്.'],
+  ['Washing Machine', 'Refrigerator', 'Both are heavy, indispensable household appliances that automate daily chores.', 'രണ്ടും വീട്ടുജോലികൾ എളുപ്പമാക്കാൻ ഉപയോഗിക്കുന്ന വലിയ ഇലക്ട്രിക് ഉപകരണങ്ങളാണ്.'],
+  ['Sun', 'Moon', 'Both are large celestial bodies we constantly observe in the sky from Earth.', 'രണ്ടും നമ്മൾ ആകാശത്ത് സ്ഥിരമായി കാണുന്ന വലിയ ഗോളങ്ങളാണ്.'],
+  ['Star', 'Moon', 'Both are objects that light up and beautify our night sky.', 'രണ്ടും രാത്രി ആകാശത്ത് പ്രകാശം തരുന്നവയാണ്.']
+];
+if (typeof window !== 'undefined') window.UNIQUE_PAIRS = UNIQUE_PAIRS;
