@@ -47,18 +47,19 @@ function loadSavedCategories(ed) {
   if (typeof window === 'undefined' || !window.localStorage) return null;
   try {
     const key = CATEGORIES_STORAGE_KEY + '_' + (ed || currentEdition);
-    const saved = JSON.parse(window.localStorage.getItem(key));
-    if (Array.isArray(saved) && saved.length > 0) {
-      // Filter to only IDs that exist in the current packs to avoid cross-edition contamination
+    const item = window.localStorage.getItem(key);
+    if (!item) return null;
+    const saved = JSON.parse(item);
+    if (Array.isArray(saved)) {
       const validIds = new Set(packs.map(p => p.id));
       const filtered = saved.filter(id => validIds.has(id));
-      if (filtered.length > 0) return new Set(filtered);
+      return new Set(filtered);
     }
   } catch(e) {}
   return null;
 }
 function saveCategories() {
-  if (typeof window === 'undefined' || !window.localStorage) return;
+  if (typeof window === 'undefined' || !window.localStorage || !selected) return;
   try {
     window.localStorage.setItem(CATEGORIES_STORAGE_KEY + '_' + currentEdition, JSON.stringify(Array.from(selected)));
   } catch(e) {}
