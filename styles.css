@@ -59,10 +59,10 @@ body[data-screen="home"] {
   background:#060509!important;
   border-top:1px solid #1a1726!important;
   border-radius:24px 24px 0 0!important;
-  padding:16px 20px 12px!important;
+  padding:12px 20px 10px!important;
   display:flex!important;
   flex-direction:column!important;
-  gap:8px!important;
+  gap:6px!important;
   align-items:center!important;
   z-index:999!important;
 }
