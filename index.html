@@ -13,15 +13,15 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Aaraanu Imposter?" />
   <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" /><link rel="stylesheet" href="styles.css?v=6" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" /><link rel="stylesheet" href="styles.css?v=11" />
   <style>
     .screen:not(.active){display:none!important}
     .home-character{position:relative;z-index:1;width:min(90vw,345px);height:310px;object-fit:contain;object-position:bottom;margin-top:auto!important;margin-bottom:6px!important;border:none;border-radius:0;background:transparent;filter:drop-shadow(0 -3.5px 0 #fff) drop-shadow(0 3.5px 0 #fff) drop-shadow(-3.5px 0 0 #fff) drop-shadow(3.5px 0 0 #fff) drop-shadow(-2.5px -2.5px 0 #fff) drop-shadow(2.5px -2.5px 0 #fff) drop-shadow(-2.5px 2.5px 0 #fff) drop-shadow(2.5px 2.5px 0 #fff) drop-shadow(0 15px 22px #000a)}
-    .home-copy{margin-top:0!important;margin-bottom:130px!important;position:relative!important;z-index:2!important}
+    .home-copy{margin-top:0!important;margin-bottom:180px!important;position:relative!important;z-index:2!important}
     .home-copy h1{font-size:clamp(38px,9.5vw,46px)!important;line-height:1.05!important}
     .home-copy strong{font-size:14px!important;letter-spacing:3.5px!important;margin-top:12px!important;margin-bottom:6px!important}
     .home-copy p{font-size:14px!important;color:#d8d4e2!important;margin-top:6px!important;margin-bottom:12px!important}
-    /* Home screen — full-viewport flex column so .home-actions naturally sits at the bottom */
+    /* Home screen — simple full-height flex column, no position:fixed trapping */
     #home.screen.active{display:flex!important;flex-direction:column!important;min-height:100dvh!important;padding:0!important;overflow:hidden!important}
     .home-top{padding:max(env(safe-area-inset-top,16px),16px) 16px 0!important}
 
@@ -95,12 +95,11 @@
       <img id="homeCharacterImg" class="home-character" src="assets/home-character.png" alt="Malayalam movie character" />
     </div>
     <div class="home-copy"><h1 id="homeTitle">Aaraanu<br />Imposter?</h1><strong id="homeEditionBadge">MALAYALAM EDITION</strong><p id="homeSubtitle">Find the fake!</p></div>
-    <div class="home-actions"><button class="primary" id="startSetup"><span>▷</span> Let's Start</button><button class="link-button" id="openHelp">ⓘ &nbsp; How to Play</button></div>
   </section>
 
   <section id="help" class="screen"><button class="back" data-go="home">← Back</button><span class="eyebrow">HOW TO PLAY</span><h2>Easy to learn. Fun to bluff.</h2><p class="subcopy">Pass one phone around your group and follow these simple steps.</p><div class="steps"><div><b>1</b><span><strong>Set up your game</strong><small>Add players and choose the Malayalam word categories you want.</small></span></div><div><b>2</b><span><strong>Keep your role secret</strong><small>Most players see the same word. The Imposter does not.</small></span></div><div><b>3</b><span><strong>Give one clue each</strong><small>Describe the word without saying it directly.</small></span></div><div><b>4</b><span><strong>Discuss and vote</strong><small>Find the player who is pretending to know the word.</small></span></div><div><b>5</b><span><strong>Reveal the answer</strong><small>If you vote for the Imposter, everyone else wins!</small></span></div></div><button class="primary bottom-action" data-go="setup">Set up a game <span>→</span></button></section>
 
-  <section id="setup" class="screen"><button class="back" data-go="home">← Back</button><div class="header-center"><span class="free-pill"><b>Malayalam Edition</b><small>Play with your friends</small></span><h2>Set up game</h2><p>Configure before starting</p></div>
+  <section id="setup" class="screen"><button class="back" data-go="home">← Back</button><div class="header-center"><button id="setupEditionPill" class="free-pill edition-pill-btn" aria-label="Switch edition" style="cursor:pointer;"><b id="setupEditionLabel">Malayalam Edition</b><small id="setupEditionSub">Play with your friends</small></button><h2>Set up game</h2><p>Configure before starting</p></div>
     <div class="panel"><div class="panel-head"><span>♧ &nbsp; Players</span><small id="playerTotal">3 / 10</small></div><div id="playerList" class="player-list"></div><button class="add-player" id="addPlayer">＋ Add Player</button></div>
     <!-- 🔽 Expandable Single Categories Island right on Setup Page -->
     <div id="categoriesIsland" class="panel categories-island">
@@ -199,6 +198,8 @@
   <section id="vote" class="screen"><span class="eyebrow">VOTE NOW</span><h2>Who is the Imposter?</h2><p class="subcopy">Discuss and select one player.</p><div id="voteList" class="vote-list"></div><button class="primary bottom-action disabled" id="revealResult" disabled>See result <span>→</span></button></section>
   <section id="result" class="screen centered"><div id="resultIcon" class="result-icon">✦</div><span id="resultEyebrow" class="eyebrow">GOT THEM!</span><h2 id="resultTitle">The Imposter is caught!</h2><p id="resultText">Your suspicion was correct.</p><div id="resultComparisonCard" class="result-comparison-card"></div><button class="primary" id="nextRound">Next round <span>→</span></button><button class="link-button" id="goHome">End game</button></section>
 </main>
-  <script src="words.js"></script>
-  <script defer src="app.js?v=6"></script>
+  <!-- Home actions fixed bar — lives outside #home so position:fixed anchors to real viewport -->
+  <div class="home-actions" id="homeActions"><button class="primary" id="startSetup"><span>▷</span> Let's Start</button><button class="link-button" id="openHelp">ⓘ &nbsp; How to Play</button></div>
+  <script src="words.js?v=12"></script>
+  <script defer src="app.js?v=12"></script>
 </body></html>

@@ -43,32 +43,63 @@ if (loadedCustom && loadedCustom.length) {
   });
 }
 
-function loadSavedCategories() {
+function loadSavedCategories(ed) {
   if (typeof window === 'undefined' || !window.localStorage) return null;
   try {
-    const saved = JSON.parse(window.localStorage.getItem(CATEGORIES_STORAGE_KEY));
-    if (Array.isArray(saved) && saved.length > 0) return new Set(saved);
+    const key = CATEGORIES_STORAGE_KEY + '_' + (ed || currentEdition);
+    const saved = JSON.parse(window.localStorage.getItem(key));
+    if (Array.isArray(saved) && saved.length > 0) {
+      // Filter to only IDs that exist in the current packs to avoid cross-edition contamination
+      const validIds = new Set(packs.map(p => p.id));
+      const filtered = saved.filter(id => validIds.has(id));
+      if (filtered.length > 0) return new Set(filtered);
+    }
   } catch(e) {}
   return null;
 }
 function saveCategories() {
   if (typeof window === 'undefined' || !window.localStorage) return;
   try {
-    window.localStorage.setItem(CATEGORIES_STORAGE_KEY, JSON.stringify(Array.from(selected)));
+    window.localStorage.setItem(CATEGORIES_STORAGE_KEY + '_' + currentEdition, JSON.stringify(Array.from(selected)));
   } catch(e) {}
 }
 
-let players=loadSavedPlayers(),selected=loadSavedCategories()||new Set((packs||[]).map(p=>p.id)),round=1,currentPlayer=0,imposters=new Set(),imposterCount=1,word=null,showMalayalam=false,selectedVote=-1,timerId;
-
-/* ===================================================================
-   EDITION SYSTEM — Kerala Edition ↔ International Edition
-   =================================================================== */
 const EDITION_STORAGE_KEY = 'aaraanu_imposter_edition';
 let currentEdition = (typeof window !== 'undefined' && window.localStorage)
   ? (window.localStorage.getItem(EDITION_STORAGE_KEY) || 'kerala')
   : 'kerala';
 
-// Keep a backup of the Kerala packs so we can restore them
+let players=loadSavedPlayers(),round=1,currentPlayer=0,imposters=new Set(),word=null,showMalayalam=false,selectedVote=-1,timerId;
+
+const SETTINGS_KEY = 'aaraanu_imposter_settings';
+let imposterCount = 1;
+function loadSettings() {
+  if (typeof window === 'undefined' || !window.localStorage) return;
+  try {
+    const s = JSON.parse(window.localStorage.getItem(SETTINGS_KEY));
+    if (s) {
+      if (s.imposterCount) imposterCount = s.imposterCount;
+      if (s.duration) { const d = document.getElementById('durationSelect'); if(d) d.value = s.duration; }
+      if (typeof s.seeCategory === 'boolean') { const c = document.getElementById('seeCategory'); if(c) c.checked = s.seeCategory; }
+      if (typeof s.showHint === 'boolean') { const h = document.getElementById('showHint'); if(h) h.checked = s.showHint; }
+    }
+  } catch(e) {}
+}
+function saveSettings() {
+  if (typeof window === 'undefined' || !window.localStorage) return;
+  try {
+    const s = {
+      imposterCount: imposterCount,
+      duration: document.getElementById('durationSelect')?.value || '2',
+      seeCategory: document.getElementById('seeCategory')?.checked || false,
+      showHint: document.getElementById('showHint')?.checked || false
+    };
+    window.localStorage.setItem(SETTINGS_KEY, JSON.stringify(s));
+  } catch(e) {}
+}
+loadSettings();
+
+let selected = null;
 let _keralaPacksBackup = null;
 
 function applyEdition(ed) {
@@ -76,31 +107,32 @@ function applyEdition(ed) {
   currentEdition = ed;
   const isIntl = (ed === 'intl');
 
-  // ── Home pill ──────────────────────────────────────────────────────
   const pill = document.getElementById('editionPill');
   if (pill) pill.classList.toggle('intl-edition', isIntl);
 
   const lbl = document.getElementById('homeEditionLabel');
   if (lbl) lbl.textContent = isIntl ? 'English Edition' : 'Malayalam Edition';
-
   const sub = document.getElementById('homeEditionSub');
   if (sub) sub.textContent = isIntl ? 'The Global Edition' : 'Play with your friends';
 
-  // ── Home text ─────────────────────────────────────────────────────
+  // Setup screen pill
+  const setupPill = document.getElementById('setupEditionPill');
+  if (setupPill) setupPill.classList.toggle('intl-edition', isIntl);
+  const setupLbl = document.getElementById('setupEditionLabel');
+  if (setupLbl) setupLbl.textContent = isIntl ? 'English Edition' : 'Malayalam Edition';
+  const setupSub = document.getElementById('setupEditionSub');
+  if (setupSub) setupSub.textContent = isIntl ? 'The Global Edition' : 'Play with your friends';
+
   const title = document.getElementById('homeTitle');
   if (title) title.innerHTML = isIntl ? "Who's the<br>Imposter?" : 'Aaraanu<br>Imposter?';
-
   const badge = document.getElementById('homeEditionBadge');
   if (badge) badge.textContent = isIntl ? 'ENGLISH EDITION' : 'MALAYALAM EDITION';
-
   const subtitle = document.getElementById('homeSubtitle');
   if (subtitle) subtitle.textContent = isIntl ? 'Spot the fraud among your friends!' : 'Find the fake!';
 
-  // ── Home screen accent class ───────────────────────────────────────
   const homeSection = document.getElementById('home');
   if (homeSection) homeSection.classList.toggle('intl-mode', isIntl);
 
-  // ── Character image — crossfade swap ──────────────────────────────
   const charImg = document.getElementById('homeCharacterImg');
   if (charImg) {
     charImg.classList.add('switching');
@@ -110,39 +142,33 @@ function applyEdition(ed) {
     }, 300);
   }
 
-  // ── Role swipe images ─────────────────────────────────────────────
   const swipeSrc = isIntl ? 'assets/role-swipe-intl.jpg' : 'assets/role-swipe.jpg';
   const swipeImg = document.getElementById('roleSwipeImg');
   if (swipeImg) swipeImg.src = swipeSrc;
   const revealImg = document.getElementById('roleSwipeImgReveal');
   if (revealImg) revealImg.src = swipeSrc;
-  // Also update the kalla-kedayadi image used in-game (assets/kalla-kedayadi.jpg)
   document.querySelectorAll('img[src*="role-swipe"], img[src*="kalla-kedayadi"]').forEach(img => {
     if (img.id !== 'roleSwipeImg' && img.id !== 'roleSwipeImgReveal') img.src = swipeSrc;
   });
 
-  // ── Word packs ────────────────────────────────────────────────────
   if (isIntl) {
     if (!_keralaPacksBackup) _keralaPacksBackup = packs.slice();
     const intl = (typeof window !== 'undefined' && window.intlPacks) || [];
     packs.length = 0;
     intl.forEach(p => packs.push(p));
-    // Reset selected to all intl packs
-    selected = new Set(packs.map(p => p.id));
+    selected = loadSavedCategories('intl') || new Set(packs.map(p => p.id));
   } else {
     if (_keralaPacksBackup) {
       packs.length = 0;
       _keralaPacksBackup.forEach(p => packs.push(p));
     }
-    selected = loadSavedCategories() || new Set(packs.map(p => p.id));
+    selected = loadSavedCategories('kerala') || new Set(packs.map(p => p.id));
   }
 
-  // Re-render categories if dropdown is open
   const island = document.getElementById('categoriesIsland');
   if (island && island.classList.contains('open')) renderCategories();
   else if (typeof updateCategoryText === 'function') updateCategoryText();
 
-  // Persist
   if (typeof window !== 'undefined' && window.localStorage)
     window.localStorage.setItem(EDITION_STORAGE_KEY, ed);
 }
@@ -153,7 +179,9 @@ function toggleEdition() {
 }
 
 /* ─────────────────────────────────────────────────────────────────── */
-const $=id=>typeof document!=='undefined'?document.getElementById(id):null;const show=id=>{if(typeof document==='undefined')return;document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));if($(id))$(id).classList.add('active');if(id==='home'){document.body.style.background='#060509';document.documentElement.style.background='#060509';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='#060509';}else{document.body.style.background='#0d0c13';document.documentElement.style.background='#0d0c13';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='';}if(typeof window!=='undefined'&&window.scrollTo)window.scrollTo(0,0)};
+const $=id=>typeof document!=='undefined'?document.getElementById(id):null;
+
+const show=id=>{if(typeof document==='undefined')return;document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));if($(id))$(id).classList.add('active');if(id==='home'){document.body.style.background='#060509';document.documentElement.style.background='#060509';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='#060509';}else{document.body.style.background='#0d0c13';document.documentElement.style.background='#0d0c13';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='';}if(typeof window!=='undefined'&&window.scrollTo)window.scrollTo(0,0)};
 const hideLoader=()=>{if(typeof document==='undefined')return;const l=document.getElementById('loader');if(l&&!l.classList.contains('done')){const startTime=window.__loaderStartTime||(Date.now()-5000);const elapsed=Date.now()-startTime;const rem=Math.max(0,5000-elapsed);setTimeout(()=>{l.classList.add('done');document.body.style.background='#060509';document.documentElement.style.background='#060509';var sh=document.querySelector('.app-shell');if(sh)sh.style.background='#060509';var h=document.getElementById('home');if(h){window.dispatchEvent(new Event('resize'));}setTimeout(()=>{if(l&&l.parentNode)l.style.display='none'},450)},rem)}};
 if(typeof window!=='undefined'&&typeof document!=='undefined'){hideLoader();window.addEventListener('load',hideLoader);window.addEventListener('DOMContentLoaded',hideLoader);setTimeout(hideLoader,5000);}
 function renderPlayers(){if(typeof document==='undefined')return;const list=$('playerList');if(!list)return;list.innerHTML='';players.forEach((name,i)=>{const row=document.createElement('div');row.className='player-row';row.innerHTML=`<span class="player-number">${i+1}</span><input value="${name.replace(/"/g,'&quot;')}" aria-label="Player ${i+1} name"><button class="remove-player" aria-label="Remove player"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path></svg></button>`;row.querySelector('input').oninput=e=>{players[i]=e.target.value||`Player ${i+1}`;savePlayers();};row.querySelector('button').onclick=()=>{if(players.length>3){players.splice(i,1);if(imposterCount>Math.floor(players.length/2)){imposterCount=Math.max(1,Math.floor(players.length/2));if($('imposterTotal'))$('imposterTotal').textContent=imposterCount}renderPlayers();savePlayers();}};list.append(row)});if($('playerTotal'))$('playerTotal').textContent=`${players.length} / 10`;}
@@ -1142,21 +1170,46 @@ if(typeof window!=='undefined'&&typeof document!=='undefined'){
   bindClick('revealResult',result);
   bindClick('nextRound',()=>{round++;startRound()});
   bindClick('goHome',()=>show('home'));
-  bindClick('removeImposter',()=>{if(imposterCount>1){imposterCount--;if($('imposterTotal'))$('imposterTotal').textContent=imposterCount}});
-  bindClick('addImposter',()=>{const maxImp=Math.max(1,Math.floor(players.length/2));if(imposterCount<maxImp){imposterCount++;if($('imposterTotal'))$('imposterTotal').textContent=imposterCount}});
+  bindClick('removeImposter',()=>{if(imposterCount>1){imposterCount--;if($('imposterTotal'))$('imposterTotal').textContent=imposterCount; saveSettings();}});
+  bindClick('addImposter',()=>{const maxImp=Math.max(1,Math.floor(players.length/2));if(imposterCount<maxImp){imposterCount++;if($('imposterTotal'))$('imposterTotal').textContent=imposterCount; saveSettings();}});
   const exitGameHandler=(e)=>{if(e&&e.stopPropagation)e.stopPropagation();if(confirm('Do you want to leave the game?')){show('setup');}};
   if($('exitGame'))$('exitGame').onclick=exitGameHandler;
   if($('exitReveal'))$('exitReveal').onclick=exitGameHandler;
   bindClick('roleHelp',()=>show('help'));
 
+  if ($('durationSelect')) $('durationSelect').addEventListener('change', saveSettings);
+  if ($('seeCategory')) $('seeCategory').addEventListener('change', saveSettings);
+  if ($('showHint')) $('showHint').addEventListener('change', saveSettings);
+
   // Edition pill
   const editionPillEl = $('editionPill');
   if (editionPillEl) editionPillEl.onclick = toggleEdition;
+  
+  const setupEditionPillEl = $('setupEditionPill');
+  if (setupEditionPillEl) setupEditionPillEl.onclick = toggleEdition;
 
-  // Restore saved edition on load
-  if (currentEdition === 'intl') applyEdition('intl');
+  // Restore saved edition on load — always call applyEdition so pills + categories are correct
+  applyEdition(currentEdition);
 
-  if($('playerList'))renderPlayers();if($('categorySummary'))updateCategoryText();initGeminiKeyUI();hideLoader();
+  // Restore saved settings UI now that DOM elements exist
+  (function restoreSettingsUI() {
+    if (typeof window === 'undefined' || !window.localStorage) return;
+    try {
+      const s = JSON.parse(window.localStorage.getItem(SETTINGS_KEY));
+      if (s) {
+        if (s.imposterCount) imposterCount = s.imposterCount;
+        if (s.duration) { const d = $('durationSelect'); if(d) d.value = s.duration; }
+        if (typeof s.seeCategory === 'boolean') { const c = $('seeCategory'); if(c) c.checked = s.seeCategory; }
+        if (typeof s.showHint === 'boolean') { const h = $('showHint'); if(h) h.checked = s.showHint; }
+      }
+    } catch(e) {}
+  })();
+
+  if($('playerList'))renderPlayers();
+  if($('imposterTotal'))$('imposterTotal').textContent=imposterCount;
+  if($('categorySummary'))updateCategoryText();
+  initGeminiKeyUI();
+  hideLoader();
 
 }
 

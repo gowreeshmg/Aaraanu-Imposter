@@ -522,7 +522,12 @@ const intlPacks = [
       ['Shazam','','Green Lantern',''],
       ['Falcon','','War Machine',''],
       ['Groot','','Rocket Raccoon',''],
-      ['Vision','','Wanda','']
+      ['Vision','','Wanda',''],
+      ['Green Arrow','','Flash',''],
+      ['Robin','','Nightwing',''],
+      ['Supergirl','','Batgirl',''],
+      ['Aquaman','','Cyborg',''],
+      ['Star-Lord','','Drax','']
     ]
   },
   {
@@ -542,7 +547,12 @@ const intlPacks = [
       ['Venom','','Carnage',''],
       ['Kingpin','','Vulture',''],
       ['Sauron','','Saruman',''],
-      ['Palpatine','','General Grievous','']
+      ['Palpatine','','General Grievous',''],
+      ['Pennywise','','Freddy Krueger',''],
+      ['Jason Voorhees','','Michael Myers',''],
+      ['Agent Smith','','T-1000',''],
+      ['Boba Fett','','Jango Fett',''],
+      ['Darth Maul','','Count Dooku','']
     ]
   },
   {
@@ -562,7 +572,12 @@ const intlPacks = [
       ['Edward Scissorhands','','Beetlejuice',''],
       ['Harry Callahan','','John McClane',''],
       ['Rocky Balboa','','Raging Bull',''],
-      ['Tyler Durden','','Patrick Bateman','']
+      ['Tyler Durden','','Patrick Bateman',''],
+      ['Marty McFly','','Doc Brown',''],
+      ['Harry Potter','','Luke Skywalker',''],
+      ['Frodo Baggins','','Samwise Gamgee',''],
+      ['Aragorn','','Legolas',''],
+      ['Han Solo','','Chewbacca','']
     ]
   },
   {
@@ -582,7 +597,12 @@ const intlPacks = [
       ['Don Draper','','Tony Soprano',''],
       ['Cersei Lannister','','Sansa Stark',''],
       ['Tyrion Lannister','','Jaime Lannister',''],
-      ['Rachel Green','','Monica Geller','']
+      ['Rachel Green','','Monica Geller',''],
+      ['Joey Tribbiani','','Phoebe Buffay',''],
+      ['Jim Halpert','','Pam Beesly',''],
+      ['Michael Bluth','','Gob Bluth',''],
+      ['George Costanza','','Cosmo Kramer',''],
+      ['Homer Simpson','','Bart Simpson','']
     ]
   },
   {
@@ -602,7 +622,12 @@ const intlPacks = [
       ['Hot Dog','','Sandwich',''],
       ['Spaghetti','','Fettuccine',''],
       ['Chocolate Cake','','Brownies',''],
-      ['Ice Cream','','Gelato','']
+      ['Ice Cream','','Gelato',''],
+      ['Tacos','','Quesadillas',''],
+      ['Nachos','','Fajitas',''],
+      ['Pancakes','','Waffles',''],
+      ['Fried Chicken','','Chicken Nuggets',''],
+      ['Macaroni and Cheese','','Spaghetti Bolognese','']
     ]
   },
   {
