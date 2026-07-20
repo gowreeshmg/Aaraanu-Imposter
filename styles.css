@@ -15,6 +15,11 @@ body[data-screen="reveal"] .app-shell {
   padding:0!important;
   overflow:hidden!important;
 }
+body[data-screen="home"] .app-shell {
+  height: 100%!important;
+  min-height: 100%!important;
+  max-height: 100%!important;
+}
 /* Result screen scrolls itself — keep app-shell padding removed but allow scrolling */
 body[data-screen="result"] .app-shell {
   padding:0!important;
@@ -35,9 +40,9 @@ body[data-screen="home"] {
   display:flex!important;
   flex-direction:column!important;
   position:relative!important;
-  height:100svh!important;
-  min-height:100svh!important;
-  max-height:100svh!important;
+  height:100%!important;
+  min-height:100%!important;
+  max-height:100%!important;
   overflow:hidden!important;
   padding:0!important;
 }
