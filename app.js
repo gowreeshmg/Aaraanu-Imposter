@@ -933,13 +933,33 @@ function chooseWord(){
     }
   }
 
+  let civHintEN = '';
+  let civHintML = '';
+  let impHintEN = '';
+  let impHintML = '';
+
+  // If this is a regular pack (not AI, not intl), [2] and [3] are hints!
+  if (!category.isAI && !(category.id && category.id.startsWith('intl_'))) {
+    civHintEN = picked[2] || '';
+    civHintML = picked[3] || '';
+    // find sibling to get imposter hint
+    if (impWord) {
+      const foundSib = category.words.find(w => w[0] === impWord);
+      if (foundSib) {
+        impHintEN = foundSib[2] || '';
+        impHintML = foundSib[3] || '';
+      }
+    }
+  }
+
   word = {
     latin: picked[0],
     malayalam: picked[1],
     hintLatin: impWord,
     hintMalayalam: impMalWord,
     imposterWord: impWord,
-    category: category.name
+    category: category.name,
+    civHintEN, civHintML, impHintEN, impHintML
   };
 
   const charDetails = CHARACTER_DETAILS[picked[0]];
@@ -1066,8 +1086,12 @@ if(word.category==='Godfather'||word.movieName==='Godfather'){
     specificRel=`Both <b>${civ}</b> and <b>${imp}</b> are ${civContext}s. They share the same cooking style, origin, or eating experience, so the imposter could confidently talk about taste, texture, and feel—without revealing they had a different item!`;
   }else if(civContext&&impContext){
     specificRel=`<b>${civ}</b> (${civContext}) and <b>${imp}</b> (${impContext}) belong to the same flavour world. The imposter's clues about texture, meal-time, or cuisine type would apply to both, making them almost undetectable!`;
+  }else if(word.civHintEN && word.impHintEN) {
+    const cHint = showMalayalam && word.civHintML ? word.civHintML : word.civHintEN;
+    const iHint = showMalayalam && word.impHintML ? word.impHintML : word.impHintEN;
+    specificRel=`<b>${civWord}</b> relates to "<i>${cHint}</i>", while <b>${impWordStr}</b> relates to "<i>${iHint}</i>". Within the context of <b>${word.category}</b>, these two distinct concepts share enough overlapping themes that the imposter's subtle clues perfectly masked their true identity!`;
   }else{
-    specificRel=`<b>${civ}</b> and <b>${imp}</b> are closely paired—they share the same real-world context, use-case, or cultural association. The imposter's description of <b>${imp}</b> would sound convincing because both items are experienced, discussed, and thought about in very similar ways. That's what makes this game tricky!`;
+    specificRel=`<b>${civWord}</b> and <b>${impWordStr}</b> are a very unique pair within <b>${word.category}</b>! They share identical real-world situations, use-cases, or cultural associations. The imposter's description of <b>${impWordStr}</b> sounded entirely convincing because both items are thought about in the exact same way. That's what makes this pairing so tricky!`;
   }
   relText=specificRel;
 }
