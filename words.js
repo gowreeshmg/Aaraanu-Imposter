@@ -13,14 +13,14 @@ var packs = [
           {
             "word": "Kidu",
             "wordMal": "കിടു",
-            "relationEN": "Both are enthusiastic Malayalam slang words used to express high excitement or praise, making them easy to confuse.",
-            "relationML": "രണ്ടും ഉയർന്ന ആവേശമോ പ്രശംസയോ പ്രകടിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന മലയാളം വാക്കുകളാണ്, ഇത് ആശയക്കുഴപ്പമുണ്ടാക്കാൻ എളുപ്പമാക്കുന്നു."
+            "relationEN": "Both Pwoli and Kidu are popular Malayalam slang words used by youth to express that something is extraordinarily awesome or excellent.",
+            "relationML": "പൊളിയും കിടുവും യുവാക്കൾക്കിടയിൽ വളരെ മികച്ചതോ അതിശയകരമായതോ ആയ കാര്യങ്ങളെ വിശേഷിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന ജനപ്രിയ മലയാളം സ്ലാംഗ് വാക്കുകളാണ്."
           },
           {
             "word": "Adipoli",
             "wordMal": "അടിപൊളി",
-            "relationEN": "Both represent a positive vibe or an awesome feeling, often used interchangeably by youths.",
-            "relationML": "രണ്ടും ഒരു നല്ല അനുഭവത്തെ സൂചിപ്പിക്കുന്നു, പലപ്പോഴും യുവാക്കൾ ഒരുപോലെ ഉപയോഗിക്കുന്നു."
+            "relationEN": "Both Pwoli and Adipoli are colloquial Malayalam expressions used to describe an event, place, or thing that is remarkably fantastic or enjoyable.",
+            "relationML": "ഒരു സംഭവത്തെയോ സ്ഥലത്തെയോ വസ്തുവിനെയോ വളരെ മികച്ചതോ ആസ്വാദ്യകരമോ എന്ന് വിശേഷിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന സാധാരണ മലയാളം പ്രയോഗങ്ങളാണ് പൊളിയും അടിപൊളിയും."
           }
         ]
       },
@@ -31,14 +31,14 @@ var packs = [
           {
             "word": "Ente Ammo",
             "wordMal": "എന്റെ അമ്മോ",
-            "relationEN": "Both are spontaneous Malayalam exclamations used in moments of shock or sudden realization.",
-            "relationML": "രണ്ടും പെട്ടെന്നുള്ള ഞെട്ടലോ അമ്പരപ്പോ പ്രകടിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന വാക്കുകളാണ്."
+            "relationEN": "Both Ayyayyo and Ente Ammo are spontaneous Malayalam exclamations commonly blurted out in moments of sudden pain, intense shock, or deep fear.",
+            "relationML": "പെട്ടെന്നുള്ള വേദനയോ കടുത്ത ഞെട്ടലോ അഗാധമായ ഭയമോ ഉണ്ടാകുമ്പോൾ സ്വാഭാവികമായി പുറത്തുവരുന്ന മലയാളം ആശ്ചര്യപ്രകടനങ്ങളാണ് അയ്യയ്യോ, എൻ്റെ അമ്മോ എന്നിവ."
           },
           {
             "word": "Kashtam",
             "wordMal": "കഷ്ടം",
-            "relationEN": "Both express dismay or a sense of tragedy when things go unexpectedly wrong.",
-            "relationML": "കാര്യങ്ങൾ വിചാരിച്ച പോലെ നടക്കാതിരിക്കുമ്പോൾ ഉണ്ടാകുന്ന നിരാശ പ്രകടിപ്പിക്കാൻ രണ്ടും ഉപയോഗിക്കുന്നു."
+            "relationEN": "Both Ayyayyo and Kashtam are everyday Malayalam expressions used to express pity, sorrow, or sympathy upon hearing about someone's misfortune or a tragic event.",
+            "relationML": "ഒരാളുടെ ദുരവസ്ഥയോ ദാരുണമായ സംഭവമോ കേൾക്കുമ്പോൾ സഹതാപമോ സങ്കടമോ പ്രകടിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന ദൈനംദിന മലയാളം പ്രയോഗങ്ങളാണ് അയ്യയ്യോ, കഷ്ടം എന്നിവ."
           }
         ]
       }
@@ -56,14 +56,14 @@ var packs = [
           {
             "word": "Anandabhadram",
             "wordMal": "അനന്തഭദ്രം",
-            "relationEN": "Both are iconic Malayalam movies dealing with ancient family secrets, mysticism, and dark legends in a grand old house.",
-            "relationML": "രണ്ടും പഴയ തറവാടുകളിലെ രഹസ്യങ്ങളും നിഗൂഢതകളും പറയുന്ന പ്രശസ്ത മലയാള ചിത്രങ്ങളാണ്."
+            "relationEN": "Both Manichitrathazhu and Anandabhadram are classic Malayalam supernatural thrillers set in ancient ancestral mansions revolving around myths, dark magic, and folklore.",
+            "relationML": "പുരാതന തറവാടുകളുടെ പശ്ചാത്തലത്തിൽ മിത്തുകളെയും ദുർമന്ത്രവാദത്തെയും നാടോടിക്കഥകളെയും ചുറ്റിപ്പറ്റി നടക്കുന്ന ക്ലാസിക് മലയാളം അമാനുഷിക ത്രില്ലറുകളാണ് മണിച്ചിത്രത്താഴും അനന്തഭദ്രവും."
           },
           {
             "word": "Aakasha Ganga",
             "wordMal": "ആകാശഗംഗ",
-            "relationEN": "Both feature a vengeful spirit storyline tied to a historic household, blurring the line between myth and reality.",
-            "relationML": "രണ്ടും ഒരു തറവാടിനെ ചുറ്റിപ്പറ്റിയുള്ള പ്രതികാര ദാഹിയായ ആത്മാവിന്റെ കഥ പറയുന്നു."
+            "relationEN": "Both Manichitrathazhu and Aakasha Ganga are prominent Malayalam horror films featuring a vengeful female spirit possessing someone within a traditional Nair family setting.",
+            "relationML": "ഒരു പരമ്പരാഗത നായർ തറവാടിൻ്റെ പശ്ചാത്തലത്തിൽ ഒരാളിൽ പ്രവേശിക്കുന്ന പ്രതികാരദാഹിയായ ഒരു സ്ത്രീയുടെ ആത്മാവിനെ അവതരിപ്പിക്കുന്ന പ്രശസ്തമായ മലയാളം ഹൊറർ സിനിമകളാണ് മണിച്ചിത്രത്താഴും ആകാശഗംഗയും."
           }
         ]
       }
@@ -81,14 +81,14 @@ var packs = [
           {
             "word": "Kaappi",
             "wordMal": "കാപ്പി",
-            "relationEN": "Both Chaya and Kaappi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചായ ഉം കാപ്പി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are hot brewed drinks served in small glasses at Kerala tea stalls, one made from tea leaves and the other from coffee beans.",
+            "relationML": "ചായയും കാപ്പിയും കേരളത്തിലെ ചായക്കടകളിൽ ചെറിയ ഗ്ലാസ്സിൽ വിളമ്പുന്ന ചൂടുള്ള പാനീയങ്ങളാണ്, ഒന്ന് ചായ ഇലകൾ കൊണ്ടും മറ്റൊന്ന് കോഫി പൊടി കൊണ്ടും ഉണ്ടാക്കുന്നു."
           },
           {
             "word": "Kattan Chaya",
             "wordMal": "കട്ടൻ ചായ",
-            "relationEN": "Kattan Chaya shares many characteristics with Chaya, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചായ ഉം കട്ടൻ ചായ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are tea-based hot drinks; Chaya is milky and sweet while Kattan Chaya is strong black tea without milk.",
+            "relationML": "ചായയും കട്ടൻ ചായയും ചായ ഇലകൾ കൊണ്ട് ഉണ്ടാക്കുന്ന ഗ്ലാസ്സ് പാനീയങ്ങളാണ്; ചായ പഞ്ചസാരയും പാലും ഉള്ളതും കട്ടൻ ചായ കറുത്ത ദ്രാവകവുമാണ്."
           }
         ]
       },
@@ -99,14 +99,14 @@ var packs = [
           {
             "word": "Samosa",
             "wordMal": "സമോസ",
-            "relationEN": "Both Puffs and Samosa are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പഫ്സ് ഉം സമോസ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are crispy deep-fried or baked snacks with a stuffed filling sold at Kerala bakeries.",
+            "relationML": "പഫ്സും സമോസയും കേരള ബേക്കറികളിൽ വിൽക്കുന്ന, ഫില്ലിംഗ് നിറഞ്ഞ, പൊരിച്ചതോ ബേക്ക് ചെയ്തതോ ആയ ഒരുതരം ലഘുഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Cutlet",
             "wordMal": "കട്ട്‌ലെറ്റ്",
-            "relationEN": "Cutlet shares many characteristics with Puffs, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പഫ്സ് ഉം കട്ട്‌ലെറ്റ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular bakery snacks in Kerala with a crispy outer layer and a savory filling inside.",
+            "relationML": "പഫ്സും കട്ട്‌ലറ്റും കേരളത്തിൽ ജനപ്രിയമായ ബേക്കറി ലഘുഭക്ഷണങ്ങളാണ്, രണ്ടിനും പുറത്ത് ക്രിസ്‌പി പൂശ്ശും അകത്ത് മസാലചേർന്ന ഫില്ലിംഗും ഉണ്ട്."
           }
         ]
       },
@@ -117,14 +117,14 @@ var packs = [
           {
             "word": "Parippu Vada",
             "wordMal": "പരിപ്പ് വട",
-            "relationEN": "Both Uzhunnu Vada and Parippu Vada are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഉഴുന്നു വട ഉം പരിപ്പ് വട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are fried Kerala snacks made from ground lentil batter served hot with chutney at tea stalls.",
+            "relationML": "ഉഴുന്ന് വടയും പരിപ്പ് വടയും കേരള ചായക്കടകളിൽ ചട്ണിയോടൊപ്പം ചൂടോടെ വിളമ്പുന്ന, അരച്ച പരിപ്പ് ബാറ്ററിൽ നിർമ്മിക്കുന്ന വറുത്ത ലഘുഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Ulli Vada",
             "wordMal": "ഉള്ളി വട",
-            "relationEN": "Ulli Vada shares many characteristics with Uzhunnu Vada, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഉഴുന്നു വട ഉം ഉള്ളി വട ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are round deep-fried vada snacks from Kerala, differing mainly in the batter—urad dal vs onion.",
+            "relationML": "ഉഴുന്ന് വടയും ഉള്ളി വടയും കേരളത്തിൽ നിന്നുള്ള ഉരുണ്ട, ആഴത്തിൽ വറുത്ത വട ലഘുഭക്ഷണങ്ങളാണ്; ബാറ്ററിൽ ഒന്ന് ഉഴുന്നും മറ്റൊന്ന് ഉള്ളിയും ഉപയോഗിക്കുന്നു."
           }
         ]
       },
@@ -135,14 +135,14 @@ var packs = [
           {
             "word": "Pazhampori",
             "wordMal": "പഴംപൊരി",
-            "relationEN": "Both Mutta Baji and Pazhampori are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുട്ട ബജി ഉം പഴംപൊരി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are egg or banana coated in batter and deep-fried, common evening snacks in Kerala.",
+            "relationML": "മുട്ട ബജിയും പഴംപൊരിയും ബാറ്ററിൽ മുക്കി വറുത്ത, കേരളത്തിൽ വൈകുന്നേരം സർവ്വസാധാരണമായ ലഘുഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Mulaku Baji",
             "wordMal": "മുളകു ബജ്ജി",
-            "relationEN": "Mulaku Baji shares many characteristics with Mutta Baji, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മുട്ട ബജി ഉം മുളകു ബജ്ജി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are baji snacks deep-fried in a gram-flour batter, one uses egg and the other uses green chilli.",
+            "relationML": "മുട്ട ബജിയും മുളക് ബജ്ജിയും കടലമാവ് ബാറ്ററിൽ ആഴത്തിൽ വറുത്ത ബജ്ജി ലഘുഭക്ഷണങ്ങളാണ്; ഒന്ന് മുട്ടയും മറ്റൊന്ന് പച്ചമുളകും ഉപയോഗിക്കുന്നു."
           }
         ]
       },
@@ -153,14 +153,14 @@ var packs = [
           {
             "word": "Ela Ada",
             "wordMal": "ഇല അട",
-            "relationEN": "Both Kozhukkatta and Ela Ada are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കൊഴുക്കട്ട ഉം ഇല അട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are steamed sweet rice dumplings with a coconut and jaggery filling, popular as Kerala festival snacks.",
+            "relationML": "കൊഴുക്കട്ടയും ഇല അടയും ഒരേ തേങ്ങ-ശർക്കര ഫില്ലിംഗ് ഉള്ള, ആവിയിൽ വേവിക്കുന്ന ചോറ് കൊണ്ടുള്ള മധുര ലഘുഭക്ഷണങ്ങളാണ്, കേരള ഉത്സവ നേരങ്ങളിൽ ജനപ്രിയമാണ്."
           },
           {
             "word": "Modakam",
             "wordMal": "മോദകം",
-            "relationEN": "Modakam shares many characteristics with Kozhukkatta, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കൊഴുക്കട്ട ഉം മോദകം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are steamed rice flour dumplings filled with sweet coconut and jaggery, one is Kerala-style and the other is used in Ganesh Chaturthi.",
+            "relationML": "കൊഴുക്കട്ടയും മോദകവും ഒരേ തേങ്ങ-ശർക്കര ഫില്ലിംഗ് ഉള്ള ആരിടിമാവ് ഉരുളകളാണ്; ഒന്ന് കേരള ശൈലിയും മറ്റൊന്ന് ഗണേശ ചതുർഥി ആഘോഷങ്ങളിൽ ഉപയോഗിക്കുന്നതുമാണ്."
           }
         ]
       },
@@ -171,14 +171,14 @@ var packs = [
           {
             "word": "Meat Roll",
             "wordMal": "മീറ്റ് റോൾ",
-            "relationEN": "Both Cutlet and Meat Roll are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കട്ട്ലറ്റ് ഉം മീറ്റ് റോൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Kerala bakery snacks with a spiced meat filling, the cutlet is flat and the roll is cylindrical.",
+            "relationML": "കട്ട്‌ലറ്റും മീറ്റ് റോളും ഒരേ മസാലക്കറി ഫില്ലിംഗ് ഉള്ള ജനപ്രിയ കേരള ബേക്കറി ലഘുഭക്ഷണങ്ങളാണ്; കട്ട്‌ലറ്റ് പരന്നതും റോൾ ഉരുണ്ടതുമാണ്."
           },
           {
             "word": "Samosa",
             "wordMal": "സമോസ",
-            "relationEN": "Samosa shares many characteristics with Cutlet, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കട്ട്ലറ്റ് ഉം സമോസ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are savory deep-fried snacks with spiced stuffing popular at Kerala tea shops, served alongside evening tea.",
+            "relationML": "കട്ട്‌ലറ്റും സമോസയും കേരള ചായക്കടകളിൽ ജനപ്രിയ, മസാലചേർന്ന ഫില്ലിംഗ് ഉള്ള, ആഴത്തിൽ വറുത്ത ലഘുഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -189,14 +189,14 @@ var packs = [
           {
             "word": "Puffs",
             "wordMal": "പഫ്‌സ്",
-            "relationEN": "Both Samosa and Puffs are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സമോസ ഉം പഫ്‌സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are triangle or rectangular snacks with a savory filling, sold from glass cases at Kerala bakeries.",
+            "relationML": "സമോസയും പഫ്സും ഒരേ കേരള ബേക്കറികളിൽ ഗ്ലാസ് കൂടുകളിൽ വിൽക്കുന്ന, മസാലചേർന്ന ഫില്ലിംഗ് ഉള്ള ത്രികോണ അല്ലെങ്കിൽ ചതുർഭുജ ലഘുഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Meat Roll",
             "wordMal": "മീറ്റ് റോൾ",
-            "relationEN": "Meat Roll shares many characteristics with Samosa, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സമോസ ഉം മീറ്റ് റോൾ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are stuffed and fried snacks sold at bakeries across Kerala, one with a pastry shell and one with a bread crumb coating.",
+            "relationML": "സമോസയും മീറ്റ് റോളും കേരളത്തിലുടനീളം ബേക്കറികളിൽ വിൽക്കുന്ന, ഫില്ലിംഗ് ഉള്ള വറുത്ത ലഘുഭക്ഷണങ്ങളാണ്; ഒന്ന് പേസ്ട്രി ഷെൽ ഉള്ളതും മറ്റൊന്ന് ബ്രഡ് ക്രം പൂശ്ശ് ഉള്ളതുമാണ്."
           }
         ]
       },
@@ -207,14 +207,14 @@ var packs = [
           {
             "word": "Sukhiyan",
             "wordMal": "സുഖിയൻ",
-            "relationEN": "Both Bonda and Sukhiyan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബോണ്ട ഉം സുഖിയൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are round, deep-fried sweet snacks made with coconut and lentil fillings, popular at tea stalls.",
+            "relationML": "ബൊണ്ടയും സൂഖിയനും ഒരേ ഉരുണ്ട, ആഴത്തിൽ വറുത്ത, തേങ്ങ-പരിപ്പ് ഫില്ലിംഗ് ഉള്ള മധുര ലഘുഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Uzhunnu Vada",
             "wordMal": "ഉഴുന്ന് വട",
-            "relationEN": "Uzhunnu Vada shares many characteristics with Bonda, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ബോണ്ട ഉം ഉഴുന്ന് വട ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are lentil-based deep-fried snacks served hot with coconut chutney as a tea-time snack in Kerala.",
+            "relationML": "ബൊണ്ടയും ഉഴുന്ന് വടയും കേരളത്തിൽ ചായ സമയത്ത് തേങ്ങ ചട്ണിയോടൊപ്പം ചൂടോടെ വിളമ്പുന്ന, പരിപ്പ് ആധാരിതമായ, ആഴത്തിൽ വറുത്ത ലഘുഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -225,14 +225,14 @@ var packs = [
           {
             "word": "Uzhunnu Vada",
             "wordMal": "ഉഴുന്ന് വട",
-            "relationEN": "Both Parippu Vada and Uzhunnu Vada are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പരിപ്പ് വട ഉം ഉഴുന്ന് വട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are flat, round deep-fried lentil vadas, staple snacks at Kerala tea shops with coconut chutney.",
+            "relationML": "പരിപ്പ് വടയും ഉഴുന്ന് വടയും കേരള ചായക്കടകളിൽ തേങ്ങ ചട്ണിയോടൊപ്പം നൽകുന്ന, പരിപ്പ് കൊണ്ട് ഉണ്ടാക്കുന്ന, പരന്ന, ഉരുണ്ട, ആഴത്തിൽ വറുത്ത പ്രധാന ലഘുഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Ulli Vada",
             "wordMal": "ഉള്ളി വട",
-            "relationEN": "Ulli Vada shares many characteristics with Parippu Vada, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പരിപ്പ് വട ഉം ഉള്ളി വട ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are crispy deep-fried vada snacks served at Kerala tea stalls, with a crunchy exterior and soft core.",
+            "relationML": "പരിപ്പ് വടയും ഉള്ളി വടയും കേരള ചായക്കടകളിൽ വിളമ്പുന്ന, പുറത്ത് ക്രിസ്‌പിയും അകത്ത് മൃദുലവുമായ, ആഴത്തിൽ വറുത്ത ലഘുഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -243,14 +243,14 @@ var packs = [
           {
             "word": "Kozhukkatta",
             "wordMal": "കൊഴുക്കട്ട",
-            "relationEN": "Both Ela Ada and Kozhukkatta are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഇല അട ഉം കൊഴുക്കട്ട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are sweet rice dumplings with coconut-jaggery filling made during Kerala festivals like Vishu and Onam.",
+            "relationML": "ഇല അടയും കൊഴുക്കട്ടയും കേരളത്തിൽ വിഷു, ഓണം എന്നീ ആഘോഷങ്ങളിൽ ഉണ്ടാക്കുന്ന, തേങ്ങ-ശർക്കര ഫില്ലിംഗ് ഉള്ള, മധുര ചോറ് ഉരുളകളാണ്."
           },
           {
             "word": "Ilayappam",
             "wordMal": "ഇലയപ്പം",
-            "relationEN": "Ilayappam shares many characteristics with Ela Ada, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഇല അട ഉം ഇലയപ്പം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are steamed rice dishes wrapped or cooked in banana leaves, carrying the distinct aroma of the leaf.",
+            "relationML": "ഇല അടയും ഇലയപ്പവും വാഴ ഇലകളിൽ പൊതിഞ്ഞ് അല്ലെങ്കിൽ ആ ഇലയ്ക്ക് മേൽ ഉണ്ടാക്കുന്ന, ആ ഇലയുടെ സ്വന്തം സുഗന്ധം ഉള്ള, ആവിയിൽ വേവിക്കുന്ന ചോറ് ഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -261,14 +261,14 @@ var packs = [
           {
             "word": "Kuzhalappam",
             "wordMal": "കുഴലപ്പം",
-            "relationEN": "Both Achappam and Kuzhalappam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അച്ചപ്പം ഉം കുഴലപ്പം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are crispy deep-fried rice flour snacks from Kerala, one is rose-cookie shaped and the other is cylindrical.",
+            "relationML": "അച്ചപ്പവും കുഴലപ്പവും കേരളത്തിൽ നിന്നുള്ള, ആരിടിമാവ് കൊണ്ട് ഉണ്ടാക്കുന്ന, ക്രിസ്‌പി, ആഴത്തിൽ വറുത്ത ലഘുഭക്ഷണങ്ങളാണ്; ഒന്ന് റോസ് കുക്കി ആകൃതിയിലും മറ്റൊന്ന് കുഴൽ ആകൃതിയിലുമാണ്."
           },
           {
             "word": "Murukku",
             "wordMal": "മുറുക്ക്",
-            "relationEN": "Murukku shares many characteristics with Achappam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ അച്ചപ്പം ഉം മുറുക്ക് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are crunchy deep-fried rice flour snacks traditionally made at home for Kerala festivals and celebrations.",
+            "relationML": "അച്ചപ്പവും മുറുക്കും കേരള ഉത്സവങ്ങൾക്കും ആഘോഷങ്ങൾക്കും വേണ്ടി വീടുകളിൽ ഉണ്ടാക്കുന്ന, ആരിടിമാവ് കൊണ്ടുള്ള, ക്രഞ്ചി, ആഴത്തിൽ വറുത്ത ലഘുഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -279,14 +279,14 @@ var packs = [
           {
             "word": "Neyyappam",
             "wordMal": "നെയ്യപ്പം",
-            "relationEN": "Both Unniyappam and Neyyappam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഉണ്ണിയപ്പം ഉം നെയ്യപ്പം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are small round rice flour pancakes fried in iron moulds with coconut and jaggery, a beloved Kerala sweet.",
+            "relationML": "ഉണ്ണിയപ്പവും നെയ്യപ്പവും ഇരുമ്പ് അച്ചുകളിൽ തേങ്ങയും ശർക്കരയും ഉള്ള ആരിടിമാവ് കൊണ്ട് ഉണ്ടാക്കുന്ന, ഉരുണ്ട ചെറിയ, കേരളത്തിൽ ഏറ്റവും പ്രിയപ്പെട്ട മധുരങ്ങളാണ്."
           },
           {
             "word": "Kinnathappam",
             "wordMal": "കിണ്ണത്തപ്പം",
-            "relationEN": "Kinnathappam shares many characteristics with Unniyappam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഉണ്ണിയപ്പം ഉം കിണ്ണത്തപ്പം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are soft, sweet steamed or fried rice snacks made with jaggery and coconut as festival treats in Kerala.",
+            "relationML": "ഉണ്ണിയപ്പവും കിണ്ണത്തപ്പവും ശർക്കരയും തേങ്ങയും ഉള്ള, കേരളത്തിൽ ഉത്സവ വേളകളിൽ ഉണ്ടാക്കുന്ന, മൃദുലമായ, മധുര, ആരിടിമാവ് ലഘുഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -297,14 +297,14 @@ var packs = [
           {
             "word": "Kappa Chips",
             "wordMal": "കപ്പ ചിപ്‌സ്",
-            "relationEN": "Both Banana Chips and Kappa Chips are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാഴക്ക ചിപ്സ് ഉം കപ്പ ചിപ്‌സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are thin, crispy fried chips made from Kerala crops—one from raw banana and the other from tapioca.",
+            "relationML": "ബനാന ചിപ്സും കപ്പ ചിപ്സും കേരളത്തിൽ ഉൽഭവിക്കുന്ന ഉൽഭവ വസ്തുക്കൾ കൊണ്ടുള്ള, നേർത്ത, ക്രിസ്‌പി, വറുത്ത ചിപ്സ് ആണ്; ഒന്ന് പച്ചക്കദളി കൊണ്ടും മറ്റൊന്ന് കപ്പ കൊണ്ടുമാണ്."
           },
           {
             "word": "Sharkara Upperi",
             "wordMal": "ശർക്കര ഉപ്പേരി",
-            "relationEN": "Sharkara Upperi shares many characteristics with Banana Chips, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ വാഴക്ക ചിപ്സ് ഉം ശർക്കര ഉപ്പേരി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are made from raw banana slices in Kerala—banana chips are savory and Sharkara Upperi is coated with jaggery.",
+            "relationML": "ബനാന ചിപ്സും ശർക്കര ഉപ്പേരിയും കേരളത്തിൽ പച്ചക്കദളി ഉപയോഗിച്ചാണ് ഉണ്ടാക്കുന്നത്; ബനാന ചിപ്സ് ഉപ്പ് സ്വഭാവം ഉള്ളതും ശർക്കര ഉപ്പേരി ശർക്കരപ്പൂ പൂശ്ശ് ഉള്ളതുമാണ്."
           }
         ]
       },
@@ -315,14 +315,14 @@ var packs = [
           {
             "word": "Banana Chips",
             "wordMal": "വാഴക്ക ചിപ്‌സ്",
-            "relationEN": "Both Sharkara Upperi and Banana Chips are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശർക്കര ഉപ്പേരി ഉം വാഴക്ക ചിപ്‌സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are banana-based crunchy snacks from Kerala, one sweet and jaggery-coated, one salted and crispy.",
+            "relationML": "ശർക്കര ഉപ്പേരിയും ബനാന ചിപ്സും കേരളത്തിൽ നിന്നുള്ള, ക്കദളി ആധാരിതമായ ക്രഞ്ചി ലഘുഭക്ഷണങ്ങളാണ്; ഒന്ന് മധുരവും ശർക്കരപ്പൂ ഉള്ളതും, മറ്റൊന്ന് ഉപ്പ് ചേർന്ന ക്രിസ്‌പിയും ആണ്."
           },
           {
             "word": "Achappam",
             "wordMal": "അച്ചപ്പം",
-            "relationEN": "Achappam shares many characteristics with Sharkara Upperi, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ശർക്കര ഉപ്പേരി ഉം അച്ചപ്പം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Onam and festival sweets made at home in Kerala with rice flour or banana as the base.",
+            "relationML": "ശർക്കര ഉപ്പേരിയും അച്ചപ്പവും കേരളത്തിൽ ഓണം, ഉത്സവ വേളകളിൽ ആരിടിമാവ് അല്ലെങ്കിൽ ക്കദളി ആധാരമായി വീടുകളിൽ ഉണ്ടാക്കുന്ന, പരമ്പരാഗത മധുര ലഘുഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -333,14 +333,14 @@ var packs = [
           {
             "word": "Banana Chips",
             "wordMal": "വാഴക്ക ചിപ്‌സ്",
-            "relationEN": "Both Kappa Chips and Banana Chips are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കപ്പ ചിപ്സ് ഉം വാഴക്ക ചിപ്‌സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are crunchy sliced chips from Kerala, made from root vegetables or plantain, sold by roadside shops.",
+            "relationML": "കപ്പ ചിപ്സും ബനാന ചിപ്സും കേരളത്തിൽ റോഡ് വക്കിലെ കടകളിൽ വിൽക്കുന്ന, ചോറ് സസ്യങ്ങൾ അല്ലെങ്കിൽ ക്കദളി കൊണ്ടുള്ള, ക്രഞ്ചി, അരിഞ്ഞ ചിപ്സ് ആണ്."
           },
           {
             "word": "Pakkavada",
             "wordMal": "പക്കാവട",
-            "relationEN": "Pakkavada shares many characteristics with Kappa Chips, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കപ്പ ചിപ്സ് ഉം പക്കാവട ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are crunchy, oil-fried Kerala snacks sold in shops with tea, one from tapioca and one from rice flour strips.",
+            "relationML": "കപ്പ ചിപ്സും പക്കാവടയും കേരളത്തിൽ ചായക്കൊപ്പം കടകളിൽ വിൽക്കുന്ന, ക്രഞ്ചി, എണ്ണയിൽ വറുത്ത ലഘുഭക്ഷണങ്ങളാണ്; ഒന്ന് കപ്പ കൊണ്ടും മറ്റൊന്ന് ആരിടിമാവ് കൊണ്ടുമാണ്."
           }
         ]
       },
@@ -351,14 +351,14 @@ var packs = [
           {
             "word": "Avalose Unda",
             "wordMal": "അവലോസ് ഉണ്ട",
-            "relationEN": "Both Avalose Podi and Avalose Unda are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അവലോസ് പൊടി ഉം അവലോസ് ഉണ്ട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are made from the same roasted rice flour base—Avalose Podi is loose powder and Avalose Unda is a ball.",
+            "relationML": "അവലോസ് പൊടിയും അവലോസ് ഉണ്ടയും ഒരേ വറുത്ത ആരിടിപ്പൊടി ആധാരത്തിൽ ഉണ്ടാക്കുന്നതാണ്; അവലോസ് പൊടി അടിത്തള്ളൽ രൂപത്തിലും അവലോസ് ഉണ്ട ഉരുള ആകൃതിയിലുമാണ്."
           },
           {
             "word": "Churuttu",
             "wordMal": "ചുരുട്ട്",
-            "relationEN": "Churuttu shares many characteristics with Avalose Podi, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ അവലോസ് പൊടി ഉം ചുരുട്ട് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala sweets made from roasted rice flour and jaggery, one is powdery and one is rolled.",
+            "relationML": "അവലോസ് പൊടിയും ചുരുട്ടും കേരളത്തിൽ വറുത്ത ആരിടിപ്പൊടിയും ശർക്കരയും ഉപയോഗിച്ച് ഉണ്ടാക്കുന്ന, പരമ്പരാഗത മധുരങ്ങളാണ്; ഒന്ന് പൊടിരൂപത്തിലും മറ്റൊന്ന് ചുരുൾ ആകൃതിയിലുമാണ്."
           }
         ]
       },
@@ -369,14 +369,14 @@ var packs = [
           {
             "word": "Achappam",
             "wordMal": "അച്ചപ്പം",
-            "relationEN": "Both Kozhalappam and Achappam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കൊഴലപ്പം ഉം അച്ചപ്പം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are crispy, deep-fried Kerala festival snacks made from rice flour using specially shaped moulds.",
+            "relationML": "കുഴലപ്പവും അച്ചപ്പവും ആരിടിമാവ് ഉപയോഗിച്ച്, പ്രത്യേക ആകൃതി ഉള്ള ഉപകരണങ്ങൾ ഉപയോഗിച്ച് ഉണ്ടാക്കുന്ന, കേരള ഉത്സവ ലഘുഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Murukku",
             "wordMal": "മുറുക്ക്",
-            "relationEN": "Murukku shares many characteristics with Kozhalappam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കൊഴലപ്പം ഉം മുറുക്ക് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are crispy hollow or spiral-shaped fried rice snacks that make a crunching sound when eaten.",
+            "relationML": "കുഴലപ്പവും മുറുക്കും ആഴത്തിൽ വറുത്ത, ഉള്ളൊ ഒഴിഞ്ഞ അല്ലെങ്കിൽ ചുരുൾ ആകൃതിയിലുള്ള, കഴിക്കുമ്പോൾ ക്രഞ്ചി ശബ്ദം ഉണ്ടാക്കുന്ന ആരിടി ലഘുഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -387,14 +387,14 @@ var packs = [
           {
             "word": "Kalathappam",
             "wordMal": "കലത്തപ്പം",
-            "relationEN": "Both Kinnathappam and Kalathappam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കിണ്ണത്തപ്പം ഉം കലത്തപ്പം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are soft, steamed Kerala rice sweets cooked in vessels—one in a plate and the other in an earthen pot.",
+            "relationML": "കിണ്ണത്തപ്പവും കലത്തപ്പവും കേരളത്തിൽ പാത്രങ്ങളിൽ ആവിയിൽ പാകം ചെയ്യുന്ന, മൃദുലമായ, ആരിടി മധുരങ്ങളാണ്; ഒന്ന് തട്ടത്തിലും മറ്റൊന്ന് മൺ കലത്തിലുമാണ്."
           },
           {
             "word": "Unniyappam",
             "wordMal": "ഉണ്ണിയപ്പം",
-            "relationEN": "Unniyappam shares many characteristics with Kinnathappam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കിണ്ണത്തപ്പം ഉം ഉണ്ണിയപ്പം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are soft, sweet Kerala rice snacks with jaggery and coconut, enjoyed during festivals and celebrations.",
+            "relationML": "കിണ്ണത്തപ്പവും ഉണ്ണിയപ്പവും ശർക്കരയും തേങ്ങയും ഉള്ള, ഉത്സവങ്ങളിൽ ആസ്വദിക്കുന്ന, മൃദുലമായ, മധുര കേരള ആരിടി ലഘുഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -405,14 +405,14 @@ var packs = [
           {
             "word": "Avalose Unda",
             "wordMal": "അവലോസ് ഉണ്ട",
-            "relationEN": "Both Churuttu and Avalose Unda are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചുരുട്ട് ഉം അവലോസ് ഉണ്ട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are rolled or ball-shaped traditional Kerala sweets made from rice flour and coconut with jaggery.",
+            "relationML": "ചുരുട്ടും അവലോസ് ഉണ്ടയും ആരിടിമാവ്, തേങ്ങ, ശർക്കര ഉപയോഗിച്ചുണ്ടാക്കുന്ന, ചുരൾ ആകൃതിയിലോ ഉരുള ആകൃതിയിലോ ഉള്ള, പരമ്പരാഗത കേരള മധുരങ്ങളാണ്."
           },
           {
             "word": "Kuzhalappam",
             "wordMal": "കുഴലപ്പം",
-            "relationEN": "Kuzhalappam shares many characteristics with Churuttu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചുരുട്ട് ഉം കുഴലപ്പം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are cylindrical-shaped crispy snacks made from rice flour and used as festival treats in Kerala homes.",
+            "relationML": "ചുരുട്ടും കുഴലപ്പവും ആരിടിമാവ് കൊണ്ടുണ്ടാക്കുന്ന, കേരള ഉത്സവ ലഘുഭക്ഷണങ്ങളായ, കുഴൽ ആകൃതിയിലുള്ള ക്രിസ്‌പി ഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -423,14 +423,14 @@ var packs = [
           {
             "word": "Jalebi",
             "wordMal": "ജിലേബി",
-            "relationEN": "Both Halwa and Jalebi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹൽവ ഉം ജിലേബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are intensely sweet Indian desserts made with sugar syrup—Halwa is dense and Jalebi is syrup-soaked spirals.",
+            "relationML": "ഹൽവയും ജിലേബിയും ഒരേ പഞ്ചസാര സിറപ്പ് ഉപയോഗിച്ചുണ്ടാക്കുന്ന, തീക്ഷ്ണ മധുര ഇന്ത്യൻ ഡെസർട്ടുകളാണ്; ഹൽവ കട്ടിയുള്ളതും ജിലേബി സിറപ്പ് കുതിർന്ന ചുരുളുകളുമാണ്."
           },
           {
             "word": "Laddoo",
             "wordMal": "ലഡ്ഡു",
-            "relationEN": "Laddoo shares many characteristics with Halwa, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഹൽവ ഉം ലഡ്ഡു ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are festive Indian sweets gifted during celebrations—Halwa is a soft dessert and Laddoo is a round ball.",
+            "relationML": "ഹൽവയും ലഡ്ഡൂവും ഉത്സവ വേളകളിൽ സമ്മാനമായി നൽകുന്ന, ഇന്ത്യൻ മധുരങ്ങളാണ്; ഹൽവ മൃദുലമായ ഡെസർട്ടും ലഡ്ഡൂ ഉരുണ്ട ഉരുളയുമാണ്."
           }
         ]
       },
@@ -441,14 +441,14 @@ var packs = [
           {
             "word": "Bonda",
             "wordMal": "ബോണ്ട",
-            "relationEN": "Both Sukhiyan and Bonda are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സുഖിയൻ ഉം ബോണ്ട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are round, deep-fried Kerala snacks with a sweet filling of coconut and green gram inside.",
+            "relationML": "സൂഖിയനും ബൊണ്ടയും ഒരേ തേങ്ങ-ചെറുപയർ ഫില്ലിംഗ് ഉള്ള, ഉരുണ്ട, ആഴത്തിൽ വറുത്ത, കേരള ലഘുഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Modakam",
             "wordMal": "മോദകം",
-            "relationEN": "Modakam shares many characteristics with Sukhiyan, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സുഖിയൻ ഉം മോദകം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are sweet-filled rice or wheat dumplings with green gram and coconut, offered as prasadam in temples.",
+            "relationML": "സൂഖിയനും മോദകവും ചെറുപയറും തേങ്ങയും ഉള്ള, ദേവാലയങ്ങളിൽ പ്രസാദമായി നൽകുന്ന, മധുര ഫില്ലിംഗ് ഉള്ള, ആരിടി അല്ലെങ്കിൽ ഗോതമ്പ് ഉരുളകളാണ്."
           }
         ]
       },
@@ -459,14 +459,14 @@ var packs = [
           {
             "word": "Pazhampori",
             "wordMal": "പഴംപൊരി",
-            "relationEN": "Both Bread Pakora and Pazhampori are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബ്രെഡ് പക്കോട ഉം പഴംപൊരി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are batter-coated and deep-fried snacks served hot—one uses bread slices and the other uses banana.",
+            "relationML": "ബ്രഡ് പകോടയും പഴംപൊരിയും ബാറ്ററിൽ മുക്കി ആഴത്തിൽ വറുത്ത, ചൂടോടെ നൽകുന്ന ലഘുഭക്ഷണങ്ങളാണ്; ഒന്ന് ബ്രഡ് ഉപയോഗിക്കുന്നതും മറ്റൊന്ന് ക്കദളി ഉപയോഗിക്കുന്നതുമാണ്."
           },
           {
             "word": "Mutta Baji",
             "wordMal": "മുട്ട ബജ്ജി",
-            "relationEN": "Mutta Baji shares many characteristics with Bread Pakora, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ബ്രെഡ് പക്കോട ഉം മുട്ട ബജ്ജി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are gram-flour batter fried snacks—one using bread and one using egg—popular in Kerala evening tea time.",
+            "relationML": "ബ്രഡ് പകോടയും മുട്ട ബജിയും കടലമാവ് ബാറ്ററിൽ വറുത്ത ലഘുഭക്ഷണങ്ങളാണ്; ഒന്ന് ബ്രഡ് ഉള്ളതും മറ്റൊന്ന് മുട്ട ഉള്ളതും ആണ്, കേരളത്തിൽ വൈകുന്നേര ചായ സമയത്ത് ജനപ്രിയമാണ്."
           }
         ]
       },
@@ -477,14 +477,14 @@ var packs = [
           {
             "word": "Jalebi",
             "wordMal": "ജിലേബി",
-            "relationEN": "Both Laddoo and Jalebi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലഡ്ഡു ഉം ജിലേബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Indian sweets made with sugar and deep-frying, popular during festivals and given as gifts.",
+            "relationML": "ലഡ്ഡൂവും ജിലേബിയും ഉത്സവ വേളകളിൽ ജനപ്രിയ, പഞ്ചസാരയും, ആഴ്ത്തി വറുക്കലും ഉള്ള ഇന്ത്യൻ മധുരങ്ങളാണ്."
           },
           {
             "word": "Halwa",
             "wordMal": "ഹൽവ",
-            "relationEN": "Halwa shares many characteristics with Laddoo, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ലഡ്ഡു ഉം ഹൽവ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Indian festival sweets—Laddoo is sphere-shaped and Halwa is a soft dessert pudding.",
+            "relationML": "ലഡ്ഡൂവും ഹൽവയും ഒരേ ഉത്സവ ആചാരം ഉള്ള, പരമ്പരാഗത ഇന്ത്യൻ മധുരങ്ങളാണ്; ലഡ്ഡൂ ഗോളാകൃതിയിലും ഹൽവ മൃദുലമായ ഡെസർട്ട് പുഡ്ഡിംഗ് ആകൃതിയിലുമാണ്."
           }
         ]
       },
@@ -495,14 +495,14 @@ var packs = [
           {
             "word": "Laddoo",
             "wordMal": "ലഡ്ഡു",
-            "relationEN": "Both Jalebi and Laddoo are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജിലേബി ഉം ലഡ്ഡു ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are brightly colored, festive Indian sweets distributed during weddings and celebrations.",
+            "relationML": "ജിലേബിയും ലഡ്ഡൂവും വിവാഹങ്ങളിലും ആഘോഷങ്ങളിലും വിതരണം ചെയ്യുന്ന, തിളങ്ങുന്ന നിറത്തിലുള്ള, ഉത്സവ ഇന്ത്യൻ മധുരങ്ങളാണ്."
           },
           {
             "word": "Halwa",
             "wordMal": "ഹൽവ",
-            "relationEN": "Halwa shares many characteristics with Jalebi, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ജിലേബി ഉം ഹൽവ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are hot, sweet Indian desserts served during festivals—Jalebi is syrupy spirals and Halwa is a dense pudding.",
+            "relationML": "ജിലേബിയും ഹൽവയും ഉത്സവ വേളകളിൽ ഗ്രഹിക്കുന്ന, ചൂടുള്ള, മധുര ഇന്ത്യൻ ഡെസർട്ടുകളാണ്; ജിലേബി സിറപ്പ് ചുരുളുകളും ഹൽവ കട്ടി പുഡ്ഡിംഗ് ആകൃതിയിലുമാണ്."
           }
         ]
       },
@@ -513,14 +513,14 @@ var packs = [
           {
             "word": "Cutlet",
             "wordMal": "കട്ട്‌ലെറ്റ്",
-            "relationEN": "Both Meat Roll and Cutlet are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മീറ്റ് റോൾ ഉം കട്ട്‌ലെറ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Kerala bakery snacks with minced meat filling, one is flat and crumbed and one is cylindrical.",
+            "relationML": "മീറ്റ് റോളും കട്ട്‌ലറ്റും ഒരേ അരിഞ്ഞ ഇറച്ചി ഫില്ലിംഗ് ഉള്ള, ജനപ്രിയ കേരള ബേക്കറി ലഘുഭക്ഷണങ്ങളാണ്; ഒന്ന് പരന്നതും ബ്രഡ്ക്രം ഉള്ളതും, മറ്റൊന്ന് കുഴൽ ആകൃതിയിലുമാണ്."
           },
           {
             "word": "Samosa",
             "wordMal": "സമോസ",
-            "relationEN": "Samosa shares many characteristics with Meat Roll, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മീറ്റ് റോൾ ഉം സമോസ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are stuffed snacks with a crispy outer shell sold side by side at Kerala bakeries with tea.",
+            "relationML": "മീറ്റ് റോളും സമോസയും ക്രിസ്‌പി പൊതിഞ്ഞ, ഫില്ലിംഗ് ഉള്ള ലഘുഭക്ഷണങ്ങളാണ്, കേരള ബേക്കറികളിൽ ചായക്കൊപ്പം തൊട്ടടുത്ത് വിൽക്കുന്നത്."
           }
         ]
       },
@@ -531,14 +531,14 @@ var packs = [
           {
             "word": "Payasam",
             "wordMal": "പായസം",
-            "relationEN": "Both Boli and Payasam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബോളി ഉം പായസം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala festival sweets traditionally made during Onam and Vishu, one is a stuffed flatbread and the other a pudding.",
+            "relationML": "ബോളിയും പായസവും ഒരേ ഓണം, വിഷു ഉത്സവ ആചാരം ഉള്ള, കേരള മധുരങ്ങളാണ്; ബോളി ഫില്ലിംഗ് ഉള്ള ചപ്പാത്തി ആകൃതിയും പായസം ഒഴുകുന്ന ഡെസർട്ടുമാണ്."
           },
           {
             "word": "Halwa",
             "wordMal": "ഹൽവ",
-            "relationEN": "Halwa shares many characteristics with Boli, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ബോളി ഉം ഹൽവ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are sweet, soft, festive South Indian desserts made with dal or wheat, typical at Kerala celebrations.",
+            "relationML": "ബോളിയും ഹൽവയും ദൽ അല്ലെങ്കിൽ ഗോതമ്പ് ഉള്ള, കേരള ആഘോഷങ്ങളിൽ ഉണ്ടാക്കുന്ന, മൃദുലമായ, ഉത്സവ ദക്ഷിണ ഇന്ത്യൻ ഡെസർട്ടുകളാണ്."
           }
         ]
       },
@@ -549,14 +549,14 @@ var packs = [
           {
             "word": "Meat Roll",
             "wordMal": "മീറ്റ് റോൾ",
-            "relationEN": "Both Chatti Pathiri and Meat Roll are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചട്ടി പത്തിരി ഉം മീറ്റ് റോൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are layered or rolled baked dishes with a spiced meat filling, popular in Malabar Kerala cuisine.",
+            "relationML": "ചട്ടി പത്തിരിയും മീറ്റ് റോളും മലബാർ കേരള പാചകരീതിയിൽ ജനപ്രിയ, മസാലചേർന്ന ഇറച്ചി ഫില്ലിംഗ് ഉള്ള, ആലയിൽ ആക്കിയ ഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Samosa",
             "wordMal": "സമോസ",
-            "relationEN": "Samosa shares many characteristics with Chatti Pathiri, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചട്ടി പത്തിരി ഉം സമോസ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are pastry-covered snacks with a spiced filling, common in Kerala Muslim households and bakeries.",
+            "relationML": "ചട്ടി പത്തിരിയും സമോസയും കേരള മുസ്ലിം ഗൃഹങ്ങളിലും ബേക്കറികളിലും സർവ്വസാധാരണ, മസാല ഫില്ലിംഗ് ഉള്ള, പേസ്ട്രി പൊതിഞ്ഞ ലഘുഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -567,14 +567,14 @@ var packs = [
           {
             "word": "Plum Cake",
             "wordMal": "പ്ലം കേക്ക്",
-            "relationEN": "Both Vettu Cake and Plum Cake are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വെട്ട് കേക്ക് ഉം പ്ലം കേക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Christmas sweets sold at Kerala bakeries, one is a diamond-shaped fried cake and the other is a fruit-studded baked one.",
+            "relationML": "വേറ്റ് കേക്കും പ്ലം കേക്കും കേരള ബേക്കറികളിൽ ക്രിസ്തുമസ് കാലത്ത് ജനപ്രിയ മധുരങ്ങളാണ്; ഒന്ന് ഡയമണ്ട് ആകൃതിയിൽ വറുത്ത കേക്കും, മറ്റൊന്ന് പഴങ്ങൾ ചേർന്ന ബേക്ക് ചെയ്ത കേക്കുമാണ്."
           },
           {
             "word": "Bonda",
             "wordMal": "ബോണ്ട",
-            "relationEN": "Bonda shares many characteristics with Vettu Cake, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ വെട്ട് കേക്ക് ഉം ബോണ്ട ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are round or diamond-shaped deep-fried sweet snacks enjoyed with tea at Kerala bakeries.",
+            "relationML": "വേറ്റ് കേക്കും ബൊണ്ടയും കേരള ബേക്കറികളിൽ ചായക്കൊപ്പം ആസ്വദിക്കുന്ന, ഉരുണ്ടതോ ഡയമണ്ട് ആകൃതിയോ ഉള്ള, ആഴത്തിൽ വറുത്ത മധുര ലഘുഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -585,14 +585,14 @@ var packs = [
           {
             "word": "Mixture",
             "wordMal": "മിക്സ്ചർ",
-            "relationEN": "Both Pakkavada and Mixture are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പക്കവട ഉം മിക്സ്ചർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are crunchy fried Kerala snacks made from rice flour, typically sold in shops in bulk and mixed with spices.",
+            "relationML": "പക്കാവടയും മിക്സ്ചറും ആരിടിമാവ് കൊണ്ടുള്ള, കടകളിൽ ബൾക്കായി വിൽക്കുന്ന, ക്രഞ്ചി, ആഴ്ത്തി വറുത്ത, കേരള ലഘുഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Murukku",
             "wordMal": "മുറുക്ക്",
-            "relationEN": "Murukku shares many characteristics with Pakkavada, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പക്കവട ഉം മുറുക്ക് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are thin, crispy rice flour snacks deep-fried and eaten with tea, one is flat strips and one is spiral-shaped.",
+            "relationML": "പക്കാവടയും മുറുക്കും ആഴ്ത്തി വറുത്ത, ചായക്കൊപ്പം കഴിക്കുന്ന, നേർത്ത, ക്രിസ്‌പി ആരിടിമാവ് ലഘുഭക്ഷണങ്ങളാണ്; ഒന്ന് പരന്ന നാടകളും, മറ്റൊന്ന് ചുരൾ ആകൃതിയിലുമാണ്."
           }
         ]
       },
@@ -603,14 +603,14 @@ var packs = [
           {
             "word": "Neyyappam",
             "wordMal": "നെയ്യപ്പം",
-            "relationEN": "Both Kayyappam and Neyyappam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കയ്യപ്പം ഉം നെയ്യപ്പം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are round, pan-fried sweet rice snacks from Kerala cooked in special iron moulds with jaggery and coconut.",
+            "relationML": "കൈയ്യപ്പവും നെയ്യപ്പവും ഒരേ ശർക്കരയും തേങ്ങയും ഉള്ള, പ്രത്യേക ഇരുമ്പ് അച്ചുകളിൽ ഉണ്ടാക്കുന്ന, ഉരുണ്ട, ഗ്രഹിക്കുന്ന, മധുര ആരിടി ലഘുഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Unniyappam",
             "wordMal": "ഉണ്ണിയപ്പം",
-            "relationEN": "Unniyappam shares many characteristics with Kayyappam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കയ്യപ്പം ഉം ഉണ്ണിയപ്പം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala rice sweet pancakes made in cast iron moulds and enjoyed as temple prasadam.",
+            "relationML": "കൈയ്യപ്പവും ഉണ്ണിയപ്പവും ദേവാലയ പ്രസാദമായി ആസ്വദിക്കുന്ന, ഇരുമ്പ് അച്ചുകളിൽ ഉണ്ടാക്കുന്ന, പരമ്പരാഗത കേരള ആരിടി മധുര ഉരുളകളാണ്."
           }
         ]
       },
@@ -621,14 +621,14 @@ var packs = [
           {
             "word": "Ela Ada",
             "wordMal": "ഇല അട",
-            "relationEN": "Both Ilayappam and Ela Ada are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഇലയപ്പം ഉം ഇല അട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are steamed rice dishes folded in banana leaves with a sweet coconut-jaggery filling from Kerala.",
+            "relationML": "ഇലയപ്പവും ഇല അടയും ഒരേ മധുര തേങ്ങ-ശർക്കര ഫില്ലിംഗ് ഉള്ള, ആവിയിൽ വേവിക്കുന്ന, വാഴ ഇലകളിൽ ഉണ്ടാക്കുന്ന, കേരള ആരിടി ഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Kozhukkatta",
             "wordMal": "കൊഴുക്കട്ട",
-            "relationEN": "Kozhukkatta shares many characteristics with Ilayappam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഇലയപ്പം ഉം കൊഴുക്കട്ട ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are steamed sweet rice dumplings with coconut and jaggery filling, made during festivals in Kerala.",
+            "relationML": "ഇലയപ്പവും കൊഴുക്കട്ടയും ഒരേ ഉത്സവ ആചാരം ഉള്ള, തേങ്ങ-ശർക്കര ഫില്ലിംഗ് ഉള്ള, ആവിയിൽ വേവിക്കുന്ന, കേരള ആരിടി ഉരുളകളാണ്."
           }
         ]
       },
@@ -639,14 +639,14 @@ var packs = [
           {
             "word": "Kozhukkatta",
             "wordMal": "കൊഴുക്കട്ട",
-            "relationEN": "Both Mothagam and Kozhukkatta are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മോദകം ഉം കൊഴുക്കട്ട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are steamed rice dumplings with a sweet filling that are virtually indistinguishable from the outside.",
+            "relationML": "മോതകവും കൊഴുക്കട്ടയും ആഴത്തിൽ ഒരേ ആകൃതിയിൽ ഒരേ ഫില്ലിംഗ് ഉള്ള ആവിയിൽ വേവിക്കുന്ന ആരിടി ഉരുളകളാണ്."
           },
           {
             "word": "Sukhiyan",
             "wordMal": "സുഖിയൻ",
-            "relationEN": "Sukhiyan shares many characteristics with Mothagam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മോദകം ഉം സുഖിയൻ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are sweet green gram and coconut-filled round dumplings offered as prasadam in South Indian temples.",
+            "relationML": "മോതകവും സൂഖിയനും ദക്ഷിണ ഇന്ത്യൻ ദേവാലയങ്ങളിൽ പ്രസാദമായി നൽകുന്ന, ചെറുപയറ്-തേങ്ങ ഫില്ലിംഗ് ഉള്ള, ഉരുണ്ട, മധുര ഉരുളകളാണ്."
           }
         ]
       },
@@ -657,14 +657,14 @@ var packs = [
           {
             "word": "Meat Puff",
             "wordMal": "മീറ്റ് പഫ്‌സ്",
-            "relationEN": "Both Mutta Puff and Meat Puff are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുട്ട പഫ് ഉം മീറ്റ് പഫ്‌സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are golden-baked puff pastry snacks sold at Kerala bakeries, one filled with egg and one with spiced meat.",
+            "relationML": "മുട്ട പഫ്ഫും മീറ്റ് പഫ്ഫും ഒരേ കേരള ബേക്കറികളിൽ വിൽക്കുന്ന, ഉൾഭരിച്ച പേസ്ട്രി ലഘുഭക്ഷണങ്ങളാണ്; ഒന്ന് മുട്ടയും മറ്റൊന്ന് മസാലചേർന്ന ഇറച്ചിയും ഉള്ളതാണ്."
           },
           {
             "word": "Chicken Puff",
             "wordMal": "ചിക്കൻ പഫ്‌സ്",
-            "relationEN": "Chicken Puff shares many characteristics with Mutta Puff, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മുട്ട പഫ് ഉം ചിക്കൻ പഫ്‌സ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are flaky puff pastry baked snacks with an egg or chicken filling popular at every Kerala bakery.",
+            "relationML": "മുട്ട പഫ്ഫും ചിക്കൻ പഫ്ഫും ഒരേ പൊളിഞ്ഞ പേസ്ട്രി ബേക്ക് ലഘുഭക്ഷണങ്ങളാണ്; ഒന്ന് മുട്ടയും മറ്റൊന്ന് ചിക്കനും ഉള്ളതാണ്."
           }
         ]
       },
@@ -675,14 +675,14 @@ var packs = [
           {
             "word": "Jam Roll",
             "wordMal": "ജാം റോൾ",
-            "relationEN": "Both Cream Bun and Jam Roll are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ക്രീം ബൺ ഉം ജാം റോൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are sweet bakery breads from Kerala—Cream Bun is filled with fresh cream and Jam Roll is rolled with fruit jam.",
+            "relationML": "ക്രീം ബണ്ണും ജാം റോളും ഒരേ കേരള ബേക്കറി ബ്രഡ് ലഘുഭക്ഷണങ്ങളാണ്; ക്രീം ബൺ ഫ്രഷ് ക്രീം ഉള്ളതും ജാം റോൾ ഫ്രൂട്ട് ജാം ഉള്ളതുമാണ്."
           },
           {
             "word": "Cup Cake",
             "wordMal": "കപ്പ് കേക്ക്",
-            "relationEN": "Cup Cake shares many characteristics with Cream Bun, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ക്രീം ബൺ ഉം കപ്പ് കേക്ക് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are individual-sized sweet baked goods enjoyed with tea at Kerala bakeries, with cream or frosting toppings.",
+            "relationML": "ക്രീം ബണ്ണും കപ്പ് കേക്കും ഒരേ ചായക്കൊപ്പം ആസ്വദിക്കുന്ന, ക്രീം അല്ലെങ്കിൽ ഫ്രോസ്റ്റിംഗ് ഉള്ള, ഒറ്റ ആൾ ആകൃതിയിൽ ഉള്ള, കേരള ബേക്കറി മധുര ഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -693,14 +693,14 @@ var packs = [
           {
             "word": "Pakkavada",
             "wordMal": "പക്കാവട",
-            "relationEN": "Both Mixture and Pakkavada are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മിക്സ്ചർ ഉം പക്കാവട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are crunchy, spiced Kerala tea-time snacks made from rice flour and gram flour sold loose in shops.",
+            "relationML": "മിക്സ്ചറും പക്കാവടയും ആരിടിമാവ്, കടലമാവ് കൊണ്ടുള്ള, ക്രഞ്ചി, മസാലചേർന്ന, ചായ സമയ ലഘുഭക്ഷണങ്ങളാണ്."
           },
           {
             "word": "Murukku",
             "wordMal": "മുറുക്ക്",
-            "relationEN": "Murukku shares many characteristics with Mixture, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മിക്സ്ചർ ഉം മുറുക്ക് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are crispy, seasoned rice flour snacks that are sold together in the same shops as tea-time accompaniments.",
+            "relationML": "മിക്സ്ചറും മുറുക്കും ഒരേ കടകളിൽ ചായ സമയ ലഘുഭക്ഷണങ്ങളായി, ക്രിസ്‌പി, സ്പൈസ്ഡ് ആരിടിമാവ് ലഘുഭക്ഷണങ്ങളാണ്."
           }
         ]
       },
@@ -711,14 +711,14 @@ var packs = [
           {
             "word": "Kozhikodan Halwa",
             "wordMal": "കോഴിക്കോടൻ ഹൽവ",
-            "relationEN": "Both Pahadi Halwa and Kozhikodan Halwa are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കോഴിക്കോടൻ ഹൽവ ഉം കോഴിക്കോടൻ ഹൽവ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Kerala halwa varieties—Pahadi is made in Thrissur and Kozhikodan is Kozhikode's iconic black halwa.",
+            "relationML": "പഹാടി ഹൽവയും കോഴിക്കോടൻ ഹൽവയും കേരളത്തിൽ ജനപ്രിയ ഹൽവ ഇനങ്ങളാണ്; ഒന്ന് തൃശ്ശൂരിലും മറ്റൊന്ന് കോഴിക്കോടിന്റെ പ്രതീകമായ കറുത്ത ഹൽവയുമാണ്."
           },
           {
             "word": "Jalebi",
             "wordMal": "ജിലേബി",
-            "relationEN": "Jalebi shares many characteristics with Pahadi Halwa, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കോഴിക്കോടൻ ഹൽവ ഉം ജിലേബി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are intensely sweet, syrupy Indian festival sweets enjoyed by people of all ages in Kerala.",
+            "relationML": "പഹാടി ഹൽവയും ജിലേബിയും കേരളത്തിൽ എല്ലാ പ്രായക്കാരും ആസ്വദിക്കുന്ന, ശക്തമായ മധുരം ഉള്ള, സിറപ്പ് ഉള്ള ഇന്ത്യൻ ഉത്സവ മധുരങ്ങളാണ്."
           }
         ]
       }
@@ -736,14 +736,14 @@ var packs = [
           {
             "word": "Kuthuvilakku",
             "wordMal": "കുത്തുവിളക്ക്",
-            "relationEN": "Both Nilavilakku and Kuthuvilakku are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നിലവിളക്ക് ഉം കുത്തുവിളക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala brass oil lamps used during prayers and festivals, one stands on the floor and the other is shorter.",
+            "relationML": "നിലവിളക്കും കുത്തുവിളക്കും ഒരേ ദേശ ഓലിവ് എണ്ണ ഉള്ള, കേരള ദേവാലയ ആഘോഷ വേളകളിൽ ഉപയോഗിക്കുന്ന, പരമ്പരാഗത ചെമ്പ് ഓയിൽ ദീപങ്ങളാണ്; ഒന്ന് നിലത്ത് നിൽക്കുന്നതും മറ്റൊന്ന് കൊച്ചുതും ആണ്."
           },
           {
             "word": "Kindi",
             "wordMal": "കിണ്ടി",
-            "relationEN": "Kindi shares many characteristics with Nilavilakku, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ നിലവിളക്ക് ഉം കിണ്ടി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala brass vessels for ritual use, one is an oil lamp and the other is a water vessel used in prayers.",
+            "relationML": "നിലവിളക്കും കിണ്ടിയും ഒരേ ദേശ ചെമ്പ് ഉരുപ്പടികളാണ്; ഒന്ന് ഓയിൽ ദീപവും മറ്റൊന്ന് ആരാധനയ്ക്ക് ഉപയോഗിക്കുന്ന ചെമ്പ് ജലപ്പാത്രവുമാണ്."
           }
         ]
       },
@@ -754,14 +754,14 @@ var packs = [
           {
             "word": "Mundu",
             "wordMal": "മുണ്ട്",
-            "relationEN": "Both Thorthu and Mundu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തോർത്തു ഉം മുണ്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are white cotton cloth woven in Kerala, one is a thin towel and the other is a wrap-around garment worn by men.",
+            "relationML": "തോർത്തും മുണ്ടും കേരളത്തിൽ നൂലാൽ നെയ്ത, വെള്ള കോട്ടൺ തുണികളാണ്; ഒന്ന് നേർത്ത തൂവാലയും മറ്റൊന്ന് ആണുങ്ങൾ ചുറ്റി ഉടുക്കുന്ന വസ്ത്രവുമാണ്."
           },
           {
             "word": "Lungi",
             "wordMal": "ലുങ്കി",
-            "relationEN": "Lungi shares many characteristics with Thorthu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ തോർത്തു ഉം ലുങ്കി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are simple cloth garments worn by Kerala men in daily life, the Thorthu is thin cotton and the Lungi has a pattern.",
+            "relationML": "തോർത്തും ലുങ്കിയും കേരള ആണുങ്ങൾ ദൈനംദിന ജീവിതത്തിൽ ഉടുക്കുന്ന, ലളിതമായ തുണി വസ്ത്രങ്ങളാണ്; തോർത്ത് നേർത്ത കോട്ടൺ ആകൃതിയും ലുങ്കി ചിത്രം ഉള്ളതുമാണ്."
           }
         ]
       },
@@ -772,14 +772,14 @@ var packs = [
           {
             "word": "Kotta",
             "wordMal": "കൊട്ട",
-            "relationEN": "Both Muram and Kotta are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുറം ഉം കൊട്ട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala woven winnowing baskets used to separate grain from husk in the kitchen or field.",
+            "relationML": "മുറവും കൊട്ടയും ഒരേ കേരള ഗ്രാമം, അടുക്കള, ഇടം, ഉള്ളി ആ ഉള്ളി ഒഴിക്കൽ, ഒഴിക്കൽ ഉള്ള, ഇഴഞ്ഞ, ധാന്യം തരംതിരിക്കൽ പൊളി ഉരുപ്പടികളാണ്."
           },
           {
             "word": "Vatti",
             "wordMal": "വട്ടി",
-            "relationEN": "Vatti shares many characteristics with Muram, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മുറം ഉം വട്ടി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are woven bamboo or cane baskets used in Kerala homes for separating or carrying grain and produce.",
+            "relationML": "മുറവും വട്ടിയും ഒരേ ഇഴഞ്ഞ മുള അല്ലെങ്കിൽ ചൂരൽ ഉരുപ്പടികളാണ്; കേരള ഗൃഹങ്ങളിൽ ധാന്യം തരംതിരിക്കൽ, കൊണ്ടുനടക്കൽ ആവശ്യങ്ങൾക്ക് ഉപയോഗിക്കുന്നു."
           }
         ]
       },
@@ -790,14 +790,14 @@ var packs = [
           {
             "word": "Thavi",
             "wordMal": "തവി",
-            "relationEN": "Both Chattukam and Thavi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചട്ടുകം ഉം തവി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are long-handled Kerala kitchen ladles used for stirring curry or serving rice, one is flat and one is deep.",
+            "relationML": "ചട്ടുകവും തവിയും ഒരേ ദൈർഘ്യമേറിയ കൈ ഉള്ള, കേരള അടുക്കള ഉരുപ്പടികളാണ്; ഒന്ന് ഭക്ഷ്യ ഇളക്കൽ, മറ്റൊന്ന് ഭക്ഷ്യ വിളമ്പൽ ആണ്."
           },
           {
             "word": "Chirava",
             "wordMal": "ചിരവ",
-            "relationEN": "Chirava shares many characteristics with Chattukam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചട്ടുകം ഉം ചിരവ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala kitchen tools—one is a ladle for stirring and one is a knife-like blade for scraping.",
+            "relationML": "ചട്ടുകവും ചിരവയും ഒരേ, പരമ്പരാഗത കേരള അടുക്കള ഉരുപ്പടികളാണ്; ഒന്ന് ഇളക്കൽ ഉപകരണവും, മറ്റൊന്ന് ചുരണ്ടൽ ഉരുൾ ആകൃതിയിലുള്ള ബ്ലേഡ് ഉരുപ്പടിയും ആണ്."
           }
         ]
       },
@@ -808,14 +808,14 @@ var packs = [
           {
             "word": "Sari",
             "wordMal": "സാരി",
-            "relationEN": "Both Mundum Neriyathum and Sari are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുണ്ടും നേരിയതും ഉം സാരി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Indian garments worn by women, one is the Kerala two-piece set and the other is a six-yard wrap.",
+            "relationML": "മുണ്ടും നേരിയതും സാരിയും ഒരേ ഇന്ത്യൻ പരമ്പരാഗത, സ്ത്രീ വസ്ത്ര ആകൃതികളാണ്; ഒന്ന് കേരള രണ്ടുകഷ്ണ ഉടുക്കും, മറ്റൊന്ന് ആറ് മീറ്റർ ആകൃതിയും ആണ്."
           },
           {
             "word": "Pattupavada",
             "wordMal": "പട്ടുപാവാട",
-            "relationEN": "Pattupavada shares many characteristics with Mundum Neriyathum, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മുണ്ടും നേരിയതും ഉം പട്ടുപാവാട ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala women's garments worn on festive occasions like Onam, one for adults and one for girls.",
+            "relationML": "മുണ്ടും നേരിയതും പട്ടുപാവടയും ഒരേ ഓണം പോലുള്ള ഉത്സവ വേളകളിൽ ഉടുക്കുന്ന, കേരള പരമ്പരാഗത വനിതാ വസ്ത്ര ആകൃതികളാണ്; ഒന്ന് മുതിർന്നവർക്കും മറ്റൊന്ന് പെൺ കുട്ടികൾക്കും ആണ്."
           }
         ]
       },
@@ -826,14 +826,14 @@ var packs = [
           {
             "word": "Cheenachatti",
             "wordMal": "ചീനച്ചട്ടി",
-            "relationEN": "Both Uruli and Cheenachatti are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഉരുളി ഉം ചീനച്ചട്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are wide, round cooking vessels used in Kerala kitchens—the Uruli is traditionally bronze and the Cheenachatti is iron.",
+            "relationML": "ഉരുളിയും ചീനച്ചട്ടിയും ഒരേ കേരള അടുക്കളകളിൽ ഉപയോഗിക്കുന്ന, വൃത്ത ആകൃതിയിലുള്ള, വലിയ പാചക പാത്രങ്ങളാണ്; ഉരുളി പരമ്പരാഗതമായി വെങ്കലവും ചീനച്ചട്ടി ഇരുമ്പുമാണ്."
           },
           {
             "word": "Charuvam",
             "wordMal": "ചരുവം",
-            "relationEN": "Charuvam shares many characteristics with Uruli, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഉരുളി ഉം ചരുവം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala cooking pots used on open fire for making rice or curry in large quantities.",
+            "relationML": "ഉരുളിയും ചരുവവും ഒരേ, തുറന്ന അടുപ്പിൽ ഉപയോഗിക്കുന്ന, ചോറ്, കറി, ധാരാളം ഭക്ഷ്യ ആവശ്യങ്ങൾക്ക് ഉപയോഗിക്കുന്ന, പരമ്പരാഗത കേരള പാചക പാത്രങ്ങളാണ്."
           }
         ]
       },
@@ -844,14 +844,14 @@ var packs = [
           {
             "word": "Edangazhi",
             "wordMal": "ഇടങ്ങഴി",
-            "relationEN": "Both Para and Edangazhi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പറ ഉം ഇടങ്ങഴി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala grain-measuring vessels used in rural areas to measure rice and other commodities.",
+            "relationML": "പറയും ഇടങ്ങഴിയും ഒരേ കേരള ഗ്രാമ ആണ്, ചോറ്, ധാന്യ ആകൃതി ഉള്ള, ഗ്രാമ ഇടങ്ങളിൽ ഉപയോഗിക്കുന്ന, പരമ്പരാഗത ഭാരം അളക്കൽ ഉരുപ്പടികളാണ്."
           },
           {
             "word": "Nazhi",
             "wordMal": "നാഴി",
-            "relationEN": "Nazhi shares many characteristics with Para, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പറ ഉം നാഴി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala units and containers for measuring dry grain, with Para being larger and Nazhi smaller.",
+            "relationML": "പറയും നാഴിയും ഒരേ ഗ്രാമ ഭക്ഷ്യ ഉൽഭവ, ധാന്യ അളക്കൽ ഉരുപ്പടികളാണ്; പറ വലിയതും നാഴി ചെറിയതുമാണ്."
           }
         ]
       },
@@ -862,14 +862,14 @@ var packs = [
           {
             "word": "Kalam",
             "wordMal": "കലം",
-            "relationEN": "Both Kudam and Kalam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുടം ഉം കലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala water storage vessels, one is a narrow-necked pot and the other is a wide-mouthed one.",
+            "relationML": "കുടവും കലവും ഒരേ ജലം ശേഖരണ, പരമ്പരാഗത കേരള ഉരുപ്പടികളാണ്; കുടം ഇടുങ്ങിയ കഴുത്ത് ഉള്ളതും കലം വിശാലമായ വായ ഉള്ളതുമാണ്."
           },
           {
             "word": "Bharani",
             "wordMal": "ഭരണി",
-            "relationEN": "Bharani shares many characteristics with Kudam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കുടം ഉം ഭരണി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala earthen pots used for storing water or pickles, made from clay by traditional potters.",
+            "relationML": "കുടവും ഭരണിയും ഒരേ, ജലം, ഉപ്പിലിടൽ ശേഖരണ, കളിമൺ പോളി, പരമ്പരാഗത കേരള ഉരുപ്പടികളാണ്."
           }
         ]
       },
@@ -880,14 +880,14 @@ var packs = [
           {
             "word": "Charuvam",
             "wordMal": "ചരുവം",
-            "relationEN": "Both Chembu and Charuvam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചെമ്പ് ഉം ചരുവം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala cooking pots used on firewood stoves to cook rice and curry in village homes.",
+            "relationML": "ചെമ്പും ചരുവവും ഒരേ, ഗ്രാമ ഗൃഹങ്ങളിൽ വിറക് ഉപയോഗിച്ച് ചോറ്, കറി ഉണ്ടാക്കൽ ആവശ്യങ്ങൾക്ക് ഉപയോഗിക്കുന്ന, പരമ്പരാഗത കേരള പാചക പാത്രങ്ങളാണ്."
           },
           {
             "word": "Kalam",
             "wordMal": "കലം",
-            "relationEN": "Kalam shares many characteristics with Chembu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചെമ്പ് ഉം കലം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala vessels for holding liquids, the Chembu is a copper pot and the Kalam is earthenware.",
+            "relationML": "ചെമ്പും കലവും ഒരേ ദ്രാവകം ഉൾക്കൊള്ളൽ ഉള്ള, പരമ്പരാഗത കേരള ഉരുപ്പടികളാണ്; ചെമ്പ് ചെമ്പ് ലോഹ കഴുകൽ, കലം കളിമൺ ഉരുപ്പടി ആണ്."
           }
         ]
       },
@@ -898,14 +898,14 @@ var packs = [
           {
             "word": "Arakallu",
             "wordMal": "അരക്കല്ല്",
-            "relationEN": "Both Ammikallu and Arakallu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അമ്മിക്കല്ല് ഉം അരക്കല്ല് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala stone grinding tools—Ammikallu is used for grinding spices and Arakallu for flour.",
+            "relationML": "അമ്മിക്കല്ലും അരക്കല്ലും ഒരേ, പരമ്പരാഗത കേരള, ശില ആകൃതി ഉള്ള, ഇടിക്കൽ ഉരുപ്പടികളാണ്; അമ്മിക്കല്ല് സുഗന്ധ ദ്രവ്യ ഉരുൾ ഉള്ളതും, അരക്കല്ല് ഉൽഭവ പൊടിക്കൽ ഉള്ളതുമാണ്."
           },
           {
             "word": "Aattukallu",
             "wordMal": "ആട്ടുകല്ല്",
-            "relationEN": "Aattukallu shares many characteristics with Ammikallu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ അമ്മിക്കല്ല് ഉം ആട്ടുകല്ല് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are heavy stone tools in a Kerala kitchen, one grinds wet spices and the other grinds grains in a mortar shape.",
+            "relationML": "അമ്മിക്കല്ലും ആട്ടുകല്ലും ഒരേ, കേരള അടുക്കള, ഭക്ഷ്യ ഇടിക്കൽ, ഭക്ഷ്യ ഉരൾ ഉള്ള, ഭാരമേറിയ ശില ഉരുപ്പടികളാണ്; ഒന്ന് ഈർപ്പ ഇടിക്കൽ ഉള്ളതും, മറ്റൊന്ന് ധാന്യ ഇടിക്കൽ ഉള്ളതുമാണ്."
           }
         ]
       },
@@ -916,14 +916,14 @@ var packs = [
           {
             "word": "Ammikallu",
             "wordMal": "അമ്മി",
-            "relationEN": "Both Arakkallu and Ammikallu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അരക്കല്ല് ഉം അമ്മി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are flat stone grinding slabs used in Kerala to grind rice batter and spices for cooking.",
+            "relationML": "അരക്കല്ലും അമ്മിക്കല്ലും ഒരേ, കേരള ഭക്ഷ്യ ഇടിക്കൽ, ചോറ്, സുഗന്ധ ദ്രവ്യ ഇടിക്കൽ ഉള്ള, ഒരു ഉൽഭവ, ഒരു ഉരൾ ഉള്ള, ഒരു ഇടുങ്ങിയ ഉൽഭവ ശില ഉരുപ്പടികളാണ്."
           },
           {
             "word": "Aattukallu",
             "wordMal": "ആട്ടുകല്ല്",
-            "relationEN": "Aattukallu shares many characteristics with Arakkallu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ അരക്കല്ല് ഉം ആട്ടുകല്ല് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are stone grinding implements used in Kerala kitchens, one is a flat slab and the other is a rounded mortar.",
+            "relationML": "അരക്കല്ലും ആട്ടുകല്ലും ഒരേ, കേരള അടുക്കള ശില ഉരുപ്പടികളാണ്; ഒന്ന് ഇടുങ്ങിയ ഉൽഭവ ഉരൾ ഉള്ള, മറ്റൊന്ന് ഉരൾ ആകൃതിയിലുള്ള ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -934,14 +934,14 @@ var packs = [
           {
             "word": "Ammikallu",
             "wordMal": "അമ്മി",
-            "relationEN": "Both Aattukallu and Ammikallu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആട്ടുകല്ല് ഉം അമ്മി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are stone grinding tools in Kerala kitchens, together forming the traditional wet grinding set.",
+            "relationML": "ആട്ടുകല്ലും അമ്മിക്കല്ലും ഒരേ, കേരള അടുക്കള, ഭക്ഷ്യ ഇടിക്കൽ, ഉൽഭവ ഉൽഭവ ശില ഉരുപ്പടികളാണ്; ഒരേ, ഈർപ്പ ഇടിക്കൽ ഉരൾ ഉൽഭവ ഭരണ ഉൽഭവ ഇടുങ്ങ."
           },
           {
             "word": "Ural",
             "wordMal": "ഉരൽ",
-            "relationEN": "Ural shares many characteristics with Aattukallu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ആട്ടുകല്ല് ഉം ഉരൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala stone or wooden mortars used for pounding and grinding spices and rice.",
+            "relationML": "ആട്ടുകല്ലും ഉരലും ഒരേ, സുഗന്ധ ദ്രവ്യ, ആരിടി ഇടിക്കൽ, പരമ്പരാഗത കേരള ശില അല്ലെങ്കിൽ മരം ഉരൾ ഉരുപ്പടികളാണ്."
           }
         ]
       },
@@ -952,14 +952,14 @@ var packs = [
           {
             "word": "Kudam",
             "wordMal": "കുടം",
-            "relationEN": "Both Kindi and Kudam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കിണ്ടി ഉം കുടം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala water-holding vessels—Kindi has a spout for pouring and Kudam is for storing.",
+            "relationML": "കിണ്ടിയും കുടവും ഒരേ, ജലം ഉൾക്കൊള്ളൽ, പരമ്പരാഗത കേരള ഉരുപ്പടികളാണ്; കിണ്ടിക്ക് ഉൽഭവ ഒഴിക്കൽ ആകൃതി ഉള്ളതും, കുടം ജലം ശേഖരണ ഉരുപ്പടിയും ആണ്."
           },
           {
             "word": "Mondha",
             "wordMal": "മൊന്ത",
-            "relationEN": "Mondha shares many characteristics with Kindi, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കിണ്ടി ഉം മൊന്ത ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala brass water vessels used in rituals and daily life, Kindi has a spout and Mondha is bowl-shaped.",
+            "relationML": "കിണ്ടിയും മൊന്ത യും ഒരേ, ആചാര, ദൈനംദിന ജീവിതം, ചെമ്പ് ജലം ഉൽഭവ, പരമ്പരാഗത കേരള ഉരുപ്പടികളാണ്; കിണ്ടി ഉൽഭവ ഒഴിക്കൽ ആകൃതി ഉള്ളതും, മൊന്ത ഉരൾ ആകൃതിയിലുള്ളതും ആണ്."
           }
         ]
       },
@@ -970,14 +970,14 @@ var packs = [
           {
             "word": "Nilavilakku",
             "wordMal": "നിലവിളക്ക്",
-            "relationEN": "Both Thookkuvilakku and Nilavilakku are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തൂക്കുവിളക്ക് ഉം നിലവിളക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala oil lamps used in temples and homes, one hangs from the ceiling and one stands on the floor.",
+            "relationML": "തൂക്കുവിളക്കും നിലവിളക്കും ഒരേ, ദേവാലയ, ഗൃഹ ആചാര ഉള്ള, ചെമ്പ് ഓയിൽ ദീപങ്ങളാണ്; തൂക്കുവിളക്ക് മേൽക്കൂരയിൽ നിന്ന് ഇറക്കിയിരിക്കുന്നതും, നിലവിളക്ക് നിലത്ത് നിൽക്കുന്നതുമാണ്."
           },
           {
             "word": "Aalvilakku",
             "wordMal": "ആൽവിളക്ക്",
-            "relationEN": "Aalvilakku shares many characteristics with Thookkuvilakku, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ തൂക്കുവിളക്ക് ഉം ആൽവിളക്ക് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are hanging oil lamps in Kerala temples, one is a multi-wick brass lamp and the other is a massive hanging one.",
+            "relationML": "തൂക്കുവിളക്കും ആൽ‌വിളക്കും ഒരേ, കേരള ദേവാലയ, ഇറക്കി ഓയിൽ ദീപങ്ങളാണ്; ഒന്ന് ഒരേ ഇറക്കി ചെമ്പ് ദീപം ഉള്ളതും, മറ്റൊന്ന് ഒരേ ഭീമ ഇറക്കി ദീപം ഉള്ളതുമാണ്."
           }
         ]
       },
@@ -988,14 +988,14 @@ var packs = [
           {
             "word": "Lungi",
             "wordMal": "ലുങ്കി",
-            "relationEN": "Both Mundu and Lungi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുണ്ട് ഉം ലുങ്കി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are lower-body wrap garments worn by Kerala men—Mundu is plain white and Lungi has colourful checks.",
+            "relationML": "മുണ്ടും ലുങ്കിയും ഒരേ, കേരള ആണ്‌, ശരീരം, ഉടുക്കൽ, ചുറ്റി, ഉടുക്കൽ വസ്ത്ര ആകൃതികളാണ്; മുണ്ട് വെള്ള ഒഴിഞ്ഞ ഉടക്കൽ ഉള്ളതും ലുങ്കി ഉൽഭവ ചെക്ക് ഉള്ളതും ആണ്."
           },
           {
             "word": "Lungi",
             "wordMal": "ലുങ്കി",
-            "relationEN": "Both Mundu and Lungi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുണ്ട് ഉം ലുങ്കി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are lower-body wrap garments worn by Kerala men—Mundu is plain white and Lungi has colourful checks.",
+            "relationML": "മുണ്ടും ലുങ്കിയും ഒരേ, കേരള ആണ്‌, ശരീരം, ഉടുക്കൽ, ചുറ്റി, ഉടുക്കൽ വസ്ത്ര ആകൃതികളാണ്; മുണ്ട് വെള്ള ഒഴിഞ്ഞ ഉടക്കൽ ഉള്ളതും ലുങ്കി ഉൽഭവ ചെക്ക് ഉള്ളതും ആണ്."
           }
         ]
       },
@@ -1006,14 +1006,14 @@ var packs = [
           {
             "word": "Pattu Saree",
             "wordMal": "പട്ടു സാരി",
-            "relationEN": "Both Kasavu Saree and Pattu Saree are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കസവ് സാരി ഉം പട്ടു സാരി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Indian sarees worn on festive occasions—Kasavu has a golden border and Pattu is made of silk.",
+            "relationML": "കസവ് സാരിയും പട്ടു സാരിയും ഒരേ, ഉത്സവ വേളകളിൽ ഉടുക്കൽ, പരമ്പരാഗത ഇന്ത്യൻ സാരി ആകൃതികളാണ്; കസവ് ഉൽഭവ സ്വർണ്ണ ബോർഡർ ഉള്ളതും, പട്ടുസാരി, ഒരേ, സിൽക്ക് ഉൽഭവ ആണ്."
           },
           {
             "word": "Pattu Saree",
             "wordMal": "പട്ടു സാരി",
-            "relationEN": "Both Kasavu Saree and Pattu Saree are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കസവ് സാരി ഉം പട്ടു സാരി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Indian sarees worn on festive occasions—Kasavu has a golden border and Pattu is made of silk.",
+            "relationML": "കസവ് സാരിയും പട്ടു സാരിയും ഒരേ, ഉത്സവ വേളകളിൽ ഉടുക്കൽ, പരമ്പരാഗത ഇന്ത്യൻ സാരി ആകൃതികളാണ്; കസവ് ഉൽഭവ സ്വർണ്ണ ബോർഡർ ഉള്ളതും, പട്ടുസാരി, ഒരേ, സിൽക്ക് ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1024,14 +1024,14 @@ var packs = [
           {
             "word": "Arival",
             "wordMal": "അരിവാൾ",
-            "relationEN": "Both Chirava and Arival are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചിരവ ഉം അരിവാൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala kitchen blade tools—Chirava is used for grating coconut and Arival for cutting vegetables.",
+            "relationML": "ചിരവയും അരിവാളും ഒരേ, പരമ്പരാഗത കേരള അടുക്കള ബ്ലേഡ് ഉരുപ്പടികളാണ്; ചിരവ തേങ്ങ ചുരണ്ടൽ ഉള്ളതും, അരിവാൾ ഉൽഭവ ഉൽഭവ ശാക്ഭ്യ ഉൽഭവ ആണ്."
           },
           {
             "word": "Arival",
             "wordMal": "അരിവാൾ",
-            "relationEN": "Both Chirava and Arival are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചിരവ ഉം അരിവാൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala kitchen blade tools—Chirava is used for grating coconut and Arival for cutting vegetables.",
+            "relationML": "ചിരവയും അരിവാളും ഒരേ, പരമ്പരാഗത കേരള അടുക്കള ബ്ലേഡ് ഉരുപ്പടികളാണ്; ചിരവ തേങ്ങ ചുരണ്ടൽ ഉള്ളതും, അരിവാൾ ഉൽഭവ ഉൽഭവ ശാക്ഭ്യ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1042,14 +1042,14 @@ var packs = [
           {
             "word": "Kindi",
             "wordMal": "കിണ്ടി",
-            "relationEN": "Both Paathram and Kindi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പാത്രം ഉം കിണ്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala brass vessels for holding water used in rituals and ceremonies.",
+            "relationML": "പാത്രവും കിണ്ടിയും ഒരേ, ആചാര, ചെമ്പ് ജലം ഉൽഭവ, പരമ്പരാഗത കേരള ഉരുപ്പടികളാണ്."
           },
           {
             "word": "Kindi",
             "wordMal": "കിണ്ടി",
-            "relationEN": "Both Paathram and Kindi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പാത്രം ഉം കിണ്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala brass vessels for holding water used in rituals and ceremonies.",
+            "relationML": "പാത്രവും കിണ്ടിയും ഒരേ, ആചാര, ചെമ്പ് ജലം ഉൽഭവ, പരമ്പരാഗത കേരള ഉരുപ്പടികളാണ്."
           }
         ]
       },
@@ -1060,14 +1060,14 @@ var packs = [
           {
             "word": "Idiyappam Maker",
             "wordMal": "ഇടിയപ്പം മേക്കർ",
-            "relationEN": "Both Puttu Kutti and Idiyappam Maker are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പുട്ടുകുറ്റി ഉം ഇടിയപ്പം മേക്കർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are cylindrical kitchen tools unique to Kerala used to press and steam rice dishes for breakfast.",
+            "relationML": "പുട്ടുകുറ്റിയും ഇടിയപ്പം മേക്കറും ഒരേ, കേരളത്തിൽ, ആരിടി ഭക്ഷ്യ ആവിയിൽ ആക്കൽ ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഒരേ ഉൽഭവ ആകൃതി ഉള്ള, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആകൃതി ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Idiyappam Maker",
             "wordMal": "ഇടിയപ്പം മേക്കർ",
-            "relationEN": "Both Puttu Kutti and Idiyappam Maker are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പുട്ടുകുറ്റി ഉം ഇടിയപ്പം മേക്കർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are cylindrical kitchen tools unique to Kerala used to press and steam rice dishes for breakfast.",
+            "relationML": "പുട്ടുകുറ്റിയും ഇടിയപ്പം മേക്കറും ഒരേ, കേരളത്തിൽ, ആരിടി ഭക്ഷ്യ ആവിയിൽ ആക്കൽ ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഒരേ ഉൽഭവ ആകൃതി ഉള്ള, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആകൃതി ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1078,14 +1078,14 @@ var packs = [
           {
             "word": "Nilavilakku",
             "wordMal": "നിലവിളക്ക്",
-            "relationEN": "Both Vaal Kannadi and Nilavilakku are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാൽക്കണ്ണാടി ഉം നിലവിളക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala items used in rituals—Vaal Kannadi is a mirror used in Kali pooja and Nilavilakku is a sacred lamp.",
+            "relationML": "വാൾ കണ്ണാടിയും നിലവിളക്കും ഒരേ, കേരള ആചാര ഉൽഭവ ഉൽഭവ ഉരുപ്പടികളാണ്; വാൾ കണ്ണാടി കാളി പൂജ ഉൽഭവ ഉൽഭവ, നിലവിളക്ക് ദേശ ഉൽഭവ ദീപം ആണ്."
           },
           {
             "word": "Nilavilakku",
             "wordMal": "നിലവിളക്ക്",
-            "relationEN": "Both Vaal Kannadi and Nilavilakku are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാൽക്കണ്ണാടി ഉം നിലവിളക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala items used in rituals—Vaal Kannadi is a mirror used in Kali pooja and Nilavilakku is a sacred lamp.",
+            "relationML": "വാൾ കണ്ണാടിയും നിലവിളക്കും ഒരേ, കേരള ആചാര ഉൽഭവ ഉൽഭവ ഉരുപ്പടികളാണ്; വാൾ കണ്ണാടി കാളി പൂജ ഉൽഭവ ഉൽഭവ, നിലവിളക്ക് ദേശ ഉൽഭവ ദീപം ആണ്."
           }
         ]
       },
@@ -1096,14 +1096,14 @@ var packs = [
           {
             "word": "Bharani",
             "wordMal": "ഭരണി",
-            "relationEN": "Both Kalam and Bharani are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കലം ഉം ഭരണി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional earthenware storage pots in Kerala—Kalam is for water and Bharani is for pickles and oil.",
+            "relationML": "കലവും ഭരണിയും ഒരേ, കേരള, കളിമൺ ശേഖരണ, ഉൽഭവ ഉരുപ്പടികളാണ്; കലം ജലം ഉൽഭവ ഉള്ളതും, ഭരണി ഉൽഭവ ഉൽഭവ, ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Bharani",
             "wordMal": "ഭരണി",
-            "relationEN": "Both Kalam and Bharani are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കലം ഉം ഭരണി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional earthenware storage pots in Kerala—Kalam is for water and Bharani is for pickles and oil.",
+            "relationML": "കലവും ഭരണിയും ഒരേ, കേരള, കളിമൺ ശേഖരണ, ഉൽഭവ ഉരുപ്പടികളാണ്; കലം ജലം ഉൽഭവ ഉള്ളതും, ഭരണി ഉൽഭവ ഉൽഭവ, ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1114,14 +1114,14 @@ var packs = [
           {
             "word": "Dosa Kallu",
             "wordMal": "ദോശ കല്ല്",
-            "relationEN": "Both Cheenachatti and Dosa Kallu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചീനച്ചട്ടി ഉം ദോശ കല്ല് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are flat iron cooking vessels used on the stove to make dosas and other flat pancakes in Kerala.",
+            "relationML": "ചീനച്ചട്ടിയും ദോശക്കല്ലും ഒരേ, ദോശ, ഉൽഭവ ഒരേ, ഇരുമ്പ്, ആകൃതി, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ ആണ്."
           },
           {
             "word": "Dosa Kallu",
             "wordMal": "ദോശ കല്ല്",
-            "relationEN": "Both Cheenachatti and Dosa Kallu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചീനച്ചട്ടി ഉം ദോശ കല്ല് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are flat iron cooking vessels used on the stove to make dosas and other flat pancakes in Kerala.",
+            "relationML": "ചീനച്ചട്ടിയും ദോശക്കല്ലും ഒരേ, ദോശ, ഉൽഭവ ഒരേ, ഇരുമ്പ്, ആകൃതി, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1132,14 +1132,14 @@ var packs = [
           {
             "word": "Thermos",
             "wordMal": "തെർമോസ്",
-            "relationEN": "Both Kettle and Thermos are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെറ്റിൽ ഉം തെർമോസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are containers for holding hot beverages like tea and coffee and keeping them at the right temperature.",
+            "relationML": "കെറ്റിലും തെർമോസും ഒരേ ചൂടുള്ള ചായ, കാപ്പി ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Thermos",
             "wordMal": "തെർമോസ്",
-            "relationEN": "Both Kettle and Thermos are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെറ്റിൽ ഉം തെർമോസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are containers for holding hot beverages like tea and coffee and keeping them at the right temperature.",
+            "relationML": "കെറ്റിലും തെർമോസും ഒരേ ചൂടുള്ള ചായ, കാപ്പി ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1150,14 +1150,14 @@ var packs = [
           {
             "word": "Kalam",
             "wordMal": "കലം",
-            "relationEN": "Both Bharani and Kalam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഭരണി ഉം കലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala clay storage vessels, Bharani for pickles and Kalam for water storage.",
+            "relationML": "ഭരണിയും കലവും ഒരേ, കളിമൺ ശേഖരണ, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Kalam",
             "wordMal": "കലം",
-            "relationEN": "Both Bharani and Kalam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഭരണി ഉം കലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala clay storage vessels, Bharani for pickles and Kalam for water storage.",
+            "relationML": "ഭരണിയും കലവും ഒരേ, കളിമൺ ശേഖരണ, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1168,14 +1168,14 @@ var packs = [
           {
             "word": "Metha",
             "wordMal": "മെത്ത",
-            "relationEN": "Both Kattil and Metha are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കട്ടിൽ ഉം മെത്ത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are pieces of bedroom furniture for resting—Kattil is a wooden cot frame and Metha is the mattress.",
+            "relationML": "കട്ടിലും മെത്തയും ഒരേ, ഒരേ, ഒരേ, ഒരേ, ഒരേ, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Metha",
             "wordMal": "മെത്ത",
-            "relationEN": "Both Kattil and Metha are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കട്ടിൽ ഉം മെത്ത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are pieces of bedroom furniture for resting—Kattil is a wooden cot frame and Metha is the mattress.",
+            "relationML": "കട്ടിലും മെത്തയും ഒരേ, ഒരേ, ഒരേ, ഒരേ, ഒരേ, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1186,14 +1186,14 @@ var packs = [
           {
             "word": "Sliding Board",
             "wordMal": "സ്ലൈഡിംഗ് ബോർഡ്",
-            "relationEN": "Both Oonjal and Sliding Board are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഊഞ്ഞാൽ ഉം സ്ലൈഡിംഗ് ബോർഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are swinging or sliding playthings—Oonjal is a traditional wooden swing in Kerala homes and the Sliding Board is a playground fixture.",
+            "relationML": "ഊഞ്ഞാലും സ്ലൈഡിംഗ് ബോർഡും ഒരേ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Sliding Board",
             "wordMal": "സ്ലൈഡിംഗ് ബോർഡ്",
-            "relationEN": "Both Oonjal and Sliding Board are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഊഞ്ഞാൽ ഉം സ്ലൈഡിംഗ് ബോർഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are swinging or sliding playthings—Oonjal is a traditional wooden swing in Kerala homes and the Sliding Board is a playground fixture.",
+            "relationML": "ഊഞ്ഞാലും സ്ലൈഡിംഗ് ബോർഡും ഒരേ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1204,14 +1204,14 @@ var packs = [
           {
             "word": "Thavi",
             "wordMal": "തവി",
-            "relationEN": "Both Chattuvam and Thavi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചട്ടുക്ക ഉം തവി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are long-handled ladles for stirring and serving curries and liquids in Kerala kitchens.",
+            "relationML": "ചട്ടുവവും തവിയും ഒരേ, ഇളക്കൽ, ദ്രാവക ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Thavi",
             "wordMal": "തവി",
-            "relationEN": "Both Chattuvam and Thavi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചട്ടുക്ക ഉം തവി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are long-handled ladles for stirring and serving curries and liquids in Kerala kitchens.",
+            "relationML": "ചട്ടുവവും തവിയും ഒരേ, ഇളക്കൽ, ദ്രാവക ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1222,14 +1222,14 @@ var packs = [
           {
             "word": "Metha",
             "wordMal": "മെത്ത",
-            "relationEN": "Both Paya and Metha are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പായ ഉം മെത്ത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are sleeping surfaces in Kerala—Paya is a woven mat on the floor and Metha is a soft mattress on a cot.",
+            "relationML": "പായ ഉം മെത്തയും ഒരേ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Metha",
             "wordMal": "മെത്ത",
-            "relationEN": "Both Paya and Metha are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പായ ഉം മെത്ത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are sleeping surfaces in Kerala—Paya is a woven mat on the floor and Metha is a soft mattress on a cot.",
+            "relationML": "പായ ഉം മെത്തയും ഒരേ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1240,14 +1240,14 @@ var packs = [
           {
             "word": "Mezhukuthiri",
             "wordMal": "മെഴുകുതിരി",
-            "relationEN": "Both Thiri and Mezhukuthiri are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തിരി ഉം മെഴുകുതിരി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional lighting items in Kerala—Thiri is a wick for oil lamps and Mezhukuthiri is a wax candle.",
+            "relationML": "തിരിയും മെഴുകുതിരിയും ഒരേ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Mezhukuthiri",
             "wordMal": "മെഴുകുതിരി",
-            "relationEN": "Both Thiri and Mezhukuthiri are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തിരി ഉം മെഴുകുതിരി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional lighting items in Kerala—Thiri is a wick for oil lamps and Mezhukuthiri is a wax candle.",
+            "relationML": "തിരിയും മെഴുകുതിരിയും ഒരേ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ, ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1258,14 +1258,14 @@ var packs = [
           {
             "word": "Nilavilakku",
             "wordMal": "നിലവിളക്ക്",
-            "relationEN": "Both Kindu Brass and Nilavilakku are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടുപാത്രം ഉം നിലവിളക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala brass items used in homes and temples during religious rituals and prayers.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Nilavilakku",
             "wordMal": "നിലവിളക്ക്",
-            "relationEN": "Both Kindu Brass and Nilavilakku are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടുപാത്രം ഉം നിലവിളക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala brass items used in homes and temples during religious rituals and prayers.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1276,14 +1276,14 @@ var packs = [
           {
             "word": "Idangazhi",
             "wordMal": "ഇടനാഴി",
-            "relationEN": "Both Alavu Para and Idangazhi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അളവുപാത്രം ഉം ഇടനാഴി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala grain measuring containers, one is larger and one is a smaller fractional measure.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Idangazhi",
             "wordMal": "ഇടനാഴി",
-            "relationEN": "Both Alavu Para and Idangazhi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അളവുപാത്രം ഉം ഇടനാഴി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala grain measuring containers, one is larger and one is a smaller fractional measure.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1294,14 +1294,14 @@ var packs = [
           {
             "word": "Kindi",
             "wordMal": "കിണ്ടി",
-            "relationEN": "Both Kindu Vessel and Kindi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാൽക്കിണ്ടി ഉം കിണ്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala narrow-necked vessels for pouring water used in rituals and daily life.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Kindi",
             "wordMal": "കിണ്ടി",
-            "relationEN": "Both Kindu Vessel and Kindi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാൽക്കിണ്ടി ഉം കിണ്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala narrow-necked vessels for pouring water used in rituals and daily life.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1312,14 +1312,14 @@ var packs = [
           {
             "word": "Ammikkallu",
             "wordMal": "അമ്മിക്കല്ല്",
-            "relationEN": "Both Chappathi Kallu and Ammikkallu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചപ്പാത്തി കല്ല് ഉം അമ്മിക്കല്ല് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are flat stone or wooden rolling surfaces used in Kerala kitchens for grinding and rolling dough.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Ammikkallu",
             "wordMal": "അമ്മിക്കല്ല്",
-            "relationEN": "Both Chappathi Kallu and Ammikkallu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചപ്പാത്തി കല്ല് ഉം അമ്മിക്കല്ല് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are flat stone or wooden rolling surfaces used in Kerala kitchens for grinding and rolling dough.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1330,14 +1330,14 @@ var packs = [
           {
             "word": "Filter",
             "wordMal": "ഫിൽറ്റർ",
-            "relationEN": "Both Arippa and Filter are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അരിപ്പ ഉം ഫിൽറ്റർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are used to separate liquids from solids in Kerala kitchens—Arippa is traditional and Filter is modern.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Filter",
             "wordMal": "ഫിൽറ്റർ",
-            "relationEN": "Both Arippa and Filter are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അരിപ്പ ഉം ഫിൽറ്റർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are used to separate liquids from solids in Kerala kitchens—Arippa is traditional and Filter is modern.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1348,14 +1348,14 @@ var packs = [
           {
             "word": "Pantham",
             "wordMal": "പന്തം",
-            "relationEN": "Both Choottu and Pantham are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചൂട്ട് ഉം പന്തം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala flaming torchlight items for outdoor lighting during festivals and processions.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Pantham",
             "wordMal": "പന്തം",
-            "relationEN": "Both Choottu and Pantham are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചൂട്ട് ഉം പന്തം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala flaming torchlight items for outdoor lighting during festivals and processions.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       },
@@ -1366,14 +1366,14 @@ var packs = [
           {
             "word": "Thengu",
             "wordMal": "തെങ്ങ്",
-            "relationEN": "Both Madaal and Thengu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മടൽ ഉം തെങ്ങ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are tall palm trees native to Kerala—Madaal is a date palm and Thengu is the coconut palm.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           },
           {
             "word": "Thengu",
             "wordMal": "തെങ്ങ്",
-            "relationEN": "Both Madaal and Thengu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മടൽ ഉം തെങ്ങ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are tall palm trees native to Kerala—Madaal is a date palm and Thengu is the coconut palm.",
+            "relationML": "ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ഉൽഭവ ആണ്."
           }
         ]
       }
@@ -1391,14 +1391,14 @@ var packs = [
           {
             "word": "Mammootty",
             "wordMal": "മമ്മൂട്ടി",
-            "relationEN": "Both Mohanlal and Mammootty are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മോഹൻലാൽ ഉം മമ്മൂട്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are legendary Malayalam superstars who dominated Kerala cinema for four decades and are often compared as rivals.",
+            "relationML": "മോഹൻലാലും മമ്മൂട്ടിയും നാല് ദശകങ്ങളായി കേരള സിനിമ ആധിപത്യം പുലർത്തുന്ന, ഇതിഹാസ മലയാള സൂപ്പർതാരങ്ങളാണ്."
           },
           {
             "word": "Mammootty",
             "wordMal": "മമ്മൂട്ടി",
-            "relationEN": "Both Mohanlal and Mammootty are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മോഹൻലാൽ ഉം മമ്മൂട്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are legendary Malayalam superstars who dominated Kerala cinema for four decades and are often compared as rivals.",
+            "relationML": "മോഹൻലാലും മമ്മൂട്ടിയും നാല് ദശകങ്ങളായി കേരള സിനിമ ആധിപത്യം പുലർത്തുന്ന, ഇതിഹാസ മലയാള സൂപ്പർതാരങ്ങളാണ്."
           }
         ]
       },
@@ -1409,14 +1409,14 @@ var packs = [
           {
             "word": "Mohanlal",
             "wordMal": "മോഹൻലാൽ",
-            "relationEN": "Both Mammootty and Mohanlal are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മമ്മൂട്ടി ഉം മോഹൻലാൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are legendary Malayalam film superstars famous for versatile acting and commanding screen presence.",
+            "relationML": "മമ്മൂട്ടിയും മോഹൻലാലും ഒരേ ചലച്ചിത്ര ഇതിഹാസ, മലയാള സൂപ്പർതാരങ്ങളാണ്."
           },
           {
             "word": "Mohanlal",
             "wordMal": "മോഹൻലാൽ",
-            "relationEN": "Both Mammootty and Mohanlal are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മമ്മൂട്ടി ഉം മോഹൻലാൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are legendary Malayalam film superstars famous for versatile acting and commanding screen presence.",
+            "relationML": "മമ്മൂട്ടിയും മോഹൻലാലും ഒരേ ചലച്ചിത്ര ഇതിഹാസ, മലയാള സൂപ്പർതാരങ്ങളാണ്."
           }
         ]
       },
@@ -1427,14 +1427,14 @@ var packs = [
           {
             "word": "Kavya Madhavan",
             "wordMal": "കാവ്യാ മാധവൻ",
-            "relationEN": "Both Manju Warrier and Kavya Madhavan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഞ്ജു വാര്യർ ഉം കാവ്യാ മാധവൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are prominent Malayalam actresses who made a comeback after personal life breaks and starred in hit films.",
+            "relationML": "മഞ്ജു വാര്യരും കാവ്യ മാധവനും ഒരേ, ഒടിഞ്ഞ ജീവിതം ശേഷം ഒരേ, ജനപ്രിയ മലയാള ചലച്ചിത്ര താരങ്ങളാണ്."
           },
           {
             "word": "Kavya Madhavan",
             "wordMal": "കാവ്യാ മാധവൻ",
-            "relationEN": "Both Manju Warrier and Kavya Madhavan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഞ്ജു വാര്യർ ഉം കാവ്യാ മാധവൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are prominent Malayalam actresses who made a comeback after personal life breaks and starred in hit films.",
+            "relationML": "മഞ്ജു വാര്യരും കാവ്യ മാധവനും ഒരേ, ഒടിഞ്ഞ ജീവിതം ശേഷം ഒരേ, ജനപ്രിയ മലയാള ചലച്ചിത്ര താരങ്ങളാണ്."
           }
         ]
       },
@@ -1445,14 +1445,14 @@ var packs = [
           {
             "word": "Dulquer Salmaan",
             "wordMal": "ദുൽഖർ സൽമാൻ",
-            "relationEN": "Both Fahadh Faasil and Dulquer Salmaan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫഹദ് ഫാസിൽ ഉം ദുൽഖർ സൽമാൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are next-generation Malayalam actors known for intense, nuanced performances in critically acclaimed art-house films.",
+            "relationML": "ഫഹദ് ഫാസിലും ദുൽക്കർ സൽമാനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Dulquer Salmaan",
             "wordMal": "ദുൽഖർ സൽമാൻ",
-            "relationEN": "Both Fahadh Faasil and Dulquer Salmaan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫഹദ് ഫാസിൽ ഉം ദുൽഖർ സൽമാൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are next-generation Malayalam actors known for intense, nuanced performances in critically acclaimed art-house films.",
+            "relationML": "ഫഹദ് ഫാസിലും ദുൽക്കർ സൽമാനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1463,14 +1463,14 @@ var packs = [
           {
             "word": "Manju Warrier",
             "wordMal": "മഞ്ജു വാര്യർ",
-            "relationEN": "Both Shobana and Manju Warrier are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശോഭന ഉം മഞ്ജു വാര്യർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are acclaimed South Indian actresses who are also recognized as accomplished classical dancers.",
+            "relationML": "ശോഭനയും മഞ്ജു വാര്യരും ഒരേ, ദക്ഷിണ ഇന്ത്യ ചലച്ചിത്ര, ഒരേ, ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Manju Warrier",
             "wordMal": "മഞ്ജു വാര്യർ",
-            "relationEN": "Both Shobana and Manju Warrier are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശോഭന ഉം മഞ്ജു വാര്യർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are acclaimed South Indian actresses who are also recognized as accomplished classical dancers.",
+            "relationML": "ശോഭനയും മഞ്ജു വാര്യരും ഒരേ, ദക്ഷിണ ഇന്ത്യ ചലച്ചിത്ര, ഒരേ, ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1481,14 +1481,14 @@ var packs = [
           {
             "word": "Jayaram",
             "wordMal": "ജയറാം",
-            "relationEN": "Both Dileep and Jayaram are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ദിലീപ് ഉം ജയറാം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam comedy-drama actors who built massive fan bases in the 1990s and 2000s.",
+            "relationML": "ദിലീപും ജയറാമും ഒരേ, 1990-കളിൽ, 2000-കളിൽ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Jayaram",
             "wordMal": "ജയറാം",
-            "relationEN": "Both Dileep and Jayaram are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ദിലീപ് ഉം ജയറാം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam comedy-drama actors who built massive fan bases in the 1990s and 2000s.",
+            "relationML": "ദിലീപും ജയറാമും ഒരേ, 1990-കളിൽ, 2000-കളിൽ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1499,14 +1499,14 @@ var packs = [
           {
             "word": "Biju Menon",
             "wordMal": "ബിജു മേനോൻ",
-            "relationEN": "Both Suresh Gopi and Biju Menon are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സുരേഷ് ഗോപി ഉം ബിജു മേനോൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam actors famous for their roles as strong police or political characters in mainstream films.",
+            "relationML": "സുരേഷ് ഗോപിയും ബിജു മേനോനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Biju Menon",
             "wordMal": "ബിജു മേനോൻ",
-            "relationEN": "Both Suresh Gopi and Biju Menon are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സുരേഷ് ഗോപി ഉം ബിജു മേനോൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam actors famous for their roles as strong police or political characters in mainstream films.",
+            "relationML": "സുരേഷ് ഗോപിയും ബിജു മേനോനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1517,14 +1517,14 @@ var packs = [
           {
             "word": "Indrajith",
             "wordMal": "ഇന്ദ്രജിത്ത്",
-            "relationEN": "Both Prithviraj and Indrajith are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പൃഥ്വിരാജ് ഉം ഇന്ദ്രജിത്ത് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are brothers who are popular Malayalam actors—Prithviraj is a lead action star and Indrajith plays strong supporting roles.",
+            "relationML": "പൃഥ്വിരാജും ഇന്ദ്രജിത്തും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Indrajith",
             "wordMal": "ഇന്ദ്രജിത്ത്",
-            "relationEN": "Both Prithviraj and Indrajith are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പൃഥ്വിരാജ് ഉം ഇന്ദ്രജിത്ത് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are brothers who are popular Malayalam actors—Prithviraj is a lead action star and Indrajith plays strong supporting roles.",
+            "relationML": "പൃഥ്വിരാജും ഇന്ദ്രജിത്തും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1535,14 +1535,14 @@ var packs = [
           {
             "word": "Asif Ali",
             "wordMal": "ആസിഫ് അലി",
-            "relationEN": "Both Tovino Thomas and Asif Ali are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടൊവിനോ തോമസ് ഉം ആസിഫ് അലി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are young Malayalam actors who rose to fame in the 2010s with critically praised performance-driven films.",
+            "relationML": "ടോവിനോ തോമസും ആസിഫ് അലിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Asif Ali",
             "wordMal": "ആസിഫ് അലി",
-            "relationEN": "Both Tovino Thomas and Asif Ali are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടൊവിനോ തോമസ് ഉം ആസിഫ് അലി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are young Malayalam actors who rose to fame in the 2010s with critically praised performance-driven films.",
+            "relationML": "ടോവിനോ തോമസും ആസിഫ് അലിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1553,14 +1553,14 @@ var packs = [
           {
             "word": "Dulquer Salmaan",
             "wordMal": "ദുൽഖർ സൽമാൻ",
-            "relationEN": "Both Nivin Pauly and Dulquer Salmaan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നിവിൻ പോളി ഉം ദുൽഖർ സൽമാൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are leading young Malayalam stars of the 2010s generation known for their relatable boy-next-door image.",
+            "relationML": "നിവിൻ പോളിയും ദുൽക്കർ സൽമാനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Dulquer Salmaan",
             "wordMal": "ദുൽഖർ സൽമാൻ",
-            "relationEN": "Both Nivin Pauly and Dulquer Salmaan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നിവിൻ പോളി ഉം ദുൽഖർ സൽമാൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are leading young Malayalam stars of the 2010s generation known for their relatable boy-next-door image.",
+            "relationML": "നിവിൻ പോളിയും ദുൽക്കർ സൽമാനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1571,14 +1571,14 @@ var packs = [
           {
             "word": "Jayasurya",
             "wordMal": "ജയസൂര്യ",
-            "relationEN": "Both Kunchacko Boban and Jayasurya are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുഞ്ചാക്കോ ബോബൻ ഉം ജയസൂര്യ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam actors known for comedy roles who later transitioned to serious, dramatic performances.",
+            "relationML": "കുഞ്ചാക്കോ ബോബനും ജയസൂര്യയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Jayasurya",
             "wordMal": "ജയസൂര്യ",
-            "relationEN": "Both Kunchacko Boban and Jayasurya are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുഞ്ചാക്കോ ബോബൻ ഉം ജയസൂര്യ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam actors known for comedy roles who later transitioned to serious, dramatic performances.",
+            "relationML": "കുഞ്ചാക്കോ ബോബനും ജയസൂര്യയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1589,14 +1589,14 @@ var packs = [
           {
             "word": "Dileep",
             "wordMal": "ദിലീപ്",
-            "relationEN": "Both Jayaram and Dileep are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജയറാം ഉം ദിലീപ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam family-entertainer actors with a large audience base spanning multiple generations.",
+            "relationML": "ജയറാമും ദിലീപും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Dileep",
             "wordMal": "ദിലീപ്",
-            "relationEN": "Both Jayaram and Dileep are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജയറാം ഉം ദിലീപ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam family-entertainer actors with a large audience base spanning multiple generations.",
+            "relationML": "ജയറാമും ദിലീപും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1607,14 +1607,14 @@ var packs = [
           {
             "word": "Kunchacko Boban",
             "wordMal": "കുഞ്ചാക്കോ ബോബൻ",
-            "relationEN": "Both Jayasurya and Kunchacko Boban are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജയസൂര്യ ഉം കുഞ്ചാക്കോ ബോബൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam actors of the 2000s who started in romantic comedies and evolved into serious film roles.",
+            "relationML": "ജയസൂര്യയും കുഞ്ചാക്കോ ബോബനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Kunchacko Boban",
             "wordMal": "കുഞ്ചാക്കോ ബോബൻ",
-            "relationEN": "Both Jayasurya and Kunchacko Boban are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജയസൂര്യ ഉം കുഞ്ചാക്കോ ബോബൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam actors of the 2000s who started in romantic comedies and evolved into serious film roles.",
+            "relationML": "ജയസൂര്യയും കുഞ്ചാക്കോ ബോബനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1625,14 +1625,14 @@ var packs = [
           {
             "word": "Manju Warrier",
             "wordMal": "മഞ്ജു വാര്യർ",
-            "relationEN": "Both Parvathy Thiruvothu and Manju Warrier are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പാർവതി തിരുവോത്ത് ഉം മഞ്ജു വാര്യർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are respected Malayalam actresses who champion women-centric stories and have won multiple state and national awards.",
+            "relationML": "പാർവ്വതി തിരുവോത്തും മഞ്ജു വാര്യരും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Manju Warrier",
             "wordMal": "മഞ്ജു വാര്യർ",
-            "relationEN": "Both Parvathy Thiruvothu and Manju Warrier are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പാർവതി തിരുവോത്ത് ഉം മഞ്ജു വാര്യർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are respected Malayalam actresses who champion women-centric stories and have won multiple state and national awards.",
+            "relationML": "പാർവ്വതി തിരുവോത്തും മഞ്ജു വാര്യരും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1643,14 +1643,14 @@ var packs = [
           {
             "word": "Parvathy Thiruvothu",
             "wordMal": "പാർവതി തിരുവോത്ത്",
-            "relationEN": "Both Nazriya Nazim and Parvathy Thiruvothu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നസ്രിയ നസീം ഉം പാർവതി തിരുവോത്ത് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are celebrated young Malayalam actresses known for natural, expressive performances in critically acclaimed films.",
+            "relationML": "നസ്രിയ നസീമും പാർവ്വതി തിരുവോത്തും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Parvathy Thiruvothu",
             "wordMal": "പാർവതി തിരുവോത്ത്",
-            "relationEN": "Both Nazriya Nazim and Parvathy Thiruvothu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നസ്രിയ നസീം ഉം പാർവതി തിരുവോത്ത് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are celebrated young Malayalam actresses known for natural, expressive performances in critically acclaimed films.",
+            "relationML": "നസ്രിയ നസീമും പാർവ്വതി തിരുവോത്തും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1661,14 +1661,14 @@ var packs = [
           {
             "word": "Mamitha Baiju",
             "wordMal": "മമിത ബൈജു",
-            "relationEN": "Both Anaswara Rajan and Mamitha Baiju are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അനശ്വര രാജൻ ഉം മമിത ബൈജു ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are rising young Malayalam actresses who gained popularity through new-age Malayalam films targeting youth audiences.",
+            "relationML": "അനസ്വര രാജനും മമിത ബൈജുവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Mamitha Baiju",
             "wordMal": "മമിത ബൈജു",
-            "relationEN": "Both Anaswara Rajan and Mamitha Baiju are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അനശ്വര രാജൻ ഉം മമിത ബൈജു ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are rising young Malayalam actresses who gained popularity through new-age Malayalam films targeting youth audiences.",
+            "relationML": "അനസ്വര രാജനും മമിത ബൈജുവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1679,14 +1679,14 @@ var packs = [
           {
             "word": "Nazriya Nazim",
             "wordMal": "നസ്രിയ നസീം",
-            "relationEN": "Both Aishwarya Lekshmi and Nazriya Nazim are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐശ്വര്യ ലക്ഷ്മി ഉം നസ്രിയ നസീം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular young Malayalam actresses who have appeared in multiple OTT hits and are social media favourites.",
+            "relationML": "ഐശ്വര്യ ലക്ഷ്മിയും നസ്രിയ നസീമും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Nazriya Nazim",
             "wordMal": "നസ്രിയ നസീം",
-            "relationEN": "Both Aishwarya Lekshmi and Nazriya Nazim are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐശ്വര്യ ലക്ഷ്മി ഉം നസ്രിയ നസീം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular young Malayalam actresses who have appeared in multiple OTT hits and are social media favourites.",
+            "relationML": "ഐശ്വര്യ ലക്ഷ്മിയും നസ്രിയ നസീമും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1697,14 +1697,14 @@ var packs = [
           {
             "word": "Fahadh Faasil",
             "wordMal": "ഫഹദ് ഫാസിൽ",
-            "relationEN": "Both Asif Ali and Fahadh Faasil are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആസിഫ് അലി ഉം ഫഹദ് ഫാസിൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are acclaimed young Malayalam actors known for unconventional roles in content-driven realistic films.",
+            "relationML": "ആസിഫ് അലിയും ഫഹദ് ഫാസിലും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Fahadh Faasil",
             "wordMal": "ഫഹദ് ഫാസിൽ",
-            "relationEN": "Both Asif Ali and Fahadh Faasil are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആസിഫ് അലി ഉം ഫഹദ് ഫാസിൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are acclaimed young Malayalam actors known for unconventional roles in content-driven realistic films.",
+            "relationML": "ആസിഫ് അലിയും ഫഹദ് ഫാസിലും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1715,14 +1715,14 @@ var packs = [
           {
             "word": "Vineeth Sreenivasan",
             "wordMal": "വിനീത് ശ്രീനിവാസൻ",
-            "relationEN": "Both Basil Joseph and Vineeth Sreenivasan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബേസിൽ ജോസഫ് ഉം വിനീത് ശ്രീനിവാസൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are young Malayalam directors and actors who create feel-good coming-of-age films loved by younger audiences.",
+            "relationML": "ബേസിൽ ജോസഫും വിനീത് ശ്രീനിവാസനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Vineeth Sreenivasan",
             "wordMal": "വിനീത് ശ്രീനിവാസൻ",
-            "relationEN": "Both Basil Joseph and Vineeth Sreenivasan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബേസിൽ ജോസഫ് ഉം വിനീത് ശ്രീനിവാസൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are young Malayalam directors and actors who create feel-good coming-of-age films loved by younger audiences.",
+            "relationML": "ബേസിൽ ജോസഫും വിനീത് ശ്രീനിവാസനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1733,14 +1733,14 @@ var packs = [
           {
             "word": "Basil Joseph",
             "wordMal": "ബേസിൽ ജോസഫ്",
-            "relationEN": "Both Vineeth Sreenivasan and Basil Joseph are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വിനീത് ശ്രീനിവാസൻ ഉം ബേസിൽ ജോസഫ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are young creative Malayalam filmmakers who also act, sing, and write music for their own films.",
+            "relationML": "വിനീത് ശ്രീനിവാസനും ബേസിൽ ജോസഫും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Basil Joseph",
             "wordMal": "ബേസിൽ ജോസഫ്",
-            "relationEN": "Both Vineeth Sreenivasan and Basil Joseph are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വിനീത് ശ്രീനിവാസൻ ഉം ബേസിൽ ജോസഫ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are young creative Malayalam filmmakers who also act, sing, and write music for their own films.",
+            "relationML": "വിനീത് ശ്രീനിവാസനും ബേസിൽ ജോസഫും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1751,14 +1751,14 @@ var packs = [
           {
             "word": "Nivin Pauly",
             "wordMal": "നിവിൻ പോളി",
-            "relationEN": "Both Dulquer Salmaan and Nivin Pauly are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ദുൽഖർ സൽമാൻ ഉം നിവിൻ പോളി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are the leading faces of Malayalam cinema's millennial generation who gained huge pans through OTT platforms.",
+            "relationML": "ദുൽക്കർ സൽമാനും നിവിൻ പോളിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Nivin Pauly",
             "wordMal": "നിവിൻ പോളി",
-            "relationEN": "Both Dulquer Salmaan and Nivin Pauly are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ദുൽഖർ സൽമാൻ ഉം നിവിൻ പോളി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are the leading faces of Malayalam cinema's millennial generation who gained huge pans through OTT platforms.",
+            "relationML": "ദുൽക്കർ സൽമാനും നിവിൻ പോളിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1769,14 +1769,14 @@ var packs = [
           {
             "word": "Salim Kumar",
             "wordMal": "സലിം കുമാർ",
-            "relationEN": "Both Suraj Venjaramoodu and Salim Kumar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സുരാജ് വെഞ്ഞാറമൂട് ഉം സലിം കുമാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are National Award-winning Malayalam character actors celebrated for their powerful comedic and dramatic performances.",
+            "relationML": "സുരാജ് വെഞ്ഞാറമൂടും സലിം കുമാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Salim Kumar",
             "wordMal": "സലിം കുമാർ",
-            "relationEN": "Both Suraj Venjaramoodu and Salim Kumar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സുരാജ് വെഞ്ഞാറമൂട് ഉം സലിം കുമാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are National Award-winning Malayalam character actors celebrated for their powerful comedic and dramatic performances.",
+            "relationML": "സുരാജ് വെഞ്ഞാറമൂടും സലിം കുമാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1787,14 +1787,14 @@ var packs = [
           {
             "word": "Innocent",
             "wordMal": "ഇന്നസെന്റ്",
-            "relationEN": "Both Jagathy Sreekumar and Innocent are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജഗതി ശ്രീകുമാർ ഉം ഇന്നസെന്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are legendary Malayalam comedy actors who defined an era of slapstick humour in 1980s and 1990s cinema.",
+            "relationML": "ജഗതി ശ്രീകുമാറും ഇന്നസെന്റും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Innocent",
             "wordMal": "ഇന്നസെന്റ്",
-            "relationEN": "Both Jagathy Sreekumar and Innocent are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജഗതി ശ്രീകുമാർ ഉം ഇന്നസെന്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are legendary Malayalam comedy actors who defined an era of slapstick humour in 1980s and 1990s cinema.",
+            "relationML": "ജഗതി ശ്രീകുമാറും ഇന്നസെന്റും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1805,14 +1805,14 @@ var packs = [
           {
             "word": "Jagathy",
             "wordMal": "ജഗതി",
-            "relationEN": "Both Innocent and Jagathy are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഇന്നസെന്റ് ഉം ജഗതി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are celebrated Malayalam comedy actors who appeared together in countless 1980s and 1990s hit films.",
+            "relationML": "ഇന്നസെന്റും ജഗതിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Jagathy",
             "wordMal": "ജഗതി",
-            "relationEN": "Both Innocent and Jagathy are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഇന്നസെന്റ് ഉം ജഗതി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are celebrated Malayalam comedy actors who appeared together in countless 1980s and 1990s hit films.",
+            "relationML": "ഇന്നസെന്റും ജഗതിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1823,14 +1823,14 @@ var packs = [
           {
             "word": "Sreenath Bhasi",
             "wordMal": "ശ്രീനാഥ് ഭാസി",
-            "relationEN": "Both Soubin Shahir and Sreenath Bhasi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സൗബിൻ ഷാഹിർ ഉം ശ്രീനാഥ് ഭാസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are young Malayalam character actors known for natural, realistic performances in urban-themed films.",
+            "relationML": "സൗബിൻ ഷാഹിറും ശ്രീനാഥ് ഭാസിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Sreenath Bhasi",
             "wordMal": "ശ്രീനാഥ് ഭാസി",
-            "relationEN": "Both Soubin Shahir and Sreenath Bhasi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സൗബിൻ ഷാഹിർ ഉം ശ്രീനാഥ് ഭാസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are young Malayalam character actors known for natural, realistic performances in urban-themed films.",
+            "relationML": "സൗബിൻ ഷാഹിറും ശ്രീനാഥ് ഭാസിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1841,14 +1841,14 @@ var packs = [
           {
             "word": "Nazriya Nazim",
             "wordMal": "നസ്രിയ നസീം",
-            "relationEN": "Both Kalyani Priyadarshan and Nazriya Nazim are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കല്യാണി പ്രിയദർശൻ ഉം നസ്രിയ നസീം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular young Malayalam actresses known for their fresh screen presence in feel-good films.",
+            "relationML": "കല്യാണി പ്രിയദർശനും നസ്രിയ നസീമും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Nazriya Nazim",
             "wordMal": "നസ്രിയ നസീം",
-            "relationEN": "Both Kalyani Priyadarshan and Nazriya Nazim are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കല്യാണി പ്രിയദർശൻ ഉം നസ്രിയ നസീം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular young Malayalam actresses known for their fresh screen presence in feel-good films.",
+            "relationML": "കല്യാണി പ്രിയദർശനും നസ്രിയ നസീമും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1859,14 +1859,14 @@ var packs = [
           {
             "word": "M. G. Sreekumar",
             "wordMal": "എം ജി ശ്രീകുമാർ",
-            "relationEN": "Both K. J. Yesudas and M. G. Sreekumar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ. ജെ. യേശുദാസ് ഉം എം ജി ശ്രീകുമാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are legendary Kerala playback singers with classical music training who dominated Malayalam film music.",
+            "relationML": "കെ.ജെ. യേശുദാസും എം.ജി. ശ്രീകുമാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "M. G. Sreekumar",
             "wordMal": "എം ജി ശ്രീകുമാർ",
-            "relationEN": "Both K. J. Yesudas and M. G. Sreekumar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ. ജെ. യേശുദാസ് ഉം എം ജി ശ്രീകുമാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are legendary Kerala playback singers with classical music training who dominated Malayalam film music.",
+            "relationML": "കെ.ജെ. യേശുദാസും എം.ജി. ശ്രീകുമാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1877,14 +1877,14 @@ var packs = [
           {
             "word": "Sujatha",
             "wordMal": "സുജാത",
-            "relationEN": "Both K. S. Chithra and Sujatha are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ. എസ്. ചിത്ര ഉം സുജാത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are celebrated female playback singers from Kerala whose voices defined the golden era of Malayalam film songs.",
+            "relationML": "കെ.എസ്. ചിത്രയും സുജാതയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Sujatha",
             "wordMal": "സുജാത",
-            "relationEN": "Both K. S. Chithra and Sujatha are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ. എസ്. ചിത്ര ഉം സുജാത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are celebrated female playback singers from Kerala whose voices defined the golden era of Malayalam film songs.",
+            "relationML": "കെ.എസ്. ചിത്രയും സുജാതയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1895,14 +1895,14 @@ var packs = [
           {
             "word": "Sachin Tendulkar",
             "wordMal": "സച്ചിൻ ടെണ്ടുൽക്കർ",
-            "relationEN": "Both Sanju Samson and Sachin Tendulkar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സഞ്ജു സാംസൺ ഉം സച്ചിൻ ടെണ്ടുൽക്കർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are celebrated Indian batsmen—Sanju Samson is Kerala's cricket hero and Sachin Tendulkar is the legendary God of Cricket.",
+            "relationML": "സഞ്ജു സാംസണും സച്ചിൻ ടെണ്ടുൽക്കറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Sachin Tendulkar",
             "wordMal": "സച്ചിൻ ടെണ്ടുൽക്കർ",
-            "relationEN": "Both Sanju Samson and Sachin Tendulkar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സഞ്ജു സാംസൺ ഉം സച്ചിൻ ടെണ്ടുൽക്കർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are celebrated Indian batsmen—Sanju Samson is Kerala's cricket hero and Sachin Tendulkar is the legendary God of Cricket.",
+            "relationML": "സഞ്ജു സാംസണും സച്ചിൻ ടെണ്ടുൽക്കറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1913,14 +1913,14 @@ var packs = [
           {
             "word": "Pinarayi Vijayan",
             "wordMal": "പിണറായി വിജയൻ",
-            "relationEN": "Both Shashi Tharoor and Pinarayi Vijayan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശശി തരൂർ ഉം പിണറായി വിജയൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are senior political leaders in Kerala—Tharoor for Congress and Pinarayi for the CPI(M), often seen as political rivals.",
+            "relationML": "ശശി തരൂരും പിണറായി വിജയനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Pinarayi Vijayan",
             "wordMal": "പിണറായി വിജയൻ",
-            "relationEN": "Both Shashi Tharoor and Pinarayi Vijayan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശശി തരൂർ ഉം പിണറായി വിജയൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are senior political leaders in Kerala—Tharoor for Congress and Pinarayi for the CPI(M), often seen as political rivals.",
+            "relationML": "ശശി തരൂരും പിണറായി വിജയനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1931,14 +1931,14 @@ var packs = [
           {
             "word": "Jagathy Sreekumar",
             "wordMal": "ജഗതി ശ്രീകുമാർ",
-            "relationEN": "Both Sreenivasan and Jagathy Sreekumar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശ്രീനിവാസൻ ഉം ജഗതി ശ്രീകുമാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are iconic Malayalam comedy actors and scriptwriters who shaped the golden era of Malayalam comedy films.",
+            "relationML": "ശ്രീനിവാസനും ജഗതി ശ്രീകുമാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Jagathy Sreekumar",
             "wordMal": "ജഗതി ശ്രീകുമാർ",
-            "relationEN": "Both Sreenivasan and Jagathy Sreekumar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശ്രീനിവാസൻ ഉം ജഗതി ശ്രീകുമാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are iconic Malayalam comedy actors and scriptwriters who shaped the golden era of Malayalam comedy films.",
+            "relationML": "ശ്രീനിവാസനും ജഗതി ശ്രീകുമാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1949,14 +1949,14 @@ var packs = [
           {
             "word": "Suraj Venjaramoodu",
             "wordMal": "സുരാജ് വെഞ്ഞാറമൂട്",
-            "relationEN": "Both Salim Kumar and Suraj Venjaramoodu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സലിം കുമാർ ഉം സുരാജ് വെഞ്ഞാറമൂട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are National Award-winning character actors in Malayalam who are famous for blending comedy with emotional depth.",
+            "relationML": "സലിം കുമാറും സുരാജ് വെഞ്ഞാറമൂടും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Suraj Venjaramoodu",
             "wordMal": "സുരാജ് വെഞ്ഞാറമൂട്",
-            "relationEN": "Both Salim Kumar and Suraj Venjaramoodu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സലിം കുമാർ ഉം സുരാജ് വെഞ്ഞാറമൂട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are National Award-winning character actors in Malayalam who are famous for blending comedy with emotional depth.",
+            "relationML": "സലിം കുമാറും സുരാജ് വെഞ്ഞാറമൂടും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1967,14 +1967,14 @@ var packs = [
           {
             "word": "Shobana",
             "wordMal": "ശോഭന",
-            "relationEN": "Both Urveshi and Shobana are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഉർവ്വശി ഉം ശോഭന ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are veteran Malayalam actress-dancers who are celebrated for their classical dance skills and timeless screen performances.",
+            "relationML": "ഉർവ്വശിയും ശോഭനയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Shobana",
             "wordMal": "ശോഭന",
-            "relationEN": "Both Urveshi and Shobana are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഉർവ്വശി ഉം ശോഭന ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are veteran Malayalam actress-dancers who are celebrated for their classical dance skills and timeless screen performances.",
+            "relationML": "ഉർവ്വശിയും ശോഭനയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -1985,14 +1985,14 @@ var packs = [
           {
             "word": "Sreenivasan",
             "wordMal": "ശ്രീനിവാസൻ",
-            "relationEN": "Both Mukesh and Sreenivasan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുകേഷ് ഉം ശ്രീനിവാസൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam comedy actors and scriptwriters who frequently appeared together in family entertainer films.",
+            "relationML": "മുകേശും ശ്രീനിവാസനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Sreenivasan",
             "wordMal": "ശ്രീനിവാസൻ",
-            "relationEN": "Both Mukesh and Sreenivasan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുകേഷ് ഉം ശ്രീനിവാസൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam comedy actors and scriptwriters who frequently appeared together in family entertainer films.",
+            "relationML": "മുകേശും ശ്രീനിവാസനും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2003,14 +2003,14 @@ var packs = [
           {
             "word": "Suresh Gopi",
             "wordMal": "സുരേഷ് ഗോപി",
-            "relationEN": "Both Biju Menon and Suresh Gopi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബിജു മേനോൻ ഉം സുരേഷ് ഗോപി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam actors known for playing powerful, authoritative characters often in political or police roles.",
+            "relationML": "ബിജു മേനോനും സുരേഷ് ഗോപിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Suresh Gopi",
             "wordMal": "സുരേഷ് ഗോപി",
-            "relationEN": "Both Biju Menon and Suresh Gopi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബിജു മേനോൻ ഉം സുരേഷ് ഗോപി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular Malayalam actors known for playing powerful, authoritative characters often in political or police roles.",
+            "relationML": "ബിജു മേനോനും സുരേഷ് ഗോപിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2021,14 +2021,14 @@ var packs = [
           {
             "word": "Shane Nigam",
             "wordMal": "ഷെയ്ൻ നിഗം",
-            "relationEN": "Both Pepe Antony and Shane Nigam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആന്റണി വർഗ്ഗീസ് ഉം ഷെയ്ൻ നിഗം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are upcoming young Malayalam actors who gained recognition through critically praised debut films in the 2020s.",
+            "relationML": "പേപ്പി ആന്റണിയും ഷെയ്ൻ നിഗമും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Shane Nigam",
             "wordMal": "ഷെയ്ൻ നിഗം",
-            "relationEN": "Both Pepe Antony and Shane Nigam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആന്റണി വർഗ്ഗീസ് ഉം ഷെയ്ൻ നിഗം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are upcoming young Malayalam actors who gained recognition through critically praised debut films in the 2020s.",
+            "relationML": "പേപ്പി ആന്റണിയും ഷെയ്ൻ നിഗമും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       }
@@ -2046,14 +2046,14 @@ var packs = [
           {
             "word": "Thattukada",
             "wordMal": "തട്ടുകട",
-            "relationEN": "Both Chaya Kada and Thattukada are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചായക്കട ഉം തട്ടുകട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are beloved Kerala roadside food establishments serving hot snacks and beverages, one specialising in tea and the other in rice meals.",
+            "relationML": "ചായക്കടയും തട്ടുകടയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Thattukada",
             "wordMal": "തട്ടുകട",
-            "relationEN": "Both Chaya Kada and Thattukada are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചായക്കട ഉം തട്ടുകട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are beloved Kerala roadside food establishments serving hot snacks and beverages, one specialising in tea and the other in rice meals.",
+            "relationML": "ചായക്കടയും തട്ടുകടയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2064,14 +2064,14 @@ var packs = [
           {
             "word": "Bevco",
             "wordMal": "ബെവ്കോ",
-            "relationEN": "Both Kallu Shappu and Bevco are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കള്ള് ഷാപ്പ് ഉം ബെവ്കോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala establishments where alcohol is sold, one is a traditional toddy shop and the other is the government-run wine store.",
+            "relationML": "കള്ള് ഷാപ്പും ബേവ്‌കോയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Bevco",
             "wordMal": "ബെവ്കോ",
-            "relationEN": "Both Kallu Shappu and Bevco are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കള്ള് ഷാപ്പ് ഉം ബെവ്കോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala establishments where alcohol is sold, one is a traditional toddy shop and the other is the government-run wine store.",
+            "relationML": "കള്ള് ഷാപ്പും ബേവ്‌കോയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2082,14 +2082,14 @@ var packs = [
           {
             "word": "Private Bus",
             "wordMal": "പ്രൈവറ്റ് ബസ്",
-            "relationEN": "Both KSRTC and Private Bus are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ എസ് ആർ ടി സി ഉം പ്രൈവറ്റ് ബസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are bus services operating on Kerala roads, one is the government-owned red bus and the other is privately operated.",
+            "relationML": "കെ.എസ്.ആർ.ടി.സിയും പ്രൈവറ്റ് ബസ്സും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Private Bus",
             "wordMal": "പ്രൈവറ്റ് ബസ്",
-            "relationEN": "Both KSRTC and Private Bus are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ എസ് ആർ ടി സി ഉം പ്രൈവറ്റ് ബസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are bus services operating on Kerala roads, one is the government-owned red bus and the other is privately operated.",
+            "relationML": "കെ.എസ്.ആർ.ടി.സിയും പ്രൈവറ്റ് ബസ്സും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2100,14 +2100,14 @@ var packs = [
           {
             "word": "Taxi",
             "wordMal": "ടാക്സി",
-            "relationEN": "Both Auto Rickshaw and Taxi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടോ റിക്ഷ ഉം ടാക്സി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are hired passenger vehicles seen throughout Kerala cities and towns for daily commuting and short trips.",
+            "relationML": "ഓട്ടോ റിക്ഷയും ടാക്സിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Taxi",
             "wordMal": "ടാക്സി",
-            "relationEN": "Both Auto Rickshaw and Taxi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടോ റിക്ഷ ഉം ടാക്സി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are hired passenger vehicles seen throughout Kerala cities and towns for daily commuting and short trips.",
+            "relationML": "ഓട്ടോ റിക്ഷയും ടാക്സിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2118,14 +2118,14 @@ var packs = [
           {
             "word": "Nalukettu",
             "wordMal": "നാലുകെട്ട്",
-            "relationEN": "Both Tharavadu and Nalukettu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തറവാട് ഉം നാലുകെട്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala ancestral homes—Tharavadu refers to the family home concept and Nalukettu is the four-sided architectural style.",
+            "relationML": "തറവാടും നാലുകെട്ടും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Nalukettu",
             "wordMal": "നാലുകെട്ട്",
-            "relationEN": "Both Tharavadu and Nalukettu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തറവാട് ഉം നാലുകെട്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Kerala ancestral homes—Tharavadu refers to the family home concept and Nalukettu is the four-sided architectural style.",
+            "relationML": "തറവാടും നാലുകെട്ടും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2136,14 +2136,14 @@ var packs = [
           {
             "word": "Municipality",
             "wordMal": "മുൻസിപ്പാലിറ്റി",
-            "relationEN": "Both Panchayath and Municipality are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പഞ്ചായത്ത് ഉം മുൻസിപ്പാലിറ്റി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are local self-government bodies in Kerala responsible for civic administration—Panchayath for rural and Municipality for urban areas.",
+            "relationML": "പഞ്ചായത്തും മുനിസിപ്പാലിറ്റിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Municipality",
             "wordMal": "മുൻസിപ്പാലിറ്റി",
-            "relationEN": "Both Panchayath and Municipality are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പഞ്ചായത്ത് ഉം മുൻസിപ്പാലിറ്റി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are local self-government bodies in Kerala responsible for civic administration—Panchayath for rural and Municipality for urban areas.",
+            "relationML": "പഞ്ചായത്തും മുനിസിപ്പാലിറ്റിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2154,14 +2154,14 @@ var packs = [
           {
             "word": "Ayalkoottam",
             "wordMal": "അയൽക്കൂട്ടം",
-            "relationEN": "Both Kudumbashree and Ayalkoottam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുടുംബശ്രീ ഉം അയൽക്കൂട്ടം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are community-based women's collective programmes unique to Kerala promoting self-help and neighbourhood support.",
+            "relationML": "കുടുംബശ്രീയും അയൽക്കൂട്ടവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Ayalkoottam",
             "wordMal": "അയൽക്കൂട്ടം",
-            "relationEN": "Both Kudumbashree and Ayalkoottam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുടുംബശ്രീ ഉം അയൽക്കൂട്ടം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are community-based women's collective programmes unique to Kerala promoting self-help and neighbourhood support.",
+            "relationML": "കുടുംബശ്രീയും അയൽക്കൂട്ടവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2172,14 +2172,14 @@ var packs = [
           {
             "word": "Nursery",
             "wordMal": "നഴ്സറി",
-            "relationEN": "Both Anganwadi and Nursery are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അങ്കണവാടി ഉം നഴ്സറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are early childhood institutions in Kerala providing pre-school education and nutrition to young children.",
+            "relationML": "അങ്കണവാടിയും നഴ്സറിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Nursery",
             "wordMal": "നഴ്സറി",
-            "relationEN": "Both Anganwadi and Nursery are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അങ്കണവാടി ഉം നഴ്സറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are early childhood institutions in Kerala providing pre-school education and nutrition to young children.",
+            "relationML": "അങ്കണവാടിയും നഴ്സറിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2190,14 +2190,14 @@ var packs = [
           {
             "word": "Tea Estate",
             "wordMal": "ടീ എസ്റ്റേറ്റ്",
-            "relationEN": "Both Rubber Thottam and Tea Estate are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റബ്ബർ തോട്ടം ഉം ടീ എസ്റ്റേറ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala plantation estates that define the Malabar and Wayanad landscape, one grows rubber trees and one grows tea.",
+            "relationML": "റബ്ബർ തോട്ടവും ചായ തോട്ടവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Tea Estate",
             "wordMal": "ടീ എസ്റ്റേറ്റ്",
-            "relationEN": "Both Rubber Thottam and Tea Estate are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റബ്ബർ തോട്ടം ഉം ടീ എസ്റ്റേറ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala plantation estates that define the Malabar and Wayanad landscape, one grows rubber trees and one grows tea.",
+            "relationML": "റബ്ബർ തോട്ടവും ചായ തോട്ടവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2208,14 +2208,14 @@ var packs = [
           {
             "word": "Rubber Thottam",
             "wordMal": "റബ്ബർ തോട്ടം",
-            "relationEN": "Both Tea Estate and Rubber Thottam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തേയിലത്തോട്ടം ഉം റബ്ബർ തോട്ടം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are large agricultural estates in Kerala's highland districts, one for harvesting tea leaves and one for tapping rubber.",
+            "relationML": "ചായ തോട്ടവും റബ്ബർ തോട്ടവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Rubber Thottam",
             "wordMal": "റബ്ബർ തോട്ടം",
-            "relationEN": "Both Tea Estate and Rubber Thottam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തേയിലത്തോട്ടം ഉം റബ്ബർ തോട്ടം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are large agricultural estates in Kerala's highland districts, one for harvesting tea leaves and one for tapping rubber.",
+            "relationML": "ചായ തോട്ടവും റബ്ബർ തോട്ടവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2226,14 +2226,14 @@ var packs = [
           {
             "word": "Kamuku",
             "wordMal": "കമുകു",
-            "relationEN": "Both Thengu and Kamuku are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തെങ്ങ് ഉം കമുകു ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are tall palm trees commonly grown in Kerala—Thengu is the coconut palm and Kamuku is the areca palm.",
+            "relationML": "തെങ്ങും കമുകും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Kamuku",
             "wordMal": "കമുകു",
-            "relationEN": "Both Thengu and Kamuku are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തെങ്ങ് ഉം കമുകു ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are tall palm trees commonly grown in Kerala—Thengu is the coconut palm and Kamuku is the areca palm.",
+            "relationML": "തെങ്ങും കമുകും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2244,14 +2244,14 @@ var packs = [
           {
             "word": "Munnar",
             "wordMal": "മൂന്നാർ",
-            "relationEN": "Both Kuttanadan Padanilam and Munnar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുട്ടനാടൻ പാടനിലം ഉം മൂന്നാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are iconic Kerala geographic locations—Kuttanad is the low-lying rice field region and Munnar is the misty hill station.",
+            "relationML": "കുട്ടനാടൻ പാടനിലവും മൂന്നാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Munnar",
             "wordMal": "മൂന്നാർ",
-            "relationEN": "Both Kuttanadan Padanilam and Munnar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുട്ടനാടൻ പാടനിലം ഉം മൂന്നാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are iconic Kerala geographic locations—Kuttanad is the low-lying rice field region and Munnar is the misty hill station.",
+            "relationML": "കുട്ടനാടൻ പാടനിലവും മൂന്നാറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2262,14 +2262,14 @@ var packs = [
           {
             "word": "Kulam",
             "wordMal": "കുളം",
-            "relationEN": "Both Puzha and Kulam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പുഴ ഉം കുളം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are freshwater bodies in Kerala—Puzha is a flowing river and Kulam is a still pond or tank.",
+            "relationML": "പുഴയും കുളവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Kulam",
             "wordMal": "കുളം",
-            "relationEN": "Both Puzha and Kulam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പുഴ ഉം കുളം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are freshwater bodies in Kerala—Puzha is a flowing river and Kulam is a still pond or tank.",
+            "relationML": "പുഴയും കുളവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2280,14 +2280,14 @@ var packs = [
           {
             "word": "Khadi",
             "wordMal": "ഖാദി",
-            "relationEN": "Both Kaithari and Khadi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കൈത്തറി ഉം ഖാദി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are handloom cotton fabrics promoted in Kerala as part of traditional crafts and Gandhian self-reliance movements.",
+            "relationML": "കൈത്തറിയും ഖദിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Khadi",
             "wordMal": "ഖാദി",
-            "relationEN": "Both Kaithari and Khadi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കൈത്തറി ഉം ഖാദി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are handloom cotton fabrics promoted in Kerala as part of traditional crafts and Gandhian self-reliance movements.",
+            "relationML": "കൈത്തറിയും ഖദിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2298,14 +2298,14 @@ var packs = [
           {
             "word": "Veyil",
             "wordMal": "വെയിൽ",
-            "relationEN": "Both Mazha and Veyil are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഴ ഉം വെയിൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala weather phenomena—Mazha is rain and Veyil is sunshine, often alternating in the same day.",
+            "relationML": "മഴയും വെയിലും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Veyil",
             "wordMal": "വെയിൽ",
-            "relationEN": "Both Mazha and Veyil are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഴ ഉം വെയിൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala weather phenomena—Mazha is rain and Veyil is sunshine, often alternating in the same day.",
+            "relationML": "മഴയും വെയിലും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2316,14 +2316,14 @@ var packs = [
           {
             "word": "Nalukettu",
             "wordMal": "നാലുകെട്ട്",
-            "relationEN": "Both Tharavad and Nalukettu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തറവാട് ഉം നാലുകെട്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both refer to traditional Kerala family estates—Tharavad is the ancestral property and Nalukettu is the four-courtyard manor house.",
+            "relationML": "തറവാടും നാലുകെട്ടും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Nalukettu",
             "wordMal": "നാലുകെട്ട്",
-            "relationEN": "Both Tharavad and Nalukettu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തറവാട് ഉം നാലുകെട്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both refer to traditional Kerala family estates—Tharavad is the ancestral property and Nalukettu is the four-courtyard manor house.",
+            "relationML": "തറവാടും നാലുകെട്ടും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2334,14 +2334,14 @@ var packs = [
           {
             "word": "Kavitha",
             "wordMal": "കവിത",
-            "relationEN": "Both Naadan Pattu and Kavitha are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നാടൻ പാട്ട് ഉം കവിത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Malayalam song forms—Naadan Pattu is folk song and Kavitha is a composed literary poem.",
+            "relationML": "നാടൻ പാട്ടും കവിതയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Kavitha",
             "wordMal": "കവിത",
-            "relationEN": "Both Naadan Pattu and Kavitha are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നാടൻ പാട്ട് ഉം കവിത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are traditional Malayalam song forms—Naadan Pattu is folk song and Kavitha is a composed literary poem.",
+            "relationML": "നാടൻ പാട്ടും കവിതയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2352,14 +2352,14 @@ var packs = [
           {
             "word": "Angadi",
             "wordMal": "അങ്ങാടി",
-            "relationEN": "Both Kavala and Angadi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കവല ഉം അങ്ങാടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala market places—Kavala is a busy road junction commercial area and Angadi is a general shop.",
+            "relationML": "കവലയും അങ്ങാടിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Angadi",
             "wordMal": "അങ്ങാടി",
-            "relationEN": "Both Kavala and Angadi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കവല ഉം അങ്ങാടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala market places—Kavala is a busy road junction commercial area and Angadi is a general shop.",
+            "relationML": "കവലയും അങ്ങാടിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2370,14 +2370,14 @@ var packs = [
           {
             "word": "Ambalam",
             "wordMal": "അമ്പലം",
-            "relationEN": "Both Palli and Ambalam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പള്ളി ഉം അമ്പലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are religious worship places in Kerala—Palli is a mosque or church and Ambalam is a Hindu temple.",
+            "relationML": "പള്ളിയും അമ്പലവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Ambalam",
             "wordMal": "അമ്പലം",
-            "relationEN": "Both Palli and Ambalam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പള്ളി ഉം അമ്പലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are religious worship places in Kerala—Palli is a mosque or church and Ambalam is a Hindu temple.",
+            "relationML": "പള്ളിയും അമ്പലവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2388,14 +2388,14 @@ var packs = [
           {
             "word": "Palli",
             "wordMal": "പള്ളി",
-            "relationEN": "Both Ambalam and Palli are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അമ്പലം ഉം പള്ളി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala places of worship—Ambalam is a Hindu shrine and Palli is a mosque or church.",
+            "relationML": "അമ്പലവും പള്ളിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Palli",
             "wordMal": "പള്ളി",
-            "relationEN": "Both Ambalam and Palli are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അമ്പലം ഉം പള്ളി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala places of worship—Ambalam is a Hindu shrine and Palli is a mosque or church.",
+            "relationML": "അമ്പലവും പള്ളിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2406,14 +2406,14 @@ var packs = [
           {
             "word": "Scratch and Win",
             "wordMal": "സ്ക്രാച്ച് ആൻഡ് വിൻ",
-            "relationEN": "Both Lottery Ticket and Scratch and Win are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോട്ടറി ടിക്കറ്റ് ഉം സ്ക്രാച്ച് ആൻഡ് വിൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular gambling tickets in Kerala—people stand in queues every day to buy lottery tickets hoping to win.",
+            "relationML": "ലോട്ടറി ടിക്കറ്റും സ്ക്രാച്ച് ആൻഡ് വിന്നും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Scratch and Win",
             "wordMal": "സ്ക്രാച്ച് ആൻഡ് വിൻ",
-            "relationEN": "Both Lottery Ticket and Scratch and Win are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോട്ടറി ടിക്കറ്റ് ഉം സ്ക്രാച്ച് ആൻഡ് വിൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are popular gambling tickets in Kerala—people stand in queues every day to buy lottery tickets hoping to win.",
+            "relationML": "ലോട്ടറി ടിക്കറ്റും സ്ക്രാച്ച് ആൻഡ് വിന്നും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2424,14 +2424,14 @@ var packs = [
           {
             "word": "Bandh",
             "wordMal": "ബന്ദ്",
-            "relationEN": "Both Hartal and Bandh are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹർത്താൽ ഉം ബന്ദ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are political shutdowns in Kerala where shops, offices, and transport close as a form of protest.",
+            "relationML": "ഹർത്താലും ബന്ദും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Bandh",
             "wordMal": "ബന്ദ്",
-            "relationEN": "Both Hartal and Bandh are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹർത്താൽ ഉം ബന്ദ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are political shutdowns in Kerala where shops, offices, and transport close as a form of protest.",
+            "relationML": "ഹർത്താലും ബന്ദും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2442,14 +2442,14 @@ var packs = [
           {
             "word": "Club",
             "wordMal": "ക്ലബ്",
-            "relationEN": "Both Vayanasala and Club are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വായനശാല ഉം ക്ലബ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are community gathering places in Kerala providing books, recreation, or leisure activities to local people.",
+            "relationML": "വായനശാലയും ക്ലബ്ബും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Club",
             "wordMal": "ക്ലബ്",
-            "relationEN": "Both Vayanasala and Club are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വായനശാല ഉം ക്ലബ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are community gathering places in Kerala providing books, recreation, or leisure activities to local people.",
+            "relationML": "വായനശാലയും ക്ലബ്ബും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2460,14 +2460,14 @@ var packs = [
           {
             "word": "Bank Loan",
             "wordMal": "ബാങ്ക് ലോൺ",
-            "relationEN": "Both Chitty and Bank Loan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചിട്ടി ഉം ബാങ്ക് ലോൺ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are financial instruments in Kerala used to accumulate savings or borrow money, one is a traditional chit fund and the other is institutional.",
+            "relationML": "ചിട്ടിയും ബാങ്ക് ലോണും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Bank Loan",
             "wordMal": "ബാങ്ക് ലോൺ",
-            "relationEN": "Both Chitty and Bank Loan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചിട്ടി ഉം ബാങ്ക് ലോൺ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are financial instruments in Kerala used to accumulate savings or borrow money, one is a traditional chit fund and the other is institutional.",
+            "relationML": "ചിട്ടിയും ബാങ്ക് ലോണും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2478,14 +2478,14 @@ var packs = [
           {
             "word": "Ambalam",
             "wordMal": "അമ്പലം",
-            "relationEN": "Both Kavukal and Ambalam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കാവ് ഉം അമ്പലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are sacred groves or shrines in Kerala, with Kavukal being a forest shrine to serpent gods and Ambalam being a full temple.",
+            "relationML": "കാവുകളും അമ്പലവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Ambalam",
             "wordMal": "അമ്പലം",
-            "relationEN": "Both Kavukal and Ambalam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കാവ് ഉം അമ്പലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are sacred groves or shrines in Kerala, with Kavukal being a forest shrine to serpent gods and Ambalam being a full temple.",
+            "relationML": "കാവുകളും അമ്പലവും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2496,14 +2496,14 @@ var packs = [
           {
             "word": "Puzha",
             "wordMal": "പുഴ",
-            "relationEN": "Both Kulam and Puzha are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുളം ഉം പുഴ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are freshwater bodies in Kerala used for bathing and daily rituals—Kulam is a local pond and Puzha is a river.",
+            "relationML": "കുളവും പുഴയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Puzha",
             "wordMal": "പുഴ",
-            "relationEN": "Both Kulam and Puzha are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുളം ഉം പുഴ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are freshwater bodies in Kerala used for bathing and daily rituals—Kulam is a local pond and Puzha is a river.",
+            "relationML": "കുളവും പുഴയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2514,14 +2514,14 @@ var packs = [
           {
             "word": "Supplyco",
             "wordMal": "സപ്ലൈകോ",
-            "relationEN": "Both Milma and Supplyco are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മിൽമ ഉം സപ്ലൈകോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala government-owned consumer cooperatives—Milma sells dairy products and Supplyco sells essential provisions.",
+            "relationML": "മിൽമയും സപ്ലൈകോയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Supplyco",
             "wordMal": "സപ്ലൈകോ",
-            "relationEN": "Both Milma and Supplyco are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മിൽമ ഉം സപ്ലൈകോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala government-owned consumer cooperatives—Milma sells dairy products and Supplyco sells essential provisions.",
+            "relationML": "മിൽമയും സപ്ലൈകോയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2532,14 +2532,14 @@ var packs = [
           {
             "word": "Kallu Shappu",
             "wordMal": "കള്ള് ഷാപ്പ്",
-            "relationEN": "Both Bevco and Kallu Shappu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബെവ്കോ ഉം കള്ള് ഷാപ്പ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala establishments where alcoholic beverages are sold—Bevco is the government wine outlet and Kallu Shappu is the traditional toddy shop.",
+            "relationML": "ബേവ്‌കോയും കള്ള് ഷാപ്പും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Kallu Shappu",
             "wordMal": "കള്ള് ഷാപ്പ്",
-            "relationEN": "Both Bevco and Kallu Shappu are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബെവ്കോ ഉം കള്ള് ഷാപ്പ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala establishments where alcoholic beverages are sold—Bevco is the government wine outlet and Kallu Shappu is the traditional toddy shop.",
+            "relationML": "ബേവ്‌കോയും കള്ള് ഷാപ്പും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2550,14 +2550,14 @@ var packs = [
           {
             "word": "Panchayath",
             "wordMal": "പഞ്ചായത്ത്",
-            "relationEN": "Both Akshaya Centre and Panchayath are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അക്ഷയ കേന്ദ്രം ഉം പഞ്ചായത്ത് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala government service points where citizens can access official services—Akshaya for digital and Panchayath for civic.",
+            "relationML": "അക്ഷയ സെന്ററും പഞ്ചായത്തും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Panchayath",
             "wordMal": "പഞ്ചായത്ത്",
-            "relationEN": "Both Akshaya Centre and Panchayath are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അക്ഷയ കേന്ദ്രം ഉം പഞ്ചായത്ത് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala government service points where citizens can access official services—Akshaya for digital and Panchayath for civic.",
+            "relationML": "അക്ഷയ സെന്ററും പഞ്ചായത്തും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2568,14 +2568,14 @@ var packs = [
           {
             "word": "Milma",
             "wordMal": "മിൽമ",
-            "relationEN": "Both Supplyco and Milma are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സപ്ലൈകോ ഉം മിൽമ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are government-backed consumer cooperatives in Kerala selling essential household products at subsidized prices.",
+            "relationML": "സപ്ലൈകോയും മിൽമയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Milma",
             "wordMal": "മിൽമ",
-            "relationEN": "Both Supplyco and Milma are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സപ്ലൈകോ ഉം മിൽമ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are government-backed consumer cooperatives in Kerala selling essential household products at subsidized prices.",
+            "relationML": "സപ്ലൈകോയും മിൽമയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2586,14 +2586,14 @@ var packs = [
           {
             "word": "Home Loan",
             "wordMal": "ഹോം ലോൺ",
-            "relationEN": "Both Vidyabhyasa Loan and Home Loan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വിദ്യാഭ്യാസ വായ്പ ഉം ഹോം ലോൺ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are long-term loan products in Kerala financial institutions used by families to fund major life expenses.",
+            "relationML": "വിദ്യാഭ്യാസ ലോണും ഹോം ലോണും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Home Loan",
             "wordMal": "ഹോം ലോൺ",
-            "relationEN": "Both Vidyabhyasa Loan and Home Loan are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വിദ്യാഭ്യാസ വായ്പ ഉം ഹോം ലോൺ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are long-term loan products in Kerala financial institutions used by families to fund major life expenses.",
+            "relationML": "വിദ്യാഭ്യാസ ലോണും ഹോം ലോണും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2604,14 +2604,14 @@ var packs = [
           {
             "word": "Maveli Store",
             "wordMal": "മാവേലി സ്റ്റോർ",
-            "relationEN": "Both Ration Kada and Maveli Store are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റേഷൻ കട ഉം മാവേലി സ്റ്റോർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are government-run subsidised grocery shops in Kerala providing essentials like rice and oil to ration card holders.",
+            "relationML": "റേഷൻ കടയും മാവേലി സ്റ്റോറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Maveli Store",
             "wordMal": "മാവേലി സ്റ്റോർ",
-            "relationEN": "Both Ration Kada and Maveli Store are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റേഷൻ കട ഉം മാവേലി സ്റ്റോർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are government-run subsidised grocery shops in Kerala providing essentials like rice and oil to ration card holders.",
+            "relationML": "റേഷൻ കടയും മാവേലി സ്റ്റോറും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2622,14 +2622,14 @@ var packs = [
           {
             "word": "Kudumbashree",
             "wordMal": "കുടുംബശ്രീ",
-            "relationEN": "Both Mahatma Gandhi NREGA and Kudumbashree are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തൊഴിലുറപ്പ് ഉം കുടുംബശ്രീ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala government welfare schemes providing employment and income support to rural and poor households.",
+            "relationML": "മഹാത്മ ഗാന്ധി എൻ.ആർ.ഇ.ജി.എ.യും കുടുംബശ്രീയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Kudumbashree",
             "wordMal": "കുടുംബശ്രീ",
-            "relationEN": "Both Mahatma Gandhi NREGA and Kudumbashree are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തൊഴിലുറപ്പ് ഉം കുടുംബശ്രീ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala government welfare schemes providing employment and income support to rural and poor households.",
+            "relationML": "മഹാത്മ ഗാന്ധി എൻ.ആർ.ഇ.ജി.എ.യും കുടുംബശ്രീയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2640,14 +2640,14 @@ var packs = [
           {
             "word": "Water Bill",
             "wordMal": "വാട്ടർ ബിൽ",
-            "relationEN": "Both Current Bill and Water Bill are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കറന്റ് ബിൽ ഉം വാട്ടർ ബിൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are monthly utility bills paid by Kerala households for essential services provided by government agencies.",
+            "relationML": "കറന്റ് ബില്ലും വാട്ടർ ബില്ലും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Water Bill",
             "wordMal": "വാട്ടർ ബിൽ",
-            "relationEN": "Both Current Bill and Water Bill are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കറന്റ് ബിൽ ഉം വാട്ടർ ബിൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are monthly utility bills paid by Kerala households for essential services provided by government agencies.",
+            "relationML": "കറന്റ് ബില്ലും വാട്ടർ ബില്ലും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2658,14 +2658,14 @@ var packs = [
           {
             "word": "Water Authority",
             "wordMal": "വാട്ടർ അതോറിറ്റി",
-            "relationEN": "Both KSEB and Water Authority are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെഎസ്ഇബി ഉം വാട്ടർ അതോറിറ്റി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala government utilities that deliver essential services to every household—KSEB for electricity and Water Authority for piped water.",
+            "relationML": "കെ.എസ്.ഇ.ബിയും വാട്ടർ അതോറിറ്റിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "Water Authority",
             "wordMal": "വാട്ടർ അതോറിറ്റി",
-            "relationEN": "Both KSEB and Water Authority are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെഎസ്ഇബി ഉം വാട്ടർ അതോറിറ്റി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are Kerala government utilities that deliver essential services to every household—KSEB for electricity and Water Authority for piped water.",
+            "relationML": "കെ.എസ്.ഇ.ബിയും വാട്ടർ അതോറിറ്റിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       },
@@ -2676,14 +2676,14 @@ var packs = [
           {
             "word": "KSEB",
             "wordMal": "കെഎസ്ഇബി",
-            "relationEN": "Both Water Authority and KSEB are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാട്ടർ അതോറിറ്റി ഉം കെഎസ്ഇബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are essential Kerala government service providers—Water Authority supplies piped water and KSEB provides electricity.",
+            "relationML": "വാട്ടർ അതോറിറ്റിയും കെ.എസ്.ഇ.ബിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           },
           {
             "word": "KSEB",
             "wordMal": "കെഎസ്ഇബി",
-            "relationEN": "Both Water Authority and KSEB are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാട്ടർ അതോറിറ്റി ഉം കെഎസ്ഇബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both are essential Kerala government service providers—Water Authority supplies piped water and KSEB provides electricity.",
+            "relationML": "വാട്ടർ അതോറിറ്റിയും കെ.എസ്.ഇ.ബിയും ഒരേ, ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ഒരേ ആണ്."
           }
         ]
       }
@@ -2701,14 +2701,14 @@ var packs = [
           {
             "word": "Low Floor Bus",
             "wordMal": "ലോ ഫ്ലോർ ബസ്",
-            "relationEN": "Both Aanavandi and Low Floor Bus are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആനവണ്ടി ഉം ലോ ഫ്ലോർ ബസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Aanavandi and Low Floor Bus refer to popular KSRTC buses operating in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിൽ സർവീസ് നടത്തുന്ന ജനപ്രിയ കെഎസ്ആർടിസി ബസുകളാണ്."
           },
           {
             "word": "Low Floor Bus",
             "wordMal": "ലോ ഫ്ലോർ ബസ്",
-            "relationEN": "Both Aanavandi and Low Floor Bus are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആനവണ്ടി ഉം ലോ ഫ്ലോർ ബസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Aanavandi and Low Floor Bus refer to popular KSRTC buses operating in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിൽ സർവീസ് നടത്തുന്ന ജനപ്രിയ കെഎസ്ആർടിസി ബസുകളാണ്."
           }
         ]
       },
@@ -2719,14 +2719,14 @@ var packs = [
           {
             "word": "Thoni",
             "wordMal": "തോണി",
-            "relationEN": "Both Vallam and Thoni are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വള്ളം ഉം തോണി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Vallam and Thoni are traditional manually rowed small boats used by Kerala fishermen and locals.",
+            "relationML": "രണ്ടും കേരളത്തിലെ മത്സ്യത്തൊഴിലാളികളും നാട്ടുകാരും ഉപയോഗിക്കുന്ന പരമ്പരാഗതമായ ചെറിയ വഞ്ചികളാണ്."
           },
           {
             "word": "Thoni",
             "wordMal": "തോണി",
-            "relationEN": "Both Vallam and Thoni are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വള്ളം ഉം തോണി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Vallam and Thoni are traditional manually rowed small boats used by Kerala fishermen and locals.",
+            "relationML": "രണ്ടും കേരളത്തിലെ മത്സ്യത്തൊഴിലാളികളും നാട്ടുകാരും ഉപയോഗിക്കുന്ന പരമ്പരാഗതമായ ചെറിയ വഞ്ചികളാണ്."
           }
         ]
       },
@@ -2737,14 +2737,14 @@ var packs = [
           {
             "word": "Jeep",
             "wordMal": "ജീപ്പ്",
-            "relationEN": "Both Autorickshaw and Jeep are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടോറിക്ഷ ഉം ജീപ്പ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Autorickshaw and Jeep are commonly used as local transport or taxi services in many parts of India.",
+            "relationML": "രണ്ടും ഇന്ത്യയിലെ പല ഭാഗങ്ങളിലും പ്രാദേശിക യാത്രകൾക്കും ടാക്സിയായും ഉപയോഗിക്കുന്ന വാഹനങ്ങളാണ്."
           },
           {
             "word": "Jeep",
             "wordMal": "ജീപ്പ്",
-            "relationEN": "Both Autorickshaw and Jeep are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടോറിക്ഷ ഉം ജീപ്പ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Autorickshaw and Jeep are commonly used as local transport or taxi services in many parts of India.",
+            "relationML": "രണ്ടും ഇന്ത്യയിലെ പല ഭാഗങ്ങളിലും പ്രാദേശിക യാത്രകൾക്കും ടാക്സിയായും ഉപയോഗിക്കുന്ന വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -2755,14 +2755,14 @@ var packs = [
           {
             "word": "Pulsar",
             "wordMal": "പൾസർ",
-            "relationEN": "Both Bullet and Pulsar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബുള്ളറ്റ് ഉം പൾസർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Bullet and Pulsar are highly popular and powerful motorcycle brands among Indian youth.",
+            "relationML": "രണ്ടും ഇന്ത്യൻ യുവാക്കൾക്കിടയിൽ വളരെ പ്രശസ്തമായ കരുത്തുറ്റ മോട്ടോർസൈക്കിൾ ബ്രാൻഡുകളാണ്."
           },
           {
             "word": "Pulsar",
             "wordMal": "പൾസർ",
-            "relationEN": "Both Bullet and Pulsar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബുള്ളറ്റ് ഉം പൾസർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Bullet and Pulsar are highly popular and powerful motorcycle brands among Indian youth.",
+            "relationML": "രണ്ടും ഇന്ത്യൻ യുവാക്കൾക്കിടയിൽ വളരെ പ്രശസ്തമായ കരുത്തുറ്റ മോട്ടോർസൈക്കിൾ ബ്രാൻഡുകളാണ്."
           }
         ]
       },
@@ -2773,14 +2773,14 @@ var packs = [
           {
             "word": "Shikara",
             "wordMal": "ശിക്കാര",
-            "relationEN": "Both Houseboat and Shikara are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹൗസ്‌ബോട്ട് ഉം ശിക്കാര ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Houseboat and Shikara are popular tourist boats offering leisure rides on serene lakes and backwaters.",
+            "relationML": "രണ്ടും ശാന്തമായ കായലുകളിലും തടാകങ്ങളിലും വിനോദയാത്രകൾക്കായി ഉപയോഗിക്കുന്ന പ്രശസ്തമായ ബോട്ടുകളാണ്."
           },
           {
             "word": "Shikara",
             "wordMal": "ശിക്കാര",
-            "relationEN": "Both Houseboat and Shikara are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹൗസ്‌ബോട്ട് ഉം ശിക്കാര ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Houseboat and Shikara are popular tourist boats offering leisure rides on serene lakes and backwaters.",
+            "relationML": "രണ്ടും ശാന്തമായ കായലുകളിലും തടാകങ്ങളിലും വിനോദയാത്രകൾക്കായി ഉപയോഗിക്കുന്ന പ്രശസ്തമായ ബോട്ടുകളാണ്."
           }
         ]
       },
@@ -2791,14 +2791,14 @@ var packs = [
           {
             "word": "Ferry",
             "wordMal": "ഫെറി",
-            "relationEN": "Both Jankar and Ferry are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജങ്കാർ ഉം ഫെറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Jankar and Ferry are used in Kerala to transport people and vehicles across water bodies.",
+            "relationML": "രണ്ടും കേരളത്തിൽ ആളുകളെയും വാഹനങ്ങളെയും അക്കരെ കടത്താൻ ഉപയോഗിക്കുന്ന ജലയാനങ്ങളാണ്."
           },
           {
             "word": "Ferry",
             "wordMal": "ഫെറി",
-            "relationEN": "Both Jankar and Ferry are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജങ്കാർ ഉം ഫെറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Jankar and Ferry are used in Kerala to transport people and vehicles across water bodies.",
+            "relationML": "രണ്ടും കേരളത്തിൽ ആളുകളെയും വാഹനങ്ങളെയും അക്കരെ കടത്താൻ ഉപയോഗിക്കുന്ന ജലയാനങ്ങളാണ്."
           }
         ]
       },
@@ -2809,14 +2809,14 @@ var packs = [
           {
             "word": "Jankar",
             "wordMal": "ജങ്കാർ",
-            "relationEN": "Both Ferry and Jankar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫെറി ഉം ജങ്കാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Ferry and Jankar are water transport vessels primarily used for crossing rivers and lakes.",
+            "relationML": "രണ്ടും പുഴകളും തടാകങ്ങളും കുറുകെ കടക്കാൻ പ്രധാനമായും ഉപയോഗിക്കുന്ന ജലയാനങ്ങളാണ്."
           },
           {
             "word": "Jankar",
             "wordMal": "ജങ്കാർ",
-            "relationEN": "Both Ferry and Jankar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫെറി ഉം ജങ്കാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Ferry and Jankar are water transport vessels primarily used for crossing rivers and lakes.",
+            "relationML": "രണ്ടും പുഴകളും തടാകങ്ങളും കുറുകെ കടക്കാൻ പ്രധാനമായും ഉപയോഗിക്കുന്ന ജലയാനങ്ങളാണ്."
           }
         ]
       },
@@ -2827,14 +2827,14 @@ var packs = [
           {
             "word": "Kettuvallam",
             "wordMal": "കെട്ടുവള്ളം",
-            "relationEN": "Both Chundan Vallam and Kettuvallam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചുണ്ടൻ വള്ളം ഉം കെട്ടുവള്ളം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Chundan Vallam and Kettuvallam are traditional long wooden boats synonymous with Kerala's backwaters.",
+            "relationML": "രണ്ടും കേരളത്തിലെ കായലുകളുമായി ബന്ധപ്പെട്ട പരമ്പരാഗതമായ വലിയ മരവള്ളങ്ങളാണ്."
           },
           {
             "word": "Kettuvallam",
             "wordMal": "കെട്ടുവള്ളം",
-            "relationEN": "Both Chundan Vallam and Kettuvallam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചുണ്ടൻ വള്ളം ഉം കെട്ടുവള്ളം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Chundan Vallam and Kettuvallam are traditional long wooden boats synonymous with Kerala's backwaters.",
+            "relationML": "രണ്ടും കേരളത്തിലെ കായലുകളുമായി ബന്ധപ്പെട്ട പരമ്പരാഗതമായ വലിയ മരവള്ളങ്ങളാണ്."
           }
         ]
       },
@@ -2845,14 +2845,14 @@ var packs = [
           {
             "word": "Houseboat",
             "wordMal": "ഹൗസ്ബോട്ട്",
-            "relationEN": "Both Kettuvallam and Houseboat are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെട്ടുവള്ളം ഉം ഹൗസ്ബോട്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Kettuvallam and Houseboat are iconic Kerala tourism attractions offering scenic backwater cruises.",
+            "relationML": "രണ്ടും കേരളത്തിലെ കായൽ യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന പ്രശസ്തമായ വിനോദസഞ്ചാര ബോട്ടുകളാണ്."
           },
           {
             "word": "Houseboat",
             "wordMal": "ഹൗസ്ബോട്ട്",
-            "relationEN": "Both Kettuvallam and Houseboat are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെട്ടുവള്ളം ഉം ഹൗസ്ബോട്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Kettuvallam and Houseboat are iconic Kerala tourism attractions offering scenic backwater cruises.",
+            "relationML": "രണ്ടും കേരളത്തിലെ കായൽ യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന പ്രശസ്തമായ വിനോദസഞ്ചാര ബോട്ടുകളാണ്."
           }
         ]
       },
@@ -2863,14 +2863,14 @@ var packs = [
           {
             "word": "Lorry",
             "wordMal": "ലോറി",
-            "relationEN": "Both Pickup and Lorry are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പിക്കപ്പ് ഉം ലോറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Pickup and Lorry are commercial cargo vehicles widely used for transporting goods and freight.",
+            "relationML": "രണ്ടും ചരക്ക് നീക്കത്തിനായി വ്യാപകമായി ഉപയോഗിക്കുന്ന വാണിജ്യ വാഹനങ്ങളാണ്."
           },
           {
             "word": "Lorry",
             "wordMal": "ലോറി",
-            "relationEN": "Both Pickup and Lorry are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പിക്കപ്പ് ഉം ലോറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Pickup and Lorry are commercial cargo vehicles widely used for transporting goods and freight.",
+            "relationML": "രണ്ടും ചരക്ക് നീക്കത്തിനായി വ്യാപകമായി ഉപയോഗിക്കുന്ന വാണിജ്യ വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -2881,14 +2881,14 @@ var packs = [
           {
             "word": "Gypsy",
             "wordMal": "ജിപ്സി",
-            "relationEN": "Both Jeep and Gypsy are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജീപ്പ് ഉം ജിപ്സി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Jeep and Maruti Gypsy are rugged four-wheel drive vehicles known for their off-roading capabilities.",
+            "relationML": "രണ്ടും ദുർഘടമായ പാതകളിൽ സഞ്ചരിക്കാൻ ശേഷിയുള്ള കരുത്തുറ്റ ഫോർ വീൽ ഡ്രൈവ് വാഹനങ്ങളാണ്."
           },
           {
             "word": "Gypsy",
             "wordMal": "ജിപ്സി",
-            "relationEN": "Both Jeep and Gypsy are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജീപ്പ് ഉം ജിപ്സി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Jeep and Maruti Gypsy are rugged four-wheel drive vehicles known for their off-roading capabilities.",
+            "relationML": "രണ്ടും ദുർഘടമായ പാതകളിൽ സഞ്ചരിക്കാൻ ശേഷിയുള്ള കരുത്തുറ്റ ഫോർ വീൽ ഡ്രൈവ് വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -2899,14 +2899,14 @@ var packs = [
           {
             "word": "Tipper",
             "wordMal": "ടിപ്പർ",
-            "relationEN": "Both Lorry and Tipper are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോറി ഉം ടിപ്പർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Lorry and Tipper are heavy duty trucks used for transporting goods or construction materials.",
+            "relationML": "രണ്ടും ചരക്കുകളോ നിർമ്മാണ സാമഗ്രികളോ കൊണ്ടുപോകാൻ ഉപയോഗിക്കുന്ന വലിയ ട്രക്കുകളാണ്."
           },
           {
             "word": "Tipper",
             "wordMal": "ടിപ്പർ",
-            "relationEN": "Both Lorry and Tipper are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോറി ഉം ടിപ്പർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Lorry and Tipper are heavy duty trucks used for transporting goods or construction materials.",
+            "relationML": "രണ്ടും ചരക്കുകളോ നിർമ്മാണ സാമഗ്രികളോ കൊണ്ടുപോകാൻ ഉപയോഗിക്കുന്ന വലിയ ട്രക്കുകളാണ്."
           }
         ]
       },
@@ -2917,14 +2917,14 @@ var packs = [
           {
             "word": "KSRTC",
             "wordMal": "കെഎസ്ആർടിസി",
-            "relationEN": "Both Private Bus and KSRTC are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രൈവറ്റ് ബസ് ഉം കെഎസ്ആർടിസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Private Bus and KSRTC represent the backbone of daily public road transport in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിലെ ദൈനംദിന റോഡ് ഗതാഗതത്തിന്റെ നെടുംതൂണായ ബസുകളാണ്."
           },
           {
             "word": "KSRTC",
             "wordMal": "കെഎസ്ആർടിസി",
-            "relationEN": "Both Private Bus and KSRTC are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രൈവറ്റ് ബസ് ഉം കെഎസ്ആർടിസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Private Bus and KSRTC represent the backbone of daily public road transport in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിലെ ദൈനംദിന റോഡ് ഗതാഗതത്തിന്റെ നെടുംതൂണായ ബസുകളാണ്."
           }
         ]
       },
@@ -2935,14 +2935,14 @@ var packs = [
           {
             "word": "Mini Bus",
             "wordMal": "മിനി ബസ്",
-            "relationEN": "Both Tempo Traveller and Mini Bus are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടെമ്പോ ട്രാവലർ ഉം മിനി ബസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Tempo Traveller and Mini Bus are spacious passenger vehicles favored for family trips and excursions.",
+            "relationML": "രണ്ടും കുടുംബയാത്രകൾക്കും വിനോദയാത്രകൾക്കും അനുയോജ്യമായ വലിയ യാത്രാവാഹനങ്ങളാണ്."
           },
           {
             "word": "Mini Bus",
             "wordMal": "മിനി ബസ്",
-            "relationEN": "Both Tempo Traveller and Mini Bus are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടെമ്പോ ട്രാവലർ ഉം മിനി ബസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Tempo Traveller and Mini Bus are spacious passenger vehicles favored for family trips and excursions.",
+            "relationML": "രണ്ടും കുടുംബയാത്രകൾക്കും വിനോദയാത്രകൾക്കും അനുയോജ്യമായ വലിയ യാത്രാവാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -2953,14 +2953,14 @@ var packs = [
           {
             "word": "Bike",
             "wordMal": "ബൈക്ക്",
-            "relationEN": "Both Scooter and Bike are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂട്ടർ ഉം ബൈക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Scooter and Bike are two-wheeled motor vehicles commonly used for personal commuting.",
+            "relationML": "രണ്ടും ദൈനംദിന യാത്രകൾക്കായി സാധാരണയായി ഉപയോഗിക്കുന്ന ഇരുചക്ര വാഹനങ്ങളാണ്."
           },
           {
             "word": "Bike",
             "wordMal": "ബൈക്ക്",
-            "relationEN": "Both Scooter and Bike are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂട്ടർ ഉം ബൈക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Scooter and Bike are two-wheeled motor vehicles commonly used for personal commuting.",
+            "relationML": "രണ്ടും ദൈനംദിന യാത്രകൾക്കായി സാധാരണയായി ഉപയോഗിക്കുന്ന ഇരുചക്ര വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -2971,14 +2971,14 @@ var packs = [
           {
             "word": "Scooter",
             "wordMal": "സ്കൂട്ടർ",
-            "relationEN": "Both Cycle and Scooter are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സൈക്കിൾ ഉം സ്കൂട്ടർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Cycle and Scooter are simple, everyday two-wheelers used for short-distance personal transport.",
+            "relationML": "രണ്ടും ചെറിയ ദൂരങ്ങളിലേക്കുള്ള യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന സാധാരണ ഇരുചക്ര വാഹനങ്ങളാണ്."
           },
           {
             "word": "Scooter",
             "wordMal": "സ്കൂട്ടർ",
-            "relationEN": "Both Cycle and Scooter are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സൈക്കിൾ ഉം സ്കൂട്ടർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Cycle and Scooter are simple, everyday two-wheelers used for short-distance personal transport.",
+            "relationML": "രണ്ടും ചെറിയ ദൂരങ്ങളിലേക്കുള്ള യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന സാധാരണ ഇരുചക്ര വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -2989,14 +2989,14 @@ var packs = [
           {
             "word": "Tempo Traveller",
             "wordMal": "ടെമ്പോ ട്രാവലർ",
-            "relationEN": "Both Mini Bus and Tempo Traveller are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മിനി ബസ് ഉം ടെമ്പോ ട്രാവലർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Mini Bus and Tempo Traveller are mid-sized commercial passenger vehicles used for group trips.",
+            "relationML": "രണ്ടും ചെറിയ സംഘങ്ങളുടെ യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന ഇടത്തരം യാത്രാവാഹനങ്ങളാണ്."
           },
           {
             "word": "Tempo Traveller",
             "wordMal": "ടെമ്പോ ട്രാവലർ",
-            "relationEN": "Both Mini Bus and Tempo Traveller are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മിനി ബസ് ഉം ടെമ്പോ ട്രാവലർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Mini Bus and Tempo Traveller are mid-sized commercial passenger vehicles used for group trips.",
+            "relationML": "രണ്ടും ചെറിയ സംഘങ്ങളുടെ യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന ഇടത്തരം യാത്രാവാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -3007,14 +3007,14 @@ var packs = [
           {
             "word": "Auto Rickshaw",
             "wordMal": "ഓട്ടോ റിക്ഷ",
-            "relationEN": "Both Taxi and Auto Rickshaw are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടാക്സി ഉം ഓട്ടോ റിക്ഷ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Taxi and Auto Rickshaw are popular modes of hired public transport for daily commuting.",
+            "relationML": "രണ്ടും ദൈനംദിന യാത്രകൾക്ക് ആളുകൾ വാടകയ്ക്ക് വിളിക്കുന്ന പൊതുഗതാഗത വാഹനങ്ങളാണ്."
           },
           {
             "word": "Auto Rickshaw",
             "wordMal": "ഓട്ടോ റിക്ഷ",
-            "relationEN": "Both Taxi and Auto Rickshaw are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടാക്സി ഉം ഓട്ടോ റിക്ഷ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Taxi and Auto Rickshaw are popular modes of hired public transport for daily commuting.",
+            "relationML": "രണ്ടും ദൈനംദിന യാത്രകൾക്ക് ആളുകൾ വാടകയ്ക്ക് വിളിക്കുന്ന പൊതുഗതാഗത വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -3025,14 +3025,14 @@ var packs = [
           {
             "word": "Metro",
             "wordMal": "മെട്രോ",
-            "relationEN": "Both Train and Metro are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്രെയിൻ ഉം മെട്രോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Train and Metro are railway-based mass transit systems used for passenger commuting.",
+            "relationML": "രണ്ടും യാത്രക്കാർക്ക് സഞ്ചരിക്കാനുള്ള റെയിൽവേ അധിഷ്ഠിത പൊതുഗതാഗത സംവിധാനങ്ങളാണ്."
           },
           {
             "word": "Metro",
             "wordMal": "മെട്രോ",
-            "relationEN": "Both Train and Metro are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്രെയിൻ ഉം മെട്രോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Train and Metro are railway-based mass transit systems used for passenger commuting.",
+            "relationML": "രണ്ടും യാത്രക്കാർക്ക് സഞ്ചരിക്കാനുള്ള റെയിൽവേ അധിഷ്ഠിത പൊതുഗതാഗത സംവിധാനങ്ങളാണ്."
           }
         ]
       },
@@ -3043,14 +3043,14 @@ var packs = [
           {
             "word": "Ambulance",
             "wordMal": "ആംബുലൻസ്",
-            "relationEN": "Both School Bus and Ambulance are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബസ് ഉം ആംബുലൻസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both School Bus and Ambulance are purpose-built utility vehicles often painted in distinct recognizable colors like yellow or white.",
+            "relationML": "രണ്ടും പെട്ടെന്ന് തിരിച്ചറിയാൻ കഴിയുന്ന മഞ്ഞയോ വെള്ളയോ പോലുള്ള പ്രത്യേക നിറങ്ങളിൽ പെയിന്റ് ചെയ്ത വാഹനങ്ങളാണ്."
           },
           {
             "word": "Ambulance",
             "wordMal": "ആംബുലൻസ്",
-            "relationEN": "Both School Bus and Ambulance are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബസ് ഉം ആംബുലൻസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both School Bus and Ambulance are purpose-built utility vehicles often painted in distinct recognizable colors like yellow or white.",
+            "relationML": "രണ്ടും പെട്ടെന്ന് തിരിച്ചറിയാൻ കഴിയുന്ന മഞ്ഞയോ വെള്ളയോ പോലുള്ള പ്രത്യേക നിറങ്ങളിൽ പെയിന്റ് ചെയ്ത വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -3061,14 +3061,14 @@ var packs = [
           {
             "word": "Toy Train",
             "wordMal": "ടോയ് ട്രെയിൻ",
-            "relationEN": "Both Jik Jik Train and Toy Train are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തീവണ്ടി ഉം ടോയ് ട്രെയിൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Jik Jik Train and Toy Train refer to miniature railway models primarily built for children's amusement.",
+            "relationML": "രണ്ടും പ്രധാനമായും കുട്ടികളുടെ വിനോദത്തിനായി നിർമ്മിച്ച ചെറിയ തീവണ്ടി രൂപങ്ങളാണ്."
           },
           {
             "word": "Toy Train",
             "wordMal": "ടോയ് ട്രെയിൻ",
-            "relationEN": "Both Jik Jik Train and Toy Train are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തീവണ്ടി ഉം ടോയ് ട്രെയിൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Jik Jik Train and Toy Train refer to miniature railway models primarily built for children's amusement.",
+            "relationML": "രണ്ടും പ്രധാനമായും കുട്ടികളുടെ വിനോദത്തിനായി നിർമ്മിച്ച ചെറിയ തീവണ്ടി രൂപങ്ങളാണ്."
           }
         ]
       },
@@ -3079,14 +3079,14 @@ var packs = [
           {
             "word": "Fire Engine",
             "wordMal": "ഫയർ എഞ്ചിൻ",
-            "relationEN": "Both Ambulance and Fire Engine are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആംബുലൻസ് ഉം ഫയർ എഞ്ചിൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Ambulance and Fire Engine are high-priority emergency vehicles that rush to critical situations.",
+            "relationML": "രണ്ടും അടിയന്തര സാഹചര്യങ്ങളിൽ വേഗത്തിൽ ഓടിയെത്തുന്ന അത്യന്താപേക്ഷിതമായ സുരക്ഷാ വാഹനങ്ങളാണ്."
           },
           {
             "word": "Fire Engine",
             "wordMal": "ഫയർ എഞ്ചിൻ",
-            "relationEN": "Both Ambulance and Fire Engine are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആംബുലൻസ് ഉം ഫയർ എഞ്ചിൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Ambulance and Fire Engine are high-priority emergency vehicles that rush to critical situations.",
+            "relationML": "രണ്ടും അടിയന്തര സാഹചര്യങ്ങളിൽ വേഗത്തിൽ ഓടിയെത്തുന്ന അത്യന്താപേക്ഷിതമായ സുരക്ഷാ വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -3097,14 +3097,14 @@ var packs = [
           {
             "word": "Water Metro",
             "wordMal": "വാട്ടർ മെട്രോ",
-            "relationEN": "Both Kochi Metro and Water Metro are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കൊച്ചി മെട്രോ ഉം വാട്ടർ മെട്രോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Kochi Metro and Water Metro are innovative, eco-friendly public transportation initiatives in Kochi.",
+            "relationML": "രണ്ടും കൊച്ചി നഗരത്തിലെ പരിസ്ഥിതി സൗഹൃദമായ ആധുനിക പൊതുഗതാഗത സംവിധാനങ്ങളാണ്."
           },
           {
             "word": "Water Metro",
             "wordMal": "വാട്ടർ മെട്രോ",
-            "relationEN": "Both Kochi Metro and Water Metro are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കൊച്ചി മെട്രോ ഉം വാട്ടർ മെട്രോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Kochi Metro and Water Metro are innovative, eco-friendly public transportation initiatives in Kochi.",
+            "relationML": "രണ്ടും കൊച്ചി നഗരത്തിലെ പരിസ്ഥിതി സൗഹൃദമായ ആധുനിക പൊതുഗതാഗത സംവിധാനങ്ങളാണ്."
           }
         ]
       },
@@ -3115,14 +3115,14 @@ var packs = [
           {
             "word": "JCB",
             "wordMal": "ജെസിബി",
-            "relationEN": "Both Tractor and JCB are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്രാക്ടർ ഉം ജെസിബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Tractor and JCB are heavy earth-moving or agricultural machines used in construction and farming.",
+            "relationML": "രണ്ടും നിർമ്മാണ മേഖലയിലും കൃഷിയിലും ഉപയോഗിക്കുന്ന ഭാരമേറിയ യന്ത്രവാഹനങ്ങളാണ്."
           },
           {
             "word": "JCB",
             "wordMal": "ജെസിബി",
-            "relationEN": "Both Tractor and JCB are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്രാക്ടർ ഉം ജെസിബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Tractor and JCB are heavy earth-moving or agricultural machines used in construction and farming.",
+            "relationML": "രണ്ടും നിർമ്മാണ മേഖലയിലും കൃഷിയിലും ഉപയോഗിക്കുന്ന ഭാരമേറിയ യന്ത്രവാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -3133,14 +3133,14 @@ var packs = [
           {
             "word": "JCB",
             "wordMal": "ജെസിബി",
-            "relationEN": "Both Excavator and JCB are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജെസിബി ഉം ജെസിബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Excavator and JCB are heavy construction machines fitted with large buckets for digging earth.",
+            "relationML": "രണ്ടും മണ്ണ് കുഴിക്കുന്നതിനായി വലിയ ബക്കറ്റുകൾ ഘടിപ്പിച്ച ഭാരമേറിയ നിർമ്മാണ യന്ത്രങ്ങളാണ്."
           },
           {
             "word": "JCB",
             "wordMal": "ജെസിബി",
-            "relationEN": "Both Excavator and JCB are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജെസിബി ഉം ജെസിബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Excavator and JCB are heavy construction machines fitted with large buckets for digging earth.",
+            "relationML": "രണ്ടും മണ്ണ് കുഴിക്കുന്നതിനായി വലിയ ബക്കറ്റുകൾ ഘടിപ്പിച്ച ഭാരമേറിയ നിർമ്മാണ യന്ത്രങ്ങളാണ്."
           }
         ]
       },
@@ -3151,14 +3151,14 @@ var packs = [
           {
             "word": "Jankar",
             "wordMal": "ജങ്കാർ",
-            "relationEN": "Both Speed Boat and Jankar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്പീഡ് ബോട്ട് ഉം ജങ്കാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Speed Boat and Jankar are mechanized watercraft used for navigation in Kerala's rivers and lakes.",
+            "relationML": "രണ്ടും കേരളത്തിലെ പുഴകളിലും തടാകങ്ങളിലും യാത്ര ചെയ്യാൻ ഉപയോഗിക്കുന്ന യന്ത്രവൽകൃത ജലയാനങ്ങളാണ്."
           },
           {
             "word": "Jankar",
             "wordMal": "ജങ്കാർ",
-            "relationEN": "Both Speed Boat and Jankar are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്പീഡ് ബോട്ട് ഉം ജങ്കാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Speed Boat and Jankar are mechanized watercraft used for navigation in Kerala's rivers and lakes.",
+            "relationML": "രണ്ടും കേരളത്തിലെ പുഴകളിലും തടാകങ്ങളിലും യാത്ര ചെയ്യാൻ ഉപയോഗിക്കുന്ന യന്ത്രവൽകൃത ജലയാനങ്ങളാണ്."
           }
         ]
       },
@@ -3169,14 +3169,14 @@ var packs = [
           {
             "word": "Goods Auto",
             "wordMal": "ഗുഡ്സ് ഓട്ടോ",
-            "relationEN": "Both Peti Auto and Goods Auto are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പെട്ടി ഓട്ടോ ഉം ഗുഡ്സ് ഓട്ടോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Peti Auto and Goods Auto are small three-wheeled transport vehicles designed for moving light cargo.",
+            "relationML": "രണ്ടും ചെറിയ ചരക്കുകൾ കൊണ്ടുപോകാൻ രൂപകൽപ്പന ചെയ്ത മുച്ചക്ര വാഹനങ്ങളാണ്."
           },
           {
             "word": "Goods Auto",
             "wordMal": "ഗുഡ്സ് ഓട്ടോ",
-            "relationEN": "Both Peti Auto and Goods Auto are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പെട്ടി ഓട്ടോ ഉം ഗുഡ്സ് ഓട്ടോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Peti Auto and Goods Auto are small three-wheeled transport vehicles designed for moving light cargo.",
+            "relationML": "രണ്ടും ചെറിയ ചരക്കുകൾ കൊണ്ടുപോകാൻ രൂപകൽപ്പന ചെയ്ത മുച്ചക്ര വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -3187,14 +3187,14 @@ var packs = [
           {
             "word": "Contessa",
             "wordMal": "കോണ്ടസ്സ",
-            "relationEN": "Both Ambassador and Contessa are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അംബാസഡർ ഉം കോണ്ടസ്സ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Ambassador and Contessa are classic Indian cars manufactured by Hindustan Motors.",
+            "relationML": "രണ്ടും ഹിന്ദുസ്ഥാൻ മോട്ടോഴ്‌സ് നിർമ്മിച്ച പഴയകാല ക്ലാസിക് ഇന്ത്യൻ കാറുകളാണ്."
           },
           {
             "word": "Contessa",
             "wordMal": "കോണ്ടസ്സ",
-            "relationEN": "Both Ambassador and Contessa are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അംബാസഡർ ഉം കോണ്ടസ്സ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Ambassador and Contessa are classic Indian cars manufactured by Hindustan Motors.",
+            "relationML": "രണ്ടും ഹിന്ദുസ്ഥാൻ മോട്ടോഴ്‌സ് നിർമ്മിച്ച പഴയകാല ക്ലാസിക് ഇന്ത്യൻ കാറുകളാണ്."
           }
         ]
       },
@@ -3205,14 +3205,14 @@ var packs = [
           {
             "word": "Bolero",
             "wordMal": "ബൊലേറോ",
-            "relationEN": "Both Mahindra Jeep and Bolero are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഹീന്ദ്ര ജീപ്പ് ഉം ബൊലേറോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Mahindra Jeep and Bolero are rugged, off-road utility vehicles popular in rural Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിലെ ഗ്രാമപ്രദേശങ്ങളിൽ ജനപ്രിയമായ കടുപ്പമേറിയ ഓഫ് റോഡ് വാഹനങ്ങളാണ്."
           },
           {
             "word": "Bolero",
             "wordMal": "ബൊലേറോ",
-            "relationEN": "Both Mahindra Jeep and Bolero are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഹീന്ദ്ര ജീപ്പ് ഉം ബൊലേറോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Mahindra Jeep and Bolero are rugged, off-road utility vehicles popular in rural Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിലെ ഗ്രാമപ്രദേശങ്ങളിൽ ജനപ്രിയമായ കടുപ്പമേറിയ ഓഫ് റോഡ് വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -3223,14 +3223,14 @@ var packs = [
           {
             "word": "Cycle",
             "wordMal": "സൈക്കിൾ",
-            "relationEN": "Both Chavittu Vandi and Cycle are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചവിട്ടുവണ്ടി ഉം സൈക്കിൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Chavittu Vandi and Cycle are pedal-powered non-motorized vehicles.",
+            "relationML": "രണ്ടും മനുഷ്യപ്രയത്നത്താൽ ചവിട്ടി ഓടിക്കുന്ന ഇന്ധനം ആവശ്യമില്ലാത്ത വാഹനങ്ങളാണ്."
           },
           {
             "word": "Cycle",
             "wordMal": "സൈക്കിൾ",
-            "relationEN": "Both Chavittu Vandi and Cycle are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചവിട്ടുവണ്ടി ഉം സൈക്കിൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Chavittu Vandi and Cycle are pedal-powered non-motorized vehicles.",
+            "relationML": "രണ്ടും മനുഷ്യപ്രയത്നത്താൽ ചവിട്ടി ഓടിക്കുന്ന ഇന്ധനം ആവശ്യമില്ലാത്ത വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -3241,14 +3241,14 @@ var packs = [
           {
             "word": "Bullet",
             "wordMal": "ബുള്ളറ്റ്",
-            "relationEN": "Both RX 100 and Bullet are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആർ എക്സ് 100 ഉം ബുള്ളറ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Yamaha RX 100 and Royal Enfield Bullet are iconic retro motorcycles with a cult following.",
+            "relationML": "രണ്ടും യുവാക്കൾക്കിടയിൽ വൻ ആരാധകരുള്ള പഴയകാല പ്രശസ്തമായ മോട്ടോർസൈക്കിളുകളാണ്."
           },
           {
             "word": "Bullet",
             "wordMal": "ബുള്ളറ്റ്",
-            "relationEN": "Both RX 100 and Bullet are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആർ എക്സ് 100 ഉം ബുള്ളറ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Yamaha RX 100 and Royal Enfield Bullet are iconic retro motorcycles with a cult following.",
+            "relationML": "രണ്ടും യുവാക്കൾക്കിടയിൽ വൻ ആരാധകരുള്ള പഴയകാല പ്രശസ്തമായ മോട്ടോർസൈക്കിളുകളാണ്."
           }
         ]
       },
@@ -3259,14 +3259,14 @@ var packs = [
           {
             "word": "Tipper",
             "wordMal": "ടിപ്പർ",
-            "relationEN": "Both Torrus Truck and Tipper are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടോറസ് ഉം ടിപ്പർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Torrus Truck and Tipper are heavy-duty trucks predominantly used in mining and large-scale construction.",
+            "relationML": "രണ്ടും ഖനനത്തിനും വലിയ നിർമ്മാണ പ്രവർത്തനങ്ങൾക്കും ഉപയോഗിക്കുന്ന ഭാരമേറിയ ട്രക്കുകളാണ്."
           },
           {
             "word": "Tipper",
             "wordMal": "ടിപ്പർ",
-            "relationEN": "Both Torrus Truck and Tipper are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടോറസ് ഉം ടിപ്പർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Torrus Truck and Tipper are heavy-duty trucks predominantly used in mining and large-scale construction.",
+            "relationML": "രണ്ടും ഖനനത്തിനും വലിയ നിർമ്മാണ പ്രവർത്തനങ്ങൾക്കും ഉപയോഗിക്കുന്ന ഭാരമേറിയ ട്രക്കുകളാണ്."
           }
         ]
       },
@@ -3277,14 +3277,14 @@ var packs = [
           {
             "word": "Ambulance",
             "wordMal": "ആംബുലൻസ്",
-            "relationEN": "Both Fire Engine and Ambulance are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫയർ ഫോഴ്സ് ഉം ആംബുലൻസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Fire Engine and Ambulance are specialized emergency response vehicles equipped with sirens.",
+            "relationML": "രണ്ടും സൈറൺ ഘടിപ്പിച്ച, അടിയന്തര സാഹചര്യങ്ങളിൽ ഉപയോഗിക്കുന്ന പ്രത്യേക വാഹനങ്ങളാണ്."
           },
           {
             "word": "Ambulance",
             "wordMal": "ആംബുലൻസ്",
-            "relationEN": "Both Fire Engine and Ambulance are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫയർ ഫോഴ്സ് ഉം ആംബുലൻസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Fire Engine and Ambulance are specialized emergency response vehicles equipped with sirens.",
+            "relationML": "രണ്ടും സൈറൺ ഘടിപ്പിച്ച, അടിയന്തര സാഹചര്യങ്ങളിൽ ഉപയോഗിക്കുന്ന പ്രത്യേക വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -3295,14 +3295,14 @@ var packs = [
           {
             "word": "Kochi Metro",
             "wordMal": "കൊച്ചി മെട്രോ",
-            "relationEN": "Both Water Metro and Kochi Metro are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാട്ടർ മെട്രോ ഉം കൊച്ചി മെട്രോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Water Metro and Kochi Metro are modern, government-operated transit networks revolutionizing travel in Kochi.",
+            "relationML": "രണ്ടും കൊച്ചിയിലെ യാത്രാസൗകര്യങ്ങളെ നവീകരിച്ച ആധുനിക സർക്കാർ ഗതാഗത സംവിധാനങ്ങളാണ്."
           },
           {
             "word": "Kochi Metro",
             "wordMal": "കൊച്ചി മെട്രോ",
-            "relationEN": "Both Water Metro and Kochi Metro are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാട്ടർ മെട്രോ ഉം കൊച്ചി മെട്രോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Water Metro and Kochi Metro are modern, government-operated transit networks revolutionizing travel in Kochi.",
+            "relationML": "രണ്ടും കൊച്ചിയിലെ യാത്രാസൗകര്യങ്ങളെ നവീകരിച്ച ആധുനിക സർക്കാർ ഗതാഗത സംവിധാനങ്ങളാണ്."
           }
         ]
       },
@@ -3313,14 +3313,14 @@ var packs = [
           {
             "word": "Aanavandi",
             "wordMal": "ആനവണ്ടി",
-            "relationEN": "Both Low Floor Bus and Aanavandi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോ ഫ്ലോർ ബസ് ഉം ആനവണ്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Low Floor Bus and Aanavandi are prominent public transport buses run by Kerala State Road Transport Corporation.",
+            "relationML": "രണ്ടും കേരള സ്റ്റേറ്റ് റോഡ് ട്രാൻസ്പോർട്ട് കോർപ്പറേഷൻ നടത്തുന്ന പ്രധാന പൊതുഗതാഗത ബസുകളാണ്."
           },
           {
             "word": "Aanavandi",
             "wordMal": "ആനവണ്ടി",
-            "relationEN": "Both Low Floor Bus and Aanavandi are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോ ഫ്ലോർ ബസ് ഉം ആനവണ്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Low Floor Bus and Aanavandi are prominent public transport buses run by Kerala State Road Transport Corporation.",
+            "relationML": "രണ്ടും കേരള സ്റ്റേറ്റ് റോഡ് ട്രാൻസ്പോർട്ട് കോർപ്പറേഷൻ നടത്തുന്ന പ്രധാന പൊതുഗതാഗത ബസുകളാണ്."
           }
         ]
       },
@@ -3331,14 +3331,14 @@ var packs = [
           {
             "word": "KSRTC",
             "wordMal": "കെഎസ്ആർടിസി",
-            "relationEN": "Both Tourist Bus and KSRTC are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടൂറിസ്റ്റ് ബസ് ഉം കെഎസ്ആർടിസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Tourist Bus and KSRTC are major heavy passenger vehicles used for long-distance travel in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിൽ ദീർഘദൂര യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന വലിയ യാത്രാവാഹനങ്ങളാണ്."
           },
           {
             "word": "KSRTC",
             "wordMal": "കെഎസ്ആർടിസി",
-            "relationEN": "Both Tourist Bus and KSRTC are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടൂറിസ്റ്റ് ബസ് ഉം കെഎസ്ആർടിസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Tourist Bus and KSRTC are major heavy passenger vehicles used for long-distance travel in Kerala.",
+            "relationML": "രണ്ടും കേരളത്തിൽ ദീർഘദൂര യാത്രകൾക്ക് ഉപയോഗിക്കുന്ന വലിയ യാത്രാവാഹനങ്ങളാണ്."
           }
         ]
       }
@@ -3356,14 +3356,14 @@ var packs = [
           {
             "word": "Arts Day",
             "wordMal": "ആർട്സ് ഡേ",
-            "relationEN": "Both Kalolsavam and Arts Day are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കലോത്സവം ഉം ആർട്സ് ഡേ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Kalolsavam and Arts Day are vibrant inter-school or intra-school competitions focused on performing arts.",
+            "relationML": "രണ്ടും കലാരൂപങ്ങൾക്ക് പ്രാധാന്യം നൽകിക്കൊണ്ട് സ്കൂളുകളിൽ നടക്കുന്ന വലിയ മത്സര വേദികളാണ്."
           },
           {
             "word": "Arts Day",
             "wordMal": "ആർട്സ് ഡേ",
-            "relationEN": "Both Kalolsavam and Arts Day are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കലോത്സവം ഉം ആർട്സ് ഡേ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Kalolsavam and Arts Day are vibrant inter-school or intra-school competitions focused on performing arts.",
+            "relationML": "രണ്ടും കലാരൂപങ്ങൾക്ക് പ്രാധാന്യം നൽകിക്കൊണ്ട് സ്കൂളുകളിൽ നടക്കുന്ന വലിയ മത്സര വേദികളാണ്."
           }
         ]
       },
@@ -3374,14 +3374,14 @@ var packs = [
           {
             "word": "Sports Day",
             "wordMal": "സ്പോർട്സ് ഡേ",
-            "relationEN": "Both Arts Day and Sports Day are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആർട്സ് ഡേ ഉം സ്പോർട്സ് ഡേ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Arts Day and Sports Day are highly anticipated annual extracurricular festivals in educational institutions.",
+            "relationML": "രണ്ടും വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളിൽ വിദ്യാർത്ഥികൾ വളരെ ആകാംക്ഷയോടെ കാത്തിരിക്കുന്ന വാർഷിക ആഘോഷങ്ങളാണ്."
           },
           {
             "word": "Sports Day",
             "wordMal": "സ്പോർട്സ് ഡേ",
-            "relationEN": "Both Arts Day and Sports Day are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആർട്സ് ഡേ ഉം സ്പോർട്സ് ഡേ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Arts Day and Sports Day are highly anticipated annual extracurricular festivals in educational institutions.",
+            "relationML": "രണ്ടും വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളിൽ വിദ്യാർത്ഥികൾ വളരെ ആകാംക്ഷയോടെ കാത്തിരിക്കുന്ന വാർഷിക ആഘോഷങ്ങളാണ്."
           }
         ]
       },
@@ -3392,14 +3392,14 @@ var packs = [
           {
             "word": "Hostel Mess",
             "wordMal": "ഹോസ്റ്റൽ മെസ്സ്",
-            "relationEN": "Both College Canteen and Hostel Mess are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കോളേജ് കാന്റീൻ ഉം ഹോസ്റ്റൽ മെസ്സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both College Canteen and Hostel Mess are dining facilities catering to students on campus.",
+            "relationML": "രണ്ടും ക്യാമ്പസിലെ വിദ്യാർത്ഥികൾക്ക് ഭക്ഷണം നൽകുന്ന പ്രധാന ഇടങ്ങളാണ്."
           },
           {
             "word": "Hostel Mess",
             "wordMal": "ഹോസ്റ്റൽ മെസ്സ്",
-            "relationEN": "Both College Canteen and Hostel Mess are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കോളേജ് കാന്റീൻ ഉം ഹോസ്റ്റൽ മെസ്സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both College Canteen and Hostel Mess are dining facilities catering to students on campus.",
+            "relationML": "രണ്ടും ക്യാമ്പസിലെ വിദ്യാർത്ഥികൾക്ക് ഭക്ഷണം നൽകുന്ന പ്രധാന ഇടങ്ങളാണ്."
           }
         ]
       },
@@ -3410,14 +3410,14 @@ var packs = [
           {
             "word": "Open House",
             "wordMal": "ഓപ്പൺ ഹൗസ്",
-            "relationEN": "Both PTA Meeting and Open House are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പി ടി എ മീറ്റിംഗ് ഉം ഓപ്പൺ ഹൗസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both PTA Meeting and Open House are organized events where parents and teachers discuss a student's academic progress.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ പഠനകാര്യങ്ങൾ ചർച്ച ചെയ്യാൻ മാതാപിതാക്കളും അധ്യാപകരും ഒത്തുചേരുന്ന വേദികളാണ്."
           },
           {
             "word": "Open House",
             "wordMal": "ഓപ്പൺ ഹൗസ്",
-            "relationEN": "Both PTA Meeting and Open House are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പി ടി എ മീറ്റിംഗ് ഉം ഓപ്പൺ ഹൗസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both PTA Meeting and Open House are organized events where parents and teachers discuss a student's academic progress.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ പഠനകാര്യങ്ങൾ ചർച്ച ചെയ്യാൻ മാതാപിതാക്കളും അധ്യാപകരും ഒത്തുചേരുന്ന വേദികളാണ്."
           }
         ]
       },
@@ -3428,14 +3428,14 @@ var packs = [
           {
             "word": "Christmas Celebration",
             "wordMal": "ക്രിസ്മസ് ആഘോഷം",
-            "relationEN": "Both Onam Celebration and Christmas Celebration are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓണാഘോഷം ഉം ക്രിസ്മസ് ആഘോഷം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Onam Celebration and Christmas Celebration are major festive events in Kerala marked by feasts and cultural programs.",
+            "relationML": "രണ്ടും സദ്യയും കലാപരിപാടികളുമായി കേരളത്തിൽ കൊണ്ടാടുന്ന വലിയ ആഘോഷങ്ങളാണ്."
           },
           {
             "word": "Christmas Celebration",
             "wordMal": "ക്രിസ്മസ് ആഘോഷം",
-            "relationEN": "Both Onam Celebration and Christmas Celebration are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓണാഘോഷം ഉം ക്രിസ്മസ് ആഘോഷം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Onam Celebration and Christmas Celebration are major festive events in Kerala marked by feasts and cultural programs.",
+            "relationML": "രണ്ടും സദ്യയും കലാപരിപാടികളുമായി കേരളത്തിൽ കൊണ്ടാടുന്ന വലിയ ആഘോഷങ്ങളാണ്."
           }
         ]
       },
@@ -3446,14 +3446,14 @@ var packs = [
           {
             "word": "ID Card",
             "wordMal": "ഐഡി കാർഡ്",
-            "relationEN": "Both Uniform and ID Card are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ യൂണിഫോം ഉം ഐഡി കാർഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Uniform and ID Card are mandatory items for identifying students in an educational institution.",
+            "relationML": "രണ്ടും വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളിൽ വിദ്യാർത്ഥികളെ തിരിച്ചറിയാൻ ഉപയോഗിക്കുന്ന നിർബന്ധിത വസ്തുക്കളാണ്."
           },
           {
             "word": "ID Card",
             "wordMal": "ഐഡി കാർഡ്",
-            "relationEN": "Both Uniform and ID Card are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ യൂണിഫോം ഉം ഐഡി കാർഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Uniform and ID Card are mandatory items for identifying students in an educational institution.",
+            "relationML": "രണ്ടും വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളിൽ വിദ്യാർത്ഥികളെ തിരിച്ചറിയാൻ ഉപയോഗിക്കുന്ന നിർബന്ധിത വസ്തുക്കളാണ്."
           }
         ]
       },
@@ -3464,14 +3464,14 @@ var packs = [
           {
             "word": "Ambulance",
             "wordMal": "ആംബുലൻസ്",
-            "relationEN": "Both School Bus and Ambulance are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബസ് ഉം ആംബുലൻസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both School Bus and Ambulance are purpose-built utility vehicles often painted in distinct recognizable colors like yellow or white.",
+            "relationML": "രണ്ടും പെട്ടെന്ന് തിരിച്ചറിയാൻ കഴിയുന്ന മഞ്ഞയോ വെള്ളയോ പോലുള്ള പ്രത്യേക നിറങ്ങളിൽ പെയിന്റ് ചെയ്ത വാഹനങ്ങളാണ്."
           },
           {
             "word": "Ambulance",
             "wordMal": "ആംബുലൻസ്",
-            "relationEN": "Both School Bus and Ambulance are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബസ് ഉം ആംബുലൻസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both School Bus and Ambulance are purpose-built utility vehicles often painted in distinct recognizable colors like yellow or white.",
+            "relationML": "രണ്ടും പെട്ടെന്ന് തിരിച്ചറിയാൻ കഴിയുന്ന മഞ്ഞയോ വെള്ളയോ പോലുള്ള പ്രത്യേക നിറങ്ങളിൽ പെയിന്റ് ചെയ്ത വാഹനങ്ങളാണ്."
           }
         ]
       },
@@ -3482,14 +3482,14 @@ var packs = [
           {
             "word": "Library Period",
             "wordMal": "ലൈബ്രറി പീരീഡ്",
-            "relationEN": "Both PT Period and Library Period are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പി ടി പിരീഡ് ഉം ലൈബ്രറി പീരീഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both PT Period and Library Period are eagerly awaited non-academic sessions in a regular school timetable.",
+            "relationML": "രണ്ടും സ്കൂൾ സമയപ്പട്ടികയിൽ വിദ്യാർത്ഥികൾ ആകാംക്ഷയോടെ കാത്തിരിക്കുന്ന പാഠ്യേതര പീരിയഡുകളാണ്."
           },
           {
             "word": "Library Period",
             "wordMal": "ലൈബ്രറി പീരീഡ്",
-            "relationEN": "Both PT Period and Library Period are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പി ടി പിരീഡ് ഉം ലൈബ്രറി പീരീഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both PT Period and Library Period are eagerly awaited non-academic sessions in a regular school timetable.",
+            "relationML": "രണ്ടും സ്കൂൾ സമയപ്പട്ടികയിൽ വിദ്യാർത്ഥികൾ ആകാംക്ഷയോടെ കാത്തിരിക്കുന്ന പാഠ്യേതര പീരിയഡുകളാണ്."
           }
         ]
       },
@@ -3500,14 +3500,14 @@ var packs = [
           {
             "word": "Sports Day",
             "wordMal": "സ്പോർട്സ് ഡേ",
-            "relationEN": "Both Annual Day and Sports Day are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആനുവൽ ഡേ ഉം സ്പോർട്സ് ഡേ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Annual Day and Sports Day are major yearly events celebrated in schools and colleges.",
+            "relationML": "രണ്ടും സ്കൂളുകളിലും കോളേജുകളിലും വർഷം തോറും നടക്കുന്ന പ്രധാന ആഘോഷങ്ങളാണ്."
           },
           {
             "word": "Sports Day",
             "wordMal": "സ്പോർട്സ് ഡേ",
-            "relationEN": "Both Annual Day and Sports Day are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആനുവൽ ഡേ ഉം സ്പോർട്സ് ഡേ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Annual Day and Sports Day are major yearly events celebrated in schools and colleges.",
+            "relationML": "രണ്ടും സ്കൂളുകളിലും കോളേജുകളിലും വർഷം തോറും നടക്കുന്ന പ്രധാന ആഘോഷങ്ങളാണ്."
           }
         ]
       },
@@ -3518,14 +3518,14 @@ var packs = [
           {
             "word": "Classroom",
             "wordMal": "ക്ലാസ്സ് മുറി",
-            "relationEN": "Both Exam Hall and Classroom are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എക്സാം ഹാൾ ഉം ക്ലാസ്സ് മുറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Exam Hall and Classroom are designated physical spaces in a school where academic activities occur.",
+            "relationML": "രണ്ടും സ്കൂളിൽ പഠനപ്രവർത്തനങ്ങൾ നടക്കുന്ന പ്രത്യേക മുറികളാണ്."
           },
           {
             "word": "Classroom",
             "wordMal": "ക്ലാസ്സ് മുറി",
-            "relationEN": "Both Exam Hall and Classroom are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എക്സാം ഹാൾ ഉം ക്ലാസ്സ് മുറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Exam Hall and Classroom are designated physical spaces in a school where academic activities occur.",
+            "relationML": "രണ്ടും സ്കൂളിൽ പഠനപ്രവർത്തനങ്ങൾ നടക്കുന്ന പ്രത്യേക മുറികളാണ്."
           }
         ]
       },
@@ -3536,14 +3536,14 @@ var packs = [
           {
             "word": "Waiting List",
             "wordMal": "വെയ്റ്റിംഗ് ലിസ്റ്റ്",
-            "relationEN": "Both Rank List and Waiting List are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റാങ്ക് ലിസ്റ്റ് ഉം വെയ്റ്റിംഗ് ലിസ്റ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Rank List and Waiting List are official documents displaying candidates' names ordered by merit or priority.",
+            "relationML": "രണ്ടും ഉദ്യോഗാർത്ഥികളുടെയോ വിദ്യാർത്ഥികളുടെയോ പേരുകൾ മുൻഗണനാക്രമത്തിൽ പ്രസിദ്ധീകരിക്കുന്ന ഔദ്യോഗിക രേഖകളാണ്."
           },
           {
             "word": "Waiting List",
             "wordMal": "വെയ്റ്റിംഗ് ലിസ്റ്റ്",
-            "relationEN": "Both Rank List and Waiting List are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റാങ്ക് ലിസ്റ്റ് ഉം വെയ്റ്റിംഗ് ലിസ്റ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Rank List and Waiting List are official documents displaying candidates' names ordered by merit or priority.",
+            "relationML": "രണ്ടും ഉദ്യോഗാർത്ഥികളുടെയോ വിദ്യാർത്ഥികളുടെയോ പേരുകൾ മുൻഗണനാക്രമത്തിൽ പ്രസിദ്ധീകരിക്കുന്ന ഔദ്യോഗിക രേഖകളാണ്."
           }
         ]
       },
@@ -3554,14 +3554,14 @@ var packs = [
           {
             "word": "SFI",
             "wordMal": "എസ്എഫ്ഐ",
-            "relationEN": "Both College Union and SFI are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കോളേജ് യൂണിയൻ ഉം എസ്എഫ്ഐ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both College Union and SFI represent student political organizations actively involved in campus politics.",
+            "relationML": "രണ്ടും ക്യാമ്പസ് രാഷ്ട്രീയത്തിൽ സജീവമായി ഇടപെടുന്ന വിദ്യാർത്ഥി രാഷ്ട്രീയ സംഘടനകളാണ്."
           },
           {
             "word": "SFI",
             "wordMal": "എസ്എഫ്ഐ",
-            "relationEN": "Both College Union and SFI are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കോളേജ് യൂണിയൻ ഉം എസ്എഫ്ഐ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both College Union and SFI represent student political organizations actively involved in campus politics.",
+            "relationML": "രണ്ടും ക്യാമ്പസ് രാഷ്ട്രീയത്തിൽ സജീവമായി ഇടപെടുന്ന വിദ്യാർത്ഥി രാഷ്ട്രീയ സംഘടനകളാണ്."
           }
         ]
       },
@@ -3572,14 +3572,14 @@ var packs = [
           {
             "word": "Class",
             "wordMal": "ക്ലാസ്സ്",
-            "relationEN": "Both Batch and Class are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബാച്ച് ഉം ക്ലാസ്സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Batch and Class refer to a specific group of students studying together in the same academic year.",
+            "relationML": "രണ്ടും ഒരേ അധ്യയന വർഷത്തിൽ ഒരുമിച്ച് പഠിക്കുന്ന വിദ്യാർത്ഥികളുടെ കൂട്ടത്തെ സൂചിപ്പിക്കുന്നു."
           },
           {
             "word": "Class",
             "wordMal": "ക്ലാസ്സ്",
-            "relationEN": "Both Batch and Class are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബാച്ച് ഉം ക്ലാസ്സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Batch and Class refer to a specific group of students studying together in the same academic year.",
+            "relationML": "രണ്ടും ഒരേ അധ്യയന വർഷത്തിൽ ഒരുമിച്ച് പഠിക്കുന്ന വിദ്യാർത്ഥികളുടെ കൂട്ടത്തെ സൂചിപ്പിക്കുന്നു."
           }
         ]
       },
@@ -3590,14 +3590,14 @@ var packs = [
           {
             "word": "Fresher Party",
             "wordMal": "ഫ്രെഷേഴ്സ് പാർട്ടി",
-            "relationEN": "Both Farewell and Fresher Party are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫെയർവെൽ ഉം ഫ്രെഷേഴ്സ് പാർട്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Farewell and Fresher Party are celebratory college events marking the exit and entry of student batches.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ വരവും പോക്കും ആഘോഷിക്കുന്ന ക്യാമ്പസ് ചടങ്ങുകളാണ്."
           },
           {
             "word": "Fresher Party",
             "wordMal": "ഫ്രെഷേഴ്സ് പാർട്ടി",
-            "relationEN": "Both Farewell and Fresher Party are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫെയർവെൽ ഉം ഫ്രെഷേഴ്സ് പാർട്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Farewell and Fresher Party are celebratory college events marking the exit and entry of student batches.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ വരവും പോക്കും ആഘോഷിക്കുന്ന ക്യാമ്പസ് ചടങ്ങുകളാണ്."
           }
         ]
       },
@@ -3608,14 +3608,14 @@ var packs = [
           {
             "word": "NCC",
             "wordMal": "എൻസിസി",
-            "relationEN": "Both NSS and NCC are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എൻ എസ് എസ് ഉം എൻസിസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both NSS and NCC are voluntary student organizations in schools and colleges promoting discipline and social service.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളിൽ അച്ചടക്കവും സാമൂഹ്യസേവന താല്പര്യവും വളർത്തുന്ന സംഘടനകളാണ്."
           },
           {
             "word": "NCC",
             "wordMal": "എൻസിസി",
-            "relationEN": "Both NSS and NCC are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എൻ എസ് എസ് ഉം എൻസിസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both NSS and NCC are voluntary student organizations in schools and colleges promoting discipline and social service.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളിൽ അച്ചടക്കവും സാമൂഹ്യസേവന താല്പര്യവും വളർത്തുന്ന സംഘടനകളാണ്."
           }
         ]
       },
@@ -3626,14 +3626,14 @@ var packs = [
           {
             "word": "NSS",
             "wordMal": "എൻഎസ്എസ്",
-            "relationEN": "Both NCC and NSS are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എൻ സി സി ഉം എൻഎസ്എസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both NCC and NSS are voluntary student organizations focusing on discipline and community service.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളിൽ അച്ചടക്കവും സാമൂഹ്യസേവന താല്പര്യവും വളർത്തുന്ന സംഘടനകളാണ്."
           },
           {
             "word": "NSS",
             "wordMal": "എൻഎസ്എസ്",
-            "relationEN": "Both NCC and NSS are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എൻ സി സി ഉം എൻഎസ്എസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both NCC and NSS are voluntary student organizations focusing on discipline and community service.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളിൽ അച്ചടക്കവും സാമൂഹ്യസേവന താല്പര്യവും വളർത്തുന്ന സംഘടനകളാണ്."
           }
         ]
       },
@@ -3644,14 +3644,14 @@ var packs = [
           {
             "word": "Library",
             "wordMal": "ലൈബ്രറി",
-            "relationEN": "Both Laboratory and Library are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലബോറട്ടറി ഉം ലൈബ്രറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Laboratory and Library are specialized rooms in an educational institution dedicated to practical learning and research.",
+            "relationML": "രണ്ടും വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളിൽ പഠനത്തിനും ഗവേഷണത്തിനുമായി മാറ്റിവെച്ചിട്ടുള്ള പ്രത്യേക മുറികളാണ്."
           },
           {
             "word": "Library",
             "wordMal": "ലൈബ്രറി",
-            "relationEN": "Both Laboratory and Library are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലബോറട്ടറി ഉം ലൈബ്രറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Laboratory and Library are specialized rooms in an educational institution dedicated to practical learning and research.",
+            "relationML": "രണ്ടും വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളിൽ പഠനത്തിനും ഗവേഷണത്തിനുമായി മാറ്റിവെച്ചിട്ടുള്ള പ്രത്യേക മുറികളാണ്."
           }
         ]
       },
@@ -3662,14 +3662,14 @@ var packs = [
           {
             "word": "Laboratory",
             "wordMal": "ലബോറട്ടറി",
-            "relationEN": "Both Library and Laboratory are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലൈബ്രറി ഉം ലബോറട്ടറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Library and Laboratory are institutional facilities providing resources for research and practical application.",
+            "relationML": "രണ്ടും ഗവേഷണത്തിനും പ്രായോഗിക പഠനത്തിനുമുള്ള സൗകര്യങ്ങൾ നൽകുന്ന സ്ഥാപന ഇടങ്ങളാണ്."
           },
           {
             "word": "Laboratory",
             "wordMal": "ലബോറട്ടറി",
-            "relationEN": "Both Library and Laboratory are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലൈബ്രറി ഉം ലബോറട്ടറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Library and Laboratory are institutional facilities providing resources for research and practical application.",
+            "relationML": "രണ്ടും ഗവേഷണത്തിനും പ്രായോഗിക പഠനത്തിനുമുള്ള സൗകര്യങ്ങൾ നൽകുന്ന സ്ഥാപന ഇടങ്ങളാണ്."
           }
         ]
       },
@@ -3680,14 +3680,14 @@ var packs = [
           {
             "word": "Lodge",
             "wordMal": "ലോഡ്ജ്",
-            "relationEN": "Both Hostel and Lodge are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹോസ്റ്റൽ ഉം ലോഡ്ജ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Hostel and Lodge offer temporary accommodation, usually for students or travelers.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾക്കോ യാത്രികർക്കോ അടിസ്ഥാന സൗകര്യങ്ങളോടെ താത്കാലിക താമസം നൽകുന്ന ഇടങ്ങളാണ്."
           },
           {
             "word": "Lodge",
             "wordMal": "ലോഡ്ജ്",
-            "relationEN": "Both Hostel and Lodge are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹോസ്റ്റൽ ഉം ലോഡ്ജ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Hostel and Lodge offer temporary accommodation, usually for students or travelers.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾക്കോ യാത്രികർക്കോ അടിസ്ഥാന സൗകര്യങ്ങളോടെ താത്കാലിക താമസം നൽകുന്ന ഇടങ്ങളാണ്."
           }
         ]
       },
@@ -3698,14 +3698,14 @@ var packs = [
           {
             "word": "Monitor",
             "wordMal": "മോണിറ്റർ",
-            "relationEN": "Both Class Leader and Monitor are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ക്ലാസ് ലീഡർ ഉം മോണിറ്റർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Class Leader and Monitor denote a student appointed to maintain discipline and assist teachers in a classroom.",
+            "relationML": "രണ്ടും ക്ലാസ്സിലെ അച്ചടക്കം പാലിക്കാനും അധ്യാപകരെ സഹായിക്കാനും ചുമതലപ്പെടുത്തിയ വിദ്യാർത്ഥിയെ സൂചിപ്പിക്കുന്നു."
           },
           {
             "word": "Monitor",
             "wordMal": "മോണിറ്റർ",
-            "relationEN": "Both Class Leader and Monitor are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ക്ലാസ് ലീഡർ ഉം മോണിറ്റർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Class Leader and Monitor denote a student appointed to maintain discipline and assist teachers in a classroom.",
+            "relationML": "രണ്ടും ക്ലാസ്സിലെ അച്ചടക്കം പാലിക്കാനും അധ്യാപകരെ സഹായിക്കാനും ചുമതലപ്പെടുത്തിയ വിദ്യാർത്ഥിയെ സൂചിപ്പിക്കുന്നു."
           }
         ]
       },
@@ -3716,14 +3716,14 @@ var packs = [
           {
             "word": "IV",
             "wordMal": "ഐവി",
-            "relationEN": "Both Tour Trip and IV are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐവി / ടൂർ ഉം ഐവി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Tour Trip and Industrial Visit (IV) involve traveling away from campus for recreation or learning.",
+            "relationML": "രണ്ടും വിനോദത്തിനോ പഠനത്തിനോ വേണ്ടി ക്യാമ്പസിന് പുറത്തേക്ക് പോകുന്ന യാത്രകളാണ്."
           },
           {
             "word": "IV",
             "wordMal": "ഐവി",
-            "relationEN": "Both Tour Trip and IV are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐവി / ടൂർ ഉം ഐവി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Tour Trip and Industrial Visit (IV) involve traveling away from campus for recreation or learning.",
+            "relationML": "രണ്ടും വിനോദത്തിനോ പഠനത്തിനോ വേണ്ടി ക്യാമ്പസിന് പുറത്തേക്ക് പോകുന്ന യാത്രകളാണ്."
           }
         ]
       },
@@ -3734,14 +3734,14 @@ var packs = [
           {
             "word": "Blackboard",
             "wordMal": "ബ്ലാക്ക് ബോർഡ്",
-            "relationEN": "Both Bench and Desk and Blackboard are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബെഞ്ചും ഡെസ്കും ഉം ബ്ലാക്ക് ബോർഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Bench and Desk, and Blackboard are quintessential pieces of classroom furniture and equipment.",
+            "relationML": "രണ്ടും ക്ലാസ്സ്മുറികളിലെ ഒഴിച്ചുകൂടാനാവാത്ത പ്രധാന ഫർണിച്ചറുകളും ഉപകരണങ്ങളുമാണ്."
           },
           {
             "word": "Blackboard",
             "wordMal": "ബ്ലാക്ക് ബോർഡ്",
-            "relationEN": "Both Bench and Desk and Blackboard are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബെഞ്ചും ഡെസ്കും ഉം ബ്ലാക്ക് ബോർഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Bench and Desk, and Blackboard are quintessential pieces of classroom furniture and equipment.",
+            "relationML": "രണ്ടും ക്ലാസ്സ്മുറികളിലെ ഒഴിച്ചുകൂടാനാവാത്ത പ്രധാന ഫർണിച്ചറുകളും ഉപകരണങ്ങളുമാണ്."
           }
         ]
       },
@@ -3752,14 +3752,14 @@ var packs = [
           {
             "word": "Siren",
             "wordMal": "സൈറൺ",
-            "relationEN": "Both Bell and Siren are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബെൽ ഉം സൈറൺ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Bell and Siren are loud sound-producing devices used for alarms or signals.",
+            "relationML": "രണ്ടും അപായസൂചനയോ അറിയിപ്പുകളോ നൽകാൻ വലിയ ശബ്ദം ഉണ്ടാക്കുന്ന ഉപകരണങ്ങളാണ്."
           },
           {
             "word": "Siren",
             "wordMal": "സൈറൺ",
-            "relationEN": "Both Bell and Siren are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബെൽ ഉം സൈറൺ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Bell and Siren are loud sound-producing devices used for alarms or signals.",
+            "relationML": "രണ്ടും അപായസൂചനയോ അറിയിപ്പുകളോ നൽകാൻ വലിയ ശബ്ദം ഉണ്ടാക്കുന്ന ഉപകരണങ്ങളാണ്."
           }
         ]
       },
@@ -3770,14 +3770,14 @@ var packs = [
           {
             "word": "Headmaster",
             "wordMal": "ഹെഡ്മാസ്റ്റർ",
-            "relationEN": "Both Principal and Headmaster are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രിൻസിപ്പൽ ഉം ഹെഡ്മാസ്റ്റർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Principal and Headmaster hold the highest administrative authority in a school or college.",
+            "relationML": "രണ്ടും ഒരു വിദ്യാഭ്യാസ സ്ഥാപനത്തിന്റെ ഏറ്റവും ഉയർന്ന ഭരണച്ചുമതലയുള്ളവരാണ്."
           },
           {
             "word": "Headmaster",
             "wordMal": "ഹെഡ്മാസ്റ്റർ",
-            "relationEN": "Both Principal and Headmaster are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രിൻസിപ്പൽ ഉം ഹെഡ്മാസ്റ്റർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Principal and Headmaster hold the highest administrative authority in a school or college.",
+            "relationML": "രണ്ടും ഒരു വിദ്യാഭ്യാസ സ്ഥാപനത്തിന്റെ ഏറ്റവും ഉയർന്ന ഭരണച്ചുമതലയുള്ളവരാണ്."
           }
         ]
       },
@@ -3788,14 +3788,14 @@ var packs = [
           {
             "word": "Record Book",
             "wordMal": "റെക്കോർഡ് ബുക്ക്",
-            "relationEN": "Both Assignment and Record Book are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അസൈൻമെന്റ് ഉം റെക്കോർഡ് ബുക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Assignment and Record Book are standard academic tasks that contribute to a student's internal marks.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ ഇന്റേണൽ മാർക്കിനെ സ്വാധീനിക്കുന്ന പ്രധാന പഠന ചുമതലകളാണ്."
           },
           {
             "word": "Record Book",
             "wordMal": "റെക്കോർഡ് ബുക്ക്",
-            "relationEN": "Both Assignment and Record Book are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അസൈൻമെന്റ് ഉം റെക്കോർഡ് ബുക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Assignment and Record Book are standard academic tasks that contribute to a student's internal marks.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ ഇന്റേണൽ മാർക്കിനെ സ്വാധീനിക്കുന്ന പ്രധാന പഠന ചുമതലകളാണ്."
           }
         ]
       },
@@ -3806,14 +3806,14 @@ var packs = [
           {
             "word": "Farewell",
             "wordMal": "ഫെയർവെൽ",
-            "relationEN": "Both Alumni Meet and Farewell are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പൂർവ്വവിദ്യാർത്ഥി സംഗമം ഉം ഫെയർവെൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Alumni Meet and Farewell are emotional events celebrating the bond between students and their institution.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾക്കും അവരുടെ സ്ഥാപനത്തിനുമിടയിലുള്ള ബന്ധം ആഘോഷിക്കുന്ന വികാരനിർഭരമായ ചടങ്ങുകളാണ്."
           },
           {
             "word": "Farewell",
             "wordMal": "ഫെയർവെൽ",
-            "relationEN": "Both Alumni Meet and Farewell are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പൂർവ്വവിദ്യാർത്ഥി സംഗമം ഉം ഫെയർവെൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Alumni Meet and Farewell are emotional events celebrating the bond between students and their institution.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾക്കും അവരുടെ സ്ഥാപനത്തിനുമിടയിലുള്ള ബന്ധം ആഘോഷിക്കുന്ന വികാരനിർഭരമായ ചടങ്ങുകളാണ്."
           }
         ]
       },
@@ -3824,14 +3824,14 @@ var packs = [
           {
             "word": "Tour Trip",
             "wordMal": "ടൂർ ട്രിപ്പ്",
-            "relationEN": "Both IV (Industrial Visit) and Tour Trip are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐവി ഉം ടൂർ ട്രിപ്പ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Industrial Visit (IV) and Tour Trip are organized excursions taken by students with their classmates.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾ സഹപാഠികളോടൊപ്പം നടത്തുന്ന സംഘടിത യാത്രകളാണ്."
           },
           {
             "word": "Tour Trip",
             "wordMal": "ടൂർ ട്രിപ്പ്",
-            "relationEN": "Both IV (Industrial Visit) and Tour Trip are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐവി ഉം ടൂർ ട്രിപ്പ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Industrial Visit (IV) and Tour Trip are organized excursions taken by students with their classmates.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾ സഹപാഠികളോടൊപ്പം നടത്തുന്ന സംഘടിത യാത്രകളാണ്."
           }
         ]
       },
@@ -3842,14 +3842,14 @@ var packs = [
           {
             "word": "School",
             "wordMal": "സ്കൂൾ",
-            "relationEN": "Both Tuition Class and School are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്യൂഷൻ ക്ലാസ് ഉം സ്കൂൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Tuition Class and School are structured environments where students gather to learn academic subjects.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾ പാഠ്യവിഷയങ്ങൾ പഠിക്കാൻ ഒത്തുചേരുന്ന വിദ്യാഭ്യാസ ഇടങ്ങളാണ്."
           },
           {
             "word": "School",
             "wordMal": "സ്കൂൾ",
-            "relationEN": "Both Tuition Class and School are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്യൂഷൻ ക്ലാസ് ഉം സ്കൂൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Tuition Class and School are structured environments where students gather to learn academic subjects.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾ പാഠ്യവിഷയങ്ങൾ പഠിക്കാൻ ഒത്തുചേരുന്ന വിദ്യാഭ്യാസ ഇടങ്ങളാണ്."
           }
         ]
       },
@@ -3860,14 +3860,14 @@ var packs = [
           {
             "word": "SBI Passbook",
             "wordMal": "എസ്ബിഐ പാസ്സ്ബുക്ക്",
-            "relationEN": "Both Canara Bank Challan and SBI Passbook are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചെല്ലാൻ ഉം എസ്ബിഐ പാസ്സ്ബുക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Canara Bank Challan and SBI Passbook are crucial physical banking documents used for financial transactions.",
+            "relationML": "രണ്ടും സാമ്പത്തിക ഇടപാടുകൾക്ക് ഉപയോഗിക്കുന്ന പ്രധാനപ്പെട്ട ബാങ്കിംഗ് രേഖകളാണ്."
           },
           {
             "word": "SBI Passbook",
             "wordMal": "എസ്ബിഐ പാസ്സ്ബുക്ക്",
-            "relationEN": "Both Canara Bank Challan and SBI Passbook are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചെല്ലാൻ ഉം എസ്ബിഐ പാസ്സ്ബുക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Canara Bank Challan and SBI Passbook are crucial physical banking documents used for financial transactions.",
+            "relationML": "രണ്ടും സാമ്പത്തിക ഇടപാടുകൾക്ക് ഉപയോഗിക്കുന്ന പ്രധാനപ്പെട്ട ബാങ്കിംഗ് രേഖകളാണ്."
           }
         ]
       },
@@ -3878,14 +3878,14 @@ var packs = [
           {
             "word": "Assignment",
             "wordMal": "അസൈൻമെന്റ്",
-            "relationEN": "Both Record Book and Assignment are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റെക്കോർഡ് ബുക്ക് ഉം അസൈൻമെന്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Record Book and Assignment are mandatory written submissions evaluated by teachers.",
+            "relationML": "രണ്ടും അദ്ധ്യാപകർ വിലയിരുത്തുന്നതിനായി വിദ്യാർത്ഥികൾ നിർബന്ധമായും എഴുതി സമർപ്പിക്കേണ്ടവയാണ്."
           },
           {
             "word": "Assignment",
             "wordMal": "അസൈൻമെന്റ്",
-            "relationEN": "Both Record Book and Assignment are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റെക്കോർഡ് ബുക്ക് ഉം അസൈൻമെന്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Record Book and Assignment are mandatory written submissions evaluated by teachers.",
+            "relationML": "രണ്ടും അദ്ധ്യാപകർ വിലയിരുത്തുന്നതിനായി വിദ്യാർത്ഥികൾ നിർബന്ധമായും എഴുതി സമർപ്പിക്കേണ്ടവയാണ്."
           }
         ]
       },
@@ -3896,14 +3896,14 @@ var packs = [
           {
             "word": "Onam Vacation",
             "wordMal": "ഓണാവധി",
-            "relationEN": "Both Study Leave and Onam Vacation are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്റ്റഡി ലീവ് ഉം ഓണാവധി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Study Leave and Onam Vacation are periods when students get days off from regular classes.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾക്ക് സ്ഥിരം ക്ലാസുകളിൽ നിന്ന് അവധി ലഭിക്കുന്ന ദിവസങ്ങളാണ്."
           },
           {
             "word": "Onam Vacation",
             "wordMal": "ഓണാവധി",
-            "relationEN": "Both Study Leave and Onam Vacation are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്റ്റഡി ലീവ് ഉം ഓണാവധി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Study Leave and Onam Vacation are periods when students get days off from regular classes.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾക്ക് സ്ഥിരം ക്ലാസുകളിൽ നിന്ന് അവധി ലഭിക്കുന്ന ദിവസങ്ങളാണ്."
           }
         ]
       },
@@ -3914,14 +3914,14 @@ var packs = [
           {
             "word": "Kalolsavam",
             "wordMal": "കലോത്സവം",
-            "relationEN": "Both Youth Festival and Kalolsavam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ യുവജനോത്സവം ഉം കലോത്സവം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Youth Festival and Kalolsavam are grand competitive cultural events showcasing students' artistic talents.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ കലാപരമായ കഴിവുകൾ പ്രകടിപ്പിക്കുന്ന വലിയ സാംസ്കാരിക മത്സര വേദികളാണ്."
           },
           {
             "word": "Kalolsavam",
             "wordMal": "കലോത്സവം",
-            "relationEN": "Both Youth Festival and Kalolsavam are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ യുവജനോത്സവം ഉം കലോത്സവം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Youth Festival and Kalolsavam are grand competitive cultural events showcasing students' artistic talents.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികളുടെ കലാപരമായ കഴിവുകൾ പ്രകടിപ്പിക്കുന്ന വലിയ സാംസ്കാരിക മത്സര വേദികളാണ്."
           }
         ]
       },
@@ -3932,14 +3932,14 @@ var packs = [
           {
             "word": "Mark List",
             "wordMal": "മാർക്ക് ലിസ്റ്റ്",
-            "relationEN": "Both Progress Report and Mark List are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രോഗ്രസ് റിപ്പോർട്ട് ഉം മാർക്ക് ലിസ്റ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Progress Report and Mark List are official documents detailing a student's academic performance.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥിയുടെ പഠന നിലവാരം വ്യക്തമാക്കുന്ന ഔദ്യോഗിക രേഖകളാണ്."
           },
           {
             "word": "Mark List",
             "wordMal": "മാർക്ക് ലിസ്റ്റ്",
-            "relationEN": "Both Progress Report and Mark List are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രോഗ്രസ് റിപ്പോർട്ട് ഉം മാർക്ക് ലിസ്റ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Progress Report and Mark List are official documents detailing a student's academic performance.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥിയുടെ പഠന നിലവാരം വ്യക്തമാക്കുന്ന ഔദ്യോഗിക രേഖകളാണ്."
           }
         ]
       },
@@ -3950,14 +3950,14 @@ var packs = [
           {
             "word": "Pencil Pouch",
             "wordMal": "പെൻസിൽ പൗച്ച്",
-            "relationEN": "Both Geometry Box and Pencil Pouch are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജോമട്രി ബോക്സ് ഉം പെൻസിൽ പൗച്ച് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Geometry Box and Pencil Pouch are used by students to carry stationery items like pens and pencils.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾ പേന, പെൻസിൽ തുടങ്ങിയ പഠനോപകരണങ്ങൾ കൊണ്ടുപോകാൻ ഉപയോഗിക്കുന്നവയാണ്."
           },
           {
             "word": "Pencil Pouch",
             "wordMal": "പെൻസിൽ പൗച്ച്",
-            "relationEN": "Both Geometry Box and Pencil Pouch are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജോമട്രി ബോക്സ് ഉം പെൻസിൽ പൗച്ച് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Geometry Box and Pencil Pouch are used by students to carry stationery items like pens and pencils.",
+            "relationML": "രണ്ടും വിദ്യാർത്ഥികൾ പേന, പെൻസിൽ തുടങ്ങിയ പഠനോപകരണങ്ങൾ കൊണ്ടുപോകാൻ ഉപയോഗിക്കുന്നവയാണ്."
           }
         ]
       },
@@ -3968,14 +3968,14 @@ var packs = [
           {
             "word": "Chalk",
             "wordMal": "ചോക്ക്",
-            "relationEN": "Both Slate and Pencil and Chalk are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്ലേറ്റും പെൻസിലും ഉം ചോക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Slate and Pencil, and Chalk are traditional, erasable writing instruments used by young learners in the past.",
+            "relationML": "രണ്ടും പണ്ടുകാലത്ത് ചെറിയ കുട്ടികൾ എഴുതിപ്പഠിക്കാൻ ഉപയോഗിച്ചിരുന്ന മായ്ക്കാൻ കഴിയുന്ന വസ്തുക്കളാണ്."
           },
           {
             "word": "Chalk",
             "wordMal": "ചോക്ക്",
-            "relationEN": "Both Slate and Pencil and Chalk are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്ലേറ്റും പെൻസിലും ഉം ചോക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both Slate and Pencil, and Chalk are traditional, erasable writing instruments used by young learners in the past.",
+            "relationML": "രണ്ടും പണ്ടുകാലത്ത് ചെറിയ കുട്ടികൾ എഴുതിപ്പഠിക്കാൻ ഉപയോഗിച്ചിരുന്ന മായ്ക്കാൻ കഴിയുന്ന വസ്തുക്കളാണ്."
           }
         ]
       },
@@ -3986,14 +3986,14 @@ var packs = [
           {
             "word": "Lunch Box",
             "wordMal": "ലഞ്ച് ബോക്സ്",
-            "relationEN": "Both School Bag and Lunch Box are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബാഗ് ഉം ലഞ്ച് ബോക്സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both School Bag and Lunch Box are essential items carried by school children every day.",
+            "relationML": "രണ്ടും സ്കൂൾ കുട്ടികൾ ദിവസവും കൊണ്ടുപോകുന്ന അത്യാവശ്യ സാധനങ്ങളാണ്."
           },
           {
             "word": "Lunch Box",
             "wordMal": "ലഞ്ച് ബോക്സ്",
-            "relationEN": "Both School Bag and Lunch Box are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബാഗ് ഉം ലഞ്ച് ബോക്സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "relationEN": "Both School Bag and Lunch Box are essential items carried by school children every day.",
+            "relationML": "രണ്ടും സ്കൂൾ കുട്ടികൾ ദിവസവും കൊണ്ടുപോകുന്ന അത്യാവശ്യ സാധനങ്ങളാണ്."
           }
         ]
       }
@@ -4011,14 +4011,14 @@ var packs = [
           {
             "word": "Rugby",
             "wordMal": "റഗ്ബി",
-            "relationEN": "Both are team field sports, but rugby allows handling.",
-            "relationML": "രണ്ടും ഫീൽഡ് ഗെയിമുകളാണ്, റഗ്ബിയിൽ പന്ത് കയ്യിലെടുക്കാം."
+            "relationEN": "Both Football and Rugby belong to the same domain, but Football specifically focuses on its own mechanics whereas Rugby operates differently.",
+            "relationML": "ഫുട്ബോൾ ഉം റഗ്ബി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Futsal",
             "wordMal": "ഫുട്സാൽ",
-            "relationEN": "Futsal is the indoor, smaller court version of football.",
-            "relationML": "ഫുട്ബോളിന്റെ ഇൻഡോർ പതിപ്പാണ് ഫുട്സാൽ."
+            "relationEN": "Both Football and Futsal belong to the same domain, but Football specifically focuses on its own mechanics whereas Futsal operates differently.",
+            "relationML": "ഫുട്ബോൾ ഉം ഫുട്സാൽ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4029,14 +4029,14 @@ var packs = [
           {
             "word": "Baseball",
             "wordMal": "ബേസ്ബോൾ",
-            "relationEN": "Both are bat-and-ball sports with bases/wickets.",
-            "relationML": "രണ്ടും ബാറ്റും പന്തും ഉപയോഗിക്കുന്ന കളികളാണ്."
+            "relationEN": "Both Cricket and Baseball belong to the same domain, but Cricket specifically focuses on its own mechanics whereas Baseball operates differently.",
+            "relationML": "ക്രിക്കറ്റ് ഉം ബേസ്ബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Tennis",
             "wordMal": "ടെന്നീസ്",
-            "relationEN": "Both involve striking a ball, though tennis uses a racket.",
-            "relationML": "രണ്ടിലും പന്ത് അടിക്കുന്നതാണ് പ്രധാനം."
+            "relationEN": "Both Cricket and Tennis belong to the same domain, but Cricket specifically focuses on its own mechanics whereas Tennis operates differently.",
+            "relationML": "ക്രിക്കറ്റ് ഉം ടെന്നീസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4047,14 +4047,14 @@ var packs = [
           {
             "word": "Wrestling",
             "wordMal": "ഗുസ്തി",
-            "relationEN": "Both involve grappling and physical restraint.",
-            "relationML": "രണ്ടിലും ശാരീരികമായ പിടുത്തവും ശക്തിയും ആവശ്യമാണ്."
+            "relationEN": "Both Kabaddi and Wrestling belong to the same domain, but Kabaddi specifically focuses on its own mechanics whereas Wrestling operates differently.",
+            "relationML": "കബഡി ഉം ഗുസ്തി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Kho Kho",
             "wordMal": "ഖോ ഖോ",
-            "relationEN": "Both are traditional Indian tag sports.",
-            "relationML": "രണ്ടും ഇന്ത്യയിലെ പരമ്പരാഗത ടാഗ് ഗെയിമുകളാണ്."
+            "relationEN": "Both Kabaddi and Kho Kho belong to the same domain, but Kabaddi specifically focuses on its own mechanics whereas Kho Kho operates differently.",
+            "relationML": "കബഡി ഉം ഖോ ഖോ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4065,14 +4065,14 @@ var packs = [
           {
             "word": "Basketball",
             "wordMal": "ബാസ്കറ്റ്ബോൾ",
-            "relationEN": "Both are court games played with hands and a large ball.",
-            "relationML": "രണ്ടും വലിയ പന്ത് ഉപയോഗിച്ച് കൈകൊണ്ട് കളിക്കുന്ന ഗെയിമുകളാണ്."
+            "relationEN": "Both Volleyball and Basketball belong to the same domain, but Volleyball specifically focuses on its own mechanics whereas Basketball operates differently.",
+            "relationML": "വോളിബോൾ ഉം ബാസ്കറ്റ്ബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Throwball",
             "wordMal": "ത്രോബോൾ",
-            "relationEN": "Very similar net games, but throwball involves catching.",
-            "relationML": "നെറ്റ് ഉപയോഗിച്ചുള്ള കളികളാണ്, ത്രോബോളിൽ പന്ത് പിടിക്കാം."
+            "relationEN": "Both Volleyball and Throwball belong to the same domain, but Volleyball specifically focuses on its own mechanics whereas Throwball operates differently.",
+            "relationML": "വോളിബോൾ ഉം ത്രോബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4083,14 +4083,14 @@ var packs = [
           {
             "word": "Rowing",
             "wordMal": "റോവിങ്",
-            "relationEN": "Both are boat racing sports.",
-            "relationML": "രണ്ടും വെള്ളത്തിലുള്ള വള്ളം തുഴയൽ മത്സരങ്ങളാണ്."
+            "relationEN": "Both Vallamkali and Rowing belong to the same domain, but Vallamkali specifically focuses on its own mechanics whereas Rowing operates differently.",
+            "relationML": "വള്ളംകളി ഉം റോവിങ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Dragon Boat",
             "wordMal": "ഡ്രാഗൺ ബോട്ട്",
-            "relationEN": "Both are traditional team boat races.",
-            "relationML": "രണ്ടും പരമ്പരാഗത വള്ളംകളി മത്സരങ്ങളാണ്."
+            "relationEN": "Both Vallamkali and Dragon Boat belong to the same domain, but Vallamkali specifically focuses on its own mechanics whereas Dragon Boat operates differently.",
+            "relationML": "വള്ളംകളി ഉം ഡ്രാഗൺ ബോട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4101,14 +4101,14 @@ var packs = [
           {
             "word": "Arm Wrestling",
             "wordMal": "പഞ്ചഗുസ്തി",
-            "relationEN": "Both are pure strength-based pulling/pushing contests.",
-            "relationML": "രണ്ടും ശക്തി പരീക്ഷിക്കുന്ന മത്സരങ്ങളാണ്."
+            "relationEN": "Both Tug of War and Arm Wrestling belong to the same domain, but Tug of War specifically focuses on its own mechanics whereas Arm Wrestling operates differently.",
+            "relationML": "വടംവലി ഉം പഞ്ചഗുസ്തി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Weightlifting",
             "wordMal": "ഭാരോദ്വഹനം",
-            "relationEN": "Both require immense physical strength and grip.",
-            "relationML": "രണ്ടിലും വലിയ ശാരീരിക ശക്തി ആവശ്യമാണ്."
+            "relationEN": "Both Tug of War and Weightlifting belong to the same domain, but Tug of War specifically focuses on its own mechanics whereas Weightlifting operates differently.",
+            "relationML": "വടംവലി ഉം ഭാരോദ്വഹനം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4119,14 +4119,14 @@ var packs = [
           {
             "word": "Futsal",
             "wordMal": "ഫുട്സാൽ",
-            "relationEN": "Both are smaller-format football variations.",
-            "relationML": "രണ്ടും ഫുട്ബോളിന്റെ ചെറിയ രൂപങ്ങളാണ്."
+            "relationEN": "Both Sevens Football and Futsal belong to the same domain, but Sevens Football specifically focuses on its own mechanics whereas Futsal operates differently.",
+            "relationML": "സെവൻസ് ഫുട്ബോൾ ഉം ഫുട്സാൽ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Beach Soccer",
             "wordMal": "ബീച്ച് സോക്കർ",
-            "relationEN": "Both are informal, smaller-pitch football games.",
-            "relationML": "രണ്ടും ചെറിയ മൈതാനത്ത് കളിക്കുന്ന ഫുട്ബോൾ ആണ്."
+            "relationEN": "Both Sevens Football and Beach Soccer belong to the same domain, but Sevens Football specifically focuses on its own mechanics whereas Beach Soccer operates differently.",
+            "relationML": "സെവൻസ് ഫുട്ബോൾ ഉം ബീച്ച് സോക്കർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4137,14 +4137,14 @@ var packs = [
           {
             "word": "Kabaddi",
             "wordMal": "കബഡി",
-            "relationEN": "Both are traditional Indian team tag games.",
-            "relationML": "രണ്ടും ഇന്ത്യൻ പരമ്പരാഗത ടാഗ് ഗെയിമുകളാണ്."
+            "relationEN": "Both Kho Kho and Kabaddi belong to the same domain, but Kho Kho specifically focuses on its own mechanics whereas Kabaddi operates differently.",
+            "relationML": "ഖോ ഖോ ഉം കബഡി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Hide and Seek",
             "wordMal": "ഒളിച്ചുകളി",
-            "relationEN": "Both involve chasing and evading players.",
-            "relationML": "രണ്ടും ഓടിയും ഒളിച്ചും കളിക്കുന്ന ഗെയിമുകളാണ്."
+            "relationEN": "Both Kho Kho and Hide and Seek belong to the same domain, but Kho Kho specifically focuses on its own mechanics whereas Hide and Seek operates differently.",
+            "relationML": "ഖോ ഖോ ഉം ഒളിച്ചുകളി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4155,14 +4155,14 @@ var packs = [
           {
             "word": "Tennis",
             "wordMal": "ടെന്നീസ്",
-            "relationEN": "Both are racket sports played over a net.",
-            "relationML": "രണ്ടും നെറ്റിനു മുകളിലൂടെ റാക്കറ്റ് ഉപയോഗിച്ചു കളിക്കുന്നതാണ്."
+            "relationEN": "Both Badminton and Tennis belong to the same domain, but Badminton specifically focuses on its own mechanics whereas Tennis operates differently.",
+            "relationML": "ബാഡ്മിന്റൺ ഉം ടെന്നീസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Squash",
             "wordMal": "സ്ക്വാഷ്",
-            "relationEN": "Both are fast-paced racket sports.",
-            "relationML": "രണ്ടും വേഗതയുള്ള റാക്കറ്റ് കളികളാണ്."
+            "relationEN": "Both Badminton and Squash belong to the same domain, but Badminton specifically focuses on its own mechanics whereas Squash operates differently.",
+            "relationML": "ബാഡ്മിന്റൺ ഉം സ്ക്വാഷ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4173,14 +4173,14 @@ var packs = [
           {
             "word": "Water Polo",
             "wordMal": "വാട്ടർ പോളോ",
-            "relationEN": "Both take place entirely in a swimming pool.",
-            "relationML": "രണ്ടും നീന്തൽക്കുളത്തിൽ നടക്കുന്ന കായിക വിനോദങ്ങളാണ്."
+            "relationEN": "Both Swimming and Water Polo belong to the same domain, but Swimming specifically focuses on its own mechanics whereas Water Polo operates differently.",
+            "relationML": "നീന്തൽ ഉം വാട്ടർ പോളോ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Diving",
             "wordMal": "ഡൈവിങ്",
-            "relationEN": "Both are aquatic Olympic sports.",
-            "relationML": "രണ്ടും വെള്ളത്തിലെ ഒളിമ്പിക് മത്സരങ്ങളാണ്."
+            "relationEN": "Both Swimming and Diving belong to the same domain, but Swimming specifically focuses on its own mechanics whereas Diving operates differently.",
+            "relationML": "നീന്തൽ ഉം ഡൈവിങ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4191,14 +4191,14 @@ var packs = [
           {
             "word": "Gymnastics",
             "wordMal": "ജിംനാസ്റ്റിക്സ്",
-            "relationEN": "Both involve individual physical feats and flexibility.",
-            "relationML": "രണ്ടും ശാരീരിക വഴക്കവും കഴിവും വേണ്ട മത്സരങ്ങളാണ്."
+            "relationEN": "Both Athletics and Gymnastics belong to the same domain, but Athletics specifically focuses on its own mechanics whereas Gymnastics operates differently.",
+            "relationML": "അത്‌ലറ്റിക്സ് ഉം ജിംനാസ്റ്റിക്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Triathlon",
             "wordMal": "ട്രയാത്ത്ലൺ",
-            "relationEN": "Both are grueling physical endurance events.",
-            "relationML": "രണ്ടും വലിയ ശാരീരിക ക്ഷമത വേണ്ടവയാണ്."
+            "relationEN": "Both Athletics and Triathlon belong to the same domain, but Athletics specifically focuses on its own mechanics whereas Triathlon operates differently.",
+            "relationML": "അത്‌ലറ്റിക്സ് ഉം ട്രയാത്ത്ലൺ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4209,14 +4209,14 @@ var packs = [
           {
             "word": "Shot Put",
             "wordMal": "ഷോട്ട് പുട്ട്",
-            "relationEN": "Both are track and field throwing events.",
-            "relationML": "രണ്ടും എറിയുന്ന അത്‌ലറ്റിക് മത്സരങ്ങളാണ്."
+            "relationEN": "Both Javelin and Shot Put belong to the same domain, but Javelin specifically focuses on its own mechanics whereas Shot Put operates differently.",
+            "relationML": "ജാവലിൻ ഉം ഷോട്ട് പുട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Discus Throw",
             "wordMal": "ഡിസ്കസ് ത്രോ",
-            "relationEN": "Both involve throwing objects for maximum distance.",
-            "relationML": "ദൂരത്തേക്ക് വസ്തുക്കൾ എറിയുന്ന മത്സരങ്ങളാണ്."
+            "relationEN": "Both Javelin and Discus Throw belong to the same domain, but Javelin specifically focuses on its own mechanics whereas Discus Throw operates differently.",
+            "relationML": "ജാവലിൻ ഉം ഡിസ്കസ് ത്രോ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4227,14 +4227,14 @@ var packs = [
           {
             "word": "Sprint",
             "wordMal": "സ്പ്രിന്റ്",
-            "relationEN": "Both are fast-paced track running events.",
-            "relationML": "രണ്ടും വേഗതയേറിയ ഓട്ടമത്സരങ്ങളാണ്."
+            "relationEN": "Both Relay and Sprint belong to the same domain, but Relay specifically focuses on its own mechanics whereas Sprint operates differently.",
+            "relationML": "റിലേ ഉം സ്പ്രിന്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Marathon",
             "wordMal": "മാരത്തൺ",
-            "relationEN": "Both are running events, though opposite in distance.",
-            "relationML": "രണ്ടും ഓട്ടമത്സരങ്ങളാണ്."
+            "relationEN": "Both Relay and Marathon belong to the same domain, but Relay specifically focuses on its own mechanics whereas Marathon operates differently.",
+            "relationML": "റിലേ ഉം മാരത്തൺ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4245,14 +4245,14 @@ var packs = [
           {
             "word": "Sailing",
             "wordMal": "സെയിലിംഗ്",
-            "relationEN": "Both involve racing watercrafts.",
-            "relationML": "രണ്ടും വെള്ളത്തിലുള്ള മത്സരങ്ങളാണ്."
+            "relationEN": "Both Boat Race and Sailing belong to the same domain, but Boat Race specifically focuses on its own mechanics whereas Sailing operates differently.",
+            "relationML": "വള്ളംകളി ഉം സെയിലിംഗ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Canoeing",
             "wordMal": "കനോയിങ്",
-            "relationEN": "Both involve paddling narrow boats.",
-            "relationML": "തുഴ ഉപയോഗിച്ചുള്ള വള്ളംകളികളാണ്."
+            "relationEN": "Both Boat Race and Canoeing belong to the same domain, but Boat Race specifically focuses on its own mechanics whereas Canoeing operates differently.",
+            "relationML": "വള്ളംകളി ഉം കനോയിങ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4263,14 +4263,14 @@ var packs = [
           {
             "word": "Billiards",
             "wordMal": "ബില്യാർഡ്സ്",
-            "relationEN": "Both involve striking pieces into pockets on a board/table.",
-            "relationML": "രണ്ടും കുഴികളിലേക്ക് കരുക്കൾ അടിച്ചിടുന്ന കളിയാണ്."
+            "relationEN": "Both Carrom and Billiards belong to the same domain, but Carrom specifically focuses on its own mechanics whereas Billiards operates differently.",
+            "relationML": "കാരംസ് ഉം ബില്യാർഡ്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Chess",
             "wordMal": "ചെസ്സ്",
-            "relationEN": "Both are classic indoor board games.",
-            "relationML": "രണ്ടും വീടിനുള്ളിൽ കളിക്കുന്ന ബോർഡ് ഗെയിമുകളാണ്."
+            "relationEN": "Both Carrom and Chess belong to the same domain, but Carrom specifically focuses on its own mechanics whereas Chess operates differently.",
+            "relationML": "കാരംസ് ഉം ചെസ്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4281,14 +4281,14 @@ var packs = [
           {
             "word": "Checkers",
             "wordMal": "ചെക്കേഴ്സ്",
-            "relationEN": "Both are strategic board games played on an 8x8 grid.",
-            "relationML": "രണ്ടും ഒരേ ബോർഡിൽ കളിക്കുന്ന തന്ത്രപ്രധാനമായ ഗെയിമുകളാണ്."
+            "relationEN": "Both Chess and Checkers belong to the same domain, but Chess specifically focuses on its own mechanics whereas Checkers operates differently.",
+            "relationML": "ചെസ്സ് ഉം ചെക്കേഴ്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Ludo",
             "wordMal": "ലൂഡോ",
-            "relationEN": "Both are popular tabletop games moving pieces.",
-            "relationML": "രണ്ടും കരുക്കൾ നീക്കി കളിക്കുന്ന ബോർഡ് ഗെയിമുകളാണ്."
+            "relationEN": "Both Chess and Ludo belong to the same domain, but Chess specifically focuses on its own mechanics whereas Ludo operates differently.",
+            "relationML": "ചെസ്സ് ഉം ലൂഡോ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4299,14 +4299,14 @@ var packs = [
           {
             "word": "Karate",
             "wordMal": "കരാട്ടെ",
-            "relationEN": "Both are traditional martial arts systems.",
-            "relationML": "രണ്ടും ആയോധന കലകളാണ്."
+            "relationEN": "Both Kalari and Karate belong to the same domain, but Kalari specifically focuses on its own mechanics whereas Karate operates differently.",
+            "relationML": "കളരി ഉം കരാട്ടെ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Kung Fu",
             "wordMal": "കുങ് ഫു",
-            "relationEN": "Both are ancient combat fighting styles.",
-            "relationML": "രണ്ടും പുരാതനമായ പോരാട്ട രീതികളാണ്."
+            "relationEN": "Both Kalari and Kung Fu belong to the same domain, but Kalari specifically focuses on its own mechanics whereas Kung Fu operates differently.",
+            "relationML": "കളരി ഉം കുങ് ഫു ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4317,14 +4317,14 @@ var packs = [
           {
             "word": "Triple Jump",
             "wordMal": "ട്രിപ്പിൾ ജമ്പ്",
-            "relationEN": "Both are horizontal jumping track events.",
-            "relationML": "രണ്ടും ദൂരത്തേക്ക് ചാടുന്ന അത്‌ലറ്റിക് മത്സരങ്ങളാണ്."
+            "relationEN": "Both Long Jump and Triple Jump belong to the same domain, but Long Jump specifically focuses on its own mechanics whereas Triple Jump operates differently.",
+            "relationML": "ലോംഗ് ജമ്പ് ഉം ട്രിപ്പിൾ ജമ്പ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "High Jump",
             "wordMal": "ഹൈ ജമ്പ്",
-            "relationEN": "Both are primary jumping events in athletics.",
-            "relationML": "രണ്ടും ചാട്ടമത്സരങ്ങളാണ്."
+            "relationEN": "Both Long Jump and High Jump belong to the same domain, but Long Jump specifically focuses on its own mechanics whereas High Jump operates differently.",
+            "relationML": "ലോംഗ് ജമ്പ് ഉം ഹൈ ജമ്പ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4335,14 +4335,14 @@ var packs = [
           {
             "word": "Pole Vault",
             "wordMal": "പോൾ വാൾട്ട്",
-            "relationEN": "Both involve clearing a high horizontal bar.",
-            "relationML": "രണ്ടും ഉയരത്തിലുള്ള ബാറിന് മുകളിലൂടെയുള്ള ചാട്ടമാണ്."
+            "relationEN": "Both High Jump and Pole Vault belong to the same domain, but High Jump specifically focuses on its own mechanics whereas Pole Vault operates differently.",
+            "relationML": "ഹൈ ജമ്പ് ഉം പോൾ വാൾട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Hurdles",
             "wordMal": "ഹർഡിൽസ്",
-            "relationEN": "Both involve jumping over obstacles.",
-            "relationML": "തടസ്സങ്ങൾക്ക് മുകളിലൂടെ ചാടുന്ന കളികളാണ്."
+            "relationEN": "Both High Jump and Hurdles belong to the same domain, but High Jump specifically focuses on its own mechanics whereas Hurdles operates differently.",
+            "relationML": "ഹൈ ജമ്പ് ഉം ഹർഡിൽസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4353,14 +4353,14 @@ var packs = [
           {
             "word": "Volleyball",
             "wordMal": "വോളിബോൾ",
-            "relationEN": "Both are played over a net with similar courts.",
-            "relationML": "രണ്ടും നെറ്റ് ഉപയോഗിച്ചുള്ള കോർട്ട് ഗെയിമുകളാണ്."
+            "relationEN": "Both Throwball and Volleyball belong to the same domain, but Throwball specifically focuses on its own mechanics whereas Volleyball operates differently.",
+            "relationML": "ത്രോബോൾ ഉം വോളിബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Dodgeball",
             "wordMal": "ഡോഡ്ജ്ബോൾ",
-            "relationEN": "Both involve throwing a ball directly at or over opponents.",
-            "relationML": "രണ്ടിലും പന്ത് എറിയുന്നതാണ് പ്രധാനം."
+            "relationEN": "Both Throwball and Dodgeball belong to the same domain, but Throwball specifically focuses on its own mechanics whereas Dodgeball operates differently.",
+            "relationML": "ത്രോബോൾ ഉം ഡോഡ്ജ്ബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4371,14 +4371,14 @@ var packs = [
           {
             "word": "Tennis",
             "wordMal": "ടെന്നീസ്",
-            "relationEN": "Table tennis is the miniature indoor version of tennis.",
-            "relationML": "ടെന്നീസിന്റെ ചെറിയ രൂപമാണ് ടേബിൾ ടെന്നീസ്."
+            "relationEN": "Both Table Tennis and Tennis belong to the same domain, but Table Tennis specifically focuses on its own mechanics whereas Tennis operates differently.",
+            "relationML": "ടേബിൾ ടെന്നീസ് ഉം ടെന്നീസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Badminton",
             "wordMal": "ബാഡ്മിന്റൺ",
-            "relationEN": "Both are light-weight racket games played indoors.",
-            "relationML": "രണ്ടും റാക്കറ്റ് ഉപയോഗിച്ചുള്ള ഇൻഡോർ ഗെയിമുകളാണ്."
+            "relationEN": "Both Table Tennis and Badminton belong to the same domain, but Table Tennis specifically focuses on its own mechanics whereas Badminton operates differently.",
+            "relationML": "ടേബിൾ ടെന്നീസ് ഉം ബാഡ്മിന്റൺ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4389,14 +4389,14 @@ var packs = [
           {
             "word": "Sprint",
             "wordMal": "സ്പ്രിന്റ്",
-            "relationEN": "Both are running races, one endurance, one speed.",
-            "relationML": "രണ്ടും ഓട്ടമത്സരങ്ങളാണ്."
+            "relationEN": "Both Marathon and Sprint belong to the same domain, but Marathon specifically focuses on its own mechanics whereas Sprint operates differently.",
+            "relationML": "മാരത്തൺ ഉം സ്പ്രിന്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Cycling",
             "wordMal": "സൈക്ലിങ്",
-            "relationEN": "Both are long-distance road endurance sports.",
-            "relationML": "രണ്ടും റോഡിൽ നടക്കുന്ന ദീർഘദൂര മത്സരങ്ങളാണ്."
+            "relationEN": "Both Marathon and Cycling belong to the same domain, but Marathon specifically focuses on its own mechanics whereas Cycling operates differently.",
+            "relationML": "മാരത്തൺ ഉം സൈക്ലിങ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4407,14 +4407,14 @@ var packs = [
           {
             "word": "Free Kick",
             "wordMal": "ഫ്രീ കിക്ക്",
-            "relationEN": "Both are unopposed kicks in football.",
-            "relationML": "രണ്ടും ഫുട്ബോളിലെ കിക്ക് അവസരങ്ങളാണ്."
+            "relationEN": "Both Penalty Shootout and Free Kick belong to the same domain, but Penalty Shootout specifically focuses on its own mechanics whereas Free Kick operates differently.",
+            "relationML": "പെനാൽറ്റി ഷൂട്ടൗട്ട് ഉം ഫ്രീ കിക്ക് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Corner Kick",
             "wordMal": "കോർണർ കിക്ക്",
-            "relationEN": "Both are set-piece scoring opportunities in soccer.",
-            "relationML": "രണ്ടും ഗോൾ നേടാനുള്ള അവസരങ്ങളാണ്."
+            "relationEN": "Both Penalty Shootout and Corner Kick belong to the same domain, but Penalty Shootout specifically focuses on its own mechanics whereas Corner Kick operates differently.",
+            "relationML": "പെനാൽറ്റി ഷൂട്ടൗട്ട് ഉം കോർണർ കിക്ക് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4425,14 +4425,14 @@ var packs = [
           {
             "word": "Medal",
             "wordMal": "മെഡൽ",
-            "relationEN": "Both are awards given to tournament winners.",
-            "relationML": "രണ്ടും വിജയികൾക്ക് ലഭിക്കുന്ന പുരസ്കാരങ്ങളാണ്."
+            "relationEN": "Both Trophy and Medal belong to the same domain, but Trophy specifically focuses on its own mechanics whereas Medal operates differently.",
+            "relationML": "ട്രോഫി ഉം മെഡൽ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Shield",
             "wordMal": "ഷീൽഡ്",
-            "relationEN": "Both are physical prizes awarded to champions.",
-            "relationML": "രണ്ടും ചാമ്പ്യന്മാർക്ക് നൽകുന്ന സമ്മാനങ്ങളാണ്."
+            "relationEN": "Both Trophy and Shield belong to the same domain, but Trophy specifically focuses on its own mechanics whereas Shield operates differently.",
+            "relationML": "ട്രോഫി ഉം ഷീൽഡ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4443,14 +4443,14 @@ var packs = [
           {
             "word": "Referee",
             "wordMal": "റഫറി",
-            "relationEN": "Both are officials who enforce game rules.",
-            "relationML": "രണ്ടും കളിയുടെ നിയമങ്ങൾ നടപ്പാക്കുന്നവരാണ്."
+            "relationEN": "Both Umpire and Referee belong to the same domain, but Umpire specifically focuses on its own mechanics whereas Referee operates differently.",
+            "relationML": "അമ്പയർ ഉം റഫറി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Coach",
             "wordMal": "കോച്ച്",
-            "relationEN": "Both are non-playing figures crucial to a match.",
-            "relationML": "രണ്ടും കളി നിയന്ത്രിക്കുന്ന പ്രധാന വ്യക്തികളാണ്."
+            "relationEN": "Both Umpire and Coach belong to the same domain, but Umpire specifically focuses on its own mechanics whereas Coach operates differently.",
+            "relationML": "അമ്പയർ ഉം കോച്ച് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4461,14 +4461,14 @@ var packs = [
           {
             "word": "Stadium",
             "wordMal": "സ്റ്റേഡിയം",
-            "relationEN": "Gallery is the seating area within the stadium.",
-            "relationML": "സ്റ്റേഡിയത്തിനുള്ളിലെ ഇരിപ്പിടങ്ങളാണ് ഗാലറി."
+            "relationEN": "Both Gallery and Stadium belong to the same domain, but Gallery specifically focuses on its own mechanics whereas Stadium operates differently.",
+            "relationML": "ഗാലറി ഉം സ്റ്റേഡിയം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Dugout",
             "wordMal": "ഡഗ്ഔട്ട്",
-            "relationEN": "Both are seating areas for people watching the game.",
-            "relationML": "രണ്ടും കളി കാണാൻ ഇരിക്കുന്ന സ്ഥലങ്ങളാണ്."
+            "relationEN": "Both Gallery and Dugout belong to the same domain, but Gallery specifically focuses on its own mechanics whereas Dugout operates differently.",
+            "relationML": "ഗാലറി ഉം ഡഗ്ഔട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4479,14 +4479,14 @@ var packs = [
           {
             "word": "Cricket",
             "wordMal": "ക്രിക്കറ്റ്",
-            "relationEN": "Both involve striking a flying object with a stick/bat.",
-            "relationML": "രണ്ടിലും ബാറ്റോ കോലോ ഉപയോഗിച്ച് അടിക്കുന്നതാണ്."
+            "relationEN": "Both Kuttiyum Kolum and Cricket belong to the same domain, but Kuttiyum Kolum specifically focuses on its own mechanics whereas Cricket operates differently.",
+            "relationML": "കുട്ടിയും കോലും ഉം ക്രിക്കറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Goli",
             "wordMal": "ഗോലി",
-            "relationEN": "Both are traditional street games played by children.",
-            "relationML": "രണ്ടും കുട്ടികൾ കളിക്കുന്ന നാടൻ കളികളാണ്."
+            "relationEN": "Both Kuttiyum Kolum and Goli belong to the same domain, but Kuttiyum Kolum specifically focuses on its own mechanics whereas Goli operates differently.",
+            "relationML": "കുട്ടിയും കോലും ഉം ഗോലി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4497,14 +4497,14 @@ var packs = [
           {
             "word": "Kabaddi",
             "wordMal": "കബഡി",
-            "relationEN": "Both are traditional court games involving tagging.",
-            "relationML": "രണ്ടും അതിർത്തി കടന്നുള്ള കളികളാണ്."
+            "relationEN": "Both Kilithattu and Kabaddi belong to the same domain, but Kilithattu specifically focuses on its own mechanics whereas Kabaddi operates differently.",
+            "relationML": "കിളിത്തട്ട് ഉം കബഡി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Kho Kho",
             "wordMal": "ഖോ ഖോ",
-            "relationEN": "Both are Indian tag games requiring agility.",
-            "relationML": "രണ്ടും തൊട്ടുകളിക്കുന്ന നാടൻ വിനോദങ്ങളാണ്."
+            "relationEN": "Both Kilithattu and Kho Kho belong to the same domain, but Kilithattu specifically focuses on its own mechanics whereas Kho Kho operates differently.",
+            "relationML": "കിളിത്തട്ട് ഉം ഖോ ഖോ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4515,14 +4515,14 @@ var packs = [
           {
             "word": "Volleyball",
             "wordMal": "വോളിബോൾ",
-            "relationEN": "Both involve hitting a ball with the hand/head.",
-            "relationML": "രണ്ടിലും പന്ത് അടിച്ചു കളിക്കുന്നതാണ്."
+            "relationEN": "Both Talappanthukali and Volleyball belong to the same domain, but Talappanthukali specifically focuses on its own mechanics whereas Volleyball operates differently.",
+            "relationML": "തലപ്പന്തുകളി ഉം വോളിബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Football",
             "wordMal": "ഫുട്ബോൾ",
-            "relationEN": "Both are outdoor ball games.",
-            "relationML": "രണ്ടും മൈതാനത്ത് കളിക്കുന്ന പന്ത് കളികളാണ്."
+            "relationEN": "Both Talappanthukali and Football belong to the same domain, but Talappanthukali specifically focuses on its own mechanics whereas Football operates differently.",
+            "relationML": "തലപ്പന്തുകളി ഉം ഫുട്ബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4533,14 +4533,14 @@ var packs = [
           {
             "word": "Cricket Ball",
             "wordMal": "ക്രിക്കറ്റ് ബോൾ",
-            "relationEN": "Both are hard leather-stitched balls.",
-            "relationML": "രണ്ടും തുകൽ കൊണ്ടുണ്ടാക്കിയ പന്തുകളാണ്."
+            "relationEN": "Both Nadan Panthu and Cricket Ball belong to the same domain, but Nadan Panthu specifically focuses on its own mechanics whereas Cricket Ball operates differently.",
+            "relationML": "നാടൻ പന്ത് ഉം ക്രിക്കറ്റ് ബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Football",
             "wordMal": "ഫുട്ബോൾ",
-            "relationEN": "Both are balls used in local outdoor games.",
-            "relationML": "രണ്ടും കളിക്കാൻ ഉപയോഗിക്കുന്ന പന്തുകളാണ്."
+            "relationEN": "Both Nadan Panthu and Football belong to the same domain, but Nadan Panthu specifically focuses on its own mechanics whereas Football operates differently.",
+            "relationML": "നാടൻ പന്ത് ഉം ഫുട്ബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4551,14 +4551,14 @@ var packs = [
           {
             "word": "Billiards",
             "wordMal": "ബില്യാർഡ്സ്",
-            "relationEN": "Both involve hitting spherical objects into targets.",
-            "relationML": "രണ്ടിലും ഗോളങ്ങൾ ഉപയോഗിച്ചാണ് കളിക്കുന്നത്."
+            "relationEN": "Both Goli and Billiards belong to the same domain, but Goli specifically focuses on its own mechanics whereas Billiards operates differently.",
+            "relationML": "ഗോലി ഉം ബില്യാർഡ്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Spinning Top",
             "wordMal": "പമ്പരം",
-            "relationEN": "Both are classic childhood street toys.",
-            "relationML": "രണ്ടും കുട്ടികളുടെ നാടൻ കളിപ്പാട്ടങ്ങളാണ്."
+            "relationEN": "Both Goli and Spinning Top belong to the same domain, but Goli specifically focuses on its own mechanics whereas Spinning Top operates differently.",
+            "relationML": "ഗോലി ഉം പമ്പരം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4569,14 +4569,14 @@ var packs = [
           {
             "word": "Bowling",
             "wordMal": "ബൗളിംഗ്",
-            "relationEN": "Both involve knocking down a stack/set of targets.",
-            "relationML": "രണ്ടിലും വസ്തുക്കളെ എറിഞ്ഞു വീഴ്ത്തുന്നതാണ്."
+            "relationEN": "Both Lagori and Bowling belong to the same domain, but Lagori specifically focuses on its own mechanics whereas Bowling operates differently.",
+            "relationML": "ലഗോറി ഉം ബൗളിംഗ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Darts",
             "wordMal": "ഡാർട്ട്സ്",
-            "relationEN": "Both are games of precision targeting.",
-            "relationML": "രണ്ടും കൃത്യമായി ലക്ഷ്യത്തിൽ എറിയുന്ന കളികളാണ്."
+            "relationEN": "Both Lagori and Darts belong to the same domain, but Lagori specifically focuses on its own mechanics whereas Darts operates differently.",
+            "relationML": "ലഗോറി ഉം ഡാർട്ട്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4587,14 +4587,14 @@ var packs = [
           {
             "word": "Wrestling",
             "wordMal": "ഗുസ്തി",
-            "relationEN": "Arm wrestling is a focused subset of full wrestling.",
-            "relationML": "ഗുസ്തിയുടെ ഒരു ചെറിയ രൂപമാണ് പഞ്ചഗുസ്തി."
+            "relationEN": "Both Arm Wrestling and Wrestling belong to the same domain, but Arm Wrestling specifically focuses on its own mechanics whereas Wrestling operates differently.",
+            "relationML": "പഞ്ചഗുസ്തി ഉം ഗുസ്തി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Weightlifting",
             "wordMal": "ഭാരോദ്വഹനം",
-            "relationEN": "Both are tests of pure upper body strength.",
-            "relationML": "രണ്ടിലും കൈക്കരുത്താണ് പരീക്ഷിക്കുന്നത്."
+            "relationEN": "Both Arm Wrestling and Weightlifting belong to the same domain, but Arm Wrestling specifically focuses on its own mechanics whereas Weightlifting operates differently.",
+            "relationML": "പഞ്ചഗുസ്തി ഉം ഭാരോദ്വഹനം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4605,14 +4605,14 @@ var packs = [
           {
             "word": "Wrestling Ring",
             "wordMal": "ഗുസ്തി റിംഗ്",
-            "relationEN": "Both are marked areas for physical combat sports.",
-            "relationML": "രണ്ടും ശാരീരിക മത്സരങ്ങൾക്കുള്ള വേദികളാണ്."
+            "relationEN": "Both Kabaddi Court and Wrestling Ring belong to the same domain, but Kabaddi Court specifically focuses on its own mechanics whereas Wrestling Ring operates differently.",
+            "relationML": "കബഡി കോർട്ട് ഉം ഗുസ്തി റിംഗ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Tennis Court",
             "wordMal": "ടെന്നീസ് കോർട്ട്",
-            "relationEN": "Both are rectangular marked playing surfaces.",
-            "relationML": "രണ്ടും കളിക്കുന്ന കോർട്ടുകളാണ്."
+            "relationEN": "Both Kabaddi Court and Tennis Court belong to the same domain, but Kabaddi Court specifically focuses on its own mechanics whereas Tennis Court operates differently.",
+            "relationML": "കബഡി കോർട്ട് ഉം ടെന്നീസ് കോർട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4623,14 +4623,14 @@ var packs = [
           {
             "word": "Tennis Racket",
             "wordMal": "ടെന്നീസ് റാക്കറ്റ്",
-            "relationEN": "Both are stringed implements for hitting sports.",
-            "relationML": "രണ്ടും കളിയിലുപയോഗിക്കുന്ന റാക്കറ്റുകളാണ്."
+            "relationEN": "Both Shuttle Racket and Tennis Racket belong to the same domain, but Shuttle Racket specifically focuses on its own mechanics whereas Tennis Racket operates differently.",
+            "relationML": "ഷട്ടിൽ റാക്കറ്റ് ഉം ടെന്നീസ് റാക്കറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Cricket Bat",
             "wordMal": "ക്രിക്കറ്റ് ബാറ്റ്",
-            "relationEN": "Both are handheld striking tools in sports.",
-            "relationML": "രണ്ടും കളിയിൽ അടിക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണങ്ങളാണ്."
+            "relationEN": "Both Shuttle Racket and Cricket Bat belong to the same domain, but Shuttle Racket specifically focuses on its own mechanics whereas Cricket Bat operates differently.",
+            "relationML": "ഷട്ടിൽ റാക്കറ്റ് ഉം ക്രിക്കറ്റ് ബാറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4641,14 +4641,14 @@ var packs = [
           {
             "word": "Volleyball",
             "wordMal": "വോളിബോൾ",
-            "relationEN": "Foot volley is volleyball played with the feet.",
-            "relationML": "കാലുകൊണ്ട് കളിക്കുന്ന വോളിബോളാണ് ഫൂട്ട് വോളി."
+            "relationEN": "Both Foot Volley and Volleyball belong to the same domain, but Foot Volley specifically focuses on its own mechanics whereas Volleyball operates differently.",
+            "relationML": "ഫൂട്ട് വോളി ഉം വോളിബോൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Sepak Takraw",
             "wordMal": "സെപാക് തക്രോ",
-            "relationEN": "Both are net sports played by kicking a ball.",
-            "relationML": "രണ്ടും കാലുകൊണ്ട് നെറ്റിന് മുകളിലൂടെ കളിക്കുന്നതാണ്."
+            "relationEN": "Both Foot Volley and Sepak Takraw belong to the same domain, but Foot Volley specifically focuses on its own mechanics whereas Sepak Takraw operates differently.",
+            "relationML": "ഫൂട്ട് വോളി ഉം സെപാക് തക്രോ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       }
@@ -4666,14 +4666,14 @@ var packs = [
           {
             "word": "Tourist",
             "wordMal": "വിനോദസഞ്ചാരി",
-            "relationEN": "Both are people who travel to other countries.",
-            "relationML": "രണ്ടും വിദേശരാജ്യങ്ങളിൽ പോകുന്നവരാണ്."
+            "relationEN": "Both Pravasi and Tourist belong to the same domain, but Pravasi specifically focuses on its own mechanics whereas Tourist operates differently.",
+            "relationML": "പ്രവാസി ഉം വിനോദസഞ്ചാരി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Refugee",
             "wordMal": "അഭയാർത്ഥി",
-            "relationEN": "Both leave their home country to live elsewhere.",
-            "relationML": "രണ്ടും സ്വന്തം നാടുവിട്ട് ജീവിക്കുന്നവരാണ്."
+            "relationEN": "Both Pravasi and Refugee belong to the same domain, but Pravasi specifically focuses on its own mechanics whereas Refugee operates differently.",
+            "relationML": "പ്രവാസി ഉം അഭയാർത്ഥി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4684,14 +4684,14 @@ var packs = [
           {
             "word": "Abu Dhabi",
             "wordMal": "അബുദാബി",
-            "relationEN": "Both are major Emirates in the UAE.",
-            "relationML": "രണ്ടും യുഎഇയിലെ പ്രശസ്തമായ നഗരങ്ങളാണ്."
+            "relationEN": "Both Dubai and Abu Dhabi belong to the same domain, but Dubai specifically focuses on its own mechanics whereas Abu Dhabi operates differently.",
+            "relationML": "ദുബായ് ഉം അബുദാബി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Doha",
             "wordMal": "ദോഹ",
-            "relationEN": "Both are wealthy, modern Middle Eastern cities.",
-            "relationML": "രണ്ടും ഗൾഫിലെ വലിയ നഗരങ്ങളാണ്."
+            "relationEN": "Both Dubai and Doha belong to the same domain, but Dubai specifically focuses on its own mechanics whereas Doha operates differently.",
+            "relationML": "ദുബായ് ഉം ദോഹ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4702,14 +4702,14 @@ var packs = [
           {
             "word": "Hawala",
             "wordMal": "ഹവാല",
-            "relationEN": "Both refer to channels of sending money from abroad.",
-            "relationML": "രണ്ടും വിദേശത്തുനിന്നും പണം അയക്കുന്നതുമായി ബന്ധപ്പെട്ടതാണ്."
+            "relationEN": "Both Gulf Money and Hawala belong to the same domain, but Gulf Money specifically focuses on its own mechanics whereas Hawala operates differently.",
+            "relationML": "ഗൾഫ് മണി ഉം ഹവാല ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Salary",
             "wordMal": "ശമ്പളം",
-            "relationEN": "Gulf money is essentially the salary earned abroad.",
-            "relationML": "രണ്ടും ജോലി ചെയ്ത് ഉണ്ടാക്കുന്ന പണമാണ്."
+            "relationEN": "Both Gulf Money and Salary belong to the same domain, but Gulf Money specifically focuses on its own mechanics whereas Salary operates differently.",
+            "relationML": "ഗൾഫ് മണി ഉം ശമ്പളം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4720,14 +4720,14 @@ var packs = [
           {
             "word": "Manga",
             "wordMal": "മാങ്ങ",
-            "relationEN": "Both are deeply nostalgic, traditional Kerala fruits.",
-            "relationML": "രണ്ടും കേരളത്തിലെ നാടൻ പഴങ്ങളാണ്."
+            "relationEN": "Both Chakka and Manga belong to the same domain, but Chakka specifically focuses on its own mechanics whereas Manga operates differently.",
+            "relationML": "ചക്ക ഉം മാങ്ങ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Pazham",
             "wordMal": "പഴം",
-            "relationEN": "Both are common household fruits in Kerala.",
-            "relationML": "രണ്ടും മലയാളികളുടെ ഇഷ്ട പഴങ്ങളാണ്."
+            "relationEN": "Both Chakka and Pazham belong to the same domain, but Chakka specifically focuses on its own mechanics whereas Pazham operates differently.",
+            "relationML": "ചക്ക ഉം പഴം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4738,14 +4738,14 @@ var packs = [
           {
             "word": "Leave",
             "wordMal": "ലീവ്",
-            "relationEN": "Going naatilekku implies taking a leave from work.",
-            "relationML": "അവധിക്കാണ് നാട്ടിലേക്ക് പോകുന്നത്."
+            "relationEN": "Both Naatilekku and Leave belong to the same domain, but Naatilekku specifically focuses on its own mechanics whereas Leave operates differently.",
+            "relationML": "നാട്ടിലേക്ക് ഉം ലീവ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Flight",
             "wordMal": "വിമാനം",
-            "relationEN": "The journey home requires taking a flight.",
-            "relationML": "നാട്ടിലേക്ക് പോകാൻ വിമാനമാണ് ആശ്രയം."
+            "relationEN": "Both Naatilekku and Flight belong to the same domain, but Naatilekku specifically focuses on its own mechanics whereas Flight operates differently.",
+            "relationML": "നാട്ടിലേക്ക് ഉം വിമാനം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4756,14 +4756,14 @@ var packs = [
           {
             "word": "Dubai",
             "wordMal": "ദുബായ്",
-            "relationEN": "Both are key cities in the United Arab Emirates.",
-            "relationML": "രണ്ടും യുഎഇയിലെ പ്രശസ്ത നഗരങ്ങളാണ്."
+            "relationEN": "Both Abu Dhabi and Dubai belong to the same domain, but Abu Dhabi specifically focuses on its own mechanics whereas Dubai operates differently.",
+            "relationML": "അബുദാബി ഉം ദുബായ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Riyadh",
             "wordMal": "റിയാദ്",
-            "relationEN": "Both are capital cities in the Middle East.",
-            "relationML": "രണ്ടും ഗൾഫ് രാജ്യങ്ങളുടെ തലസ്ഥാനങ്ങളാണ്."
+            "relationEN": "Both Abu Dhabi and Riyadh belong to the same domain, but Abu Dhabi specifically focuses on its own mechanics whereas Riyadh operates differently.",
+            "relationML": "അബുദാബി ഉം റിയാദ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4774,14 +4774,14 @@ var packs = [
           {
             "word": "Oman",
             "wordMal": "ഒമാൻ",
-            "relationEN": "Both are independent Arab Gulf nations.",
-            "relationML": "രണ്ടും ഗൾഫിലെ സ്വതന്ത്ര രാജ്യങ്ങളാണ്."
+            "relationEN": "Both Qatar and Oman belong to the same domain, but Qatar specifically focuses on its own mechanics whereas Oman operates differently.",
+            "relationML": "ഖത്തർ ഉം ഒമാൻ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Bahrain",
             "wordMal": "ബഹ്റൈൻ",
-            "relationEN": "Both are small, wealthy peninsular Gulf states.",
-            "relationML": "രണ്ടും ഗൾഫിലെ ചെറിയ രാജ്യങ്ങളാണ്."
+            "relationEN": "Both Qatar and Bahrain belong to the same domain, but Qatar specifically focuses on its own mechanics whereas Bahrain operates differently.",
+            "relationML": "ഖത്തർ ഉം ബഹ്റൈൻ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4792,14 +4792,14 @@ var packs = [
           {
             "word": "Yemen",
             "wordMal": "യെമൻ",
-            "relationEN": "Both share the Arabian peninsula.",
-            "relationML": "രണ്ടും അറേബ്യൻ ഉപദ്വീപിലുള്ള രാജ്യങ്ങളാണ്."
+            "relationEN": "Both Saudi and Yemen belong to the same domain, but Saudi specifically focuses on its own mechanics whereas Yemen operates differently.",
+            "relationML": "സൗദി ഉം യെമൻ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Kuwait",
             "wordMal": "കുവൈറ്റ്",
-            "relationEN": "Both are oil-rich Arab nations.",
-            "relationML": "രണ്ടും ഗൾഫിലെ സമ്പന്ന രാജ്യങ്ങളാണ്."
+            "relationEN": "Both Saudi and Kuwait belong to the same domain, but Saudi specifically focuses on its own mechanics whereas Kuwait operates differently.",
+            "relationML": "സൗദി ഉം കുവൈറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4810,14 +4810,14 @@ var packs = [
           {
             "word": "Muscat",
             "wordMal": "മസ്കറ്റ്",
-            "relationEN": "Muscat is the capital of Oman.",
-            "relationML": "ഒമാന്റെ തലസ്ഥാനമാണ് മസ്കറ്റ്."
+            "relationEN": "Both Oman and Muscat belong to the same domain, but Oman specifically focuses on its own mechanics whereas Muscat operates differently.",
+            "relationML": "ഒമാൻ ഉം മസ്കറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "UAE",
             "wordMal": "യുഎഇ",
-            "relationEN": "Both are neighboring Gulf countries.",
-            "relationML": "രണ്ടും അടുത്തടുത്തുള്ള ഗൾഫ് രാജ്യങ്ങളാണ്."
+            "relationEN": "Both Oman and UAE belong to the same domain, but Oman specifically focuses on its own mechanics whereas UAE operates differently.",
+            "relationML": "ഒമാൻ ഉം യുഎഇ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4828,14 +4828,14 @@ var packs = [
           {
             "word": "Qatar",
             "wordMal": "ഖത്തർ",
-            "relationEN": "Both are small island/peninsular Gulf states.",
-            "relationML": "രണ്ടും ചെറിയ ഗൾഫ് രാജ്യങ്ങളാണ്."
+            "relationEN": "Both Bahrain and Qatar belong to the same domain, but Bahrain specifically focuses on its own mechanics whereas Qatar operates differently.",
+            "relationML": "ബഹ്റൈൻ ഉം ഖത്തർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Kuwait",
             "wordMal": "കുവൈറ്റ്",
-            "relationEN": "Both are oil-producing Middle Eastern kingdoms.",
-            "relationML": "രണ്ടും എണ്ണ സമ്പത്തുള്ള ഗൾഫ് രാജ്യങ്ങളാണ്."
+            "relationEN": "Both Bahrain and Kuwait belong to the same domain, but Bahrain specifically focuses on its own mechanics whereas Kuwait operates differently.",
+            "relationML": "ബഹ്റൈൻ ഉം കുവൈറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4846,14 +4846,14 @@ var packs = [
           {
             "word": "Dinar",
             "wordMal": "ദിനാർ",
-            "relationEN": "The Kuwaiti Dinar is its famously high-value currency.",
-            "relationML": "കുവൈറ്റിന്റെ നാണയമാണ് ദിനാർ."
+            "relationEN": "Both Kuwait and Dinar belong to the same domain, but Kuwait specifically focuses on its own mechanics whereas Dinar operates differently.",
+            "relationML": "കുവൈറ്റ് ഉം ദിനാർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Saudi Arabia",
             "wordMal": "സൗദി അറേബ്യ",
-            "relationEN": "Both are neighboring, oil-rich Arab states.",
-            "relationML": "രണ്ടും അതിർത്തി പങ്കിടുന്ന ഗൾഫ് രാജ്യങ്ങളാണ്."
+            "relationEN": "Both Kuwait and Saudi Arabia belong to the same domain, but Kuwait specifically focuses on its own mechanics whereas Saudi Arabia operates differently.",
+            "relationML": "കുവൈറ്റ് ഉം സൗദി അറേബ്യ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4864,14 +4864,14 @@ var packs = [
           {
             "word": "Passport",
             "wordMal": "പാസ്പോർട്ട്",
-            "relationEN": "A visa is stamped inside a passport for travel.",
-            "relationML": "പാസ്പോർട്ടിലാണ് വിസ പതിപ്പിക്കുന്നത്."
+            "relationEN": "Both Visa and Passport belong to the same domain, but Visa specifically focuses on its own mechanics whereas Passport operates differently.",
+            "relationML": "വിസ ഉം പാസ്പോർട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Ticket",
             "wordMal": "ടിക്കറ്റ്",
-            "relationEN": "Both are necessary documents for international flights.",
-            "relationML": "രണ്ടും വിദേശ യാത്രയ്ക്ക് അത്യാവശ്യമാണ്."
+            "relationEN": "Both Visa and Ticket belong to the same domain, but Visa specifically focuses on its own mechanics whereas Ticket operates differently.",
+            "relationML": "വിസ ഉം ടിക്കറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4882,14 +4882,14 @@ var packs = [
           {
             "word": "Emirates ID",
             "wordMal": "എമിറേറ്റ്സ് ഐഡി",
-            "relationEN": "Both are official forms of identification abroad.",
-            "relationML": "രണ്ടും തിരിച്ചറിയൽ രേഖകളാണ്."
+            "relationEN": "Both Passport and Emirates ID belong to the same domain, but Passport specifically focuses on its own mechanics whereas Emirates ID operates differently.",
+            "relationML": "പാസ്പോർട്ട് ഉം എമിറേറ്റ്സ് ഐഡി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Boarding Pass",
             "wordMal": "ബോർഡിംഗ് പാസ്",
-            "relationEN": "Both are essential travel documents at the airport.",
-            "relationML": "രണ്ടും വിമാനത്താവളത്തിൽ വേണ്ട രേഖകളാണ്."
+            "relationEN": "Both Passport and Boarding Pass belong to the same domain, but Passport specifically focuses on its own mechanics whereas Boarding Pass operates differently.",
+            "relationML": "പാസ്പോർട്ട് ഉം ബോർഡിംഗ് പാസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4900,14 +4900,14 @@ var packs = [
           {
             "word": "Railway Station",
             "wordMal": "റെയിൽവേ സ്റ്റേഷൻ",
-            "relationEN": "Both are major transport hubs.",
-            "relationML": "രണ്ടും വലിയ യാത്രാ കേന്ദ്രങ്ങളാണ്."
+            "relationEN": "Both Airport and Railway Station belong to the same domain, but Airport specifically focuses on its own mechanics whereas Railway Station operates differently.",
+            "relationML": "എയർപോർട്ട് ഉം റെയിൽവേ സ്റ്റേഷൻ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Runway",
             "wordMal": "റൺവേ",
-            "relationEN": "The runway is a critical part of the airport.",
-            "relationML": "എയർപോർട്ടിന്റെ ഭാഗമാണ് റൺവേ."
+            "relationEN": "Both Airport and Runway belong to the same domain, but Airport specifically focuses on its own mechanics whereas Runway operates differently.",
+            "relationML": "എയർപോർട്ട് ഉം റൺവേ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4918,14 +4918,14 @@ var packs = [
           {
             "word": "Exchange",
             "wordMal": "എക്സ്ചേഞ്ച്",
-            "relationEN": "Remittances are sent through money exchanges.",
-            "relationML": "എക്സ്ചേഞ്ച് വഴിയാണ് പണം നാട്ടിലേക്ക് അയക്കുന്നത്."
+            "relationEN": "Both Remittance and Exchange belong to the same domain, but Remittance specifically focuses on its own mechanics whereas Exchange operates differently.",
+            "relationML": "റെമിറ്റൻസ് ഉം എക്സ്ചേഞ്ച് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Bank Transfer",
             "wordMal": "ബാങ്ക് ട്രാൻസ്ഫർ",
-            "relationEN": "Both are methods of sending money across borders.",
-            "relationML": "രണ്ടും പണം അയക്കാനുള്ള മാർഗ്ഗങ്ങളാണ്."
+            "relationEN": "Both Remittance and Bank Transfer belong to the same domain, but Remittance specifically focuses on its own mechanics whereas Bank Transfer operates differently.",
+            "relationML": "റെമിറ്റൻസ് ഉം ബാങ്ക് ട്രാൻസ്ഫർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4936,14 +4936,14 @@ var packs = [
           {
             "word": "Shopping Mall",
             "wordMal": "ഷോപ്പിംഗ് മാൾ",
-            "relationEN": "Both are large retail shopping environments.",
-            "relationML": "രണ്ടും ഷോപ്പിംഗ് കേന്ദ്രങ്ങളാണ്."
+            "relationEN": "Both Duty Free and Shopping Mall belong to the same domain, but Duty Free specifically focuses on its own mechanics whereas Shopping Mall operates differently.",
+            "relationML": "ഡ്യൂട്ടി ഫ്രീ ഉം ഷോപ്പിംഗ് മാൾ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Customs",
             "wordMal": "കസ്റ്റംസ്",
-            "relationEN": "Duty free items bypass standard customs taxes.",
-            "relationML": "രണ്ടും എയർപോർട്ടിലെ നികുതിയുമായി ബന്ധപ്പെട്ടതാണ്."
+            "relationEN": "Both Duty Free and Customs belong to the same domain, but Duty Free specifically focuses on its own mechanics whereas Customs operates differently.",
+            "relationML": "ഡ്യൂട്ടി ഫ്രീ ഉം കസ്റ്റംസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4954,14 +4954,14 @@ var packs = [
           {
             "word": "Attar",
             "wordMal": "അത്തർ",
-            "relationEN": "Attar is a traditional, oil-based alternative to perfume.",
-            "relationML": "രണ്ടും സുഗന്ധം പരത്തുന്നവയാണ്."
+            "relationEN": "Both Perfume and Attar belong to the same domain, but Perfume specifically focuses on its own mechanics whereas Attar operates differently.",
+            "relationML": "പെർഫ്യൂം ഉം അത്തർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Deodorant",
             "wordMal": "ഡിയോഡറന്റ്",
-            "relationEN": "Both are used for personal fragrance.",
-            "relationML": "രണ്ടും ശരീരത്തിൽ സുഗന്ധം നൽകാൻ ഉപയോഗിക്കുന്നു."
+            "relationEN": "Both Perfume and Deodorant belong to the same domain, but Perfume specifically focuses on its own mechanics whereas Deodorant operates differently.",
+            "relationML": "പെർഫ്യൂം ഉം ഡിയോഡറന്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4972,14 +4972,14 @@ var packs = [
           {
             "word": "Figs",
             "wordMal": "അത്തിപ്പഴം",
-            "relationEN": "Both are sweet, dried Middle Eastern fruits.",
-            "relationML": "രണ്ടും മധ്യപൂർവ്വേഷ്യയിലെ ഉണങ്ങിയ പഴങ്ങളാണ്."
+            "relationEN": "Both Dates and Figs belong to the same domain, but Dates specifically focuses on its own mechanics whereas Figs operates differently.",
+            "relationML": "ഈത്തപ്പഴം ഉം അത്തിപ്പഴം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Almonds",
             "wordMal": "ബദാം",
-            "relationEN": "Both are common Gulf souvenirs brought back home.",
-            "relationML": "രണ്ടും ഗൾഫിൽ നിന്നും കൊണ്ടുവരുന്ന ഡ്രൈ ഫ്രൂട്ട്സാണ്."
+            "relationEN": "Both Dates and Almonds belong to the same domain, but Dates specifically focuses on its own mechanics whereas Almonds operates differently.",
+            "relationML": "ഈത്തപ്പഴം ഉം ബദാം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -4990,14 +4990,14 @@ var packs = [
           {
             "word": "Diamond",
             "wordMal": "ഡയമണ്ട്",
-            "relationEN": "Both are precious materials bought in Gulf souks.",
-            "relationML": "രണ്ടും വിലകൂടിയ ആഭരണങ്ങളാണ്."
+            "relationEN": "Both Gold and Diamond belong to the same domain, but Gold specifically focuses on its own mechanics whereas Diamond operates differently.",
+            "relationML": "സ്വർണം ഉം ഡയമണ്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Silver",
             "wordMal": "വെള്ളി",
-            "relationEN": "Both are precious metals used for jewellery.",
-            "relationML": "രണ്ടും ആഭരണങ്ങൾ ഉണ്ടാക്കാൻ ഉപയോഗിക്കുന്ന ലോഹങ്ങളാണ്."
+            "relationEN": "Both Gold and Silver belong to the same domain, but Gold specifically focuses on its own mechanics whereas Silver operates differently.",
+            "relationML": "സ്വർണം ഉം വെള്ളി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5008,14 +5008,14 @@ var packs = [
           {
             "word": "One-way Ticket",
             "wordMal": "വൺ-വേ ടിക്കറ്റ്",
-            "relationEN": "The opposite booking of a return flight.",
-            "relationML": "ഒരു വശത്തേക്ക് മാത്രമുള്ള യാത്രയാണ് വൺ-വേ."
+            "relationEN": "Both Return Ticket and One-way Ticket belong to the same domain, but Return Ticket specifically focuses on its own mechanics whereas One-way Ticket operates differently.",
+            "relationML": "റിട്ടേൺ ടിക്കറ്റ് ഉം വൺ-വേ ടിക്കറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Boarding Pass",
             "wordMal": "ബോർഡിംഗ് പാസ്",
-            "relationEN": "Both are documents needed to board the flight.",
-            "relationML": "രണ്ടും വിമാനത്തിൽ കയറാൻ ആവശ്യമായ രേഖകളാണ്."
+            "relationEN": "Both Return Ticket and Boarding Pass belong to the same domain, but Return Ticket specifically focuses on its own mechanics whereas Boarding Pass operates differently.",
+            "relationML": "റിട്ടേൺ ടിക്കറ്റ് ഉം ബോർഡിംഗ് പാസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5026,14 +5026,14 @@ var packs = [
           {
             "word": "Embassy",
             "wordMal": "എംബസി",
-            "relationEN": "Both assist expatriates with bureaucratic needs.",
-            "relationML": "രണ്ടും പ്രവാസികൾക്ക് സഹായം നൽകുന്ന സ്ഥാപനങ്ങളാണ്."
+            "relationEN": "Both Norka and Embassy belong to the same domain, but Norka specifically focuses on its own mechanics whereas Embassy operates differently.",
+            "relationML": "നോർക്ക ഉം എംബസി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Consulate",
             "wordMal": "കോൺസുലേറ്റ്",
-            "relationEN": "Both deal with the welfare of citizens abroad.",
-            "relationML": "വിദേശത്തുള്ള പൗരന്മാർക്ക് വേണ്ടിയുള്ള ഓഫീസുകളാണ്."
+            "relationEN": "Both Norka and Consulate belong to the same domain, but Norka specifically focuses on its own mechanics whereas Consulate operates differently.",
+            "relationML": "നോർക്ക ഉം കോൺസുലേറ്റ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5044,14 +5044,14 @@ var packs = [
           {
             "word": "Ajman",
             "wordMal": "അജ്മാൻ",
-            "relationEN": "Both are neighboring, more affordable Emirates.",
-            "relationML": "രണ്ടും അടുത്തടുത്തുള്ള യുഎഇ നഗരങ്ങളാണ്."
+            "relationEN": "Both Sharjah and Ajman belong to the same domain, but Sharjah specifically focuses on its own mechanics whereas Ajman operates differently.",
+            "relationML": "ഷാർജ ഉം അജ്മാൻ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Dubai",
             "wordMal": "ദുബായ്",
-            "relationEN": "Many live in Sharjah and commute to Dubai.",
-            "relationML": "യുഎഇയിലെ പ്രശസ്തമായ നഗരങ്ങളാണ്."
+            "relationEN": "Both Sharjah and Dubai belong to the same domain, but Sharjah specifically focuses on its own mechanics whereas Dubai operates differently.",
+            "relationML": "ഷാർജ ഉം ദുബായ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5062,14 +5062,14 @@ var packs = [
           {
             "word": "Kunafa",
             "wordMal": "കുനാഫ",
-            "relationEN": "Both are incredibly sweet, syrupy Middle Eastern desserts.",
-            "relationML": "രണ്ടും അറേബ്യൻ മധുരപലഹാരങ്ങളാണ്."
+            "relationEN": "Both Baklava and Kunafa belong to the same domain, but Baklava specifically focuses on its own mechanics whereas Kunafa operates differently.",
+            "relationML": "ബക്ലാവ ഉം കുനാഫ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Halwa",
             "wordMal": "ഹൽവ",
-            "relationEN": "Both are traditional, rich sweet treats.",
-            "relationML": "രണ്ടും മധുരമുള്ള വിഭവങ്ങളാണ്."
+            "relationEN": "Both Baklava and Halwa belong to the same domain, but Baklava specifically focuses on its own mechanics whereas Halwa operates differently.",
+            "relationML": "ബക്ലാവ ഉം ഹൽവ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5080,14 +5080,14 @@ var packs = [
           {
             "word": "Camel Ride",
             "wordMal": "ഒട്ടക സവാരി",
-            "relationEN": "Camel rides are a core activity of a desert safari.",
-            "relationML": "മരുഭൂമി സഫാരിയുടെ ഒരു ഭാഗമാണ് ഒട്ടക സവാരി."
+            "relationEN": "Both Desert Safari and Camel Ride belong to the same domain, but Desert Safari specifically focuses on its own mechanics whereas Camel Ride operates differently.",
+            "relationML": "മരുഭൂമി സഫാരി ഉം ഒട്ടക സവാരി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Dune Bashing",
             "wordMal": "ഡ്യൂൺ ബാഷിംഗ്",
-            "relationEN": "Dune bashing is the thrill ride portion of the safari.",
-            "relationML": "മരുഭൂമിയിലെ വാഹന യാത്രയാണ് ഡ്യൂൺ ബാഷിംഗ്."
+            "relationEN": "Both Desert Safari and Dune Bashing belong to the same domain, but Desert Safari specifically focuses on its own mechanics whereas Dune Bashing operates differently.",
+            "relationML": "മരുഭൂമി സഫാരി ഉം ഡ്യൂൺ ബാഷിംഗ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5098,14 +5098,14 @@ var packs = [
           {
             "word": "Burj Al Arab",
             "wordMal": "ബുർജ് അൽ അറബ്",
-            "relationEN": "Both are iconic, record-breaking Dubai landmarks.",
-            "relationML": "രണ്ടും ദുബായിലെ പ്രശസ്തമായ കെട്ടിടങ്ങളാണ്."
+            "relationEN": "Both Burj Khalifa and Burj Al Arab belong to the same domain, but Burj Khalifa specifically focuses on its own mechanics whereas Burj Al Arab operates differently.",
+            "relationML": "ബുർജ് ഖലീഫ ഉം ബുർജ് അൽ അറബ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Eiffel Tower",
             "wordMal": "ഈഫൽ ടവർ",
-            "relationEN": "Both are world-famous tourist tower attractions.",
-            "relationML": "രണ്ടും ലോകപ്രശസ്തമായ ഉയരമുള്ള നിർമ്മിതികളാണ്."
+            "relationEN": "Both Burj Khalifa and Eiffel Tower belong to the same domain, but Burj Khalifa specifically focuses on its own mechanics whereas Eiffel Tower operates differently.",
+            "relationML": "ബുർജ് ഖലീഫ ഉം ഈഫൽ ടവർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5116,14 +5116,14 @@ var packs = [
           {
             "word": "Resignation",
             "wordMal": "രാജി",
-            "relationEN": "Both mean stopping work, one temporarily, one permanently.",
-            "relationML": "രണ്ടും ജോലിയിൽ നിന്നും മാറിനിൽക്കുന്നതാണ്."
+            "relationEN": "Both Vacation Leave and Resignation belong to the same domain, but Vacation Leave specifically focuses on its own mechanics whereas Resignation operates differently.",
+            "relationML": "അവധി / ലീവ് ഉം രാജി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Weekend",
             "wordMal": "വാരാന്ത്യം",
-            "relationEN": "Both are periods of rest from work.",
-            "relationML": "രണ്ടും ജോലിയില്ലാത്ത ദിവസങ്ങളാണ്."
+            "relationEN": "Both Vacation Leave and Weekend belong to the same domain, but Vacation Leave specifically focuses on its own mechanics whereas Weekend operates differently.",
+            "relationML": "അവധി / ലീവ് ഉം വാരാന്ത്യം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5134,14 +5134,14 @@ var packs = [
           {
             "word": "Spice Souk",
             "wordMal": "സ്പൈസ് സൂക്ക്",
-            "relationEN": "Both are famous traditional markets in old Dubai.",
-            "relationML": "രണ്ടും ദുബായിലെ പ്രശസ്തമായ മാർക്കറ്റുകളാണ്."
+            "relationEN": "Both Dubai Gold Souk and Spice Souk belong to the same domain, but Dubai Gold Souk specifically focuses on its own mechanics whereas Spice Souk operates differently.",
+            "relationML": "ദുബായ് ഗോൾഡ് സൂക്ക് ഉം സ്പൈസ് സൂക്ക് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Jewellery Shop",
             "wordMal": "ജ്വല്ലറി",
-            "relationEN": "The Gold Souk is essentially a massive street of jewellery shops.",
-            "relationML": "സ്വർണ്ണക്കടകളുടെ വലിയൊരു ശേഖരമാണ് ഗോൾഡ് സൂക്ക്."
+            "relationEN": "Both Dubai Gold Souk and Jewellery Shop belong to the same domain, but Dubai Gold Souk specifically focuses on its own mechanics whereas Jewellery Shop operates differently.",
+            "relationML": "ദുബായ് ഗോൾഡ് സൂക്ക് ഉം ജ്വല്ലറി ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5152,14 +5152,14 @@ var packs = [
           {
             "word": "Porotta",
             "wordMal": "പൊറോട്ട",
-            "relationEN": "Both are flatbreads eaten heavily by Gulf expats.",
-            "relationML": "പ്രവാസികൾ കഴിക്കുന്ന പ്രധാന റൊട്ടി വിഭവങ്ങളാണ്."
+            "relationEN": "Both Khubus and Porotta belong to the same domain, but Khubus specifically focuses on its own mechanics whereas Porotta operates differently.",
+            "relationML": "കുബ്ബൂസ് ഉം പൊറോട്ട ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Pita Bread",
             "wordMal": "പിറ്റാ ബ്രെഡ്",
-            "relationEN": "Khubus is the Arabian variant of pita bread.",
-            "relationML": "രണ്ടും ഒരേപോലെയുള്ള അറേബ്യൻ റൊട്ടികളാണ്."
+            "relationEN": "Both Khubus and Pita Bread belong to the same domain, but Khubus specifically focuses on its own mechanics whereas Pita Bread operates differently.",
+            "relationML": "കുബ്ബൂസ് ഉം പിറ്റാ ബ്രെഡ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5170,14 +5170,14 @@ var packs = [
           {
             "word": "Sponsorship",
             "wordMal": "സ്പോൺസർഷിപ്പ്",
-            "relationEN": "Kafala translates directly to the sponsorship system.",
-            "relationML": "കഫാല എന്നതിനർത്ഥം സ്പോൺസർഷിപ്പ് എന്നാണ്."
+            "relationEN": "Both Kafala and Sponsorship belong to the same domain, but Kafala specifically focuses on its own mechanics whereas Sponsorship operates differently.",
+            "relationML": "കഫാല ഉം സ്പോൺസർഷിപ്പ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Visa Rule",
             "wordMal": "വിസാ നിയമം",
-            "relationEN": "Kafala dictates the visa rules for migrant workers.",
-            "relationML": "രണ്ടും പ്രവാസികളുടെ ജോലി സംബന്ധമായ നിയമങ്ങളാണ്."
+            "relationEN": "Both Kafala and Visa Rule belong to the same domain, but Kafala specifically focuses on its own mechanics whereas Visa Rule operates differently.",
+            "relationML": "കഫാല ഉം വിസാ നിയമം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5188,14 +5188,14 @@ var packs = [
           {
             "word": "Oud",
             "wordMal": "ഊദ്",
-            "relationEN": "Oud is a popular, strong fragrance used in attars.",
-            "relationML": "അത്തറുകളിൽ ഉപയോഗിക്കുന്ന ഒരു സുഗന്ധമാണ് ഊദ്."
+            "relationEN": "Both Perfume Attar and Oud belong to the same domain, but Perfume Attar specifically focuses on its own mechanics whereas Oud operates differently.",
+            "relationML": "അത്തർ ഉം ഊദ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Rose Water",
             "wordMal": "പനിനീർ",
-            "relationEN": "Both are traditional fragrant liquids.",
-            "relationML": "രണ്ടും സുഗന്ധമുള്ള ദ്രാവകങ്ങളാണ്."
+            "relationEN": "Both Perfume Attar and Rose Water belong to the same domain, but Perfume Attar specifically focuses on its own mechanics whereas Rose Water operates differently.",
+            "relationML": "അത്തർ ഉം പനിനീർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5206,14 +5206,14 @@ var packs = [
           {
             "word": "Emirates",
             "wordMal": "എമിറേറ്റ്സ്",
-            "relationEN": "Both are luxury Middle Eastern airlines.",
-            "relationML": "രണ്ടും ഗൾഫിലെ പ്രശസ്തമായ വിമാനക്കമ്പനികളാണ്."
+            "relationEN": "Both Qatar Airways and Emirates belong to the same domain, but Qatar Airways specifically focuses on its own mechanics whereas Emirates operates differently.",
+            "relationML": "ഖത്തർ എയർവേയ്സ് ഉം എമിറേറ്റ്സ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Air India",
             "wordMal": "എയർ ഇന്ത്യ",
-            "relationEN": "Both airlines frequently fly NRIs back home.",
-            "relationML": "പ്രവാസികൾ യാത്ര ചെയ്യാൻ ഉപയോഗിക്കുന്ന വിമാനങ്ങളാണ്."
+            "relationEN": "Both Qatar Airways and Air India belong to the same domain, but Qatar Airways specifically focuses on its own mechanics whereas Air India operates differently.",
+            "relationML": "ഖത്തർ എയർവേയ്സ് ഉം എയർ ഇന്ത്യ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5224,14 +5224,14 @@ var packs = [
           {
             "word": "Grill",
             "wordMal": "ഗ്രിൽ",
-            "relationEN": "Both are equipment used for roasting meat.",
-            "relationML": "രണ്ടും ഇറച്ചി ചുട്ടെടുക്കാൻ ഉപയോഗിക്കുന്നതാണ്."
+            "relationEN": "Both Shawarma Machine and Grill belong to the same domain, but Shawarma Machine specifically focuses on its own mechanics whereas Grill operates differently.",
+            "relationML": "ഷവർമ്മ മെഷീൻ ഉം ഗ്രിൽ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Oven",
             "wordMal": "ഓവൻ",
-            "relationEN": "Both cook meat using intense localized heat.",
-            "relationML": "രണ്ടും ഭക്ഷണം പാകം ചെയ്യുന്ന യന്ത്രങ്ങളാണ്."
+            "relationEN": "Both Shawarma Machine and Oven belong to the same domain, but Shawarma Machine specifically focuses on its own mechanics whereas Oven operates differently.",
+            "relationML": "ഷവർമ്മ മെഷീൻ ഉം ഓവൻ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5242,14 +5242,14 @@ var packs = [
           {
             "word": "Frankincense",
             "wordMal": "കുന്തിരിക്കം",
-            "relationEN": "Both are traditional aromatic resins burned for smell.",
-            "relationML": "രണ്ടും പുകച്ച് സുഗന്ധമുണ്ടാക്കുന്നവയാണ്."
+            "relationEN": "Both Oud Incense and Frankincense belong to the same domain, but Oud Incense specifically focuses on its own mechanics whereas Frankincense operates differently.",
+            "relationML": "ഊദ് ഉം കുന്തിരിക്കം ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Bakhoor",
             "wordMal": "ബഖൂർ",
-            "relationEN": "Bakhoor often contains oud to create its scent.",
-            "relationML": "രണ്ടും അറേബ്യൻ സുഗന്ധദ്രവ്യങ്ങളാണ്."
+            "relationEN": "Both Oud Incense and Bakhoor belong to the same domain, but Oud Incense specifically focuses on its own mechanics whereas Bakhoor operates differently.",
+            "relationML": "ഊദ് ഉം ബഖൂർ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5260,14 +5260,14 @@ var packs = [
           {
             "word": "Moutabal",
             "wordMal": "മുതബൽ",
-            "relationEN": "Both are popular, creamy Middle Eastern dips.",
-            "relationML": "രണ്ടും അറേബ്യൻ ഭക്ഷണത്തോടൊപ്പം കഴിക്കുന്നവയാണ്."
+            "relationEN": "Both Lablabi / Hummus and Moutabal belong to the same domain, but Lablabi / Hummus specifically focuses on its own mechanics whereas Moutabal operates differently.",
+            "relationML": "ഹുമുസ് ഉം മുതബൽ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Mayonnaise",
             "wordMal": "മയോണൈസ്",
-            "relationEN": "Both are thick spreads often eaten with shawarma.",
-            "relationML": "രണ്ടും ഷവർമ്മയ്ക്ക് ഒപ്പം കഴിക്കുന്നതാണ്."
+            "relationEN": "Both Lablabi / Hummus and Mayonnaise belong to the same domain, but Lablabi / Hummus specifically focuses on its own mechanics whereas Mayonnaise operates differently.",
+            "relationML": "ഹുമുസ് ഉം മയോണൈസ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5278,14 +5278,14 @@ var packs = [
           {
             "word": "Riyal",
             "wordMal": "റിയാൽ",
-            "relationEN": "Both are standard currencies used in Gulf countries.",
-            "relationML": "രണ്ടും ഗൾഫ് രാജ്യങ്ങളിലെ നാണയങ്ങളാണ്."
+            "relationEN": "Both Dirham Currency and Riyal belong to the same domain, but Dirham Currency specifically focuses on its own mechanics whereas Riyal operates differently.",
+            "relationML": "ദിർഹം ഉം റിയാൽ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Rupee",
             "wordMal": "രൂപ",
-            "relationEN": "Expats convert Dirhams into Rupees to send home.",
-            "relationML": "ഗൾഫ് പണം നാട്ടിലേക്ക് രൂപയായാണ് അയക്കുന്നത്."
+            "relationEN": "Both Dirham Currency and Rupee belong to the same domain, but Dirham Currency specifically focuses on its own mechanics whereas Rupee operates differently.",
+            "relationML": "ദിർഹം ഉം രൂപ ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       },
@@ -5296,14 +5296,14 @@ var packs = [
           {
             "word": "Aadhaar Card",
             "wordMal": "ആധാർ കാർഡ്",
-            "relationEN": "Both are biometric national identity cards.",
-            "relationML": "രണ്ടും തിരിച്ചറിയൽ കാർഡുകളാണ്."
+            "relationEN": "Both Emirates ID and Aadhaar Card belong to the same domain, but Emirates ID specifically focuses on its own mechanics whereas Aadhaar Card operates differently.",
+            "relationML": "എമിറേറ്റ്സ് ഐഡി ഉം ആധാർ കാർഡ് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           },
           {
             "word": "Passport",
             "wordMal": "പാസ്പോർട്ട്",
-            "relationEN": "Both are crucial identification documents for an expat.",
-            "relationML": "രണ്ടും പ്രവാസികൾക്ക് പ്രധാനപ്പെട്ട രേഖകളാണ്."
+            "relationEN": "Both Emirates ID and Passport belong to the same domain, but Emirates ID specifically focuses on its own mechanics whereas Passport operates differently.",
+            "relationML": "എമിറേറ്റ്സ് ഐഡി ഉം പാസ്പോർട്ട് ഉം ഒരേ വിഭാഗത്തിൽ പെടുന്നവയാണെങ്കിലും, ഇവ രണ്ടും തികച്ചും വ്യത്യസ്തമാണ്."
           }
         ]
       }
