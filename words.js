@@ -1,6 +1,6 @@
 if (typeof window === 'undefined') { global.window = {}; }
 
-const packs = [
+var packs = [
   {
     "id": "funny",
     "name": "Funny Malayalam",
