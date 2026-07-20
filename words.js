@@ -986,16 +986,16 @@ var packs = [
         "civWordMal": "മുണ്ട്",
         "imposters": [
           {
-            "word": "Mundu Type",
-            "wordMal": "മുണ്ട് തരം",
-            "relationEN": "Both Mundu and Mundu Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുണ്ട് ഉം മുണ്ട് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Lungi",
+            "wordMal": "ലുങ്കി",
+            "relationEN": "Both Mundu and Lungi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുണ്ട് ഉം ലുങ്കി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Mundu",
-            "wordMal": "വ്യാജ മുണ്ട്",
-            "relationEN": "Fake Mundu shares many characteristics with Mundu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മുണ്ട് ഉം വ്യാജ മുണ്ട് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Lungi",
+            "wordMal": "ലുങ്കി",
+            "relationEN": "Both Mundu and Lungi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുണ്ട് ഉം ലുങ്കി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1004,16 +1004,16 @@ var packs = [
         "civWordMal": "കസവ് സാരി",
         "imposters": [
           {
-            "word": "Kasavu Saree Type",
-            "wordMal": "കസവ് സാരി തരം",
-            "relationEN": "Both Kasavu Saree and Kasavu Saree Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കസവ് സാരി ഉം കസവ് സാരി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Pattu Saree",
+            "wordMal": "പട്ടു സാരി",
+            "relationEN": "Both Kasavu Saree and Pattu Saree are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കസവ് സാരി ഉം പട്ടു സാരി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kasavu Saree",
-            "wordMal": "വ്യാജ കസവ് സാരി",
-            "relationEN": "Fake Kasavu Saree shares many characteristics with Kasavu Saree, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കസവ് സാരി ഉം വ്യാജ കസവ് സാരി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Pattu Saree",
+            "wordMal": "പട്ടു സാരി",
+            "relationEN": "Both Kasavu Saree and Pattu Saree are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കസവ് സാരി ഉം പട്ടു സാരി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1022,16 +1022,16 @@ var packs = [
         "civWordMal": "ചിരവ",
         "imposters": [
           {
-            "word": "Chirava Type",
-            "wordMal": "ചിരവ തരം",
-            "relationEN": "Both Chirava and Chirava Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചിരവ ഉം ചിരവ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Arival",
+            "wordMal": "അരിവാൾ",
+            "relationEN": "Both Chirava and Arival are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചിരവ ഉം അരിവാൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Chirava",
-            "wordMal": "വ്യാജ ചിരവ",
-            "relationEN": "Fake Chirava shares many characteristics with Chirava, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചിരവ ഉം വ്യാജ ചിരവ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Arival",
+            "wordMal": "അരിവാൾ",
+            "relationEN": "Both Chirava and Arival are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചിരവ ഉം അരിവാൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1040,16 +1040,16 @@ var packs = [
         "civWordMal": "പാത്രം",
         "imposters": [
           {
-            "word": "Paathram Type",
-            "wordMal": "പാത്രം തരം",
-            "relationEN": "Both Paathram and Paathram Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പാത്രം ഉം പാത്രം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kindi",
+            "wordMal": "കിണ്ടി",
+            "relationEN": "Both Paathram and Kindi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പാത്രം ഉം കിണ്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Paathram",
-            "wordMal": "വ്യാജ പാത്രം",
-            "relationEN": "Fake Paathram shares many characteristics with Paathram, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പാത്രം ഉം വ്യാജ പാത്രം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kindi",
+            "wordMal": "കിണ്ടി",
+            "relationEN": "Both Paathram and Kindi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പാത്രം ഉം കിണ്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1058,16 +1058,16 @@ var packs = [
         "civWordMal": "പുട്ടുകുറ്റി",
         "imposters": [
           {
-            "word": "Puttu Kutti Type",
-            "wordMal": "പുട്ടുകുറ്റി തരം",
-            "relationEN": "Both Puttu Kutti and Puttu Kutti Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പുട്ടുകുറ്റി ഉം പുട്ടുകുറ്റി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Idiyappam Maker",
+            "wordMal": "ഇടിയപ്പം മേക്കർ",
+            "relationEN": "Both Puttu Kutti and Idiyappam Maker are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പുട്ടുകുറ്റി ഉം ഇടിയപ്പം മേക്കർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Puttu Kutti",
-            "wordMal": "വ്യാജ പുട്ടുകുറ്റി",
-            "relationEN": "Fake Puttu Kutti shares many characteristics with Puttu Kutti, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പുട്ടുകുറ്റി ഉം വ്യാജ പുട്ടുകുറ്റി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Idiyappam Maker",
+            "wordMal": "ഇടിയപ്പം മേക്കർ",
+            "relationEN": "Both Puttu Kutti and Idiyappam Maker are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പുട്ടുകുറ്റി ഉം ഇടിയപ്പം മേക്കർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1076,16 +1076,16 @@ var packs = [
         "civWordMal": "വാൽക്കണ്ണാടി",
         "imposters": [
           {
-            "word": "Vaal Kannadi Type",
-            "wordMal": "വാൽക്കണ്ണാടി തരം",
-            "relationEN": "Both Vaal Kannadi and Vaal Kannadi Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാൽക്കണ്ണാടി ഉം വാൽക്കണ്ണാടി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Nilavilakku",
+            "wordMal": "നിലവിളക്ക്",
+            "relationEN": "Both Vaal Kannadi and Nilavilakku are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാൽക്കണ്ണാടി ഉം നിലവിളക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Vaal Kannadi",
-            "wordMal": "വ്യാജ വാൽക്കണ്ണാടി",
-            "relationEN": "Fake Vaal Kannadi shares many characteristics with Vaal Kannadi, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ വാൽക്കണ്ണാടി ഉം വ്യാജ വാൽക്കണ്ണാടി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Nilavilakku",
+            "wordMal": "നിലവിളക്ക്",
+            "relationEN": "Both Vaal Kannadi and Nilavilakku are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാൽക്കണ്ണാടി ഉം നിലവിളക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1094,16 +1094,16 @@ var packs = [
         "civWordMal": "കലം",
         "imposters": [
           {
-            "word": "Kalam Type",
-            "wordMal": "കലം തരം",
-            "relationEN": "Both Kalam and Kalam Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കലം ഉം കലം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Bharani",
+            "wordMal": "ഭരണി",
+            "relationEN": "Both Kalam and Bharani are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കലം ഉം ഭരണി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kalam",
-            "wordMal": "വ്യാജ കലം",
-            "relationEN": "Fake Kalam shares many characteristics with Kalam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കലം ഉം വ്യാജ കലം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Bharani",
+            "wordMal": "ഭരണി",
+            "relationEN": "Both Kalam and Bharani are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കലം ഉം ഭരണി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1112,16 +1112,16 @@ var packs = [
         "civWordMal": "ചീനച്ചട്ടി",
         "imposters": [
           {
-            "word": "Cheenachatti Type",
-            "wordMal": "ചീനച്ചട്ടി തരം",
-            "relationEN": "Both Cheenachatti and Cheenachatti Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചീനച്ചട്ടി ഉം ചീനച്ചട്ടി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Dosa Kallu",
+            "wordMal": "ദോശ കല്ല്",
+            "relationEN": "Both Cheenachatti and Dosa Kallu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചീനച്ചട്ടി ഉം ദോശ കല്ല് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Cheenachatti",
-            "wordMal": "വ്യാജ ചീനച്ചട്ടി",
-            "relationEN": "Fake Cheenachatti shares many characteristics with Cheenachatti, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചീനച്ചട്ടി ഉം വ്യാജ ചീനച്ചട്ടി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Dosa Kallu",
+            "wordMal": "ദോശ കല്ല്",
+            "relationEN": "Both Cheenachatti and Dosa Kallu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചീനച്ചട്ടി ഉം ദോശ കല്ല് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1130,16 +1130,16 @@ var packs = [
         "civWordMal": "കെറ്റിൽ",
         "imposters": [
           {
-            "word": "Kettle Type",
-            "wordMal": "കെറ്റിൽ തരം",
-            "relationEN": "Both Kettle and Kettle Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെറ്റിൽ ഉം കെറ്റിൽ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Thermos",
+            "wordMal": "തെർമോസ്",
+            "relationEN": "Both Kettle and Thermos are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെറ്റിൽ ഉം തെർമോസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kettle",
-            "wordMal": "വ്യാജ കെറ്റിൽ",
-            "relationEN": "Fake Kettle shares many characteristics with Kettle, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കെറ്റിൽ ഉം വ്യാജ കെറ്റിൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Thermos",
+            "wordMal": "തെർമോസ്",
+            "relationEN": "Both Kettle and Thermos are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെറ്റിൽ ഉം തെർമോസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1148,16 +1148,16 @@ var packs = [
         "civWordMal": "ഭരണി",
         "imposters": [
           {
-            "word": "Bharani Type",
-            "wordMal": "ഭരണി തരം",
-            "relationEN": "Both Bharani and Bharani Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഭരണി ഉം ഭരണി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kalam",
+            "wordMal": "കലം",
+            "relationEN": "Both Bharani and Kalam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഭരണി ഉം കലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Bharani",
-            "wordMal": "വ്യാജ ഭരണി",
-            "relationEN": "Fake Bharani shares many characteristics with Bharani, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഭരണി ഉം വ്യാജ ഭരണി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kalam",
+            "wordMal": "കലം",
+            "relationEN": "Both Bharani and Kalam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഭരണി ഉം കലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1166,16 +1166,16 @@ var packs = [
         "civWordMal": "കട്ടിൽ",
         "imposters": [
           {
-            "word": "Kattil Type",
-            "wordMal": "കട്ടിൽ തരം",
-            "relationEN": "Both Kattil and Kattil Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കട്ടിൽ ഉം കട്ടിൽ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Metha",
+            "wordMal": "മെത്ത",
+            "relationEN": "Both Kattil and Metha are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കട്ടിൽ ഉം മെത്ത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kattil",
-            "wordMal": "വ്യാജ കട്ടിൽ",
-            "relationEN": "Fake Kattil shares many characteristics with Kattil, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കട്ടിൽ ഉം വ്യാജ കട്ടിൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Metha",
+            "wordMal": "മെത്ത",
+            "relationEN": "Both Kattil and Metha are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കട്ടിൽ ഉം മെത്ത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1184,16 +1184,16 @@ var packs = [
         "civWordMal": "ഊഞ്ഞാൽ",
         "imposters": [
           {
-            "word": "Oonjal Type",
-            "wordMal": "ഊഞ്ഞാൽ തരം",
-            "relationEN": "Both Oonjal and Oonjal Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഊഞ്ഞാൽ ഉം ഊഞ്ഞാൽ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Sliding Board",
+            "wordMal": "സ്ലൈഡിംഗ് ബോർഡ്",
+            "relationEN": "Both Oonjal and Sliding Board are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഊഞ്ഞാൽ ഉം സ്ലൈഡിംഗ് ബോർഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Oonjal",
-            "wordMal": "വ്യാജ ഊഞ്ഞാൽ",
-            "relationEN": "Fake Oonjal shares many characteristics with Oonjal, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഊഞ്ഞാൽ ഉം വ്യാജ ഊഞ്ഞാൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Sliding Board",
+            "wordMal": "സ്ലൈഡിംഗ് ബോർഡ്",
+            "relationEN": "Both Oonjal and Sliding Board are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഊഞ്ഞാൽ ഉം സ്ലൈഡിംഗ് ബോർഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1202,16 +1202,16 @@ var packs = [
         "civWordMal": "ചട്ടുക്ക",
         "imposters": [
           {
-            "word": "Chattuvam Type",
-            "wordMal": "ചട്ടുക്ക തരം",
-            "relationEN": "Both Chattuvam and Chattuvam Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചട്ടുക്ക ഉം ചട്ടുക്ക തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Thavi",
+            "wordMal": "തവി",
+            "relationEN": "Both Chattuvam and Thavi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചട്ടുക്ക ഉം തവി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Chattuvam",
-            "wordMal": "വ്യാജ ചട്ടുക്ക",
-            "relationEN": "Fake Chattuvam shares many characteristics with Chattuvam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചട്ടുക്ക ഉം വ്യാജ ചട്ടുക്ക ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Thavi",
+            "wordMal": "തവി",
+            "relationEN": "Both Chattuvam and Thavi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചട്ടുക്ക ഉം തവി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1220,16 +1220,16 @@ var packs = [
         "civWordMal": "പായ",
         "imposters": [
           {
-            "word": "Paya Type",
-            "wordMal": "പായ തരം",
-            "relationEN": "Both Paya and Paya Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പായ ഉം പായ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Metha",
+            "wordMal": "മെത്ത",
+            "relationEN": "Both Paya and Metha are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പായ ഉം മെത്ത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Paya",
-            "wordMal": "വ്യാജ പായ",
-            "relationEN": "Fake Paya shares many characteristics with Paya, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പായ ഉം വ്യാജ പായ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Metha",
+            "wordMal": "മെത്ത",
+            "relationEN": "Both Paya and Metha are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പായ ഉം മെത്ത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1238,16 +1238,16 @@ var packs = [
         "civWordMal": "തിരി",
         "imposters": [
           {
-            "word": "Thiri Type",
-            "wordMal": "തിരി തരം",
-            "relationEN": "Both Thiri and Thiri Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തിരി ഉം തിരി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Mezhukuthiri",
+            "wordMal": "മെഴുകുതിരി",
+            "relationEN": "Both Thiri and Mezhukuthiri are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തിരി ഉം മെഴുകുതിരി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Thiri",
-            "wordMal": "വ്യാജ തിരി",
-            "relationEN": "Fake Thiri shares many characteristics with Thiri, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ തിരി ഉം വ്യാജ തിരി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Mezhukuthiri",
+            "wordMal": "മെഴുകുതിരി",
+            "relationEN": "Both Thiri and Mezhukuthiri are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തിരി ഉം മെഴുകുതിരി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1256,16 +1256,16 @@ var packs = [
         "civWordMal": "ഓട്ടുപാത്രം",
         "imposters": [
           {
-            "word": "Kindu Brass Type",
-            "wordMal": "ഓട്ടുപാത്രം തരം",
-            "relationEN": "Both Kindu Brass and Kindu Brass Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടുപാത്രം ഉം ഓട്ടുപാത്രം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Nilavilakku",
+            "wordMal": "നിലവിളക്ക്",
+            "relationEN": "Both Kindu Brass and Nilavilakku are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടുപാത്രം ഉം നിലവിളക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kindu Brass",
-            "wordMal": "വ്യാജ ഓട്ടുപാത്രം",
-            "relationEN": "Fake Kindu Brass shares many characteristics with Kindu Brass, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഓട്ടുപാത്രം ഉം വ്യാജ ഓട്ടുപാത്രം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Nilavilakku",
+            "wordMal": "നിലവിളക്ക്",
+            "relationEN": "Both Kindu Brass and Nilavilakku are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടുപാത്രം ഉം നിലവിളക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1274,16 +1274,16 @@ var packs = [
         "civWordMal": "അളവുപാത്രം",
         "imposters": [
           {
-            "word": "Alavu Para Type",
-            "wordMal": "അളവുപാത്രം തരം",
-            "relationEN": "Both Alavu Para and Alavu Para Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അളവുപാത്രം ഉം അളവുപാത്രം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Idangazhi",
+            "wordMal": "ഇടനാഴി",
+            "relationEN": "Both Alavu Para and Idangazhi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അളവുപാത്രം ഉം ഇടനാഴി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Alavu Para",
-            "wordMal": "വ്യാജ അളവുപാത്രം",
-            "relationEN": "Fake Alavu Para shares many characteristics with Alavu Para, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ അളവുപാത്രം ഉം വ്യാജ അളവുപാത്രം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Idangazhi",
+            "wordMal": "ഇടനാഴി",
+            "relationEN": "Both Alavu Para and Idangazhi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അളവുപാത്രം ഉം ഇടനാഴി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1292,16 +1292,16 @@ var packs = [
         "civWordMal": "വാൽക്കിണ്ടി",
         "imposters": [
           {
-            "word": "Kindu Vessel Type",
-            "wordMal": "വാൽക്കിണ്ടി തരം",
-            "relationEN": "Both Kindu Vessel and Kindu Vessel Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാൽക്കിണ്ടി ഉം വാൽക്കിണ്ടി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kindi",
+            "wordMal": "കിണ്ടി",
+            "relationEN": "Both Kindu Vessel and Kindi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാൽക്കിണ്ടി ഉം കിണ്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kindu Vessel",
-            "wordMal": "വ്യാജ വാൽക്കിണ്ടി",
-            "relationEN": "Fake Kindu Vessel shares many characteristics with Kindu Vessel, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ വാൽക്കിണ്ടി ഉം വ്യാജ വാൽക്കിണ്ടി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kindi",
+            "wordMal": "കിണ്ടി",
+            "relationEN": "Both Kindu Vessel and Kindi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാൽക്കിണ്ടി ഉം കിണ്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1310,16 +1310,16 @@ var packs = [
         "civWordMal": "ചപ്പാത്തി കല്ല്",
         "imposters": [
           {
-            "word": "Chappathi Kallu Type",
-            "wordMal": "ചപ്പാത്തി കല്ല് തരം",
-            "relationEN": "Both Chappathi Kallu and Chappathi Kallu Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചപ്പാത്തി കല്ല് ഉം ചപ്പാത്തി കല്ല് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Ammikkallu",
+            "wordMal": "അമ്മിക്കല്ല്",
+            "relationEN": "Both Chappathi Kallu and Ammikkallu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചപ്പാത്തി കല്ല് ഉം അമ്മിക്കല്ല് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Chappathi Kallu",
-            "wordMal": "വ്യാജ ചപ്പാത്തി കല്ല്",
-            "relationEN": "Fake Chappathi Kallu shares many characteristics with Chappathi Kallu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചപ്പാത്തി കല്ല് ഉം വ്യാജ ചപ്പാത്തി കല്ല് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Ammikkallu",
+            "wordMal": "അമ്മിക്കല്ല്",
+            "relationEN": "Both Chappathi Kallu and Ammikkallu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചപ്പാത്തി കല്ല് ഉം അമ്മിക്കല്ല് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1328,16 +1328,16 @@ var packs = [
         "civWordMal": "അരിപ്പ",
         "imposters": [
           {
-            "word": "Arippa Type",
-            "wordMal": "അരിപ്പ തരം",
-            "relationEN": "Both Arippa and Arippa Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അരിപ്പ ഉം അരിപ്പ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Filter",
+            "wordMal": "ഫിൽറ്റർ",
+            "relationEN": "Both Arippa and Filter are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അരിപ്പ ഉം ഫിൽറ്റർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Arippa",
-            "wordMal": "വ്യാജ അരിപ്പ",
-            "relationEN": "Fake Arippa shares many characteristics with Arippa, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ അരിപ്പ ഉം വ്യാജ അരിപ്പ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Filter",
+            "wordMal": "ഫിൽറ്റർ",
+            "relationEN": "Both Arippa and Filter are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അരിപ്പ ഉം ഫിൽറ്റർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1346,16 +1346,16 @@ var packs = [
         "civWordMal": "ചൂട്ട്",
         "imposters": [
           {
-            "word": "Choottu Type",
-            "wordMal": "ചൂട്ട് തരം",
-            "relationEN": "Both Choottu and Choottu Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചൂട്ട് ഉം ചൂട്ട് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Pantham",
+            "wordMal": "പന്തം",
+            "relationEN": "Both Choottu and Pantham are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചൂട്ട് ഉം പന്തം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Choottu",
-            "wordMal": "വ്യാജ ചൂട്ട്",
-            "relationEN": "Fake Choottu shares many characteristics with Choottu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചൂട്ട് ഉം വ്യാജ ചൂട്ട് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Pantham",
+            "wordMal": "പന്തം",
+            "relationEN": "Both Choottu and Pantham are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചൂട്ട് ഉം പന്തം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1364,16 +1364,16 @@ var packs = [
         "civWordMal": "മടൽ",
         "imposters": [
           {
-            "word": "Madaal Type",
-            "wordMal": "മടൽ തരം",
-            "relationEN": "Both Madaal and Madaal Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മടൽ ഉം മടൽ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Thengu",
+            "wordMal": "തെങ്ങ്",
+            "relationEN": "Both Madaal and Thengu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മടൽ ഉം തെങ്ങ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Madaal",
-            "wordMal": "വ്യാജ മടൽ",
-            "relationEN": "Fake Madaal shares many characteristics with Madaal, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മടൽ ഉം വ്യാജ മടൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Thengu",
+            "wordMal": "തെങ്ങ്",
+            "relationEN": "Both Madaal and Thengu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മടൽ ഉം തെങ്ങ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       }
@@ -1389,16 +1389,16 @@ var packs = [
         "civWordMal": "മോഹൻലാൽ",
         "imposters": [
           {
-            "word": "Mohanlal Type",
-            "wordMal": "മോഹൻലാൽ തരം",
-            "relationEN": "Both Mohanlal and Mohanlal Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മോഹൻലാൽ ഉം മോഹൻലാൽ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Mammootty",
+            "wordMal": "മമ്മൂട്ടി",
+            "relationEN": "Both Mohanlal and Mammootty are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മോഹൻലാൽ ഉം മമ്മൂട്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Mohanlal",
-            "wordMal": "വ്യാജ മോഹൻലാൽ",
-            "relationEN": "Fake Mohanlal shares many characteristics with Mohanlal, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മോഹൻലാൽ ഉം വ്യാജ മോഹൻലാൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Mammootty",
+            "wordMal": "മമ്മൂട്ടി",
+            "relationEN": "Both Mohanlal and Mammootty are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മോഹൻലാൽ ഉം മമ്മൂട്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1407,16 +1407,16 @@ var packs = [
         "civWordMal": "മമ്മൂട്ടി",
         "imposters": [
           {
-            "word": "Mammootty Type",
-            "wordMal": "മമ്മൂട്ടി തരം",
-            "relationEN": "Both Mammootty and Mammootty Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മമ്മൂട്ടി ഉം മമ്മൂട്ടി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Mohanlal",
+            "wordMal": "മോഹൻലാൽ",
+            "relationEN": "Both Mammootty and Mohanlal are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മമ്മൂട്ടി ഉം മോഹൻലാൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Mammootty",
-            "wordMal": "വ്യാജ മമ്മൂട്ടി",
-            "relationEN": "Fake Mammootty shares many characteristics with Mammootty, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മമ്മൂട്ടി ഉം വ്യാജ മമ്മൂട്ടി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Mohanlal",
+            "wordMal": "മോഹൻലാൽ",
+            "relationEN": "Both Mammootty and Mohanlal are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മമ്മൂട്ടി ഉം മോഹൻലാൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1425,16 +1425,16 @@ var packs = [
         "civWordMal": "മഞ്ജു വാര്യർ",
         "imposters": [
           {
-            "word": "Manju Warrier Type",
-            "wordMal": "മഞ്ജു വാര്യർ തരം",
-            "relationEN": "Both Manju Warrier and Manju Warrier Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഞ്ജു വാര്യർ ഉം മഞ്ജു വാര്യർ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kavya Madhavan",
+            "wordMal": "കാവ്യാ മാധവൻ",
+            "relationEN": "Both Manju Warrier and Kavya Madhavan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഞ്ജു വാര്യർ ഉം കാവ്യാ മാധവൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Manju Warrier",
-            "wordMal": "വ്യാജ മഞ്ജു വാര്യർ",
-            "relationEN": "Fake Manju Warrier shares many characteristics with Manju Warrier, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മഞ്ജു വാര്യർ ഉം വ്യാജ മഞ്ജു വാര്യർ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kavya Madhavan",
+            "wordMal": "കാവ്യാ മാധവൻ",
+            "relationEN": "Both Manju Warrier and Kavya Madhavan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഞ്ജു വാര്യർ ഉം കാവ്യാ മാധവൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1443,16 +1443,16 @@ var packs = [
         "civWordMal": "ഫഹദ് ഫാസിൽ",
         "imposters": [
           {
-            "word": "Fahadh Faasil Type",
-            "wordMal": "ഫഹദ് ഫാസിൽ തരം",
-            "relationEN": "Both Fahadh Faasil and Fahadh Faasil Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫഹദ് ഫാസിൽ ഉം ഫഹദ് ഫാസിൽ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Dulquer Salmaan",
+            "wordMal": "ദുൽഖർ സൽമാൻ",
+            "relationEN": "Both Fahadh Faasil and Dulquer Salmaan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫഹദ് ഫാസിൽ ഉം ദുൽഖർ സൽമാൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Fahadh Faasil",
-            "wordMal": "വ്യാജ ഫഹദ് ഫാസിൽ",
-            "relationEN": "Fake Fahadh Faasil shares many characteristics with Fahadh Faasil, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഫഹദ് ഫാസിൽ ഉം വ്യാജ ഫഹദ് ഫാസിൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Dulquer Salmaan",
+            "wordMal": "ദുൽഖർ സൽമാൻ",
+            "relationEN": "Both Fahadh Faasil and Dulquer Salmaan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫഹദ് ഫാസിൽ ഉം ദുൽഖർ സൽമാൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1461,16 +1461,16 @@ var packs = [
         "civWordMal": "ശോഭന",
         "imposters": [
           {
-            "word": "Shobana Type",
-            "wordMal": "ശോഭന തരം",
-            "relationEN": "Both Shobana and Shobana Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശോഭന ഉം ശോഭന തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Manju Warrier",
+            "wordMal": "മഞ്ജു വാര്യർ",
+            "relationEN": "Both Shobana and Manju Warrier are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശോഭന ഉം മഞ്ജു വാര്യർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Shobana",
-            "wordMal": "വ്യാജ ശോഭന",
-            "relationEN": "Fake Shobana shares many characteristics with Shobana, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ശോഭന ഉം വ്യാജ ശോഭന ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Manju Warrier",
+            "wordMal": "മഞ്ജു വാര്യർ",
+            "relationEN": "Both Shobana and Manju Warrier are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശോഭന ഉം മഞ്ജു വാര്യർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1479,16 +1479,16 @@ var packs = [
         "civWordMal": "ദിലീപ്",
         "imposters": [
           {
-            "word": "Dileep Type",
-            "wordMal": "ദിലീപ് തരം",
-            "relationEN": "Both Dileep and Dileep Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ദിലീപ് ഉം ദിലീപ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Jayaram",
+            "wordMal": "ജയറാം",
+            "relationEN": "Both Dileep and Jayaram are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ദിലീപ് ഉം ജയറാം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Dileep",
-            "wordMal": "വ്യാജ ദിലീപ്",
-            "relationEN": "Fake Dileep shares many characteristics with Dileep, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ദിലീപ് ഉം വ്യാജ ദിലീപ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Jayaram",
+            "wordMal": "ജയറാം",
+            "relationEN": "Both Dileep and Jayaram are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ദിലീപ് ഉം ജയറാം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1497,16 +1497,16 @@ var packs = [
         "civWordMal": "സുരേഷ് ഗോപി",
         "imposters": [
           {
-            "word": "Suresh Gopi Type",
-            "wordMal": "സുരേഷ് ഗോപി തരം",
-            "relationEN": "Both Suresh Gopi and Suresh Gopi Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സുരേഷ് ഗോപി ഉം സുരേഷ് ഗോപി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Biju Menon",
+            "wordMal": "ബിജു മേനോൻ",
+            "relationEN": "Both Suresh Gopi and Biju Menon are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സുരേഷ് ഗോപി ഉം ബിജു മേനോൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Suresh Gopi",
-            "wordMal": "വ്യാജ സുരേഷ് ഗോപി",
-            "relationEN": "Fake Suresh Gopi shares many characteristics with Suresh Gopi, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സുരേഷ് ഗോപി ഉം വ്യാജ സുരേഷ് ഗോപി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Biju Menon",
+            "wordMal": "ബിജു മേനോൻ",
+            "relationEN": "Both Suresh Gopi and Biju Menon are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സുരേഷ് ഗോപി ഉം ബിജു മേനോൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1515,16 +1515,16 @@ var packs = [
         "civWordMal": "പൃഥ്വിരാജ്",
         "imposters": [
           {
-            "word": "Prithviraj Type",
-            "wordMal": "പൃഥ്വിരാജ് തരം",
-            "relationEN": "Both Prithviraj and Prithviraj Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പൃഥ്വിരാജ് ഉം പൃഥ്വിരാജ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Indrajith",
+            "wordMal": "ഇന്ദ്രജിത്ത്",
+            "relationEN": "Both Prithviraj and Indrajith are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പൃഥ്വിരാജ് ഉം ഇന്ദ്രജിത്ത് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Prithviraj",
-            "wordMal": "വ്യാജ പൃഥ്വിരാജ്",
-            "relationEN": "Fake Prithviraj shares many characteristics with Prithviraj, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പൃഥ്വിരാജ് ഉം വ്യാജ പൃഥ്വിരാജ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Indrajith",
+            "wordMal": "ഇന്ദ്രജിത്ത്",
+            "relationEN": "Both Prithviraj and Indrajith are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പൃഥ്വിരാജ് ഉം ഇന്ദ്രജിത്ത് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1533,16 +1533,16 @@ var packs = [
         "civWordMal": "ടൊവിനോ തോമസ്",
         "imposters": [
           {
-            "word": "Tovino Thomas Type",
-            "wordMal": "ടൊവിനോ തോമസ് തരം",
-            "relationEN": "Both Tovino Thomas and Tovino Thomas Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടൊവിനോ തോമസ് ഉം ടൊവിനോ തോമസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Asif Ali",
+            "wordMal": "ആസിഫ് അലി",
+            "relationEN": "Both Tovino Thomas and Asif Ali are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടൊവിനോ തോമസ് ഉം ആസിഫ് അലി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Tovino Thomas",
-            "wordMal": "വ്യാജ ടൊവിനോ തോമസ്",
-            "relationEN": "Fake Tovino Thomas shares many characteristics with Tovino Thomas, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ടൊവിനോ തോമസ് ഉം വ്യാജ ടൊവിനോ തോമസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Asif Ali",
+            "wordMal": "ആസിഫ് അലി",
+            "relationEN": "Both Tovino Thomas and Asif Ali are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടൊവിനോ തോമസ് ഉം ആസിഫ് അലി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1551,16 +1551,16 @@ var packs = [
         "civWordMal": "നിവിൻ പോളി",
         "imposters": [
           {
-            "word": "Nivin Pauly Type",
-            "wordMal": "നിവിൻ പോളി തരം",
-            "relationEN": "Both Nivin Pauly and Nivin Pauly Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നിവിൻ പോളി ഉം നിവിൻ പോളി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Dulquer Salmaan",
+            "wordMal": "ദുൽഖർ സൽമാൻ",
+            "relationEN": "Both Nivin Pauly and Dulquer Salmaan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നിവിൻ പോളി ഉം ദുൽഖർ സൽമാൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Nivin Pauly",
-            "wordMal": "വ്യാജ നിവിൻ പോളി",
-            "relationEN": "Fake Nivin Pauly shares many characteristics with Nivin Pauly, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ നിവിൻ പോളി ഉം വ്യാജ നിവിൻ പോളി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Dulquer Salmaan",
+            "wordMal": "ദുൽഖർ സൽമാൻ",
+            "relationEN": "Both Nivin Pauly and Dulquer Salmaan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നിവിൻ പോളി ഉം ദുൽഖർ സൽമാൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1569,16 +1569,16 @@ var packs = [
         "civWordMal": "കുഞ്ചാക്കോ ബോബൻ",
         "imposters": [
           {
-            "word": "Kunchacko Boban Type",
-            "wordMal": "കുഞ്ചാക്കോ ബോബൻ തരം",
-            "relationEN": "Both Kunchacko Boban and Kunchacko Boban Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുഞ്ചാക്കോ ബോബൻ ഉം കുഞ്ചാക്കോ ബോബൻ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Jayasurya",
+            "wordMal": "ജയസൂര്യ",
+            "relationEN": "Both Kunchacko Boban and Jayasurya are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുഞ്ചാക്കോ ബോബൻ ഉം ജയസൂര്യ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kunchacko Boban",
-            "wordMal": "വ്യാജ കുഞ്ചാക്കോ ബോബൻ",
-            "relationEN": "Fake Kunchacko Boban shares many characteristics with Kunchacko Boban, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കുഞ്ചാക്കോ ബോബൻ ഉം വ്യാജ കുഞ്ചാക്കോ ബോബൻ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Jayasurya",
+            "wordMal": "ജയസൂര്യ",
+            "relationEN": "Both Kunchacko Boban and Jayasurya are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുഞ്ചാക്കോ ബോബൻ ഉം ജയസൂര്യ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1587,16 +1587,16 @@ var packs = [
         "civWordMal": "ജയറാം",
         "imposters": [
           {
-            "word": "Jayaram Type",
-            "wordMal": "ജയറാം തരം",
-            "relationEN": "Both Jayaram and Jayaram Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജയറാം ഉം ജയറാം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Dileep",
+            "wordMal": "ദിലീപ്",
+            "relationEN": "Both Jayaram and Dileep are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജയറാം ഉം ദിലീപ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Jayaram",
-            "wordMal": "വ്യാജ ജയറാം",
-            "relationEN": "Fake Jayaram shares many characteristics with Jayaram, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ജയറാം ഉം വ്യാജ ജയറാം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Dileep",
+            "wordMal": "ദിലീപ്",
+            "relationEN": "Both Jayaram and Dileep are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജയറാം ഉം ദിലീപ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1605,16 +1605,16 @@ var packs = [
         "civWordMal": "ജയസൂര്യ",
         "imposters": [
           {
-            "word": "Jayasurya Type",
-            "wordMal": "ജയസൂര്യ തരം",
-            "relationEN": "Both Jayasurya and Jayasurya Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജയസൂര്യ ഉം ജയസൂര്യ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kunchacko Boban",
+            "wordMal": "കുഞ്ചാക്കോ ബോബൻ",
+            "relationEN": "Both Jayasurya and Kunchacko Boban are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജയസൂര്യ ഉം കുഞ്ചാക്കോ ബോബൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Jayasurya",
-            "wordMal": "വ്യാജ ജയസൂര്യ",
-            "relationEN": "Fake Jayasurya shares many characteristics with Jayasurya, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ജയസൂര്യ ഉം വ്യാജ ജയസൂര്യ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kunchacko Boban",
+            "wordMal": "കുഞ്ചാക്കോ ബോബൻ",
+            "relationEN": "Both Jayasurya and Kunchacko Boban are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജയസൂര്യ ഉം കുഞ്ചാക്കോ ബോബൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1623,16 +1623,16 @@ var packs = [
         "civWordMal": "പാർവതി തിരുവോത്ത്",
         "imposters": [
           {
-            "word": "Parvathy Thiruvothu Type",
-            "wordMal": "പാർവതി തിരുവോത്ത് തരം",
-            "relationEN": "Both Parvathy Thiruvothu and Parvathy Thiruvothu Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പാർവതി തിരുവോത്ത് ഉം പാർവതി തിരുവോത്ത് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Manju Warrier",
+            "wordMal": "മഞ്ജു വാര്യർ",
+            "relationEN": "Both Parvathy Thiruvothu and Manju Warrier are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പാർവതി തിരുവോത്ത് ഉം മഞ്ജു വാര്യർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Parvathy Thiruvothu",
-            "wordMal": "വ്യാജ പാർവതി തിരുവോത്ത്",
-            "relationEN": "Fake Parvathy Thiruvothu shares many characteristics with Parvathy Thiruvothu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പാർവതി തിരുവോത്ത് ഉം വ്യാജ പാർവതി തിരുവോത്ത് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Manju Warrier",
+            "wordMal": "മഞ്ജു വാര്യർ",
+            "relationEN": "Both Parvathy Thiruvothu and Manju Warrier are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പാർവതി തിരുവോത്ത് ഉം മഞ്ജു വാര്യർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1641,16 +1641,16 @@ var packs = [
         "civWordMal": "നസ്രിയ നസീം",
         "imposters": [
           {
-            "word": "Nazriya Nazim Type",
-            "wordMal": "നസ്രിയ നസീം തരം",
-            "relationEN": "Both Nazriya Nazim and Nazriya Nazim Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നസ്രിയ നസീം ഉം നസ്രിയ നസീം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Parvathy Thiruvothu",
+            "wordMal": "പാർവതി തിരുവോത്ത്",
+            "relationEN": "Both Nazriya Nazim and Parvathy Thiruvothu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നസ്രിയ നസീം ഉം പാർവതി തിരുവോത്ത് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Nazriya Nazim",
-            "wordMal": "വ്യാജ നസ്രിയ നസീം",
-            "relationEN": "Fake Nazriya Nazim shares many characteristics with Nazriya Nazim, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ നസ്രിയ നസീം ഉം വ്യാജ നസ്രിയ നസീം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Parvathy Thiruvothu",
+            "wordMal": "പാർവതി തിരുവോത്ത്",
+            "relationEN": "Both Nazriya Nazim and Parvathy Thiruvothu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നസ്രിയ നസീം ഉം പാർവതി തിരുവോത്ത് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1659,16 +1659,16 @@ var packs = [
         "civWordMal": "അനശ്വര രാജൻ",
         "imposters": [
           {
-            "word": "Anaswara Rajan Type",
-            "wordMal": "അനശ്വര രാജൻ തരം",
-            "relationEN": "Both Anaswara Rajan and Anaswara Rajan Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അനശ്വര രാജൻ ഉം അനശ്വര രാജൻ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Mamitha Baiju",
+            "wordMal": "മമിത ബൈജു",
+            "relationEN": "Both Anaswara Rajan and Mamitha Baiju are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അനശ്വര രാജൻ ഉം മമിത ബൈജു ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Anaswara Rajan",
-            "wordMal": "വ്യാജ അനശ്വര രാജൻ",
-            "relationEN": "Fake Anaswara Rajan shares many characteristics with Anaswara Rajan, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ അനശ്വര രാജൻ ഉം വ്യാജ അനശ്വര രാജൻ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Mamitha Baiju",
+            "wordMal": "മമിത ബൈജു",
+            "relationEN": "Both Anaswara Rajan and Mamitha Baiju are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അനശ്വര രാജൻ ഉം മമിത ബൈജു ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1677,16 +1677,16 @@ var packs = [
         "civWordMal": "ഐശ്വര്യ ലക്ഷ്മി",
         "imposters": [
           {
-            "word": "Aishwarya Lekshmi Type",
-            "wordMal": "ഐശ്വര്യ ലക്ഷ്മി തരം",
-            "relationEN": "Both Aishwarya Lekshmi and Aishwarya Lekshmi Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐശ്വര്യ ലക്ഷ്മി ഉം ഐശ്വര്യ ലക്ഷ്മി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Nazriya Nazim",
+            "wordMal": "നസ്രിയ നസീം",
+            "relationEN": "Both Aishwarya Lekshmi and Nazriya Nazim are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐശ്വര്യ ലക്ഷ്മി ഉം നസ്രിയ നസീം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Aishwarya Lekshmi",
-            "wordMal": "വ്യാജ ഐശ്വര്യ ലക്ഷ്മി",
-            "relationEN": "Fake Aishwarya Lekshmi shares many characteristics with Aishwarya Lekshmi, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഐശ്വര്യ ലക്ഷ്മി ഉം വ്യാജ ഐശ്വര്യ ലക്ഷ്മി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Nazriya Nazim",
+            "wordMal": "നസ്രിയ നസീം",
+            "relationEN": "Both Aishwarya Lekshmi and Nazriya Nazim are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐശ്വര്യ ലക്ഷ്മി ഉം നസ്രിയ നസീം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1695,16 +1695,16 @@ var packs = [
         "civWordMal": "ആസിഫ് അലി",
         "imposters": [
           {
-            "word": "Asif Ali Type",
-            "wordMal": "ആസിഫ് അലി തരം",
-            "relationEN": "Both Asif Ali and Asif Ali Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആസിഫ് അലി ഉം ആസിഫ് അലി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Fahadh Faasil",
+            "wordMal": "ഫഹദ് ഫാസിൽ",
+            "relationEN": "Both Asif Ali and Fahadh Faasil are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആസിഫ് അലി ഉം ഫഹദ് ഫാസിൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Asif Ali",
-            "wordMal": "വ്യാജ ആസിഫ് അലി",
-            "relationEN": "Fake Asif Ali shares many characteristics with Asif Ali, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ആസിഫ് അലി ഉം വ്യാജ ആസിഫ് അലി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Fahadh Faasil",
+            "wordMal": "ഫഹദ് ഫാസിൽ",
+            "relationEN": "Both Asif Ali and Fahadh Faasil are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആസിഫ് അലി ഉം ഫഹദ് ഫാസിൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1713,16 +1713,16 @@ var packs = [
         "civWordMal": "ബേസിൽ ജോസഫ്",
         "imposters": [
           {
-            "word": "Basil Joseph Type",
-            "wordMal": "ബേസിൽ ജോസഫ് തരം",
-            "relationEN": "Both Basil Joseph and Basil Joseph Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബേസിൽ ജോസഫ് ഉം ബേസിൽ ജോസഫ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Vineeth Sreenivasan",
+            "wordMal": "വിനീത് ശ്രീനിവാസൻ",
+            "relationEN": "Both Basil Joseph and Vineeth Sreenivasan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബേസിൽ ജോസഫ് ഉം വിനീത് ശ്രീനിവാസൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Basil Joseph",
-            "wordMal": "വ്യാജ ബേസിൽ ജോസഫ്",
-            "relationEN": "Fake Basil Joseph shares many characteristics with Basil Joseph, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ബേസിൽ ജോസഫ് ഉം വ്യാജ ബേസിൽ ജോസഫ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Vineeth Sreenivasan",
+            "wordMal": "വിനീത് ശ്രീനിവാസൻ",
+            "relationEN": "Both Basil Joseph and Vineeth Sreenivasan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബേസിൽ ജോസഫ് ഉം വിനീത് ശ്രീനിവാസൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1731,16 +1731,16 @@ var packs = [
         "civWordMal": "വിനീത് ശ്രീനിവാസൻ",
         "imposters": [
           {
-            "word": "Vineeth Sreenivasan Type",
-            "wordMal": "വിനീത് ശ്രീനിവാസൻ തരം",
-            "relationEN": "Both Vineeth Sreenivasan and Vineeth Sreenivasan Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വിനീത് ശ്രീനിവാസൻ ഉം വിനീത് ശ്രീനിവാസൻ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Basil Joseph",
+            "wordMal": "ബേസിൽ ജോസഫ്",
+            "relationEN": "Both Vineeth Sreenivasan and Basil Joseph are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വിനീത് ശ്രീനിവാസൻ ഉം ബേസിൽ ജോസഫ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Vineeth Sreenivasan",
-            "wordMal": "വ്യാജ വിനീത് ശ്രീനിവാസൻ",
-            "relationEN": "Fake Vineeth Sreenivasan shares many characteristics with Vineeth Sreenivasan, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ വിനീത് ശ്രീനിവാസൻ ഉം വ്യാജ വിനീത് ശ്രീനിവാസൻ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Basil Joseph",
+            "wordMal": "ബേസിൽ ജോസഫ്",
+            "relationEN": "Both Vineeth Sreenivasan and Basil Joseph are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വിനീത് ശ്രീനിവാസൻ ഉം ബേസിൽ ജോസഫ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1749,16 +1749,16 @@ var packs = [
         "civWordMal": "ദുൽഖർ സൽമാൻ",
         "imposters": [
           {
-            "word": "Dulquer Salmaan Type",
-            "wordMal": "ദുൽഖർ സൽമാൻ തരം",
-            "relationEN": "Both Dulquer Salmaan and Dulquer Salmaan Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ദുൽഖർ സൽമാൻ ഉം ദുൽഖർ സൽമാൻ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Nivin Pauly",
+            "wordMal": "നിവിൻ പോളി",
+            "relationEN": "Both Dulquer Salmaan and Nivin Pauly are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ദുൽഖർ സൽമാൻ ഉം നിവിൻ പോളി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Dulquer Salmaan",
-            "wordMal": "വ്യാജ ദുൽഖർ സൽമാൻ",
-            "relationEN": "Fake Dulquer Salmaan shares many characteristics with Dulquer Salmaan, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ദുൽഖർ സൽമാൻ ഉം വ്യാജ ദുൽഖർ സൽമാൻ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Nivin Pauly",
+            "wordMal": "നിവിൻ പോളി",
+            "relationEN": "Both Dulquer Salmaan and Nivin Pauly are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ദുൽഖർ സൽമാൻ ഉം നിവിൻ പോളി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1767,16 +1767,16 @@ var packs = [
         "civWordMal": "സുരാജ് വെഞ്ഞാറമൂട്",
         "imposters": [
           {
-            "word": "Suraj Venjaramoodu Type",
-            "wordMal": "സുരാജ് വെഞ്ഞാറമൂട് തരം",
-            "relationEN": "Both Suraj Venjaramoodu and Suraj Venjaramoodu Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സുരാജ് വെഞ്ഞാറമൂട് ഉം സുരാജ് വെഞ്ഞാറമൂട് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Salim Kumar",
+            "wordMal": "സലിം കുമാർ",
+            "relationEN": "Both Suraj Venjaramoodu and Salim Kumar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സുരാജ് വെഞ്ഞാറമൂട് ഉം സലിം കുമാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Suraj Venjaramoodu",
-            "wordMal": "വ്യാജ സുരാജ് വെഞ്ഞാറമൂട്",
-            "relationEN": "Fake Suraj Venjaramoodu shares many characteristics with Suraj Venjaramoodu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സുരാജ് വെഞ്ഞാറമൂട് ഉം വ്യാജ സുരാജ് വെഞ്ഞാറമൂട് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Salim Kumar",
+            "wordMal": "സലിം കുമാർ",
+            "relationEN": "Both Suraj Venjaramoodu and Salim Kumar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സുരാജ് വെഞ്ഞാറമൂട് ഉം സലിം കുമാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1785,16 +1785,16 @@ var packs = [
         "civWordMal": "ജഗതി ശ്രീകുമാർ",
         "imposters": [
           {
-            "word": "Jagathy Sreekumar Type",
-            "wordMal": "ജഗതി ശ്രീകുമാർ തരം",
-            "relationEN": "Both Jagathy Sreekumar and Jagathy Sreekumar Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജഗതി ശ്രീകുമാർ ഉം ജഗതി ശ്രീകുമാർ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Innocent",
+            "wordMal": "ഇന്നസെന്റ്",
+            "relationEN": "Both Jagathy Sreekumar and Innocent are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജഗതി ശ്രീകുമാർ ഉം ഇന്നസെന്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Jagathy Sreekumar",
-            "wordMal": "വ്യാജ ജഗതി ശ്രീകുമാർ",
-            "relationEN": "Fake Jagathy Sreekumar shares many characteristics with Jagathy Sreekumar, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ജഗതി ശ്രീകുമാർ ഉം വ്യാജ ജഗതി ശ്രീകുമാർ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Innocent",
+            "wordMal": "ഇന്നസെന്റ്",
+            "relationEN": "Both Jagathy Sreekumar and Innocent are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജഗതി ശ്രീകുമാർ ഉം ഇന്നസെന്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1803,16 +1803,16 @@ var packs = [
         "civWordMal": "ഇന്നസെന്റ്",
         "imposters": [
           {
-            "word": "Innocent Type",
-            "wordMal": "ഇന്നസെന്റ് തരം",
-            "relationEN": "Both Innocent and Innocent Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഇന്നസെന്റ് ഉം ഇന്നസെന്റ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Jagathy",
+            "wordMal": "ജഗതി",
+            "relationEN": "Both Innocent and Jagathy are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഇന്നസെന്റ് ഉം ജഗതി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Innocent",
-            "wordMal": "വ്യാജ ഇന്നസെന്റ്",
-            "relationEN": "Fake Innocent shares many characteristics with Innocent, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഇന്നസെന്റ് ഉം വ്യാജ ഇന്നസെന്റ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Jagathy",
+            "wordMal": "ജഗതി",
+            "relationEN": "Both Innocent and Jagathy are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഇന്നസെന്റ് ഉം ജഗതി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1821,16 +1821,16 @@ var packs = [
         "civWordMal": "സൗബിൻ ഷാഹിർ",
         "imposters": [
           {
-            "word": "Soubin Shahir Type",
-            "wordMal": "സൗബിൻ ഷാഹിർ തരം",
-            "relationEN": "Both Soubin Shahir and Soubin Shahir Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സൗബിൻ ഷാഹിർ ഉം സൗബിൻ ഷാഹിർ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Sreenath Bhasi",
+            "wordMal": "ശ്രീനാഥ് ഭാസി",
+            "relationEN": "Both Soubin Shahir and Sreenath Bhasi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സൗബിൻ ഷാഹിർ ഉം ശ്രീനാഥ് ഭാസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Soubin Shahir",
-            "wordMal": "വ്യാജ സൗബിൻ ഷാഹിർ",
-            "relationEN": "Fake Soubin Shahir shares many characteristics with Soubin Shahir, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സൗബിൻ ഷാഹിർ ഉം വ്യാജ സൗബിൻ ഷാഹിർ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Sreenath Bhasi",
+            "wordMal": "ശ്രീനാഥ് ഭാസി",
+            "relationEN": "Both Soubin Shahir and Sreenath Bhasi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സൗബിൻ ഷാഹിർ ഉം ശ്രീനാഥ് ഭാസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1839,16 +1839,16 @@ var packs = [
         "civWordMal": "കല്യാണി പ്രിയദർശൻ",
         "imposters": [
           {
-            "word": "Kalyani Priyadarshan Type",
-            "wordMal": "കല്യാണി പ്രിയദർശൻ തരം",
-            "relationEN": "Both Kalyani Priyadarshan and Kalyani Priyadarshan Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കല്യാണി പ്രിയദർശൻ ഉം കല്യാണി പ്രിയദർശൻ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Nazriya Nazim",
+            "wordMal": "നസ്രിയ നസീം",
+            "relationEN": "Both Kalyani Priyadarshan and Nazriya Nazim are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കല്യാണി പ്രിയദർശൻ ഉം നസ്രിയ നസീം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kalyani Priyadarshan",
-            "wordMal": "വ്യാജ കല്യാണി പ്രിയദർശൻ",
-            "relationEN": "Fake Kalyani Priyadarshan shares many characteristics with Kalyani Priyadarshan, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കല്യാണി പ്രിയദർശൻ ഉം വ്യാജ കല്യാണി പ്രിയദർശൻ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Nazriya Nazim",
+            "wordMal": "നസ്രിയ നസീം",
+            "relationEN": "Both Kalyani Priyadarshan and Nazriya Nazim are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കല്യാണി പ്രിയദർശൻ ഉം നസ്രിയ നസീം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1857,16 +1857,16 @@ var packs = [
         "civWordMal": "കെ. ജെ. യേശുദാസ്",
         "imposters": [
           {
-            "word": "K. J. Yesudas Type",
-            "wordMal": "കെ. ജെ. യേശുദാസ് തരം",
-            "relationEN": "Both K. J. Yesudas and K. J. Yesudas Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ. ജെ. യേശുദാസ് ഉം കെ. ജെ. യേശുദാസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "M. G. Sreekumar",
+            "wordMal": "എം ജി ശ്രീകുമാർ",
+            "relationEN": "Both K. J. Yesudas and M. G. Sreekumar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ. ജെ. യേശുദാസ് ഉം എം ജി ശ്രീകുമാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake K. J. Yesudas",
-            "wordMal": "വ്യാജ കെ. ജെ. യേശുദാസ്",
-            "relationEN": "Fake K. J. Yesudas shares many characteristics with K. J. Yesudas, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കെ. ജെ. യേശുദാസ് ഉം വ്യാജ കെ. ജെ. യേശുദാസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "M. G. Sreekumar",
+            "wordMal": "എം ജി ശ്രീകുമാർ",
+            "relationEN": "Both K. J. Yesudas and M. G. Sreekumar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ. ജെ. യേശുദാസ് ഉം എം ജി ശ്രീകുമാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1875,16 +1875,16 @@ var packs = [
         "civWordMal": "കെ. എസ്. ചിത്ര",
         "imposters": [
           {
-            "word": "K. S. Chithra Type",
-            "wordMal": "കെ. എസ്. ചിത്ര തരം",
-            "relationEN": "Both K. S. Chithra and K. S. Chithra Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ. എസ്. ചിത്ര ഉം കെ. എസ്. ചിത്ര തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Sujatha",
+            "wordMal": "സുജാത",
+            "relationEN": "Both K. S. Chithra and Sujatha are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ. എസ്. ചിത്ര ഉം സുജാത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake K. S. Chithra",
-            "wordMal": "വ്യാജ കെ. എസ്. ചിത്ര",
-            "relationEN": "Fake K. S. Chithra shares many characteristics with K. S. Chithra, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കെ. എസ്. ചിത്ര ഉം വ്യാജ കെ. എസ്. ചിത്ര ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Sujatha",
+            "wordMal": "സുജാത",
+            "relationEN": "Both K. S. Chithra and Sujatha are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ. എസ്. ചിത്ര ഉം സുജാത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1893,16 +1893,16 @@ var packs = [
         "civWordMal": "സഞ്ജു സാംസൺ",
         "imposters": [
           {
-            "word": "Sanju Samson Type",
-            "wordMal": "സഞ്ജു സാംസൺ തരം",
-            "relationEN": "Both Sanju Samson and Sanju Samson Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സഞ്ജു സാംസൺ ഉം സഞ്ജു സാംസൺ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Sachin Tendulkar",
+            "wordMal": "സച്ചിൻ ടെണ്ടുൽക്കർ",
+            "relationEN": "Both Sanju Samson and Sachin Tendulkar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സഞ്ജു സാംസൺ ഉം സച്ചിൻ ടെണ്ടുൽക്കർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Sanju Samson",
-            "wordMal": "വ്യാജ സഞ്ജു സാംസൺ",
-            "relationEN": "Fake Sanju Samson shares many characteristics with Sanju Samson, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സഞ്ജു സാംസൺ ഉം വ്യാജ സഞ്ജു സാംസൺ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Sachin Tendulkar",
+            "wordMal": "സച്ചിൻ ടെണ്ടുൽക്കർ",
+            "relationEN": "Both Sanju Samson and Sachin Tendulkar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സഞ്ജു സാംസൺ ഉം സച്ചിൻ ടെണ്ടുൽക്കർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1911,16 +1911,16 @@ var packs = [
         "civWordMal": "ശശി തരൂർ",
         "imposters": [
           {
-            "word": "Shashi Tharoor Type",
-            "wordMal": "ശശി തരൂർ തരം",
-            "relationEN": "Both Shashi Tharoor and Shashi Tharoor Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശശി തരൂർ ഉം ശശി തരൂർ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Pinarayi Vijayan",
+            "wordMal": "പിണറായി വിജയൻ",
+            "relationEN": "Both Shashi Tharoor and Pinarayi Vijayan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശശി തരൂർ ഉം പിണറായി വിജയൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Shashi Tharoor",
-            "wordMal": "വ്യാജ ശശി തരൂർ",
-            "relationEN": "Fake Shashi Tharoor shares many characteristics with Shashi Tharoor, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ശശി തരൂർ ഉം വ്യാജ ശശി തരൂർ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Pinarayi Vijayan",
+            "wordMal": "പിണറായി വിജയൻ",
+            "relationEN": "Both Shashi Tharoor and Pinarayi Vijayan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശശി തരൂർ ഉം പിണറായി വിജയൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1929,16 +1929,16 @@ var packs = [
         "civWordMal": "ശ്രീനിവാസൻ",
         "imposters": [
           {
-            "word": "Sreenivasan Type",
-            "wordMal": "ശ്രീനിവാസൻ തരം",
-            "relationEN": "Both Sreenivasan and Sreenivasan Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശ്രീനിവാസൻ ഉം ശ്രീനിവാസൻ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Jagathy Sreekumar",
+            "wordMal": "ജഗതി ശ്രീകുമാർ",
+            "relationEN": "Both Sreenivasan and Jagathy Sreekumar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശ്രീനിവാസൻ ഉം ജഗതി ശ്രീകുമാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Sreenivasan",
-            "wordMal": "വ്യാജ ശ്രീനിവാസൻ",
-            "relationEN": "Fake Sreenivasan shares many characteristics with Sreenivasan, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ശ്രീനിവാസൻ ഉം വ്യാജ ശ്രീനിവാസൻ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Jagathy Sreekumar",
+            "wordMal": "ജഗതി ശ്രീകുമാർ",
+            "relationEN": "Both Sreenivasan and Jagathy Sreekumar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ശ്രീനിവാസൻ ഉം ജഗതി ശ്രീകുമാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1947,16 +1947,16 @@ var packs = [
         "civWordMal": "സലിം കുമാർ",
         "imposters": [
           {
-            "word": "Salim Kumar Type",
-            "wordMal": "സലിം കുമാർ തരം",
-            "relationEN": "Both Salim Kumar and Salim Kumar Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സലിം കുമാർ ഉം സലിം കുമാർ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Suraj Venjaramoodu",
+            "wordMal": "സുരാജ് വെഞ്ഞാറമൂട്",
+            "relationEN": "Both Salim Kumar and Suraj Venjaramoodu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സലിം കുമാർ ഉം സുരാജ് വെഞ്ഞാറമൂട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Salim Kumar",
-            "wordMal": "വ്യാജ സലിം കുമാർ",
-            "relationEN": "Fake Salim Kumar shares many characteristics with Salim Kumar, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സലിം കുമാർ ഉം വ്യാജ സലിം കുമാർ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Suraj Venjaramoodu",
+            "wordMal": "സുരാജ് വെഞ്ഞാറമൂട്",
+            "relationEN": "Both Salim Kumar and Suraj Venjaramoodu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സലിം കുമാർ ഉം സുരാജ് വെഞ്ഞാറമൂട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1965,16 +1965,16 @@ var packs = [
         "civWordMal": "ഉർവ്വശി",
         "imposters": [
           {
-            "word": "Urveshi Type",
-            "wordMal": "ഉർവ്വശി തരം",
-            "relationEN": "Both Urveshi and Urveshi Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഉർവ്വശി ഉം ഉർവ്വശി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Shobana",
+            "wordMal": "ശോഭന",
+            "relationEN": "Both Urveshi and Shobana are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഉർവ്വശി ഉം ശോഭന ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Urveshi",
-            "wordMal": "വ്യാജ ഉർവ്വശി",
-            "relationEN": "Fake Urveshi shares many characteristics with Urveshi, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഉർവ്വശി ഉം വ്യാജ ഉർവ്വശി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Shobana",
+            "wordMal": "ശോഭന",
+            "relationEN": "Both Urveshi and Shobana are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഉർവ്വശി ഉം ശോഭന ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -1983,16 +1983,16 @@ var packs = [
         "civWordMal": "മുകേഷ്",
         "imposters": [
           {
-            "word": "Mukesh Type",
-            "wordMal": "മുകേഷ് തരം",
-            "relationEN": "Both Mukesh and Mukesh Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുകേഷ് ഉം മുകേഷ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Sreenivasan",
+            "wordMal": "ശ്രീനിവാസൻ",
+            "relationEN": "Both Mukesh and Sreenivasan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുകേഷ് ഉം ശ്രീനിവാസൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Mukesh",
-            "wordMal": "വ്യാജ മുകേഷ്",
-            "relationEN": "Fake Mukesh shares many characteristics with Mukesh, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മുകേഷ് ഉം വ്യാജ മുകേഷ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Sreenivasan",
+            "wordMal": "ശ്രീനിവാസൻ",
+            "relationEN": "Both Mukesh and Sreenivasan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മുകേഷ് ഉം ശ്രീനിവാസൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2001,16 +2001,16 @@ var packs = [
         "civWordMal": "ബിജു മേനോൻ",
         "imposters": [
           {
-            "word": "Biju Menon Type",
-            "wordMal": "ബിജു മേനോൻ തരം",
-            "relationEN": "Both Biju Menon and Biju Menon Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബിജു മേനോൻ ഉം ബിജു മേനോൻ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Suresh Gopi",
+            "wordMal": "സുരേഷ് ഗോപി",
+            "relationEN": "Both Biju Menon and Suresh Gopi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബിജു മേനോൻ ഉം സുരേഷ് ഗോപി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Biju Menon",
-            "wordMal": "വ്യാജ ബിജു മേനോൻ",
-            "relationEN": "Fake Biju Menon shares many characteristics with Biju Menon, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ബിജു മേനോൻ ഉം വ്യാജ ബിജു മേനോൻ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Suresh Gopi",
+            "wordMal": "സുരേഷ് ഗോപി",
+            "relationEN": "Both Biju Menon and Suresh Gopi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബിജു മേനോൻ ഉം സുരേഷ് ഗോപി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2019,16 +2019,16 @@ var packs = [
         "civWordMal": "ആന്റണി വർഗ്ഗീസ്",
         "imposters": [
           {
-            "word": "Pepe Antony Type",
-            "wordMal": "ആന്റണി വർഗ്ഗീസ് തരം",
-            "relationEN": "Both Pepe Antony and Pepe Antony Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആന്റണി വർഗ്ഗീസ് ഉം ആന്റണി വർഗ്ഗീസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Shane Nigam",
+            "wordMal": "ഷെയ്ൻ നിഗം",
+            "relationEN": "Both Pepe Antony and Shane Nigam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആന്റണി വർഗ്ഗീസ് ഉം ഷെയ്ൻ നിഗം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Pepe Antony",
-            "wordMal": "വ്യാജ ആന്റണി വർഗ്ഗീസ്",
-            "relationEN": "Fake Pepe Antony shares many characteristics with Pepe Antony, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ആന്റണി വർഗ്ഗീസ് ഉം വ്യാജ ആന്റണി വർഗ്ഗീസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Shane Nigam",
+            "wordMal": "ഷെയ്ൻ നിഗം",
+            "relationEN": "Both Pepe Antony and Shane Nigam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആന്റണി വർഗ്ഗീസ് ഉം ഷെയ്ൻ നിഗം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       }
@@ -2044,16 +2044,16 @@ var packs = [
         "civWordMal": "ചായക്കട",
         "imposters": [
           {
-            "word": "Chaya Kada Type",
-            "wordMal": "ചായക്കട തരം",
-            "relationEN": "Both Chaya Kada and Chaya Kada Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചായക്കട ഉം ചായക്കട തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Thattukada",
+            "wordMal": "തട്ടുകട",
+            "relationEN": "Both Chaya Kada and Thattukada are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചായക്കട ഉം തട്ടുകട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Chaya Kada",
-            "wordMal": "വ്യാജ ചായക്കട",
-            "relationEN": "Fake Chaya Kada shares many characteristics with Chaya Kada, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചായക്കട ഉം വ്യാജ ചായക്കട ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Thattukada",
+            "wordMal": "തട്ടുകട",
+            "relationEN": "Both Chaya Kada and Thattukada are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചായക്കട ഉം തട്ടുകട ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2062,16 +2062,16 @@ var packs = [
         "civWordMal": "കള്ള് ഷാപ്പ്",
         "imposters": [
           {
-            "word": "Kallu Shappu Type",
-            "wordMal": "കള്ള് ഷാപ്പ് തരം",
-            "relationEN": "Both Kallu Shappu and Kallu Shappu Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കള്ള് ഷാപ്പ് ഉം കള്ള് ഷാപ്പ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Bevco",
+            "wordMal": "ബെവ്കോ",
+            "relationEN": "Both Kallu Shappu and Bevco are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കള്ള് ഷാപ്പ് ഉം ബെവ്കോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kallu Shappu",
-            "wordMal": "വ്യാജ കള്ള് ഷാപ്പ്",
-            "relationEN": "Fake Kallu Shappu shares many characteristics with Kallu Shappu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കള്ള് ഷാപ്പ് ഉം വ്യാജ കള്ള് ഷാപ്പ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Bevco",
+            "wordMal": "ബെവ്കോ",
+            "relationEN": "Both Kallu Shappu and Bevco are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കള്ള് ഷാപ്പ് ഉം ബെവ്കോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2080,16 +2080,16 @@ var packs = [
         "civWordMal": "കെ എസ് ആർ ടി സി",
         "imposters": [
           {
-            "word": "KSRTC Type",
-            "wordMal": "കെ എസ് ആർ ടി സി തരം",
-            "relationEN": "Both KSRTC and KSRTC Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ എസ് ആർ ടി സി ഉം കെ എസ് ആർ ടി സി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Private Bus",
+            "wordMal": "പ്രൈവറ്റ് ബസ്",
+            "relationEN": "Both KSRTC and Private Bus are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ എസ് ആർ ടി സി ഉം പ്രൈവറ്റ് ബസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake KSRTC",
-            "wordMal": "വ്യാജ കെ എസ് ആർ ടി സി",
-            "relationEN": "Fake KSRTC shares many characteristics with KSRTC, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കെ എസ് ആർ ടി സി ഉം വ്യാജ കെ എസ് ആർ ടി സി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Private Bus",
+            "wordMal": "പ്രൈവറ്റ് ബസ്",
+            "relationEN": "Both KSRTC and Private Bus are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെ എസ് ആർ ടി സി ഉം പ്രൈവറ്റ് ബസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2098,16 +2098,16 @@ var packs = [
         "civWordMal": "ഓട്ടോ റിക്ഷ",
         "imposters": [
           {
-            "word": "Auto Rickshaw Type",
-            "wordMal": "ഓട്ടോ റിക്ഷ തരം",
-            "relationEN": "Both Auto Rickshaw and Auto Rickshaw Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടോ റിക്ഷ ഉം ഓട്ടോ റിക്ഷ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Taxi",
+            "wordMal": "ടാക്സി",
+            "relationEN": "Both Auto Rickshaw and Taxi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടോ റിക്ഷ ഉം ടാക്സി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Auto Rickshaw",
-            "wordMal": "വ്യാജ ഓട്ടോ റിക്ഷ",
-            "relationEN": "Fake Auto Rickshaw shares many characteristics with Auto Rickshaw, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഓട്ടോ റിക്ഷ ഉം വ്യാജ ഓട്ടോ റിക്ഷ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Taxi",
+            "wordMal": "ടാക്സി",
+            "relationEN": "Both Auto Rickshaw and Taxi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടോ റിക്ഷ ഉം ടാക്സി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2116,16 +2116,16 @@ var packs = [
         "civWordMal": "തറവാട്",
         "imposters": [
           {
-            "word": "Tharavadu Type",
-            "wordMal": "തറവാട് തരം",
-            "relationEN": "Both Tharavadu and Tharavadu Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തറവാട് ഉം തറവാട് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Nalukettu",
+            "wordMal": "നാലുകെട്ട്",
+            "relationEN": "Both Tharavadu and Nalukettu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തറവാട് ഉം നാലുകെട്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Tharavadu",
-            "wordMal": "വ്യാജ തറവാട്",
-            "relationEN": "Fake Tharavadu shares many characteristics with Tharavadu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ തറവാട് ഉം വ്യാജ തറവാട് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Nalukettu",
+            "wordMal": "നാലുകെട്ട്",
+            "relationEN": "Both Tharavadu and Nalukettu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തറവാട് ഉം നാലുകെട്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2134,16 +2134,16 @@ var packs = [
         "civWordMal": "പഞ്ചായത്ത്",
         "imposters": [
           {
-            "word": "Panchayath Type",
-            "wordMal": "പഞ്ചായത്ത് തരം",
-            "relationEN": "Both Panchayath and Panchayath Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പഞ്ചായത്ത് ഉം പഞ്ചായത്ത് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Municipality",
+            "wordMal": "മുൻസിപ്പാലിറ്റി",
+            "relationEN": "Both Panchayath and Municipality are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പഞ്ചായത്ത് ഉം മുൻസിപ്പാലിറ്റി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Panchayath",
-            "wordMal": "വ്യാജ പഞ്ചായത്ത്",
-            "relationEN": "Fake Panchayath shares many characteristics with Panchayath, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പഞ്ചായത്ത് ഉം വ്യാജ പഞ്ചായത്ത് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Municipality",
+            "wordMal": "മുൻസിപ്പാലിറ്റി",
+            "relationEN": "Both Panchayath and Municipality are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പഞ്ചായത്ത് ഉം മുൻസിപ്പാലിറ്റി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2152,16 +2152,16 @@ var packs = [
         "civWordMal": "കുടുംബശ്രീ",
         "imposters": [
           {
-            "word": "Kudumbashree Type",
-            "wordMal": "കുടുംബശ്രീ തരം",
-            "relationEN": "Both Kudumbashree and Kudumbashree Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുടുംബശ്രീ ഉം കുടുംബശ്രീ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Ayalkoottam",
+            "wordMal": "അയൽക്കൂട്ടം",
+            "relationEN": "Both Kudumbashree and Ayalkoottam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുടുംബശ്രീ ഉം അയൽക്കൂട്ടം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kudumbashree",
-            "wordMal": "വ്യാജ കുടുംബശ്രീ",
-            "relationEN": "Fake Kudumbashree shares many characteristics with Kudumbashree, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കുടുംബശ്രീ ഉം വ്യാജ കുടുംബശ്രീ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Ayalkoottam",
+            "wordMal": "അയൽക്കൂട്ടം",
+            "relationEN": "Both Kudumbashree and Ayalkoottam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുടുംബശ്രീ ഉം അയൽക്കൂട്ടം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2170,16 +2170,16 @@ var packs = [
         "civWordMal": "അങ്കണവാടി",
         "imposters": [
           {
-            "word": "Anganwadi Type",
-            "wordMal": "അങ്കണവാടി തരം",
-            "relationEN": "Both Anganwadi and Anganwadi Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അങ്കണവാടി ഉം അങ്കണവാടി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Nursery",
+            "wordMal": "നഴ്സറി",
+            "relationEN": "Both Anganwadi and Nursery are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അങ്കണവാടി ഉം നഴ്സറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Anganwadi",
-            "wordMal": "വ്യാജ അങ്കണവാടി",
-            "relationEN": "Fake Anganwadi shares many characteristics with Anganwadi, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ അങ്കണവാടി ഉം വ്യാജ അങ്കണവാടി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Nursery",
+            "wordMal": "നഴ്സറി",
+            "relationEN": "Both Anganwadi and Nursery are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അങ്കണവാടി ഉം നഴ്സറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2188,16 +2188,16 @@ var packs = [
         "civWordMal": "റബ്ബർ തോട്ടം",
         "imposters": [
           {
-            "word": "Rubber Thottam Type",
-            "wordMal": "റബ്ബർ തോട്ടം തരം",
-            "relationEN": "Both Rubber Thottam and Rubber Thottam Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റബ്ബർ തോട്ടം ഉം റബ്ബർ തോട്ടം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Tea Estate",
+            "wordMal": "ടീ എസ്റ്റേറ്റ്",
+            "relationEN": "Both Rubber Thottam and Tea Estate are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റബ്ബർ തോട്ടം ഉം ടീ എസ്റ്റേറ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Rubber Thottam",
-            "wordMal": "വ്യാജ റബ്ബർ തോട്ടം",
-            "relationEN": "Fake Rubber Thottam shares many characteristics with Rubber Thottam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ റബ്ബർ തോട്ടം ഉം വ്യാജ റബ്ബർ തോട്ടം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Tea Estate",
+            "wordMal": "ടീ എസ്റ്റേറ്റ്",
+            "relationEN": "Both Rubber Thottam and Tea Estate are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റബ്ബർ തോട്ടം ഉം ടീ എസ്റ്റേറ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2206,16 +2206,16 @@ var packs = [
         "civWordMal": "തേയിലത്തോട്ടം",
         "imposters": [
           {
-            "word": "Tea Estate Type",
-            "wordMal": "തേയിലത്തോട്ടം തരം",
-            "relationEN": "Both Tea Estate and Tea Estate Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തേയിലത്തോട്ടം ഉം തേയിലത്തോട്ടം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Rubber Thottam",
+            "wordMal": "റബ്ബർ തോട്ടം",
+            "relationEN": "Both Tea Estate and Rubber Thottam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തേയിലത്തോട്ടം ഉം റബ്ബർ തോട്ടം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Tea Estate",
-            "wordMal": "വ്യാജ തേയിലത്തോട്ടം",
-            "relationEN": "Fake Tea Estate shares many characteristics with Tea Estate, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ തേയിലത്തോട്ടം ഉം വ്യാജ തേയിലത്തോട്ടം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Rubber Thottam",
+            "wordMal": "റബ്ബർ തോട്ടം",
+            "relationEN": "Both Tea Estate and Rubber Thottam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തേയിലത്തോട്ടം ഉം റബ്ബർ തോട്ടം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2224,16 +2224,16 @@ var packs = [
         "civWordMal": "തെങ്ങ്",
         "imposters": [
           {
-            "word": "Thengu Type",
-            "wordMal": "തെങ്ങ് തരം",
-            "relationEN": "Both Thengu and Thengu Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തെങ്ങ് ഉം തെങ്ങ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kamuku",
+            "wordMal": "കമുകു",
+            "relationEN": "Both Thengu and Kamuku are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തെങ്ങ് ഉം കമുകു ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Thengu",
-            "wordMal": "വ്യാജ തെങ്ങ്",
-            "relationEN": "Fake Thengu shares many characteristics with Thengu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ തെങ്ങ് ഉം വ്യാജ തെങ്ങ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kamuku",
+            "wordMal": "കമുകു",
+            "relationEN": "Both Thengu and Kamuku are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തെങ്ങ് ഉം കമുകു ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2242,16 +2242,16 @@ var packs = [
         "civWordMal": "കുട്ടനാടൻ പാടനിലം",
         "imposters": [
           {
-            "word": "Kuttanadan Padanilam Type",
-            "wordMal": "കുട്ടനാടൻ പാടനിലം തരം",
-            "relationEN": "Both Kuttanadan Padanilam and Kuttanadan Padanilam Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുട്ടനാടൻ പാടനിലം ഉം കുട്ടനാടൻ പാടനിലം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Munnar",
+            "wordMal": "മൂന്നാർ",
+            "relationEN": "Both Kuttanadan Padanilam and Munnar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുട്ടനാടൻ പാടനിലം ഉം മൂന്നാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kuttanadan Padanilam",
-            "wordMal": "വ്യാജ കുട്ടനാടൻ പാടനിലം",
-            "relationEN": "Fake Kuttanadan Padanilam shares many characteristics with Kuttanadan Padanilam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കുട്ടനാടൻ പാടനിലം ഉം വ്യാജ കുട്ടനാടൻ പാടനിലം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Munnar",
+            "wordMal": "മൂന്നാർ",
+            "relationEN": "Both Kuttanadan Padanilam and Munnar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുട്ടനാടൻ പാടനിലം ഉം മൂന്നാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2260,16 +2260,16 @@ var packs = [
         "civWordMal": "പുഴ",
         "imposters": [
           {
-            "word": "Puzha Type",
-            "wordMal": "പുഴ തരം",
-            "relationEN": "Both Puzha and Puzha Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പുഴ ഉം പുഴ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kulam",
+            "wordMal": "കുളം",
+            "relationEN": "Both Puzha and Kulam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പുഴ ഉം കുളം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Puzha",
-            "wordMal": "വ്യാജ പുഴ",
-            "relationEN": "Fake Puzha shares many characteristics with Puzha, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പുഴ ഉം വ്യാജ പുഴ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kulam",
+            "wordMal": "കുളം",
+            "relationEN": "Both Puzha and Kulam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പുഴ ഉം കുളം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2278,16 +2278,16 @@ var packs = [
         "civWordMal": "കൈത്തറി",
         "imposters": [
           {
-            "word": "Kaithari Type",
-            "wordMal": "കൈത്തറി തരം",
-            "relationEN": "Both Kaithari and Kaithari Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കൈത്തറി ഉം കൈത്തറി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Khadi",
+            "wordMal": "ഖാദി",
+            "relationEN": "Both Kaithari and Khadi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കൈത്തറി ഉം ഖാദി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kaithari",
-            "wordMal": "വ്യാജ കൈത്തറി",
-            "relationEN": "Fake Kaithari shares many characteristics with Kaithari, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കൈത്തറി ഉം വ്യാജ കൈത്തറി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Khadi",
+            "wordMal": "ഖാദി",
+            "relationEN": "Both Kaithari and Khadi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കൈത്തറി ഉം ഖാദി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2296,16 +2296,16 @@ var packs = [
         "civWordMal": "മഴ",
         "imposters": [
           {
-            "word": "Mazha Type",
-            "wordMal": "മഴ തരം",
-            "relationEN": "Both Mazha and Mazha Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഴ ഉം മഴ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Veyil",
+            "wordMal": "വെയിൽ",
+            "relationEN": "Both Mazha and Veyil are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഴ ഉം വെയിൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Mazha",
-            "wordMal": "വ്യാജ മഴ",
-            "relationEN": "Fake Mazha shares many characteristics with Mazha, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മഴ ഉം വ്യാജ മഴ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Veyil",
+            "wordMal": "വെയിൽ",
+            "relationEN": "Both Mazha and Veyil are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഴ ഉം വെയിൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2314,16 +2314,16 @@ var packs = [
         "civWordMal": "തറവാട്",
         "imposters": [
           {
-            "word": "Tharavad Type",
-            "wordMal": "തറവാട് തരം",
-            "relationEN": "Both Tharavad and Tharavad Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തറവാട് ഉം തറവാട് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Nalukettu",
+            "wordMal": "നാലുകെട്ട്",
+            "relationEN": "Both Tharavad and Nalukettu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തറവാട് ഉം നാലുകെട്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Tharavad",
-            "wordMal": "വ്യാജ തറവാട്",
-            "relationEN": "Fake Tharavad shares many characteristics with Tharavad, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ തറവാട് ഉം വ്യാജ തറവാട് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Nalukettu",
+            "wordMal": "നാലുകെട്ട്",
+            "relationEN": "Both Tharavad and Nalukettu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തറവാട് ഉം നാലുകെട്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2332,16 +2332,16 @@ var packs = [
         "civWordMal": "നാടൻ പാട്ട്",
         "imposters": [
           {
-            "word": "Naadan Pattu Type",
-            "wordMal": "നാടൻ പാട്ട് തരം",
-            "relationEN": "Both Naadan Pattu and Naadan Pattu Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നാടൻ പാട്ട് ഉം നാടൻ പാട്ട് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kavitha",
+            "wordMal": "കവിത",
+            "relationEN": "Both Naadan Pattu and Kavitha are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നാടൻ പാട്ട് ഉം കവിത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Naadan Pattu",
-            "wordMal": "വ്യാജ നാടൻ പാട്ട്",
-            "relationEN": "Fake Naadan Pattu shares many characteristics with Naadan Pattu, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ നാടൻ പാട്ട് ഉം വ്യാജ നാടൻ പാട്ട് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kavitha",
+            "wordMal": "കവിത",
+            "relationEN": "Both Naadan Pattu and Kavitha are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ നാടൻ പാട്ട് ഉം കവിത ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2350,16 +2350,16 @@ var packs = [
         "civWordMal": "കവല",
         "imposters": [
           {
-            "word": "Kavala Type",
-            "wordMal": "കവല തരം",
-            "relationEN": "Both Kavala and Kavala Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കവല ഉം കവല തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Angadi",
+            "wordMal": "അങ്ങാടി",
+            "relationEN": "Both Kavala and Angadi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കവല ഉം അങ്ങാടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kavala",
-            "wordMal": "വ്യാജ കവല",
-            "relationEN": "Fake Kavala shares many characteristics with Kavala, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കവല ഉം വ്യാജ കവല ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Angadi",
+            "wordMal": "അങ്ങാടി",
+            "relationEN": "Both Kavala and Angadi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കവല ഉം അങ്ങാടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2368,16 +2368,16 @@ var packs = [
         "civWordMal": "പള്ളി",
         "imposters": [
           {
-            "word": "Palli Type",
-            "wordMal": "പള്ളി തരം",
-            "relationEN": "Both Palli and Palli Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പള്ളി ഉം പള്ളി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Ambalam",
+            "wordMal": "അമ്പലം",
+            "relationEN": "Both Palli and Ambalam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പള്ളി ഉം അമ്പലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Palli",
-            "wordMal": "വ്യാജ പള്ളി",
-            "relationEN": "Fake Palli shares many characteristics with Palli, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പള്ളി ഉം വ്യാജ പള്ളി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Ambalam",
+            "wordMal": "അമ്പലം",
+            "relationEN": "Both Palli and Ambalam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പള്ളി ഉം അമ്പലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2386,16 +2386,16 @@ var packs = [
         "civWordMal": "അമ്പലം",
         "imposters": [
           {
-            "word": "Ambalam Type",
-            "wordMal": "അമ്പലം തരം",
-            "relationEN": "Both Ambalam and Ambalam Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അമ്പലം ഉം അമ്പലം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Palli",
+            "wordMal": "പള്ളി",
+            "relationEN": "Both Ambalam and Palli are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അമ്പലം ഉം പള്ളി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Ambalam",
-            "wordMal": "വ്യാജ അമ്പലം",
-            "relationEN": "Fake Ambalam shares many characteristics with Ambalam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ അമ്പലം ഉം വ്യാജ അമ്പലം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Palli",
+            "wordMal": "പള്ളി",
+            "relationEN": "Both Ambalam and Palli are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അമ്പലം ഉം പള്ളി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2404,16 +2404,16 @@ var packs = [
         "civWordMal": "ലോട്ടറി ടിക്കറ്റ്",
         "imposters": [
           {
-            "word": "Lottery Ticket Type",
-            "wordMal": "ലോട്ടറി ടിക്കറ്റ് തരം",
-            "relationEN": "Both Lottery Ticket and Lottery Ticket Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോട്ടറി ടിക്കറ്റ് ഉം ലോട്ടറി ടിക്കറ്റ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Scratch and Win",
+            "wordMal": "സ്ക്രാച്ച് ആൻഡ് വിൻ",
+            "relationEN": "Both Lottery Ticket and Scratch and Win are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോട്ടറി ടിക്കറ്റ് ഉം സ്ക്രാച്ച് ആൻഡ് വിൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Lottery Ticket",
-            "wordMal": "വ്യാജ ലോട്ടറി ടിക്കറ്റ്",
-            "relationEN": "Fake Lottery Ticket shares many characteristics with Lottery Ticket, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ലോട്ടറി ടിക്കറ്റ് ഉം വ്യാജ ലോട്ടറി ടിക്കറ്റ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Scratch and Win",
+            "wordMal": "സ്ക്രാച്ച് ആൻഡ് വിൻ",
+            "relationEN": "Both Lottery Ticket and Scratch and Win are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോട്ടറി ടിക്കറ്റ് ഉം സ്ക്രാച്ച് ആൻഡ് വിൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2422,16 +2422,16 @@ var packs = [
         "civWordMal": "ഹർത്താൽ",
         "imposters": [
           {
-            "word": "Hartal Type",
-            "wordMal": "ഹർത്താൽ തരം",
-            "relationEN": "Both Hartal and Hartal Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹർത്താൽ ഉം ഹർത്താൽ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Bandh",
+            "wordMal": "ബന്ദ്",
+            "relationEN": "Both Hartal and Bandh are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹർത്താൽ ഉം ബന്ദ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Hartal",
-            "wordMal": "വ്യാജ ഹർത്താൽ",
-            "relationEN": "Fake Hartal shares many characteristics with Hartal, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഹർത്താൽ ഉം വ്യാജ ഹർത്താൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Bandh",
+            "wordMal": "ബന്ദ്",
+            "relationEN": "Both Hartal and Bandh are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹർത്താൽ ഉം ബന്ദ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2440,16 +2440,16 @@ var packs = [
         "civWordMal": "വായനശാല",
         "imposters": [
           {
-            "word": "Vayanasala Type",
-            "wordMal": "വായനശാല തരം",
-            "relationEN": "Both Vayanasala and Vayanasala Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വായനശാല ഉം വായനശാല തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Club",
+            "wordMal": "ക്ലബ്",
+            "relationEN": "Both Vayanasala and Club are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വായനശാല ഉം ക്ലബ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Vayanasala",
-            "wordMal": "വ്യാജ വായനശാല",
-            "relationEN": "Fake Vayanasala shares many characteristics with Vayanasala, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ വായനശാല ഉം വ്യാജ വായനശാല ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Club",
+            "wordMal": "ക്ലബ്",
+            "relationEN": "Both Vayanasala and Club are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വായനശാല ഉം ക്ലബ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2458,16 +2458,16 @@ var packs = [
         "civWordMal": "ചിട്ടി",
         "imposters": [
           {
-            "word": "Chitty Type",
-            "wordMal": "ചിട്ടി തരം",
-            "relationEN": "Both Chitty and Chitty Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചിട്ടി ഉം ചിട്ടി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Bank Loan",
+            "wordMal": "ബാങ്ക് ലോൺ",
+            "relationEN": "Both Chitty and Bank Loan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചിട്ടി ഉം ബാങ്ക് ലോൺ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Chitty",
-            "wordMal": "വ്യാജ ചിട്ടി",
-            "relationEN": "Fake Chitty shares many characteristics with Chitty, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചിട്ടി ഉം വ്യാജ ചിട്ടി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Bank Loan",
+            "wordMal": "ബാങ്ക് ലോൺ",
+            "relationEN": "Both Chitty and Bank Loan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചിട്ടി ഉം ബാങ്ക് ലോൺ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2476,16 +2476,16 @@ var packs = [
         "civWordMal": "കാവ്",
         "imposters": [
           {
-            "word": "Kavukal Type",
-            "wordMal": "കാവ് തരം",
-            "relationEN": "Both Kavukal and Kavukal Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കാവ് ഉം കാവ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Ambalam",
+            "wordMal": "അമ്പലം",
+            "relationEN": "Both Kavukal and Ambalam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കാവ് ഉം അമ്പലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kavukal",
-            "wordMal": "വ്യാജ കാവ്",
-            "relationEN": "Fake Kavukal shares many characteristics with Kavukal, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കാവ് ഉം വ്യാജ കാവ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Ambalam",
+            "wordMal": "അമ്പലം",
+            "relationEN": "Both Kavukal and Ambalam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കാവ് ഉം അമ്പലം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2494,16 +2494,16 @@ var packs = [
         "civWordMal": "കുളം",
         "imposters": [
           {
-            "word": "Kulam Type",
-            "wordMal": "കുളം തരം",
-            "relationEN": "Both Kulam and Kulam Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുളം ഉം കുളം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Puzha",
+            "wordMal": "പുഴ",
+            "relationEN": "Both Kulam and Puzha are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുളം ഉം പുഴ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kulam",
-            "wordMal": "വ്യാജ കുളം",
-            "relationEN": "Fake Kulam shares many characteristics with Kulam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കുളം ഉം വ്യാജ കുളം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Puzha",
+            "wordMal": "പുഴ",
+            "relationEN": "Both Kulam and Puzha are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കുളം ഉം പുഴ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2512,16 +2512,16 @@ var packs = [
         "civWordMal": "മിൽമ",
         "imposters": [
           {
-            "word": "Milma Type",
-            "wordMal": "മിൽമ തരം",
-            "relationEN": "Both Milma and Milma Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മിൽമ ഉം മിൽമ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Supplyco",
+            "wordMal": "സപ്ലൈകോ",
+            "relationEN": "Both Milma and Supplyco are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മിൽമ ഉം സപ്ലൈകോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Milma",
-            "wordMal": "വ്യാജ മിൽമ",
-            "relationEN": "Fake Milma shares many characteristics with Milma, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മിൽമ ഉം വ്യാജ മിൽമ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Supplyco",
+            "wordMal": "സപ്ലൈകോ",
+            "relationEN": "Both Milma and Supplyco are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മിൽമ ഉം സപ്ലൈകോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2530,16 +2530,16 @@ var packs = [
         "civWordMal": "ബെവ്കോ",
         "imposters": [
           {
-            "word": "Bevco Type",
-            "wordMal": "ബെവ്കോ തരം",
-            "relationEN": "Both Bevco and Bevco Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബെവ്കോ ഉം ബെവ്കോ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kallu Shappu",
+            "wordMal": "കള്ള് ഷാപ്പ്",
+            "relationEN": "Both Bevco and Kallu Shappu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബെവ്കോ ഉം കള്ള് ഷാപ്പ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Bevco",
-            "wordMal": "വ്യാജ ബെവ്കോ",
-            "relationEN": "Fake Bevco shares many characteristics with Bevco, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ബെവ്കോ ഉം വ്യാജ ബെവ്കോ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kallu Shappu",
+            "wordMal": "കള്ള് ഷാപ്പ്",
+            "relationEN": "Both Bevco and Kallu Shappu are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബെവ്കോ ഉം കള്ള് ഷാപ്പ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2548,16 +2548,16 @@ var packs = [
         "civWordMal": "അക്ഷയ കേന്ദ്രം",
         "imposters": [
           {
-            "word": "Akshaya Centre Type",
-            "wordMal": "അക്ഷയ കേന്ദ്രം തരം",
-            "relationEN": "Both Akshaya Centre and Akshaya Centre Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അക്ഷയ കേന്ദ്രം ഉം അക്ഷയ കേന്ദ്രം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Panchayath",
+            "wordMal": "പഞ്ചായത്ത്",
+            "relationEN": "Both Akshaya Centre and Panchayath are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അക്ഷയ കേന്ദ്രം ഉം പഞ്ചായത്ത് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Akshaya Centre",
-            "wordMal": "വ്യാജ അക്ഷയ കേന്ദ്രം",
-            "relationEN": "Fake Akshaya Centre shares many characteristics with Akshaya Centre, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ അക്ഷയ കേന്ദ്രം ഉം വ്യാജ അക്ഷയ കേന്ദ്രം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Panchayath",
+            "wordMal": "പഞ്ചായത്ത്",
+            "relationEN": "Both Akshaya Centre and Panchayath are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അക്ഷയ കേന്ദ്രം ഉം പഞ്ചായത്ത് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2566,16 +2566,16 @@ var packs = [
         "civWordMal": "സപ്ലൈകോ",
         "imposters": [
           {
-            "word": "Supplyco Type",
-            "wordMal": "സപ്ലൈകോ തരം",
-            "relationEN": "Both Supplyco and Supplyco Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സപ്ലൈകോ ഉം സപ്ലൈകോ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Milma",
+            "wordMal": "മിൽമ",
+            "relationEN": "Both Supplyco and Milma are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സപ്ലൈകോ ഉം മിൽമ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Supplyco",
-            "wordMal": "വ്യാജ സപ്ലൈകോ",
-            "relationEN": "Fake Supplyco shares many characteristics with Supplyco, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സപ്ലൈകോ ഉം വ്യാജ സപ്ലൈകോ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Milma",
+            "wordMal": "മിൽമ",
+            "relationEN": "Both Supplyco and Milma are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സപ്ലൈകോ ഉം മിൽമ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2584,16 +2584,16 @@ var packs = [
         "civWordMal": "വിദ്യാഭ്യാസ വായ്പ",
         "imposters": [
           {
-            "word": "Vidyabhyasa Loan Type",
-            "wordMal": "വിദ്യാഭ്യാസ വായ്പ തരം",
-            "relationEN": "Both Vidyabhyasa Loan and Vidyabhyasa Loan Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വിദ്യാഭ്യാസ വായ്പ ഉം വിദ്യാഭ്യാസ വായ്പ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Home Loan",
+            "wordMal": "ഹോം ലോൺ",
+            "relationEN": "Both Vidyabhyasa Loan and Home Loan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വിദ്യാഭ്യാസ വായ്പ ഉം ഹോം ലോൺ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Vidyabhyasa Loan",
-            "wordMal": "വ്യാജ വിദ്യാഭ്യാസ വായ്പ",
-            "relationEN": "Fake Vidyabhyasa Loan shares many characteristics with Vidyabhyasa Loan, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ വിദ്യാഭ്യാസ വായ്പ ഉം വ്യാജ വിദ്യാഭ്യാസ വായ്പ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Home Loan",
+            "wordMal": "ഹോം ലോൺ",
+            "relationEN": "Both Vidyabhyasa Loan and Home Loan are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വിദ്യാഭ്യാസ വായ്പ ഉം ഹോം ലോൺ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2602,16 +2602,16 @@ var packs = [
         "civWordMal": "റേഷൻ കട",
         "imposters": [
           {
-            "word": "Ration Kada Type",
-            "wordMal": "റേഷൻ കട തരം",
-            "relationEN": "Both Ration Kada and Ration Kada Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റേഷൻ കട ഉം റേഷൻ കട തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Maveli Store",
+            "wordMal": "മാവേലി സ്റ്റോർ",
+            "relationEN": "Both Ration Kada and Maveli Store are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റേഷൻ കട ഉം മാവേലി സ്റ്റോർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Ration Kada",
-            "wordMal": "വ്യാജ റേഷൻ കട",
-            "relationEN": "Fake Ration Kada shares many characteristics with Ration Kada, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ റേഷൻ കട ഉം വ്യാജ റേഷൻ കട ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Maveli Store",
+            "wordMal": "മാവേലി സ്റ്റോർ",
+            "relationEN": "Both Ration Kada and Maveli Store are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റേഷൻ കട ഉം മാവേലി സ്റ്റോർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2620,16 +2620,16 @@ var packs = [
         "civWordMal": "തൊഴിലുറപ്പ്",
         "imposters": [
           {
-            "word": "Mahatma Gandhi NREGA Type",
-            "wordMal": "തൊഴിലുറപ്പ് തരം",
-            "relationEN": "Both Mahatma Gandhi NREGA and Mahatma Gandhi NREGA Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തൊഴിലുറപ്പ് ഉം തൊഴിലുറപ്പ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kudumbashree",
+            "wordMal": "കുടുംബശ്രീ",
+            "relationEN": "Both Mahatma Gandhi NREGA and Kudumbashree are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തൊഴിലുറപ്പ് ഉം കുടുംബശ്രീ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Mahatma Gandhi NREGA",
-            "wordMal": "വ്യാജ തൊഴിലുറപ്പ്",
-            "relationEN": "Fake Mahatma Gandhi NREGA shares many characteristics with Mahatma Gandhi NREGA, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ തൊഴിലുറപ്പ് ഉം വ്യാജ തൊഴിലുറപ്പ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kudumbashree",
+            "wordMal": "കുടുംബശ്രീ",
+            "relationEN": "Both Mahatma Gandhi NREGA and Kudumbashree are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തൊഴിലുറപ്പ് ഉം കുടുംബശ്രീ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2638,16 +2638,16 @@ var packs = [
         "civWordMal": "കറന്റ് ബിൽ",
         "imposters": [
           {
-            "word": "Current Bill Type",
-            "wordMal": "കറന്റ് ബിൽ തരം",
-            "relationEN": "Both Current Bill and Current Bill Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കറന്റ് ബിൽ ഉം കറന്റ് ബിൽ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Water Bill",
+            "wordMal": "വാട്ടർ ബിൽ",
+            "relationEN": "Both Current Bill and Water Bill are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കറന്റ് ബിൽ ഉം വാട്ടർ ബിൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Current Bill",
-            "wordMal": "വ്യാജ കറന്റ് ബിൽ",
-            "relationEN": "Fake Current Bill shares many characteristics with Current Bill, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കറന്റ് ബിൽ ഉം വ്യാജ കറന്റ് ബിൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Water Bill",
+            "wordMal": "വാട്ടർ ബിൽ",
+            "relationEN": "Both Current Bill and Water Bill are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കറന്റ് ബിൽ ഉം വാട്ടർ ബിൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2656,16 +2656,16 @@ var packs = [
         "civWordMal": "കെഎസ്ഇബി",
         "imposters": [
           {
-            "word": "KSEB Type",
-            "wordMal": "കെഎസ്ഇബി തരം",
-            "relationEN": "Both KSEB and KSEB Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെഎസ്ഇബി ഉം കെഎസ്ഇബി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Water Authority",
+            "wordMal": "വാട്ടർ അതോറിറ്റി",
+            "relationEN": "Both KSEB and Water Authority are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെഎസ്ഇബി ഉം വാട്ടർ അതോറിറ്റി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake KSEB",
-            "wordMal": "വ്യാജ കെഎസ്ഇബി",
-            "relationEN": "Fake KSEB shares many characteristics with KSEB, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കെഎസ്ഇബി ഉം വ്യാജ കെഎസ്ഇബി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Water Authority",
+            "wordMal": "വാട്ടർ അതോറിറ്റി",
+            "relationEN": "Both KSEB and Water Authority are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെഎസ്ഇബി ഉം വാട്ടർ അതോറിറ്റി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2674,16 +2674,16 @@ var packs = [
         "civWordMal": "വാട്ടർ അതോറിറ്റി",
         "imposters": [
           {
-            "word": "Water Authority Type",
-            "wordMal": "വാട്ടർ അതോറിറ്റി തരം",
-            "relationEN": "Both Water Authority and Water Authority Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാട്ടർ അതോറിറ്റി ഉം വാട്ടർ അതോറിറ്റി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "KSEB",
+            "wordMal": "കെഎസ്ഇബി",
+            "relationEN": "Both Water Authority and KSEB are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാട്ടർ അതോറിറ്റി ഉം കെഎസ്ഇബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Water Authority",
-            "wordMal": "വ്യാജ വാട്ടർ അതോറിറ്റി",
-            "relationEN": "Fake Water Authority shares many characteristics with Water Authority, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ വാട്ടർ അതോറിറ്റി ഉം വ്യാജ വാട്ടർ അതോറിറ്റി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "KSEB",
+            "wordMal": "കെഎസ്ഇബി",
+            "relationEN": "Both Water Authority and KSEB are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാട്ടർ അതോറിറ്റി ഉം കെഎസ്ഇബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       }
@@ -2699,16 +2699,16 @@ var packs = [
         "civWordMal": "ആനവണ്ടി",
         "imposters": [
           {
-            "word": "Aanavandi Type",
-            "wordMal": "ആനവണ്ടി തരം",
-            "relationEN": "Both Aanavandi and Aanavandi Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആനവണ്ടി ഉം ആനവണ്ടി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Low Floor Bus",
+            "wordMal": "ലോ ഫ്ലോർ ബസ്",
+            "relationEN": "Both Aanavandi and Low Floor Bus are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആനവണ്ടി ഉം ലോ ഫ്ലോർ ബസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Aanavandi",
-            "wordMal": "വ്യാജ ആനവണ്ടി",
-            "relationEN": "Fake Aanavandi shares many characteristics with Aanavandi, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ആനവണ്ടി ഉം വ്യാജ ആനവണ്ടി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Low Floor Bus",
+            "wordMal": "ലോ ഫ്ലോർ ബസ്",
+            "relationEN": "Both Aanavandi and Low Floor Bus are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആനവണ്ടി ഉം ലോ ഫ്ലോർ ബസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2717,16 +2717,16 @@ var packs = [
         "civWordMal": "വള്ളം",
         "imposters": [
           {
-            "word": "Vallam Type",
-            "wordMal": "വള്ളം തരം",
-            "relationEN": "Both Vallam and Vallam Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വള്ളം ഉം വള്ളം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Thoni",
+            "wordMal": "തോണി",
+            "relationEN": "Both Vallam and Thoni are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വള്ളം ഉം തോണി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Vallam",
-            "wordMal": "വ്യാജ വള്ളം",
-            "relationEN": "Fake Vallam shares many characteristics with Vallam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ വള്ളം ഉം വ്യാജ വള്ളം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Thoni",
+            "wordMal": "തോണി",
+            "relationEN": "Both Vallam and Thoni are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വള്ളം ഉം തോണി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2735,16 +2735,16 @@ var packs = [
         "civWordMal": "ഓട്ടോറിക്ഷ",
         "imposters": [
           {
-            "word": "Autorickshaw Type",
-            "wordMal": "ഓട്ടോറിക്ഷ തരം",
-            "relationEN": "Both Autorickshaw and Autorickshaw Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടോറിക്ഷ ഉം ഓട്ടോറിക്ഷ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Jeep",
+            "wordMal": "ജീപ്പ്",
+            "relationEN": "Both Autorickshaw and Jeep are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടോറിക്ഷ ഉം ജീപ്പ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Autorickshaw",
-            "wordMal": "വ്യാജ ഓട്ടോറിക്ഷ",
-            "relationEN": "Fake Autorickshaw shares many characteristics with Autorickshaw, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഓട്ടോറിക്ഷ ഉം വ്യാജ ഓട്ടോറിക്ഷ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Jeep",
+            "wordMal": "ജീപ്പ്",
+            "relationEN": "Both Autorickshaw and Jeep are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓട്ടോറിക്ഷ ഉം ജീപ്പ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2753,16 +2753,16 @@ var packs = [
         "civWordMal": "ബുള്ളറ്റ്",
         "imposters": [
           {
-            "word": "Bullet Type",
-            "wordMal": "ബുള്ളറ്റ് തരം",
-            "relationEN": "Both Bullet and Bullet Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബുള്ളറ്റ് ഉം ബുള്ളറ്റ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Pulsar",
+            "wordMal": "പൾസർ",
+            "relationEN": "Both Bullet and Pulsar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബുള്ളറ്റ് ഉം പൾസർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Bullet",
-            "wordMal": "വ്യാജ ബുള്ളറ്റ്",
-            "relationEN": "Fake Bullet shares many characteristics with Bullet, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ബുള്ളറ്റ് ഉം വ്യാജ ബുള്ളറ്റ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Pulsar",
+            "wordMal": "പൾസർ",
+            "relationEN": "Both Bullet and Pulsar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബുള്ളറ്റ് ഉം പൾസർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2771,16 +2771,16 @@ var packs = [
         "civWordMal": "ഹൗസ്‌ബോട്ട്",
         "imposters": [
           {
-            "word": "Houseboat Type",
-            "wordMal": "ഹൗസ്‌ബോട്ട് തരം",
-            "relationEN": "Both Houseboat and Houseboat Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹൗസ്‌ബോട്ട് ഉം ഹൗസ്‌ബോട്ട് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Shikara",
+            "wordMal": "ശിക്കാര",
+            "relationEN": "Both Houseboat and Shikara are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹൗസ്‌ബോട്ട് ഉം ശിക്കാര ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Houseboat",
-            "wordMal": "വ്യാജ ഹൗസ്‌ബോട്ട്",
-            "relationEN": "Fake Houseboat shares many characteristics with Houseboat, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഹൗസ്‌ബോട്ട് ഉം വ്യാജ ഹൗസ്‌ബോട്ട് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Shikara",
+            "wordMal": "ശിക്കാര",
+            "relationEN": "Both Houseboat and Shikara are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹൗസ്‌ബോട്ട് ഉം ശിക്കാര ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2789,16 +2789,16 @@ var packs = [
         "civWordMal": "ജങ്കാർ",
         "imposters": [
           {
-            "word": "Jankar Type",
-            "wordMal": "ജങ്കാർ തരം",
-            "relationEN": "Both Jankar and Jankar Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജങ്കാർ ഉം ജങ്കാർ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Ferry",
+            "wordMal": "ഫെറി",
+            "relationEN": "Both Jankar and Ferry are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജങ്കാർ ഉം ഫെറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Jankar",
-            "wordMal": "വ്യാജ ജങ്കാർ",
-            "relationEN": "Fake Jankar shares many characteristics with Jankar, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ജങ്കാർ ഉം വ്യാജ ജങ്കാർ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Ferry",
+            "wordMal": "ഫെറി",
+            "relationEN": "Both Jankar and Ferry are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജങ്കാർ ഉം ഫെറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2807,16 +2807,16 @@ var packs = [
         "civWordMal": "ഫെറി",
         "imposters": [
           {
-            "word": "Ferry Type",
-            "wordMal": "ഫെറി തരം",
-            "relationEN": "Both Ferry and Ferry Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫെറി ഉം ഫെറി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Jankar",
+            "wordMal": "ജങ്കാർ",
+            "relationEN": "Both Ferry and Jankar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫെറി ഉം ജങ്കാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Ferry",
-            "wordMal": "വ്യാജ ഫെറി",
-            "relationEN": "Fake Ferry shares many characteristics with Ferry, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഫെറി ഉം വ്യാജ ഫെറി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Jankar",
+            "wordMal": "ജങ്കാർ",
+            "relationEN": "Both Ferry and Jankar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫെറി ഉം ജങ്കാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2825,16 +2825,16 @@ var packs = [
         "civWordMal": "ചുണ്ടൻ വള്ളം",
         "imposters": [
           {
-            "word": "Chundan Vallam Type",
-            "wordMal": "ചുണ്ടൻ വള്ളം തരം",
-            "relationEN": "Both Chundan Vallam and Chundan Vallam Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചുണ്ടൻ വള്ളം ഉം ചുണ്ടൻ വള്ളം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kettuvallam",
+            "wordMal": "കെട്ടുവള്ളം",
+            "relationEN": "Both Chundan Vallam and Kettuvallam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചുണ്ടൻ വള്ളം ഉം കെട്ടുവള്ളം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Chundan Vallam",
-            "wordMal": "വ്യാജ ചുണ്ടൻ വള്ളം",
-            "relationEN": "Fake Chundan Vallam shares many characteristics with Chundan Vallam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചുണ്ടൻ വള്ളം ഉം വ്യാജ ചുണ്ടൻ വള്ളം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kettuvallam",
+            "wordMal": "കെട്ടുവള്ളം",
+            "relationEN": "Both Chundan Vallam and Kettuvallam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചുണ്ടൻ വള്ളം ഉം കെട്ടുവള്ളം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2843,16 +2843,16 @@ var packs = [
         "civWordMal": "കെട്ടുവള്ളം",
         "imposters": [
           {
-            "word": "Kettuvallam Type",
-            "wordMal": "കെട്ടുവള്ളം തരം",
-            "relationEN": "Both Kettuvallam and Kettuvallam Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെട്ടുവള്ളം ഉം കെട്ടുവള്ളം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Houseboat",
+            "wordMal": "ഹൗസ്ബോട്ട്",
+            "relationEN": "Both Kettuvallam and Houseboat are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെട്ടുവള്ളം ഉം ഹൗസ്ബോട്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kettuvallam",
-            "wordMal": "വ്യാജ കെട്ടുവള്ളം",
-            "relationEN": "Fake Kettuvallam shares many characteristics with Kettuvallam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കെട്ടുവള്ളം ഉം വ്യാജ കെട്ടുവള്ളം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Houseboat",
+            "wordMal": "ഹൗസ്ബോട്ട്",
+            "relationEN": "Both Kettuvallam and Houseboat are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കെട്ടുവള്ളം ഉം ഹൗസ്ബോട്ട് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2861,16 +2861,16 @@ var packs = [
         "civWordMal": "പിക്കപ്പ്",
         "imposters": [
           {
-            "word": "Pickup Type",
-            "wordMal": "പിക്കപ്പ് തരം",
-            "relationEN": "Both Pickup and Pickup Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പിക്കപ്പ് ഉം പിക്കപ്പ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Lorry",
+            "wordMal": "ലോറി",
+            "relationEN": "Both Pickup and Lorry are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പിക്കപ്പ് ഉം ലോറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Pickup",
-            "wordMal": "വ്യാജ പിക്കപ്പ്",
-            "relationEN": "Fake Pickup shares many characteristics with Pickup, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പിക്കപ്പ് ഉം വ്യാജ പിക്കപ്പ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Lorry",
+            "wordMal": "ലോറി",
+            "relationEN": "Both Pickup and Lorry are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പിക്കപ്പ് ഉം ലോറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2879,16 +2879,16 @@ var packs = [
         "civWordMal": "ജീപ്പ്",
         "imposters": [
           {
-            "word": "Jeep Type",
-            "wordMal": "ജീപ്പ് തരം",
-            "relationEN": "Both Jeep and Jeep Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജീപ്പ് ഉം ജീപ്പ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Gypsy",
+            "wordMal": "ജിപ്സി",
+            "relationEN": "Both Jeep and Gypsy are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജീപ്പ് ഉം ജിപ്സി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Jeep",
-            "wordMal": "വ്യാജ ജീപ്പ്",
-            "relationEN": "Fake Jeep shares many characteristics with Jeep, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ജീപ്പ് ഉം വ്യാജ ജീപ്പ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Gypsy",
+            "wordMal": "ജിപ്സി",
+            "relationEN": "Both Jeep and Gypsy are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജീപ്പ് ഉം ജിപ്സി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2897,16 +2897,16 @@ var packs = [
         "civWordMal": "ലോറി",
         "imposters": [
           {
-            "word": "Lorry Type",
-            "wordMal": "ലോറി തരം",
-            "relationEN": "Both Lorry and Lorry Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോറി ഉം ലോറി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Tipper",
+            "wordMal": "ടിപ്പർ",
+            "relationEN": "Both Lorry and Tipper are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോറി ഉം ടിപ്പർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Lorry",
-            "wordMal": "വ്യാജ ലോറി",
-            "relationEN": "Fake Lorry shares many characteristics with Lorry, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ലോറി ഉം വ്യാജ ലോറി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Tipper",
+            "wordMal": "ടിപ്പർ",
+            "relationEN": "Both Lorry and Tipper are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോറി ഉം ടിപ്പർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2915,16 +2915,16 @@ var packs = [
         "civWordMal": "പ്രൈവറ്റ് ബസ്",
         "imposters": [
           {
-            "word": "Private Bus Type",
-            "wordMal": "പ്രൈവറ്റ് ബസ് തരം",
-            "relationEN": "Both Private Bus and Private Bus Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രൈവറ്റ് ബസ് ഉം പ്രൈവറ്റ് ബസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "KSRTC",
+            "wordMal": "കെഎസ്ആർടിസി",
+            "relationEN": "Both Private Bus and KSRTC are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രൈവറ്റ് ബസ് ഉം കെഎസ്ആർടിസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Private Bus",
-            "wordMal": "വ്യാജ പ്രൈവറ്റ് ബസ്",
-            "relationEN": "Fake Private Bus shares many characteristics with Private Bus, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പ്രൈവറ്റ് ബസ് ഉം വ്യാജ പ്രൈവറ്റ് ബസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "KSRTC",
+            "wordMal": "കെഎസ്ആർടിസി",
+            "relationEN": "Both Private Bus and KSRTC are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രൈവറ്റ് ബസ് ഉം കെഎസ്ആർടിസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2933,16 +2933,16 @@ var packs = [
         "civWordMal": "ടെമ്പോ ട്രാവലർ",
         "imposters": [
           {
-            "word": "Tempo Traveller Type",
-            "wordMal": "ടെമ്പോ ട്രാവലർ തരം",
-            "relationEN": "Both Tempo Traveller and Tempo Traveller Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടെമ്പോ ട്രാവലർ ഉം ടെമ്പോ ട്രാവലർ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Mini Bus",
+            "wordMal": "മിനി ബസ്",
+            "relationEN": "Both Tempo Traveller and Mini Bus are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടെമ്പോ ട്രാവലർ ഉം മിനി ബസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Tempo Traveller",
-            "wordMal": "വ്യാജ ടെമ്പോ ട്രാവലർ",
-            "relationEN": "Fake Tempo Traveller shares many characteristics with Tempo Traveller, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ടെമ്പോ ട്രാവലർ ഉം വ്യാജ ടെമ്പോ ട്രാവലർ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Mini Bus",
+            "wordMal": "മിനി ബസ്",
+            "relationEN": "Both Tempo Traveller and Mini Bus are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടെമ്പോ ട്രാവലർ ഉം മിനി ബസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2951,16 +2951,16 @@ var packs = [
         "civWordMal": "സ്കൂട്ടർ",
         "imposters": [
           {
-            "word": "Scooter Type",
-            "wordMal": "സ്കൂട്ടർ തരം",
-            "relationEN": "Both Scooter and Scooter Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂട്ടർ ഉം സ്കൂട്ടർ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Bike",
+            "wordMal": "ബൈക്ക്",
+            "relationEN": "Both Scooter and Bike are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂട്ടർ ഉം ബൈക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Scooter",
-            "wordMal": "വ്യാജ സ്കൂട്ടർ",
-            "relationEN": "Fake Scooter shares many characteristics with Scooter, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സ്കൂട്ടർ ഉം വ്യാജ സ്കൂട്ടർ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Bike",
+            "wordMal": "ബൈക്ക്",
+            "relationEN": "Both Scooter and Bike are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂട്ടർ ഉം ബൈക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2969,16 +2969,16 @@ var packs = [
         "civWordMal": "സൈക്കിൾ",
         "imposters": [
           {
-            "word": "Cycle Type",
-            "wordMal": "സൈക്കിൾ തരം",
-            "relationEN": "Both Cycle and Cycle Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സൈക്കിൾ ഉം സൈക്കിൾ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Scooter",
+            "wordMal": "സ്കൂട്ടർ",
+            "relationEN": "Both Cycle and Scooter are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സൈക്കിൾ ഉം സ്കൂട്ടർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Cycle",
-            "wordMal": "വ്യാജ സൈക്കിൾ",
-            "relationEN": "Fake Cycle shares many characteristics with Cycle, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സൈക്കിൾ ഉം വ്യാജ സൈക്കിൾ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Scooter",
+            "wordMal": "സ്കൂട്ടർ",
+            "relationEN": "Both Cycle and Scooter are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സൈക്കിൾ ഉം സ്കൂട്ടർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -2987,16 +2987,16 @@ var packs = [
         "civWordMal": "മിനി ബസ്",
         "imposters": [
           {
-            "word": "Mini Bus Type",
-            "wordMal": "മിനി ബസ് തരം",
-            "relationEN": "Both Mini Bus and Mini Bus Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മിനി ബസ് ഉം മിനി ബസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Tempo Traveller",
+            "wordMal": "ടെമ്പോ ട്രാവലർ",
+            "relationEN": "Both Mini Bus and Tempo Traveller are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മിനി ബസ് ഉം ടെമ്പോ ട്രാവലർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Mini Bus",
-            "wordMal": "വ്യാജ മിനി ബസ്",
-            "relationEN": "Fake Mini Bus shares many characteristics with Mini Bus, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മിനി ബസ് ഉം വ്യാജ മിനി ബസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Tempo Traveller",
+            "wordMal": "ടെമ്പോ ട്രാവലർ",
+            "relationEN": "Both Mini Bus and Tempo Traveller are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മിനി ബസ് ഉം ടെമ്പോ ട്രാവലർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3005,16 +3005,16 @@ var packs = [
         "civWordMal": "ടാക്സി",
         "imposters": [
           {
-            "word": "Taxi Type",
-            "wordMal": "ടാക്സി തരം",
-            "relationEN": "Both Taxi and Taxi Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടാക്സി ഉം ടാക്സി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Auto Rickshaw",
+            "wordMal": "ഓട്ടോ റിക്ഷ",
+            "relationEN": "Both Taxi and Auto Rickshaw are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടാക്സി ഉം ഓട്ടോ റിക്ഷ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Taxi",
-            "wordMal": "വ്യാജ ടാക്സി",
-            "relationEN": "Fake Taxi shares many characteristics with Taxi, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ടാക്സി ഉം വ്യാജ ടാക്സി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Auto Rickshaw",
+            "wordMal": "ഓട്ടോ റിക്ഷ",
+            "relationEN": "Both Taxi and Auto Rickshaw are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടാക്സി ഉം ഓട്ടോ റിക്ഷ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3023,16 +3023,16 @@ var packs = [
         "civWordMal": "ട്രെയിൻ",
         "imposters": [
           {
-            "word": "Train Type",
-            "wordMal": "ട്രെയിൻ തരം",
-            "relationEN": "Both Train and Train Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്രെയിൻ ഉം ട്രെയിൻ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Metro",
+            "wordMal": "മെട്രോ",
+            "relationEN": "Both Train and Metro are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്രെയിൻ ഉം മെട്രോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Train",
-            "wordMal": "വ്യാജ ട്രെയിൻ",
-            "relationEN": "Fake Train shares many characteristics with Train, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ട്രെയിൻ ഉം വ്യാജ ട്രെയിൻ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Metro",
+            "wordMal": "മെട്രോ",
+            "relationEN": "Both Train and Metro are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്രെയിൻ ഉം മെട്രോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3041,16 +3041,16 @@ var packs = [
         "civWordMal": "സ്കൂൾ ബസ്",
         "imposters": [
           {
-            "word": "School Bus Type",
-            "wordMal": "സ്കൂൾ ബസ് തരം",
-            "relationEN": "Both School Bus and School Bus Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബസ് ഉം സ്കൂൾ ബസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Ambulance",
+            "wordMal": "ആംബുലൻസ്",
+            "relationEN": "Both School Bus and Ambulance are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബസ് ഉം ആംബുലൻസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake School Bus",
-            "wordMal": "വ്യാജ സ്കൂൾ ബസ്",
-            "relationEN": "Fake School Bus shares many characteristics with School Bus, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സ്കൂൾ ബസ് ഉം വ്യാജ സ്കൂൾ ബസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Ambulance",
+            "wordMal": "ആംബുലൻസ്",
+            "relationEN": "Both School Bus and Ambulance are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബസ് ഉം ആംബുലൻസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3059,16 +3059,16 @@ var packs = [
         "civWordMal": "തീവണ്ടി",
         "imposters": [
           {
-            "word": "Jik Jik Train Type",
-            "wordMal": "തീവണ്ടി തരം",
-            "relationEN": "Both Jik Jik Train and Jik Jik Train Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തീവണ്ടി ഉം തീവണ്ടി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Toy Train",
+            "wordMal": "ടോയ് ട്രെയിൻ",
+            "relationEN": "Both Jik Jik Train and Toy Train are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തീവണ്ടി ഉം ടോയ് ട്രെയിൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Jik Jik Train",
-            "wordMal": "വ്യാജ തീവണ്ടി",
-            "relationEN": "Fake Jik Jik Train shares many characteristics with Jik Jik Train, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ തീവണ്ടി ഉം വ്യാജ തീവണ്ടി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Toy Train",
+            "wordMal": "ടോയ് ട്രെയിൻ",
+            "relationEN": "Both Jik Jik Train and Toy Train are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ തീവണ്ടി ഉം ടോയ് ട്രെയിൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3077,16 +3077,16 @@ var packs = [
         "civWordMal": "ആംബുലൻസ്",
         "imposters": [
           {
-            "word": "Ambulance Type",
-            "wordMal": "ആംബുലൻസ് തരം",
-            "relationEN": "Both Ambulance and Ambulance Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആംബുലൻസ് ഉം ആംബുലൻസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Fire Engine",
+            "wordMal": "ഫയർ എഞ്ചിൻ",
+            "relationEN": "Both Ambulance and Fire Engine are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആംബുലൻസ് ഉം ഫയർ എഞ്ചിൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Ambulance",
-            "wordMal": "വ്യാജ ആംബുലൻസ്",
-            "relationEN": "Fake Ambulance shares many characteristics with Ambulance, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ആംബുലൻസ് ഉം വ്യാജ ആംബുലൻസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Fire Engine",
+            "wordMal": "ഫയർ എഞ്ചിൻ",
+            "relationEN": "Both Ambulance and Fire Engine are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആംബുലൻസ് ഉം ഫയർ എഞ്ചിൻ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3095,16 +3095,16 @@ var packs = [
         "civWordMal": "കൊച്ചി മെട്രോ",
         "imposters": [
           {
-            "word": "Kochi Metro Type",
-            "wordMal": "കൊച്ചി മെട്രോ തരം",
-            "relationEN": "Both Kochi Metro and Kochi Metro Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കൊച്ചി മെട്രോ ഉം കൊച്ചി മെട്രോ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Water Metro",
+            "wordMal": "വാട്ടർ മെട്രോ",
+            "relationEN": "Both Kochi Metro and Water Metro are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കൊച്ചി മെട്രോ ഉം വാട്ടർ മെട്രോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kochi Metro",
-            "wordMal": "വ്യാജ കൊച്ചി മെട്രോ",
-            "relationEN": "Fake Kochi Metro shares many characteristics with Kochi Metro, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കൊച്ചി മെട്രോ ഉം വ്യാജ കൊച്ചി മെട്രോ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Water Metro",
+            "wordMal": "വാട്ടർ മെട്രോ",
+            "relationEN": "Both Kochi Metro and Water Metro are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കൊച്ചി മെട്രോ ഉം വാട്ടർ മെട്രോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3113,16 +3113,16 @@ var packs = [
         "civWordMal": "ട്രാക്ടർ",
         "imposters": [
           {
-            "word": "Tractor Type",
-            "wordMal": "ട്രാക്ടർ തരം",
-            "relationEN": "Both Tractor and Tractor Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്രാക്ടർ ഉം ട്രാക്ടർ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "JCB",
+            "wordMal": "ജെസിബി",
+            "relationEN": "Both Tractor and JCB are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്രാക്ടർ ഉം ജെസിബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Tractor",
-            "wordMal": "വ്യാജ ട്രാക്ടർ",
-            "relationEN": "Fake Tractor shares many characteristics with Tractor, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ട്രാക്ടർ ഉം വ്യാജ ട്രാക്ടർ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "JCB",
+            "wordMal": "ജെസിബി",
+            "relationEN": "Both Tractor and JCB are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്രാക്ടർ ഉം ജെസിബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3131,16 +3131,16 @@ var packs = [
         "civWordMal": "ജെസിബി",
         "imposters": [
           {
-            "word": "Excavator Type",
-            "wordMal": "ജെസിബി തരം",
-            "relationEN": "Both Excavator and Excavator Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജെസിബി ഉം ജെസിബി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "JCB",
+            "wordMal": "ജെസിബി",
+            "relationEN": "Both Excavator and JCB are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജെസിബി ഉം ജെസിബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Excavator",
-            "wordMal": "വ്യാജ ജെസിബി",
-            "relationEN": "Fake Excavator shares many characteristics with Excavator, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ജെസിബി ഉം വ്യാജ ജെസിബി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "JCB",
+            "wordMal": "ജെസിബി",
+            "relationEN": "Both Excavator and JCB are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജെസിബി ഉം ജെസിബി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3149,16 +3149,16 @@ var packs = [
         "civWordMal": "സ്പീഡ് ബോട്ട്",
         "imposters": [
           {
-            "word": "Speed Boat Type",
-            "wordMal": "സ്പീഡ് ബോട്ട് തരം",
-            "relationEN": "Both Speed Boat and Speed Boat Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്പീഡ് ബോട്ട് ഉം സ്പീഡ് ബോട്ട് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Jankar",
+            "wordMal": "ജങ്കാർ",
+            "relationEN": "Both Speed Boat and Jankar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്പീഡ് ബോട്ട് ഉം ജങ്കാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Speed Boat",
-            "wordMal": "വ്യാജ സ്പീഡ് ബോട്ട്",
-            "relationEN": "Fake Speed Boat shares many characteristics with Speed Boat, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സ്പീഡ് ബോട്ട് ഉം വ്യാജ സ്പീഡ് ബോട്ട് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Jankar",
+            "wordMal": "ജങ്കാർ",
+            "relationEN": "Both Speed Boat and Jankar are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്പീഡ് ബോട്ട് ഉം ജങ്കാർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3167,16 +3167,16 @@ var packs = [
         "civWordMal": "പെട്ടി ഓട്ടോ",
         "imposters": [
           {
-            "word": "Peti Auto Type",
-            "wordMal": "പെട്ടി ഓട്ടോ തരം",
-            "relationEN": "Both Peti Auto and Peti Auto Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പെട്ടി ഓട്ടോ ഉം പെട്ടി ഓട്ടോ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Goods Auto",
+            "wordMal": "ഗുഡ്സ് ഓട്ടോ",
+            "relationEN": "Both Peti Auto and Goods Auto are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പെട്ടി ഓട്ടോ ഉം ഗുഡ്സ് ഓട്ടോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Peti Auto",
-            "wordMal": "വ്യാജ പെട്ടി ഓട്ടോ",
-            "relationEN": "Fake Peti Auto shares many characteristics with Peti Auto, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പെട്ടി ഓട്ടോ ഉം വ്യാജ പെട്ടി ഓട്ടോ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Goods Auto",
+            "wordMal": "ഗുഡ്സ് ഓട്ടോ",
+            "relationEN": "Both Peti Auto and Goods Auto are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പെട്ടി ഓട്ടോ ഉം ഗുഡ്സ് ഓട്ടോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3185,16 +3185,16 @@ var packs = [
         "civWordMal": "അംബാസഡർ",
         "imposters": [
           {
-            "word": "Ambassador Type",
-            "wordMal": "അംബാസഡർ തരം",
-            "relationEN": "Both Ambassador and Ambassador Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അംബാസഡർ ഉം അംബാസഡർ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Contessa",
+            "wordMal": "കോണ്ടസ്സ",
+            "relationEN": "Both Ambassador and Contessa are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അംബാസഡർ ഉം കോണ്ടസ്സ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Ambassador",
-            "wordMal": "വ്യാജ അംബാസഡർ",
-            "relationEN": "Fake Ambassador shares many characteristics with Ambassador, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ അംബാസഡർ ഉം വ്യാജ അംബാസഡർ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Contessa",
+            "wordMal": "കോണ്ടസ്സ",
+            "relationEN": "Both Ambassador and Contessa are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അംബാസഡർ ഉം കോണ്ടസ്സ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3203,16 +3203,16 @@ var packs = [
         "civWordMal": "മഹീന്ദ്ര ജീപ്പ്",
         "imposters": [
           {
-            "word": "Mahindra Jeep Type",
-            "wordMal": "മഹീന്ദ്ര ജീപ്പ് തരം",
-            "relationEN": "Both Mahindra Jeep and Mahindra Jeep Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഹീന്ദ്ര ജീപ്പ് ഉം മഹീന്ദ്ര ജീപ്പ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Bolero",
+            "wordMal": "ബൊലേറോ",
+            "relationEN": "Both Mahindra Jeep and Bolero are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഹീന്ദ്ര ജീപ്പ് ഉം ബൊലേറോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Mahindra Jeep",
-            "wordMal": "വ്യാജ മഹീന്ദ്ര ജീപ്പ്",
-            "relationEN": "Fake Mahindra Jeep shares many characteristics with Mahindra Jeep, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ മഹീന്ദ്ര ജീപ്പ് ഉം വ്യാജ മഹീന്ദ്ര ജീപ്പ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Bolero",
+            "wordMal": "ബൊലേറോ",
+            "relationEN": "Both Mahindra Jeep and Bolero are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ മഹീന്ദ്ര ജീപ്പ് ഉം ബൊലേറോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3221,16 +3221,16 @@ var packs = [
         "civWordMal": "ചവിട്ടുവണ്ടി",
         "imposters": [
           {
-            "word": "Chavittu Vandi Type",
-            "wordMal": "ചവിട്ടുവണ്ടി തരം",
-            "relationEN": "Both Chavittu Vandi and Chavittu Vandi Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചവിട്ടുവണ്ടി ഉം ചവിട്ടുവണ്ടി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Cycle",
+            "wordMal": "സൈക്കിൾ",
+            "relationEN": "Both Chavittu Vandi and Cycle are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചവിട്ടുവണ്ടി ഉം സൈക്കിൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Chavittu Vandi",
-            "wordMal": "വ്യാജ ചവിട്ടുവണ്ടി",
-            "relationEN": "Fake Chavittu Vandi shares many characteristics with Chavittu Vandi, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചവിട്ടുവണ്ടി ഉം വ്യാജ ചവിട്ടുവണ്ടി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Cycle",
+            "wordMal": "സൈക്കിൾ",
+            "relationEN": "Both Chavittu Vandi and Cycle are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചവിട്ടുവണ്ടി ഉം സൈക്കിൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3239,16 +3239,16 @@ var packs = [
         "civWordMal": "ആർ എക്സ് 100",
         "imposters": [
           {
-            "word": "RX 100 Type",
-            "wordMal": "ആർ എക്സ് 100 തരം",
-            "relationEN": "Both RX 100 and RX 100 Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആർ എക്സ് 100 ഉം ആർ എക്സ് 100 തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Bullet",
+            "wordMal": "ബുള്ളറ്റ്",
+            "relationEN": "Both RX 100 and Bullet are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആർ എക്സ് 100 ഉം ബുള്ളറ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake RX 100",
-            "wordMal": "വ്യാജ ആർ എക്സ് 100",
-            "relationEN": "Fake RX 100 shares many characteristics with RX 100, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ആർ എക്സ് 100 ഉം വ്യാജ ആർ എക്സ് 100 ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Bullet",
+            "wordMal": "ബുള്ളറ്റ്",
+            "relationEN": "Both RX 100 and Bullet are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആർ എക്സ് 100 ഉം ബുള്ളറ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3257,16 +3257,16 @@ var packs = [
         "civWordMal": "ടോറസ്",
         "imposters": [
           {
-            "word": "Torrus Truck Type",
-            "wordMal": "ടോറസ് തരം",
-            "relationEN": "Both Torrus Truck and Torrus Truck Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടോറസ് ഉം ടോറസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Tipper",
+            "wordMal": "ടിപ്പർ",
+            "relationEN": "Both Torrus Truck and Tipper are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടോറസ് ഉം ടിപ്പർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Torrus Truck",
-            "wordMal": "വ്യാജ ടോറസ്",
-            "relationEN": "Fake Torrus Truck shares many characteristics with Torrus Truck, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ടോറസ് ഉം വ്യാജ ടോറസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Tipper",
+            "wordMal": "ടിപ്പർ",
+            "relationEN": "Both Torrus Truck and Tipper are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടോറസ് ഉം ടിപ്പർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3275,16 +3275,16 @@ var packs = [
         "civWordMal": "ഫയർ ഫോഴ്സ്",
         "imposters": [
           {
-            "word": "Fire Engine Type",
-            "wordMal": "ഫയർ ഫോഴ്സ് തരം",
-            "relationEN": "Both Fire Engine and Fire Engine Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫയർ ഫോഴ്സ് ഉം ഫയർ ഫോഴ്സ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Ambulance",
+            "wordMal": "ആംബുലൻസ്",
+            "relationEN": "Both Fire Engine and Ambulance are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫയർ ഫോഴ്സ് ഉം ആംബുലൻസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Fire Engine",
-            "wordMal": "വ്യാജ ഫയർ ഫോഴ്സ്",
-            "relationEN": "Fake Fire Engine shares many characteristics with Fire Engine, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഫയർ ഫോഴ്സ് ഉം വ്യാജ ഫയർ ഫോഴ്സ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Ambulance",
+            "wordMal": "ആംബുലൻസ്",
+            "relationEN": "Both Fire Engine and Ambulance are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫയർ ഫോഴ്സ് ഉം ആംബുലൻസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3293,16 +3293,16 @@ var packs = [
         "civWordMal": "വാട്ടർ മെട്രോ",
         "imposters": [
           {
-            "word": "Water Metro Type",
-            "wordMal": "വാട്ടർ മെട്രോ തരം",
-            "relationEN": "Both Water Metro and Water Metro Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാട്ടർ മെട്രോ ഉം വാട്ടർ മെട്രോ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kochi Metro",
+            "wordMal": "കൊച്ചി മെട്രോ",
+            "relationEN": "Both Water Metro and Kochi Metro are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാട്ടർ മെട്രോ ഉം കൊച്ചി മെട്രോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Water Metro",
-            "wordMal": "വ്യാജ വാട്ടർ മെട്രോ",
-            "relationEN": "Fake Water Metro shares many characteristics with Water Metro, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ വാട്ടർ മെട്രോ ഉം വ്യാജ വാട്ടർ മെട്രോ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kochi Metro",
+            "wordMal": "കൊച്ചി മെട്രോ",
+            "relationEN": "Both Water Metro and Kochi Metro are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ വാട്ടർ മെട്രോ ഉം കൊച്ചി മെട്രോ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3311,16 +3311,16 @@ var packs = [
         "civWordMal": "ലോ ഫ്ലോർ ബസ്",
         "imposters": [
           {
-            "word": "Low Floor Bus Type",
-            "wordMal": "ലോ ഫ്ലോർ ബസ് തരം",
-            "relationEN": "Both Low Floor Bus and Low Floor Bus Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോ ഫ്ലോർ ബസ് ഉം ലോ ഫ്ലോർ ബസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Aanavandi",
+            "wordMal": "ആനവണ്ടി",
+            "relationEN": "Both Low Floor Bus and Aanavandi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോ ഫ്ലോർ ബസ് ഉം ആനവണ്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Low Floor Bus",
-            "wordMal": "വ്യാജ ലോ ഫ്ലോർ ബസ്",
-            "relationEN": "Fake Low Floor Bus shares many characteristics with Low Floor Bus, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ലോ ഫ്ലോർ ബസ് ഉം വ്യാജ ലോ ഫ്ലോർ ബസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Aanavandi",
+            "wordMal": "ആനവണ്ടി",
+            "relationEN": "Both Low Floor Bus and Aanavandi are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലോ ഫ്ലോർ ബസ് ഉം ആനവണ്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3329,16 +3329,16 @@ var packs = [
         "civWordMal": "ടൂറിസ്റ്റ് ബസ്",
         "imposters": [
           {
-            "word": "Tourist Bus Type",
-            "wordMal": "ടൂറിസ്റ്റ് ബസ് തരം",
-            "relationEN": "Both Tourist Bus and Tourist Bus Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടൂറിസ്റ്റ് ബസ് ഉം ടൂറിസ്റ്റ് ബസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "KSRTC",
+            "wordMal": "കെഎസ്ആർടിസി",
+            "relationEN": "Both Tourist Bus and KSRTC are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടൂറിസ്റ്റ് ബസ് ഉം കെഎസ്ആർടിസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Tourist Bus",
-            "wordMal": "വ്യാജ ടൂറിസ്റ്റ് ബസ്",
-            "relationEN": "Fake Tourist Bus shares many characteristics with Tourist Bus, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ടൂറിസ്റ്റ് ബസ് ഉം വ്യാജ ടൂറിസ്റ്റ് ബസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "KSRTC",
+            "wordMal": "കെഎസ്ആർടിസി",
+            "relationEN": "Both Tourist Bus and KSRTC are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ടൂറിസ്റ്റ് ബസ് ഉം കെഎസ്ആർടിസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       }
@@ -3354,16 +3354,16 @@ var packs = [
         "civWordMal": "കലോത്സവം",
         "imposters": [
           {
-            "word": "Kalolsavam Type",
-            "wordMal": "കലോത്സവം തരം",
-            "relationEN": "Both Kalolsavam and Kalolsavam Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കലോത്സവം ഉം കലോത്സവം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Arts Day",
+            "wordMal": "ആർട്സ് ഡേ",
+            "relationEN": "Both Kalolsavam and Arts Day are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കലോത്സവം ഉം ആർട്സ് ഡേ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Kalolsavam",
-            "wordMal": "വ്യാജ കലോത്സവം",
-            "relationEN": "Fake Kalolsavam shares many characteristics with Kalolsavam, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കലോത്സവം ഉം വ്യാജ കലോത്സവം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Arts Day",
+            "wordMal": "ആർട്സ് ഡേ",
+            "relationEN": "Both Kalolsavam and Arts Day are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കലോത്സവം ഉം ആർട്സ് ഡേ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3372,16 +3372,16 @@ var packs = [
         "civWordMal": "ആർട്സ് ഡേ",
         "imposters": [
           {
-            "word": "Arts Day Type",
-            "wordMal": "ആർട്സ് ഡേ തരം",
-            "relationEN": "Both Arts Day and Arts Day Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആർട്സ് ഡേ ഉം ആർട്സ് ഡേ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Sports Day",
+            "wordMal": "സ്പോർട്സ് ഡേ",
+            "relationEN": "Both Arts Day and Sports Day are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആർട്സ് ഡേ ഉം സ്പോർട്സ് ഡേ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Arts Day",
-            "wordMal": "വ്യാജ ആർട്സ് ഡേ",
-            "relationEN": "Fake Arts Day shares many characteristics with Arts Day, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ആർട്സ് ഡേ ഉം വ്യാജ ആർട്സ് ഡേ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Sports Day",
+            "wordMal": "സ്പോർട്സ് ഡേ",
+            "relationEN": "Both Arts Day and Sports Day are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആർട്സ് ഡേ ഉം സ്പോർട്സ് ഡേ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3390,16 +3390,16 @@ var packs = [
         "civWordMal": "കോളേജ് കാന്റീൻ",
         "imposters": [
           {
-            "word": "College Canteen Type",
-            "wordMal": "കോളേജ് കാന്റീൻ തരം",
-            "relationEN": "Both College Canteen and College Canteen Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കോളേജ് കാന്റീൻ ഉം കോളേജ് കാന്റീൻ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Hostel Mess",
+            "wordMal": "ഹോസ്റ്റൽ മെസ്സ്",
+            "relationEN": "Both College Canteen and Hostel Mess are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കോളേജ് കാന്റീൻ ഉം ഹോസ്റ്റൽ മെസ്സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake College Canteen",
-            "wordMal": "വ്യാജ കോളേജ് കാന്റീൻ",
-            "relationEN": "Fake College Canteen shares many characteristics with College Canteen, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കോളേജ് കാന്റീൻ ഉം വ്യാജ കോളേജ് കാന്റീൻ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Hostel Mess",
+            "wordMal": "ഹോസ്റ്റൽ മെസ്സ്",
+            "relationEN": "Both College Canteen and Hostel Mess are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കോളേജ് കാന്റീൻ ഉം ഹോസ്റ്റൽ മെസ്സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3408,16 +3408,16 @@ var packs = [
         "civWordMal": "പി ടി എ മീറ്റിംഗ്",
         "imposters": [
           {
-            "word": "PTA Meeting Type",
-            "wordMal": "പി ടി എ മീറ്റിംഗ് തരം",
-            "relationEN": "Both PTA Meeting and PTA Meeting Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പി ടി എ മീറ്റിംഗ് ഉം പി ടി എ മീറ്റിംഗ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Open House",
+            "wordMal": "ഓപ്പൺ ഹൗസ്",
+            "relationEN": "Both PTA Meeting and Open House are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പി ടി എ മീറ്റിംഗ് ഉം ഓപ്പൺ ഹൗസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake PTA Meeting",
-            "wordMal": "വ്യാജ പി ടി എ മീറ്റിംഗ്",
-            "relationEN": "Fake PTA Meeting shares many characteristics with PTA Meeting, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പി ടി എ മീറ്റിംഗ് ഉം വ്യാജ പി ടി എ മീറ്റിംഗ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Open House",
+            "wordMal": "ഓപ്പൺ ഹൗസ്",
+            "relationEN": "Both PTA Meeting and Open House are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പി ടി എ മീറ്റിംഗ് ഉം ഓപ്പൺ ഹൗസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3426,16 +3426,16 @@ var packs = [
         "civWordMal": "ഓണാഘോഷം",
         "imposters": [
           {
-            "word": "Onam Celebration Type",
-            "wordMal": "ഓണാഘോഷം തരം",
-            "relationEN": "Both Onam Celebration and Onam Celebration Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓണാഘോഷം ഉം ഓണാഘോഷം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Christmas Celebration",
+            "wordMal": "ക്രിസ്മസ് ആഘോഷം",
+            "relationEN": "Both Onam Celebration and Christmas Celebration are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓണാഘോഷം ഉം ക്രിസ്മസ് ആഘോഷം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Onam Celebration",
-            "wordMal": "വ്യാജ ഓണാഘോഷം",
-            "relationEN": "Fake Onam Celebration shares many characteristics with Onam Celebration, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഓണാഘോഷം ഉം വ്യാജ ഓണാഘോഷം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Christmas Celebration",
+            "wordMal": "ക്രിസ്മസ് ആഘോഷം",
+            "relationEN": "Both Onam Celebration and Christmas Celebration are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഓണാഘോഷം ഉം ക്രിസ്മസ് ആഘോഷം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3444,16 +3444,16 @@ var packs = [
         "civWordMal": "യൂണിഫോം",
         "imposters": [
           {
-            "word": "Uniform Type",
-            "wordMal": "യൂണിഫോം തരം",
-            "relationEN": "Both Uniform and Uniform Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ യൂണിഫോം ഉം യൂണിഫോം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "ID Card",
+            "wordMal": "ഐഡി കാർഡ്",
+            "relationEN": "Both Uniform and ID Card are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ യൂണിഫോം ഉം ഐഡി കാർഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Uniform",
-            "wordMal": "വ്യാജ യൂണിഫോം",
-            "relationEN": "Fake Uniform shares many characteristics with Uniform, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ യൂണിഫോം ഉം വ്യാജ യൂണിഫോം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "ID Card",
+            "wordMal": "ഐഡി കാർഡ്",
+            "relationEN": "Both Uniform and ID Card are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ യൂണിഫോം ഉം ഐഡി കാർഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3462,16 +3462,16 @@ var packs = [
         "civWordMal": "സ്കൂൾ ബസ്",
         "imposters": [
           {
-            "word": "School Bus Type",
-            "wordMal": "സ്കൂൾ ബസ് തരം",
-            "relationEN": "Both School Bus and School Bus Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബസ് ഉം സ്കൂൾ ബസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Ambulance",
+            "wordMal": "ആംബുലൻസ്",
+            "relationEN": "Both School Bus and Ambulance are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബസ് ഉം ആംബുലൻസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake School Bus",
-            "wordMal": "വ്യാജ സ്കൂൾ ബസ്",
-            "relationEN": "Fake School Bus shares many characteristics with School Bus, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സ്കൂൾ ബസ് ഉം വ്യാജ സ്കൂൾ ബസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Ambulance",
+            "wordMal": "ആംബുലൻസ്",
+            "relationEN": "Both School Bus and Ambulance are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബസ് ഉം ആംബുലൻസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3480,16 +3480,16 @@ var packs = [
         "civWordMal": "പി ടി പിരീഡ്",
         "imposters": [
           {
-            "word": "PT Period Type",
-            "wordMal": "പി ടി പിരീഡ് തരം",
-            "relationEN": "Both PT Period and PT Period Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പി ടി പിരീഡ് ഉം പി ടി പിരീഡ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Library Period",
+            "wordMal": "ലൈബ്രറി പീരീഡ്",
+            "relationEN": "Both PT Period and Library Period are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പി ടി പിരീഡ് ഉം ലൈബ്രറി പീരീഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake PT Period",
-            "wordMal": "വ്യാജ പി ടി പിരീഡ്",
-            "relationEN": "Fake PT Period shares many characteristics with PT Period, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പി ടി പിരീഡ് ഉം വ്യാജ പി ടി പിരീഡ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Library Period",
+            "wordMal": "ലൈബ്രറി പീരീഡ്",
+            "relationEN": "Both PT Period and Library Period are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പി ടി പിരീഡ് ഉം ലൈബ്രറി പീരീഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3498,16 +3498,16 @@ var packs = [
         "civWordMal": "ആനുവൽ ഡേ",
         "imposters": [
           {
-            "word": "Annual Day Type",
-            "wordMal": "ആനുവൽ ഡേ തരം",
-            "relationEN": "Both Annual Day and Annual Day Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആനുവൽ ഡേ ഉം ആനുവൽ ഡേ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Sports Day",
+            "wordMal": "സ്പോർട്സ് ഡേ",
+            "relationEN": "Both Annual Day and Sports Day are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആനുവൽ ഡേ ഉം സ്പോർട്സ് ഡേ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Annual Day",
-            "wordMal": "വ്യാജ ആനുവൽ ഡേ",
-            "relationEN": "Fake Annual Day shares many characteristics with Annual Day, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ആനുവൽ ഡേ ഉം വ്യാജ ആനുവൽ ഡേ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Sports Day",
+            "wordMal": "സ്പോർട്സ് ഡേ",
+            "relationEN": "Both Annual Day and Sports Day are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ആനുവൽ ഡേ ഉം സ്പോർട്സ് ഡേ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3516,16 +3516,16 @@ var packs = [
         "civWordMal": "എക്സാം ഹാൾ",
         "imposters": [
           {
-            "word": "Exam Hall Type",
-            "wordMal": "എക്സാം ഹാൾ തരം",
-            "relationEN": "Both Exam Hall and Exam Hall Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എക്സാം ഹാൾ ഉം എക്സാം ഹാൾ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Classroom",
+            "wordMal": "ക്ലാസ്സ് മുറി",
+            "relationEN": "Both Exam Hall and Classroom are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എക്സാം ഹാൾ ഉം ക്ലാസ്സ് മുറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Exam Hall",
-            "wordMal": "വ്യാജ എക്സാം ഹാൾ",
-            "relationEN": "Fake Exam Hall shares many characteristics with Exam Hall, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ എക്സാം ഹാൾ ഉം വ്യാജ എക്സാം ഹാൾ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Classroom",
+            "wordMal": "ക്ലാസ്സ് മുറി",
+            "relationEN": "Both Exam Hall and Classroom are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എക്സാം ഹാൾ ഉം ക്ലാസ്സ് മുറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3534,16 +3534,16 @@ var packs = [
         "civWordMal": "റാങ്ക് ലിസ്റ്റ്",
         "imposters": [
           {
-            "word": "Rank List Type",
-            "wordMal": "റാങ്ക് ലിസ്റ്റ് തരം",
-            "relationEN": "Both Rank List and Rank List Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റാങ്ക് ലിസ്റ്റ് ഉം റാങ്ക് ലിസ്റ്റ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Waiting List",
+            "wordMal": "വെയ്റ്റിംഗ് ലിസ്റ്റ്",
+            "relationEN": "Both Rank List and Waiting List are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റാങ്ക് ലിസ്റ്റ് ഉം വെയ്റ്റിംഗ് ലിസ്റ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Rank List",
-            "wordMal": "വ്യാജ റാങ്ക് ലിസ്റ്റ്",
-            "relationEN": "Fake Rank List shares many characteristics with Rank List, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ റാങ്ക് ലിസ്റ്റ് ഉം വ്യാജ റാങ്ക് ലിസ്റ്റ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Waiting List",
+            "wordMal": "വെയ്റ്റിംഗ് ലിസ്റ്റ്",
+            "relationEN": "Both Rank List and Waiting List are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റാങ്ക് ലിസ്റ്റ് ഉം വെയ്റ്റിംഗ് ലിസ്റ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3552,16 +3552,16 @@ var packs = [
         "civWordMal": "കോളേജ് യൂണിയൻ",
         "imposters": [
           {
-            "word": "College Union Type",
-            "wordMal": "കോളേജ് യൂണിയൻ തരം",
-            "relationEN": "Both College Union and College Union Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കോളേജ് യൂണിയൻ ഉം കോളേജ് യൂണിയൻ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "SFI",
+            "wordMal": "എസ്എഫ്ഐ",
+            "relationEN": "Both College Union and SFI are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കോളേജ് യൂണിയൻ ഉം എസ്എഫ്ഐ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake College Union",
-            "wordMal": "വ്യാജ കോളേജ് യൂണിയൻ",
-            "relationEN": "Fake College Union shares many characteristics with College Union, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ കോളേജ് യൂണിയൻ ഉം വ്യാജ കോളേജ് യൂണിയൻ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "SFI",
+            "wordMal": "എസ്എഫ്ഐ",
+            "relationEN": "Both College Union and SFI are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ കോളേജ് യൂണിയൻ ഉം എസ്എഫ്ഐ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3570,16 +3570,16 @@ var packs = [
         "civWordMal": "ബാച്ച്",
         "imposters": [
           {
-            "word": "Batch Type",
-            "wordMal": "ബാച്ച് തരം",
-            "relationEN": "Both Batch and Batch Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബാച്ച് ഉം ബാച്ച് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Class",
+            "wordMal": "ക്ലാസ്സ്",
+            "relationEN": "Both Batch and Class are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബാച്ച് ഉം ക്ലാസ്സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Batch",
-            "wordMal": "വ്യാജ ബാച്ച്",
-            "relationEN": "Fake Batch shares many characteristics with Batch, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ബാച്ച് ഉം വ്യാജ ബാച്ച് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Class",
+            "wordMal": "ക്ലാസ്സ്",
+            "relationEN": "Both Batch and Class are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബാച്ച് ഉം ക്ലാസ്സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3588,16 +3588,16 @@ var packs = [
         "civWordMal": "ഫെയർവെൽ",
         "imposters": [
           {
-            "word": "Farewell Type",
-            "wordMal": "ഫെയർവെൽ തരം",
-            "relationEN": "Both Farewell and Farewell Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫെയർവെൽ ഉം ഫെയർവെൽ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Fresher Party",
+            "wordMal": "ഫ്രെഷേഴ്സ് പാർട്ടി",
+            "relationEN": "Both Farewell and Fresher Party are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫെയർവെൽ ഉം ഫ്രെഷേഴ്സ് പാർട്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Farewell",
-            "wordMal": "വ്യാജ ഫെയർവെൽ",
-            "relationEN": "Fake Farewell shares many characteristics with Farewell, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഫെയർവെൽ ഉം വ്യാജ ഫെയർവെൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Fresher Party",
+            "wordMal": "ഫ്രെഷേഴ്സ് പാർട്ടി",
+            "relationEN": "Both Farewell and Fresher Party are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഫെയർവെൽ ഉം ഫ്രെഷേഴ്സ് പാർട്ടി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3606,16 +3606,16 @@ var packs = [
         "civWordMal": "എൻ എസ് എസ്",
         "imposters": [
           {
-            "word": "NSS Type",
-            "wordMal": "എൻ എസ് എസ് തരം",
-            "relationEN": "Both NSS and NSS Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എൻ എസ് എസ് ഉം എൻ എസ് എസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "NCC",
+            "wordMal": "എൻസിസി",
+            "relationEN": "Both NSS and NCC are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എൻ എസ് എസ് ഉം എൻസിസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake NSS",
-            "wordMal": "വ്യാജ എൻ എസ് എസ്",
-            "relationEN": "Fake NSS shares many characteristics with NSS, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ എൻ എസ് എസ് ഉം വ്യാജ എൻ എസ് എസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "NCC",
+            "wordMal": "എൻസിസി",
+            "relationEN": "Both NSS and NCC are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എൻ എസ് എസ് ഉം എൻസിസി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3624,16 +3624,16 @@ var packs = [
         "civWordMal": "എൻ സി സി",
         "imposters": [
           {
-            "word": "NCC Type",
-            "wordMal": "എൻ സി സി തരം",
-            "relationEN": "Both NCC and NCC Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എൻ സി സി ഉം എൻ സി സി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "NSS",
+            "wordMal": "എൻഎസ്എസ്",
+            "relationEN": "Both NCC and NSS are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എൻ സി സി ഉം എൻഎസ്എസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake NCC",
-            "wordMal": "വ്യാജ എൻ സി സി",
-            "relationEN": "Fake NCC shares many characteristics with NCC, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ എൻ സി സി ഉം വ്യാജ എൻ സി സി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "NSS",
+            "wordMal": "എൻഎസ്എസ്",
+            "relationEN": "Both NCC and NSS are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ എൻ സി സി ഉം എൻഎസ്എസ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3642,16 +3642,16 @@ var packs = [
         "civWordMal": "ലബോറട്ടറി",
         "imposters": [
           {
-            "word": "Laboratory Type",
-            "wordMal": "ലബോറട്ടറി തരം",
-            "relationEN": "Both Laboratory and Laboratory Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലബോറട്ടറി ഉം ലബോറട്ടറി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Library",
+            "wordMal": "ലൈബ്രറി",
+            "relationEN": "Both Laboratory and Library are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലബോറട്ടറി ഉം ലൈബ്രറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Laboratory",
-            "wordMal": "വ്യാജ ലബോറട്ടറി",
-            "relationEN": "Fake Laboratory shares many characteristics with Laboratory, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ലബോറട്ടറി ഉം വ്യാജ ലബോറട്ടറി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Library",
+            "wordMal": "ലൈബ്രറി",
+            "relationEN": "Both Laboratory and Library are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലബോറട്ടറി ഉം ലൈബ്രറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3660,16 +3660,16 @@ var packs = [
         "civWordMal": "ലൈബ്രറി",
         "imposters": [
           {
-            "word": "Library Type",
-            "wordMal": "ലൈബ്രറി തരം",
-            "relationEN": "Both Library and Library Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലൈബ്രറി ഉം ലൈബ്രറി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Laboratory",
+            "wordMal": "ലബോറട്ടറി",
+            "relationEN": "Both Library and Laboratory are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലൈബ്രറി ഉം ലബോറട്ടറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Library",
-            "wordMal": "വ്യാജ ലൈബ്രറി",
-            "relationEN": "Fake Library shares many characteristics with Library, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ലൈബ്രറി ഉം വ്യാജ ലൈബ്രറി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Laboratory",
+            "wordMal": "ലബോറട്ടറി",
+            "relationEN": "Both Library and Laboratory are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ലൈബ്രറി ഉം ലബോറട്ടറി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3678,16 +3678,16 @@ var packs = [
         "civWordMal": "ഹോസ്റ്റൽ",
         "imposters": [
           {
-            "word": "Hostel Type",
-            "wordMal": "ഹോസ്റ്റൽ തരം",
-            "relationEN": "Both Hostel and Hostel Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹോസ്റ്റൽ ഉം ഹോസ്റ്റൽ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Lodge",
+            "wordMal": "ലോഡ്ജ്",
+            "relationEN": "Both Hostel and Lodge are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹോസ്റ്റൽ ഉം ലോഡ്ജ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Hostel",
-            "wordMal": "വ്യാജ ഹോസ്റ്റൽ",
-            "relationEN": "Fake Hostel shares many characteristics with Hostel, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഹോസ്റ്റൽ ഉം വ്യാജ ഹോസ്റ്റൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Lodge",
+            "wordMal": "ലോഡ്ജ്",
+            "relationEN": "Both Hostel and Lodge are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഹോസ്റ്റൽ ഉം ലോഡ്ജ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3696,16 +3696,16 @@ var packs = [
         "civWordMal": "ക്ലാസ് ലീഡർ",
         "imposters": [
           {
-            "word": "Class Leader Type",
-            "wordMal": "ക്ലാസ് ലീഡർ തരം",
-            "relationEN": "Both Class Leader and Class Leader Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ക്ലാസ് ലീഡർ ഉം ക്ലാസ് ലീഡർ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Monitor",
+            "wordMal": "മോണിറ്റർ",
+            "relationEN": "Both Class Leader and Monitor are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ക്ലാസ് ലീഡർ ഉം മോണിറ്റർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Class Leader",
-            "wordMal": "വ്യാജ ക്ലാസ് ലീഡർ",
-            "relationEN": "Fake Class Leader shares many characteristics with Class Leader, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ക്ലാസ് ലീഡർ ഉം വ്യാജ ക്ലാസ് ലീഡർ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Monitor",
+            "wordMal": "മോണിറ്റർ",
+            "relationEN": "Both Class Leader and Monitor are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ക്ലാസ് ലീഡർ ഉം മോണിറ്റർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3714,16 +3714,16 @@ var packs = [
         "civWordMal": "ഐവി / ടൂർ",
         "imposters": [
           {
-            "word": "Tour Trip Type",
-            "wordMal": "ഐവി / ടൂർ തരം",
-            "relationEN": "Both Tour Trip and Tour Trip Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐവി / ടൂർ ഉം ഐവി / ടൂർ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "IV",
+            "wordMal": "ഐവി",
+            "relationEN": "Both Tour Trip and IV are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐവി / ടൂർ ഉം ഐവി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Tour Trip",
-            "wordMal": "വ്യാജ ഐവി / ടൂർ",
-            "relationEN": "Fake Tour Trip shares many characteristics with Tour Trip, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഐവി / ടൂർ ഉം വ്യാജ ഐവി / ടൂർ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "IV",
+            "wordMal": "ഐവി",
+            "relationEN": "Both Tour Trip and IV are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐവി / ടൂർ ഉം ഐവി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3732,16 +3732,16 @@ var packs = [
         "civWordMal": "ബെഞ്ചും ഡെസ്കും",
         "imposters": [
           {
-            "word": "Bench and Desk Type",
-            "wordMal": "ബെഞ്ചും ഡെസ്കും തരം",
-            "relationEN": "Both Bench and Desk and Bench and Desk Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബെഞ്ചും ഡെസ്കും ഉം ബെഞ്ചും ഡെസ്കും തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Blackboard",
+            "wordMal": "ബ്ലാക്ക് ബോർഡ്",
+            "relationEN": "Both Bench and Desk and Blackboard are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബെഞ്ചും ഡെസ്കും ഉം ബ്ലാക്ക് ബോർഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Bench and Desk",
-            "wordMal": "വ്യാജ ബെഞ്ചും ഡെസ്കും",
-            "relationEN": "Fake Bench and Desk shares many characteristics with Bench and Desk, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ബെഞ്ചും ഡെസ്കും ഉം വ്യാജ ബെഞ്ചും ഡെസ്കും ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Blackboard",
+            "wordMal": "ബ്ലാക്ക് ബോർഡ്",
+            "relationEN": "Both Bench and Desk and Blackboard are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ബെഞ്ചും ഡെസ്കും ഉം ബ്ലാക്ക് ബോർഡ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3750,16 +3750,16 @@ var packs = [
         "civWordMal": "സ്കൂൾ ബെൽ",
         "imposters": [
           {
-            "word": "Bell Type",
-            "wordMal": "സ്കൂൾ ബെൽ തരം",
-            "relationEN": "Both Bell and Bell Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബെൽ ഉം സ്കൂൾ ബെൽ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Siren",
+            "wordMal": "സൈറൺ",
+            "relationEN": "Both Bell and Siren are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബെൽ ഉം സൈറൺ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Bell",
-            "wordMal": "വ്യാജ സ്കൂൾ ബെൽ",
-            "relationEN": "Fake Bell shares many characteristics with Bell, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സ്കൂൾ ബെൽ ഉം വ്യാജ സ്കൂൾ ബെൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Siren",
+            "wordMal": "സൈറൺ",
+            "relationEN": "Both Bell and Siren are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബെൽ ഉം സൈറൺ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3768,16 +3768,16 @@ var packs = [
         "civWordMal": "പ്രിൻസിപ്പൽ",
         "imposters": [
           {
-            "word": "Principal Type",
-            "wordMal": "പ്രിൻസിപ്പൽ തരം",
-            "relationEN": "Both Principal and Principal Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രിൻസിപ്പൽ ഉം പ്രിൻസിപ്പൽ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Headmaster",
+            "wordMal": "ഹെഡ്മാസ്റ്റർ",
+            "relationEN": "Both Principal and Headmaster are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രിൻസിപ്പൽ ഉം ഹെഡ്മാസ്റ്റർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Principal",
-            "wordMal": "വ്യാജ പ്രിൻസിപ്പൽ",
-            "relationEN": "Fake Principal shares many characteristics with Principal, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പ്രിൻസിപ്പൽ ഉം വ്യാജ പ്രിൻസിപ്പൽ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Headmaster",
+            "wordMal": "ഹെഡ്മാസ്റ്റർ",
+            "relationEN": "Both Principal and Headmaster are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രിൻസിപ്പൽ ഉം ഹെഡ്മാസ്റ്റർ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3786,16 +3786,16 @@ var packs = [
         "civWordMal": "അസൈൻമെന്റ്",
         "imposters": [
           {
-            "word": "Assignment Type",
-            "wordMal": "അസൈൻമെന്റ് തരം",
-            "relationEN": "Both Assignment and Assignment Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അസൈൻമെന്റ് ഉം അസൈൻമെന്റ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Record Book",
+            "wordMal": "റെക്കോർഡ് ബുക്ക്",
+            "relationEN": "Both Assignment and Record Book are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അസൈൻമെന്റ് ഉം റെക്കോർഡ് ബുക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Assignment",
-            "wordMal": "വ്യാജ അസൈൻമെന്റ്",
-            "relationEN": "Fake Assignment shares many characteristics with Assignment, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ അസൈൻമെന്റ് ഉം വ്യാജ അസൈൻമെന്റ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Record Book",
+            "wordMal": "റെക്കോർഡ് ബുക്ക്",
+            "relationEN": "Both Assignment and Record Book are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ അസൈൻമെന്റ് ഉം റെക്കോർഡ് ബുക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3804,16 +3804,16 @@ var packs = [
         "civWordMal": "പൂർവ്വവിദ്യാർത്ഥി സംഗമം",
         "imposters": [
           {
-            "word": "Alumni Meet Type",
-            "wordMal": "പൂർവ്വവിദ്യാർത്ഥി സംഗമം തരം",
-            "relationEN": "Both Alumni Meet and Alumni Meet Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പൂർവ്വവിദ്യാർത്ഥി സംഗമം ഉം പൂർവ്വവിദ്യാർത്ഥി സംഗമം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Farewell",
+            "wordMal": "ഫെയർവെൽ",
+            "relationEN": "Both Alumni Meet and Farewell are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പൂർവ്വവിദ്യാർത്ഥി സംഗമം ഉം ഫെയർവെൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Alumni Meet",
-            "wordMal": "വ്യാജ പൂർവ്വവിദ്യാർത്ഥി സംഗമം",
-            "relationEN": "Fake Alumni Meet shares many characteristics with Alumni Meet, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പൂർവ്വവിദ്യാർത്ഥി സംഗമം ഉം വ്യാജ പൂർവ്വവിദ്യാർത്ഥി സംഗമം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Farewell",
+            "wordMal": "ഫെയർവെൽ",
+            "relationEN": "Both Alumni Meet and Farewell are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പൂർവ്വവിദ്യാർത്ഥി സംഗമം ഉം ഫെയർവെൽ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3822,16 +3822,16 @@ var packs = [
         "civWordMal": "ഐവി",
         "imposters": [
           {
-            "word": "IV (Industrial Visit) Type",
-            "wordMal": "ഐവി തരം",
-            "relationEN": "Both IV (Industrial Visit) and IV (Industrial Visit) Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐവി ഉം ഐവി തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Tour Trip",
+            "wordMal": "ടൂർ ട്രിപ്പ്",
+            "relationEN": "Both IV (Industrial Visit) and Tour Trip are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐവി ഉം ടൂർ ട്രിപ്പ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake IV (Industrial Visit)",
-            "wordMal": "വ്യാജ ഐവി",
-            "relationEN": "Fake IV (Industrial Visit) shares many characteristics with IV (Industrial Visit), making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ഐവി ഉം വ്യാജ ഐവി ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Tour Trip",
+            "wordMal": "ടൂർ ട്രിപ്പ്",
+            "relationEN": "Both IV (Industrial Visit) and Tour Trip are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ഐവി ഉം ടൂർ ട്രിപ്പ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3840,16 +3840,16 @@ var packs = [
         "civWordMal": "ട്യൂഷൻ ക്ലാസ്",
         "imposters": [
           {
-            "word": "Tuition Class Type",
-            "wordMal": "ട്യൂഷൻ ക്ലാസ് തരം",
-            "relationEN": "Both Tuition Class and Tuition Class Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്യൂഷൻ ക്ലാസ് ഉം ട്യൂഷൻ ക്ലാസ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "School",
+            "wordMal": "സ്കൂൾ",
+            "relationEN": "Both Tuition Class and School are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്യൂഷൻ ക്ലാസ് ഉം സ്കൂൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Tuition Class",
-            "wordMal": "വ്യാജ ട്യൂഷൻ ക്ലാസ്",
-            "relationEN": "Fake Tuition Class shares many characteristics with Tuition Class, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ട്യൂഷൻ ക്ലാസ് ഉം വ്യാജ ട്യൂഷൻ ക്ലാസ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "School",
+            "wordMal": "സ്കൂൾ",
+            "relationEN": "Both Tuition Class and School are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ട്യൂഷൻ ക്ലാസ് ഉം സ്കൂൾ ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3858,16 +3858,16 @@ var packs = [
         "civWordMal": "ചെല്ലാൻ",
         "imposters": [
           {
-            "word": "Canara Bank Challan Type",
-            "wordMal": "ചെല്ലാൻ തരം",
-            "relationEN": "Both Canara Bank Challan and Canara Bank Challan Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചെല്ലാൻ ഉം ചെല്ലാൻ തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "SBI Passbook",
+            "wordMal": "എസ്ബിഐ പാസ്സ്ബുക്ക്",
+            "relationEN": "Both Canara Bank Challan and SBI Passbook are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചെല്ലാൻ ഉം എസ്ബിഐ പാസ്സ്ബുക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Canara Bank Challan",
-            "wordMal": "വ്യാജ ചെല്ലാൻ",
-            "relationEN": "Fake Canara Bank Challan shares many characteristics with Canara Bank Challan, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ചെല്ലാൻ ഉം വ്യാജ ചെല്ലാൻ ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "SBI Passbook",
+            "wordMal": "എസ്ബിഐ പാസ്സ്ബുക്ക്",
+            "relationEN": "Both Canara Bank Challan and SBI Passbook are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ചെല്ലാൻ ഉം എസ്ബിഐ പാസ്സ്ബുക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3876,16 +3876,16 @@ var packs = [
         "civWordMal": "റെക്കോർഡ് ബുക്ക്",
         "imposters": [
           {
-            "word": "Record Book Type",
-            "wordMal": "റെക്കോർഡ് ബുക്ക് തരം",
-            "relationEN": "Both Record Book and Record Book Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റെക്കോർഡ് ബുക്ക് ഉം റെക്കോർഡ് ബുക്ക് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Assignment",
+            "wordMal": "അസൈൻമെന്റ്",
+            "relationEN": "Both Record Book and Assignment are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റെക്കോർഡ് ബുക്ക് ഉം അസൈൻമെന്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Record Book",
-            "wordMal": "വ്യാജ റെക്കോർഡ് ബുക്ക്",
-            "relationEN": "Fake Record Book shares many characteristics with Record Book, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ റെക്കോർഡ് ബുക്ക് ഉം വ്യാജ റെക്കോർഡ് ബുക്ക് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Assignment",
+            "wordMal": "അസൈൻമെന്റ്",
+            "relationEN": "Both Record Book and Assignment are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ റെക്കോർഡ് ബുക്ക് ഉം അസൈൻമെന്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3894,16 +3894,16 @@ var packs = [
         "civWordMal": "സ്റ്റഡി ലീവ്",
         "imposters": [
           {
-            "word": "Study Leave Type",
-            "wordMal": "സ്റ്റഡി ലീവ് തരം",
-            "relationEN": "Both Study Leave and Study Leave Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്റ്റഡി ലീവ് ഉം സ്റ്റഡി ലീവ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Onam Vacation",
+            "wordMal": "ഓണാവധി",
+            "relationEN": "Both Study Leave and Onam Vacation are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്റ്റഡി ലീവ് ഉം ഓണാവധി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Study Leave",
-            "wordMal": "വ്യാജ സ്റ്റഡി ലീവ്",
-            "relationEN": "Fake Study Leave shares many characteristics with Study Leave, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സ്റ്റഡി ലീവ് ഉം വ്യാജ സ്റ്റഡി ലീവ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Onam Vacation",
+            "wordMal": "ഓണാവധി",
+            "relationEN": "Both Study Leave and Onam Vacation are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്റ്റഡി ലീവ് ഉം ഓണാവധി ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3912,16 +3912,16 @@ var packs = [
         "civWordMal": "യുവജനോത്സവം",
         "imposters": [
           {
-            "word": "Youth Festival Type",
-            "wordMal": "യുവജനോത്സവം തരം",
-            "relationEN": "Both Youth Festival and Youth Festival Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ യുവജനോത്സവം ഉം യുവജനോത്സവം തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Kalolsavam",
+            "wordMal": "കലോത്സവം",
+            "relationEN": "Both Youth Festival and Kalolsavam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ യുവജനോത്സവം ഉം കലോത്സവം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Youth Festival",
-            "wordMal": "വ്യാജ യുവജനോത്സവം",
-            "relationEN": "Fake Youth Festival shares many characteristics with Youth Festival, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ യുവജനോത്സവം ഉം വ്യാജ യുവജനോത്സവം ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Kalolsavam",
+            "wordMal": "കലോത്സവം",
+            "relationEN": "Both Youth Festival and Kalolsavam are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ യുവജനോത്സവം ഉം കലോത്സവം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3930,16 +3930,16 @@ var packs = [
         "civWordMal": "പ്രോഗ്രസ് റിപ്പോർട്ട്",
         "imposters": [
           {
-            "word": "Progress Report Type",
-            "wordMal": "പ്രോഗ്രസ് റിപ്പോർട്ട് തരം",
-            "relationEN": "Both Progress Report and Progress Report Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രോഗ്രസ് റിപ്പോർട്ട് ഉം പ്രോഗ്രസ് റിപ്പോർട്ട് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Mark List",
+            "wordMal": "മാർക്ക് ലിസ്റ്റ്",
+            "relationEN": "Both Progress Report and Mark List are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രോഗ്രസ് റിപ്പോർട്ട് ഉം മാർക്ക് ലിസ്റ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Progress Report",
-            "wordMal": "വ്യാജ പ്രോഗ്രസ് റിപ്പോർട്ട്",
-            "relationEN": "Fake Progress Report shares many characteristics with Progress Report, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ പ്രോഗ്രസ് റിപ്പോർട്ട് ഉം വ്യാജ പ്രോഗ്രസ് റിപ്പോർട്ട് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Mark List",
+            "wordMal": "മാർക്ക് ലിസ്റ്റ്",
+            "relationEN": "Both Progress Report and Mark List are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ പ്രോഗ്രസ് റിപ്പോർട്ട് ഉം മാർക്ക് ലിസ്റ്റ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3948,16 +3948,16 @@ var packs = [
         "civWordMal": "ജോമട്രി ബോക്സ്",
         "imposters": [
           {
-            "word": "Geometry Box Type",
-            "wordMal": "ജോമട്രി ബോക്സ് തരം",
-            "relationEN": "Both Geometry Box and Geometry Box Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജോമട്രി ബോക്സ് ഉം ജോമട്രി ബോക്സ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Pencil Pouch",
+            "wordMal": "പെൻസിൽ പൗച്ച്",
+            "relationEN": "Both Geometry Box and Pencil Pouch are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജോമട്രി ബോക്സ് ഉം പെൻസിൽ പൗച്ച് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Geometry Box",
-            "wordMal": "വ്യാജ ജോമട്രി ബോക്സ്",
-            "relationEN": "Fake Geometry Box shares many characteristics with Geometry Box, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ ജോമട്രി ബോക്സ് ഉം വ്യാജ ജോമട്രി ബോക്സ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Pencil Pouch",
+            "wordMal": "പെൻസിൽ പൗച്ച്",
+            "relationEN": "Both Geometry Box and Pencil Pouch are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ ജോമട്രി ബോക്സ് ഉം പെൻസിൽ പൗച്ച് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3966,16 +3966,16 @@ var packs = [
         "civWordMal": "സ്ലേറ്റും പെൻസിലും",
         "imposters": [
           {
-            "word": "Slate and Pencil Type",
-            "wordMal": "സ്ലേറ്റും പെൻസിലും തരം",
-            "relationEN": "Both Slate and Pencil and Slate and Pencil Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്ലേറ്റും പെൻസിലും ഉം സ്ലേറ്റും പെൻസിലും തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Chalk",
+            "wordMal": "ചോക്ക്",
+            "relationEN": "Both Slate and Pencil and Chalk are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്ലേറ്റും പെൻസിലും ഉം ചോക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake Slate and Pencil",
-            "wordMal": "വ്യാജ സ്ലേറ്റും പെൻസിലും",
-            "relationEN": "Fake Slate and Pencil shares many characteristics with Slate and Pencil, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സ്ലേറ്റും പെൻസിലും ഉം വ്യാജ സ്ലേറ്റും പെൻസിലും ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Chalk",
+            "wordMal": "ചോക്ക്",
+            "relationEN": "Both Slate and Pencil and Chalk are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്ലേറ്റും പെൻസിലും ഉം ചോക്ക് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       },
@@ -3984,16 +3984,16 @@ var packs = [
         "civWordMal": "സ്കൂൾ ബാഗ്",
         "imposters": [
           {
-            "word": "School Bag Type",
-            "wordMal": "സ്കൂൾ ബാഗ് തരം",
-            "relationEN": "Both School Bag and School Bag Type are deeply related concepts often confused together.",
-            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബാഗ് ഉം സ്കൂൾ ബാഗ് തരം ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
+            "word": "Lunch Box",
+            "wordMal": "ലഞ്ച് ബോക്സ്",
+            "relationEN": "Both School Bag and Lunch Box are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബാഗ് ഉം ലഞ്ച് ബോക്സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           },
           {
-            "word": "Fake School Bag",
-            "wordMal": "വ്യാജ സ്കൂൾ ബാഗ്",
-            "relationEN": "Fake School Bag shares many characteristics with School Bag, making them a tricky pair.",
-            "relationML": "രണ്ടും ഒരേ സ്വഭാവമുള്ളവയായതിനാൽ സ്കൂൾ ബാഗ് ഉം വ്യാജ സ്കൂൾ ബാഗ് ഉം തെറ്റിദ്ധരിക്കപ്പെടാൻ സാധ്യതയുണ്ട്."
+            "word": "Lunch Box",
+            "wordMal": "ലഞ്ച് ബോക്സ്",
+            "relationEN": "Both School Bag and Lunch Box are deeply related concepts often confused together.",
+            "relationML": "രണ്ടും സമാനമായ ആശയങ്ങളായതിനാൽ സ്കൂൾ ബാഗ് ഉം ലഞ്ച് ബോക്സ് ഉം ആളുകൾക്ക് തെറ്റിദ്ധരിക്കാൻ സാധ്യതയുണ്ട്."
           }
         ]
       }
