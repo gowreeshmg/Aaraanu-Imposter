@@ -1123,13 +1123,13 @@ let playerVotes = [];
 let totalVotesCast = 0;
 
 function renderVoteList() {
-  const list = voteList;
+  const list = $('voteList');
   if(!list) return;
   list.innerHTML = '';
   players.forEach((name, i) => {
     const b = document.createElement('button');
     b.className = 'vote-option';
-    b.innerHTML = <span class="avatar"></span><span></span><span style="margin-left:auto; background:var(--accent); color:#000; padding:2px 8px; border-radius:12px; font-weight:bold; font-size:12px;"></span>;
+    b.innerHTML = `<span class="avatar">${i+1}</span><span>${name}</span><span style="margin-left:auto; background:var(--accent); color:#000; padding:2px 8px; border-radius:12px; font-weight:bold; font-size:12px;">${playerVotes[i]}</span>`;
     b.onclick = () => {
       if (totalVotesCast < players.length) {
         playerVotes[i]++;
@@ -1140,15 +1140,15 @@ function renderVoteList() {
     list.append(b);
   });
   
-  if (voteCountIndicator) voteCountIndicator.textContent = ${totalVotesCast} /  Votes Cast;
+  if ($('voteCountIndicator')) $('voteCountIndicator').textContent = `${totalVotesCast} / ${players.length} Votes Cast`;
   
-  if (revealResult) {
+  if ($('revealResult')) {
     if (totalVotesCast === players.length) {
-      revealResult.disabled = false;
-      revealResult.classList.remove('disabled');
+      $('revealResult').disabled = false;
+      $('revealResult').classList.remove('disabled');
     } else {
-      revealResult.disabled = true;
-      revealResult.classList.add('disabled');
+      $('revealResult').disabled = true;
+      $('revealResult').classList.add('disabled');
     }
   }
 }
@@ -1161,7 +1161,7 @@ function showVote() {
   
   renderVoteList();
   
-  const resetBtn = resetVotesBtn;
+  const resetBtn = $('resetVotesBtn');
   if (resetBtn) {
     resetBtn.onclick = () => {
       playerVotes = new Array(players.length).fill(0);
