@@ -92,9 +92,9 @@ function saveSettings() {
   try {
     const s = {
       imposterCount: imposterCount,
-      duration: document.getElementById('durationSelect')?.value || '2',
-      seeCategory: document.getElementById('seeCategory')?.checked || false,
-      showHint: document.getElementById('showHint')?.checked || false
+      duration: (document.getElementById('durationSelect') ? document.getElementById('durationSelect').value : null) || '2',
+      seeCategory: (document.getElementById('seeCategory') ? document.getElementById('seeCategory').checked : false) || false,
+      showHint: (document.getElementById('showHint') ? document.getElementById('showHint').checked : false) || false
     };
     window.localStorage.setItem(SETTINGS_KEY, JSON.stringify(s));
   } catch(e) {}
@@ -292,7 +292,7 @@ CRITICAL REQUIREMENTS:
       
       if (res.ok) {
         const data = await res.json();
-        const text = data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+        const text = (data && data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts && data.candidates[0].content.parts[0] ? data.candidates[0].content.parts[0].text : null) || '';
         const jsonMatch = text.match(/\[\s*\[.*?\]\s*\]/s);
         if (jsonMatch) {
           const parsed = JSON.parse(jsonMatch[0]);
@@ -1077,7 +1077,7 @@ function renderRoleView() {
     }
     if ($('secretHint')) {
       let imposterHintHTML = [];
-      if ($('seeCategory')?.checked && word && word.category) {
+      if (($('seeCategory') ? $('seeCategory').checked : false) && word && word.category) {
         imposterHintHTML.push(`<span style="color:#a9a4b3;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;display:block;">Category</span><b style="color:var(--accent);font-size:16px;display:block;margin-top:2px;">${word.category}</b>`);
       }
       imposterHintHTML.push(`<small style="color:var(--muted);font-size:12.5px;display:block;margin-top:6px;line-height:1.45;">💡 Subtly related to the secret word, but different! Blend in without guessing!</small>`);
@@ -1118,7 +1118,7 @@ function renderRoleView() {
 }
 // Removed alignBurst
 
-function startTimer(){clearInterval(timerId);const minutes=parseInt($('durationSelect')?.value||2,10);let left=minutes*60;const total=left;const draw=()=>{const m=Math.floor(left/60),s=left%60;if($('timer'))$('timer').textContent=`${m}:${String(s).padStart(2,'0')}`;if($('timerRing'))$('timerRing').style.strokeDashoffset=327*(1-left/total)};draw();timerId=setInterval(()=>{left--;draw();if(left<=0){clearInterval(timerId);showVote()}},1000)}
+function startTimer(){clearInterval(timerId);const minutes=parseInt(($('durationSelect') ? $('durationSelect').value : 2)||2,10);let left=minutes*60;const total=left;const draw=()=>{const m=Math.floor(left/60),s=left%60;if($('timer'))$('timer').textContent=`${m}:${String(s).padStart(2,'0')}`;if($('timerRing'))$('timerRing').style.strokeDashoffset=327*(1-left/total)};draw();timerId=setInterval(()=>{left--;draw();if(left<=0){clearInterval(timerId);showVote()}},1000)}
 let playerVotes = [];
 let totalVotesCast = 0;
 
