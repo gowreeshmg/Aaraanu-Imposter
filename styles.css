@@ -67,26 +67,6 @@ body[data-screen="home"] {
   top: 0!important;
   left: 0!important;
 }
-/* Home actions bar: absolutely pinned to the bottom of #home.
-   #home has height:100dvh and position:relative so this is
-   always at the visual bottom, immune to iOS address-bar tricks. */
-.home-actions{
-  position:fixed!important;
-  bottom:0!important;
-  left:50%!important;
-  transform:translateX(-50%)!important;
-  width:100%!important;
-  max-width:520px!important;
-  background:#060509!important;
-  border-top:1px solid #1a1726!important;
-  border-radius:20px 20px 0 0!important;
-  padding:8px 16px max(8px, env(safe-area-inset-bottom, 8px))!important;
-  display:flex!important;
-  flex-direction:column!important;
-  gap:4px!important;
-  align-items:center!important;
-  z-index:999!important;
-}
 
 
 /* ─── Discussion & Vote fixed buttons ────────────────────────────────────── */
