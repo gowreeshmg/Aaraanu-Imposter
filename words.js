@@ -1,227 +1,441 @@
-if (typeof window === 'undefined') { global.window = {}; }
-
-var packs = [
+const packs = [
   {
     "id": "funny",
     "name": "Funny Malayalam",
-    "icon": "😂",
+    "icon": "🤣",
     "words": [
-      [
-        "Pwoli",
-        "പൊളി",
-        "High Energy",
-        "വലിയ ആവേശം"
-      ],
-      [
-        "Ayyayyo",
-        "അയ്യയ്യോ",
-        "Sudden Reaction",
-        "പെട്ടെന്നുള്ള പ്രതികരണം"
-      ],
-      [
-        "Scene illa",
-        "സീൻ ഇല്ല",
-        "Calm Mindset",
-        "സമാധാനപരമായ അവസ്ഥ"
-      ],
-      [
-        "Thallal",
-        "തള്ളൽ",
-        "Tall Tales",
-        "കൂട്ടുകാരുടെ സംസാരം"
-      ],
-      [
-        "Kidu",
-        "കിടു",
-        "Great Impression",
-        "നല്ല അനുഭവം"
-      ],
-      [
-        "Adipoli",
-        "അടിപൊളി",
-        "Positive Vibe",
-        "നല്ല ഒരു അന്തരീക്ഷം"
-      ],
-      [
-        "Poli Scene",
-        "പൊളി സീൻ",
-        "Memorable Experience",
-        "ഓർമ്മയിൽ നിൽക്കുന്ന കാര്യം"
-      ],
-      [
-        "Sadhanam Kayyil Undo",
-        "സാധനം കയ്യിൽ ഉണ്ടോ",
-        "Coded Message",
-        "രഹസ്യമായ അന്വേഷണം"
-      ],
-      [
-        "Thenga",
-        "തേങ്ങ",
-        "Casual Exclamation",
-        "സാധാരണ പറയുന്ന വാക്ക്"
-      ],
-      [
-        "Chetta",
-        "ചേട്ടാ",
-        "Social Conversation Start",
-        "സംസാരം തുടങ്ങുമ്പോൾ"
-      ],
-      [
-        "Eda Mone",
-        "എടാ മോനെ",
-        "Informal Bonding",
-        "അടുപ്പമുള്ളവരോടുള്ള സമീപനം"
-      ],
-      [
-        "Kidilan",
-        "കിടിലൻ",
-        "High Rating",
-        "മികച്ച അഭിപ്രായം"
-      ],
-      [
-        "Chali",
-        "ചളി",
-        "Lighthearted Entertainment",
-        "നേരംപോക്ക് സംസാരം"
-      ],
-      [
-        "Koppu",
-        "കോപ്പ്",
-        "Emotional Outburst",
-        "മനസ്സിലെ അനിഷ്ടം"
-      ],
-      [
-        "Pani Paali",
-        "പണി പാളി",
-        "Unexpected Turn",
-        "വിചാരിക്കാത്ത മാറ്റം"
-      ],
-      [
-        "Ambada",
-        "അമ്പടാ",
-        "Friendly Teasing",
-        "തമാശയ്ക്കുള്ള പ്രശംസ"
-      ],
-      [
-        "Poda Pulle",
-        "പോടാ പുള്ളേ",
-        "Casual Rejection",
-        "തമാശയുള്ള തർക്കം"
-      ],
-      [
-        "Vattaano",
-        "വട്ടാണോ",
-        "Curiosity About Behavior",
-        "പെരുമാറ്റത്തെക്കുറിച്ചുള്ള സംശയം"
-      ],
-      [
-        "Athu Sheri",
-        "അത് ശരി",
-        "Skeptical Response",
-        "സംശയത്തോടെയുള്ള പ്രതികരണം"
-      ],
-      [
-        "Thallumala",
-        "തല്ലുമാല",
-        "Group Chaos",
-        "കൂട്ടമായ ബഹളം"
-      ],
-      [
-        "Chummadive",
-        "ചുമ്മാടിവേ",
-        "Playful Exclamation",
-        "തമാശയ്ക്കുള്ള പ്രതികരണം"
-      ],
-      [
-        "Oodayi",
-        "ഉടായിപ്പ്",
-        "Clever Shortcut",
-        "വളഞ്ഞ വഴിയുള്ള ഉപായം"
-      ],
-      [
-        "Jada",
-        "ജാഡ",
-        "Social Attitude",
-        "ആളുകളുടെ പെരുമാറ്റ രീതി"
-      ],
-      [
-        "Vera Level",
-        "വേറെ ലെവൽ",
-        "Extraordinary Situation",
-        "സാധാരണയിൽ കവിഞ്ഞ അവസ്ഥ"
-      ],
-      [
-        "Blunder",
-        "ബ്ലണ്ടർ",
-        "Awkward Moment",
-        "അബദ്ധം പിണയുന്ന സമയം"
-      ],
-      [
-        "Suhurthe",
-        "സുഹൃത്തേ",
-        "Polite Addressing",
-        "മാന്യമായ അഭിസംബോധന"
-      ],
-      [
-        "Kittu",
-        "കിട്ടു",
-        "Fulfillment Moment",
-        "ആഗ്രഹസാഫല്യം"
-      ],
-      [
-        "Scene Contra",
-        "സീൻ കോൺട്ര",
-        "Unexpected Complication",
-        "പ്രതീക്ഷിക്കാത്ത തടസ്സം"
-      ],
-      [
-        "Chamakku",
-        "ചമക്ക്",
-        "Showy Attitude",
-        "പ്രകടനപരത"
-      ],
-      [
-        "Shavapetti",
-        "ശവപ്പെട്ടി",
-        "Wooden Enclosure",
-        "തടിപ്പെട്ടി"
-      ],
-      [
-        "Pothu",
-        "പോത്ത്",
-        "Stubborn Nature",
-        "വാശിപിടിക്കുന്ന സ്വഭാവം"
-      ],
-      [
-        "Kuthikazhapp",
-        "കുതിക്കഴപ്പ്",
-        "Restless Energy",
-        "അടങ്ങിയിരിക്കാത്ത അവസ്ഥ"
-      ],
-      [
-        "Senti",
-        "സെന്റി",
-        "Emotional Reaction",
-        "വികാരഭരിതമായ പ്രതികരണം"
-      ],
-      [
-        "Kidu Vibe",
-        "കിടു വൈബ്",
-        "Top Tier Quality",
-        "ഉയർന്ന നിലവാരം"
-      ],
-      [
-        "Oomfi",
-        "ഊംഫി",
-        "Sudden Loss",
-        "പെട്ടെന്നുണ്ടായ നഷ്ടം"
-      ],
-      [
-        "Vatt",
-        "വട്ട്",
-        "Unusual Thinking",
-        "വ്യത്യസ്ത ചിന്താഗതി"
-      ]
+      {
+        "civWord": "Ramanan",
+        "civWordMal": "രമണൻ",
+        "imposters": [
+          {
+            "word": "Dasamoolam Damu",
+            "wordMal": "ദശമൂലം ദാമു",
+            "relationEN": "Both are iconic, highly memed comedy characters from Malayalam cinema.",
+            "relationML": "മലയാള സിനിമയിലെ എക്കാലത്തെയും പ്രശസ്തമായ ഹാസ്യ കഥാപാത്രങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Dasamoolam Damu",
+        "civWordMal": "ദശമൂലം ദാമു",
+        "imposters": [
+          {
+            "word": "Ramanan",
+            "wordMal": "രമണൻ",
+            "relationEN": "Both are iconic, highly memed comedy characters from Malayalam cinema.",
+            "relationML": "മലയാള സിനിമയിലെ എക്കാലത്തെയും പ്രശസ്തമായ ഹാസ്യ കഥാപാത്രങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Kannan Srank",
+        "civWordMal": "കണ്ണൻ സ്രാങ്ക്",
+        "imposters": [
+          {
+            "word": "Manavalan",
+            "wordMal": "മണവാളൻ",
+            "relationEN": "Both are legendary comedy roles played by Salim Kumar.",
+            "relationML": "സലിം കുമാർ അനശ്വരമാക്കിയ ചിരിപ്പിക്കുന്ന കഥാപാത്രങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Manavalan",
+        "civWordMal": "മണവാളൻ",
+        "imposters": [
+          {
+            "word": "Kannan Srank",
+            "wordMal": "കണ്ണൻ സ്രാങ്ക്",
+            "relationEN": "Both are legendary comedy roles played by Salim Kumar.",
+            "relationML": "സലിം കുമാർ അനശ്വരമാക്കിയ ചിരിപ്പിക്കുന്ന കഥാപാത്രങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Gafoor Ka Dosth",
+        "civWordMal": "ഗഫൂർ കാ ദോസ്ത്",
+        "imposters": [
+          {
+            "word": "Pavanayi",
+            "wordMal": "പവനായി",
+            "relationEN": "Both are unforgettable, hilarious supporting characters from classic comedies.",
+            "relationML": "ക്ലാസിക് സിനിമകളിലെ പ്രശസ്തമായ കോമഡി കഥാപാത്രങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Pavanayi",
+        "civWordMal": "പവനായി",
+        "imposters": [
+          {
+            "word": "Gafoor Ka Dosth",
+            "wordMal": "ഗഫൂർ കാ ദോസ്ത്",
+            "relationEN": "Both are unforgettable, hilarious supporting characters from classic comedies.",
+            "relationML": "ക്ലാസിക് സിനിമകളിലെ പ്രശസ്തമായ കോമഡി കഥാപാത്രങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Aadu Thoma",
+        "civWordMal": "ആട് തോമ",
+        "imposters": [
+          {
+            "word": "Bilal",
+            "wordMal": "ബിലാൽ",
+            "relationEN": "Both are iconic, legendary mass characters portrayed by superstars.",
+            "relationML": "സൂപ്പർതാരങ്ങൾ അവതരിപ്പിച്ച മാസ്സ് കഥാപാത്രങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Bilal",
+        "civWordMal": "ബിലാൽ",
+        "imposters": [
+          {
+            "word": "Aadu Thoma",
+            "wordMal": "ആട് തോമ",
+            "relationEN": "Both are iconic, legendary mass characters portrayed by superstars.",
+            "relationML": "സൂപ്പർതാരങ്ങൾ അവതരിപ്പിച്ച മാസ്സ് കഥാപാത്രങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "CID Moosa",
+        "civWordMal": "സി.ഐ.ഡി മൂസ",
+        "imposters": [
+          {
+            "word": "Kalyanaraman",
+            "wordMal": "കല്യാണരാമൻ",
+            "relationEN": "Both are famous title characters from Dileep's most successful comedy films.",
+            "relationML": "ദിലീപിന്റെ എക്കാലത്തെയും മികച്ച കോമഡി കഥാപാത്രങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Kalyanaraman",
+        "civWordMal": "കല്യാണരാമൻ",
+        "imposters": [
+          {
+            "word": "CID Moosa",
+            "wordMal": "സി.ഐ.ഡി മൂസ",
+            "relationEN": "Both are famous title characters from Dileep's most successful comedy films.",
+            "relationML": "ദിലീപിന്റെ എക്കാലത്തെയും മികച്ച കോമഡി കഥാപാത്രങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Polayadi Mone",
+        "civWordMal": "പോലയാടി മോനെ",
+        "imposters": [
+          {
+            "word": "Sadhanam Kayyilundo",
+            "wordMal": "സാധനം കയ്യിലുണ്ടോ",
+            "relationEN": "Both are highly famous, frequently quoted punch dialogues from classic cinema.",
+            "relationML": "സിനിമയിലെ വളരെ പ്രശസ്തമായ ഡയലോഗുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Sadhanam Kayyilundo",
+        "civWordMal": "സാധനം കയ്യിലുണ്ടോ",
+        "imposters": [
+          {
+            "word": "Polayadi Mone",
+            "wordMal": "പോലയാടി മോനെ",
+            "relationEN": "Both are highly famous, frequently quoted punch dialogues from classic cinema.",
+            "relationML": "സിനിമയിലെ വളരെ പ്രശസ്തമായ ഡയലോഗുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kumari Pennin",
+        "civWordMal": "കുമാരി പെണ്ണിൻ",
+        "imposters": [
+          {
+            "word": "Lajjavathiye",
+            "wordMal": "ലജ്ജാവതിയേ",
+            "relationEN": "Both are iconic, fast-paced Malayalam hit songs from the early 2000s.",
+            "relationML": "മുൻകാലങ്ങളിലെ വളരെ പ്രശസ്തമായ ഫാസ്റ്റ് നമ്പർ പാട്ടുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Lajjavathiye",
+        "civWordMal": "ലജ്ജാവതിയേ",
+        "imposters": [
+          {
+            "word": "Kumari Pennin",
+            "wordMal": "കുമാരി പെണ്ണിൻ",
+            "relationEN": "Both are iconic, fast-paced Malayalam hit songs from the early 2000s.",
+            "relationML": "മുൻകാലങ്ങളിലെ വളരെ പ്രശസ്തമായ ഫാസ്റ്റ് നമ്പർ പാട്ടുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Oru Chaya Edukkatte",
+        "civWordMal": "ഒരു ചായ എടുക്കട്ടെ",
+        "imposters": [
+          {
+            "word": "Kambili Puthappu",
+            "wordMal": "കമ്പിളി പുതപ്പ്",
+            "relationEN": "Both are incredibly famous and widely used comedy dialogues in everyday life.",
+            "relationML": "ദൈനംദിന ജീവിതത്തിൽ മലയാളികൾ ഉപയോഗിക്കുന്ന തമാശ ഡയലോഗുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kambili Puthappu",
+        "civWordMal": "കമ്പിളി പുതപ്പ്",
+        "imposters": [
+          {
+            "word": "Oru Chaya Edukkatte",
+            "wordMal": "ഒരു ചായ എടുക്കട്ടെ",
+            "relationEN": "Both are incredibly famous and widely used comedy dialogues in everyday life.",
+            "relationML": "ദൈനംദിന ജീവിതത്തിൽ മലയാളികൾ ഉപയോഗിക്കുന്ന തമാശ ഡയലോഗുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Trivandrum Slang",
+        "civWordMal": "തിരുവനന്തപുരം സ്ലാങ്",
+        "imposters": [
+          {
+            "word": "Kochi Slang",
+            "wordMal": "കൊച്ചി സ്ലാങ്",
+            "relationEN": "Both are very distinct and famous regional dialects of Malayalam.",
+            "relationML": "കേരളത്തിലെ വളരെ പ്രശസ്തമായ രണ്ട് സംസാര ശൈലികളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kochi Slang",
+        "civWordMal": "കൊച്ചി സ്ലാങ്",
+        "imposters": [
+          {
+            "word": "Trivandrum Slang",
+            "wordMal": "തിരുവനന്തപുരം സ്ലാങ്",
+            "relationEN": "Both are very distinct and famous regional dialects of Malayalam.",
+            "relationML": "കേരളത്തിലെ വളരെ പ്രശസ്തമായ രണ്ട് സംസാര ശൈലികളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kallu Shaap",
+        "civWordMal": "കള്ള് ഷാപ്പ്",
+        "imposters": [
+          {
+            "word": "Thattukada",
+            "wordMal": "തട്ടുകട",
+            "relationEN": "Both are iconic local eating and gathering spots deeply ingrained in Kerala culture.",
+            "relationML": "കേരളത്തിലെ നാടൻ ഭക്ഷണശാലകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Thattukada",
+        "civWordMal": "തട്ടുകട",
+        "imposters": [
+          {
+            "word": "Kallu Shaap",
+            "wordMal": "കള്ള് ഷാപ്പ്",
+            "relationEN": "Both are iconic local eating and gathering spots deeply ingrained in Kerala culture.",
+            "relationML": "കേരളത്തിലെ നാടൻ ഭക്ഷണശാലകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "KSRTC Bus",
+        "civWordMal": "കെ.എസ്.ആർ.ടി.സി",
+        "imposters": [
+          {
+            "word": "Auto Rickshaw",
+            "wordMal": "ഓട്ടോ റിക്ഷ",
+            "relationEN": "Both are iconic symbols of daily public transportation in Kerala.",
+            "relationML": "കേരളത്തിലെ പ്രശസ്തമായ പൊതുഗതാഗത സംവിധാനങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Auto Rickshaw",
+        "civWordMal": "ഓട്ടോ റിക്ഷ",
+        "imposters": [
+          {
+            "word": "KSRTC Bus",
+            "wordMal": "കെ.എസ്.ആർ.ടി.സി",
+            "relationEN": "Both are iconic symbols of daily public transportation in Kerala.",
+            "relationML": "കേരളത്തിലെ പ്രശസ്തമായ പൊതുഗതാഗത സംവിധാനങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Aana",
+        "civWordMal": "ആന",
+        "imposters": [
+          {
+            "word": "Puli",
+            "wordMal": "പുലി",
+            "relationEN": "Both are highly celebrated wild animals frequently referenced in Malayalam pop culture.",
+            "relationML": "മലയാള സിനിമകളിലും കഥകളിലും നിറഞ്ഞുനിൽക്കുന്ന മൃഗങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Puli",
+        "civWordMal": "പുലി",
+        "imposters": [
+          {
+            "word": "Aana",
+            "wordMal": "ആന",
+            "relationEN": "Both are highly celebrated wild animals frequently referenced in Malayalam pop culture.",
+            "relationML": "മലയാള സിനിമകളിലും കഥകളിലും നിറഞ്ഞുനിൽക്കുന്ന മൃഗങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Coconut Tree",
+        "civWordMal": "തെങ്ങ്",
+        "imposters": [
+          {
+            "word": "Banana Tree",
+            "wordMal": "വാഴ",
+            "relationEN": "Both are the most common and culturally significant trees found in every Kerala backyard.",
+            "relationML": "കേരളത്തിലെ എല്ലാ വീടുകളിലും കാണുന്ന പ്രധാന മരങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Banana Tree",
+        "civWordMal": "വാഴ",
+        "imposters": [
+          {
+            "word": "Coconut Tree",
+            "wordMal": "തെങ്ങ്",
+            "relationEN": "Both are the most common and culturally significant trees found in every Kerala backyard.",
+            "relationML": "കേരളത്തിലെ എല്ലാ വീടുകളിലും കാണുന്ന പ്രധാന മരങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Chundan Vallam",
+        "civWordMal": "ചുണ്ടൻ വള്ളം",
+        "imposters": [
+          {
+            "word": "Houseboat",
+            "wordMal": "ഹൗസ്ബോട്ട്",
+            "relationEN": "Both are iconic, traditional Kerala boats famous for tourism and racing.",
+            "relationML": "കേരളത്തിന്റെ ടൂറിസവുമായി ബന്ധപ്പെട്ട പ്രശസ്തമായ വള്ളങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Houseboat",
+        "civWordMal": "ഹൗസ്ബോട്ട്",
+        "imposters": [
+          {
+            "word": "Chundan Vallam",
+            "wordMal": "ചുണ്ടൻ വള്ളം",
+            "relationEN": "Both are iconic, traditional Kerala boats famous for tourism and racing.",
+            "relationML": "കേരളത്തിന്റെ ടൂറിസവുമായി ബന്ധപ്പെട്ട പ്രശസ്തമായ വള്ളങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Mundu",
+        "civWordMal": "മുണ്ട്",
+        "imposters": [
+          {
+            "word": "Lungi",
+            "wordMal": "ലുങ്കി",
+            "relationEN": "Both are traditional, everyday bottom wear garments for men in Kerala.",
+            "relationML": "കേരളത്തിലെ പുരുഷന്മാരുടെ പ്രധാന വേഷങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Lungi",
+        "civWordMal": "ലുങ്കി",
+        "imposters": [
+          {
+            "word": "Mundu",
+            "wordMal": "മുണ്ട്",
+            "relationEN": "Both are traditional, everyday bottom wear garments for men in Kerala.",
+            "relationML": "കേരളത്തിലെ പുരുഷന്മാരുടെ പ്രധാന വേഷങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Chaya",
+        "civWordMal": "ചായ",
+        "imposters": [
+          {
+            "word": "Kadi",
+            "wordMal": "കടി",
+            "relationEN": "Both represent the essential evening tea-time snack combo in Kerala.",
+            "relationML": "മലയാളികളുടെ വൈകുന്നേരങ്ങളിലെ പ്രധാന ഭക്ഷണ ശീലമാണിത്."
+          }
+        ]
+      },
+      {
+        "civWord": "Kadi",
+        "civWordMal": "കടി",
+        "imposters": [
+          {
+            "word": "Chaya",
+            "wordMal": "ചായ",
+            "relationEN": "Both represent the essential evening tea-time snack combo in Kerala.",
+            "relationML": "മലയാളികളുടെ വൈകുന്നേരങ്ങളിലെ പ്രധാന ഭക്ഷണ ശീലമാണിത്."
+          }
+        ]
+      },
+      {
+        "civWord": "Malayali Poliyalle",
+        "civWordMal": "മലയാളി പൊളിയല്ലേ",
+        "imposters": [
+          {
+            "word": "Adipoli",
+            "wordMal": "അടിപൊളി",
+            "relationEN": "Both are extremely common Malayalam catchphrases expressing excitement.",
+            "relationML": "സന്തോഷം പ്രകടിപ്പിക്കാൻ മലയാളികൾ ഉപയോഗിക്കുന്ന പ്രശസ്തമായ വാക്കുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Adipoli",
+        "civWordMal": "അടിപൊളി",
+        "imposters": [
+          {
+            "word": "Malayali Poliyalle",
+            "wordMal": "മലയാളി പൊളിയല്ലേ",
+            "relationEN": "Both are extremely common Malayalam catchphrases expressing excitement.",
+            "relationML": "സന്തോഷം പ്രകടിപ്പിക്കാൻ മലയാളികൾ ഉപയോഗിക്കുന്ന പ്രശസ്തമായ വാക്കുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Troll Malayalam",
+        "civWordMal": "ട്രോൾ മലയാളം",
+        "imposters": [
+          {
+            "word": "Karikku",
+            "wordMal": "കരിക്ക്",
+            "relationEN": "Both are wildly popular Malayalam social media entertainment platforms.",
+            "relationML": "സോഷ്യൽ മീഡിയയിലെ പ്രശസ്തമായ വിനോദ പേജുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Karikku",
+        "civWordMal": "കരിക്ക്",
+        "imposters": [
+          {
+            "word": "Troll Malayalam",
+            "wordMal": "ട്രോൾ മലയാളം",
+            "relationEN": "Both are wildly popular Malayalam social media entertainment platforms.",
+            "relationML": "സോഷ്യൽ മീഡിയയിലെ പ്രശസ്തമായ വിനോദ പേജുകളാണിവ."
+          }
+        ]
+      }
     ]
   },
   {
@@ -229,668 +443,1316 @@ var packs = [
     "name": "Movies",
     "icon": "🎬",
     "words": [
-      [
-        "Manichitrathazhu",
-        "മണിച്ചിത്രത്താഴ്",
-        "Ancient Mansion Mystery",
-        "പഴയ തറവാട്ടിലെ രഹസ്യം"
-      ],
-      [
-        "Drishyam",
-        "ദൃശ്യം",
-        "Clever Cover-up",
-        "ബുദ്ധിപരമായ നീക്കങ്ങൾ"
-      ],
-      [
-        "Kumbalangi Nights",
-        "കുമ്പളങ്ങി നൈറ്റ്സ്",
-        "Coastal Brotherhood",
-        "തീരദേശത്തെ ജീവിതം"
-      ],
-      [
-        "Bangalore Days",
-        "ബാംഗ്ലൂർ ഡെയ്സ്",
-        "Cousins Bonding",
-        "ബന്ധുക്കളുടെ കൂട്ടായ്മ"
-      ],
-      [
-        "Premam",
-        "പ്രേമം",
-        "Stages of Life",
-        "ജീവിതത്തിലെ വിവിധ ഘട്ടങ്ങൾ"
-      ],
-      [
-        "Nadodikkattu",
-        "നാടോടിക്കാറ്റ്",
-        "Struggle and Survival",
-        "ജീവിത പോരാട്ടവും യാത്രയും"
-      ],
-      [
-        "Thenmavin Kombath",
-        "തേന്മാവിൻ കൊമ്പത്ത്",
-        "Village Romance",
-        "ഗ്രാമീണ പശ്ചാത്തലമുള്ള കഥ"
-      ],
-      [
-        "Kilukkam",
-        "കിലുക്കം",
-        "Humorous Journey",
-        "ചിരിയും യാത്രയും ചേർന്നത്"
-      ],
-      [
-        "Chithram",
-        "ചിത്രം",
-        "Emotional Relationship",
-        "ബന്ധങ്ങളുടെ ആഴം"
-      ],
-      [
-        "Bharatham",
-        "ഭരതം",
-        "Classical Art Background",
-        "കലാപരമായ പശ്ചാത്തലം"
-      ],
-      [
-        "Devasuram",
-        "ദേവാസുരം",
-        "Rivalry and Honor",
-        "അഭിമാനവും വാശിയും"
-      ],
-      [
-        "Ustad Hotel",
-        "ഉസ്താദ് ഹോട്ടൽ",
-        "Generations and Culture",
-        "തലമുറകളും പാരമ്പര്യവും"
-      ],
-      [
-        "Maheshinte Prathikaaram",
-        "മഹേഷിന്റെ പ്രതികാരം",
-        "Simple Town Life",
-        "സാധാരണക്കാരുടെ ജീവിതം"
-      ],
-      [
-        "Ayyappanum Koshiyum",
-        "അയ്യപ്പനും കോശിയും",
-        "Conflict of Personalities",
-        "വ്യക്തികൾ തമ്മിലുള്ള തർക്കം"
-      ],
-      [
-        "Lucifer",
-        "ലൂസിഫർ",
-        "Power and Strategy",
-        "അധികാരവും തന്ത്രങ്ങളും"
-      ],
-      [
-        "Thondimuthalum Driksakshiyum",
-        "തൊണ്ടിമുതലും ദൃക്സാക്ഷിയും",
-        "Human Nature",
-        "മനുഷ്യ സ്വഭാവങ്ങളുടെ സത്യം"
-      ],
-      [
-        "Action Hero Biju",
-        "ആക്ഷൻ ഹീറോ ബിജു",
-        "Real Life Incidents",
-        "യാഥാർത്ഥ്യത്തോട് അടുത്ത സംഭവങ്ങൾ"
-      ],
-      [
-        "Sudani from Nigeria",
-        "സുഡാനി ഫ്രം നൈജീരിയ",
-        "Compassion and Friendship",
-        "സ്നേഹവും കൂട്ടായ്മയും"
-      ],
-      [
-        "Traffic",
-        "ട്രാഫിക്",
-        "Time Sensitive Race",
-        "സമയത്തോടുള്ള മത്സരം"
-      ],
-      [
-        "Indian Rupee",
-        "ഇന്ത്യൻ റുപ്പി",
-        "Financial Ambitions",
-        "സാമ്പത്തിക ലക്ഷ്യങ്ങൾ"
-      ],
-      [
-        "Romancham",
-        "രോമാഞ്ചം",
-        "Bachelor Living Drama",
-        "കൂട്ടുകാരുടെ ഒന്നിച്ചുള്ള ജീവിതം"
-      ],
-      [
-        "Premalu",
-        "പ്രേമലു",
-        "Youth Relationship",
-        "പുതിയ തലമുറയുടെ ചിന്തകൾ"
-      ],
-      [
-        "Aavesham",
-        "ആവേശം",
-        "High Energy Encounter",
-        "ആവേശകരമായ കൂട്ടായ്മ"
-      ],
-      [
-        "Bramayugam",
-        "ഭ്രമയുഗം",
-        "Ancient Mystery",
-        "പഴയകാല നിഗൂഢത"
-      ],
-      [
-        "Manjummel Boys",
-        "മഞ്ഞുമ്മൽ ബോയ്സ്",
-        "Friendship Rescue",
-        "സുഹൃത്തുക്കളുടെ സ്നേഹം"
-      ],
-      [
-        "Godfather",
-        "ഗോഡ്ഫാദർ",
-        "Family Tradition",
-        "കുടുംബത്തിലെ കാരണവന്മാർ"
-      ],
-      [
-        "Malaikottai Vaaliban",
-        "മലൈക്കോട്ടൈ വാലിബൻ",
-        "Desert Folklore",
-        "നാടോടിക്കഥകൾ"
-      ],
-      [
-        "Minnal Murali",
-        "മിന്നൽ മുരളി",
-        "Tailor Shop Incident",
-        "തയ്യൽക്കടയിലെ സംഭവം"
-      ],
-      [
-        "Kishkindha Kaandam",
-        "കിഷ്കിന്ധാ കാണ്ഡം",
-        "Forest Reserve Inquiry",
-        "വനമേഖലയിലെ അന്വേഷണം"
-      ],
-      [
-        "Rorschach",
-        "റോഷാക്ക്",
-        "White Mask Mystery",
-        "മുഖംമൂടി രഹസ്യം"
-      ],
-      [
-        "Kattappanayile Rithwik Roshan",
-        "കട്ടപ്പനയിലെ ഹൃതിക് റോഷൻ",
-        "Local Casting Call",
-        "സിനിമ മോഹം"
-      ],
-      [
-        "Varathan",
-        "വരത്തൻ",
-        "Estate Intrusion",
-        "തോട്ടത്തിലെ അതിക്രമം"
-      ],
-      [
-        "Bheeshma Parvam",
-        "ഭീഷ്മ പർവ്വം",
-        "Mattancherry Trade",
-        "മട്ടാഞ്ചേരിയിലെ കച്ചവടം"
-      ],
-      [
-        "Memories",
-        "മെമ്മറീസ്",
-        "Investigative Thriller",
-        "രഹസ്യാന്വേഷണ കഥ"
-      ],
-      [
-        "Classmates",
-        "ക്ലാസ്മേറ്റ്സ്",
-        "Campus Nostalgia",
-        "കോളേജ് ഓർമ്മകൾ"
-      ],
-      [
-        "Spadikam",
-        "സ്ഫടികം",
-        "Rebellious Son",
-        "കുടുംബത്തിലെ തർക്കങ്ങൾ"
-      ]
+      {
+        "civWord": "Manichitrathazhu",
+        "civWordMal": "മണിച്ചിത്രത്താഴ്",
+        "imposters": [
+          {
+            "word": "Drishyam",
+            "wordMal": "ദൃശ്യം",
+            "relationEN": "Both are legendary Malayalam thriller movies with massive cultural impact.",
+            "relationML": "മലയാളത്തിലെ എക്കാലത്തെയും മികച്ച ത്രില്ലർ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Drishyam",
+        "civWordMal": "ദൃശ്യം",
+        "imposters": [
+          {
+            "word": "Manichitrathazhu",
+            "wordMal": "മണിച്ചിത്രത്താഴ്",
+            "relationEN": "Both are legendary Malayalam thriller movies with massive cultural impact.",
+            "relationML": "മലയാളത്തിലെ എക്കാലത്തെയും മികച്ച ത്രില്ലർ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Premam",
+        "civWordMal": "പ്രേമം",
+        "imposters": [
+          {
+            "word": "Kumbalangi Nights",
+            "wordMal": "കുമ്പളങ്ങി നൈറ്റ്സ്",
+            "relationEN": "Both are massive modern blockbusters that redefined Malayalam pop culture.",
+            "relationML": "പുതിയ തലമുറയിലെ ഏറ്റവും പ്രശസ്തമായ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Kumbalangi Nights",
+        "civWordMal": "കുമ്പളങ്ങി നൈറ്റ്സ്",
+        "imposters": [
+          {
+            "word": "Premam",
+            "wordMal": "പ്രേമം",
+            "relationEN": "Both are massive modern blockbusters that redefined Malayalam pop culture.",
+            "relationML": "പുതിയ തലമുറയിലെ ഏറ്റവും പ്രശസ്തമായ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Bangalore Days",
+        "civWordMal": "ബാംഗ്ലൂർ ഡേയ്സ്",
+        "imposters": [
+          {
+            "word": "Om Shanti Oshana",
+            "wordMal": "ഓം ശാന്തി ഓശാന",
+            "relationEN": "Both are highly celebrated, feel-good romantic comedies.",
+            "relationML": "യുവത്വത്തിന്റെ ആഘോഷമായ പ്രണയ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Om Shanti Oshana",
+        "civWordMal": "ഓം ശാന്തി ഓശാന",
+        "imposters": [
+          {
+            "word": "Bangalore Days",
+            "wordMal": "ബാംഗ്ലൂർ ഡേയ്സ്",
+            "relationEN": "Both are highly celebrated, feel-good romantic comedies.",
+            "relationML": "യുവത്വത്തിന്റെ ആഘോഷമായ പ്രണയ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Lucifer",
+        "civWordMal": "ലൂസിഫർ",
+        "imposters": [
+          {
+            "word": "Bheeshma Parvam",
+            "wordMal": "ഭീഷ്മ പർവ്വം",
+            "relationEN": "Both are stylish, mass-action blockbusters featuring veteran superstars.",
+            "relationML": "മെഗാസ്റ്റാറുകൾ അഭിനയിച്ച മാസ്സ് ആക്ഷൻ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Bheeshma Parvam",
+        "civWordMal": "ഭീഷ്മ പർവ്വം",
+        "imposters": [
+          {
+            "word": "Lucifer",
+            "wordMal": "ലൂസിഫർ",
+            "relationEN": "Both are stylish, mass-action blockbusters featuring veteran superstars.",
+            "relationML": "മെഗാസ്റ്റാറുകൾ അഭിനയിച്ച മാസ്സ് ആക്ഷൻ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Kireedam",
+        "civWordMal": "കിരീടം",
+        "imposters": [
+          {
+            "word": "Spadikam",
+            "wordMal": "സ്ഫടികം",
+            "relationEN": "Both are iconic classic dramas centered around a strong protagonist and family conflict.",
+            "relationML": "മലയാളത്തിലെ എക്കാലത്തെയും മികച്ച ക്ലാസിക് സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Spadikam",
+        "civWordMal": "സ്ഫടികം",
+        "imposters": [
+          {
+            "word": "Kireedam",
+            "wordMal": "കിരീടം",
+            "relationEN": "Both are iconic classic dramas centered around a strong protagonist and family conflict.",
+            "relationML": "മലയാളത്തിലെ എക്കാലത്തെയും മികച്ച ക്ലാസിക് സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "CID Moosa",
+        "civWordMal": "സി.ഐ.ഡി മൂസ",
+        "imposters": [
+          {
+            "word": "Punjabi House",
+            "wordMal": "പഞ്ചാബി ഹൗസ്",
+            "relationEN": "Both are timeless, deeply loved slapstick comedy classics starring Dileep.",
+            "relationML": "മലയാളികളെ ഒരുപാട് ചിരിപ്പിച്ച ദിലീപ് സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Punjabi House",
+        "civWordMal": "പഞ്ചാബി ഹൗസ്",
+        "imposters": [
+          {
+            "word": "CID Moosa",
+            "wordMal": "സി.ഐ.ഡി മൂസ",
+            "relationEN": "Both are timeless, deeply loved slapstick comedy classics starring Dileep.",
+            "relationML": "മലയാളികളെ ഒരുപാട് ചിരിപ്പിച്ച ദിലീപ് സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Oru Vadakkan Selfie",
+        "civWordMal": "ഒരു വടക്കൻ സെൽഫി",
+        "imposters": [
+          {
+            "word": "Thattathin Marayathu",
+            "wordMal": "തട്ടത്തിൻ മറയത്ത്",
+            "relationEN": "Both are youth-centric comedies directed/written by Vineeth Sreenivasan.",
+            "relationML": "വിനീത് ശ്രീനിവാസന്റെ പ്രശസ്തമായ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Thattathin Marayathu",
+        "civWordMal": "തട്ടത്തിൻ മറയത്ത്",
+        "imposters": [
+          {
+            "word": "Oru Vadakkan Selfie",
+            "wordMal": "ഒരു വടക്കൻ സെൽഫി",
+            "relationEN": "Both are youth-centric comedies directed/written by Vineeth Sreenivasan.",
+            "relationML": "വിനീത് ശ്രീനിവാസന്റെ പ്രശസ്തമായ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Narasimham",
+        "civWordMal": "നരസിംഹം",
+        "imposters": [
+          {
+            "word": "Aaraam Thampuran",
+            "wordMal": "ആറാം തമ്പുരാൻ",
+            "relationEN": "Both are iconic Mohanlal mass entertainers from the early 2000s.",
+            "relationML": "മോഹൻലാലിന്റെ എക്കാലത്തെയും വലിയ ഹിറ്റ് സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Aaraam Thampuran",
+        "civWordMal": "ആറാം തമ്പുരാൻ",
+        "imposters": [
+          {
+            "word": "Narasimham",
+            "wordMal": "നരസിംഹം",
+            "relationEN": "Both are iconic Mohanlal mass entertainers from the early 2000s.",
+            "relationML": "മോഹൻലാലിന്റെ എക്കാലത്തെയും വലിയ ഹിറ്റ് സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Ustad Hotel",
+        "civWordMal": "ഉസ്താദ് ഹോട്ടൽ",
+        "imposters": [
+          {
+            "word": "Charlie",
+            "wordMal": "ചാർലി",
+            "relationEN": "Both are critically acclaimed, feel-good movies starring Dulquer Salmaan.",
+            "relationML": "ദുൽഖർ സൽമാൻ നായകനായ പ്രശസ്ത സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Charlie",
+        "civWordMal": "ചാർലി",
+        "imposters": [
+          {
+            "word": "Ustad Hotel",
+            "wordMal": "ഉസ്താദ് ഹോട്ടൽ",
+            "relationEN": "Both are critically acclaimed, feel-good movies starring Dulquer Salmaan.",
+            "relationML": "ദുൽഖർ സൽമാൻ നായകനായ പ്രശസ്ത സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Minnal Murali",
+        "civWordMal": "മിന്നൽ മുരളി",
+        "imposters": [
+          {
+            "word": "Aavesham",
+            "wordMal": "ആവേശം",
+            "relationEN": "Both are massive contemporary hits known for their unique style and action.",
+            "relationML": "അടുത്തിടെ ഇറങ്ങിയ വലിയ ഹിറ്റ് സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Aavesham",
+        "civWordMal": "ആവേശം",
+        "imposters": [
+          {
+            "word": "Minnal Murali",
+            "wordMal": "മിന്നൽ മുരളി",
+            "relationEN": "Both are massive contemporary hits known for their unique style and action.",
+            "relationML": "അടുത്തിടെ ഇറങ്ങിയ വലിയ ഹിറ്റ് സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Maheshinte Prathikaaram",
+        "civWordMal": "മഹേഷിന്റെ പ്രതികാരം",
+        "imposters": [
+          {
+            "word": "Thondimuthalum Driksakshiyum",
+            "wordMal": "തൊണ്ടിമുതലും ദൃക്‌സാക്ഷിയും",
+            "relationEN": "Both are highly realistic, critically acclaimed Fahadh Faasil films.",
+            "relationML": "ഫഹദ് ഫാസിലിന്റെ മികച്ച റിയലിസ്റ്റിക് സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Thondimuthalum Driksakshiyum",
+        "civWordMal": "തൊണ്ടിമുതലും ദൃക്‌സാക്ഷിയും",
+        "imposters": [
+          {
+            "word": "Maheshinte Prathikaaram",
+            "wordMal": "മഹേഷിന്റെ പ്രതികാരം",
+            "relationEN": "Both are highly realistic, critically acclaimed Fahadh Faasil films.",
+            "relationML": "ഫഹദ് ഫാസിലിന്റെ മികച്ച റിയലിസ്റ്റിക് സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Angamaly Diaries",
+        "civWordMal": "അങ്കമാലി ഡയറീസ്",
+        "imposters": [
+          {
+            "word": "Romancham",
+            "wordMal": "രോമാഞ്ചം",
+            "relationEN": "Both are highly successful films starring mostly newcomers that became cult classics.",
+            "relationML": "പുതുമുഖങ്ങളെ അണിനിരത്തി വലിയ വിജയമായ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Romancham",
+        "civWordMal": "രോമാഞ്ചം",
+        "imposters": [
+          {
+            "word": "Angamaly Diaries",
+            "wordMal": "അങ്കമാലി ഡയറീസ്",
+            "relationEN": "Both are highly successful films starring mostly newcomers that became cult classics.",
+            "relationML": "പുതുമുഖങ്ങളെ അണിനിരത്തി വലിയ വിജയമായ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Godfather",
+        "civWordMal": "ഗോഡ്ഫാദർ",
+        "imposters": [
+          {
+            "word": "Ramji Rao Speaking",
+            "wordMal": "റാംജി റാവു സ്പീക്കിംഗ്",
+            "relationEN": "Both are legendary classic comedies from the Siddique-Lal duo.",
+            "relationML": "സിദ്ദിഖ്-ലാൽ കൂട്ടുകെട്ടിലെ എക്കാലത്തെയും മികച്ച കോമഡി സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Ramji Rao Speaking",
+        "civWordMal": "റാംജി റാവു സ്പീക്കിംഗ്",
+        "imposters": [
+          {
+            "word": "Godfather",
+            "wordMal": "ഗോഡ്ഫാദർ",
+            "relationEN": "Both are legendary classic comedies from the Siddique-Lal duo.",
+            "relationML": "സിദ്ദിഖ്-ലാൽ കൂട്ടുകെട്ടിലെ എക്കാലത്തെയും മികച്ച കോമഡി സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Kilukkam",
+        "civWordMal": "കിലുക്കം",
+        "imposters": [
+          {
+            "word": "Chithram",
+            "wordMal": "ചിത്രം",
+            "relationEN": "Both are timeless Priyadarshan-Mohanlal classic comedies with an emotional core.",
+            "relationML": "മോഹൻലാൽ-പ്രിയദർശൻ കൂട്ടുകെട്ടിലെ സൂപ്പർ ഹിറ്റുകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Chithram",
+        "civWordMal": "ചിത്രം",
+        "imposters": [
+          {
+            "word": "Kilukkam",
+            "wordMal": "കിലുക്കം",
+            "relationEN": "Both are timeless Priyadarshan-Mohanlal classic comedies with an emotional core.",
+            "relationML": "മോഹൻലാൽ-പ്രിയദർശൻ കൂട്ടുകെട്ടിലെ സൂപ്പർ ഹിറ്റുകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Pulimurugan",
+        "civWordMal": "പുലിമുരുകൻ",
+        "imposters": [
+          {
+            "word": "KGF",
+            "wordMal": "കെ.ജി.എഫ്",
+            "relationEN": "Both are massive action spectacles that broke box-office records in Kerala.",
+            "relationML": "ബോക്സ് ഓഫീസ് റെക്കോർഡുകൾ തിരുത്തിക്കുറിച്ച മാസ്സ് സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "KGF",
+        "civWordMal": "കെ.ജി.എഫ്",
+        "imposters": [
+          {
+            "word": "Pulimurugan",
+            "wordMal": "പുലിമുരുകൻ",
+            "relationEN": "Both are massive action spectacles that broke box-office records in Kerala.",
+            "relationML": "ബോക്സ് ഓഫീസ് റെക്കോർഡുകൾ തിരുത്തിക്കുറിച്ച മാസ്സ് സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Hridayam",
+        "civWordMal": "ഹൃദയം",
+        "imposters": [
+          {
+            "word": "Premalu",
+            "wordMal": "പ്രേമലു",
+            "relationEN": "Both are highly successful modern romantic comedies.",
+            "relationML": "പുതിയ തലമുറ ഏറ്റെടുത്ത പ്രണയ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Premalu",
+        "civWordMal": "പ്രേമലു",
+        "imposters": [
+          {
+            "word": "Hridayam",
+            "wordMal": "ഹൃദയം",
+            "relationEN": "Both are highly successful modern romantic comedies.",
+            "relationML": "പുതിയ തലമുറ ഏറ്റെടുത്ത പ്രണയ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Manjummel Boys",
+        "civWordMal": "മഞ്ഞുമ്മൽ ബോയ്സ്",
+        "imposters": [
+          {
+            "word": "Aadujeevitham",
+            "wordMal": "ആടുജീവിതം",
+            "relationEN": "Both are massive survival-thriller hits based on true stories.",
+            "relationML": "യഥാർത്ഥ സംഭവങ്ങളെ ആസ്പദമാക്കിയുള്ള വലിയ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Aadujeevitham",
+        "civWordMal": "ആടുജീവിതം",
+        "imposters": [
+          {
+            "word": "Manjummel Boys",
+            "wordMal": "മഞ്ഞുമ്മൽ ബോയ്സ്",
+            "relationEN": "Both are massive survival-thriller hits based on true stories.",
+            "relationML": "യഥാർത്ഥ സംഭവങ്ങളെ ആസ്പദമാക്കിയുള്ള വലിയ സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Kalyanaraman",
+        "civWordMal": "കല്യാണരാമൻ",
+        "imposters": [
+          {
+            "word": "Thommanum Makkalum",
+            "wordMal": "തൊമ്മനും മക്കളും",
+            "relationEN": "Both are extremely popular comedy entertainers with high rewatch value.",
+            "relationML": "എത്ര കണ്ടാലും മടുക്കാത്ത കോമഡി സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Thommanum Makkalum",
+        "civWordMal": "തൊമ്മനും മക്കളും",
+        "imposters": [
+          {
+            "word": "Kalyanaraman",
+            "wordMal": "കല്യാണരാമൻ",
+            "relationEN": "Both are extremely popular comedy entertainers with high rewatch value.",
+            "relationML": "എത്ര കണ്ടാലും മടുക്കാത്ത കോമഡി സിനിമകളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      }
     ]
   },
   {
     "id": "characters",
     "name": "Characters",
-    "icon": "🎯",
+    "icon": "👥",
     "words": [
-      [
-        "Georgekutty",
-        "ജോർജ് കുട്ടി",
-        "Resourceful Protector",
-        "കുടുംബത്തെ സംരക്ഷിക്കുന്നവൻ"
-      ],
-      [
-        "Nagavalli",
-        "നാഗവല്ലി",
-        "Legendary Persona",
-        "പഴയകാല ഓർമ്മകളുള്ള കഥാപാത്രം"
-      ],
-      [
-        "Sethumadhavan",
-        "സേതുമാധവൻ",
-        "Misunderstood Youth",
-        "സാഹചര്യങ്ങളുടെ ഇര"
-      ],
-      [
-        "Dasan",
-        "ദാസൻ",
-        "Jobless Aspiring Man",
-        "വലിയ സ്വപ്നങ്ങളുള്ള യുവാവ്"
-      ],
-      [
-        "Mangalassery Neelakandan",
-        "മംഗലശ്ശേരി നീലകണ്ഠൻ",
-        "Powerful Feudal Figure",
-        "ഗ്രാമത്തിലെ പ്രബലനായ വ്യക്തി"
-      ],
-      [
-        "Appukuttan",
-        "അപ്പുക്കുട്ടൻ",
-        "Humorous Companion",
-        "ചിരിപ്പിക്കുന്ന സുഹൃത്ത്"
-      ],
-      [
-        "Ramanan",
-        "രാമനൻ",
-        "Loyal Follower",
-        "വിശ്വസ്തനായ സഹായി"
-      ],
-      [
-        "Induchoodan",
-        "ഇന്ദുചൂഡൻ",
-        "Outspoken Leader",
-        "തന്റേടമുള്ള നായകൻ"
-      ],
-      [
-        "Kunjikoonan",
-        "കുഞ്ഞിക്കൂനൻ",
-        "Sympathetic Villager",
-        "സ്നേഹമുള്ള ഗ്രാമീണൻ"
-      ],
-      [
-        "Koshy Kurien",
-        "കോശി കുര്യൻ",
-        "Influential Challenger",
-        "സ്വാധീനമുള്ള എതിരാളി"
-      ],
-      [
-        "Ayyappan Nair",
-        "അയ്യപ്പൻ നായർ",
-        "Strict Authority Figure",
-        "നിയമം പാലിക്കുന്ന ഉദ്യോഗസ്ഥൻ"
-      ],
-      [
-        "Mahesh Bhavana",
-        "മഹേഷ് ഭാവന",
-        "Modest Town Photographer",
-        "സാധാരണക്കാരനായ ചെറുപ്പക്കാരൻ"
-      ],
-      [
-        "Biju Paulose",
-        "ബിജു പൗലോസ്",
-        "Dedicated Lawman",
-        "കടമ നിർവ്വഹിക്കുന്നവൻ"
-      ],
-      [
-        "Rameshan Nair",
-        "രമേശൻ നായർ",
-        "Passionate Enthusiast",
-        "വലിയ ഇഷ്ടങ്ങൾ സൂക്ഷിക്കുന്നവൻ"
-      ],
-      [
-        "Pachu",
-        "പച്ചു",
-        "Helpful Neighbor",
-        "എല്ലാവർക്കും വേണ്ടപ്പെട്ടവൻ"
-      ],
-      [
-        "Kunjiraman",
-        "കുഞ്ഞിരാമൻ",
-        "Prominent Local",
-        "ഗ്രാമത്തിലെ പ്രധാന വ്യക്തി"
-      ],
-      [
-        "Pavanayi",
-        "പവനായി",
-        "Overconfident Outsider",
-        "വലിയ അവകാശവാദങ്ങൾ ഉന്നയിക്കുന്നവൻ"
-      ],
-      [
-        "Manavalan",
-        "മാനവാളൻ",
-        "Comical Businessman",
-        "തമാശക്കാരനായ വ്യാപാരി"
-      ],
-      [
-        "Ganga",
-        "ഗംഗ",
-        "Double Personality",
-        "മനസ്സിൽ രഹസ്യം സൂക്ഷിക്കുന്നവൾ"
-      ],
-      [
-        "Rukmini",
-        "രുക്മിണി",
-        "Traditional Homemaker",
-        "തറവാട്ടിലെ പ്രധാനി"
-      ],
-      [
-        "Girish M.A.",
-        "ഗിരീഷ് എം.എ.",
-        "Funny Romantic Youth",
-        "പ്രണയിക്കുന്ന ചെറുപ്പക്കാരൻ"
-      ],
-      [
-        "Shammi",
-        "ഷമ്മി",
-        "Unusual Houseguest",
-        "പ്രത്യേക സ്വഭാവമുള്ള അതിഥി"
-      ],
-      [
-        "Ranga",
-        "രംഗ",
-        "Flamboyant Leader",
-        "ആവേശക്കാരനായ നായകൻ"
-      ],
-      [
-        "Dashamoolam Damu",
-        "ദശമൂലം ദാമു",
-        "Excitable Comedian",
-        "ചിരിപ്പിക്കുന്ന കഥാപാത്രം"
-      ],
-      [
-        "Gafoor Ka Dosth",
-        "ഗഫൂർ കാ ദോസ്ത്",
-        "Travel Guide Trickster",
-        "വഴി കാണിക്കുന്ന സഹായി"
-      ],
-      [
-        "Anandavalli",
-        "ആനന്ദവല്ലി",
-        "Loving Motherly Figure",
-        "സ്നേഹമുള്ള അമ്മ"
-      ],
-      [
-        "Beemboy",
-        "ബീംബോയ്",
-        "Heavy Lifter",
-        "ഭാരം ചുമക്കുന്നയാൾ"
-      ],
-      [
-        "Kattalan Porinchu",
-        "കാട്ടാളൻ പൊറിഞ്ചു",
-        "Market Enforcer",
-        "ചന്തയിലെ കരുത്തൻ"
-      ],
-      [
-        "Digambaran",
-        "ദിഗംബരൻ",
-        "Black Magic Healer",
-        "മന്ത്രവാദ ക്രിയകൾ"
-      ],
-      [
-        "Dileep Role",
-        "ദിലീപ് റോൾ",
-        "Mimicry Artist",
-        "മിമിക്രി കലാകാരൻ"
-      ],
-      [
-        "Kuttan",
-        "കുട്ടൻ",
-        "Tech Employee",
-        "ഐടി ജീവനക്കാരൻ"
-      ],
-      [
-        "Krishnan",
-        "കൃഷ്ണൻ",
-        "Colony Resident",
-        "കോളനിവാസി"
-      ],
-      [
-        "Sachy",
-        "സച്ചി",
-        "Advocate Writer",
-        "നിയമജ്ഞനായ എഴുത്തുകാരൻ"
-      ],
-      [
-        "Aadu Thoma",
-        "ആട് തോമ",
-        "Quarry Operator",
-        "ക്വാറി ഉടമ"
-      ],
-      [
-        "Keeleri Achu",
-        "കീശേരി അച്ചു",
-        "Comical Muscleman",
-        "ചിരിപ്പിക്കുന്ന ഗുണ്ട"
-      ],
-      [
-        "Niranjan",
-        "നിരഞ്ജൻ",
-        "Convict Fugitive",
-        "നിയമത്തിൽ നിന്നും ഓടിയവൻ"
-      ]
+      {
+        "civWord": "Sunny",
+        "civWordMal": "സണ്ണി",
+        "imposters": [
+          {
+            "word": "Ganga",
+            "wordMal": "ഗംഗ",
+            "relationEN": "Both are iconic dual-personality/psychiatrist characters from Manichitrathazhu.",
+            "relationML": "മണിച്ചിത്രത്താഴ് എന്ന സിനിമയിലെ വളരെ പ്രശസ്തമായ കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Ganga",
+        "civWordMal": "ഗംഗ",
+        "imposters": [
+          {
+            "word": "Sunny",
+            "wordMal": "സണ്ണി",
+            "relationEN": "Both are iconic dual-personality/psychiatrist characters from Manichitrathazhu.",
+            "relationML": "മണിച്ചിത്രത്താഴ് എന്ന സിനിമയിലെ വളരെ പ്രശസ്തമായ കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "George",
+        "civWordMal": "ജോർജ്ജ്",
+        "imposters": [
+          {
+            "word": "Malar",
+            "wordMal": "മലർ",
+            "relationEN": "Both are the central, unforgettable characters from the movie Premam.",
+            "relationML": "പ്രേമം എന്ന സിനിമയിലെ പ്രധാന കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Malar",
+        "civWordMal": "മലർ",
+        "imposters": [
+          {
+            "word": "George",
+            "wordMal": "ജോർജ്ജ്",
+            "relationEN": "Both are the central, unforgettable characters from the movie Premam.",
+            "relationML": "പ്രേമം എന്ന സിനിമയിലെ പ്രധാന കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Sethurama Iyer",
+        "civWordMal": "സേതുരാമയ്യർ",
+        "imposters": [
+          {
+            "word": "Bharathchandran IPS",
+            "wordMal": "ഭരത്ചന്ദ്രൻ ഐ.പി.എസ്",
+            "relationEN": "Both are legendary police/investigator characters played by superstars.",
+            "relationML": "സൂപ്പർതാരങ്ങൾ അനശ്വരമാക്കിയ പോലീസ് കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Bharathchandran IPS",
+        "civWordMal": "ഭരത്ചന്ദ്രൻ ഐ.പി.എസ്",
+        "imposters": [
+          {
+            "word": "Sethurama Iyer",
+            "wordMal": "സേതുരാമയ്യർ",
+            "relationEN": "Both are legendary police/investigator characters played by superstars.",
+            "relationML": "സൂപ്പർതാരങ്ങൾ അനശ്വരമാക്കിയ പോലീസ് കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Mangalassery Neelakandan",
+        "civWordMal": "മംഗലശ്ശേരി നീലകണ്ഠൻ",
+        "imposters": [
+          {
+            "word": "Induchoodan",
+            "wordMal": "ഇന്ദുചൂഡൻ",
+            "relationEN": "Both are iconic, larger-than-life mass characters played by Mohanlal.",
+            "relationML": "മോഹൻലാലിന്റെ എക്കാലത്തെയും മികച്ച മാസ്സ് കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Induchoodan",
+        "civWordMal": "ഇന്ദുചൂഡൻ",
+        "imposters": [
+          {
+            "word": "Mangalassery Neelakandan",
+            "wordMal": "മംഗലശ്ശേരി നീലകണ്ഠൻ",
+            "relationEN": "Both are iconic, larger-than-life mass characters played by Mohanlal.",
+            "relationML": "മോഹൻലാലിന്റെ എക്കാലത്തെയും മികച്ച മാസ്സ് കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Aniyan Bava",
+        "civWordMal": "അനിയൻ ബാവ",
+        "imposters": [
+          {
+            "word": "Chettan Bava",
+            "wordMal": "ചേട്ടൻ ബാവ",
+            "relationEN": "Both are iconic comedy brother characters.",
+            "relationML": "മലയാളികളെ ഒരുപാട് ചിരിപ്പിച്ച സഹോദര കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Chettan Bava",
+        "civWordMal": "ചേട്ടൻ ബാവ",
+        "imposters": [
+          {
+            "word": "Aniyan Bava",
+            "wordMal": "അനിയൻ ബാവ",
+            "relationEN": "Both are iconic comedy brother characters.",
+            "relationML": "മലയാളികളെ ഒരുപാട് ചിരിപ്പിച്ച സഹോദര കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kuttiedathi",
+        "civWordMal": "കുട്ടിയേടത്തി",
+        "imposters": [
+          {
+            "word": "Bhadra",
+            "wordMal": "ഭദ്ര",
+            "relationEN": "Both are strong, female protagonist characters in classic cinema.",
+            "relationML": "മലയാള സിനിമയിലെ ശക്തരായ സ്ത്രീ കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Bhadra",
+        "civWordMal": "ഭദ്ര",
+        "imposters": [
+          {
+            "word": "Kuttiedathi",
+            "wordMal": "കുട്ടിയേടത്തി",
+            "relationEN": "Both are strong, female protagonist characters in classic cinema.",
+            "relationML": "മലയാള സിനിമയിലെ ശക്തരായ സ്ത്രീ കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Sachi",
+        "civWordMal": "സച്ചി",
+        "imposters": [
+          {
+            "word": "Shibu",
+            "wordMal": "ഷിബു",
+            "relationEN": "Both are distinct character names that evoke specific recent movie roles.",
+            "relationML": "പുതിയ സിനിമകളിലെ ശ്രദ്ധേയമായ കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Shibu",
+        "civWordMal": "ഷിബു",
+        "imposters": [
+          {
+            "word": "Sachi",
+            "wordMal": "സച്ചി",
+            "relationEN": "Both are distinct character names that evoke specific recent movie roles.",
+            "relationML": "പുതിയ സിനിമകളിലെ ശ്രദ്ധേയമായ കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kuttappayi",
+        "civWordMal": "കുട്ടപ്പായി",
+        "imposters": [
+          {
+            "word": "Thoma",
+            "wordMal": "തോമ",
+            "relationEN": "Both are classic, slightly rogue comedy characters.",
+            "relationML": "ചിരിപ്പിക്കുന്ന നാടൻ കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Thoma",
+        "civWordMal": "തോമ",
+        "imposters": [
+          {
+            "word": "Kuttappayi",
+            "wordMal": "കുട്ടപ്പായി",
+            "relationEN": "Both are classic, slightly rogue comedy characters.",
+            "relationML": "ചിരിപ്പിക്കുന്ന നാടൻ കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Appukuttan",
+        "civWordMal": "അപ്പുക്കുട്ടൻ",
+        "imposters": [
+          {
+            "word": "Mayin Kutty",
+            "wordMal": "മായിൻ കുട്ടി",
+            "relationEN": "Both are hilarious, slightly foolish sidekick characters.",
+            "relationML": "നായകന്റെ കൂടെ നടക്കുന്ന പ്രശസ്തമായ കോമഡി കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Mayin Kutty",
+        "civWordMal": "മായിൻ കുട്ടി",
+        "imposters": [
+          {
+            "word": "Appukuttan",
+            "wordMal": "അപ്പുക്കുട്ടൻ",
+            "relationEN": "Both are hilarious, slightly foolish sidekick characters.",
+            "relationML": "നായകന്റെ കൂടെ നടക്കുന്ന പ്രശസ്തമായ കോമഡി കഥാപാത്രങ്ങളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Pappu",
+        "civWordMal": "പപ്പു",
+        "imposters": [
+          {
+            "word": "Kuttan",
+            "wordMal": "കുട്ടൻ",
+            "relationEN": "Both are iconic names associated with legendary comedy actors.",
+            "relationML": "ഹാസ്യ നടന്മാർ അനശ്വരമാക്കിയ പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kuttan",
+        "civWordMal": "കുട്ടൻ",
+        "imposters": [
+          {
+            "word": "Pappu",
+            "wordMal": "പപ്പു",
+            "relationEN": "Both are iconic names associated with legendary comedy actors.",
+            "relationML": "ഹാസ്യ നടന്മാർ അനശ്വരമാക്കിയ പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Balagopalan",
+        "civWordMal": "ബാലഗോപാലൻ",
+        "imposters": [
+          {
+            "word": "Ramankutty",
+            "wordMal": "രാമൻകുട്ടി",
+            "relationEN": "Both are typical, relatable middle-class hero characters.",
+            "relationML": "സാധാരണക്കാരനായ നായകനെ പ്രതിനിധീകരിക്കുന്ന പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Ramankutty",
+        "civWordMal": "രാമൻകുട്ടി",
+        "imposters": [
+          {
+            "word": "Balagopalan",
+            "wordMal": "ബാലഗോപാലൻ",
+            "relationEN": "Both are typical, relatable middle-class hero characters.",
+            "relationML": "സാധാരണക്കാരനായ നായകനെ പ്രതിനിധീകരിക്കുന്ന പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Karthumbi",
+        "civWordMal": "കാർത്തുമ്പി",
+        "imposters": [
+          {
+            "word": "Bhanu",
+            "wordMal": "ഭാനു",
+            "relationEN": "Both are iconic, strong-willed village girl characters.",
+            "relationML": "നാട്ടിൻപുറത്തുകാരിയായ നായികയെ ഓർമ്മിപ്പിക്കുന്ന പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Bhanu",
+        "civWordMal": "ഭാനു",
+        "imposters": [
+          {
+            "word": "Karthumbi",
+            "wordMal": "കാർത്തുമ്പി",
+            "relationEN": "Both are iconic, strong-willed village girl characters.",
+            "relationML": "നാട്ടിൻപുറത്തുകാരിയായ നായികയെ ഓർമ്മിപ്പിക്കുന്ന പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Nandagopal",
+        "civWordMal": "നന്ദഗോപാൽ",
+        "imposters": [
+          {
+            "word": "Gopinathan",
+            "wordMal": "ഗോപിനാഥൻ",
+            "relationEN": "Both are serious, character-driven hero names in classic dramas.",
+            "relationML": "ക്ലാസിക് സിനിമകളിലെ ഗൗരവക്കാരായ നായകന്മാരാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Gopinathan",
+        "civWordMal": "ഗോപിനാഥൻ",
+        "imposters": [
+          {
+            "word": "Nandagopal",
+            "wordMal": "നന്ദഗോപാൽ",
+            "relationEN": "Both are serious, character-driven hero names in classic dramas.",
+            "relationML": "ക്ലാസിക് സിനിമകളിലെ ഗൗരവക്കാരായ നായകന്മാരാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Radha",
+        "civWordMal": "രാധ",
+        "imposters": [
+          {
+            "word": "Geetha",
+            "wordMal": "ഗീത",
+            "relationEN": "Both are quintessential female names in 80s and 90s cinema.",
+            "relationML": "പഴയകാല സിനിമകളിലെ നായികമാരുടെ സ്ഥിരം പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Geetha",
+        "civWordMal": "ഗീത",
+        "imposters": [
+          {
+            "word": "Radha",
+            "wordMal": "രാധ",
+            "relationEN": "Both are quintessential female names in 80s and 90s cinema.",
+            "relationML": "പഴയകാല സിനിമകളിലെ നായികമാരുടെ സ്ഥിരം പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Vidyasagar",
+        "civWordMal": "വിദ്യാസാഗർ",
+        "imposters": [
+          {
+            "word": "Krishnakumar",
+            "wordMal": "കൃഷ്ണകുമാർ",
+            "relationEN": "Both are names often used for educated or professional characters.",
+            "relationML": "സിനിമയിലെ പ്രൊഫഷണൽ കഥാപാത്രങ്ങളുടെ പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Krishnakumar",
+        "civWordMal": "കൃഷ്ണകുമാർ",
+        "imposters": [
+          {
+            "word": "Vidyasagar",
+            "wordMal": "വിദ്യാസാഗർ",
+            "relationEN": "Both are names often used for educated or professional characters.",
+            "relationML": "സിനിമയിലെ പ്രൊഫഷണൽ കഥാപാത്രങ്ങളുടെ പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Velayudhan",
+        "civWordMal": "വേലായുധൻ",
+        "imposters": [
+          {
+            "word": "Sivan",
+            "wordMal": "ശിവൻ",
+            "relationEN": "Both are rugged, action-hero names.",
+            "relationML": "ആക്ഷൻ സിനിമകളിലെ നായകന്മാരുടെ പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Sivan",
+        "civWordMal": "ശിവൻ",
+        "imposters": [
+          {
+            "word": "Velayudhan",
+            "wordMal": "വേലായുധൻ",
+            "relationEN": "Both are rugged, action-hero names.",
+            "relationML": "ആക്ഷൻ സിനിമകളിലെ നായകന്മാരുടെ പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kalyani",
+        "civWordMal": "കല്യാണി",
+        "imposters": [
+          {
+            "word": "Meenakshi",
+            "wordMal": "മീനാക്ഷി",
+            "relationEN": "Both are sweet, traditional heroine names.",
+            "relationML": "നായികമാരുടെ പ്രശസ്തമായ പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Meenakshi",
+        "civWordMal": "മീനാക്ഷി",
+        "imposters": [
+          {
+            "word": "Kalyani",
+            "wordMal": "കല്യാണി",
+            "relationEN": "Both are sweet, traditional heroine names.",
+            "relationML": "നായികമാരുടെ പ്രശസ്തമായ പേരുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Gopi",
+        "civWordMal": "ഗോപി",
+        "imposters": [
+          {
+            "word": "Dasan",
+            "wordMal": "ദാസൻ",
+            "relationEN": "Both are iconic names from the legendary Dasan-Vijayan comedy duo universe.",
+            "relationML": "ദാസനും വിജയനും പോലെയുള്ള പ്രശസ്തമായ കോമഡി ജോഡികളാണിവർ."
+          }
+        ]
+      },
+      {
+        "civWord": "Dasan",
+        "civWordMal": "ദാസൻ",
+        "imposters": [
+          {
+            "word": "Gopi",
+            "wordMal": "ഗോപി",
+            "relationEN": "Both are iconic names from the legendary Dasan-Vijayan comedy duo universe.",
+            "relationML": "ദാസനും വിജയനും പോലെയുള്ള പ്രശസ്തമായ കോമഡി ജോഡികളാണിവർ."
+          }
+        ]
+      }
     ]
   },
   {
     "id": "festivals",
     "name": "Festivals",
-    "icon": "🎉",
+    "icon": "🎆",
     "words": [
-      [
-        "Onam",
-        "ഓണം",
-        "Seasonal Celebration",
-        "സീസണലായ ആഘോഷം"
-      ],
-      [
-        "Vishu",
-        "വിഷു",
-        "Traditional Calendar Event",
-        "പാരമ്പര്യ ആചാര ദിനം"
-      ],
-      [
-        "Thrissur Pooram",
-        "തൃശ്ശൂർ പൂരം",
-        "Cultural Spectacle",
-        "വലിയ ജനക്കൂട്ടമുള്ള ഉത്സവം"
-      ],
-      [
-        "Attukal Pongala",
-        "ആറ്റുകാൽ പൊങ്കാല",
-        "Devotional Gathering",
-        "ഭക്തിസാന്ദ്രമായ കൂട്ടായ്മ"
-      ],
-      [
-        "Vallamkali",
-        "വള്ളംകളി",
-        "Backwater Competition",
-        "ജലത്തിൽ നടക്കുന്ന മത്സരം"
-      ],
-      [
-        "Kerala Piravi",
-        "കേരളപ്പിറവി",
-        "State Anniversary",
-        "സംസ്ഥാനവുമായി ബന്ധപ്പെട്ട ദിനം"
-      ],
-      [
-        "Christmas",
-        "ക്രിസ്മസ്",
-        "Winter Holiday",
-        "വർഷാവസാനത്തെ ആഘോഷം"
-      ],
-      [
-        "Eid",
-        "ഈദ്",
-        "Festive Feast Day",
-        "പ്രാർത്ഥനയും സ്നേഹവുമുള്ള ദിവസം"
-      ],
-      [
-        "Theyyam",
-        "തെയ്യം",
-        "Folk Ritual Performance",
-        "അനുഷ്ഠാനപരമായ കല"
-      ],
-      [
-        "Karkidaka Vavu",
-        "കർക്കിടക വാവ്",
-        "Solemn Observance",
-        "ആത്മീയമായ ആചാരം"
-      ],
-      [
-        "Navarathri",
-        "നവരാത്രി",
-        "Multi-day Devotion",
-        "ദിവസങ്ങൾ നീളുന്ന ആചാരം"
-      ],
-      [
-        "Thiruvathira",
-        "തിരുവാതിര",
-        "Traditional Moonlight Dance",
-        "സ്ത്രീകൾ പങ്കെടുക്കുന്ന ആചാരം"
-      ],
-      [
-        "Makaravilakku",
-        "മകരവിളക്ക്",
-        "Hilltop Pilgrimage Event",
-        "തീർത്ഥാടനവുമായി ബന്ധപ്പെട്ടത്"
-      ],
-      [
-        "Kodiyettam",
-        "കൊടിയേറ്റം",
-        "Ceremonial Flag Hoisting",
-        "ഉത്സവങ്ങളുടെ തുടക്കച്ചടങ്ങ്"
-      ],
-      [
-        "Pulikali",
-        "പുലിക്കളി",
-        "Street Art Procession",
-        "തെരുവിൽ നടക്കുന്ന കലാപ്രകടനം"
-      ],
-      [
-        "Aranmula Uthrattathi",
-        "ആറന്മുള ഉത്രട്ടാതി",
-        "Historic River Pageant",
-        "നദിയിലെ പൈതൃക ചടങ്ങ്"
-      ],
-      [
-        "Kettukazhcha",
-        "കെട്ടുകാഴ്ച",
-        "Effigy Display Procession",
-        "വലിയ രൂപങ്ങൾ എഴുന്നള്ളിക്കുന്നത്"
-      ],
-      [
-        "Thiruvulsavam",
-        "തിരുവുത്സവം",
-        "Annual Temple Celebration",
-        "വാർഷിക ഉത്സവ കാലം"
-      ],
-      [
-        "Pooram",
-        "പൂരം",
-        "Percussion & Elephant Gathering",
-        "വാദ്യമേളങ്ങളും ആഘോഷവും"
-      ],
-      [
-        "Palliperunnal",
-        "പള്ളിപ്പെരുന്നാൾ",
-        "Parish Jubilee Feast",
-        "പ്രാദേശിക പള്ളിയിലെ ഉത്സവം"
-      ],
-      [
-        "Beemapally Uroos",
-        "ബീമാപള്ളി ഉറൂസ്",
-        "Spiritual Annual Event",
-        "ആത്മീയ സംഗമം"
-      ],
-      [
-        "Malayattoor Perunnal",
-        "മലയാറ്റൂർ പെരുന്നാൾ",
-        "Mountain Pilgrimage",
-        "മലകയറ്റവും പ്രാർത്ഥനയും"
-      ],
-      [
-        "Oachira Kettukazhcha",
-        "ഓച്ചിറ കെട്ടുകാഴ്ച",
-        "Historic Heritage Fair",
-        "ചരിത്രപരമായ ഉത്സവം"
-      ],
-      [
-        "Kalpathi Ratholsavam",
-        "കൽപ്പാത്തി രഥോത്സവം",
-        "Traditional Chariot Festival",
-        "പൈതൃകഗ്രാമത്തിലെ ആഘോഷം"
-      ],
-      [
-        "Chettikulangara Bharani",
-        "ചെട്ടികുളങ്ങര ഭരണി",
-        "Grand Cultural Procession",
-        "പ്രശസ്തമായ ഗ്രാമോത്സവം"
-      ],
-      [
-        "Sivarathri",
-        "ശിവരാത്രി",
-        "Night-long Devotional Vigil",
-        "രാത്രിയിലെ ഭക്തിസാന്ദ്രമായ ആചാരം"
-      ],
-      [
-        "Kuthiyottam",
-        "കുത്തിയോട്ടം",
-        "Devotional Step Dance",
-        "അനുഷ്ഠാന ചുവടുകൾ"
-      ],
-      [
-        "Kaalavela",
-        "കാളവേല",
-        "Straw Effigy Parade",
-        "വൈക്കോൽ പ്രതിമാ ഘോഷയാത്ര"
-      ],
-      [
-        "Ganamela",
-        "ഗാനമേള",
-        "Stage Audio Setup",
-        "സ്റ്റേജ് ഓഡിയോ സിസ്റ്റം"
-      ],
-      [
-        "Kalampaattu",
-        "കളംപാട്ട്",
-        "Floor Powder Drawing",
-        "പൊടിക്കളം വരയ്ക്കൽ"
-      ],
-      [
-        "Theeyattam",
-        "തീയാട്ടം",
-        "Torchlight Ritual",
-        "പന്തം കൊളുത്തിയുള്ള ചടങ്ങ്"
-      ],
-      [
-        "Ezhunnallathu",
-        "എഴുന്നള്ളത്ത്",
-        "Royal Procession",
-        "രാജകീയ ഘോഷയാത്ര"
-      ],
-      [
-        "Chenda Melam",
-        "ചെണ്ടമേളം",
-        "Cylindrical Drum Beat",
-        "താളമേളങ്ങൾ"
-      ],
-      [
-        "Thalappoli",
-        "താലപ്പൊലി",
-        "Lamp Bearing Procession",
-        "വിളക്കുകളേന്തിയുള്ള യാത്ര"
-      ],
-      [
-        "Vishu Kani",
-        "വിഷുക്കണി",
-        "Morning Auspicious Sight",
-        "പുലർച്ചെ കാണുന്ന കാഴ്ച"
-      ],
-      [
-        "Chutti Art",
-        "ചുട്ടി",
-        "Rice Paste Makeover",
-        "അരിമാവ് അലങ്കാരം"
-      ]
+      {
+        "civWord": "Onam",
+        "civWordMal": "ഓണം",
+        "imposters": [
+          {
+            "word": "Vishu",
+            "wordMal": "വിഷു",
+            "relationEN": "Both are the most widely celebrated, grand traditional festivals of Kerala.",
+            "relationML": "കേരളത്തിലെ ഏറ്റവും വലിയ രണ്ട് ആഘോഷങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Vishu",
+        "civWordMal": "വിഷു",
+        "imposters": [
+          {
+            "word": "Onam",
+            "wordMal": "ഓണം",
+            "relationEN": "Both are the most widely celebrated, grand traditional festivals of Kerala.",
+            "relationML": "കേരളത്തിലെ ഏറ്റവും വലിയ രണ്ട് ആഘോഷങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Thrissur Pooram",
+        "civWordMal": "തൃശ്ശൂർ പൂരം",
+        "imposters": [
+          {
+            "word": "Makaravilakku",
+            "wordMal": "മകരവിളക്ക്",
+            "relationEN": "Both are massive, spectacular religious gatherings in Kerala.",
+            "relationML": "കേരളത്തിലെ ഏറ്റവും വലിയ ഉത്സവങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Makaravilakku",
+        "civWordMal": "മകരവിളക്ക്",
+        "imposters": [
+          {
+            "word": "Thrissur Pooram",
+            "wordMal": "തൃശ്ശൂർ പൂരം",
+            "relationEN": "Both are massive, spectacular religious gatherings in Kerala.",
+            "relationML": "കേരളത്തിലെ ഏറ്റവും വലിയ ഉത്സവങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Christmas",
+        "civWordMal": "ക്രിസ്മസ്",
+        "imposters": [
+          {
+            "word": "Easter",
+            "wordMal": "ഈസ്റ്റർ",
+            "relationEN": "Both are major Christian festivals widely celebrated across Kerala.",
+            "relationML": "കേരളത്തിൽ ആഘോഷിക്കുന്ന പ്രധാനപ്പെട്ട ക്രിസ്തീയ ആഘോഷങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Easter",
+        "civWordMal": "ഈസ്റ്റർ",
+        "imposters": [
+          {
+            "word": "Christmas",
+            "wordMal": "ക്രിസ്മസ്",
+            "relationEN": "Both are major Christian festivals widely celebrated across Kerala.",
+            "relationML": "കേരളത്തിൽ ആഘോഷിക്കുന്ന പ്രധാനപ്പെട്ട ക്രിസ്തീയ ആഘോഷങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Eid ul-Fitr",
+        "civWordMal": "ചെറിയ പെരുന്നാൾ",
+        "imposters": [
+          {
+            "word": "Eid ul-Adha",
+            "wordMal": "വലിയ പെരുന്നാൾ",
+            "relationEN": "Both are the most important Islamic festivals celebrated in Kerala.",
+            "relationML": "കേരളത്തിലെ പ്രധാനപ്പെട്ട രണ്ട് പെരുന്നാളുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Eid ul-Adha",
+        "civWordMal": "വലിയ പെരുന്നാൾ",
+        "imposters": [
+          {
+            "word": "Eid ul-Fitr",
+            "wordMal": "ചെറിയ പെരുന്നാൾ",
+            "relationEN": "Both are the most important Islamic festivals celebrated in Kerala.",
+            "relationML": "കേരളത്തിലെ പ്രധാനപ്പെട്ട രണ്ട് പെരുന്നാളുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Thiruvathira",
+        "civWordMal": "തിരുവാതിര",
+        "imposters": [
+          {
+            "word": "Navaratri",
+            "wordMal": "നവരാത്രി",
+            "relationEN": "Both are traditional Hindu festivals with strong cultural performances.",
+            "relationML": "പ്രത്യേക ആചാരങ്ങളുള്ള ഹൈന്ദവ ആഘോഷങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Navaratri",
+        "civWordMal": "നവരാത്രി",
+        "imposters": [
+          {
+            "word": "Thiruvathira",
+            "wordMal": "തിരുവാതിര",
+            "relationEN": "Both are traditional Hindu festivals with strong cultural performances.",
+            "relationML": "പ്രത്യേക ആചാരങ്ങളുള്ള ഹൈന്ദവ ആഘോഷങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Vallam Kali",
+        "civWordMal": "വള്ളം കളി",
+        "imposters": [
+          {
+            "word": "Pulikali",
+            "wordMal": "പുലികളി",
+            "relationEN": "Both are spectacular, traditional cultural art forms/sports tied to Onam.",
+            "relationML": "ഓണത്തോട് അനുബന്ധിച്ച് നടക്കുന്ന കേരളത്തിന്റെ തനത് കലാരൂപങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Pulikali",
+        "civWordMal": "പുലികളി",
+        "imposters": [
+          {
+            "word": "Vallam Kali",
+            "wordMal": "വള്ളം കളി",
+            "relationEN": "Both are spectacular, traditional cultural art forms/sports tied to Onam.",
+            "relationML": "ഓണത്തോട് അനുബന്ധിച്ച് നടക്കുന്ന കേരളത്തിന്റെ തനത് കലാരൂപങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Attukal Pongala",
+        "civWordMal": "ആറ്റുകാൽ പൊങ്കാല",
+        "imposters": [
+          {
+            "word": "Nehru Trophy",
+            "wordMal": "നെഹ്റു ട്രോഫി",
+            "relationEN": "Both are iconic, record-breaking annual events in Kerala.",
+            "relationML": "കേരളത്തിലെ വളരെ പ്രശസ്തമായ രണ്ട് വാർഷിക പരിപാടികളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Nehru Trophy",
+        "civWordMal": "നെഹ്റു ട്രോഫി",
+        "imposters": [
+          {
+            "word": "Attukal Pongala",
+            "wordMal": "ആറ്റുകാൽ പൊങ്കാല",
+            "relationEN": "Both are iconic, record-breaking annual events in Kerala.",
+            "relationML": "കേരളത്തിലെ വളരെ പ്രശസ്തമായ രണ്ട് വാർഷിക പരിപാടികളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Shivaratri",
+        "civWordMal": "ശിവരാത്രി",
+        "imposters": [
+          {
+            "word": "Deepavali",
+            "wordMal": "ദീപാവലി",
+            "relationEN": "Both are pan-Indian Hindu festivals celebrated fervently in Kerala.",
+            "relationML": "കേരളത്തിലും ആഘോഷിക്കുന്ന പ്രധാന ഹൈന്ദവ ഉത്സവങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Deepavali",
+        "civWordMal": "ദീപാവലി",
+        "imposters": [
+          {
+            "word": "Shivaratri",
+            "wordMal": "ശിവരാത്രി",
+            "relationEN": "Both are pan-Indian Hindu festivals celebrated fervently in Kerala.",
+            "relationML": "കേരളത്തിലും ആഘോഷിക്കുന്ന പ്രധാന ഹൈന്ദവ ഉത്സവങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Theyyam",
+        "civWordMal": "തെയ്യം",
+        "imposters": [
+          {
+            "word": "Kathakali",
+            "wordMal": "കഥകളി",
+            "relationEN": "Both are iconic, visually stunning ritual arts/dance forms of Kerala.",
+            "relationML": "കേരളത്തിന്റെ വളരെ പ്രശസ്തമായ രണ്ട് തനത് കലാരൂപങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kathakali",
+        "civWordMal": "കഥകളി",
+        "imposters": [
+          {
+            "word": "Theyyam",
+            "wordMal": "തെയ്യം",
+            "relationEN": "Both are iconic, visually stunning ritual arts/dance forms of Kerala.",
+            "relationML": "കേരളത്തിന്റെ വളരെ പ്രശസ്തമായ രണ്ട് തനത് കലാരൂപങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Vishu Kani",
+        "civWordMal": "വിഷുക്കണി",
+        "imposters": [
+          {
+            "word": "Onasadya",
+            "wordMal": "ഓണസദ്യ",
+            "relationEN": "Both are the most essential, iconic cultural elements of their respective festivals.",
+            "relationML": "ഓണത്തിന്റെയും വിഷുവിന്റെയും ഏറ്റവും പ്രധാനപ്പെട്ട കാര്യങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Onasadya",
+        "civWordMal": "ഓണസദ്യ",
+        "imposters": [
+          {
+            "word": "Vishu Kani",
+            "wordMal": "വിഷുക്കണി",
+            "relationEN": "Both are the most essential, iconic cultural elements of their respective festivals.",
+            "relationML": "ഓണത്തിന്റെയും വിഷുവിന്റെയും ഏറ്റവും പ്രധാനപ്പെട്ട കാര്യങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Pookkalam",
+        "civWordMal": "പൂക്കളം",
+        "imposters": [
+          {
+            "word": "Onakkodi",
+            "wordMal": "ഓണക്കോടി",
+            "relationEN": "Both are colorful, essential traditions associated with celebrating Onam.",
+            "relationML": "ഓണാഘോഷത്തിന്റെ ഒഴിച്ചുകൂടാനാവാത്ത രണ്ട് കാര്യങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Onakkodi",
+        "civWordMal": "ഓണക്കോടി",
+        "imposters": [
+          {
+            "word": "Pookkalam",
+            "wordMal": "പൂക്കളം",
+            "relationEN": "Both are colorful, essential traditions associated with celebrating Onam.",
+            "relationML": "ഓണാഘോഷത്തിന്റെ ഒഴിച്ചുകൂടാനാവാത്ത രണ്ട് കാര്യങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Payasam",
+        "civWordMal": "പായസം",
+        "imposters": [
+          {
+            "word": "Sadya",
+            "wordMal": "സദ്യ",
+            "relationEN": "Both are the most highly anticipated culinary aspects of Kerala festivals.",
+            "relationML": "കേരളത്തിലെ ആഘോഷങ്ങളിലെ പ്രധാന ഭക്ഷണങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Sadya",
+        "civWordMal": "സദ്യ",
+        "imposters": [
+          {
+            "word": "Payasam",
+            "wordMal": "പായസം",
+            "relationEN": "Both are the most highly anticipated culinary aspects of Kerala festivals.",
+            "relationML": "കേരളത്തിലെ ആഘോഷങ്ങളിലെ പ്രധാന ഭക്ഷണങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Chenda Melam",
+        "civWordMal": "ചെണ്ട മേളം",
+        "imposters": [
+          {
+            "word": "Panchavadyam",
+            "wordMal": "പഞ്ചവാദ്യം",
+            "relationEN": "Both are powerful, traditional percussion ensembles essential to Kerala temple festivals.",
+            "relationML": "ഉത്സവങ്ങൾക്ക് മാറ്റുകൂട്ടുന്ന കേരളത്തിന്റെ തനത് വാദ്യമേളങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Panchavadyam",
+        "civWordMal": "പഞ്ചവാദ്യം",
+        "imposters": [
+          {
+            "word": "Chenda Melam",
+            "wordMal": "ചെണ്ട മേളം",
+            "relationEN": "Both are powerful, traditional percussion ensembles essential to Kerala temple festivals.",
+            "relationML": "ഉത്സവങ്ങൾക്ക് മാറ്റുകൂട്ടുന്ന കേരളത്തിന്റെ തനത് വാദ്യമേളങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Caparisoned Elephants",
+        "civWordMal": "നെറ്റിപ്പട്ടം കെട്ടിയ ആന",
+        "imposters": [
+          {
+            "word": "Muthukkuda",
+            "wordMal": "മുത്തുക്കുട",
+            "relationEN": "Both are iconic visual spectacles seen during Kerala temple processions.",
+            "relationML": "ഉത്സവങ്ങളിൽ കാണുന്ന ഏറ്റവും മനോഹരമായ കാഴ്ചകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Muthukkuda",
+        "civWordMal": "മുത്തുക്കുട",
+        "imposters": [
+          {
+            "word": "Caparisoned Elephants",
+            "wordMal": "നെറ്റിപ്പട്ടം കെട്ടിയ ആന",
+            "relationEN": "Both are iconic visual spectacles seen during Kerala temple processions.",
+            "relationML": "ഉത്സവങ്ങളിൽ കാണുന്ന ഏറ്റവും മനോഹരമായ കാഴ്ചകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Theyyam Season",
+        "civWordMal": "തെയ്യം കാലം",
+        "imposters": [
+          {
+            "word": "Pooram Season",
+            "wordMal": "പൂരം കാലം",
+            "relationEN": "Both represent specific times of the year dedicated to grand cultural spectacles.",
+            "relationML": "കേരളത്തിലെ ഉത്സവങ്ങളുടെ പ്രത്യേക കാലഘട്ടങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Pooram Season",
+        "civWordMal": "പൂരം കാലം",
+        "imposters": [
+          {
+            "word": "Theyyam Season",
+            "wordMal": "തെയ്യം കാലം",
+            "relationEN": "Both represent specific times of the year dedicated to grand cultural spectacles.",
+            "relationML": "കേരളത്തിലെ ഉത്സവങ്ങളുടെ പ്രത്യേക കാലഘട്ടങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Ramadan",
+        "civWordMal": "റമദാൻ",
+        "imposters": [
+          {
+            "word": "Lent",
+            "wordMal": "നോയമ്പ്",
+            "relationEN": "Both are significant periods of fasting and spiritual reflection.",
+            "relationML": "വിശ്വാസികളുടെ പ്രധാനപ്പെട്ട വ്രതാനുഷ്ഠാന കാലങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Lent",
+        "civWordMal": "നോയമ്പ്",
+        "imposters": [
+          {
+            "word": "Ramadan",
+            "wordMal": "റമദാൻ",
+            "relationEN": "Both are significant periods of fasting and spiritual reflection.",
+            "relationML": "വിശ്വാസികളുടെ പ്രധാനപ്പെട്ട വ്രതാനുഷ്ഠാന കാലങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Karkidaka Vavu",
+        "civWordMal": "കർക്കിടക വാവ്",
+        "imposters": [
+          {
+            "word": "Maha Shivaratri",
+            "wordMal": "മഹാ ശിവരാത്രി",
+            "relationEN": "Both are important religious days involving specific ancient rituals.",
+            "relationML": "പ്രത്യേക ആചാരങ്ങളുള്ള പ്രധാനപ്പെട്ട രണ്ട് ദിവസങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Maha Shivaratri",
+        "civWordMal": "മഹാ ശിവരാത്രി",
+        "imposters": [
+          {
+            "word": "Karkidaka Vavu",
+            "wordMal": "കർക്കിടക വാവ്",
+            "relationEN": "Both are important religious days involving specific ancient rituals.",
+            "relationML": "പ്രത്യേക ആചാരങ്ങളുള്ള പ്രധാനപ്പെട്ട രണ്ട് ദിവസങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Aranmula Uthrattathi",
+        "civWordMal": "ആറന്മുള ഉത്തൃട്ടാതി",
+        "imposters": [
+          {
+            "word": "Champakulam Moolam",
+            "wordMal": "ചമ്പക്കുളം മൂലം",
+            "relationEN": "Both are legendary, historically significant traditional boat races.",
+            "relationML": "കേരളത്തിലെ വളരെ പ്രശസ്തമായ വള്ളംകളികളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Champakulam Moolam",
+        "civWordMal": "ചമ്പക്കുളം മൂലം",
+        "imposters": [
+          {
+            "word": "Aranmula Uthrattathi",
+            "wordMal": "ആറന്മുള ഉത്തൃട്ടാതി",
+            "relationEN": "Both are legendary, historically significant traditional boat races.",
+            "relationML": "കേരളത്തിലെ വളരെ പ്രശസ്തമായ വള്ളംകളികളാണിവ."
+          }
+        ]
+      }
     ]
   },
   {
@@ -898,445 +1760,877 @@ var packs = [
     "name": "Places",
     "icon": "📍",
     "words": [
-      [
-        "Kochi",
-        "കൊച്ചി",
-        "Coastal City",
-        "കടൽത്തീരത്തെ നഗരം"
-      ],
-      [
-        "Munnar",
-        "മൂന്നാർ",
-        "Hill Destination",
-        "മലയോര വിനോദസഞ്ചാര ഇടം"
-      ],
-      [
-        "Alappuzha",
-        "ആലപ്പുഴ",
-        "Waterway Tourism Town",
-        "കായലുകളുള്ള നാട്"
-      ],
-      [
-        "Wayanad",
-        "വയനാട്",
-        "Green Plateau Region",
-        "പ്രകൃതിഭംഗിയുള്ള മലയോരം"
-      ],
-      [
-        "Varkala",
-        "വർക്കല",
-        "Tourist Beach Cliff",
-        "തീരദേശ വിനോദ കേന്ദ്രം"
-      ],
-      [
-        "Thrissur",
-        "തൃശ്ശൂർ",
-        "Central Heritage Town",
-        "സാംസ്കാരിക പ്രാധാന്യമുള്ള നഗരം"
-      ],
-      [
-        "Kollam",
-        "കൊല്ലം",
-        "Southern Waterfront District",
-        "തെക്കൻ ജില്ലയിലെ പ്രധാന ഇടം"
-      ],
-      [
-        "Kannur",
-        "കണ്ണൂർ",
-        "Northern Coastal District",
-        "വടക്കൻ പൈതൃക നാട്"
-      ],
-      [
-        "Kottayam",
-        "കോട്ടയം",
-        "Inland Rubber Hub",
-        "തോട്ടങ്ങളും അക്ഷരവുമുള്ള നാട്"
-      ],
-      [
-        "Palakkad",
-        "പാലക്കാട്",
-        "Border Gateway District",
-        "കാറ്റും പാടങ്ങളുമുള്ള അതിർത്തി"
-      ],
-      [
-        "Thiruvananthapuram",
-        "തിരുവനന്തപുരം",
-        "Administrative Headquarters",
-        "ഭരണസിരാകേന്ദ്രം"
-      ],
-      [
-        "Kasaragod",
-        "കാസർഗോഡ്",
-        "Northernmost Border Region",
-        "ഏറ്റവും വടക്കൻ ജില്ല"
-      ],
-      [
-        "Idukki",
-        "ഇടുക്കി",
-        "Mountain Hydro Hub",
-        "മലനിരകളും ഡാമുകളുമുള്ള ജില്ല"
-      ],
-      [
-        "Malappuram",
-        "മലപ്പുറം",
-        "Passionate Soccer Region",
-        "കളിയാവേശമുള്ള നാട്"
-      ],
-      [
-        "Guruvayur",
-        "ഗുരുവായൂർ",
-        "Famous Pilgrimage Town",
-        "പ്രസിദ്ധമായ തീർത്ഥാടന കേന്ദ്രം"
-      ],
-      [
-        "Bekal",
-        "ബേക്കൽ",
-        "Historic Fort Coast",
-        "ചരിത്രപരമായ കടൽത്തീരം"
-      ],
-      [
-        "Thekkady",
-        "തേക്കടി",
-        "Forest Wildlife Sanctuary",
-        "വന്യജീവി വിനോദസഞ്ചാര കേന്ദ്രം"
-      ],
-      [
-        "Kovalam",
-        "കോവളം",
-        "International Beach Resort",
-        "പ്രശസ്തമായ കടൽത്തീരം"
-      ],
-      [
-        "Ponmudi",
-        "പൊന്മുടി",
-        "Misty Hill Station",
-        "തണുപ്പുള്ള മലമുകൾ"
-      ],
-      [
-        "Athirappilly",
-        "അതിരപ്പിള്ളി",
-        "Waterfall Nature Attraction",
-        "വനത്തിനുള്ളിലെ ജലാശയം"
-      ],
-      [
-        "Kumarakom",
-        "കുമാരകം",
-        "Backwater Resort Village",
-        "കായൽ തീരത്തെ ഗ്രാമം"
-      ],
-      [
-        "Vagamon",
-        "വാഗമൺ",
-        "Green Meadows Hill",
-        "പുൽമേടുകളുള്ള മലയോരം"
-      ],
-      [
-        "Sultan Bathery",
-        "സുൽത്താൻ ബത്തേരി",
-        "Historic Forest Town",
-        "ചരിത്രമുള്ള വടക്കൻ പട്ടണം"
-      ],
-      [
-        "Fort Kochi",
-        "ഫോർട്ട് കൊച്ചി",
-        "Colonial Heritage Zone",
-        "പൈതൃകമുള്ള തീരപ്രദേശം"
-      ],
-      [
-        "Silent Valley",
-        "സൈലന്റ് വാലി",
-        "Deep Rainforest Reserve",
-        "നിശബ്ദമായ വനമേഖല"
-      ],
-      [
-        "Nelliyampathy",
-        "നെല്ലിയാമ്പതി",
-        "Scenic Mountain Range",
-        "തേയിലത്തോട്ടങ്ങളുള്ള മലയോരം"
-      ],
-      [
-        "Sabarimala",
-        "ശബരിമല",
-        "Dense Forest Shrine",
-        "വനമധ്യത്തിലെ തീർത്ഥാടനം"
-      ],
-      [
-        "Sree Padmanabhaswamy Temple",
-        "ശ്രീപത്മനാഭസ്വാമി ക്ഷേത്രം",
-        "Vault Heritage Structure",
-        "നിലവറകളുള്ള സ്മാരകം"
-      ],
-      [
-        "Thenmala",
-        "തെന്മല",
-        "Eco-Tourism Dam Zone",
-        "ഇക്കോ ടൂറിസം മേഖല"
-      ],
-      [
-        "Marari Beach",
-        "മരാരി ബീച്ച്",
-        "Coir Fishing Coast",
-        "കയർ നിർമ്മാണ തീരം"
-      ],
-      [
-        "Agasthyarkoodam",
-        "അഗസ്ത്യർകൂടം",
-        "Medicinal Herb Peak",
-        "ഔഷധസസ്യങ്ങളുടെ മല"
-      ],
-      [
-        "Banasura Sagar",
-        "ബാണാസുര സാഗർ",
-        "Earth Dam Reservoir",
-        "മണ്ണുകൊണ്ട് നിർമ്മിച്ച അണക്കെട്ട്"
-      ],
-      [
-        "Poonjar",
-        "പൂഞ്ഞാർ",
-        "Palace Valley",
-        "കൊട്ടാരമുള്ള താഴ്വര"
-      ],
-      [
-        "Muzhappilangad",
-        "മുഴപ്പിലങ്ങാട്",
-        "Drive-in Shore",
-        "വാഹനം ഓടിക്കാവുന്ന തീരം"
-      ],
-      [
-        "Kuttanad",
-        "കുട്ടനാട്",
-        "Below Sea Level Farming",
-        "സമുദ്രനിരപ്പിന് താഴെയുള്ള കൃഷി"
-      ],
-      [
-        "Pathanamthitta",
-        "പത്തനംതിട്ട",
-        "Pilgrims District",
-        "തീർത്ഥാടകരുടെ നാട്"
-      ]
+      {
+        "civWord": "Munnar",
+        "civWordMal": "മൂന്നാർ",
+        "imposters": [
+          {
+            "word": "Wayanad",
+            "wordMal": "വയനാട്",
+            "relationEN": "Both are extremely famous, cool hill station tourist destinations in Kerala.",
+            "relationML": "കേരളത്തിലെ ഏറ്റവും പ്രശസ്തമായ വിനോദസഞ്ചാര മലയോരങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Wayanad",
+        "civWordMal": "വയനാട്",
+        "imposters": [
+          {
+            "word": "Munnar",
+            "wordMal": "മൂന്നാർ",
+            "relationEN": "Both are extremely famous, cool hill station tourist destinations in Kerala.",
+            "relationML": "കേരളത്തിലെ ഏറ്റവും പ്രശസ്തമായ വിനോദസഞ്ചാര മലയോരങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kochi",
+        "civWordMal": "കൊച്ചി",
+        "imposters": [
+          {
+            "word": "Trivandrum",
+            "wordMal": "തിരുവനന്തപുരം",
+            "relationEN": "Both are major, highly developed metropolises in Kerala.",
+            "relationML": "കേരളത്തിലെ ഏറ്റവും വലിയ രണ്ട് നഗരങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Trivandrum",
+        "civWordMal": "തിരുവനന്തപുരം",
+        "imposters": [
+          {
+            "word": "Kochi",
+            "wordMal": "കൊച്ചി",
+            "relationEN": "Both are major, highly developed metropolises in Kerala.",
+            "relationML": "കേരളത്തിലെ ഏറ്റവും വലിയ രണ്ട് നഗരങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Alappuzha",
+        "civWordMal": "ആലപ്പുഴ",
+        "imposters": [
+          {
+            "word": "Kumarakom",
+            "wordMal": "കുമാരകം",
+            "relationEN": "Both are world-famous backwater tourism destinations known for houseboats.",
+            "relationML": "കായൽ സൗന്ദര്യത്തിന് പേരുകേട്ട കേരളത്തിലെ സ്ഥലങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kumarakom",
+        "civWordMal": "കുമാരകം",
+        "imposters": [
+          {
+            "word": "Alappuzha",
+            "wordMal": "ആലപ്പുഴ",
+            "relationEN": "Both are world-famous backwater tourism destinations known for houseboats.",
+            "relationML": "കായൽ സൗന്ദര്യത്തിന് പേരുകേട്ട കേരളത്തിലെ സ്ഥലങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kozhikode",
+        "civWordMal": "കോഴിക്കോട്",
+        "imposters": [
+          {
+            "word": "Kannur",
+            "wordMal": "കണ്ണൂർ",
+            "relationEN": "Both are historic, culturally rich major cities in Northern Kerala (Malabar).",
+            "relationML": "മലബാറിലെ ഏറ്റവും പ്രധാനപ്പെട്ട രണ്ട് നഗരങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kannur",
+        "civWordMal": "കണ്ണൂർ",
+        "imposters": [
+          {
+            "word": "Kozhikode",
+            "wordMal": "കോഴിക്കോട്",
+            "relationEN": "Both are historic, culturally rich major cities in Northern Kerala (Malabar).",
+            "relationML": "മലബാറിലെ ഏറ്റവും പ്രധാനപ്പെട്ട രണ്ട് നഗരങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Thrissur",
+        "civWordMal": "തൃശ്ശൂർ",
+        "imposters": [
+          {
+            "word": "Palakkad",
+            "wordMal": "പാലക്കാട്",
+            "relationEN": "Both are culturally significant central Kerala districts known for festivals and heritage.",
+            "relationML": "സാംസ്കാരികമായി ഏറെ പ്രാധാന്യമുള്ള കേരളത്തിലെ ജില്ലകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Palakkad",
+        "civWordMal": "പാലക്കാട്",
+        "imposters": [
+          {
+            "word": "Thrissur",
+            "wordMal": "തൃശ്ശൂർ",
+            "relationEN": "Both are culturally significant central Kerala districts known for festivals and heritage.",
+            "relationML": "സാംസ്കാരികമായി ഏറെ പ്രാധാന്യമുള്ള കേരളത്തിലെ ജില്ലകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kovalam",
+        "civWordMal": "കോവളം",
+        "imposters": [
+          {
+            "word": "Varkala",
+            "wordMal": "വർക്കല",
+            "relationEN": "Both are internationally famous beach destinations in southern Kerala.",
+            "relationML": "വിദേശികൾ ധാരാളമെത്തുന്ന കേരളത്തിലെ പ്രശസ്തമായ ബീച്ചുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Varkala",
+        "civWordMal": "വർക്കല",
+        "imposters": [
+          {
+            "word": "Kovalam",
+            "wordMal": "കോവളം",
+            "relationEN": "Both are internationally famous beach destinations in southern Kerala.",
+            "relationML": "വിദേശികൾ ധാരാളമെത്തുന്ന കേരളത്തിലെ പ്രശസ്തമായ ബീച്ചുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Thekkady",
+        "civWordMal": "തേക്കടി",
+        "imposters": [
+          {
+            "word": "Athirappilly",
+            "wordMal": "അതിരപ്പിള്ളി",
+            "relationEN": "Both are highly popular nature and wildlife tourism destinations.",
+            "relationML": "പ്രകൃതിഭംഗി ആസ്വദിക്കാൻ പോകുന്ന പ്രശസ്തമായ സ്ഥലങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Athirappilly",
+        "civWordMal": "അതിരപ്പിള്ളി",
+        "imposters": [
+          {
+            "word": "Thekkady",
+            "wordMal": "തേക്കടി",
+            "relationEN": "Both are highly popular nature and wildlife tourism destinations.",
+            "relationML": "പ്രകൃതിഭംഗി ആസ്വദിക്കാൻ പോകുന്ന പ്രശസ്തമായ സ്ഥലങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Sabarimala",
+        "civWordMal": "ശബരിമല",
+        "imposters": [
+          {
+            "word": "Guruvayur",
+            "wordMal": "ഗുരുവായൂർ",
+            "relationEN": "Both are massive, incredibly significant Hindu pilgrimage centers in Kerala.",
+            "relationML": "കേരളത്തിലെ ഏറ്റവും വലിയ തീർത്ഥാടന കേന്ദ്രങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Guruvayur",
+        "civWordMal": "ഗുരുവായൂർ",
+        "imposters": [
+          {
+            "word": "Sabarimala",
+            "wordMal": "ശബരിമല",
+            "relationEN": "Both are massive, incredibly significant Hindu pilgrimage centers in Kerala.",
+            "relationML": "കേരളത്തിലെ ഏറ്റവും വലിയ തീർത്ഥാടന കേന്ദ്രങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Bekal Fort",
+        "civWordMal": "ബേക്കൽ കോട്ട",
+        "imposters": [
+          {
+            "word": "Padmanabhapuram Palace",
+            "wordMal": "പത്മനാഭപുരം കൊട്ടാരം",
+            "relationEN": "Both are highly preserved, historically significant architectural monuments.",
+            "relationML": "ചരിത്രപ്രസിദ്ധമായ പഴയ കാല നിർമ്മിതികളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Padmanabhapuram Palace",
+        "civWordMal": "പത്മനാഭപുരം കൊട്ടാരം",
+        "imposters": [
+          {
+            "word": "Bekal Fort",
+            "wordMal": "ബേക്കൽ കോട്ട",
+            "relationEN": "Both are highly preserved, historically significant architectural monuments.",
+            "relationML": "ചരിത്രപ്രസിദ്ധമായ പഴയ കാല നിർമ്മിതികളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kottayam",
+        "civWordMal": "കോട്ടയം",
+        "imposters": [
+          {
+            "word": "Pathanamthitta",
+            "wordMal": "പത്തനംതിട്ട",
+            "relationEN": "Both are significant central-south districts known for rubber plantations and literacy.",
+            "relationML": "മധ്യകേരളത്തിലെ പ്രധാനപ്പെട്ട രണ്ട് ജില്ലകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Pathanamthitta",
+        "civWordMal": "പത്തനംതിട്ട",
+        "imposters": [
+          {
+            "word": "Kottayam",
+            "wordMal": "കോട്ടയം",
+            "relationEN": "Both are significant central-south districts known for rubber plantations and literacy.",
+            "relationML": "മധ്യകേരളത്തിലെ പ്രധാനപ്പെട്ട രണ്ട് ജില്ലകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Idukki",
+        "civWordMal": "ഇടുക്കി",
+        "imposters": [
+          {
+            "word": "Malappuram",
+            "wordMal": "മലപ്പുറം",
+            "relationEN": "Both are large districts known for their distinct geography and demographics.",
+            "relationML": "കേരളത്തിലെ വലിയ രണ്ട് ജില്ലകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Malappuram",
+        "civWordMal": "മലപ്പുറം",
+        "imposters": [
+          {
+            "word": "Idukki",
+            "wordMal": "ഇടുക്കി",
+            "relationEN": "Both are large districts known for their distinct geography and demographics.",
+            "relationML": "കേരളത്തിലെ വലിയ രണ്ട് ജില്ലകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Ernakulam",
+        "civWordMal": "എറണാകുളം",
+        "imposters": [
+          {
+            "word": "Kollam",
+            "wordMal": "കൊല്ലം",
+            "relationEN": "Both are major commercial and port cities in Kerala.",
+            "relationML": "കേരളത്തിലെ പ്രധാനപ്പെട്ട വാണിജ്യ നഗരങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kollam",
+        "civWordMal": "കൊല്ലം",
+        "imposters": [
+          {
+            "word": "Ernakulam",
+            "wordMal": "എറണാകുളം",
+            "relationEN": "Both are major commercial and port cities in Kerala.",
+            "relationML": "കേരളത്തിലെ പ്രധാനപ്പെട്ട വാണിജ്യ നഗരങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Ponmudi",
+        "civWordMal": "പൊന്മുടി",
+        "imposters": [
+          {
+            "word": "Vagamon",
+            "wordMal": "വാഗമൺ",
+            "relationEN": "Both are beautiful, scenic hill stations popular for weekend getaways.",
+            "relationML": "അവധിക്കാലം ആഘോഷിക്കാൻ പോകുന്ന പ്രശസ്തമായ ഹിൽ സ്റ്റേഷനുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Vagamon",
+        "civWordMal": "വാഗമൺ",
+        "imposters": [
+          {
+            "word": "Ponmudi",
+            "wordMal": "പൊന്മുടി",
+            "relationEN": "Both are beautiful, scenic hill stations popular for weekend getaways.",
+            "relationML": "അവധിക്കാലം ആഘോഷിക്കാൻ പോകുന്ന പ്രശസ്തമായ ഹിൽ സ്റ്റേഷനുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Edakkal Caves",
+        "civWordMal": "എടക്കൽ ഗുഹകൾ",
+        "imposters": [
+          {
+            "word": "Silent Valley",
+            "wordMal": "സൈലന്റ് വാലി",
+            "relationEN": "Both are highly protected, ecologically or historically sensitive nature sites.",
+            "relationML": "പ്രകൃതി സംരക്ഷണ പ്രാധാന്യമുള്ള സ്ഥലങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Silent Valley",
+        "civWordMal": "സൈലന്റ് വാലി",
+        "imposters": [
+          {
+            "word": "Edakkal Caves",
+            "wordMal": "എടക്കൽ ഗുഹകൾ",
+            "relationEN": "Both are highly protected, ecologically or historically sensitive nature sites.",
+            "relationML": "പ്രകൃതി സംരക്ഷണ പ്രാധാന്യമുള്ള സ്ഥലങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Marari Beach",
+        "civWordMal": "മാരാരി ബീച്ച്",
+        "imposters": [
+          {
+            "word": "Cherai Beach",
+            "wordMal": "ചെറായി ബീച്ച്",
+            "relationEN": "Both are beautiful, highly rated sandy beaches in central Kerala.",
+            "relationML": "വിനോദസഞ്ചാരികൾ ഇഷ്ടപ്പെടുന്ന പ്രശസ്തമായ ബീച്ചുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Cherai Beach",
+        "civWordMal": "ചെറായി ബീച്ച്",
+        "imposters": [
+          {
+            "word": "Marari Beach",
+            "wordMal": "മാരാരി ബീച്ച്",
+            "relationEN": "Both are beautiful, highly rated sandy beaches in central Kerala.",
+            "relationML": "വിനോദസഞ്ചാരികൾ ഇഷ്ടപ്പെടുന്ന പ്രശസ്തമായ ബീച്ചുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Fort Kochi",
+        "civWordMal": "ഫോർട്ട് കൊച്ചി",
+        "imposters": [
+          {
+            "word": "Mattancherry",
+            "wordMal": "മട്ടാഞ്ചേരി",
+            "relationEN": "Both are adjoining historic neighborhoods famous for their colonial heritage.",
+            "relationML": "ചരിത്രമുറങ്ങുന്ന കൊച്ചിയിലെ പ്രശസ്തമായ സ്ഥലങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Mattancherry",
+        "civWordMal": "മട്ടാഞ്ചേരി",
+        "imposters": [
+          {
+            "word": "Fort Kochi",
+            "wordMal": "ഫോർട്ട് കൊച്ചി",
+            "relationEN": "Both are adjoining historic neighborhoods famous for their colonial heritage.",
+            "relationML": "ചരിത്രമുറങ്ങുന്ന കൊച്ചിയിലെ പ്രശസ്തമായ സ്ഥലങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Muzhappilangad Beach",
+        "civWordMal": "മുഴപ്പിലങ്ങാട് ബീച്ച്",
+        "imposters": [
+          {
+            "word": "Payyambalam Beach",
+            "wordMal": "പയ്യാമ്പലം ബീച്ച്",
+            "relationEN": "Both are famous, highly visited beaches in the Kannur region.",
+            "relationML": "വടക്കൻ കേരളത്തിലെ പ്രശസ്തമായ ബീച്ചുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Payyambalam Beach",
+        "civWordMal": "പയ്യാമ്പലം ബീച്ച്",
+        "imposters": [
+          {
+            "word": "Muzhappilangad Beach",
+            "wordMal": "മുഴപ്പിലങ്ങാട് ബീച്ച്",
+            "relationEN": "Both are famous, highly visited beaches in the Kannur region.",
+            "relationML": "വടക്കൻ കേരളത്തിലെ പ്രശസ്തമായ ബീച്ചുകളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Sree Padmanabhaswamy Temple",
+        "civWordMal": "ശ്രീ പത്മനാഭസ്വാമി ക്ഷേത്രം",
+        "imposters": [
+          {
+            "word": "Vadakkunnathan Temple",
+            "wordMal": "വടക്കുന്നാഥ ക്ഷേത്രം",
+            "relationEN": "Both are ancient, architecturally grand, historically vital temples in Kerala.",
+            "relationML": "കേരളത്തിലെ വളരെ പ്രശസ്തമായ പുരാതന ക്ഷേത്രങ്ങളാണിവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Vadakkunnathan Temple",
+        "civWordMal": "വടക്കുന്നാഥ ക്ഷേത്രം",
+        "imposters": [
+          {
+            "word": "Sree Padmanabhaswamy Temple",
+            "wordMal": "ശ്രീ പത്മനാഭസ്വാമി ക്ഷേത്രം",
+            "relationEN": "Both are ancient, architecturally grand, historically vital temples in Kerala.",
+            "relationML": "കേരളത്തിലെ വളരെ പ്രശസ്തമായ പുരാതന ക്ഷേത്രങ്ങളാണിവ."
+          }
+        ]
+      }
     ]
   },
   {
     "id": "food",
     "name": "Kerala Food",
-    "icon": "🍛",
+    "icon": "🍲",
     "words": [
-      [
-        "Puttu",
-        "പുട്ട്",
-        "Steamed Breakfast Staple",
-        "ആവിയിൽ വേവിക്കുന്ന പ്രഭാതഭക്ഷണം"
-      ],
-      [
-        "Appam",
-        "അപ്പം",
-        "Traditional Morning Bread",
-        "രാവിലെ കഴിക്കുന്ന പലഹാരം"
-      ],
-      [
-        "Sadya",
-        "സദ്യ",
-        "Traditional Feast",
-        "വിശേഷ ദിവസത്തെ വലിയ ഭക്ഷണം"
-      ],
-      [
-        "Kappa",
-        "കപ്പ",
-        "Root Vegetable Dish",
-        "കിഴങ്ങ് വർഗ്ഗത്തിൽപ്പെട്ടത്"
-      ],
-      [
-        "Pazham Pori",
-        "പഴംപൊരി",
-        "Sweet Tea Accompaniment",
-        "ചായയ്ക്കൊപ്പമുള്ള മധുരം"
-      ],
-      [
-        "Idiyappam",
-        "ഇടിയപ്പം",
-        "Steamed Rice Preparation",
-        "അരിമാവ് കൊണ്ടുള്ള വിഭവം"
-      ],
-      [
-        "Dosa",
-        "ദോശ",
-        "Griddle Cooked Item",
-        "ചൂടോടെ ചുട്ടെടുക്കുന്നത്"
-      ],
-      [
-        "Sambar",
-        "സാമ്പാർ",
-        "Vegetable Gravy",
-        "പച്ചക്കറികൾ ചേർത്ത ഒഴിച്ചു കറി"
-      ],
-      [
-        "Avial",
-        "അവിയൽ",
-        "Mixed Vegetable Combination",
-        "പല പച്ചക്കറികൾ ചേർത്ത വിഭവം"
-      ],
-      [
-        "Thoran",
-        "തോരൻ",
-        "Grated Coconut Stir-fry",
-        "തേങ്ങ ചേർത്ത വറുത്തുപ്പേരി"
-      ],
-      [
-        "Olan",
-        "ഓലൻ",
-        "Coconut Milk Vegetable Stew",
-        "തേങ്ങാപ്പാൽ ചേർത്ത വിഭവം"
-      ],
-      [
-        "Kalan",
-        "കാളൻ",
-        "Yogurt Based Gravy",
-        "തൈര് ചേർത്ത കട്ടി കറി"
-      ],
-      [
-        "Erissery",
-        "എരിശ്ശേരി",
-        "Roasted Coconut Preparation",
-        "വറുത്ത തേങ്ങ ചേർത്ത കറി"
-      ],
-      [
-        "Inji Curry",
-        "ഇഞ്ചി കറി",
-        "Spicy Tangy Condiment",
-        "പുളിയും എരിവുമുള്ള വിഭവം"
-      ],
-      [
-        "Pappadam",
-        "പപ്പടം",
-        "Crunchy Meal Side",
-        "ഊണിനൊപ്പം പൊട്ടിച്ചു കഴിക്കുന്നത്"
-      ],
-      [
-        "Payasam",
-        "പായസം",
-        "Sweet Liquid Dessert",
-        "വിശേഷ ദിവസത്തെ മധുര വിഭവം"
-      ],
-      [
-        "Beef Fry",
-        "ബീഫ് ഫ്രൈ",
-        "Spiced Roast Meat",
-        "മസാല ചേർത്ത മാംസ വിഭവം"
-      ],
-      [
-        "Meen Curry",
-        "മീൻ കറി",
-        "Tangy Seafood Gravy",
-        "എരിവുള്ള കടൽ വിഭവം"
-      ],
-      [
-        "Porotta",
-        "പൊറോട്ട",
-        "Layered Flatbread",
-        "അടുക്കുകളുള്ള പ്രശസ്ത വിഭവം"
-      ],
-      [
-        "Malabar Biriyani",
-        "മലബാർ ബിരിയാണി",
-        "Aromatic Spiced Rice",
-        "സുഗന്ധമുള്ള റൈസ് വിഭവം"
-      ],
-      [
-        "Pathiri",
-        "പത്തിരി",
-        "Soft Rice Flatbread",
-        "അരിമാവ് കൊണ്ടുള്ള പലഹാരം"
-      ],
-      [
-        "Karimeen Pollichathu",
-        "കരിമീൻ പൊള്ളിച്ചത്",
-        "Banana Leaf Wrapped Seafood",
-        "ഇലയിൽ പൊതിഞ്ഞു വേവിച്ച വിഭവം"
-      ],
-      [
-        "Chicken Stew",
-        "ചിക്കൻ സ്റ്റ്യൂ",
-        "Mild Coconut Gravy",
-        "തേങ്ങാപ്പാൽ ചേർത്ത കറി"
-      ],
-      [
-        "Kothu Parotta",
-        "കൊത്ത് പൊറോട്ട",
-        "Street Food Mix",
-        "തട്ടുകടയിലെ പ്രശസ്ത വിഭവം"
-      ],
-      [
-        "Palappam",
-        "പാലപ്പം",
-        "Lacy Breakfast Item",
-        "പ്രഭാതത്തിലെ പ്രധാന വിഭവം"
-      ],
-      [
-        "Thalassery Biriyani",
-        "തലശ്ശേരി ബിരിയാണി",
-        "Special Rice Delicacy",
-        "വടക്കൻ കേരളത്തിലെ വിശേഷ വിഭവം"
-      ],
-      [
-        "Mutton Chaaps",
-        "മട്ടൺ ചാപ്സ്",
-        "Pepper Gravy Roast",
-        "കുരുമുളക് ചേർത്ത വിഭവം"
-      ],
-      [
-        "Kappa Biriyani",
-        "കപ്പ ബിരിയാണി",
-        "Tuber Meat Blend",
-        "കിഴങ്ങും ഇറച്ചിയും ചേർത്തത്"
-      ],
-      [
-        "Neyyappam Special",
-        "നെയ്യപ്പം",
-        "Fried Rice Batter Cake",
-        "വറുത്തെടുത്ത അരിമാവ് പലഹാരം"
-      ],
-      [
-        "Kallappam",
-        "കള്ളപ്പം",
-        "Fermented Rice Pancake",
-        "പുളിപ്പിച്ച അരിപ്പലഹാരം"
-      ],
-      [
-        "Chemeen Curry",
-        "ചെമ്മീൻ കരി",
-        "Kokum Seafood Stew",
-        "കുടംപുളി ചേർത്ത കറി"
-      ],
-      [
-        "Parippu Curry",
-        "പരിപ്പ് കറി",
-        "Yellow Lentil Mash",
-        "പരിപ്പ് വേവിച്ചത്"
-      ],
-      [
-        "Meen Peera",
-        "മീൻ പീര",
-        "Grated Coconut Seafood",
-        "തേങ്ങ അരച്ച വിഭവം"
-      ],
-      [
-        "Fish Moolie",
-        "ഫിഷ് മോളി",
-        "Coconut Milk Fish Stew",
-        "തേങ്ങാപ്പാലിലുള്ള മീൻ കറി"
-      ],
-      [
-        "Chicken 65",
-        "ചിക്കൻ 65",
-        "Deep Fried Spicy Bite",
-        "വറുത്തെടുത്ത മാംസ വിഭവം"
-      ],
-      [
-        "Chammanthi Podi",
-        "ചമ്മന്തിപ്പൊടി",
-        "Dry Ground Coconut Mix",
-        "ഉണക്കത്തേങ്ങ അരച്ചത്"
-      ]
+      {
+        "civWord": "Chicken Stew",
+        "civWordMal": "ചിക്കൻ സ്റ്റ്യൂ",
+        "imposters": [
+          {
+            "word": "Mutton Chaaps",
+            "wordMal": "മട്ടൺ ചാപ്സ്",
+            "relationEN": "They are both iconic Kerala meat dishes with rich gravies. While Stew is mild and coconut-based, Chaaps is spicy and pepper-based.",
+            "relationML": "ഇവ രണ്ടും കേരളത്തിലെ പ്രശസ്തമായ ഇറച്ചി വിഭവങ്ങളാണ്. സ്റ്റ്യൂ തേങ്ങാപ്പാൽ ചേർത്തതാണെങ്കിൽ, ചാപ്സ് എരിവുള്ളതാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Mutton Chaaps",
+        "civWordMal": "മട്ടൺ ചാപ്സ്",
+        "imposters": [
+          {
+            "word": "Chicken Stew",
+            "wordMal": "ചിക്കൻ സ്റ്റ്യൂ",
+            "relationEN": "They are both iconic Kerala meat dishes with rich gravies. While Stew is mild and coconut-based, Chaaps is spicy and pepper-based.",
+            "relationML": "ഇവ രണ്ടും കേരളത്തിലെ പ്രശസ്തമായ ഇറച്ചി വിഭവങ്ങളാണ്. സ്റ്റ്യൂ തേങ്ങാപ്പാൽ ചേർത്തതാണെങ്കിൽ, ചാപ്സ് എരിവുള്ളതാണ്."
+          }
+        ]
+      },
+      {
+        "civWord": "Puttu",
+        "civWordMal": "പുട്ട്",
+        "imposters": [
+          {
+            "word": "Appam",
+            "wordMal": "അപ്പം",
+            "relationEN": "Both are quintessential Kerala breakfast staples made from rice flour.",
+            "relationML": "കേരളത്തിലെ പ്രശസ്തമായ പ്രഭാതഭക്ഷണങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Appam",
+        "civWordMal": "അപ്പം",
+        "imposters": [
+          {
+            "word": "Puttu",
+            "wordMal": "പുട്ട്",
+            "relationEN": "Both are quintessential Kerala breakfast staples made from rice flour.",
+            "relationML": "കേരളത്തിലെ പ്രശസ്തമായ പ്രഭാതഭക്ഷണങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Sadya",
+        "civWordMal": "സദ്യ",
+        "imposters": [
+          {
+            "word": "Malabar Biriyani",
+            "wordMal": "മലബാർ ബിരിയാണി",
+            "relationEN": "Both are grand, celebratory feast meals in Kerala culture.",
+            "relationML": "കേരളത്തിലെ ആഘോഷവേളകളിലെ പ്രധാന ഭക്ഷണങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Malabar Biriyani",
+        "civWordMal": "മലബാർ ബിരിയാണി",
+        "imposters": [
+          {
+            "word": "Sadya",
+            "wordMal": "സദ്യ",
+            "relationEN": "Both are grand, celebratory feast meals in Kerala culture.",
+            "relationML": "കേരളത്തിലെ ആഘോഷവേളകളിലെ പ്രധാന ഭക്ഷണങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Kappa",
+        "civWordMal": "കപ്പ",
+        "imposters": [
+          {
+            "word": "Kappa Biriyani",
+            "wordMal": "കപ്പ ബിരിയാണി",
+            "relationEN": "Both feature tapioca as the star ingredient, deeply rooted in Kerala's culinary identity.",
+            "relationML": "കേരളത്തിന്റെ തനത് വിഭവമായ കപ്പയാണ് ഇവ രണ്ടിലെയും പ്രധാന ചേരുവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Kappa Biriyani",
+        "civWordMal": "കപ്പ ബിരിയാണി",
+        "imposters": [
+          {
+            "word": "Kappa",
+            "wordMal": "കപ്പ",
+            "relationEN": "Both feature tapioca as the star ingredient, deeply rooted in Kerala's culinary identity.",
+            "relationML": "കേരളത്തിന്റെ തനത് വിഭവമായ കപ്പയാണ് ഇവ രണ്ടിലെയും പ്രധാന ചേരുവ."
+          }
+        ]
+      },
+      {
+        "civWord": "Idiyappam",
+        "civWordMal": "ഇടിയപ്പം",
+        "imposters": [
+          {
+            "word": "Pathiri",
+            "wordMal": "പത്തിരി",
+            "relationEN": "Both are delicate, traditional flatbreads made from fine rice flour.",
+            "relationML": "അരിമാവ് കൊണ്ടുണ്ടാക്കുന്ന മൃദുവായ പലഹാരങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Pathiri",
+        "civWordMal": "പത്തിരി",
+        "imposters": [
+          {
+            "word": "Idiyappam",
+            "wordMal": "ഇടിയപ്പം",
+            "relationEN": "Both are delicate, traditional flatbreads made from fine rice flour.",
+            "relationML": "അരിമാവ് കൊണ്ടുണ്ടാക്കുന്ന മൃദുവായ പലഹാരങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Dosa",
+        "civWordMal": "ദോശ",
+        "imposters": [
+          {
+            "word": "Palappam",
+            "wordMal": "പാലപ്പം",
+            "relationEN": "Both are popular, round, fermented batter breakfast items.",
+            "relationML": "മാവ് പുളിപ്പിച്ചുണ്ടാക്കുന്ന പ്രഭാതഭക്ഷണങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Palappam",
+        "civWordMal": "പാലപ്പം",
+        "imposters": [
+          {
+            "word": "Dosa",
+            "wordMal": "ദോശ",
+            "relationEN": "Both are popular, round, fermented batter breakfast items.",
+            "relationML": "മാവ് പുളിപ്പിച്ചുണ്ടാക്കുന്ന പ്രഭാതഭക്ഷണങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Sambar",
+        "civWordMal": "സാമ്പാർ",
+        "imposters": [
+          {
+            "word": "Avial",
+            "wordMal": "അവിയൽ",
+            "relationEN": "Both are essential, vegetable-rich curries served in a traditional Sadya.",
+            "relationML": "സദ്യയിലെ പ്രധാനപ്പെട്ട പച്ചക്കറി വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Avial",
+        "civWordMal": "അവിയൽ",
+        "imposters": [
+          {
+            "word": "Sambar",
+            "wordMal": "സാമ്പാർ",
+            "relationEN": "Both are essential, vegetable-rich curries served in a traditional Sadya.",
+            "relationML": "സദ്യയിലെ പ്രധാനപ്പെട്ട പച്ചക്കറി വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Thoran",
+        "civWordMal": "തോരൻ",
+        "imposters": [
+          {
+            "word": "Olan",
+            "wordMal": "ഓലൻ",
+            "relationEN": "Both are mild, coconut-based side dishes essential to a Kerala feast.",
+            "relationML": "തേങ്ങ ചേർത്തുള്ള നാടൻ വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Olan",
+        "civWordMal": "ഓലൻ",
+        "imposters": [
+          {
+            "word": "Thoran",
+            "wordMal": "തോരൻ",
+            "relationEN": "Both are mild, coconut-based side dishes essential to a Kerala feast.",
+            "relationML": "തേങ്ങ ചേർത്തുള്ള നാടൻ വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Kalan",
+        "civWordMal": "കാളൻ",
+        "imposters": [
+          {
+            "word": "Erissery",
+            "wordMal": "എരിശ്ശേരി",
+            "relationEN": "Both are thick, traditional Sadya curries featuring distinct traditional flavors.",
+            "relationML": "സദ്യയിലെ പ്രധാന കറികളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Erissery",
+        "civWordMal": "എരിശ്ശേരി",
+        "imposters": [
+          {
+            "word": "Kalan",
+            "wordMal": "കാളൻ",
+            "relationEN": "Both are thick, traditional Sadya curries featuring distinct traditional flavors.",
+            "relationML": "സദ്യയിലെ പ്രധാന കറികളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Meen Curry",
+        "civWordMal": "മീൻ കറി",
+        "imposters": [
+          {
+            "word": "Karimeen Pollichathu",
+            "wordMal": "കരിമീൻ പൊള്ളിച്ചത്",
+            "relationEN": "Both are beloved traditional seafood delicacies in Kerala.",
+            "relationML": "കേരളത്തിലെ പ്രശസ്തമായ മീൻ വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Karimeen Pollichathu",
+        "civWordMal": "കരിമീൻ പൊള്ളിച്ചത്",
+        "imposters": [
+          {
+            "word": "Meen Curry",
+            "wordMal": "മീൻ കറി",
+            "relationEN": "Both are beloved traditional seafood delicacies in Kerala.",
+            "relationML": "കേരളത്തിലെ പ്രശസ്തമായ മീൻ വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Porotta",
+        "civWordMal": "പൊറോട്ട",
+        "imposters": [
+          {
+            "word": "Kothu Parotta",
+            "wordMal": "കൊത്ത് പൊറോട്ട",
+            "relationEN": "Both are incredibly popular street food items made from layered flatbread.",
+            "relationML": "തട്ടുകടകളിലെ പ്രശസ്തമായ വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Kothu Parotta",
+        "civWordMal": "കൊത്ത് പൊറോട്ട",
+        "imposters": [
+          {
+            "word": "Porotta",
+            "wordMal": "പൊറോട്ട",
+            "relationEN": "Both are incredibly popular street food items made from layered flatbread.",
+            "relationML": "തട്ടുകടകളിലെ പ്രശസ്തമായ വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Beef Fry",
+        "civWordMal": "ബീഫ് ഫ്രൈ",
+        "imposters": [
+          {
+            "word": "Chicken 65",
+            "wordMal": "ചിക്കൻ 65",
+            "relationEN": "Both are highly popular, spicy, dry-roasted meat appetizers.",
+            "relationML": "വറുത്തെടുത്ത എരിവുള്ള മാംസ വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Chicken 65",
+        "civWordMal": "ചിക്കൻ 65",
+        "imposters": [
+          {
+            "word": "Beef Fry",
+            "wordMal": "ബീഫ് ഫ്രൈ",
+            "relationEN": "Both are highly popular, spicy, dry-roasted meat appetizers.",
+            "relationML": "വറുത്തെടുത്ത എരിവുള്ള മാംസ വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Pazham Pori",
+        "civWordMal": "പഴം പൊരി",
+        "imposters": [
+          {
+            "word": "Neyyappam Special",
+            "wordMal": "നെയ്യപ്പം",
+            "relationEN": "Both are classic, sweet, deep-fried Kerala snacks usually had with tea.",
+            "relationML": "ചായയ്‌ക്കൊപ്പം കഴിക്കുന്ന മധുരമുള്ള പലഹാരങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Neyyappam Special",
+        "civWordMal": "നെയ്യപ്പം",
+        "imposters": [
+          {
+            "word": "Pazham Pori",
+            "wordMal": "പഴം പൊരി",
+            "relationEN": "Both are classic, sweet, deep-fried Kerala snacks usually had with tea.",
+            "relationML": "ചായയ്‌ക്കൊപ്പം കഴിക്കുന്ന മധുരമുള്ള പലഹാരങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Payasam",
+        "civWordMal": "പായസം",
+        "imposters": [
+          {
+            "word": "Chammanthi Podi",
+            "wordMal": "ചമ്മന്തിപ്പൊടി",
+            "relationEN": "Both are traditional items, though one is a sweet dessert and the other is a dry savory mix.",
+            "relationML": "കേരളത്തിന്റെ തനതായ രുചികളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Chammanthi Podi",
+        "civWordMal": "ചമ്മന്തിപ്പൊടി",
+        "imposters": [
+          {
+            "word": "Payasam",
+            "wordMal": "പായസം",
+            "relationEN": "Both are traditional items, though one is a sweet dessert and the other is a dry savory mix.",
+            "relationML": "കേരളത്തിന്റെ തനതായ രുചികളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Chemeen Curry",
+        "civWordMal": "ചെമ്മീൻ കരി",
+        "imposters": [
+          {
+            "word": "Fish Moolie",
+            "wordMal": "ഫിഷ് മോളി",
+            "relationEN": "Both are rich, coconut-based seafood gravies popular in coastal Kerala.",
+            "relationML": "തേങ്ങാപ്പാൽ ചേർത്തുള്ള പ്രശസ്തമായ കടൽ വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Fish Moolie",
+        "civWordMal": "ഫിഷ് മോളി",
+        "imposters": [
+          {
+            "word": "Chemeen Curry",
+            "wordMal": "ചെമ്മീൻ കരി",
+            "relationEN": "Both are rich, coconut-based seafood gravies popular in coastal Kerala.",
+            "relationML": "തേങ്ങാപ്പാൽ ചേർത്തുള്ള പ്രശസ്തമായ കടൽ വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Parippu Curry",
+        "civWordMal": "പരിപ്പ് കറി",
+        "imposters": [
+          {
+            "word": "Inji Curry",
+            "wordMal": "ഇഞ്ചി കറി",
+            "relationEN": "Both are essential, flavor-balancing components of a traditional Sadya.",
+            "relationML": "സദ്യയിലെ ഒഴിച്ചുകൂടാനാവാത്ത കറികളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Inji Curry",
+        "civWordMal": "ഇഞ്ചി കറി",
+        "imposters": [
+          {
+            "word": "Parippu Curry",
+            "wordMal": "പരിപ്പ് കറി",
+            "relationEN": "Both are essential, flavor-balancing components of a traditional Sadya.",
+            "relationML": "സദ്യയിലെ ഒഴിച്ചുകൂടാനാവാത്ത കറികളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Thalassery Biriyani",
+        "civWordMal": "തലശ്ശേരി ബിരിയാണി",
+        "imposters": [
+          {
+            "word": "Kallappam",
+            "wordMal": "കള്ളപ്പം",
+            "relationEN": "Both are traditional dishes with distinct regional cooking methods.",
+            "relationML": "പ്രത്യേക രീതിയിൽ തയ്യാറാക്കുന്ന നാടൻ വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Kallappam",
+        "civWordMal": "കള്ളപ്പം",
+        "imposters": [
+          {
+            "word": "Thalassery Biriyani",
+            "wordMal": "തലശ്ശേരി ബിരിയാണി",
+            "relationEN": "Both are traditional dishes with distinct regional cooking methods.",
+            "relationML": "പ്രത്യേക രീതിയിൽ തയ്യാറാക്കുന്ന നാടൻ വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Pappadam",
+        "civWordMal": "പപ്പടം",
+        "imposters": [
+          {
+            "word": "Meen Peera",
+            "wordMal": "മീൻ പീര",
+            "relationEN": "Both are essential side items that add crunch or distinct texture to a Kerala meal.",
+            "relationML": "ഊണിനൊപ്പം കഴിക്കുന്ന പ്രധാന വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      },
+      {
+        "civWord": "Meen Peera",
+        "civWordMal": "മീൻ പീര",
+        "imposters": [
+          {
+            "word": "Pappadam",
+            "wordMal": "പപ്പടം",
+            "relationEN": "Both are essential side items that add crunch or distinct texture to a Kerala meal.",
+            "relationML": "ഊണിനൊപ്പം കഴിക്കുന്ന പ്രധാന വിഭവങ്ങളാണ് ഇവ രണ്ടും."
+          }
+        ]
+      }
     ]
   },
   {
@@ -8633,6 +9927,10 @@ const intlPacks = [
   }
 ];
 
-if (typeof window !== 'undefined') window.intlPacks = intlPacks;
-if (typeof window !== 'undefined') window.packs = packs;
-if (typeof module !== 'undefined' && module.exports) module.exports = { packs, intlPacks };
+if (typeof window !== 'undefined') {
+  window.packs = packs;
+  window.intlPacks = intlPacks;
+}
+if (typeof module !== 'undefined') {
+  module.exports = { packs, intlPacks };
+}
