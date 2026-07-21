@@ -1,4 +1,4 @@
-const packs = [
+var packs = [
   {
     "id": "funny",
     "name": "Funny Malayalam",
@@ -4419,7 +4419,7 @@ const packs = [
   }
 ];
 
-const intlPacks = [
+var intlPacks = [
   {
     "id": "intl_superheroes",
     "name": "Superheroes",
